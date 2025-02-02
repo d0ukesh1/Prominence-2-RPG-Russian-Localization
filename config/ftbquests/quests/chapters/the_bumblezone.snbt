@@ -1,0 +1,948 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_bumblezone"
+	group: "3E586F2160161EEA"
+	icon: "minecraft:bee_nest"
+	id: "59490AFCD9D1F93B"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:bee_nest"
+			id: "4E9477A4D0A322D5"
+			rewards: [{
+				id: "33CEE00F7B27A684"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Приветствую, любопытный приключенец! Как я понимаю я должен спросить тебя как ты попал сюда, но это не важно, ты увидишь мир пчёл перед тем как увидишь себя, исследуй мир и узри, какой Пчелиной культуре ты можешь научиться."
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: "minecraft:bee_nest"
+				id: "094A0B7C390130EF"
+				title: "Войдите в Пчелиное Гнездо"
+				type: "dimension"
+			}]
+			title: "Мир Пчёл и Мёда"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "3E195E8F90C499C7"
+			rewards: [{
+				id: "41D06D62CC1ADED4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Что с воздухом в этом месте? Здесь явно будет нехорошо тем кто имеет аллергии, ведь это место полно пыльцы!"
+			tasks: [
+				{
+					count: 16L
+					id: "5FB4790B5A75A619"
+					item: { Count: 16b, id: "the_bumblezone:pollen_puff" }
+					type: "item"
+				}
+				{
+					id: "2E5575CFFCE45B18"
+					item: "the_bumblezone:honey_bucket"
+					type: "item"
+				}
+				{
+					id: "542F425043E03CD5"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+				{
+					id: "35C784BBDFFE6055"
+					item: "the_bumblezone:honeycomb_brood_block"
+					type: "item"
+				}
+			]
+			title: "Воздушное Пыльцевания Улья"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "460A03C99A92EEC3"
+			rewards: [
+				{
+					id: "448BA6E8977A39EA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2E6EAED412766865"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+				{
+					id: "7745D7DA6B275327"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:flower_headwear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Окей, пчелы не сделали никакого настоящего джема, но хотя бы есть пара музыкальных дисков которые можно послушать."
+			tasks: [
+				{
+					id: "396393F172D13E1E"
+					item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+					type: "item"
+				}
+				{
+					id: "448232F200BD55B9"
+					item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+					type: "item"
+				}
+				{
+					id: "3C818F63CCF6A572"
+					item: "the_bumblezone:music_disc_la_bee_da_loca"
+					type: "item"
+				}
+				{
+					id: "2191708BFD890424"
+					item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
+					type: "item"
+				}
+				{
+					id: "033A2F7ADDD1FDB4"
+					item: "the_bumblezone:music_disc_bee_ware_of_the_temple"
+					type: "item"
+				}
+				{
+					id: "57C6689D0FCBF1E4"
+					item: "the_bumblezone:music_disc_knowing_renren"
+					type: "item"
+				}
+				{
+					id: "06B0F17D87E2E4E7"
+					item: "the_bumblezone:music_disc_radiance_renren"
+					type: "item"
+				}
+				{
+					id: "5FA8513DC9F76FC5"
+					item: "the_bumblezone:music_disc_life_renren"
+					type: "item"
+				}
+			]
+			title: "Пчелиные Джемы"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B067E92666610FF"]
+			id: "1ACFAAF917E5016A"
+			rewards: [
+				{
+					id: "3E977BE907EFAC07"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 10
+					id: "7DC3F1D7635BDB43"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+			]
+			subtitle: "Как пчёлы сделали оружие? Из их собственных жал? Из их собственного меда?"
+			tasks: [
+				{
+					id: "119C263D70857316"
+					item: "the_bumblezone:bee_stinger"
+					type: "item"
+				}
+				{
+					id: "4BCAF18A0B87E5F7"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:stinger_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49FE029CAD2D437C"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:crystal_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73D16FF74DB5B2C9"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:honey_crystal_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Пчелиные Оружия"
+			x: 3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "214A1041439A5560"
+			rewards: [{
+				id: "59DCBB128700B922"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Почему существует компас сделанный из меда? Может он направляет на что-то важное... Почему оно клеится к моей руке?"
+			tasks: [{
+				id: "314E0B959B386388"
+				item: {
+					Count: 1b
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "1B067E92666610FF"
+			rewards: [{
+				id: "5526DD379D3336E1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Лабиринт? Выглядит очень небезопасно, я наверное не должен ходить туда без защиты."
+			tasks: [
+				{
+					id: "72B19162E39280E2"
+					item: "the_bumblezone:honey_crystal_shards"
+					type: "item"
+				}
+				{
+					id: "5B59CBA3443A9183"
+					item: "the_bumblezone:honey_cocoon"
+					type: "item"
+				}
+				{
+					id: "636514D255F669A2"
+					item: "the_bumblezone:honey_crystal"
+					type: "item"
+				}
+				{
+					id: "0D57ED6E562A93E9"
+					item: "the_bumblezone:carvable_wax"
+					type: "item"
+				}
+				{
+					icon: "the_bumblezone:honey_crystal_shards"
+					id: "1D3FC21D04DF05B2"
+					structure: "the_bumblezone:cell_maze"
+					title: "Найди Изолирующий Лабиринт"
+					type: "structure"
+				}
+			]
+			title: "Изолирующий Лабиринт?"
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "49EA7F3135E2CC74"
+			rewards: [{
+				id: "7BCD6AE0E5B198D5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_calming"
+					tag: {
+						abilityUseRemaining: 600
+					}
+				}
+				id: "026654F5006802CE"
+				structure: "the_bumblezone:sempiternal_sanctum_blue"
+				title: "Найди Синее Вечное Святилище"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "54AAA9079FF8E65B"
+			rewards: [{
+				id: "45688EE3468BC71A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_life"
+					tag: {
+						abilityUseRemaining: 1000
+					}
+				}
+				id: "70CF21FB5F2B81C3"
+				structure: "the_bumblezone:sempiternal_sanctum_green"
+				title: "Найди Зелёное Вечное Святилище"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "7B8261F4787E6EA7"
+			rewards: [{
+				id: "7485D599A5869B88"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_knowing"
+					tag: {
+						abilityUseRemaining: 1200
+					}
+				}
+				id: "21800782215F1EBF"
+				structure: "the_bumblezone:sempiternal_sanctum_purple"
+				title: "Найди Фиолетовое Вечное Святилище"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "45FE520AC009290F"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_raging"
+					tag: {
+						abilityUseRemaining: 28
+					}
+				}
+				id: "1069ECE91757590C"
+				structure: "#the_bumblezone:honey_compass/sempiternal_sanctums/red"
+				title: "Найди Красное Вечное Святилище"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "42C94ED483CD4AB8"
+			rewards: [{
+				id: "61735069A1BDB5C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_continuity"
+					tag: {
+						abilityUseRemaining: 1
+					}
+				}
+				id: "24ADA1FE7305C9C6"
+				structure: "the_bumblezone:sempiternal_sanctum_white"
+				title: "Найди Белое Вечное Святилище"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "6BADAB3BD0E50555"
+			rewards: [{
+				id: "3B59AE8D040B8549"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_radiance"
+					tag: {
+						abilityUseRemaining: 4800
+					}
+				}
+				id: "63BEA72E5A7DCF1F"
+				structure: "the_bumblezone:sempiternal_sanctum_yellow"
+				title: "Найди Жёлтое Вечное Святилище"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "7B767822A0B3B19A"
+			rewards: [{
+				id: "30E75C4EF6D6997B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Много пчелиных воинов пало и это копье посвящено падшим воинам, оно имеет жало одного из самых значимых пчелиных воинов, когда-либо живших."
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:stinger_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60EBEED85691EF2F"
+				structure: "the_bumblezone:stinger_spear_shrine"
+				title: "Найди копье-жало"
+				type: "structure"
+			}]
+			title: "Копье-жало"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "60E941719D226AD0"
+			rewards: [{
+				id: "507B630BDE2E1FDB"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Пчёлы, у которых есть метро... Выглядит немного не из этой реальности, учитывая насколько современна эта технология, но по крайней мере путешествовать это весело."
+			tasks: [{
+				icon: "the_bumblezone:windy_air"
+				id: "64FC28F523C427D2"
+				structure: "the_bumblezone:subway"
+				title: "Найди Метро"
+				type: "structure"
+			}]
+			title: "Метрополитен"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B067E92666610FF"]
+			id: "2F9D5C546F713DDC"
+			rewards: [{
+				id: "190D852CDF497C71"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Знакомьтесь с Её Величеством, Королевой Пчёл. Она будет беспристрастна, торгуясь с вами предметами и может быть даже даст вам задачи, достойные завершения."
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				id: "2118C4EF58105BEB"
+				structure: "the_bumblezone:throne_pillar"
+				title: "Найдите Трон"
+				type: "structure"
+			}]
+			title: "Трон Королевы Пчёл"
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2F9D5C546F713DDC"]
+			id: "0F8FD241817376AE"
+			rewards: [
+				{
+					id: "42AB5752837026CF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3EC68765E4BC9613"
+					item: "the_bumblezone:bee_soup"
+					type: "item"
+				}
+				{
+					id: "1D62A6277DF11F3E"
+					item: "the_bumblezone:royal_jelly_bottle"
+					type: "item"
+				}
+				{
+					id: "7F1D592625D7C214"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Поздравляю. Ты заполучил милость Королевы Пчёл! Теперь ты один из её рода и пчёлы больше не будут атаковать тебя, но все ещё есть что поисследовать."
+			tasks: [{
+				id: "1885038F0C08454B"
+				item: "the_bumblezone:essence_of_the_bees"
+				type: "item"
+			}]
+			title: "Один из Нас! Один из Нас!"
+			x: -0.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["1B067E92666610FF"]
+			id: "394A179160EB4AE8"
+			rewards: [
+				{
+					id: "6D08D28EFD2D4982"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 10
+					id: "4F7A8CFF28114CF1"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+			]
+			subtitle: "Какой величественный набор брони носится пчелиными воинами. Хоть броня не очень мощная, она выглядит очень хорошо."
+			tasks: [
+				{
+					id: "27A36C84442BD4A7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/helmets"
+						}
+					}
+					title: "Пчелиный Шлем"
+					type: "item"
+				}
+				{
+					id: "1E4B0AAE235A44EB"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/chestplates"
+						}
+					}
+					title: "Пчелиный Нагрудник"
+					type: "item"
+				}
+				{
+					id: "7A026460FAE4A947"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/leggings"
+						}
+					}
+					title: "Пчелиные Поножи"
+					type: "item"
+				}
+				{
+					id: "7474B92AA308F8FD"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/boots"
+						}
+					}
+					title: "Пчелиные Ботинки"
+					type: "item"
+				}
+			]
+			title: "Пчелиная Броня"
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "152E438018A29730"
+			subtitle: "Ручей из пыльцы? Я не уверен в предназначении такого места, но здесь есть много пыльцы и сахарной воды."
+			tasks: [{
+				icon: "the_bumblezone:sugar_water_bucket"
+				id: "39BD856AE9E09B33"
+				structure: "the_bumblezone:pollinated_stream"
+				title: "Найдите Опыленный Поток"
+				type: "structure"
+			}]
+			title: "Опыленный Поток"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "106F26F32315FB56"
+			rewards: [{
+				id: "5E8C00B5375AF75C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Мне кажется что у пчёл есть свой способ жизни в роскоши, отеле, основанном на меде! Интересно сколько стоит провести ночь внутри."
+			tasks: [{
+				icon: "the_bumblezone:royal_jelly_block"
+				id: "06A852BC383BFB22"
+				structure: "the_bumblezone:honitel"
+				title: "Найдите Медоотель"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "2F56A01E1713C492"
+			rewards: [{
+				id: "02FCC90814275935"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Очень любопытно, есть житель в улье, выращивающий медовых слизней? Мне интересно как они оказались здесь. Может быть они подружились с пчёлами."
+			tasks: [{
+				icon: "minecraft:slime_ball"
+				id: "49280FF78B9CAD65"
+				structure: "the_bumblezone:honey_slime_ranch"
+				title: "Найдите Ранчо Слаймов"
+				type: "structure"
+			}]
+			title: "Ранчо Слаймов"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "3E267F949FEA4C9C"
+			rewards: [{
+				id: "3891B36CE3C3B094"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Это выходит за границы, откуда там пчёлы пираты? Что они вообще пытаются украсть?"
+			tasks: [{
+				icon: "minecraft:yellow_banner"
+				id: "521C68398D00E371"
+				structure: "the_bumblezone:pirate_ship"
+				title: "Найдите Пиратский Корабль"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "3D3C60805844101B"
+			rewards: [{
+				id: "0D4E2DCB1F6642DC"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Такой большой цветок в улье! Он может быть нормального или небольшого размера в верхнем мире, но я удивляюсь, как он стал таким большим."
+			tasks: [{
+				icon: "the_bumblezone:honey_crystal"
+				id: "40377F875E7C6A21"
+				structure: "the_bumblezone:overgrown_flower"
+				title: "Найдите Переросший Цветок"
+				type: "structure"
+			}]
+			title: "Переросший Цветок"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "59ABBBAC6DBDB649"
+			rewards: [{
+				id: "165D98865A29684E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Может быть именно так пчёлы были впервые открыты, и принесены в настоящее, замороженными во льду как люди."
+			tasks: [{
+				icon: "minecraft:blue_ice"
+				id: "3F2FE2E19E44F4F1"
+				structure: "the_bumblezone:ice_monolith"
+				title: "Найди Ледяной Монолит"
+				type: "structure"
+			}]
+			title: "Ледяной Монолит"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "6671FBBE199FF79B"
+			rewards: [{
+				id: "6795911945BD9C29"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Зачем пчёлам нужен курс паркура если они могут летать? Что ж, по крайней мере мы можем попытаться взобраться вверх чтобы найти что-нибудь."
+			tasks: [{
+				icon: "the_bumblezone:super_candle_red"
+				id: "2A1BC2AB647871D2"
+				structure: "the_bumblezone:candle_parkour"
+				title: "Найдите Паркур при Свечах"
+				type: "structure"
+			}]
+			title: "Паркур при Свечах"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			description: [
+				"&c(!) Необходим уровень 65 для использования!"
+				""
+				"&7Цветок можно разместить на вершине Сверкающих Медовых Кристаллов. С его помощью вы можете предлагать предметы, чтобы заставить цветок расти. По мере роста вы сможете выбирать определенные зачарования для помещения в книгу."
+			]
+			id: "1712E7D12BFC9F90"
+			rewards: [{
+				id: "5561A8AFBDDD31A5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "Королева Пчёл должна была ухаживать за такими садами, так как там есть цветок дарующий, силы зачарования."
+			tasks: [
+				{
+					icon: "the_bumblezone:crystalline_flower"
+					id: "00347893AE03252D"
+					structure: "the_bumblezone:hanging_garden"
+					title: "Найдите Свисающие Сады"
+					type: "structure"
+				}
+				{
+					id: "346EDE41A61A502B"
+					item: "the_bumblezone:glistering_honey_crystal"
+					type: "item"
+				}
+				{
+					id: "220700F6746286E7"
+					item: "the_bumblezone:crystalline_flower"
+					type: "item"
+				}
+			]
+			title: "Свисающие Сады"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "the_bumblezone:bee_queen_spawn_egg"
+			id: "4E6687341EFF200B"
+			rewards: [{
+				id: "1DDFCCF75BEC40EC"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Кто же знал что у пчёл есть дома внутри улья? Вообще, немного странно, что дом выполнен в форме пчелы. Я надеюсь мы не вторгаемся в их пространства."
+			tasks: [{
+				id: "56EA7542F4676A4B"
+				structure: "the_bumblezone:bee_house"
+				title: "Найди Пчелиный Дом"
+				type: "structure"
+			}]
+			title: "Пчелиный Дом?!"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "the_bumblezone:ancient_wax_bricks"
+			id: "7568E66D2457DA53"
+			rewards: [{
+				id: "3236855D77CD66B3"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Судя по внешности, в прошлом пчёлы летали вокруг этих колец, но теперь они являются просто древней реликвией прошлого в улье."
+			tasks: [{
+				id: "41597F4CBF0C7E52"
+				structure: "the_bumblezone:ancient_hoops"
+				title: "Найдите Древние Кольца"
+				type: "structure"
+			}]
+			title: "Древние Кольца"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "41F8F8AC81CF1B18"
+			rewards: [{
+				id: "519A97ADE9B72899"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Так вот как они делают музыку, они и танцуют тоже."
+			tasks: [{
+				icon: "the_bumblezone:carvable_wax_music"
+				id: "6A445E2CE2DD0C21"
+				structure: "the_bumblezone:dance_floor"
+				title: "Найдите Танцпол"
+				type: "structure"
+			}]
+			title: "Танцпол"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "4C1276D733165FCE"
+			subtitle: "Очень маленький храм улья, должен был быть ещё одним способом поклонения пчел."
+			tasks: [{
+				icon: "minecraft:honey_block"
+				id: "4FAAC46C321AE79F"
+				structure: "the_bumblezone:hive_temple"
+				title: "Найдите Храм Улья"
+				type: "structure"
+			}]
+			title: "Храм Улья"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "minecraft:honey_bottle"
+			id: "1FE844E12BA3660A"
+			subtitle: "Так, существует фонтан для меда. Я подозреваю это ещё один способ пчёл показать свою любовь к меду."
+			tasks: [{
+				id: "4B90BFEC05C6179C"
+				structure: "the_bumblezone:honey_fountain"
+				type: "structure"
+			}]
+			title: "Медовый Фонтан"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "4ABD922D3A02416E"
+			rewards: [{
+				id: "4FE4DC28C4D3C701"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Пчёлы тренируют себя чтобы использовать огнестрельное оружие? Они точно умные."
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:bee_cannon"
+					tag: {
+						BeesStored: [ ]
+						Damage: 0
+					}
+				}
+				id: "7E0AC99F6EF65E3A"
+				structure: "the_bumblezone:cannon_range"
+				title: "Найдите Зону Падения"
+				type: "structure"
+			}]
+			title: "Зона Попадания"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "1CC0687E11F5A51B"
+			rewards: [{
+				id: "17CE8943141CC8A7"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Здесь слишком много меда! Как пчёлы производят так много при этом не уставая? Может мы должны назвать его Правительством Меда в будущем."
+			tasks: [{
+				icon: "the_bumblezone:honey_bucket"
+				id: "16A4D6926C4FE612"
+				structure: "the_bumblezone:honey_cave_room"
+				title: "Найдите Комнату Медовой Пещеры"
+				type: "structure"
+			}]
+			title: "Комната Медовой Пещеры"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "the_bumblezone:carvable_wax_bricks"
+			id: "6B36C80F052D476A"
+			rewards: [{
+				id: "6040CC46F4BF5548"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Боевой Куб кажется является какого-то рода паучьим подземельем, покрытым массивным количеством паутины, может это будет полезно в твоих следующих задачах."
+			tasks: [{
+				id: "63D7913F49061453"
+				structure: "the_bumblezone:battle_cubes"
+				title: "Найдите Боевой Куб"
+				type: "structure"
+			}]
+			title: "Боевые Кубы"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "the_bumblezone:ancient_wax_bricks"
+			id: "5B7EB596194B40DA"
+			rewards: [{
+				id: "18DCFCBAE6192C79"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Эмм.. древняя святыня? Мне кажется это был способ поклоняться Королеве Пчёл.."
+			tasks: [{
+				id: "02982EB50F5338C0"
+				structure: "the_bumblezone:ancient_shrine"
+				title: "Найдите Древнюю Святыню"
+				type: "structure"
+			}]
+			title: "Древняя Святыня"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "085633C89B01DBD9"
+			subtitle: "Откуда в этом улье большое вишневое дерево? Мне очень интересно насколько оно было бы большим в мире снаружи."
+			tasks: [{
+				icon: "minecraft:cherry_sapling"
+				id: "562748B9BD91F4FE"
+				structure: "the_bumblezone:cherry_veteran_tree"
+				title: "Найди Вишневое Дерево"
+				type: "structure"
+			}]
+			title: "Вишневое Дерево Ветеран"
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	title: " &6Пчелиный мир"
+}

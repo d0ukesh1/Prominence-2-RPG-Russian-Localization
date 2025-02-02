@@ -1,0 +1,311 @@
+{
+	"oriondamage": {
+		"size": 0.66,
+		"title": "§f凌 §9+3% §7Урона, наносимого §9Орионом",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/artifacts/orion/icon_1.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_damage",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"drawspeed": {
+		"size": 0.66,
+		"title": "§f凌 §2+3% §7Скорости натяжения",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/artifacts/orion/icon_2.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ranged_weapon:haste",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "uwp9malwyq3p52ds"
+		}
+	},
+	"pledge+algjebbah": {
+		"title": "§dКлятва: §eАлгжеббах",
+		"description": "§7Посвятите силу Ориона звезде Алгжеббах, получив её защитный дар.\n \n§fꬁ§2 +20 §7Сопротивление к Порче\n \n§f鹿 §eДар Алгжеббаха\n§7Восстановите 5% от вашего максимального здоровья при использовании способности из любого арбалетного гримуара.",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/item/artifacts/orion/star_s4.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption_resistance",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_phase",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "n241yslto644cv8k"
+		}
+	},
+	"pledge+mintaka": {
+		"title": "§dКлятва: §bМинтака",
+		"description": "§7Посвятите силу Ориона звезде Минтака, получив её ледяной дар.\n \n§f勒§b +10 §7Ледяная Сила Заклинаний\n \n§f鹿 §bДар Минтаки\n§7Увеличивает урон, наносимый вашими способностями из §bКниги Заклинаний 'Ужас Минтаки'.",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/item/artifacts/orion/star_s4.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_phase",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "n241yslto644cv8k"
+		}
+	},
+	"pledge+alnilam": {
+		"title": "§dКлятва: §cАльнилам",
+		"description": "§7Посвятите силу Ориона звезде Альнилам, получив её смертоносный дар.\n \n§f凌§2 +5 §7Урон в дальнем боя\n§f凌§2 +15% §7Скорость натяжения\n \n§f鹿 §cДар Альнилама\n§7Увеличивает урон, наносимый вашими способностями из §cКниги Заклинаний 'Взгляд Альнилама'.",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/item/artifacts/orion/star_s4.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ranged_weapon:haste",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ranged_weapon:damage",
+					"value": 5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_phase",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "n241yslto644cv8k"
+		}
+	},
+	"pledge+alnitak": {
+		"title": "§dКлятва: §6Альнитак",
+		"description": "§7Посвятите силу Ориона звезде Альнитак, получив её горящий дар.\n \n§f縷§6 +10 §7Сила заклинаний огня\n \n§f鹿 §6Дар Альнитака\n§7Увеличивает урон, наносимый вашими способностями из §6Книги Заклинаний 'Могущество Альнитака'.",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/item/artifacts/orion/star_s4.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_phase",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "n241yslto644cv8k"
+		}
+	},
+	"nebula-horsehead": {
+		"title": "§f鹿 §cМощь Туманности Конской Головы",
+		"description": "§7Орион и ваши способности с луком наносят +20% урона, пока вы едете верхом на Лошади или Кошмаре (мифическом скакуне).",
+		"size": 1,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/item/artifacts/orion/star_s1.png"
+			}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "ym2jddo77nhmeb1n"
+		}
+	},
+	"nebula-orion": {
+		"title": "§f鹿 §dСила Туманности Ориона",
+		"description": "§7Ваша связь с Орионом усиливается, увеличивая скорость полета стрел, выпущенных из него, на +10%, но в обмен на -10% медленнее скорость натяжения.",
+		"size": 1,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/item/artifacts/orion/star_s1.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:arrow_velocity",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ranged_weapon:haste",
+					"value": -0.1,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "we3zt8lq8rng3p2h"
+		}
+	},
+	"nebula-casper": {
+		"title": "§f鹿 §dКаспер, Дружелюбный Призрак",
+		"description": "§7Пассивная способность 'Концентрация' теперь также может быть применена при использовании следующих способностей с Орионом:\n \n§7- §bКристальная Стрела §8(Ужас Минтаки)\n§7- §cУдушающий Газ §8(Взгляд Альнилама)\n§7- §6Обездвиживание §8(Могущество Альнитака)§7\n \n§cНеобходимый Талант: §7Концентрация",
+		"size": 1,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/item/artifacts/orion/star_s1.png"
+			}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "we3zt8lq8rng3p2h"
+		}
+	}
+}

@@ -1,0 +1,2351 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "244F516C4853FD2F"
+	icon: "botania:flower_bag"
+	id: "703370506A4F63E0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/cornflower"
+				}
+			}
+			id: "37BA64F19E80BE8B"
+			rewards: [{
+				id: "24895F0ED54F8AAC"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			subtitle: "Пришло время поиграть с природой. Мы рассмотрим, как использовать естественную ману и почву для получения мощных артефактов и, возможно, ферм. Вы готовы?"
+			tasks: [{
+				id: "6942DC36248E27CB"
+				title: "Get Started"
+				type: "checkmark"
+			}]
+			title: "Первые шаги Саженца"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37BA64F19E80BE8B"]
+			description: ["Не забудьте проверить Достижения для получения дополнительных подсказок."]
+			id: "34B46C9D3C9F486F"
+			rewards: [
+				{
+					id: "4FB40A3CFCC511AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3605838B2CCDBB08"
+					item: "botania:white_petal"
+					type: "item"
+				}
+			]
+			subtitle: "Получение руководства по Ботанике поможет вам понять окружающий нас природный мир. Получить его будет важно для прогресса."
+			tasks: [{
+				id: "6B585CBCB166F495"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			title: "Энциклопедия Матери-Природы"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34B46C9D3C9F486F"]
+			id: "4FFB704657EB3D11"
+			rewards: [{
+				count: 5
+				id: "4E82AEF99C01B9FE"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			subtitle: "Цветочный мешочек важен, так как вы будете собирать разные цветы, и они займут много места в инвентаре, поэтому мешочек для них идеально подходит."
+			tasks: [{
+				id: "4523E4A7CB9A32B3"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			title: "Рюкзак Саженцев"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "3E2524ED005DC095"
+			rewards: [
+				{
+					count: 2
+					id: "681CA147CE66B4FA"
+					item: "botania:white_petal"
+					type: "item"
+				}
+				{
+					id: "2ABA501875060E3E"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00D79927851BE3AE"
+				item: "botania:white_mystical_flower"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "7CD3BFE295792C97"
+			rewards: [
+				{
+					count: 2
+					id: "6DA2C28D85F3AF05"
+					item: "botania:magenta_petal"
+					type: "item"
+				}
+				{
+					id: "3A4BE19ED18EFC5D"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51A42EEFE0C520EE"
+				item: "botania:magenta_mystical_flower"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "39E4990378159751"
+			rewards: [
+				{
+					count: 2
+					id: "45303B86BCD96BEA"
+					item: "botania:orange_petal"
+					type: "item"
+				}
+				{
+					id: "26D5461C9631A44D"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60A8BC2F86808DF1"
+				item: "botania:orange_mystical_flower"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "676E5DBA92289E86"
+			rewards: [
+				{
+					count: 2
+					id: "12E0098EC43200A1"
+					item: "botania:light_blue_petal"
+					type: "item"
+				}
+				{
+					id: "30095D4892C054D9"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "450701B486DA769E"
+				item: "botania:light_blue_mystical_flower"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "11A1F4F54420260D"
+			rewards: [
+				{
+					count: 2
+					id: "67DF54C75A482E8B"
+					item: "botania:yellow_petal"
+					type: "item"
+				}
+				{
+					id: "0286B22912B55BCE"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A15C4762837F695"
+				item: "botania:yellow_mystical_flower"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "21667C68FC9A12F4"
+			rewards: [
+				{
+					count: 2
+					id: "5866C0AA73B1F8A7"
+					item: "botania:lime_petal"
+					type: "item"
+				}
+				{
+					id: "1D1399B4494A061E"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "078EF5E2555CE6FB"
+				item: "botania:lime_mystical_flower"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "3345FADF6F1EE41E"
+			rewards: [
+				{
+					count: 2
+					id: "5F3C76D095B3208F"
+					item: "botania:pink_petal"
+					type: "item"
+				}
+				{
+					id: "18D66C2E42D77D43"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E4D342C96B5F409"
+				item: "botania:pink_mystical_flower"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "69D2A04DF7954049"
+			rewards: [
+				{
+					count: 2
+					id: "5A8D70D65F56F30C"
+					item: "botania:gray_petal"
+					type: "item"
+				}
+				{
+					id: "238E1BF45103D944"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F2CF30C1061ACC5"
+				item: "botania:gray_mystical_flower"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "33EB79E4357AD245"
+			rewards: [
+				{
+					count: 2
+					id: "4409C4CF4C4616C7"
+					item: "botania:light_gray_petal"
+					type: "item"
+				}
+				{
+					id: "004779B7C8AC4889"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "266730AC6C56A65B"
+				item: "botania:light_gray_mystical_flower"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "57E2AF3E326CD3FC"
+			rewards: [
+				{
+					count: 2
+					id: "620BC75671B0AB0E"
+					item: "botania:cyan_petal"
+					type: "item"
+				}
+				{
+					id: "30FE1A66660CFC8C"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02553D4E5D98F3FE"
+				item: "botania:cyan_mystical_flower"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "1D7C5C4A70572F03"
+			rewards: [
+				{
+					count: 2
+					id: "41CE6F7239415867"
+					item: "botania:purple_petal"
+					type: "item"
+				}
+				{
+					id: "15A4F4EF0EBB7060"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FBC169ECDF3345F"
+				item: "botania:purple_mystical_flower"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "6D7228DF1BAD55B4"
+			rewards: [
+				{
+					count: 2
+					id: "7F4E1F3B5E023A06"
+					item: "botania:blue_petal"
+					type: "item"
+				}
+				{
+					id: "1C3FCBEFDA296E4C"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70376EE0A5B47E37"
+				item: "botania:blue_mystical_flower"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "7AC530A24B477D81"
+			rewards: [
+				{
+					count: 2
+					id: "61637FD1979B9F94"
+					item: "botania:green_petal"
+					type: "item"
+				}
+				{
+					id: "5952C28F48AD9C37"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "516C9086180A602C"
+				item: "botania:green_mystical_flower"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "49B948D24D153867"
+			rewards: [
+				{
+					count: 2
+					id: "06320A4E6704EBC3"
+					item: "botania:brown_petal"
+					type: "item"
+				}
+				{
+					id: "352E14140D290B09"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3239405AA3D1A241"
+				item: "botania:brown_mystical_flower"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "5B8C27D3BF4929D2"
+			rewards: [
+				{
+					count: 2
+					id: "7D2C1C1E2838A563"
+					item: "botania:red_petal"
+					type: "item"
+				}
+				{
+					id: "309E5FF6B6361E61"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "269A02CAA448D463"
+				item: "botania:red_mystical_flower"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FFB704657EB3D11"]
+			id: "1A4C8336CEF77BCE"
+			rewards: [
+				{
+					count: 2
+					id: "5510F8E5BC50A6E1"
+					item: "botania:black_petal"
+					type: "item"
+				}
+				{
+					id: "1BA6924527656A49"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D9C7471AD3C9772"
+				item: "botania:black_mystical_flower"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34B46C9D3C9F486F"]
+			id: "261D2652F1278CD0"
+			rewards: [{
+				count: 2
+				id: "69040387D129F9C3"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			subtitle: "Лепестковый аптекарь — важный предмет, используемый для создания определённых вещей, которые будут полезны для вашего прогресса."
+			tasks: [{
+				id: "0D5931056B8963AC"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			title: "Природная Алхимия"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["261D2652F1278CD0"]
+			id: "5E8397053ED9C9F1"
+			rewards: [
+				{
+					count: 5
+					id: "5D73DAFCDCCC29B6"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2D7CCF4C7F12D5BF"
+					item: "minecraft:stone"
+					type: "item"
+				}
+			]
+			subtitle: "Чистая маргаритка — это растение, которое может «очищать» или преобразовывать любое дерево и камень в материалы, используемые для изготовления более сложных инструментов."
+			tasks: [{
+				id: "4D34AFD8717101CC"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			title: "Очищение"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["261D2652F1278CD0"]
+			id: "3F7946DAA98532AB"
+			rewards: [
+				{
+					id: "4F02F58700CE73F1"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+				{
+					id: "1CAC6B1E2BCA75B9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Хорошее начало! Теперь вы готовы генерировать ману. Обязательно попробуйте разные виды цветов для удовольствия!"
+			tasks: [{
+				advancement: "botania:main/generating_flower"
+				criterion: ""
+				id: "6FA9601149FE3C6A"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["261D2652F1278CD0"]
+			id: "409E5C47B2718F46"
+			rewards: [{
+				id: "585DFD5EA1CCF8DD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			subtitle: "Теперь вы создали цветок с уникальной функцией, хорошее начало! Теперь вы можете делать интересные ритуалы и творения, используя эти цветы как основу, так что попробуйте разные виды флоры с уникальными свойствами."
+			tasks: [{
+				advancement: "botania:main/functional_flower"
+				criterion: ""
+				id: "1CB79DDD6CBFFB84"
+				type: "advancement"
+			}]
+			title: "&eВоодушевлённое Виваче"
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3F7946DAA98532AB"]
+			id: "607DD332F702F84A"
+			rewards: [
+				{
+					count: 3
+					id: "78751E3545EBF5BD"
+					item: "botania:cell_block"
+					type: "item"
+				}
+				{
+					id: "3A36ED6371A8768D"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "6C415BB7FEB010DC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "1FCE580CCEB10A63"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3F7946DAA98532AB"]
+			id: "18C8FCF2CE263DD1"
+			rewards: [
+				{
+					count: 9
+					id: "0F669E3D0D053289"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0154A413AC7207CB"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10EE448C0E14A09A"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F7946DAA98532AB"]
+			id: "65805241ACAFE5AA"
+			rewards: [
+				{
+					count: 5
+					id: "4B975570B7BF661F"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7B34A26C31FDA49D"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C7A6773E68348C7"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F7946DAA98532AB"]
+			id: "1ECF083597ADC218"
+			rewards: [
+				{
+					id: "2CF4CED2DDBF7163"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "39D67E370892E204"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "3D8D6757480F047F"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "53328CFEE2A96C6F"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B76EE9341CA0C02"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F7946DAA98532AB"]
+			id: "270567D1D0AD4D22"
+			rewards: [
+				{
+					count: 2
+					id: "58220CBB8F232928"
+					item: "botania:blue_petal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "13B82D420520EC16"
+					item: "botania:cyan_petal"
+					type: "item"
+				}
+				{
+					id: "3809CE5F9B55AE5D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0975163B7A0A7FED"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3F7946DAA98532AB"]
+			id: "719C646EF4BD3855"
+			rewards: [
+				{
+					count: 2
+					id: "2863C230A554649B"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "537C441F8B510163"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01D90DB9AC056410"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3F7946DAA98532AB"]
+			id: "46113CD893CAD5B7"
+			rewards: [
+				{
+					count: 9
+					id: "33F774B4F58645AA"
+					item: "minecraft:oak_leaves"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5A9D17A42C0D460C"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5396928BB04E96F2"
+				item: "botania:munchdew"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F7946DAA98532AB"]
+			id: "519DE7EDF39B9A74"
+			rewards: [
+				{
+					id: "28D0E1A6829F8F25"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "39ED4B327B5F9F67"
+					item: "minecraft:melon_slice"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6EF2152DD3950EA6"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35C8421928EF27E2"
+				item: "botania:narslimmus"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F7946DAA98532AB"]
+			id: "3AEBFCFEEF546324"
+			rewards: [
+				{
+					count: 5
+					id: "44560833863C07F3"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1BF00A443564E196"
+					item: "botania:red_petal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "437AC72A579DC01A"
+				item: "botania:rafflowsia"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F7946DAA98532AB"]
+			id: "3A39C31A55491355"
+			rewards: [{
+				id: "2C7F19D24EB52AAA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C567135957F4210"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F7946DAA98532AB"]
+			id: "589ECBAADD2607FB"
+			rewards: [
+				{
+					count: 2
+					id: "14DC8D4718B631F5"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+				{
+					id: "64B69E466001DF40"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10F467B1EFF21DB1"
+				item: "botania:shulk_me_not"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F7946DAA98532AB"]
+			id: "38374ED4B8C0B962"
+			rewards: [
+				{
+					id: "2E4D92B38EEEB047"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "33B226ED9F0A30C9"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "714210EC55614298"
+				item: "botania:spectrolus"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3F7946DAA98532AB"]
+			id: "06EAF1C55C4FED2C"
+			rewards: [
+				{
+					id: "6FA406DC39AF4116"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					id: "5567268DE62C3459"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "33DFFFF05F436EC1"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "51463D66484DCA02"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "317A87691BFD55A5"
+				item: "botania:thermalily"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "28FF503CB8204B0A"
+			tasks: [{
+				id: "3E5355BE28C3B8AC"
+				item: "botania:agricarnation"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "0630DF0D7D4BF76B"
+			tasks: [{
+				id: "3A76B79B9F05942C"
+				item: "botania:bellethorn"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "1CB5E63055DD871B"
+			rewards: [{
+				id: "14799B9747EA2D2E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4F3299959E48EFD4"
+				item: "botania:bergamute"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "44A0B0E2B3325241"
+			tasks: [{
+				id: "4165BDBBB4FE4BBD"
+				item: "botania:bubbell"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "538014B6DF48776E"
+			rewards: [{
+				id: "04595BF49B5CCECC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "272E71EDAF22D329"
+				item: "botania:clayconia"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "76433D30A1DC0978"
+			rewards: [{
+				id: "0992D6818996DD1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "31E6AEB58E239BB4"
+				item: "botania:daffomill"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "67D2E18F8876FEFB"
+			tasks: [{
+				id: "581A7CE71C44AA55"
+				item: "botania:dreadthorn"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "0C6DCEF9BD0F80F1"
+			tasks: [{
+				id: "5DEDE427B33C83FD"
+				item: "botania:exoflame"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "6306CE0F25DC09B6"
+			tasks: [{
+				id: "0E097AF2E3D40F8C"
+				item: "botania:fallen_kanade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "7E4A9EB1D9CA587E"
+			tasks: [{
+				id: "47965C9182B8AE9A"
+				item: "botania:heisei_dream"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "3B16FE249B11E804"
+			tasks: [{
+				id: "7D42C2A90265CF4D"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "08F54AE9A7B82508"
+			tasks: [{
+				id: "76AEF60665795F8E"
+				item: "botania:hyacidus"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "317F9023313E0FCE"
+			tasks: [{
+				id: "44DC20A67F56433A"
+				item: "botania:jaded_amaranthus"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "4B4FF34965856A46"
+			tasks: [{
+				id: "32EDA50BDFA1CC62"
+				item: "botania:jiyuulia"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "7AFF5D222FB13006"
+			tasks: [{
+				id: "783C3A460D61BDF1"
+				item: "botania:labellia"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "4E74622B909C886C"
+			tasks: [{
+				id: "6202BB30DD1F214F"
+				item: "botania:loonium"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "27B1AFECC2E78E03"
+			tasks: [{
+				id: "66C244DF16B39927"
+				item: "botania:marimorphosis"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "06D1291EC1A31BE9"
+			tasks: [{
+				id: "03EAF5F242DC0052"
+				item: "botania:medumone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "14C1D069B0693B60"
+			tasks: [{
+				id: "4B395C22125B85A9"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "3E89CB1A466D0EE1"
+			rewards: [{
+				id: "70BAC98B5FBC575D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "270134FC4149A101"
+				item: "botania:orechid_ignem"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "033BAA2FF2CAAAF2"
+			tasks: [{
+				id: "47602543BD3319B5"
+				item: "botania:pollidisiac"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "42BA5D94C472E208"
+			rewards: [{
+				id: "5667D357AB9F2D32"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "345B115067A3DCB5"
+				item: "botania:rannuncarpus"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "26A5EEC88B1D2A88"
+			rewards: [{
+				id: "2856545F58693FD0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "03DC85621087AB60"
+				item: "botania:solegnolia"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "677B8FA457D95183"
+			tasks: [{
+				id: "6AC8486A003FA2AB"
+				item: "botania:spectranthemum"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "3950D52C01900A0B"
+			tasks: [{
+				id: "584CD80FE324F0B8"
+				item: "botania:tangleberrie"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "179E36A573679BEC"
+			tasks: [{
+				id: "587F56384CB0A53E"
+				item: "botania:tigerseye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["409E5C47B2718F46"]
+			id: "24F396898AA55FBA"
+			tasks: [{
+				id: "02DF28C1047A3DDC"
+				item: "botania:vinculotus"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "3C992A84FC41E8CC"
+			rewards: [{
+				id: "255D408CE4724C4F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Эта пластина — очень особый предмет, который используется для создания нового слитка путем наложения чар на три предмета, пропитанных маной. Для её правильной работы необходимо израсходовать половину запаса маны. Будьте осторожны: если предметы не находятся на пластине, ритуал будет потрачен впустую."
+			tasks: [{
+				id: "22AFEE19CD8ED640"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			title: "Земля?"
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DA3A0F1A50B1BAA"]
+			id: "0179EA08CBC5901B"
+			rewards: [
+				{
+					id: "5AF03B50F8C48B4A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "029553D9226A1753"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Рунический Алтарь — важный предмет, позволяющий создавать руны, которые используются в различных инструментах. Он должен быть подключен к бассейну маны и материалам для создания определённой руны."
+			tasks: [{
+				id: "65D59C0A33F0377C"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			title: "Рунические Камни?"
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E8397053ED9C9F1"]
+			id: "4DA3A0F1A50B1BAA"
+			rewards: [{
+				id: "5D70F91AFB6DAA77"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Жезл Леса — важный предмет, который нужно носить с собой, когда вы управляете или перенаправляете магические предметы и бассейны маны для выполнения определённых функций."
+			tasks: [{
+				id: "31850A12E9713DA1"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ты друид, Гарри!"
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DA3A0F1A50B1BAA"]
+			id: "3E3147143890248D"
+			rewards: [{
+				count: 5
+				id: "45FDD2E5597CDB5B"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			subtitle: "Бассейн Маны — важный предмет, который нужен для хранения генерируемой или передаваемой маны, чтобы использовать её позже."
+			tasks: [{
+				id: "59EF26CB36D378DF"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			title: "А ты думал, что в этом можно плавать?"
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4DA3A0F1A50B1BAA"]
+			id: "798E0366D3C928EC"
+			rewards: [
+				{
+					count: 6
+					id: "600AD0D6652D0FE4"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					id: "65E071776B3CDAF1"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "50F4D752347093B2"
+					item: "botania:brown_petal"
+					type: "item"
+				}
+			]
+			subtitle: "Распространители Маны — блок, который может передавать ману соседним блокам или конструкциям, способным её хранить. Их можно поворачивать или направлять на определённый блок с помощью Жезла Леса."
+			tasks: [{
+				id: "43696D74F23DCB98"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			title: "Беспроводная Мана"
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E3147143890248D"]
+			id: "62A2CFC354F91E5D"
+			rewards: [
+				{
+					id: "73236EE9B59B550D"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "4BFB20E3DA6356D1"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Планшет Маны используется для переноса маны как портативный объект и может использоваться для поглощения или депонирования маны. Каждый планшет может вместить около половины ёмкости бассейна маны."
+			tasks: [{
+				id: "67401787DA621354"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			title: "Батарея Маны"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C992A84FC41E8CC"]
+			id: "357C1191778A5899"
+			rewards: [
+				{
+					id: "5699EEA1538EF37C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 5
+					id: "2D57F7C789831349"
+					item: "botania:livingwood_twig"
+					type: "item"
+				}
+			]
+			subtitle: "Слиток Террастали — специальный слиток, который можно использовать для создания более прочного варианта инструментов из манастали, но их очень дорого создавать."
+			tasks: [{
+				id: "05F6617803271F2D"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "Живая сталь"
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "5E6471C08C92A1D0"
+			rewards: [
+				{
+					id: "0AA87C397EDF3171"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "042EB07F50E843C4"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "571FD9FA54C25C75"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "521FB215FA78196A"
+			rewards: [
+				{
+					id: "45691CB8DD80B872"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "477314DCC19CB322"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C2B97F46177F88E"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "48419400D073888F"
+			rewards: [
+				{
+					id: "04FC22E168CC514A"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3E17E018A58D73A6"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46FDFBE247D6D5F3"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "4DAB4953D5AA6F39"
+			rewards: [
+				{
+					id: "00B002F824F30964"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B66FF57565018DB"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5081BE7D7FDC8EF7"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "2EF1051336E3C1AF"
+			rewards: [{
+				count: 2
+				id: "48AC721E62945D2E"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DA5AE87F1436E5C"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "5B16636C3191893E"
+			rewards: [{
+				id: "7D0BE8EA20808513"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "10A75C4BD9D00EDE"
+				item: "botania:rune_spring"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "4B07CD9E6AC7DD26"
+			rewards: [{
+				id: "6FF23564CDE8EB1A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0A5F4350D53E68D4"
+				item: "botania:rune_summer"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "3874D49C83B64FB5"
+			rewards: [{
+				id: "5E86CDDE39F92681"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "447092D56CB23847"
+				item: "botania:rune_autumn"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "21B2D23BE0E6C8ED"
+			rewards: [{
+				id: "658E37901F931ADD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0D77AA975648989B"
+				item: "botania:rune_winter"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "6FF44CF2DC41C4EA"
+			rewards: [
+				{
+					count: 2
+					id: "287EAAEF20C20D98"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "588B34C3F27C770D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "63FE56B5CCC63BBE"
+				item: "botania:rune_lust"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "445C372A1380CD27"
+			rewards: [
+				{
+					count: 2
+					id: "7FFC4FB29C74F382"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "6F07D39A8B3DB264"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "699486F9EB4E7F0D"
+				item: "botania:rune_gluttony"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "4CA4FF64D31EB2F4"
+			rewards: [
+				{
+					count: 2
+					id: "552E97EDA71DBB28"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "3313613E921CFFFB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "069077E8B8420596"
+				item: "botania:rune_greed"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "40CF80C867A4F025"
+			rewards: [
+				{
+					count: 2
+					id: "72D6F0BB09C8B509"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "621B82DF3D7B0858"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "2A3B8220C89D3238"
+				item: "botania:rune_sloth"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "3C9E4E54729EE6EF"
+			rewards: [
+				{
+					count: 2
+					id: "4DD7FCA12EF9B109"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "2B78F5E1BFF97BBC"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "4B5BDB9AE0F2899B"
+				item: "botania:rune_wrath"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "2E272C71B6BE6096"
+			rewards: [
+				{
+					count: 2
+					id: "7AADEBAC62ED1496"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "3E3A56D94A05E74E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "1C3D56CD2DAB40A1"
+				item: "botania:rune_envy"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0179EA08CBC5901B"]
+			id: "1979373E50A09D27"
+			rewards: [
+				{
+					count: 2
+					id: "549FAE6C46DC6355"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "73896263044B008C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "4414DB988E481D69"
+				item: "botania:rune_pride"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3E3147143890248D"]
+			id: "4FA28208D5883CD6"
+			rewards: [{
+				id: "4BD0D189C2E1C90F"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66C026A15B2BA288"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E3147143890248D"]
+			id: "13F33618A7159D1D"
+			rewards: [{
+				id: "24E4F80DF8A00D91"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0767412C190DBC4D"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E3147143890248D"]
+			id: "5E88C303B55C3F56"
+			rewards: [{
+				id: "2FBE2738F0CF43E5"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43493C53AA8A6FAE"
+				item: "botania:mana_string"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E3147143890248D"]
+			id: "2C304FCC95A03D8B"
+			rewards: [{
+				id: "3BAEA32F29118FBB"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4993318D9AC8FDF0"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C304FCC95A03D8B"]
+			id: "57FA3D91002B0DBC"
+			rewards: [{
+				id: "79E980B622CF3A84"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Эти инструменты из манастали лучше железа и могут использовать ману для ремонта."
+			tasks: [
+				{
+					id: "3A98D4C8F9D257DF"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_pick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6902B3E2158A5501"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76CBDA718AF044AA"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "589D922E914BD00A"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59E51AF5A0CA191E"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "202012F7A3421F9D"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Инструменты из манастали"
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57FA3D91002B0DBC"]
+			id: "637DEA860C392E17"
+			rewards: [{
+				id: "710C15B9AA583FB0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Как и инструменты, броня из манастали лучше железа и использует ману для ремонта."
+			tasks: [
+				{
+					id: "3E3DDED0D9DF152B"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0280A9191849CA32"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78E45E6F60440697"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79C3CEB773F472C7"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня из манастали"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E88C303B55C3F56"]
+			id: "305D5CFE327E97EA"
+			rewards: [{
+				count: 4
+				id: "2798DE3B41DFCC31"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F92F7F2D266D816"
+				item: "botania:manaweave_cloth"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["305D5CFE327E97EA"]
+			id: "1F89E3F1960C1D1E"
+			rewards: [{
+				id: "2FFE560418920ACE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Этот комплект брони — специализированный набор манасталевой брони, который снижает затраты маны по сравнению с другим мановым комплектом, однако обладает более слабой защитой."
+			tasks: [
+				{
+					id: "141DB6B86472D0BF"
+					item: {
+						Count: 1b
+						id: "botania:manaweave_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16AF4F0A2F6CAAA3"
+					item: {
+						Count: 1b
+						id: "botania:manaweave_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5403D4B7C3D2E789"
+					item: {
+						Count: 1b
+						id: "botania:manaweave_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44EB134659DDC262"
+					item: {
+						Count: 1b
+						id: "botania:manaweave_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Манатканная броня"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["357C1191778A5899"]
+			id: "5F8A567DB9D33A08"
+			rewards: [{
+				id: "7BB1B5708AAEEE4F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Существует всего три оружия из террастали, но они мощнее своих манасталевых аналогов. Также постарайтесь повысить ранг вашего Terra Shatter"
+			tasks: [
+				{
+					id: "7AF5604D638D7B9B"
+					item: {
+						Count: 1b
+						id: "botania:terra_pick"
+						tag: {
+							Damage: 0
+							mana: 9999
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50CA119CEA8853C7"
+					item: {
+						Count: 1b
+						id: "botania:terra_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EC34BC9D8D64068"
+					item: {
+						Count: 1b
+						id: "botania:terra_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Терраформирование"
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F8A567DB9D33A08"]
+			id: "22E1A9CE07371ADF"
+			rewards: [
+				{
+					id: "4E6F4EEC2339B3DD"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "42EED55F783E6539"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Высший достижимый ранг – настолько мощная кирка, что способна пробурить небеса и землю!"
+			tasks: [{
+				id: "2559973595B297D1"
+				item: {
+					Count: 1b
+					id: "botania:terra_pick"
+					tag: {
+						Damage: 0
+						mana: 2147483646
+					}
+				}
+				type: "item"
+			}]
+			title: "Землетряс"
+			x: -15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F8A567DB9D33A08"]
+			id: "623C9F714AEC4E0D"
+			rewards: [{
+				id: "64C8C6922D86948B"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			subtitle: "Это Доспех из Террастали — более сильная версия Доспеха из Манастали, которая также может пассивно заряжать ваши Планшеты Маны в инвентаре."
+			tasks: [
+				{
+					id: "0280989DEEBAFAC8"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BD5EA9CAFCE3CD4"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "561079626E1E3282"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A02119EAA96C86E"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Пассивный Зарядчик Маны"
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["357C1191778A5899"]
+			id: "75F671ED3BC7E3D2"
+			rewards: [{
+				id: "72D0367E12070BA2"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				advancement: "botania:main/elf_portal_open"
+				criterion: ""
+				id: "59B913B0AA0268AB"
+				type: "advancement"
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75F671ED3BC7E3D2"]
+			id: "6D83B47F98FA95EE"
+			subtitle: "Поздравляем, вы победили босса и теперь получаете награды. Может быть, есть режим повышенной сложности с большими наградами?"
+			tasks: [{
+				id: "1A6E0E6732936129"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D83B47F98FA95EE"]
+			id: "102F56871A2B0479"
+			subtitle: "Если вы используете это, вам придется снова сразиться с боссом, но уже сложнее. Вы готовы?"
+			tasks: [{
+				id: "35F369EF6E315AD2"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			title: "Второй Раунд!"
+			x: -20.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["102F56871A2B0479"]
+			id: "469F144385C29F61"
+			subtitle: "Поздравляем, теперь у вас есть шанс получить артефакт, сможете ли вы собрать их все?"
+			tasks: [{
+				id: "4AAAFD401D14E2D8"
+				item: "botania:dice"
+				type: "item"
+			}]
+			title: "Время Гачи"
+			x: -22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["469F144385C29F61"]
+			id: "167B768BF549D79D"
+			tasks: [{
+				advancement: "botania:challenge/infinite_fruit"
+				criterion: ""
+				id: "729B108902248D98"
+				type: "advancement"
+			}]
+			x: -23.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["469F144385C29F61"]
+			id: "14E44A88198D9BE1"
+			tasks: [{
+				advancement: "botania:challenge/king_key"
+				criterion: ""
+				id: "686503955182BFF2"
+				type: "advancement"
+			}]
+			x: -23.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["469F144385C29F61"]
+			id: "49A5C6B0DC1C1E59"
+			tasks: [{
+				advancement: "botania:challenge/odin_ring"
+				criterion: ""
+				id: "6EA99AE0295F7B23"
+				type: "advancement"
+			}]
+			x: -23.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["469F144385C29F61"]
+			id: "49EDE7409672DBA4"
+			tasks: [{
+				advancement: "botania:challenge/loki_ring"
+				criterion: ""
+				id: "399785B604D73259"
+				type: "advancement"
+			}]
+			x: -24.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["469F144385C29F61"]
+			id: "42130AEC0770D31D"
+			tasks: [{
+				advancement: "botania:challenge/thor_ring"
+				criterion: ""
+				id: "31B2F452801D3B51"
+				type: "advancement"
+			}]
+			x: -24.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["469F144385C29F61"]
+			id: "2C9C31687AA96DF2"
+			tasks: [{
+				advancement: "botania:challenge/flugel_eye"
+				criterion: ""
+				id: "38D0B8720D4D9C8D"
+				type: "advancement"
+			}]
+			x: -24.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["469F144385C29F61"]
+			id: "4EAD5AA8D49EA4DD"
+			tasks: [{
+				advancement: "botania:challenge/pinkinator"
+				criterion: ""
+				id: "6B694BAAE921EB96"
+				type: "advancement"
+			}]
+			x: -24.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D83B47F98FA95EE"]
+			id: "6C346F0370B42116"
+			subtitle: "Сражаться с этим без доспехов страшно. Надеюсь, вы сражались без режима творчества."
+			tasks: [{
+				advancement: "botania:challenge/gaia_guardian_no_armor"
+				criterion: ""
+				id: "09CD9A055EE0E661"
+				title: "Надеюсь, вы не читерили..."
+				type: "advancement"
+			}]
+			x: -18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["75F671ED3BC7E3D2"]
+			id: "21F4456CB3A8967F"
+			rewards: [{
+				id: "6E1142626CCBCFE6"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "Это лучшая версия распространителя маны, которую вы создадите. Больше выплат маны. О, и попробуйте разные линзы, которые можно прикрепить к вашим распространителям маны."
+			tasks: [{
+				id: "15A6201D34C0BC9D"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6D83B47F98FA95EE"]
+			id: "479B4CE3EE33E8E2"
+			rewards: [{
+				id: "1355D735AF2C28AE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Это лучшая версия распространителя маны, которую Мать Природа может предоставить для ваших нужд. Это намного медленнее, но его отдача намного выше."
+			tasks: [{
+				id: "2D21774C4D48510A"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 0.5d
+		}
+	]
+	title: " &aБотания"
+}

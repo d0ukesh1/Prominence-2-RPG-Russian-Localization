@@ -1,0 +1,4779 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "einformation_7new_mechanics"
+	group: "5EA21B61C2E147CB"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "tiered:textures/gui/anvil_tab_icon.png"
+		}
+	}
+	id: "701CA1F978CFB569"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplyswords:item/emberblade_layer"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftblibrary:icons/blank"
+			rotation: 0.0d
+			width: 0.1d
+			x: -13.0d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "5728EF143DC9B7DB"
+			dev: false
+			height: 0.84d
+			hover: [ ]
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: 5.017857142857146d
+			y: 0.142857142857153d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "080F23071FA8CFC9"
+			dev: false
+			height: 0.84d
+			hover: [ ]
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: 4.017857142857139d
+			y: -1.357142857142847d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "01F49526727B35F1"
+			dev: false
+			height: 0.84d
+			hover: [ ]
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: 0.017857142857153008d
+			y: 6.142857142857153d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0DFD6849156C0709"
+			dev: false
+			height: 0.84d
+			hover: [ ]
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -4.124999999999993d
+			y: 3.285714285714292d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1079F098AE98FCF6"
+			dev: false
+			height: 0.84d
+			hover: [ ]
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -4.982142857142854d
+			y: 0.10714285714286831d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1F1202929D2C5195"
+			dev: false
+			height: 0.84d
+			hover: [ ]
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -4.1678571428571445d
+			y: -2.892857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "53391B7A86496FCB"
+			dev: false
+			height: 0.84d
+			hover: [ ]
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -5.017857142857132d
+			y: 1.8571428571428683d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6A594976300D5DCC"
+			dev: false
+			height: 0.84d
+			hover: [ ]
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -4.982142857142847d
+			y: -1.6428571428571317d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "74BA5C6954FEFCE8"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5107142857142932d
+			y: 2.3214285714285694d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6930C77988A640AF"]
+			description: [
+				"Все щиты получили новые механики из мода &eShield Overhaul&r."
+				""
+				"&e&lРывок &r&7Атакуй во время блока чтобы выполнить рывок щитом. &7Это ошеломит цель на 1 секунду, если это не босс."
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "51595E88AF1F475E"
+			rewards: [{
+				id: "73FEF9863E4C5F38"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "7AAEF7553C3616AE"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eНовая защитная механика"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6930C77988A640AF"]
+			description: [
+				"&7Боевые механики были изменены модом &eBetter Combat&7."
+				""
+				"- &6&lОружие &r&7Каждое оружие имеет свою анимацию атаки и время."
+				""
+				"- &6&lКомбо &r&7Последовательные атаки выполнят комбо."
+				""
+				"- &6&lУдерживайте для атаки &r&7Вы можете удерживать кнопку атаки, чтобы продолжать атаку."
+
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B8B4323E13AB3E9"
+			rewards: [{
+				id: "475CDA6694C41230"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "3589A9BB969BA94E"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eНовая боевая механика"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&7Этот учебный раздел объясняет, как работает бой, рассматривает изменённые механики для того, чтобы спланировать развитие своего персонажа."
+				""
+				"&eХотя этот раздел для начальной игры, он охватывает и сборки для конца игры. Новые квесты появятся по мере вашего прогресса."
+				""
+				"&7Большая часть этого раздела — это чтение, &cпожалуйста, убедитесь, что прочитали&7, если хотите действительно понять все, так как это важная информация."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info_gray"
+				}
+			}
+			id: "6930C77988A640AF"
+			shape: "hexagon"
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "4B87D5A81113B3B8"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eКак работает Бой \\& Усиление персонажа?"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"51595E88AF1F475E"
+				"6B8B4323E13AB3E9"
+			]
+			description: [
+				"&7Следующие руководства направят вас, на что обращать внимание в зависимости от типа сборки. Это не полностью разработанные сборки, а лишь руководства для того, чтобы выбрать подходящее снаряжение в зависимости от вашего стиля игры."
+				""
+				"&eПоказанная сложность относится как к трудности игры, так и к трудности создания сборки &7(хотя сложность игрового процесса имеет более высокий приоритет)&7."
+				""
+				"&6Как работают уровни?"
+				""
+				"&7Уровень I: &eНачальное снаряжение &8(Мир)"
+				"&eУровень II: &eРанняя игра &8(После Нижнего мира)"
+				"&6Уровень III: &eСредняя игра &8(После Конца)"
+				"&cУровень IV: &eПоздняя/Конечная игра &8(После Артефактов)"
+				"&dУровень V: &e&kДревний&r &8(Неизвестно)"
+				""
+				"&eЭта часть руководства может быть сложной! Чтобы узнать больше о получении Книг Умений, пожалуйста, прочитайте квесты по Заклинаниям."
+				""
+				"&6Для полных руководств по конкретным сборкам, смотрите официальный вики-сайт!"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tiered:textures/gui/anvil_tab_icon.png"
+				}
+			}
+			id: "61C05AE305488DF5"
+			shape: "hexagon"
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "22AD24EC0678727A"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eКак узнать, какое снаряжение мне нужно?"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6930C77988A640AF"]
+			description: [
+				"&7Статистика, также известная как атрибуты, — это серия чисел, связанных с вашим персонажем, которые позволяют другим вещам масштабироваться."
+				""
+				"&7Например, спешка определяет, как быстро вы атакуете, в то время как здоровье определяет, сколько здоровья у вас есть, и так далее."
+				""
+				"&7Следующие квесты объяснят основные характеристики и как каждая из них важна для определённого использования."
+				""
+				"&eСтатистика — это основная часть вашего снаряжения, важно понять, какие характеристики вам нужны, а какие — нет, в зависимости от того, как вы хотите строить своего персонажа."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "fwaystones:item/empty_waystone_scroll"
+				}
+			}
+			id: "44D9519561FE2D1B"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "30BD1DF965773137"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eКак работают характеристики?"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["44D9519561FE2D1B"]
+			description: [
+				"&eОсновные характеристики — это те характеристики, которые использует каждый в той или иной степени."
+				""
+				"&7Либо потому, что у вас уже есть базовое количество (например, здоровье), либо потому, что любая деталь снаряжения даёт эту характеристику (например, Спешка и Броня)"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/sprites/hud/heart/frozen_hardcore_full.png"
+				}
+			}
+			id: "3F794C7D175F14C0"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "6F23FA02C5CA4AD2"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eОсновные характеристики"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["44D9519561FE2D1B"]
+			description: [
+				"&eРазные характеристики, предназначенные для дальнобойных опций."
+				""
+				"&7Хотя Физический урон используется всеми, дальнобойные сборки будут предпочитать другие характеристики в зависимости от выбранного пути: &eСтрельба из лука&7 (Дальний Физический урон) или &eЗаклинание&7 (Дальняя Магия)"
+				""
+				"&7Магия также может использоваться в ближнем бою с билдом Магического Мечника."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ranged_weapon:textures/mob_effect/damage.png"
+				}
+			}
+			id: "479F0EDD5681A06D"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "5C9AFBF0E99AE7AC"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eХарактеристики Дальнего боя \\& Магии"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"&eСпешка увеличивает вашу скорость физической атаки."
+				""
+				"&7Заставляет вас атаковать или менять оружие быстрее. Также масштабируется с определённым оружием и предметами. Особое внимание для билдов «Разбойника» или любых сборок с быстрыми атаками."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/attack_speed.png"
+				}
+			}
+			id: "3EFD57AABC3D44EF"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "696BC3B958325A55"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eСпешка"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"&eУвеличивает количество урона, который наносят ваши удары/пощечины."
+				""
+				"&7Основная характеристика для билдов ближнего боя, так как она увеличивает наносимый вами урон и масштабируется с любым оружием или способностями, наносящими физический урон, такими как оружие ближнего боя и способности ближнего боя."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/attack.png"
+				}
+			}
+			id: "401B24F826A490C3"
+			shape: "circle"
+			size: 0.754d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "019217B93D9FE657"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&6Физический урон"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"- &eБроня"
+				"&7Уменьшает входящий &6Физический урон&7."
+				""
+				"&7Получается от частей брони, но у врагов и боссов также будет определённое количество брони по умолчанию."
+				""
+				"- &eТвёрдость брони"
+				"&7Уменьшает входящий &6Физический урон&7 в большем диапазоне. Это более эффективно при высоком уроне, поэтому эта характеристика известна как «Анти-Один Удар»."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/defense.png"
+				}
+			}
+			id: "2B31C767E6C37F28"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "4B50250B4FEBFB6B"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eБроня \\& Твёрдость брони"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"- &eЗдоровье"
+				"&7Увеличивает максимальное количество урона, которое вы можете получить, прежде чем умереть."
+				""
+				"- &eВыносливость"
+				"&7Уменьшает количество энергии (голода), которое вы теряете пассивно."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/health.png"
+				}
+			}
+			id: "07C8B808DB85CC35"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "716906C7C1D596AA"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&cЗдоровье \\& Выносливость"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"&eЭлементарные силы — третьи по силе существующие силы, также известные как &oтретичные&r&e силы."
+				""
+				"&7Хотя существуют и другие третичные силы, Элементарные исходят от Творения, Святости и Души."
+				""
+				"&eТайная магия, Лед и Огонь&7 могут использоваться различными книгами заклинаний, по отдельности или вместе, все они являются частью &eАстральной &7гибридной силы."
+				""
+				"&eМолния&7 используется некоторыми оружиями, такими как артефакт Громогнев, и представляет собой важную силу для Валькирий."
+			]
+			id: "5CF52770623E5963"
+			size: 0.75d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/arcane.png"
+						}
+					}
+					id: "27531CFF0334076B"
+					item: "runes:arcane_stone"
+					title: "Получить руну тайной магии"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/fire.png"
+						}
+					}
+					id: "6346BAE143CD3A00"
+					item: "runes:fire_stone"
+					title: "Получить руну огня"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/frost.png"
+						}
+					}
+					id: "1D167D542A786C4A"
+					item: "runes:frost_stone"
+					title: "Получить руну льда"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/lightning.png"
+						}
+					}
+					id: "43DBCF7B9A526165"
+					item: "runes:lightning_stone"
+					type: "item"
+				}
+			]
+			title: "&bЭлементальные силы"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"&eПримордальные силы — вторые по силе, также известные как вторичные силы."
+				""
+				"&eСила исцеления&7 используется Жрецами и Паладинами для поддержки союзников."
+				""
+				"&eДуша&7 используется в комбинации с элементальными силами, чтобы формировать гибридные силы, такие как &eДушевный Огонь&7 и &eДушевный Лед&7, которые в основном используются некоторыми артефактами."
+			]
+			id: "59E36C0233C961CA"
+			size: 0.75d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/holy.png"
+						}
+					}
+					id: "177735B2E5DEF39C"
+					item: "runes:healing_stone"
+					title: "Получить руну исцеления"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/soul.png"
+						}
+					}
+					id: "34B70513418F7A19"
+					item: "runes:soul_stone"
+					title: "Получить руну души"
+					type: "item"
+				}
+			]
+			title: "&6Силы Примора"
+			x: 2.510714285714286d
+			y: -4.482142857142854d
+		}
+		{
+			dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"&eРазлагающие силы — это силы Смерти."
+				""
+				"&eКровь&7 используется Кровавыми Рыцарями Смерти, танковой специализацией, которая поддерживает себя."
+				""
+				"&eНечестивость&7 используется Нечестивыми Рыцарями Смерти, бойцами, которые наносят болезни врагам."
+			]
+			id: "7613069D73E7B2A3"
+			size: 0.75d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/unholy.png"
+						}
+					}
+					id: "58AADDF3A7EE5E43"
+					item: "death_knights:unholy_stone"
+					title: "Получить руну нечестивости"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/blood.png"
+						}
+					}
+					id: "1D53ECD1AE853804"
+					item: "death_knights:blood_stone"
+					title: "Получить руну крови"
+					type: "item"
+				}
+			]
+			title: "&cСилы нечести"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"401B24F826A490C3"
+				"5CF52770623E5963"
+				"3F794C7D175F14C0"
+				"479F0EDD5681A06D"
+			]
+			description: ["&eГибридные характеристики — это либо смесь двух характеристик, либо характеристика, которая применяется как к ближнему, так и к дальнему бою."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "simplyskills:textures/mob_effect/magic_circle.png"
+				}
+			}
+			id: "085E3F53A333AA9F"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "6C6C8542F3C9ED71"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eГибридные характеристики"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"085E3F53A333AA9F"
+				"401B24F826A490C3"
+			]
+			description: [
+				"&eПробивание и Магическое пробивание — это одна и та же характеристика с разными названиями. Они игнорируют процент брони или магической защиты цели."
+				""
+				"&7Например, если у вас есть 16% пробивания, а у вашего врага 100 брони, вы будете наносить удары, как если бы у него было только 84 брони (поскольку броня уменьшается на 16%)."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/lethality.png"
+				}
+			}
+			id: "597F9C69DBB37F71"
+			size: 0.75d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "0CDC6263F513E17C"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&cПробивание &7\\& &bМагическое пробивание"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"085E3F53A333AA9F"
+				"5CF52770623E5963"
+			]
+			description: [
+				"&eАстральная Сила — это комбинация 3 элементальных сил: &dТайной магии, &cОгня&e и &bЛьда&e."
+				""
+				"&7Эта гибридная сила используется Астральными Магами или Астральными Заклинателями. Артефакты, такие как &dСингулярность&8 (от Экалара)&7 и &dСупернова&7, масштабируются с этими статами."
+				""
+				"&7Также существуют книги заклинаний, использующие Астральную Силу, такие как книга &dРунические Заклинания&7."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "simplyskills:icons/prom_compat/rune_of_stars"
+				}
+			}
+			id: "13907450E40B1069"
+			size: 0.75d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "593697F7F7CB984A"
+				item: {
+					Count: 1b
+					id: "wizards:staff_wizard"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Получить волшебный посох"
+				type: "item"
+			}]
+			title: "&dАстральные силы"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["085E3F53A333AA9F"]
+			description: [
+				"- &eАтака к X (Сила Заклинаний)"
+				"&7Увеличивает конкретную силу заклинания на процент от вашего Физического Урона."
+				""
+				"- &eX (Сила Заклинаний) к Атаке"
+				"&7Увеличивает ваш Физический Урон на процент от количества вашей силы заклинания."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/supernova/speed.png"
+				}
+			}
+			id: "2078987E5DF94CE7"
+			size: 0.75d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "5848C781F4984B12"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eФизическо-Магические силы"
+			x: 0.0d
+			y: -8.0d
+		}
+				{
+					dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"&eУрон в дальнем бою"
+				"&7Этот атрибут увеличивает урон, наносимый дальнобойным оружием, которое стреляет снарядами, такими как луки, арбалеты или ружья. Он получаем через таланты, украшения и само дальнобойное оружие."
+				""
+				"&eСкорость натяжения"
+				"&7Этот атрибут увеличивает скорость натяжения лука/арбалета или скорость стрельбы из ружей/пушек."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/archery.png"
+				}
+			}
+			id: "332E1D21030C2367"
+			size: 0.75d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "537674E6436DC13B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "archers:auto_fire_hook_attachables"
+						}
+					}
+					title: "Получить любое оружие дальнего боя"
+					type: "item"
+					}]
+			title: "&aУрон в дальнем бою \\& Скорость натяжения"
+			x: 2.546428571428571d
+			y: -5.517857142857139d
+				}
+				{
+					dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"&eЭти силы усиливают процесс заклинаний у Магов Заклинателей."
+				""
+				"&eШанс Критического Удара Заклинания&7 увеличивает шанс того, что ваши заклинания нанесут критический урон."
+				""
+				"&eУрон от Критического Удара Заклинания&7 увеличивает урон от ваших критических заклинаний на определённый процент."
+				""
+				"&eСпешка Заклинаний&7 увеличивает скорость ваших заклинаний, сокращая их время произнесения."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/spell_critical.png"
+				}
+			}
+			id: "7F974354502FF51C"
+			size: 0.75d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "630C257E4DE95118"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&bКритический шанс заклинаний \\& Спешка"
+			x: 2.4750000000000014d
+			y: -6.517857142857146d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"&eУвеличивает вашу скорость передвижения."
+				""
+				"&7Также масштабируется с другими действиями, такими как кувырки."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/boot.png"
+				}
+			}
+			id: "513B18C3E0E74C91"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "79F2CDF32DF422CE"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eСкорость передвижения"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6930C77988A640AF"
+				"61C05AE305488DF5"
+			]
+			description: [
+				"&eЗачарования являются важной частью вашего снаряжения, они значительно увеличивают его эффективность."
+				""
+				"&7Вы можете ознакомиться с полным руководством по зачарованиям на вики, руководство по зачарованиям в данный момент разрабатывается <3"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "bewitchment:textures/mob_effect/enchanted.png"
+				}
+			}
+			id: "7CFDF35E5158679E"
+			rewards: [{
+				id: "0B449E6D557CA067"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Нажми, чтобы узнать больше]"
+			tasks: [{
+				id: "261E71FE0BF26DD9"
+				item: "minecraft:enchanting_table"
+				title: "Craft an Enchanting Table"
+				type: "item"
+			}]
+			title: "&eЗачарование"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"085E3F53A333AA9F"
+				"59E36C0233C961CA"
+				"13907450E40B1069"
+				"332E1D21030C2367"
+				"401B24F826A490C3"
+				"3EFD57AABC3D44EF"
+				"44D9519561FE2D1B"
+				"7613069D73E7B2A3"
+				"513B18C3E0E74C91"
+				"479F0EDD5681A06D"
+				"7F974354502FF51C"
+				"07C8B808DB85CC35"
+				"597F9C69DBB37F71"
+				"5CF52770623E5963"
+				"2078987E5DF94CE7"
+				"3F794C7D175F14C0"
+				"2B31C767E6C37F28"
+				"7CFDF35E5158679E"
+				"073F2420FA2EF9B1"
+				"0A1F7985832C6DB2"
+				"71EDD24DAB210B44"
+				"6399A78B0AF2BCAE"
+				"43C641771CB69C88"
+				"1079F098AE98FCF6"
+				"76196F8D435E0E5A"
+				"0F83B1AC3CB766C9"
+				"0DFD6849156C0709"
+				"57B71888F2B87995"
+				"0002A96D1F886FB3"
+				"09CE7EB3045D5136"
+				"32AF5CAD14B2C8A7"
+				"01F49526727B35F1"
+				"2D18A81E45594603"
+				"4DEDEC176C36CFD0"
+				"61C05AE305488DF5"
+				"74B7050CA824F281"
+				"36B7ACAA73589366"
+				"4B450D0E26363D54"
+				"080F23071FA8CFC9"
+				"5728EF143DC9B7DB"
+				"4250485195720E02"
+				"18899F26D6DB2F47"
+				"59C45FA337989B0C"
+				"2A4B84F063C78B09"
+				"3D78B8D241B53C2A"
+				"22E0D946A9D81F02"
+				"42068E429EB7B74F"
+				"5814C5C80022A343"
+				"51595E88AF1F475E"
+				"4CF644BC0920C177"
+				"0A4309730B50D9FF"
+				"3B1F2D1CFA02F922"
+				"1F1202929D2C5195"
+				"6930C77988A640AF"
+				"53391B7A86496FCB"
+				"75E616FE0AAF9EF5"
+				"4898E3ED8141DAFC"
+				"34D8C4E35FD1D7A4"
+				"40C4C4072277E160"
+				"5F05B907376828B4"
+				"3A72E538D2A5B20C"
+				"6A594976300D5DCC"
+				"6B8B4323E13AB3E9"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "the_bumblezone:item/essence/knowing"
+				}
+			}
+			id: "5F2C69EC6928676F"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "the_bumblezone:item/essence/knowing"
+					}
+				}
+				id: "71028E3F756D85C9"
+				title: "&dКусочек Вечного знания"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&8Секретное знание"
+			tasks: [{
+				id: "7E66AB385C03B775"
+				title: "I've Learnt the Knowledge."
+				type: "checkmark"
+			}]
+			title: "&dВечное знание: &eБой \\& Снаряжение"
+			x: 9.0d
+			y: -21.75d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Сложность:&a Легкая &7/ &eСредняя"
+				""
+				"&eЗащитники (также называемые Танками) — это поддерживающие персонажи, которые сосредоточены на защите других, принимая урон от врагов."
+				""
+				"&7Защитники ориентированы на то, чтобы первыми атаковать врагов или притягивать их внимание с помощью активных талантов, таких как &9Костяная броня&7."
+				""
+				"- &eЧто важно для Защитника/Танка?"
+				"&7Как Защитник, ваша главная цель — это &cМаксимальное здоровье&7 и &eБроня&7. Лучшие вещи с этими статистиками — это &eАлмазная броня&7 и её улучшения, так как они обеспечат максимально возможное количество очков Брони (и Устойчивости), а позже — также Максимальное здоровье."
+				""
+				"&eИмейте в виду, что урон танка средний по сравнению с другими сборками. Его цель — это защищать, а не наносить урон."
+			]
+			id: "57B71888F2B87995"
+			rewards: [
+				{
+					count: 8
+					id: "05B3B066FCB41150"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "57134CB7E8FDF0E0"
+					title: "&eОткрыть II уровень руководства"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Уровень I &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "0FD8935EA9C1F668"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "171B6CE657EE7A18"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "267A79D48739B564"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B0E79F0989DD746"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "373563C79A1DDD0E"
+					item: {
+						Count: 1b
+						id: "paladins:diamond_kite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3CCC18493C98B5E5"
+					item: "rogues:warrior_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "310BF2BA24D12FC1"
+					item: "paladins:paladin_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eКак защитник"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Сложность: &aЛегкая &7/ &eСредняя &7/ &cТрудная"
+				""
+				"&eВоины — это ближний бой, которые бьют медленно, но сильно."
+				""
+				"&7Они являются определением класса \"Бурст\"; хотя они бьют медленно, их урон будет высоким, но не таким постоянным, как у сборки DPS."
+			]
+			id: "36B7ACAA73589366"
+			rewards: [
+				{
+					id: "00165336640EEECC"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "46C8B41599DEEF3A"
+					title: "&eОткрыть II уровень руководства"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Уровень I &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "2B6E23796C90FA24"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0312CC52D893C4BE"
+					item: {
+						Count: 1b
+						id: "rogues:warrior_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D24437AC6703538"
+					item: {
+						Count: 1b
+						id: "rogues:warrior_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "768A5105FC2B8FD8"
+					item: {
+						Count: 1b
+						id: "rogues:warrior_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0471DE5E9038FA84"
+					item: {
+						Count: 1b
+						id: "rogues:warrior_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72B8245645ACDA0E"
+					item: "rogues:warrior_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eКак воин"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Сложность: &aЛегкая&7 /&e Средняя &7/ &cТрудная&7"
+				""
+				"&eМаги — это универсальные дальнобойные сборки, использующие магию определённых элементов, таких как Тайная магия, Огонь и Лёд."
+				""
+				"&7Задача мага — наносить урон на расстоянии, используя магию, которую он накладывает с помощью Книги Заклинаний."
+				""
+				"- &eЧто собрать для мага?"
+				"&7Ваш приоритет будет зависеть от выбранного вами пути; элемента, на котором вы хотите сосредоточиться. В качестве начальной экипировки вы можете взять &eПосох мага&7 (или любой посох конкретного элемента) и &eМагические одежды&7."
+			]
+			id: "32AF5CAD14B2C8A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E55BD0560991CA3"
+					table_id: 3850066978152658360L
+					title: "Руны по вашему выбору"
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "6758587085DB0764"
+					title: "&eОткрыть II уровень руководства для спецефичного элемента"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "399A90F153F28F25"
+					title: "&eМагический клинок &c(Необходим I уровень разбойника)"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Уровень I &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "0A2AEE5ACC8E1059"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "465444467D38732D"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FB4C1BD0A49F9E2"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BCD2493ECE81DD2"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3178F744F0C11E2F"
+					item: {
+						Count: 1b
+						id: "wizards:wand_novice"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eКак маг"
+			x: 0.0d
+			y: 1.875d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Сложность:&e Средняя &7/ &cТрудная"
+				""
+				"&eРазбойники — это ближнедобойные сборки, которые сосредоточены на быстрой атаке, нанося постоянный урон целям."
+				""
+				"&7Они — это определение класса \"DPS\"; фокус на постоянном уроне, в отличие от сборок типа \"Бурст\", которые ориентированы на высокий, но не постоянный урон."
+				""
+				"- &eЧто собрать для Разбойника?"
+				"&7По статистике главный приоритет — &eСпешка&7, затем &6Физический урон&7. По экипировке вам стоит искать быстро атакующие одноручные оружия, чтобы иметь возможность их носить в паре."
+			]
+			id: "4250485195720E02"
+			rewards: [
+				{
+					count: 3
+					id: "184096CBEA061C50"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:long_poison"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "2ADE97391AC00735"
+					title: "&eОткрыть II уровень руководства"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "36E9C272253470BC"
+					title: "&eМагический клинок &c(Необходим маг I уровня)"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Уровень I &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "7FD3F530C813C541"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39B521BBBA93DDE6"
+					item: {
+						Count: 1b
+						id: "rogues:rogue_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CC809698CC254EE"
+					item: {
+						Count: 1b
+						id: "rogues:rogue_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EFB811C612051F1"
+					item: {
+						Count: 1b
+						id: "rogues:rogue_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "399C7A3B5D5526B7"
+					item: {
+						Count: 1b
+						id: "rogues:rogue_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C1F0A6134AE788F"
+					item: "rogues:rogue_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eКак разбойник"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Сложность:&a Легкая &7/ &eСредняя"
+				""
+				"&eЛучники — это дальнобойные сборки, использующие такие оружия, как луки, арбалеты или пистолеты для нанесения урона с помощью снарядов."
+				""
+				"&7Они могут быть собраны как сборка, ориентированная на DPS, или как сборка с фокусом на бурстовый урон, в зависимости от того, какое снаряжение вы выберете и какие характеристики приоритетны."
+				""
+				"- &eЧто собрать для Лучника?"
+				"&7Основной приоритет — это &2Дальний урон&7, который можно получить через таланты и экипировку. Если вам важна высокая скорость стрельбы, то также стоит уделить внимание &aСкорости натяжения&7."
+				""
+				"&eПомните, что лучники более уязвимы."
+			]
+			id: "76196F8D435E0E5A"
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "7562B7F450DBA5BA"
+				title: "&eОткрыть II уровень руководства"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&7Уровень I &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "16DE019B98CAF8D3"
+					item: {
+						Count: 1b
+						id: "archers:archer_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "793BB7A4760C94DD"
+					item: {
+						Count: 1b
+						id: "archers:archer_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C63C0147F3D6706"
+					item: {
+						Count: 1b
+						id: "archers:archer_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F824AD15BE13D42"
+					item: {
+						Count: 1b
+						id: "archers:archer_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E94B5EC060B408A"
+					item: "archers:archer_spell_book"
+					type: "item"
+				}
+				{
+					id: "5157A50DDC652D9F"
+					item: {
+						Count: 1b
+						id: "archers:mechanic_shortbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eКак следопыт"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4250485195720E02"
+				"32AF5CAD14B2C8A7"
+			]
+			description: [
+				"&6Сложность:&e Средняя &7/ &cТрудная &7(Аш'едар)"
+				""
+				"&eАльтернативный путь, который сочетает в себе как Разбойника, так и Магов."
+				""
+				"&7С помощью магического клинка вы можете стать бойцом ближнего боя, использующим магические способности. Начать можно с магического клинка любого элемента, который вам нравится, и его книги Заклинаний для способностей."
+				""
+				"&eВыбор Талантов"
+				"&7Приоритеты должны быть смесью Физического урона и элементальной силы выбранного вами элемента. Выбор судьбы может быть как судьбой вашего элемента, так и &9Теневыми Техниками&7, если вы сосредотачиваетесь больше на атаке, чем на заклинаниях."
+			]
+			hide: true
+			id: "09CE7EB3045D5136"
+			rewards: [
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "120E0D545968C087"
+					title: "&eОткрыть III уровень руководства"
+					type: "custom"
+				}
+				{
+					id: "2A8DE7EF0E237285"
+					item: "spellbladenext:runeblaze_ingot"
+					type: "item"
+				}
+				{
+					id: "602F56C398CA3F9D"
+					item: "spellbladenext:runegleam_ingot"
+					type: "item"
+				}
+				{
+					id: "0B8E50A473351F5D"
+					item: "spellbladenext:runefrost_ingot"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eУровень II &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "2A530311ACA52655"
+					item: "spellbladenext:frost_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "523F4479E33CBEAC"
+					item: "spellbladenext:fire_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "1E28B8ADF2732666"
+					item: "spellbladenext:arcane_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "6B00CF76A118782A"
+					item: {
+						Count: 1b
+						id: "wizards:fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7F63DDEA6A420F6E"
+					item: {
+						Count: 1b
+						id: "wizards:arcane_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7907391AD4491937"
+					item: {
+						Count: 1b
+						id: "wizards:frost_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A98B39FF71CA47C"
+					item: {
+						Count: 1b
+						id: "spellbladenext:fire_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77C1C17602E87F0A"
+					item: {
+						Count: 1b
+						id: "spellbladenext:arcane_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3197451530F7213B"
+					item: {
+						Count: 1b
+						id: "spellbladenext:frost_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eМагический клинок"
+			x: -2.625d
+			y: 2.625d
+		}
+		{
+			dependencies: ["0A4309730B50D9FF"]
+			description: [
+				"&6Сложность:&c Трудная"
+				""
+				"&eРунические Заклинания используют Астральную Магию, силу трёх элементов: Тайная магия, Огонь и Лёд."
+				""
+				"&7Рунические Заклинания очень сильны, если использовать их правильно, но они являются одними из самых сложных для магов."
+				""
+				"- &eВыбор Талантов"
+				"&7Теперь, когда вы достигли достаточного уровня для получения Таланта Судьбы, вы должны выбрать &9Знания о рунах и звездах&7, так как оно предоставляет &eАстральную Силу&7."
+			]
+			hide: true
+			id: "2A4B84F063C78B09"
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "7F4526EB70A3DCBF"
+				title: "&eОткрыть IV уровень"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [{
+				id: "4292524ED18FE585"
+				item: "invoke:invoker_spell_book"
+				type: "item"
+			}]
+			title: "&eАстральные знания"
+			x: -1.125d
+			y: 4.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Сложность:&e Средняя &7/ &cТрудная &7(Как Барду)"
+				""
+				"&eЦелители - это поддерживающие персонажи, которые защищают своих союзников, лечат и дают магические временные щиты."
+				""
+				"- &eЧто собирать для Целителя?"
+				"&7Ваш основной фокус - это &eИсцеляющая сила&7, получаемая через таланты и экипировку. Вы можете использовать &6Библию&7 для использования исцеляющих заклинаний."
+				"&7Возможно, вы также захотите добавить немного защиты, например, максимальное здоровье или скорость передвижения, чтобы сбежать от врагов, так как ваш урон не будет таким высоким."
+				""
+				"&eУчтите, что урон целителя посредственный по сравнению с другими сборками. Его цель - лечить, а не наносить урон."
+			]
+			id: "073F2420FA2EF9B1"
+			rewards: [
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "34F17089080BE301"
+					title: "&eОткрыть II уровень руководства"
+					type: "custom"
+				}
+				{
+					count: 16
+					id: "3A88662548C17265"
+					item: "runes:healing_stone"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Уровень I &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "73D7F38F58340891"
+					item: {
+						Count: 1b
+						id: "paladins:diamond_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DE76C4201E0ABCB"
+					item: "paladins:priest_spell_book"
+					type: "item"
+				}
+				{
+					id: "650032F5E71EC47A"
+					item: {
+						Count: 1b
+						id: "paladins:priest_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7081002E04CCE384"
+					item: {
+						Count: 1b
+						id: "paladins:priest_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19808ADC01DD9E2D"
+					item: {
+						Count: 1b
+						id: "paladins:priest_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "191102B94E38E735"
+					item: {
+						Count: 1b
+						id: "paladins:priest_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eКак целитель"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Сложность:&e Средняя &7/ &cТрудная"
+				""
+				"&eБарды - это персонажи поддержки, которые усиливают союзников, давая им урон, спешку, исцеление и другие усиления."
+				""
+				"&cВам нужно быть в группе с вашими союзниками, чтобы давать им усиления! &8(/openpac-parties команда)"
+				""
+				"&7Барды особенные, так как у них нет конкретного снаряжения или характеристик. Единственное требование - это наличие таланта &9Бардовская сказка&7. Они могут использовать специальные инструменты для предоставления определенных усилений, как указано в самом таланте."
+				""
+				"- &eЧто собирать для Барда?"
+				"&7Краткий ответ - гибрид. Вы можете сочетать Барда с другой сборкой или как вам нравится. Например, вы можете быть поддержкой с уроном, используя экипировку лучника, или магом, или целителем! Всё зависит от вас."
+			]
+			id: "0A1F7985832C6DB2"
+			rewards: [
+				{
+					id: "58D18BB26C19FBAF"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "035B72E43504597B"
+					title: "&eОткрыть II уровень руководства по льду и исцелению"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Уровень I &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "0EF87BC5330A4760"
+					item: {
+						Count: 1b
+						id: "immersive_melodies:flute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5C099415129268AA"
+					item: {
+						Count: 1b
+						id: "immersive_melodies:bagpipe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7F64C7463D5F83C8"
+					item: {
+						Count: 1b
+						id: "immersive_melodies:didgeridoo"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "796B72159F06686E"
+					item: {
+						Count: 1b
+						id: "immersive_melodies:lute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "09D0B07619A6FAC9"
+					item: {
+						Count: 1b
+						id: "immersive_melodies:piano"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "60A440DEC33D7227"
+					item: {
+						Count: 1b
+						id: "immersive_melodies:triangle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "65A88890B2679DF5"
+					item: {
+						Count: 1b
+						id: "immersive_melodies:trumpet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "108EB0F5CA0F59BC"
+					item: {
+						Count: 1b
+						id: "mcdw:crossbow_harp_crossbow"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:multishot"
+								lvl: 2s
+							}]
+						}
+					}
+					optional_task: true
+					title: "&eОпциональное оружие&7: Арбалет-арфа"
+					type: "item"
+				}
+			]
+			title: "&eКак бард"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"32AF5CAD14B2C8A7"
+				"0A1F7985832C6DB2"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Сложность:&a Легкая &7/&e Средняя &7(Как Бард)"
+				""
+				"&eЛедяная магия фокусируется на нанесении умеренного урона, а также предоставляет утилиту, такую как замедление врагов."
+				""
+				"&7Кроме Ледяной Силы, основное внимание уделяется &eСкорости Заклинаний&7, чтобы кастовать как можно быстрее. &eШанс Критического Урона и Урон&7 также являются хорошими характерисиками, но не являются приоритетом."
+			]
+			hide: true
+			id: "5814C5C80022A343"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "7B8A00D9A6E321DC"
+				title: "&eОткрыть III уровень"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eУровень II &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "758C69335DA5851B"
+					item: "wizards:frost_spell_book"
+					type: "item"
+				}
+				{
+					id: "4C2AD845F237C2B6"
+					item: {
+						Count: 1b
+						id: "wizards:staff_netherite_frost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61E8F8B8CD2AF605"
+					item: {
+						Count: 1b
+						id: "wizards:frost_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "763CB6FE9DE2F74D"
+					item: {
+						Count: 1b
+						id: "wizards:frost_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "334E3B659B2CD4EE"
+					item: {
+						Count: 1b
+						id: "wizards:frost_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "663E2B44F64512D4"
+					item: {
+						Count: 1b
+						id: "wizards:frost_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eПостигая лед"
+			x: 1.125d
+			y: 3.375d
+		}
+		{
+			dependencies: ["32AF5CAD14B2C8A7"]
+			description: [
+				"&6Сложность:&a Легкая"
+				""
+				"&eТайная магия — это элемент с высоким уроном, сосредоточенный на медленных, но мощных заклинаниях."
+				""
+				"&7Это самый взрывной из всех трех элементов. Фокусируется на &eКритическом Уроне&7, чтобы максимально увеличить урон от критических заклинаний. &eШанс Критического Удара&7 также важен, и сбалансированное сочетание обоих — хорошая идея."
+			]
+			hide: true
+			id: "74B7050CA824F281"
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "009652D33213EA69"
+				title: "&eОткрыть III уровень"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eУровень II &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "2E1A77BDFBBFA6D4"
+					item: "wizards:arcane_spell_book"
+					type: "item"
+				}
+				{
+					id: "132ACD232230B79B"
+					item: {
+						Count: 1b
+						id: "wizards:staff_netherite_arcane"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35767BCFF531FD94"
+					item: {
+						Count: 1b
+						id: "wizards:arcane_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36E36DE73E38C02A"
+					item: {
+						Count: 1b
+						id: "wizards:arcane_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61AB07E54E960DB0"
+					item: {
+						Count: 1b
+						id: "wizards:arcane_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77C619D2734ED9C5"
+					item: {
+						Count: 1b
+						id: "wizards:arcane_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eПостигая тайную магию"
+			x: -0.375d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4250485195720E02"]
+			description: [
+				"&6Сложность:&e Средняя"
+				""
+				"&7Ваше следующее улучшение, если вы выбрали путь Разбойника. Набор Ассасина дает +5% к скорости атаки за каждый предмет, что делает его идеальным для вашего билда."
+				""
+				"&eВыбор талантов"
+				""
+				"&7Основной приоритет — узлы Физического Урона и Скорости атаки. В качестве судьбы выберите &9Теневые приемы&7, так как они значительно увеличивают вашу Скорость атаки."
+			]
+			hide: true
+			id: "0002A96D1F886FB3"
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "1F2BC88A66254928"
+				title: "&eОткрыть III уровень руководства"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eУровень II &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "6CBFCA994BCDE8F3"
+					item: {
+						Count: 1b
+						id: "rogues:assassin_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60B452A91AB80D2A"
+					item: {
+						Count: 1b
+						id: "rogues:assassin_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B3122964C40D5C0"
+					item: {
+						Count: 1b
+						id: "rogues:assassin_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6554A462C34F2D01"
+					item: {
+						Count: 1b
+						id: "rogues:assassin_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eИскусный убийца"
+			x: -2.625d
+			y: 1.875d
+		}
+		{
+			dependencies: ["76196F8D435E0E5A"]
+			description: [
+				"&6Сложность:&a Легкая"
+				""
+				"&7Ваше следующее улучшение — Доспехи Следопыта, так как они дают наибольший Урон в дальнем бою, что полезно для вашего билда."
+				""
+				"&7Короткие луки или Быстрые Арбалеты — лучшие варианты для ДПС благодаря их высокой скорости натяжения тетивы."
+				""
+				"&eВыбор Талантов"
+				""
+				"&7Выбирайте все таланты на Урон в дальнем бою, а в качестве Судьбы получите &9Наследие Син'дорай."
+			]
+			hide: true
+			id: "18899F26D6DB2F47"
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "0A18E91ECC49CC06"
+				title: "&eОткрыть III уровень руководства"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eУровень II &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "2313360072A422CA"
+					item: {
+						Count: 1b
+						id: "archers:netherite_shortbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E8281191A6CF13A"
+					item: {
+						Count: 1b
+						id: "archers:netherite_rapid_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "00711CCC7DD7B0B7"
+					item: {
+						Count: 1b
+						id: "archers:ranger_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CC053A70ECDE946"
+					item: {
+						Count: 1b
+						id: "archers:ranger_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "501ADF7426D3B28B"
+					item: {
+						Count: 1b
+						id: "archers:ranger_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E42C1DF6ABAF7D4"
+					item: {
+						Count: 1b
+						id: "archers:ranger_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eБыстрое улучшение"
+			x: -3.0d
+			y: 1.125d
+		}
+		{
+			dependencies: ["76196F8D435E0E5A"]
+			description: [
+				"&6Сложность:&e Средняя"
+				""
+				"&7Ваше следующее улучшение — Доспехи Следопыта, так как они дают наибольший Урон в дальнем бою, что полезно для вашего билда."
+				""
+				"&7Длинные луки или Тяжёлые Арбалеты — лучшие варианты для Взрывного Урона благодаря их высокому урону. В качестве альтернативы можно использовать Завуалированный Арбалет для немного более быстрой скорости натяжения."
+				""
+				"&eВыбор Талантов"
+				""
+				"&7Выбирайте все таланты на Урон в дальнем бою, а в качестве Судьбы получите &9Наследие Син'дорай."
+			]
+			hide: true
+			id: "2D18A81E45594603"
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "41D13D855A8D00B9"
+				title: "&eОткрыть III уровень руководства"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eУровень II &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "19346C903BB29B45"
+					item: {
+						Count: 1b
+						id: "archers:ranger_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B5696718E0BA10E"
+					item: {
+						Count: 1b
+						id: "archers:ranger_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29BC538B6D6436F3"
+					item: {
+						Count: 1b
+						id: "archers:ranger_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "644442AE295ED11E"
+					item: {
+						Count: 1b
+						id: "archers:ranger_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F45D33474D2FC08"
+					item: {
+						Count: 1b
+						id: "archers:netherite_longbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11CA4D0FDFF886C8"
+					item: {
+						Count: 1b
+						id: "archers:netherite_heavy_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "459D7828B7778F5A"
+					item: {
+						Count: 1b
+						id: "mcdw:crossbow_veiled_crossbow"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "mcdw:shadow_shot"
+									lvl: 1s
+								}
+								{
+									id: "mcdw:shadow_barb"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eМедленное, но важное улучшение"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18899F26D6DB2F47"]
+			description: [
+				"&eСледующее улучшение получается после убийства Мутировавшего Скелета, чтобы получить его нагрудник."
+				""
+				"&7Что касается оружия, вы также можете улучшить свой Короткий Лук/Быстрый Арбалет. "
+				""
+				"&7Для аксессуаров возьмите соответствующее ожерелье и кольца."
+			]
+			hide: true
+			id: "22E0D946A9D81F02"
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "3361E447E08820C7"
+				title: "&eОткрыть IV  уровень руководства"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "0A97E4FEECF57F0E"
+					item: {
+						Count: 1b
+						id: "mutantmonsters:mutant_skeleton_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32939CDB080A22B8"
+					item: {
+						Count: 1b
+						id: "archers:crystal_shortbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "585D70DC4C15A36C"
+					item: {
+						Count: 1b
+						id: "archers:ruby_rapid_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28008F9D8EA90506"
+					item: "jewelry:unique_archer_ring"
+					type: "item"
+				}
+				{
+					id: "3CCB709F3C6092A6"
+					item: "jewelry:unique_archer_necklace"
+					type: "item"
+				}
+			]
+			title: "&eМутантное улучшение (DPS)"
+			x: -4.125d
+			y: 1.125d
+		}
+		{
+			dependencies: ["2D18A81E45594603"]
+			description: [
+				"&eСледующее улучшение — получение более мощного оружия, ориентированного на взрывной урон."
+				""
+				"&7Вам следует улучшиться до Кристального Длинного Лука / Рубинового Тяжелого Арбалета."
+				""
+				"&7Для аксессуаров возьмите соответствующее ожерелье и кольца."
+			]
+			hide: true
+			id: "43C641771CB69C88"
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "36C8B0067D57D0B4"
+				title: "&eОткрыть IV  уровень руководства"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "3D597CEF74187A82"
+					item: {
+						Count: 1b
+						id: "archers:crystal_longbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26453CB050FF0316"
+					item: {
+						Count: 1b
+						id: "archers:ruby_heavy_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "726A625237182553"
+					item: "jewelry:unique_archer_necklace"
+					type: "item"
+				}
+				{
+					id: "4108AA9D320D75B1"
+					item: "jewelry:unique_archer_ring"
+					type: "item"
+				}
+			]
+			title: "&eТяжелое улучшение (Бурст)"
+			x: -4.125d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"073F2420FA2EF9B1"
+				"0A1F7985832C6DB2"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Сложность:&e Средняя &7/ &cВысокая &7(Как Бард)"
+				""
+				"&7В качестве улучшения вы можете получить набор Приора, который увеличивает вашу Исцеляющую силу в процентах, а не фиксировано, усиливая Исцеляющую силу вашего Посоха."
+			]
+			hide: true
+			id: "3D78B8D241B53C2A"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "4A533E3437729B92"
+				title: "&eОткрыть III уровень руководства"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eУровень II &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "65FCDBF3D31E3A54"
+					item: {
+						Count: 1b
+						id: "paladins:prior_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3578246741F3AF01"
+					item: {
+						Count: 1b
+						id: "paladins:prior_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B9D0760A4DE911C"
+					item: {
+						Count: 1b
+						id: "paladins:prior_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "359D43F1FDCB0A65"
+					item: {
+						Count: 1b
+						id: "paladins:prior_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10C3DF770B3C85BE"
+					item: {
+						Count: 1b
+						id: "paladins:netherite_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eПриор"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"22E0D946A9D81F02"
+				"43C641771CB69C88"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&dПусть звезды ведут тебя, охотник."
+				""
+				"&7На IV уровне вам следует получить артефакт &6Орион&7, так как это единственный артефакт-лук."
+				""
+				"&eВарианты Книг Заклинаний"
+				"&7Вы также можете выбрать одну из трех книг заклинаний, которые напрямую взаимодействуют с Орионом в зависимости от его ветки улучшений;"
+				"- &bУжас Минтаки"
+				"- &cВзор Альнилама"
+				"- &6Мощь Альнитака"
+			]
+			hide: true
+			id: "1079F098AE98FCF6"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "23D1791923D2A96C"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cУровень IV &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "1B154C7824A4877A"
+					item: {
+						Count: 1b
+						id: "archers:netherite_ranger_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "543E865FF18CF317"
+					item: {
+						Count: 1b
+						id: "archers:netherite_ranger_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F344081EA393881"
+					item: {
+						Count: 1b
+						id: "archers:netherite_ranger_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6605EB1DB10EE660"
+					item: {
+						Count: 1b
+						id: "archers:netherite_ranger_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12E8E2647965891C"
+					item: "prominent:orion"
+					title: "&6Опция артефакта: &eОрион, Охотник за звездами"
+					type: "item"
+				}
+				{
+					id: "67E86244246E6A0C"
+					item: "archers_expansion:tundra_hunter_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E9F222F8A68F062"
+					item: "archers_expansion:deadeye_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "702A8F0BFE4AF1E2"
+					item: "archers_expansion:war_archer_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&6Наследие охотника"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32AF5CAD14B2C8A7"]
+			description: [
+				"&6Сложность:&a Легко"
+				""
+				"&eОгонь — это элемент с высоким уроном, который не дает дополнительной утилиты, но обеспечивает очень высокий урон с упором на высокий шанс критического удара."
+				""
+				"&7Как огненный маг, вы наносите высокий постоянный урон, но у вас мало вариантов взрывного урона. Чтобы компенсировать это, вы можете сосредоточиться на &eКритическом Уроне&7, но вашим главным приоритетом должен быть &eШанс Критического Удара&7, чтобы делать криты как можно чаще."
+			]
+			hide: true
+			id: "4DEDEC176C36CFD0"
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "05CA9018461B5A4B"
+				title: "&eОткрыть III уровень"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eУровень II &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "56952CF559FE81DF"
+					item: "wizards:fire_spell_book"
+					type: "item"
+				}
+				{
+					id: "7C69DACDA816EE79"
+					item: {
+						Count: 1b
+						id: "wizards:staff_netherite_fire"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "459BBBAB550600AC"
+					item: {
+						Count: 1b
+						id: "wizards:fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D33E13D41AA3314"
+					item: {
+						Count: 1b
+						id: "wizards:fire_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BEED45BC95596FB"
+					item: {
+						Count: 1b
+						id: "wizards:fire_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38ACB00D4A357F20"
+					item: {
+						Count: 1b
+						id: "wizards:fire_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eПостигая огонь"
+			x: 0.375d
+			y: 3.75d
+		}
+		{
+			dependencies: ["57B71888F2B87995"]
+			description: [
+				"&6Сложность:&a Легко &7/ &eСредне"
+				""
+				"&7Ваше следующее улучшение как танка — переход с алмазной брони на незеритовую."
+				""
+				"&eВыбор талантов"
+				"&7Вы можете выбрать &9Молоты правосудия&7 для большего урона или &9Костяную Броню&7 для чистого сопротивления с провокацией."
+				""
+				"&7Что касается Судьбы, вашим основным выбором всегда должно быть &9Благословение С'келлака&7."
+			]
+			hide: true
+			id: "4B450D0E26363D54"
+			rewards: [
+				{
+					count: 16
+					id: "7C2026ED6CAC4D58"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "1664C3677A95C8A1"
+					title: "&eОткрыть III уровень руководства"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eУровень II &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "0610720EC628217C"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29535C21FB9F6FC4"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DCC25069B4DF0C6"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B1F49743156A5F4"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2837E131ADC9C3C7"
+					item: {
+						Count: 1b
+						id: "paladins:netherite_kite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eКлюч к выносливости"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B450D0E26363D54"]
+			description: [
+				"&6Сложность:&a Легко"
+				""
+				"&7Незеритово-алмазная броня будет вашим предпочтительным улучшением от незерита, чтобы затем перейти к сапфировой."
+				""
+				"&eАльтернатива"
+				"&7Если вы предпочитаете больше брони с немного большим количеством здоровья, чем у сапфира, но с более низкой броней, вы можете создать &7Броню Стража&7, но это зависит от предпочтений."
+			]
+			hide: true
+			id: "42068E429EB7B74F"
+			rewards: [
+				{
+					count: 16
+					id: "04DF88CA29FA1498"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "309783E783EB0E8B"
+					title: "&eОткрыть IV  уровень руководства"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "02099611A2B1A294"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D09F2F7F67BB211"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BD3CCF50342D71B"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03FC14F28F5D6914"
+					item: {
+						Count: 1b
+						id: "advancednetherite:netherite_diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E0DEDC13254DF93"
+					item: "jewelry:unique_tank_ring"
+					type: "item"
+				}
+				{
+					id: "5D9069FA94D2EEE4"
+					item: "jewelry:unique_tank_necklace"
+					type: "item"
+				}
+			]
+			title: "&eЕще более закаленный?"
+			x: 3.375d
+			y: -0.375d
+		}
+		{
+			dependencies: [
+				"42068E429EB7B74F"
+				"4CF644BC0920C177"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7Сапфировая броня — это прямое улучшение от Алмазно-незеритовой брони, она имеет меньше общей брони, но предоставляет +20 Максимального Здоровья за каждую часть и пассивку, отражающую урон, получаемый вами."
+				""
+				"- &eАльтернативы"
+				"&7Если вы предпочитаете броню с немного большим количеством здоровья, чем у сапфира, но с более низкой броней, вы можете создать &7Броню Стража&7, но это зависит от предпочтений."
+				"&eТопазовая броня&7 также является альтернативой, так как, хотя она не предоставляет здоровья, она дает самую высокую броню с усилением и ту же самую броню, что и броня Стража."
+			]
+			hide: true
+			id: "080F23071FA8CFC9"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "6F7AA60792E047F5"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cУровень IV &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "3B9A27A979E70E11"
+					item: {
+						Count: 1b
+						id: "mythicupgrades:sapphire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65443C59FC715DF0"
+					item: {
+						Count: 1b
+						id: "mythicupgrades:sapphire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31ED630D7CF605E0"
+					item: {
+						Count: 1b
+						id: "mythicupgrades:sapphire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72187D782F7CAD6C"
+					item: {
+						Count: 1b
+						id: "mythicupgrades:sapphire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BDBEBA46642A85A"
+					item: {
+						Count: 1b
+						id: "prominent:fyralath"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eОпция артефакта: &6Фир'Алат &e(Борец)"
+					type: "item"
+				}
+				{
+					id: "1519A8729A6F8854"
+					item: {
+						Count: 1b
+						id: "prominent:frostmourne"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eОпция артефакта: &6Ледяная Скорбь &e(Рыцарь Смерти)"
+					type: "item"
+				}
+				{
+					id: "60B3A4B08E3A36A6"
+					item: "prominent:vaazkar"
+					title: "&eОпция артефакта: &6Ваазкар &e(Танк)"
+					type: "item"
+				}
+			]
+			title: "&6Лишь чуточку труднее"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D78B8D241B53C2A"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Сложность:&e Средняя &7/ &cТрудная &7(Как Бард)"
+				""
+				"&7Улучшение вашего Святого Посоха является важным шагом перед переходом к вашему Артефактному Оружию."
+			]
+			hide: true
+			id: "59C45FA337989B0C"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "7553FEA7E0612654"
+				title: "&eОткрыть IV  уровень руководства"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "0C642D20C079F5C7"
+					item: {
+						Count: 1b
+						id: "paladins:ruby_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11DC29E0CB3D1AA7"
+					item: "jewelry:unique_healing_ring"
+					type: "item"
+				}
+				{
+					id: "405FE4976810273E"
+					item: "jewelry:unique_healing_necklace"
+					type: "item"
+				}
+			]
+			title: "&eСвященный Рубин"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["59C45FA337989B0C"]
+			dependency_requirement: "one_completed"
+			description: ["&7Получите &9Артефактное Оружие Экалара&7 и используйте его Дерево Улучшений, чтобы развить его в &eАд'анель, Тайна Айн&7."]
+			hide: true
+			id: "5728EF143DC9B7DB"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "1A808A37E17EACEF"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cУровень IV &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "3D7208463E97F22F"
+					item: {
+						Count: 1b
+						id: "prominent:ekavar_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A22AC684642D5D3"
+					item: {
+						Count: 1b
+						id: "paladins:netherite_prior_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AACD44289F7CC03"
+					item: {
+						Count: 1b
+						id: "paladins:netherite_prior_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CE5FAEC767F8D97"
+					item: {
+						Count: 1b
+						id: "paladins:netherite_prior_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BD15B397B162AE0"
+					item: {
+						Count: 1b
+						id: "paladins:netherite_prior_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Секрет Айна"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5814C5C80022A343"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Сложность:&a Легко &7/&e Средне &7(Как Барду)"
+				""
+				"- &eВыбор талантов"
+				"&7Теперь, когда вы достигли достаточного уровня, чтобы получить талант Судьбы, вы должны выбрать &9Ледяного Архмага&7 прежде всего."
+			]
+			hide: true
+			id: "71EDD24DAB210B44"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "5567D2897EB9E780"
+				title: "&eОткрыть IV уровень"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "3ED62E8F96814510"
+					item: {
+						Count: 1b
+						id: "wizards:staff_smaragdant_frost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0175551E00536B1A"
+					item: "jewelry:unique_frost_ring"
+					type: "item"
+				}
+				{
+					id: "00B0D161FFBB6BB0"
+					item: "jewelry:unique_frost_necklace"
+					type: "item"
+				}
+			]
+			title: "&eИзумрудный Артефакт"
+			x: 1.125d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4DEDEC176C36CFD0"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Сложность:&a Легко"
+				""
+				"- &eВыбор талантов"
+				"&7Теперь, когда вы достигли достаточного уровня, чтобы получить талант Судьбы, вы должны выбрать &9Огненного Архмага&7 прежде всего."
+			]
+			hide: true
+			id: "0F83B1AC3CB766C9"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "627F3071A8CB5709"
+				title: "&eОткрыть IV уровень"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "7BF684560B170F7C"
+					item: {
+						Count: 1b
+						id: "wizards:staff_ruby_fire"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73AEA1630F2A905F"
+					item: "jewelry:unique_fire_ring"
+					type: "item"
+				}
+				{
+					id: "04E4F646F30E2E8A"
+					item: "jewelry:unique_fire_necklace"
+					type: "item"
+				}
+			]
+			title: "&eРубин, что горит"
+			x: 0.375d
+			y: 4.875d
+		}
+		{
+			dependencies: ["74B7050CA824F281"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Сложность:&a Легко"
+				""
+				"- &eВыбор талантов"
+				"&7Теперь, когда вы достигли достаточного уровня, чтобы получить талант Судьбы, вы должны выбрать &9Арканного Архмага&7 прежде всего."
+			]
+			hide: true
+			id: "6399A78B0AF2BCAE"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "0F50E6150CD7445F"
+				title: "&eОткрыть IV уровень"
+				type: "custom"
+			}]
+			shape: "circle"
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "2ADC7596FC7E13CC"
+					item: {
+						Count: 1b
+						id: "wizards:staff_crystal_arcane"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50E0848B1DD65A59"
+					item: "jewelry:unique_arcane_ring"
+					type: "item"
+				}
+				{
+					id: "741600F9A41BCE51"
+					item: "jewelry:unique_arcane_necklace"
+					type: "item"
+				}
+			]
+			title: "&eЗагадочные кристаллы"
+			x: -0.375d
+			y: 4.875d
+		}
+		{
+			dependencies: ["4898E3ED8141DAFC"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Сложность:&e Средне &7/ &cТрудно &7(Аш'едар)"
+				""
+				"&7Набор Магуса — ваше следующее улучшение для брони, создаваемое из дропов Магуса, рекомендуется для уровня 50 и выше, так как Магус является боссом II главы."
+				""
+				"&7Шляпа Магийного Стража может быть использована, если вы хотите отдать приоритет критическому урону."
+				""
+				"&eВыбор артефактов"
+				"&7Множество артефактов могут быть использованы в качестве заклинателей, так как большинство из них также предоставляют определённую магическую силу. Для огня у вас есть &6А'зар&7. Для льда — &6Ледяная Скорбь&7. Для огня \\& тайной магии — &6Аш'эдар&7, и наконец, для Астрала — &6Сверхновая&7."
+			]
+			hide: true
+			id: "0DFD6849156C0709"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "780BEB98A98EEC11"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cУровень IV &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "2BD7D9868A4DE3C5"
+					item: {
+						Count: 1b
+						id: "spellbladenext:magus_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4868CA287BD86545"
+					item: {
+						Count: 1b
+						id: "spellbladenext:magus_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A636C23E9F492B1"
+					item: {
+						Count: 1b
+						id: "spellbladenext:magus_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C35C7599985640B"
+					item: {
+						Count: 1b
+						id: "spellbladenext:magus_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40508F32A11A73AD"
+					item: {
+						Count: 1b
+						id: "prominent:supernova"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eОпция артефакта: &6Сверхновая &e(Астральная сила)"
+					type: "item"
+				}
+				{
+					id: "390C7D7FD95CDD00"
+					item: "prominent:ashedar_essence"
+					match_nbt: false
+					optional_task: true
+					title: "&eОпция артефакта: &6Аш'эдар &e(Огонь \\& Тайная магия)"
+					type: "item"
+				}
+				{
+					id: "658142AF4622B6D9"
+					item: {
+						Count: 1b
+						id: "prominent:azhar"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eОпция артефакта: &6А'зар &e(Душевный огонь)"
+					type: "item"
+				}
+				{
+					id: "68FEBA665489253A"
+					item: {
+						Count: 1b
+						id: "prominent:frostmourne"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eОпция артефакта: &6Ледяная Скорбь &e(Лед)"
+					type: "item"
+				}
+				{
+					id: "28C2343C4343EC34"
+					item: {
+						Count: 1b
+						id: "spellbladenext:frozen_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "&eАльтернативная шляпа: &7Шляпа искателя магов &e(Критический урон заклинаний)"
+					type: "item"
+				}
+			]
+			title: "&6Выкован звездами"
+			x: -4.132142857142867d
+			y: 3.642857142857139d
+		}
+		{
+			dependencies: [
+				"0F83B1AC3CB766C9"
+				"71EDD24DAB210B44"
+				"2A4B84F063C78B09"
+				"6399A78B0AF2BCAE"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eПоследний выбор для всех магов — Эквар, Великий Посох Пепельного Камня."
+				""
+				"&7Сложность будет зависеть от того, какой Заклинательную Книгу вы выбрали на III уровне."
+			]
+			hide: true
+			id: "01F49526727B35F1"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "0F7C0A36A72724D5"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cУровень IV &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "5E7CDB8B53AE46A6"
+					item: {
+						Count: 1b
+						id: "prominent:ekavar_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02932AA3D096AABA"
+					item: {
+						Count: 1b
+						id: "wizards:netherite_arcane_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79D1A56FFB55E37F"
+					item: {
+						Count: 1b
+						id: "wizards:netherite_fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5A5B42DEFF31212E"
+					item: {
+						Count: 1b
+						id: "wizards:netherite_frost_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&6Великий Посох"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["09CE7EB3045D5136"]
+			description: [
+				"&6Сложность:&e Средний &7/ &cТрудный &7(Ash'edar)"
+				""
+				"&7Ваше следующее улучшение для Магического клинка — это Рунные доспехи, а также альтернативные заклинательные книги."
+			]
+			hide: true
+			id: "4898E3ED8141DAFC"
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "2CA26DA2B863BBDB"
+				title: "&eОткрыть IV  уровень руководства"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "39938277BAE69746"
+					item: {
+						Count: 1b
+						id: "spellbladenext:runegleaming_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "388A94E4FC7172E6"
+					item: {
+						Count: 1b
+						id: "spellbladenext:runefrosted_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63CB1C58C68ED7B6"
+					item: {
+						Count: 1b
+						id: "spellbladenext:runeblazing_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "277C70D4B38B811F"
+					item: "spellbladenext:phoenix_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AFF23EEB391A75B"
+					item: "spellbladenext:runic_echoes_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28D8605EB4070B4D"
+					item: "spellbladenext:deathchill_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eМерцающее, но застывшее пламя"
+			x: -4.125d
+			y: 2.625d
+		}
+		{
+			dependencies: ["32AF5CAD14B2C8A7"]
+			description: [
+				"&6Сложность:&c Трудный"
+				""
+				"&eЭлементарные Волшебники владеют тремя элементами: Огнем, Льдом и Тайной магии."
+				""
+				"&7Ваш урон не будет таким высоким, как у посвященного мага, но вы будете очень универсальны и позднее получите возможность кастовать несколько элементов одновременно, что называется &dАстральной Магией&7."
+			]
+			hide: true
+			id: "0A4309730B50D9FF"
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "593E54EFAB17BCD2"
+				title: "&eОткрыть III уровень"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eУровень II &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [{
+				id: "7A736CD3205D2748"
+				item: {
+					Count: 1b
+					id: "wizards:staff_wizard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&eЭлементальный маг"
+			x: -1.125d
+			y: 3.375d
+		}
+		{
+			dependencies: ["36B7ACAA73589366"]
+			description: [
+				"&6Сложность:&a Легкий"
+				""
+				"&eВоины — это ближние бойцы, которые наносят медленные, но сильные удары."
+				""
+				"&7Они являются примером класса \"Взрывного урона\"; хотя их удары медленные, их урон будет высоким, но не таким стабильным, как у класса DPS."
+			]
+			hide: true
+			id: "5F05B907376828B4"
+			rewards: [
+				{
+					id: "238E240A6DF2EAA5"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "244D909F51F1F588"
+					title: "&eОткрыть III уровень руководства"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Уровень I &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "10858C192A21EF7E"
+					item: {
+						Count: 1b
+						id: "rogues:berserker_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01B796C89163927E"
+					item: {
+						Count: 1b
+						id: "rogues:berserker_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "427A6F6C8E418C1C"
+					item: {
+						Count: 1b
+						id: "rogues:berserker_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AC0768320EC60FE"
+					item: {
+						Count: 1b
+						id: "rogues:berserker_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eПуть берсерка"
+			x: -2.625d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5F05B907376828B4"]
+			description: [
+				"&eВоины — это ближние бойцы, которые наносят медленные, но сильные удары."
+				""
+				"&7Они являются примером класса \"Взрывного урона\"; хотя их удары медленные, их урон будет высоким, но не таким стабильным, как у класса DPS."
+			]
+			hide: true
+			id: "34D8C4E35FD1D7A4"
+			rewards: [
+				{
+					id: "387374FEB26537C7"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "6AE781C23ABEE36A"
+					title: "&eОткрыть III уровень руководства"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "13FB88C958CFAD8B"
+					item: {
+						Count: 1b
+						id: "mcda:dark_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4587A1C14998CCBA"
+					item: {
+						Count: 1b
+						id: "mcda:dark_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A03A0F74DFE9B50"
+					item: {
+						Count: 1b
+						id: "mcda:dark_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03A675FA7C32C98F"
+					item: {
+						Count: 1b
+						id: "mcda:dark_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43994E81B4A1DCAB"
+					item: "jewelry:unique_attack_ring"
+					type: "item"
+				}
+				{
+					id: "4438AE699E6E8E72"
+					item: "jewelry:unique_attack_necklace"
+					type: "item"
+				}
+			]
+			title: "&eСкоро Темный Лорд"
+			x: -4.125d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0002A96D1F886FB3"]
+			description: [
+				"&6Сложность: &eСредняя"
+				""
+				"&7Souldancer становится вашим следующим улучшением после Ассасина, так как оно предоставляет наибшее количество скорости атаки среди всех комплектов брони этого уровня."
+				""
+				"&eАльтернатива"
+				"&7Альтернативным путём для Разбойника является Монах, использующий кулаковые оружия. Для таких билдов можно получить Кулак Ярости."
+			]
+			hide: true
+			id: "40C4C4072277E160"
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "331708492CC28876"
+				title: "&eОткрыть III уровень руководства"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					consume_items: false
+					id: "19EF118E1C05D21C"
+					item: {
+						Count: 1b
+						id: "archon:fist_of_fury"
+						tag: {
+							Damage: 0
+							archon: { }
+						}
+					}
+					optional_task: true
+					title: "&eПуть монаха: &7Кулаки Ярости"
+					type: "item"
+				}
+				{
+					id: "14BCCCCFF5596C12"
+					item: "jewelry:unique_dex_ring"
+					type: "item"
+				}
+				{
+					id: "428E616B56EB901E"
+					item: "jewelry:unique_dex_necklace"
+					type: "item"
+				}
+			]
+			title: "&eПоспешный танец"
+			x: -4.125d
+			y: 1.875d
+		}
+		{
+			dependencies: ["36B7ACAA73589366"]
+			description: [
+				"&6Сложность: &eСредняя &7/ &cТрудная&7"
+				""
+				"&eРыцари Смерти — это воины, которые откликнулись на Зов Смерти."
+				""
+				"&7Они могут быть сосредоточены на высокой скорости атаки DPS (Лёд), или на бурстовом уроне и AoE (Нечестивый)."
+				"&7Их основное оружие — Рунные Мечи, так как они предоставляют все три силы Рыцаря Смерти."
+				""
+				"&eА кто третий?"
+				"&7Третий тип Рыцаря Смерти — это Кровь. Это танк, поэтому он не включён в этот путь. Если вам это интересно, следуйте по Пути Защитника."
+			]
+			hide: true
+			id: "3A72E538D2A5B20C"
+			rewards: [
+				{
+					id: "0C6B22AE469862B0"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "7589CF9AA012B9BC"
+					title: "&eОткрыть III уровень руководства"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eУровень II &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "301E199F256584F4"
+					item: {
+						Count: 1b
+						id: "death_knights:initiate_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F19462FB1D6A522"
+					item: {
+						Count: 1b
+						id: "death_knights:initiate_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33FEFD41EF618745"
+					item: {
+						Count: 1b
+						id: "death_knights:initiate_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C498B05ED087681"
+					item: {
+						Count: 1b
+						id: "death_knights:initiate_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4759AEDE88114156"
+					item: {
+						Count: 1b
+						id: "death_knights:diamond_runeblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33381AFD51B1899E"
+					item: {
+						Count: 1b
+						id: "death_knights:great_diamond_runeblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eРыцарь Смерти"
+			x: -2.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A72E538D2A5B20C"]
+			description: [
+				"&6Сложность:&e Средняя &7/ &cТрудная&7 (Всадник)"
+				""
+				"&eНечестивые Рыцари Смерти — это класс, ориентированный на бурст урон и AoE."
+				""
+				"&7Ваши предпочтительные оружия — двуручные Великие Рунные Мечи. Для брони выберите сет Мучителя Чумы, который вы будете использовать на будущих уровнях."
+			]
+			hide: true
+			id: "75E616FE0AAF9EF5"
+			rewards: [
+				{
+					id: "03DE2BE0C439DE80"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "73A40314C407F28B"
+					title: "&eОткрыть III уровень руководства"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "11E55B3701983086"
+					item: "death_knights:unholy_spell_book"
+					type: "item"
+				}
+				{
+					id: "1323F85F0824F095"
+					item: {
+						Count: 1b
+						id: "death_knights:plaguebringer_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "169E5257AA5DF53C"
+					item: {
+						Count: 1b
+						id: "death_knights:plaguebringer_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DE453EC1DDD06D4"
+					item: {
+						Count: 1b
+						id: "death_knights:plaguebringer_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A6E81A0A9254B68"
+					item: {
+						Count: 1b
+						id: "death_knights:plaguebringer_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79D75260EA6D5804"
+					item: "death_knights:unholy_dk_ring"
+					type: "item"
+				}
+				{
+					id: "4619573E4498BEF1"
+					item: "death_knights:unholy_dk_necklace"
+					type: "item"
+				}
+			]
+			title: "&eНечестивая преданность"
+			x: -3.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["3A72E538D2A5B20C"]
+			description: [
+				"&6Сложность:&e Средняя &7/ &cТрудная&7 (Дыхание)"
+				""
+				"&eЛедяные Рыцари Смерти — это DPS-сборки, которые наносят смесь физического и ледяного урона."
+				""
+				"&7Ваши предпочтительные оружия — одноручные Рунные Мечи, а для брони выберите сет Замороженного Чемпиона, который вы будете использовать на будущих уровнях."
+			]
+			hide: true
+			id: "3B1F2D1CFA02F922"
+			rewards: [
+				{
+					id: "693641A763B1318C"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "0B62C850AEED495B"
+					title: "&eОткрыть III уровень руководства"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "16242E0DE37D3E2A"
+					item: "death_knights:frost_spell_book"
+					type: "item"
+				}
+				{
+					id: "413979489FB1F99F"
+					item: {
+						Count: 1b
+						id: "death_knights:frozen_champion_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "438DC5CBDE64E489"
+					item: {
+						Count: 1b
+						id: "death_knights:frozen_champion_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39356F2DBCA12691"
+					item: {
+						Count: 1b
+						id: "death_knights:frozen_champion_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EE0821B7E16CC9C"
+					item: {
+						Count: 1b
+						id: "death_knights:frozen_champion_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05519A6AEB9F52B6"
+					item: {
+						Count: 1b
+						id: "death_knights:aeternium_runeblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77A66DAA796DBF82"
+					item: "death_knights:frost_dk_ring"
+					type: "item"
+				}
+				{
+					id: "6D4A98968A46AC3D"
+					item: "death_knights:frost_dk_necklace"
+					type: "item"
+				}
+			]
+			title: "&eПреданность льду"
+			x: -3.375d
+			y: -1.875d
+		}
+		{
+			dependencies: [
+				"75E616FE0AAF9EF5"
+				"3B1F2D1CFA02F922"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7Для брони улучшите ее до уровня незерита, так как она будет лучшей для урона и защиты."
+				""
+				"&eАртефакты"
+				"&6Ледяная Скорбь&7 создан для Рыцарей Смерти, что делает его лучшим выбором для любой сборки Рыцаря Смерти."
+			]
+			hide: true
+			id: "1F1202929D2C5195"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "5C9320E15A5F1B66"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cУровень IV &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "7B49C7D7CEA608F9"
+					item: {
+						Count: 1b
+						id: "prominent:frostmourne"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F860E7A21105E90"
+					item: {
+						Count: 1b
+						id: "death_knights:icebound_knight_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7E0BB9D906AA006A"
+					item: {
+						Count: 1b
+						id: "death_knights:plaguebringer_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&6Траурный клинок"
+			x: -4.124999999999993d
+			y: -2.5357142857142705d
+		}
+		{
+			dependencies: ["4B450D0E26363D54"]
+			description: [
+				"&6Сложность:&e Средняя"
+				""
+				"&eРыцарь Смерти Крови имеют меньше защиты, но высокий запас здоровья и способность к самовосстановлению."
+				""
+				"&7Это альтернативный путь для тех, кто не хочет полностью защищаться, а вместо этого сосредотачивается на поддержке себя с помощью Тома вампирских знаний."
+			]
+			hide: true
+			id: "4CF644BC0920C177"
+			rewards: [
+				{
+					count: 16
+					id: "75214764AF713411"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "2E6A420A1EE4E09D"
+					title: "&eОткрыть IV  уровень руководства"
+					type: "custom"
+				}
+				{
+					count: 16
+					id: "7AFA2A2C3FEBDB01"
+					item: "death_knights:blood_stone"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "6355C1049705E699"
+					item: "death_knights:blood_spell_book"
+					type: "item"
+				}
+				{
+					id: "3817D7122445295D"
+					item: {
+						Count: 1b
+						id: "death_knights:great_ruby_runeaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "448F68013E78AF6F"
+					item: "death_knights:blood_dk_ring"
+					type: "item"
+				}
+				{
+					id: "165411CEF4A0190C"
+					item: "death_knights:blood_dk_necklace"
+					type: "item"
+				}
+				{
+					id: "7F877107BCC2176A"
+					item: {
+						Count: 1b
+						id: "death_knights:crimson_knight_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "094B106B9F770F30"
+					item: {
+						Count: 1b
+						id: "death_knights:crimson_knight_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B86CE99AD823295"
+					item: {
+						Count: 1b
+						id: "death_knights:crimson_knight_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "525C7DEFBB9650A6"
+					item: {
+						Count: 1b
+						id: "death_knights:crimson_knight_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eКровавая преданность"
+			x: 3.0d
+			y: -1.125d
+		}
+		{
+			dependencies: [
+				"40C4C4072277E160"
+				"4898E3ED8141DAFC"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Сложность:&e Средняя"
+				""
+				"&eВыбор Артефактов"
+				"&7Для выбора артефакта у вас есть &6Ярость Тысячи Ударов&7 для монашеских сборок, или &6Аш'эдар&7 для воинов с мечом. Артефакт-кинжал появится в будущем."
+			]
+			hide: true
+			id: "53391B7A86496FCB"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "34AFE2440701E126"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cУровень IV &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "6D9D9481130AA919"
+					item: {
+						Count: 1b
+						id: "prominent:fury_of_a_thousand_fists"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eОпция артефакта: &6Ярость Тысячи Ударов &e(Пусть монаха)"
+					type: "item"
+				}
+				{
+					id: "07CAC3E8AAA5C765"
+					item: "prominent:ashedar_essence"
+					optional_task: true
+					title: "&eОпция артефакта: &6Аш'эдар &e(Разбойник с мечом)"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "accessories:textures/gui/group/unknown.png"
+						}
+					}
+					id: "427032B27502390C"
+					optional_task: true
+					title: "&eОпция артефакта: &6СКОРО(КЛИНОК) &e(Разбойник-убийца)"
+					type: "custom"
+				}
+				{
+					id: "1095B6816693242F"
+					item: {
+						Count: 1b
+						id: "mcda:souldancer_robe_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25A44A4646F5754A"
+					item: {
+						Count: 1b
+						id: "mcda:souldancer_robe_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E986DBE97C6A526"
+					item: {
+						Count: 1b
+						id: "mcda:souldancer_robe_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12F59EBA7E872C0C"
+					item: {
+						Count: 1b
+						id: "mcda:souldancer_robe_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Головорез"
+			x: -4.982142857142854d
+			y: 2.1785714285714377d
+		}
+		{
+			dependencies: ["34D8C4E35FD1D7A4"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eТитановый Шлейф &7является вашей предпочтительной броней, поскольку он обладает самым высоким показателем &6Физического Урона&7, который является вашим главным приоритетом."
+				""
+				"&7Для выбора артефакта &6Громогнев&7 является лучшим, поскольку он напрямую взаимодействует с судьбой &9Преданность Воина&7."
+				""
+				"- &eАльтернатива"
+				"&7Вы также можете создать &eБроню Героя&7 в качестве альтернативы, так как она предоставляет &eСилу Молнии&7, которая в зависимости от улучшения вашего Громогнева может быть вам полезна."
+			]
+			hide: true
+			id: "6A594976300D5DCC"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "3C6BCB52D195EE75"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cУровень IV &8- [Нажмите, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "0ADE139E6E4D04D6"
+					item: {
+						Count: 1b
+						id: "prominent:thunderwrath"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5057F08B49B2BCD2"
+					item: {
+						Count: 1b
+						id: "mcda:titans_shroud_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20F8871AA234CF03"
+					item: {
+						Count: 1b
+						id: "mcda:titans_shroud_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F50DDDE1D6F5E08"
+					item: {
+						Count: 1b
+						id: "mcda:titans_shroud_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "149F950ED33D3C10"
+					item: {
+						Count: 1b
+						id: "mcda:titans_shroud_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Титан"
+			x: -4.982142857142854d
+			y: -1.3214285714285552d
+		}
+		{
+			dependencies: [
+				"53391B7A86496FCB"
+				"0DFD6849156C0709"
+				"01F49526727B35F1"
+				"1F1202929D2C5195"
+				"080F23071FA8CFC9"
+				"6A594976300D5DCC"
+				"5728EF143DC9B7DB"
+				"1079F098AE98FCF6"
+			]
+			description: ["&eДостаточно знаний, чтобы понять все сборки четвертого уровня. Хорошая работа."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "emi_loot:textures/gui/sword_diamond.png"
+				}
+			}
+			id: "74BA5C6954FEFCE8"
+			invisible: true
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftblibrary:icons/info"
+					}
+				}
+				id: "56AA5E5504D0E336"
+				title: "&eПодсказка:&7 Вы освоили сборки, но что насчёт ваших артефактов? Попробуйте выполнить несколько Мифических Испытаний с ними."
+				type: "custom"
+			}]
+			shape: "hexagon"
+			size: 1.35d
+			subtitle: "&6Вечные испытания"
+			tasks: [{
+				id: "1D0941FC33737AEB"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&dМастер всех сборок"
+			x: 3.5d
+			y: 3.0d
+		}
+	]
+	title: " &eБой \\& Снаряжение"
+}

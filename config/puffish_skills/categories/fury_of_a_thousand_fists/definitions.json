@@ -1,0 +1,109 @@
+{
+	"fyrdmg+5": {
+		"title": "§f\uF943 §6+2% §7Урона, наносимого §6Ярость Тысячи Ударов§7 и §3+3%§7 Сила Заклинаний Души.",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "prominent:fury_of_a_thousand_fists"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_damage",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:soul",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"maxhealth+5": {
+		"title": "§f\uF944 §e+3% §7Скорости атаки и §6+2% §7Огненная Сила Заклинаний",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "archon:fist_of_fury"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"infusion_corruption": {
+		"title": "§f\uF940 §9Кулак Пустоты",
+		"description": "§7Каждый раз, нанося урон от силы души, вы увеличиваете его от показателей порчи\n \n§f\uA998 §9+20§7 Порчи",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "eldritch_end:textures/icon/corruption.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3krb"
+		}
+	}
+}

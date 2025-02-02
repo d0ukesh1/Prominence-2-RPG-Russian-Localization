@@ -1,0 +1,218 @@
+{
+	"damage": {
+		"title": "\uF943 §6+5% §7Урона, наносимого Ледяной Скорбью и способностями Рыцарей Смерти",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/frost.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_damage",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+
+
+	"atkspeed": {
+		"title": "§f\uF944 §6+10% §7Скорости атаки",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/attack.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "iuz98xp1xuxsssdv"
+		}
+	},
+
+
+	"frost_inc": {
+		"title": "§f\uF944 §6+5% §7Скорости атаки",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/attack.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "iuz98xp1xuxsssdv"
+		}
+	},
+
+
+
+
+
+	"infusion_etyr": {
+		"title": "§f鹿 §cУчение Син'дорай",
+		"description": "§7Наполняет Ледяную Скорбь кровавыми рунами Этира, повышающими сопротивляемость эффектам порчи.\n \n§f\uAB01 §2+20 §7ед. Сопротивления к Порче\n§f\uF953 §c+5 §7Сила Заклинания Крови",
+		"size": 1.25,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "death_knights:textures/item/runes/blood_stone.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption_resistance",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eternal_attributes:blood",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "n241yslto644cv8k"
+		}
+	},
+	"infusion_corruption": {
+		"title": "§f鹿 §2Некротическая инфузия",
+		"description": "§7Вы наполняете Ледяную Скорбь проклятыми нечестивыми рунами, нанося тем больше урона, чем больше у вас порчи.\n \n§f\uA999 §9+20§7 Порчи\n§f\uF954 §2+5 §7Сила Заклинания Нечести",
+		"size": 1.25,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "death_knights:textures/item/runes/unholy_stone.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eternal_attributes:unholy",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "84gbvkh5a1gaber3"
+		}
+	},
+	"infusion_corruption_2": {
+		"title": "§f鹿 §bМорозная инфузия",
+		"description": "§7Вы наполняете Ледяную Скорбь проклятыми ледяными рунами, нанося тем больше урона, чем больше у вас порчи.\n \n§f\uA999 §9+20§7 Порчи\n§f\uF952 §b+5 §7Ледяная Сила Заклинаний",
+		"size": 1.25,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "runes:textures/item/frost_stone.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "84gbvkh5a1gaber3"
+		}
+	}
+}

@@ -1,0 +1,495 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "5EA21B61C2E147CB"
+	icon: "minecraft:grass_block"
+	id: "7539C31213D86E55"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "prominent:textures/text/the_basics.png"
+			rotation: 0.0d
+			width: 2.504166666666667d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "prominent:textures/text/storage.png"
+			rotation: 0.0d
+			width: 2.504166666666667d
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "prominent:textures/other/prominent_logo.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "prominent:textures/text/welcome.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			color: 11250603
+			corner: false
+			dev: false
+			height: 7.311518324607329d
+			hover: [ ]
+			image: "prominent:textures/text/prominence-desc.png"
+			rotation: 0.0d
+			width: 10.5d
+			x: 0.0d
+			y: -7.5d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&eКак пламенное создание, вы были созданы и отправлены С'келлаком в это место; В Верхний мир, с важной целью, которую вы должны раскрыть."]
+			icon: "minecraft:grass_block"
+			id: "1DD302BB650057E3"
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Начни своё путешествие в &eProminence&r!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "7B701D980200A661"
+				title: "Войди в Верхний мир"
+				type: "dimension"
+			}]
+			title: "&aПервые шаги"
+			x: 0.0d
+			y: -0.625d
+		}
+		{
+			dependencies: ["1DD302BB650057E3"]
+			description: [
+				"Эта &9Книга квестов&r очень важна в Prominence, она проведет тебя через большую часть прогрессии игры."
+				""
+				"Чтобы получить доступ к &9книге квестов&r, нажми на иконку &9книги квестов&r в верхнем левом углу своего инвентаря."
+				""
+				"Когда ты открываешь квест, левая сторона показывает какие задачи тебе надо выполнить чтобы завершить квест, и правая сторона показывает какие награды ты получишь."
+			]
+			id: "6E9F5146EA3F505F"
+			rewards: [{
+				id: "78B218622FE5FA2B"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "Нажми на меня и прочитай моё описание!"
+			tasks: [{
+				id: "4184344EFBA63388"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:crops"
+					}
+				}
+				title: "Найди фрукт или овощ!"
+				type: "item"
+			}]
+			title: "&f&lПервые Шаги&r: &aКвесты!"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BE6B7EC6F6CC58B"]
+			id: "52C0EB35542648C6"
+			rewards: [{
+				id: "3685CADB8B28BF24"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			subtitle: "Добудь немного меди и используй &eПустое улучшение сундука&r чтобы сделать медное улучшение для &6cундука&r!"
+			tasks: [{
+				id: "1C2CEDE48DF1D506"
+				item: "ironchests:copper_chest_upgrade"
+				type: "item"
+			}]
+			title: "&e&lОбновление:&f &6Cундуки"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E9F5146EA3F505F"]
+			description: "Чтобы открыть экран &2Квестовых глав&r, закрой этот квест и передвинь свой курсор налево. Каждая глава имеет разный набор квестов которые подходят под тему главы."
+			icon: "minecraft:filled_map"
+			id: "33961F7EE650AA60"
+			rewards: [{
+				id: "10944260335D83B1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			subtitle: "Нажми на меня и прочитай моё описание!"
+			tasks: [{
+				id: "6E754EF86972872E"
+				title: "Нажми сюда!"
+				type: "checkmark"
+			}]
+			title: "&f&lПервые Шаги: &r&aГлавы"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			id: "2BE6B7EC6F6CC58B"
+			rewards: [
+				{
+					id: "578E739C5F5BB9AC"
+					item: "ironchests:blank_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "4FA5E60B4E68FDBF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55DC8F156573C515"
+					item: "travelersbackpack:backpack_tank"
+					type: "item"
+				}
+			]
+			subtitle: "Создай &6cундук&r - прокачиваемо через мод &5Iron Chests&r!"
+			tasks: [{
+				id: "17209749B99F5873"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:chests"
+					}
+				}
+				title: "Создай сундук"
+				type: "item"
+			}]
+			title: "&f&lПервые Шаги&r: &aСоздай сундук"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2BE6B7EC6F6CC58B"]
+			description: [
+				"Чтобы надеть &9рюкзак&r, нажми на иконку Экипировать в меню &9рюкзака&r."
+				""
+				"Когда &9рюкзак&r надет, ты можешь открыть его нажатием &bB&r"
+				""
+				"&9Рюкзаки&r имеют несколько степеней улучшения. &9Рюкзаки&r с особыми улучшениями могут быть найдены в сундуках с лутом."
+				""
+				"Чтобы увидеть все варианты &9рюкзаков&r, введи &d@traveler&r в панели поиска &eNEI&r."
+				""
+				"Ты можете найти эту панель поиска в нижней части инвентаря. "
+				""
+				"Нажатие на предметы в списке предметов в правой части твоего инвентаря покажет их рецепты и использования."
+				""
+				"Также ты можешь нажать &bR&r и &bU&r наведя курсор на предмет чтобы увидеть Рецепты и Использования"
+			]
+			hide_dependency_lines: true
+			id: "702ED6D1B159048D"
+			rewards: [{
+				id: "1510D8B226901BAD"
+				item: "travelersbackpack:blank_upgrade"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Нажми на меня и прочитай моё описание!"
+			tasks: [{
+				id: "524D333C37CC1E78"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&e&lОбновление:&f Инвентарь"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: [
+				"Нажми &a[M]&r чтобы открыть &eКарту Мира&r."
+				""
+				"Чтобы &eутвердить чанк&r, тебе просто надо нажать ПКМ на чанке, и выбрать &eУтвердить выбранное&r."
+				""
+				"Некоторые сервера имеют более низкие лимиты утверждения чем обычно. Следи за этим лимитом, чтобы он не закончился."
+			]
+			icon: "supplementaries:slice_map"
+			id: "723951CD2A49AEB7"
+			rewards: [{
+				id: "130FE58DD2BBD7D8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Нажми на меня и прочитай моё описание!"
+			tasks: [{
+				id: "1BC73062E2DC9CB8"
+				title: "Нажми чтобы продолжить!"
+				type: "checkmark"
+			}]
+			title: "&e&lMультиплеер: &dУтверждение"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["002FC90E5914D9C2"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/other/skellak.png"
+				}
+			}
+			id: "2F5A3E304ABAADF6"
+			rewards: [{
+				id: "2CBB2CDF05805373"
+				item: "prominent_ost:music_disc_iv"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&eПродолжи своё путешествие через другие главы!"
+			tasks: [{
+				id: "721111D6BBD02194"
+				title: "Нажми сюда чтобы продолжить!"
+				type: "checkmark"
+			}]
+			title: "&6&lДобро пожаловать в Prominence!"
+			x: 3.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			id: "002FC90E5914D9C2"
+			rewards: [{
+				id: "09883A3C64098DAA"
+				item: "fwaystones:waystone_scroll"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Простейший способ телепортироваться по локациям это использовать &eМаршрутные камни&r. Маршрутные камни генерируются в деревнях и также cоздаваемы."
+			tasks: [{
+				icon: "fwaystones:waystone"
+				id: "70CE3441ADA82DBA"
+				observe_type: 0
+				timer: 0L
+				title: "Используй Маршрутный камень!"
+				to_observe: "fwaystones:waystone"
+				type: "observation"
+			}]
+			title: "&f&lОсновы: &dTелепортация"
+			x: 2.017857142857146d
+			y: -2.2207367240089795d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: [
+				"&5Древо талантов&r, вместе с уровнями, авто самый важный метод прогрессии игрока в &eProminence&r, так как с ним ты будешь увеличивать свои статы и разблокировать новые способности."
+				""
+				"&7Оно напрямую связано с уровнями, ведь ты будешь получать очко таланта каждые 2 уровня"
+				""
+				"Ты можешь открыть его нажатием &eN&7, чтобы сбросить его, можно использовать &eСвиток Знаний&f. Этот предмет потребляется при использовании и твои очки талантов возвращаются."
+			]
+			icon: "prominent:knowledge_scroll"
+			id: "6F99CB89833D7AA2"
+			rewards: [{
+				id: "19F81DCB4196EE34"
+				item: "prominent:knowledge_scroll"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Нажми на меня и прочитай моё описание!"
+			tasks: [{
+				id: "31F7356F773E8E8E"
+				title: "Нажми сюда чтобы продолжить!"
+				type: "checkmark"
+			}]
+			title: "&d&lПрогрессия: &e&lДрево Талантов"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: ["Все инструменты теперь имеют случайную &eредкость&r. Это повлияет на их характеристики. Чтобы улучшить редкость, тебе надо &eперековать инструменты&r используя вторую вкладку на наковальне. Тебе понадобится &eспецифичный для данного инструмента материал&r и &eодна из 3 руд&7 чтобы поменять его редкость. &cТы можешь почитать квестовую линию \"Перековка\" для большей информации!"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tiered:textures/gui/anvil_tab_icon.png"
+				}
+			}
+			id: "58AD6DBD81B67C1C"
+			rewards: [{
+				count: 4
+				id: "4EB0CB7EF7E56D4D"
+				item: "tiered:limestone_chunk"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Нажми, чтобы прочитать описание!"
+			tasks: [{
+				id: "2AC258EF05B19E8F"
+				item: "minecraft:anvil"
+				title: "Получи наковальню"
+				type: "item"
+			}]
+			title: "&f&lОсновы: &e&lРедкости \\& Перековка"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: [
+""
+"&7Основной аспект развития персонажа — это уровни, которые отображаются в верхнем левом углу вашего инвентаря."
+""
+"&7Они растут за счёт опыта боёв, например, сражений с врагами или побед над боссами. Уровень позволяет увеличивать силу врагов соответственно вашему уровню и служит требованием для борьбы с определёнными боссами."
+""
+"&7С каждым уровнем максимальное здоровье увеличивается."
+""
+"&eДля некоторых боёв с боссами важно достичь необходимого уровня! В описании квеста босса будет указан рекомендуемый уровень, если он есть."
+""
+"&cУровень игрока отличается от уровня опыта на вашей панели быстрого доступа!"
+			]
+			icon: "minecraft:writable_book"
+			id: "72EE0A2E9D410B2C"
+			shape: "diamond"
+			subtitle: "Нажми на меня и прочитай моё описание!"
+			tasks: [{
+				id: "7E40E783D7E377CB"
+				title: "Нажми сюда чтобы продолжить"
+				type: "checkmark"
+			}]
+			title: "&d&lПрогрессия:&6&l Уровни"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"72EE0A2E9D410B2C"
+				"6F99CB89833D7AA2"
+			]
+			description: [
+				"&7Максимальный уровень, которого вы можете достичь, связан с вашим прогрессом в кампании."
+    ""
+    "&7Если вы застряли на определенном уровне и не можете продвинуться дальше, значит, вы не разблокировали следующий уровень."
+    ""
+    "- &e1-10 уровни:"
+    "&7Доступны по умолчанию"
+    ""
+    "- &e11-50 уровни:"
+    "&7Разблокируются после победы над первым боссом кампании &dВторжение Пустоты&7."
+    ""
+    "- &e51-65 уровни:"
+    "&7Разблокируются при начале кампании &eЭра Хастурии&7."
+    ""
+    "&6Уровень 65 — это текущий максимальный уровень."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "simplyskills:textures/mob_effect/undying.png"
+				}
+			}
+			id: "600F88849D115EDD"
+			shape: "hexagon"
+			subtitle: "Нажми на меня и прочитай моё описание!"
+			tasks: [{
+				id: "17D457CEC7A4515B"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&d&lПрогресс:&e&l Лимиты Уровней"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2F5A3E304ABAADF6"]
+			description: [
+				"&eВы можете найти официальную вики Prominence по адресу &9https://rpg.prominence.wiki &8(ссылка не кликабельна)"
+    ""
+    "&7Там более 6 часов контента для чтения, включая углубленные руководства, продвинутые гайды, руководства по конкретным модам, лор, полезные советы и многое другое! И самое главное — она расширяется с каждым днем!"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "emi_loot:textures/gui/random_book.png"
+				}
+			}
+			id: "2B96D4BA73511402"
+			shape: "diamond"
+			subtitle: "Нажми на меня и прочитай моё описание!"
+			tasks: [{
+				id: "6D8469C9D4BE7FB6"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eСовет Профессионала: &7Проверьте вики!"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F5A3E304ABAADF6"]
+			description: [
+				"&eКвестовые линии руководства содержат важную информацию, которую вы должны знать."
+    ""
+    "&7Некоторые также говорят, что это способ получения Вечного Знания."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "emi_loot:textures/gui/random_book.png"
+				}
+			}
+			id: "0773C097052A3D27"
+			shape: "diamond"
+			subtitle: "Нажми на меня и прочитай моё описание!"
+			tasks: [{
+				id: "54CE4C73454909E0"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eСовет Профессионала: &7Прочитите руководство!"
+			x: 5.0d
+			y: -1.5d
+		}
+	]
+	title: " Начало"
+}

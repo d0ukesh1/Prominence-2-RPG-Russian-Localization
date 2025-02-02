@@ -1,0 +1,424 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "reforging"
+	group: "5EA21B61C2E147CB"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "tiered:textures/gui/reforge_tab_icon.png"
+		}
+	}
+	id: "7501A35FAE3E34FE"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "tiered:textures/gui/reforge_tab_icon.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/common.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: -4.638218923957993E-4d
+			y: 3.2397959183673493d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/uncommon.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/rare.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: -4.638218923957993E-4d
+			y: 3.790816326530596d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/uncommon.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 2.5301484230055564d
+			y: 3.2193877551020336d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/rare.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/legendary.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 2.509740259740255d
+			y: 4.096938775510203d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/epic.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 2.509740259740255d
+			y: 3.79081632653061d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/rare.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 4.99953617810759d
+			y: 3.2193877551020407d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/epic.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 4.99953617810759d
+			y: 3.5051020408163254d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/legendary.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 5.019944341372899d
+			y: 3.79081632653061d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/mythic.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 5.019944341372899d
+			y: 4.0969387755102105d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/epic.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: -4.6382189241001015E-4d
+			y: 4.079846938775518d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "014ABD8E6E102E16"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/fire_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.027597402597387d
+			y: -0.7033163265306115d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftblibrary:icons/blank"
+			rotation: 0.0d
+			width: 0.1d
+			x: 13.5d
+			y: 19.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7При создании или получении инструментов, бронь или оружий, ты заметишь что они имеют качество/редкость."
+				""
+				"&7Редкости разнятся от:"
+				"&8- &fОбычный"
+				"&8- &2Необычный"
+				"&8- &3Редкий"
+				"&8- &dЭпический"
+				"&8- &6Легендарный"
+				"&8- &cМифический"
+				""
+				"{@pagebreak}"
+				""
+				"&6Перековка&7 это важная часть твоей прогрессии, ведь она позволяет изменять редкость предмета."
+				""
+				"&7Чтобы это сделать, найди вкладку &eПерековка&7 в &eНаковальне&7. Тебе понадобиться:"
+				""
+				"&8- &eБазовый Материал &8(Левый Слот)"
+				"&8- &eПредмет для Перековки &8(Средний Слот)"
+				"&8- &eПерековочный Материал &8(Правый Слот)"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&e&lБазовый Материал &r&8(Левый Слот)"
+				""
+				"&7Базовый Материал относится напрямую к перековываемому предмету. Например, &eСвятой Посох&7 потребует &eЗолотой Слиток&7 как базовый материал. Ты можешь увидеть требуемые материалы, наведя курсор на кнопку перековки после того как ты положил предмет в средний слот."
+				""
+				"{@pagebreak}"
+				""
+				"&e&lПредмет для Перековки &r&8(Средний Слот)"
+				""
+				"&7Предмет которому ты хочешь поменять редкость. Не все предметы перековываемы, только предметы, оружия и брони."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&e&lПерековочный Материал"
+				""
+				"&7Этот материал определит редкость предмета после перековки, есть 3 уровня материалов что ты можешь увидеть в следующих квестах."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&a&lУвеличение твоих шансов"
+				""
+				"&7Это не только о гринде! Ты можешь &eувеличить шансы на большую редкость&7 своей &aУдачей&7! Предметы которые пассивно дают удачу, зелья удачи, аксессуары, вино, что угодно!"
+			]
+			id: "3C95FD1F14D109CF"
+			shape: "hexagon"
+			subtitle: "&8[Нажмите, чтобы прочитать инструкции]"
+			tasks: [{
+				id: "71FAC91280FBBF9C"
+				item: "minecraft:anvil"
+				title: "Создай Наковальню"
+				type: "item"
+			}]
+			title: "&6&lПервые Шаги:&f Наковальня"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C95FD1F14D109CF"]
+			description: [
+				""
+				"&7&nКусок Известняка&r&7 это первый уровень перековочных материалов."
+				""
+				"&7Он находиться в &aВерхнем Мире&7, Получается &eРезьбой по камню&7 &fИзвестняка&r&8 (для 4 штук)&7, или &fДиорита&r &8(для 1 штуки)"
+				""
+				"&7Может перековывать до следующих редкостей:"
+				"&8- &fОбычная"
+				"&8- &2Необычная"
+				"&8- &3Редкая"
+				"&8- &dЭпическая"
+			]
+			id: "4D3F0D8217067D24"
+			shape: "diamond"
+			subtitle: "&8[Нажми, чтобы прочитать инструкции]"
+			tasks: [{
+				id: "4593A7256861742B"
+				item: "tiered:limestone_chunk"
+				type: "item"
+			}]
+			title: "&6&lУровень I: &fИзвестняк"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D3F0D8217067D24"]
+			description: [
+				""
+				"&7&nКусок Пирита&r&7 это второй уровень перековочного материала."
+				""
+				"&7Он находиться в &cАду&7, Получается &eСозданием&7 используя 4 &6Пиритовой Пыли*&r&8 (для 1 штуки)&7, или же &eПереплавкой&7 &6Древних Обломков&r&7 &8(для 4 штук)"
+				""
+				"&8* Пиритовая Пыль получается вскапыванием Пиритовой Руды в Аду"
+				""
+				"&7Перековывает до следующих редкостей:"
+				"&8- &2Необычный"
+				"&8- &3Редкий"
+				"&8- &dЭпический"
+				"&8- &6Легендарный"
+			]
+			id: "31388834855FB88E"
+			shape: "diamond"
+			subtitle: "&8[Нажми, чтобы прочитать инструкции]"
+			tasks: [{
+				id: "23DAEBDBFD05AB7B"
+				item: "tiered:pyrite_chunk"
+				type: "item"
+			}]
+			title: "&6&lУровень II: &eПирит"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31388834855FB88E"]
+			description: [
+				""
+				"&7&nКусок Галенита&r&7 это третий и последний уровень перековочного материала."
+				""
+				"&7Он находиться в &dКраю&7, получается &eСозданием&7, используя 2 &3Пыли Галенита*&r&7 и 2 &3Прожаренных Плода Хоруса&r&8 (для 1 штуки)&7."
+				"&7Но вместо Пыли Галенита, ты можешь использовать &3Эндерняк&r."
+				""
+				"&8* Галенитовая Пыль находиться в глубоких пещерах Верхнего Мира."
+				""
+				"&7Перековывает до следующих редкостей:"
+				"&8- &3Редкий"
+				"&8- &dЭпический"
+				"&8- &6Легендарный"
+				"&8- &cМифический"
+			]
+			id: "2DE7359A85169236"
+			shape: "diamond"
+			subtitle: "&8[Нажмите, чтобы прочитать инструкции]"
+			tasks: [{
+				id: "7C188E7D00623268"
+				item: "tiered:galena_chunk"
+				type: "item"
+			}]
+			title: "&6&lУровень III: &3Галенит"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DE7359A85169236"]
+			description: ["&eСто мифических предметов... Ты действительно стал мастером перековки."]
+			hide: true
+			id: "014ABD8E6E102E16"
+			invisible: true
+			rewards: [{
+				id: "3F13487D35D42A30"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&6Вечные испытания"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tiered:textures/gui/anvil_tab_icon.png"
+					}
+				}
+				id: "14E96A8846C480E8"
+				stat: "prominent:mythic_reforges"
+				title: "&eСтаньте мифическим кузнецом"
+				type: "stat"
+				value: 100
+			}]
+			title: "&cМифический Кузнец"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"014ABD8E6E102E16"
+				"3C95FD1F14D109CF"
+				"31388834855FB88E"
+				"2DE7359A85169236"
+				"4D3F0D8217067D24"
+			]
+			description: ["&8Ты стал очень известным кузнецом. Что ты будешь делать с этими знаниями?"]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "the_bumblezone:item/essence/knowing"
+				}
+			}
+			id: "658C9A0DDEC15431"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "the_bumblezone:item/essence/knowing"
+					}
+				}
+				id: "79653CF8DF5D7969"
+				title: "&dЧастичка Вечного знания"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&8Secret Knowledge"
+			tasks: [{
+				id: "57A269372AAD28C6"
+				title: "Я преисполнился."
+				type: "checkmark"
+			}]
+			title: "&dВечное Знание: &eКузнечное Дело"
+			x: -9.0d
+			y: -16.5d
+		}
+	]
+	title: " &eПерековка"
+}

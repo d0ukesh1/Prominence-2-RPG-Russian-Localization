@@ -1,0 +1,179 @@
+{
+	"dmg+5": {
+		"title": "§f弄 §6+5% §7Урона, наносимого §6Ваазкар",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/fire.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_damage",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "bkuisnsd4bko11eg"
+		}
+	},
+	"health+5": {
+		"title": "§6+5% §7Максимального запаса здоровья для обладателя §6Ваазкар",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/health.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"phase+tank": {
+		"title": "§f鹿 §6Мгновенное Пламя",
+		"description": "§cЗаменяет Стену Пламени\n \n§7Сфокусируйте пламя внутри себя, заставляя Стену Пламени активироваться мгновенно после блокировки, а также сокращая её перезарядку до 10 секунд.\n \n§f牢 §c+20 §7Перепоглощение",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/item/artifacts/vaazkar/vaazkar_item.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_phase",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "extraspellattributes:reabsorption",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "n241yslto644cv8k"
+		}
+	},
+	"phase+support": {
+		"title": "§f鹿 §6Защитные Пламена",
+		"description": "§cЗаменяет Стену Пламени\n \n§7Пламя, создаваемое вашей Стеной Пламени, больше не наносит урон врагам, но лечит ближайших игроков на 3% от вашего максимального здоровья.\n \n§f綾 §e+5§7 Исцеляющяя сила",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/item/artifacts/vaazkar/vaazkar_item.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_phase",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "znbglilmbdnzro1x"
+		}
+	},
+	"phase+bruiser": {
+		"title": "§f鹿 §6Огненный Шторм",
+		"description": "§cЗаменяет Стену Пламени\n \n§7Вызывает Стену Пламени, создавая Огненный Шторм, который наносит урон в размере 5% от максимального здоровья в секунду и имеет вдвое больший размер.\n \n§fꦘ §9+20§7 Порчи",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/item/artifacts/vaazkar/vaazkar_item.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_phase",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3krb"
+		}
+	}
+}

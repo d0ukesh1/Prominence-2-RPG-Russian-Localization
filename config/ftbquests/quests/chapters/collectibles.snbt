@@ -1,0 +1,1336 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "collectibles"
+	group: "3E586F2160161EEA"
+	icon: "minecraft:filled_map"
+	id: "3F74C236969D85AD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide: false
+			icon: "lootr:lootr_chest"
+			id: "0F7A087CC11FB122"
+			rewards: [
+				{
+					id: "4AAF8027485A1F4F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "010130ADD619EF13"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Привет юный исследователь! Добро пожаловать в Журнал Исследователя где ты получишь предметы которые не будешь так активно находить. Готов к испытанию?"
+			tasks: [{
+				id: "5689DA335FBADCD6"
+				title: "Начни охоту!"
+				type: "checkmark"
+			}]
+			title: "Журнал Исследователя"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F7A087CC11FB122"]
+			icon: {
+				Count: 1b
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "282EACA345910CE7"
+			rewards: [{
+				id: "616831F780B46F4A"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Посейдон потерял всю рыбу из личного аквариума! Помоги Морскому Богу нахождением и ловлей некоторых особей для Бога и он тебя наградит."
+			tasks: [{
+				id: "4440BB4F65FC9AE0"
+				title: "Время Порыбачить!"
+				type: "checkmark"
+			}]
+			title: "Аквариум Посейдона"
+			x: -4.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["282EACA345910CE7"]
+			id: "53925647824AA9E2"
+			rewards: [
+				{
+					id: "6266504A34C7A44E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5EA7DE6D6B28290B"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "netherdepthsupgrade:long_lava_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30370336E558C2D3"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "46EC3331D67AD0AA"
+					item: "netherdepthsupgrade:lava_pufferfish_bucket"
+					type: "item"
+				}
+				{
+					id: "1723B4D3B0E31B71"
+					item: "netherdepthsupgrade:obsidianfish_bucket"
+					type: "item"
+				}
+				{
+					id: "6BF5531467AF715E"
+					item: "netherdepthsupgrade:searing_cod_bucket"
+					type: "item"
+				}
+				{
+					id: "14BDE993E6D6349C"
+					item: "netherdepthsupgrade:bonefish_bucket"
+					type: "item"
+				}
+				{
+					id: "10B51C66CF3E0131"
+					item: "netherdepthsupgrade:wither_bonefish_bucket"
+					type: "item"
+				}
+				{
+					id: "6BE78D7663250229"
+					item: "netherdepthsupgrade:magmacubefish_bucket"
+					type: "item"
+				}
+				{
+					id: "2B743E117673F6C6"
+					item: "netherdepthsupgrade:glowdine_bucket"
+					type: "item"
+				}
+				{
+					id: "6FE0D0BF90C24851"
+					item: "netherdepthsupgrade:soulsucker_bucket"
+					type: "item"
+				}
+				{
+					id: "27C878FDB8974688"
+					item: "netherdepthsupgrade:fortress_grouper_bucket"
+					type: "item"
+				}
+				{
+					id: "3C27A648EABDE75B"
+					item: "netherdepthsupgrade:eyeball_fish_bucket"
+					type: "item"
+				}
+			]
+			title: "Рыба из Глубин Ада"
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0F7A087CC11FB122"]
+			icon: {
+				Count: 1b
+				id: "aquamirae:three_bolt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "60DC316BF3D62742"
+			rewards: [{
+				id: "64CF2EB86B7B27C0"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Ах да, Капитан Корнелия, великая капитанша, плававшая в морях, пока не упала в глубины ледяного моря. Кто-то должен осмелиться и найти её корабль и взять сокровища, если сможет."
+			tasks: [{
+				id: "780A1FBFBD8B7209"
+				title: "Поднять паруса!"
+				type: "checkmark"
+			}]
+			title: "Охота за сокровищами Капитана Корнелии"
+			x: -0.75d
+			y: -5.25d
+		}
+		{
+			dependencies: [
+				"53925647824AA9E2"
+				"043001A7D696CA86"
+			]
+			icon: "zenith:inert_trident"
+			id: "621DEC783CB253F9"
+			rewards: [
+				{
+					id: "09E25B72A9AF9B73"
+					item: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "583C60B278F14955"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "484AE098F744D1B0"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Ты оказал Морскому Богу большую услугу! Теперь он наградит тебя за оказанные усилия."
+			tasks: [{
+				id: "122390AC8641511B"
+				type: "checkmark"
+			}]
+			title: "Рыболов Морского бога"
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["60DC316BF3D62742"]
+			icon: "aquamirae:shell_horn"
+			id: "136FC2FC6435F619"
+			rewards: [
+				{
+					id: "7A7158DE599F8FC4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F5B7CBA6B95E71B"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Теперь ты нашел особый аксессуар, кому-то будет любопытно то как он работает. Остерегайся мертвых."
+			tasks: [
+				{
+					id: "393DA5A29912907B"
+					item: "aquamirae:shell_horn"
+					type: "item"
+				}
+				{
+					entity: "aquamirae:captain_cornelia"
+					id: "1015E24E756E2C3E"
+					title: "Отправь её на покой"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Вызови Капитана из мертвых."
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["60DC316BF3D62742"]
+			id: "356196952FB3E656"
+			rewards: [
+				{
+					id: "77ED4F4741A45BD1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "16C57741C1B44719"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water_breathing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "206FEEA2FF5DDCD2"
+					item: "aquamirae:sea_stew"
+					type: "item"
+				}
+			]
+			subtitle: "Эта броня носилась известным Капитаном Корнелией и помогала ей выжить в ледяных глубинах океана, постараешься ли ты собрать полный набор и опуститься в глубины?"
+			tasks: [
+				{
+					id: "0CEFC504FCA32CE4"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "299207399AC8C79B"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "531A19DC9578D686"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46045C65C08093FC"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня Капитана Корнелии"
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["60DC316BF3D62742"]
+			id: "5A73A01063124CA7"
+			rewards: [{
+				id: "7CC804DD972BA01B"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Вряд ли что-то стоящее есть в таких поношенных мешочках, но может тебе повезет?"
+			tasks: [
+				{
+					id: "05DFDD44BAA57191"
+					item: "aquamirae:pirate_pouch"
+					type: "item"
+				}
+				{
+					id: "331F683B25621A08"
+					item: "aquamirae:treasure_pouch"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["60DC316BF3D62742"]
+			id: "631067E2E7D98FEA"
+			rewards: [{
+				id: "18FAF5C052B3407A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Броня действующая как иглобрюх, но кажется очень хорошим набором для безрассудных и сражающихся под водой."
+			tasks: [
+				{
+					id: "1292E7ED391B2005"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42E1256842D36DE2"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F98A3E9F7272408"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1130540135C75F47"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня морского ужаса"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["60DC316BF3D62742"]
+			icon: "aquamirae:abyssal_amethyst"
+			id: "068588703F19898F"
+			rewards: [
+				{
+					count: 5
+					id: "7C43CDEC8F382EC5"
+					item: "aquamirae:abyssal_amethyst"
+					type: "item"
+				}
+				{
+					id: "5E59044273255685"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Ледяной Лабиринт не только холоден и массивен, но также содержит страшные глубины океана. Сможешь ли ты победить их и вернутся с трофеями?"
+			tasks: [
+				{
+					entity: "aquamirae:maze_mother"
+					id: "69890BE7FE0B2401"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aquamirae:anglerfish"
+					id: "44324FE1643A62CA"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Террор Ледяного Лабиринта"
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["136FC2FC6435F619"]
+			id: "73BDC1527FC27EBE"
+			rewards: [
+				{
+					id: "03AB2A66C9C215FE"
+					item: "aquamirae:music_disc_horizon"
+					type: "item"
+				}
+				{
+					id: "2451C29AA6528B27"
+					item: "aquamirae:music_disc_forsaken_drownage"
+					type: "item"
+				}
+				{
+					id: "47E33CDB5E596499"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Наконец-то ты нашёл схрон капитана, но теперь тебе надо найти её скрытое сокровище."
+			tasks: [
+				{
+					id: "48DE8F1B675D99FC"
+					item: "aquamirae:rune_of_the_storm"
+					type: "item"
+				}
+				{
+					id: "3AC35A0E15CE6FB4"
+					item: "aquamirae:golden_moth_in_a_jar"
+					type: "item"
+				}
+				{
+					id: "3948FB187625AD8F"
+					item: "aquamirae:dead_sea_scroll"
+					type: "item"
+				}
+			]
+			title: "Схрон Капитана Корнелии"
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["068588703F19898F"]
+			id: "180A98F6DB4CBB63"
+			rewards: [
+				{
+					id: "0CE1CC07D12BE309"
+					item: {
+						Count: 1b
+						id: "aquamirae:coral_lance"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BCAB542ADF89F98"
+					item: {
+						Count: 1b
+						id: "aquamirae:dagger_of_greed"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B3510910AD7C9A9"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_tiara"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63280497E09D45A6"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EF177C83BA136C4"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73B77A97CE249241"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F5657A6789B76F4"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["60DC316BF3D62742"]
+			id: "6DED2A40FDF26E80"
+			rewards: [
+				{
+					id: "7222AC6176E7DB32"
+					item: {
+						Count: 1b
+						id: "aquamirae:sweet_lance"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:looting"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "132FDEAD90EEDF6F"
+					item: "aquamirae:sea_casserole"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "73E87DBB532B3164"
+					item: "aquamirae:ship_graveyard_echo"
+					type: "item"
+				}
+				{
+					id: "55649304105EC479"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Эти оружия кажется использовались командой Капитана Корнеллии, но были утеряны в морозных глубинах, а теперь в твоих руках, чтобы ты протестировал их мощь."
+			tasks: [
+				{
+					id: "397F03774AC34FF3"
+					item: {
+						Count: 1b
+						id: "aquamirae:poisoned_chakra"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "obscure_api:mirror"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B27C41797F58612"
+					item: {
+						Count: 1b
+						id: "aquamirae:maze_rose"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "obscure_api:mirror"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5784415E1574C13A"
+					item: {
+						Count: 1b
+						id: "aquamirae:poisoned_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04E26BFF0C023DB4"
+					item: {
+						Count: 1b
+						id: "aquamirae:remnants_saber"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Оружия Морских волков"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["068588703F19898F"]
+			id: "17795101990B65AC"
+			rewards: [{
+				id: "6B4EEB74E628CC30"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Если ты посмотришь в бездну, бездна посмотрит на тебя. Но если у тебя есть храбрость сразится с любой опасностью, может быть они тебя наградят."
+			tasks: [
+				{
+					id: "3C8E000E958CA1BB"
+					item: {
+						Count: 1b
+						id: "aquamirae:whisper_of_the_abyss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Оружия Морской Бездны"
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["282EACA345910CE7"]
+			id: "043001A7D696CA86"
+			rewards: [
+				{
+					id: "0180025C3BB8C796"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F1221B2E812CF41"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Эх, классический набор морской жизни, из самого Майнкрафта. Нет ничего более запоминающегося чем истоки."
+			tasks: [
+				{
+					id: "19FF23AA00A59635"
+					item: "minecraft:axolotl_bucket"
+					type: "item"
+				}
+				{
+					id: "7C3215A015B45347"
+					item: "minecraft:pufferfish_bucket"
+					type: "item"
+				}
+				{
+					id: "0A07D601A03822CA"
+					item: "minecraft:cod_bucket"
+					type: "item"
+				}
+				{
+					id: "45F32E45EA733CE0"
+					item: "minecraft:tadpole_bucket"
+					type: "item"
+				}
+				{
+					id: "410F72683D05B130"
+					item: "minecraft:tropical_fish_bucket"
+					type: "item"
+				}
+			]
+			title: "Акватика Майнкрафта"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F7A087CC11FB122"]
+			icon: "regions_unexplored:white_magnolia_sapling"
+			id: "5C307FC486F5B7D7"
+			rewards: [{
+				id: "5D7AFE179DD42111"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "heart"
+			size: 1.5d
+			subtitle: "Деметра оставила свои растения разрозненными по миру, испытывая всех кто осмелиться собрать их и удовлетворить Богиню Жатвы и Агрикультуры за награду."
+			tasks: [{
+				id: "07326B76C991455F"
+				title: "Сажаем"
+				type: "checkmark"
+			}]
+			title: "Сад Деметры"
+			x: 3.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5C307FC486F5B7D7"]
+			id: "1826E3AC2D601D50"
+			rewards: [
+				{
+					id: "4AF04D3FB2742CA4"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "1E87804022CFDB8B"
+					item: "netherdepthsupgrade:baked_soulsucker_stew"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "54F4061810438FDD"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Черт, Деметра имеет чрезмерное разнообразие растений в мире. Что ж, это будет стоить того."
+			tasks: [
+				{
+					id: "69D130AA122E4A45"
+					item: "croptopia:artichoke_seed"
+					type: "item"
+				}
+				{
+					id: "7C28590D7443C869"
+					item: "croptopia:asparagus_seed"
+					type: "item"
+				}
+				{
+					id: "64FF8F47F3FAC684"
+					item: "croptopia:barley_seed"
+					type: "item"
+				}
+				{
+					id: "0413E4F5977E74A3"
+					item: "croptopia:basil_seed"
+					type: "item"
+				}
+				{
+					id: "72D7ED1F0BBC43C2"
+					item: "croptopia:bellpepper_seed"
+					type: "item"
+				}
+				{
+					id: "39D5BB91112A3AB1"
+					item: "croptopia:blackbean_seed"
+					type: "item"
+				}
+				{
+					id: "5D08B5F3C3E83D6D"
+					item: "croptopia:blackberry_seed"
+					type: "item"
+				}
+				{
+					id: "2BDC35528306304D"
+					item: "croptopia:blueberry_seed"
+					type: "item"
+				}
+				{
+					id: "3E50ADC06B0E0D3E"
+					item: "croptopia:broccoli_seed"
+					type: "item"
+				}
+				{
+					id: "60F847C1ADAE94EF"
+					item: "croptopia:cabbage_seed"
+					type: "item"
+				}
+				{
+					id: "26783F7646436102"
+					item: "croptopia:cantaloupe_seed"
+					type: "item"
+				}
+				{
+					id: "57189A3248B36EC0"
+					item: "croptopia:cauliflower_seed"
+					type: "item"
+				}
+				{
+					id: "4F5CDA0C1FDACE92"
+					item: "croptopia:celery_seed"
+					type: "item"
+				}
+				{
+					id: "30AA25D0EF1996CE"
+					item: "croptopia:chile_pepper_seed"
+					type: "item"
+				}
+				{
+					id: "73BAD6EB8D4CE90F"
+					item: "croptopia:coffee_seed"
+					type: "item"
+				}
+				{
+					id: "6F154658EAAC2282"
+					item: "croptopia:corn_seed"
+					type: "item"
+				}
+				{
+					id: "75441212822F54FB"
+					item: "croptopia:cranberry_seed"
+					type: "item"
+				}
+				{
+					id: "5C3AA6F3FFE00EAC"
+					item: "croptopia:cucumber_seed"
+					type: "item"
+				}
+				{
+					id: "02208D8808D74E39"
+					item: "croptopia:currant_seed"
+					type: "item"
+				}
+				{
+					id: "1FFD3B8C9E2A9269"
+					item: "croptopia:eggplant_seed"
+					type: "item"
+				}
+				{
+					id: "0BF2526DBA6B9C82"
+					item: "croptopia:elderberry_seed"
+					type: "item"
+				}
+				{
+					id: "001F1E1C81B583E4"
+					item: "croptopia:garlic_seed"
+					type: "item"
+				}
+				{
+					id: "2E4D9F49340AC890"
+					item: "croptopia:ginger_seed"
+					type: "item"
+				}
+				{
+					id: "14D6903E720C7ED9"
+					item: "croptopia:grape_seed"
+					type: "item"
+				}
+				{
+					id: "551205815697FF09"
+					item: "croptopia:greenbean_seed"
+					type: "item"
+				}
+				{
+					id: "39755F5B5A7E8266"
+					item: "croptopia:greenonion_seed"
+					type: "item"
+				}
+				{
+					id: "066729CFE1401860"
+					item: "croptopia:honeydew_seed"
+					type: "item"
+				}
+				{
+					id: "2D2080FCB7B75AC2"
+					item: "croptopia:hops_seed"
+					type: "item"
+				}
+				{
+					id: "2EB986F78FF854AB"
+					item: "croptopia:kale_seed"
+					type: "item"
+				}
+				{
+					id: "66FB29609FABD4FE"
+					item: "croptopia:kiwi_seed"
+					type: "item"
+				}
+				{
+					id: "770CCC2389BEBC83"
+					item: "croptopia:leek_seed"
+					type: "item"
+				}
+				{
+					id: "050FC867C7257C62"
+					item: "croptopia:lettuce_seed"
+					type: "item"
+				}
+				{
+					id: "2044B10D0634740D"
+					item: "croptopia:mustard_seed"
+					type: "item"
+				}
+				{
+					id: "7AB2060E735F07DF"
+					item: "croptopia:oat_seed"
+					type: "item"
+				}
+				{
+					id: "4DBCAD41E6548168"
+					item: "croptopia:olive_seed"
+					type: "item"
+				}
+				{
+					id: "3E4D4968FC6A790A"
+					item: "croptopia:onion_seed"
+					type: "item"
+				}
+				{
+					id: "0F1020DB709006EA"
+					item: "croptopia:peanut_seed"
+					type: "item"
+				}
+				{
+					id: "607C531DD8E2C724"
+					item: "croptopia:pepper_seed"
+					type: "item"
+				}
+				{
+					id: "479A374194B82A6B"
+					item: "croptopia:pineapple_seed"
+					type: "item"
+				}
+				{
+					id: "47F0B4BF0C1197DC"
+					item: "croptopia:radish_seed"
+					type: "item"
+				}
+				{
+					id: "3E912EE24762588E"
+					item: "croptopia:raspberry_seed"
+					type: "item"
+				}
+				{
+					id: "4E4DD010248B7CDE"
+					item: "croptopia:rhubarb_seed"
+					type: "item"
+				}
+				{
+					id: "4B03E57C37F6F001"
+					item: "croptopia:rice_seed"
+					type: "item"
+				}
+				{
+					id: "3F9D9770333BCB90"
+					item: "croptopia:rutabaga_seed"
+					type: "item"
+				}
+				{
+					id: "5EBB8878A1B68BA5"
+					item: "croptopia:saguaro_seed"
+					type: "item"
+				}
+				{
+					id: "27CC61468A495899"
+					item: "croptopia:soybean_seed"
+					type: "item"
+				}
+				{
+					id: "3394AD68E631564D"
+					item: "croptopia:spinach_seed"
+					type: "item"
+				}
+				{
+					id: "0A6143C8BF50FB5E"
+					item: "croptopia:squash_seed"
+					type: "item"
+				}
+				{
+					id: "574B0C6E92CD6BB8"
+					item: "croptopia:strawberry_seed"
+					type: "item"
+				}
+				{
+					id: "2ABB8532332A6E11"
+					item: "croptopia:sweetpotato_seed"
+					type: "item"
+				}
+				{
+					id: "3D859EE090C0B15C"
+					item: "croptopia:tea_seed"
+					type: "item"
+				}
+				{
+					id: "76E25F51906E20A3"
+					item: "croptopia:tomatillo_seed"
+					type: "item"
+				}
+				{
+					id: "75F476F70AE85A11"
+					item: "croptopia:tomato_seed"
+					type: "item"
+				}
+				{
+					id: "75CE89724131240A"
+					item: "croptopia:turmeric_seed"
+					type: "item"
+				}
+				{
+					id: "2001AB71AB7C8951"
+					item: "croptopia:turnip_seed"
+					type: "item"
+				}
+				{
+					id: "3367B9EB92637838"
+					item: "croptopia:vanilla_seeds"
+					type: "item"
+				}
+				{
+					id: "5F0CA4470ADD3E4D"
+					item: "croptopia:yam_seed"
+					type: "item"
+				}
+				{
+					id: "0DACD78766E90677"
+					item: "croptopia:zucchini_seed"
+					type: "item"
+				}
+			]
+			title: "Семена Croptopiа"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C307FC486F5B7D7"]
+			id: "493BFF4DB1025508"
+			rewards: [
+				{
+					id: "6CBFA051ADA69C07"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5CF8ECA65B0B7B43"
+					item: "ends_delight:assorted_salad"
+					type: "item"
+				}
+			]
+			subtitle: "Ты не думал, а что если количество вариаций деревьев является комбинацией других фруктовых деревьев для того чтобы сделать ещё больше?"
+			tasks: [
+				{
+					id: "6414055BE32CF4E7"
+					item: "croptopia:almond_sapling"
+					type: "item"
+				}
+				{
+					id: "57799301908D8E9B"
+					item: "croptopia:apple_sapling"
+					type: "item"
+				}
+				{
+					id: "576C565185629D40"
+					item: "croptopia:apricot_sapling"
+					type: "item"
+				}
+				{
+					id: "2646C32283ED65F4"
+					item: "croptopia:avocado_sapling"
+					type: "item"
+				}
+				{
+					id: "3562D86F205A1DC3"
+					item: "croptopia:banana_sapling"
+					type: "item"
+				}
+				{
+					id: "305A816E0B25D6A6"
+					item: "croptopia:cashew_sapling"
+					type: "item"
+				}
+				{
+					id: "17E337926AE1BDA8"
+					item: "croptopia:cherry_sapling"
+					type: "item"
+				}
+				{
+					id: "5D19A29E42175D58"
+					item: "croptopia:coconut_sapling"
+					type: "item"
+				}
+				{
+					id: "7D94F6265C246AEF"
+					item: "croptopia:date_sapling"
+					type: "item"
+				}
+				{
+					id: "3D75C017EAAD97A5"
+					item: "croptopia:dragonfruit_sapling"
+					type: "item"
+				}
+				{
+					id: "60CC1BC2F1E65DB5"
+					item: "croptopia:fig_sapling"
+					type: "item"
+				}
+				{
+					id: "4686A654583DB3DF"
+					item: "croptopia:grapefruit_sapling"
+					type: "item"
+				}
+				{
+					id: "4EF4E7F4B96E1D5F"
+					item: "croptopia:kumquat_sapling"
+					type: "item"
+				}
+				{
+					id: "524474AEC52E4917"
+					item: "croptopia:lemon_sapling"
+					type: "item"
+				}
+				{
+					id: "746E27E0C677C027"
+					item: "croptopia:lime_sapling"
+					type: "item"
+				}
+				{
+					id: "015B2F185DB48610"
+					item: "croptopia:mango_sapling"
+					type: "item"
+				}
+				{
+					id: "1ED1BD452EAC8F3A"
+					item: "croptopia:nectarine_sapling"
+					type: "item"
+				}
+				{
+					id: "7501859DF54B178E"
+					item: "croptopia:nutmeg_sapling"
+					type: "item"
+				}
+				{
+					id: "57ACAE14DC160515"
+					item: "croptopia:orange_sapling"
+					type: "item"
+				}
+				{
+					id: "6F95B2A72573CE04"
+					item: "croptopia:peach_sapling"
+					type: "item"
+				}
+				{
+					id: "60D041EC3473B48F"
+					item: "croptopia:pear_sapling"
+					type: "item"
+				}
+				{
+					id: "2FCD90B8AF9612E6"
+					item: "croptopia:pecan_sapling"
+					type: "item"
+				}
+				{
+					id: "680F070AC2E9D0DF"
+					item: "croptopia:persimmon_sapling"
+					type: "item"
+				}
+				{
+					id: "49DE9718C57ED19B"
+					item: "croptopia:plum_sapling"
+					type: "item"
+				}
+				{
+					id: "4C52C8A13146FB75"
+					item: "croptopia:starfruit_sapling"
+					type: "item"
+				}
+				{
+					id: "008445692DD6B1BB"
+					item: "croptopia:walnut_sapling"
+					type: "item"
+				}
+				{
+					id: "13C47CD1E54DEDFC"
+					item: "croptopia:cinnamon_sapling"
+					type: "item"
+				}
+			]
+			title: "Деревья Croptopiа"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C307FC486F5B7D7"]
+			id: "335FD3A6C6611BBE"
+			rewards: [
+				{
+					id: "2909C072C75BE334"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "1B7D2ADB1117F031"
+					item: "farmersdelight:fruit_salad"
+					type: "item"
+				}
+			]
+			subtitle: "В Delight не очень большой набор растений, но зато находиться очень быстро."
+			tasks: [
+				{
+					id: "1B122CC8ABA04C1F"
+					item: "ends_delight:chorus_fruit_grain"
+					type: "item"
+				}
+				{
+					id: "1E8FAD3669EFFED2"
+					item: "expandeddelight:asparagus_seeds"
+					type: "item"
+				}
+				{
+					id: "4E6F1B90AD7E6EFA"
+					item: "expandeddelight:chili_pepper_seeds"
+					type: "item"
+				}
+				{
+					id: "0541E4B198DEE673"
+					item: "expandeddelight:sweet_potato"
+					type: "item"
+				}
+				{
+					id: "67E1A66F4663FB16"
+					item: "expandeddelight:ground_salt"
+					type: "item"
+				}
+				{
+					id: "149BFDDD59A61009"
+					item: "expandeddelight:peanut"
+					type: "item"
+				}
+				{
+					id: "7DDE44C3D0362A78"
+					item: "expandeddelight:cinnamon_sapling"
+					type: "item"
+				}
+				{
+					id: "08D7EEA3AF7733E3"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+				{
+					id: "22EA7301D09A448F"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+				{
+					id: "1ED2B44C6376E125"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					id: "6BBFC04FEC7D1E11"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			title: "Растения из Delight"
+			x: 6.5d
+			y: 0.5d
+		}
+	]
+	title: " &2&nЖурнал исследователя"
+}

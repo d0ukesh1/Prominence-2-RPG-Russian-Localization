@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eenchanting"
+	group: "5EA21B61C2E147CB"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecraft:item/enchanted_book"
+		}
+	}
+	id: "472AF31E92BAA1CC"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: " &eЗачарование"
+}

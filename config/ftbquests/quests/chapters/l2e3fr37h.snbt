@@ -1,0 +1,576 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l2e3fr37h"
+	group: "3E586F2160161EEA"
+	icon: "ad_astra:earth_globe"
+	id: "50342FF0C32120E0"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["20983C3D23B612F3"]
+			id: "7AF048C0042EFAE9"
+			rewards: [
+				{
+					icon: "vitalize:experience_cubed"
+					id: "019BA3ED0EBFC96A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "72A0C0511EB83457"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			subtitle: "&bКомпрессор&r это машина позволяющая &aслиткам&r быть сжатыми в &eпластины&r.&r"
+			tasks: [{
+				id: "0DC04860F16EAD54"
+				item: "ad_astra:compressor"
+				title: "Создай &5Компрессор"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["332F08FF38BB4259"]
+			id: "3A7E9B0ECF32A32B"
+			rewards: [
+				{
+					count: 5
+					id: "382B2CD3042DE65E"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "159AE5570CC9C6C6"
+					item: {
+						Count: 1b
+						id: "ad_astra:oxygen_tank"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&aРакетный Верстак&r используется для создания ракет всех уровней.&r"
+			tasks: [{
+				id: "52878781AB050F4A"
+				item: "ad_astra:nasa_workbench"
+				title: "Построй &bВерстак NASA"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0FC298D30E5ECCED"
+				"3A7E9B0ECF32A32B"
+				"7185D67A20B21FFB"
+			]
+			id: "199092092D21485E"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "10D39C505708DB50"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "01F591407F77D597"
+					item: "ad_astra:steel_block"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&bРакета 1 Уровня&r это первая ракета которую игрок может создать, чтобы полететь в космос.&r"
+			tasks: [{
+				id: "788AE2374588CD5B"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Создай &6Ракету &41-го Уровня"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53CD915333EE2929"]
+			id: "0FC298D30E5ECCED"
+			rewards: [{
+				id: "516D5DFAD591B16A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Первый скафандр который ты создашь в &aAd Astra&r, это стандартный &bСкафандр&r. Этот костюм даёт абсолютный минимум, позволяющий тебе путешествовать по не особо опасным локациям, таким как &dЛуна&r.&r"
+			tasks: [
+				{
+					id: "7AE8CC8E5EE08211"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A3166D0C41D47F8"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52BEDB7FB4BC3E4F"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D63F4924985F0F6"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Создай &6Космическую Броню"
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["332F08FF38BB4259"]
+			icon: "ad_astra:oxygen_loader"
+			id: "53CD915333EE2929"
+			rewards: [{
+				count: 5
+				id: "29757418EE67C40F"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			subtitle: "Внутрь &aКислородного Компрессора&r могут быть поставлены &eВедра воды&r, что превратит их в &bКислород&r. Тогда этот &bКислород&r ставится внутрь &cКислородных баллонов&r и поглощается как если бы он являлся пищей, что заставит его войти в ваш &dКосмический Костюм&r. Как альтернатива, ты можешь напрямую добавить &bКислород&r в &dКосмический Костюм&r, что рекомендуется.&r"
+			tasks: [{
+				id: "06BEA07039136352"
+				item: "ad_astra:oxygen_loader"
+				title: "Создай &2Кислородный Компрессор"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0729E0E98B1F4B93"]
+			id: "77F0D17CE146C619"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2BF88A23F9A0CE76"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&lИсследование"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0729E0E98B1F4B93"]
+			description: [
+				"- &aКосмическая Станция&r это структура создаваемая на экране выбора планет, с условием что у тебя есть материалы. Космические станции расположены на лунной или планетарной орбите, давая возможность ставить блоки на этой орбите.&r"
+				""
+				"- Космические станции можно расширять, позволяя тебе построить базу своей мечты на орбите &cлуны/планеты&r. Они всегда появляются в позиции в которой ты запустил свою ракету, так что запомните координаты чтобы не потерять структуру.&r"
+			]
+			icon: "ad_astra:steel_block"
+			id: "2C786A12D36166AF"
+			rewards: [{
+				count: 3
+				id: "0317503AE8623FE2"
+				item: "ad_astra:steel_block"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "Щелк!"
+			tasks: [{
+				id: "5FA1A63B000F595E"
+				title: "Собери различные стальные блоки"
+				type: "checkmark"
+			}]
+			title: "&lМиссия Космической Станции"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0729E0E98B1F4B93"]
+			id: "1D952DC80615D842"
+			rewards: [{
+				id: "15BEF1E8467A5798"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "075DE1DB5879D1CE"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			title: "&lСоберите Глобус Земли"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["20983C3D23B612F3"]
+			id: "670C6423F69F1C9B"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "1F6C26BBAB9CFC9D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "07F8ED2F1DEB90BC"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			subtitle: "&bУгольный Генератор&r позволяет раннюю генерацию энергии. Он сжигает &fуголь&r чтобы создавать энергию.&r"
+			tasks: [{
+				id: "28DC506F6D2A305D"
+				item: "ad_astra:coal_generator"
+				title: "Создай &4Угольный Генератор"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["77F0D17CE146C619"]
+			id: "499AF1B39F98E363"
+			rewards: [
+				{
+					count: 2
+					id: "36E3A70CCD07335B"
+					item: "ad_astra:oil_bucket"
+					type: "item"
+				}
+				{
+					icon: "vitalize:experience_cubed"
+					id: "4A6B4B9465E776D5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				icon: "ad_astra:oil_bucket"
+				id: "6E8042298A406E94"
+				structure: "ad_astra:oil_well"
+				title: "Найди &8Нефтяную Скважину"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["77F0D17CE146C619"]
+			id: "42D9D83F15D68181"
+			rewards: [
+				{
+					count: 5
+					id: "240F6F3A1E6A1110"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					icon: "minecraft:experience_bottle"
+					id: "31AC27B47F3BEA4E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				icon: "minecraft:blackstone"
+				id: "31C7A81432368D0A"
+				structure: "ad_astra:meteor"
+				title: "Найди Метеорит"
+				type: "structure"
+			}]
+			title: "Найдите &4Метеорит"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["697B725FEAC06CBF"]
+			id: "726BD93C7416B0F7"
+			rewards: [{
+				id: "404EA1886833FF73"
+				item: "ad_astra:steel_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53022EA02420CDC5"
+				item: "ad_astra:fuel_bucket"
+				title: "Создай ведро топлива"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			icon: "ad_astra:earth_globe"
+			id: "0729E0E98B1F4B93"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "532C7EE506A056A2"
+				title: "Земля?"
+				type: "checkmark"
+			}]
+			title: "Земля"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0729E0E98B1F4B93"]
+			id: "20983C3D23B612F3"
+			tasks: [{
+				id: "2EE2EF27B579AAC7"
+				item: {
+					Count: 1b
+					id: "ad_astra:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Создай &lМолот"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["332F08FF38BB4259"]
+			id: "697B725FEAC06CBF"
+			rewards: [{
+				count: 3
+				id: "05181B636BCB47F3"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			subtitle: "&aНефтеперерабатывающий завод&r это машина, используемая для превращения &cнефти&r в &eтопливо&r.&r"
+			tasks: [{
+				id: "395371C61A3454D0"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			title: "Создай &dНефтеперерабатывающий Завод"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"670C6423F69F1C9B"
+				"7AF048C0042EFAE9"
+			]
+			id: "332F08FF38BB4259"
+			rewards: [{
+				id: "71D2342FEC2D6092"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "&bСтальной Слиток&r это базовый компонент создания в &aAd Astra&r. В сопряжении со &bСтальной Пластиной&r, он в основном используется в создании &bРакеты 1 Уровня&r и стальных строящих блоков, также как и остальных предметов.&r"
+			tasks: [{
+				id: "14826373FD5B01E9"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			title: "Получи &8&lСталь"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"- Чтобы поставить твою новосозданную &cракету&r, ты должен построить &bпусковую площадку&r.&r"
+				""
+				"- После того как &bпусковая площадка&r была построена, поставь &eракету&r в центр&r."
+			]
+			id: "7185D67A20B21FFB"
+			subtitle: "Щелк!"
+			tasks: [{
+				count: 2L
+				id: "1B80EF983B8ADD1C"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			title: "Создай &8Пусковую Площадку"
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0FC298D30E5ECCED"]
+			id: "3DA60964C329C153"
+			tasks: [{
+				count: 2L
+				id: "7F0F6434C64A3BDA"
+				item: {
+					Count: 1b
+					id: "ad_astra:oxygen_tank"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["199092092D21485E"]
+			description: [
+				"&lГотовимся к Запуску&r"
+				""
+				"- Следуй этим шагам очень внимательно! Пропуск даже одной вещи может сделать твою жизнь тяжелой, или что хуже, оставит тебя бродить по &dлуне&r!&r"
+				""
+				"- Чтобы вернутся на &aземлю&r с &dлуны&r, тебе нужно две необходимой вещи: &bпусковая площадка&r и три &bведра топлива&r. (в инвентаре твоей ракеты, убедись что ты всегда имеешь их каждый раз когда запускаешь ракету).&r"
+				""
+				"- Наконец, тебе понадобится несколько &fполных кислородных баллонов&r, изобилие &fеды&r, &cфакела души&r или &eсветящиеся камни&r, &aоружия&r и &aинструменты&r. Когда у тебя все это будет, ты будешь готов к запуску! Войди в &eракету&r и нажми &aSpace&r!&r"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "4368A73BA98E532F"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "6F5B0D235B3AF0EC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "6845160249D811A8"
+					item: "ad_astra:steel_block"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "Щелк!"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "088E260A9C4358D5"
+				type: "dimension"
+			}]
+			title: "На &lЛуну!"
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C786A12D36166AF"]
+			id: "33BB9EC2A0736ED8"
+			rewards: [{
+				id: "4DEFA8B1420AE3B4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 32L
+				id: "6E847B81411304CF"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "Получи дешовый слиток"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C786A12D36166AF"]
+			id: "0C30DFE9249B56A1"
+			rewards: [{
+				id: "520388250530AF0E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 32L
+				id: "4432A37EB8323FE5"
+				item: "techreborn:steel_ingot"
+				type: "item"
+			}]
+			title: "Получи стальной слиток"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C786A12D36166AF"]
+			id: "0581850D0D53491D"
+			rewards: [{
+				id: "72FAB0498E8D2D14"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 64L
+				id: "217DBFC6CE8F3C8F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:iron_plates"
+					}
+				}
+				title: "Железные Пластины"
+				type: "item"
+			}]
+			title: "Получи железную пластину"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C786A12D36166AF"]
+			id: "62792E8FE9B62491"
+			rewards: [{
+				id: "157FC3344A3A60D3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 32L
+				id: "2B2E2DB667429201"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			title: "Получи дешовую пластину"
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+	title: " &2Земля"
+}

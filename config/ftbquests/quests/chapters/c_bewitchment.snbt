@@ -1,0 +1,863 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "c_bewitchment"
+	group: "244F516C4853FD2F"
+	icon: {
+		Count: 1b
+		id: "bewitchment:vampiric_poppet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "32706AAC8420562C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Удели внимание Книге Теней, если хочешь понять Bewitchment глубже."]
+			id: "5B558DB5BB091F2C"
+			rewards: [
+				{
+					id: "518D1A14BCD227DE"
+					item: "bewitchment:mandrake_seeds"
+					type: "item"
+				}
+				{
+					id: "49863A89B88AF9F3"
+					item: "bewitchment:belladonna_seeds"
+					type: "item"
+				}
+				{
+					id: "641B2892C8C1F694"
+					item: "bewitchment:aconite_seeds"
+					type: "item"
+				}
+				{
+					id: "0EF2193F34905B62"
+					item: "bewitchment:garlic"
+					type: "item"
+				}
+				{
+					id: "75088B7167B9EB65"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Привет, как я понимаю ты здесь, потому что хочешь стать ведьмой, да ведь? Что ж, ты пришел куда надо.. вот где оно начинается, юная ведьма."
+			tasks: [{
+				id: "705D52A6E5A9E57E"
+				item: "bewitchment:book_of_shadows"
+				type: "item"
+			}]
+			title: "Первые Шаги Ведьмы"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			id: "040B557895367AF3"
+			subtitle: "Интересное дерево, оно имеет уникальные свойства, позволяющие ему 'кровоточить', может быть ты найдешь его полезным в твоих будущих начинаниях. Они находятся в Крепостях Ада."
+			tasks: [{
+				id: "6D8C5B0EEA1541D1"
+				item: "bewitchment:dragons_blood_sapling"
+				type: "item"
+			}]
+			title: "Дерево Крови"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			id: "7B9DEDD5472F5240"
+			rewards: [{
+				id: "651575BAA35093B3"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Это дерево содержит эссенцию знаний и интеллекта, может быть это будет полезно в твоих будущих стараниях. Они находятся разрозненно в лесах."
+			tasks: [{
+				id: "650A616FA6E8AAE3"
+				item: "bewitchment:elder_sapling"
+				type: "item"
+			}]
+			title: "Дерево Знаний"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			id: "4C39BD55DFDFF106"
+			rewards: [{
+				id: "505C361A74092723"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Эти деревья обладают запахом смерти, может быть это будет полезно в твоих будущих стараниях. Они находятся в тайге и болотах."
+			tasks: [{
+				id: "04C1299FBCB9B22B"
+				item: "bewitchment:cypress_sapling"
+				type: "item"
+			}]
+			title: "Дерево Смерти"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			id: "27EAE01A96DEFAF1"
+			rewards: [{
+				id: "6E010F38B5683ED0"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Это дерево имеет свойства самой жизни, возможно он будет полезен в твоих будущих стремлениях. Находится в саваннах."
+			tasks: [{
+				id: "08E08EB8164D241D"
+				item: "bewitchment:juniper_sapling"
+				type: "item"
+			}]
+			title: "Дерево Жизни?"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			id: "5E08698700AC507D"
+			rewards: [{
+				id: "5FC6443EB91FD81F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Особый нож для нас, ведьм, он будет необходим для наших ритуалов и обтесывания деревьев. Позаботься о нем."
+			tasks: [{
+				id: "2A7C00C48571951E"
+				item: {
+					Count: 1b
+					id: "bewitchment:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Нож Ведьмы"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E08698700AC507D"]
+			id: "5B2A9ECAD626489A"
+			rewards: [{
+				id: "0801A3772D7F3F03"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Это будет очень весело для наших деяний. Собирание экстрактов других игроков позволит нам привязать их к ритуалу."
+			tasks: [{
+				id: "30EC959F71E75DFE"
+				item: "bewitchment:taglock"
+				type: "item"
+			}]
+			title: "Нацеленная Эссенция"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5E08698700AC507D"]
+			id: "0A7DAD09DE18D900"
+			rewards: [{
+				id: "2EEA924F7004CBCA"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Фу, это какая-то странная гадость, которую ты получил с призрака.. что ж, она все равно будет полезна для наших будущих деяний.."
+			tasks: [{
+				count: 5L
+				id: "655625747D981397"
+				item: "bewitchment:ectoplasm"
+				type: "item"
+			}]
+			title: "Эссенция Призраков"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E08698700AC507D"]
+			id: "64AB1B23081484C5"
+			rewards: [{
+				id: "25555DC80280FA5D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Это очень удобный гроб, комфортабельный и достаточно темный для игрока, чтобы тот спал во время дня до наступления ночи."
+			tasks: [{
+				id: "1FE7146F2C6B8B4A"
+				item: "bewitchment:white_coffin"
+				type: "item"
+			}]
+			title: "Кровать Вампира"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["130301A697C767CA"]
+			id: "7F47845CE40F71B6"
+			rewards: [{
+				id: "00FC379D2BCAC873"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Такая кукла может сделать цель либо проклятой, либо защищенной, в зависимости от того как ты будешь использовать их, и таких кукол может быть больше одной."
+			tasks: [{
+				id: "77832168836C5A49"
+				item: {
+					Count: 1b
+					id: "bewitchment:voodoo_poppet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A7DAD09DE18D900"]
+			id: "7B42BCEB958500A1"
+			subtitle: "Когда нибудь чувствовал себя так, будто у тебя слишком много кукол в инвентаре? Эти полки идеально подойдут для твоих нужд."
+			tasks: [{
+				id: "5AC910BBD1EBCFB3"
+				item: "bewitchment:oak_poppet_shelf"
+				type: "item"
+			}]
+			title: "Хранилище Кукол"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "130301A697C767CA"
+			rewards: [{
+				id: "526018AB0E68F119"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Демонические Сердца полезны в создании особых магических предметов, которые могут быть выгодными для ведьмы, несмотря на то, что они могут быть сложными для получения, так как тебе нужно призвать этих демонов."
+			tasks: [{
+				id: "071299DA2B65D59D"
+				item: "bewitchment:demon_heart"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5E08698700AC507D"]
+			id: "1C0D3F45968E5610"
+			rewards: [{
+				id: "2B9F2E1875D35D44"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Котел идеально подходит для варения зелий при использовании особых ингредиентов, которые ты сможешь вырастить, и с которых сможешь наскрести."
+			tasks: [{
+				id: "7BE8B29B6762BB65"
+				item: "bewitchment:witch_cauldron"
+				type: "item"
+			}]
+			title: "Пахучий Котел"
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5E08698700AC507D"]
+			id: "16078474EDD60052"
+			tasks: [{
+				id: "664ACF3E41A2F923"
+				item: "bewitchment:bottle_of_blood"
+				type: "item"
+			}]
+			title: "Это Вино?"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C0D3F45968E5610"]
+			id: "40DA06BA210A7F4F"
+			tasks: [{
+				id: "5FFAA614E1EEC274"
+				item: "bewitchment:fiery_serum"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1C0D3F45968E5610"]
+			id: "0C32BEA3E2E932F0"
+			tasks: [{
+				id: "0BD514A3150D59B3"
+				item: "bewitchment:cleansing_balm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1C0D3F45968E5610"]
+			id: "13E6C2121AC06E4D"
+			tasks: [{
+				id: "22BCA2EA0790D040"
+				item: "bewitchment:grim_elixir"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1C0D3F45968E5610"]
+			id: "1705C4BCC0877881"
+			tasks: [{
+				id: "33F8F2CF372C2822"
+				item: "bewitchment:aqua_cerate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1C0D3F45968E5610"]
+			id: "497F772433CCD604"
+			tasks: [{
+				id: "6D7B4E47C0B3D4CE"
+				item: "bewitchment:earth_ichor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1C0D3F45968E5610"]
+			id: "2C772382F591E206"
+			tasks: [{
+				id: "1DB8390DD1DD958D"
+				item: "bewitchment:heaven_extract"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"40DA06BA210A7F4F"
+				"13E6C2121AC06E4D"
+			]
+			icon: "bewitchment:besmirched_wool"
+			id: "206BECFC110495D8"
+			rewards: [{
+				id: "043E16C42E24F81C"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Проклятый способен маскироваться среди демонов и способен торговать с ними."
+			tasks: [
+				{
+					id: "77F363FBF7C865B4"
+					item: {
+						Count: 1b
+						id: "bewitchment:besmirched_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "347399A4D526C9FE"
+					item: {
+						Count: 1b
+						id: "bewitchment:besmirched_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DD9C3602717015B"
+					item: {
+						Count: 1b
+						id: "bewitchment:besmirched_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C3874E73CD3C245"
+					item: {
+						Count: 1b
+						id: "bewitchment:besmirched_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Проклятое одеяние"
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1705C4BCC0877881"
+				"2C772382F591E206"
+			]
+			icon: "bewitchment:alchemist_wool"
+			id: "7ADC365739E399AF"
+			rewards: [{
+				id: "1D20581D30C5F435"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Алхимик это мастер ведьминого зельеварения, который может удваивать длительность эффектов упомянутого варева при ношении этой одежды."
+			tasks: [
+				{
+					id: "163035D24392B95B"
+					item: {
+						Count: 1b
+						id: "bewitchment:alchemist_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D84D3EDAD4AAFC8"
+					item: {
+						Count: 1b
+						id: "bewitchment:alchemist_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3600A6B16769EC50"
+					item: {
+						Count: 1b
+						id: "bewitchment:alchemist_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59140CB26E08C873"
+					item: {
+						Count: 1b
+						id: "bewitchment:alchemist_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Одежда Алхимика"
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"497F772433CCD604"
+				"0C32BEA3E2E932F0"
+			]
+			icon: "bewitchment:hedgewitch_wool"
+			id: "6239CFEDE3B3D0EC"
+			rewards: [{
+				id: "5C8AD762EAD703C3"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Природная ведьма способна увеличивать количество плодов с растений при ношении такой одежды."
+			tasks: [
+				{
+					id: "3CE518B01D80E6AD"
+					item: {
+						Count: 1b
+						id: "bewitchment:hedgewitch_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B5965EFE8AE5E51"
+					item: {
+						Count: 1b
+						id: "bewitchment:hedgewitch_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B632BBEA1FE6207"
+					item: {
+						Count: 1b
+						id: "bewitchment:hedgewitch_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "219A667E66525891"
+					item: {
+						Count: 1b
+						id: "bewitchment:hedgewitch_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Одеяние Природной Ведьмы"
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5E08698700AC507D"]
+			id: "5F847E4D1CC154C9"
+			rewards: [{
+				id: "69AEB0B2C1AB061D"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Алтарь несет в себе магическую энергию, которую мы, ведьмы, используем в совершении ритуалов. Чтобы увеличить емкость, ты должен украсить свой алтарь подходящими вещами и посадить больше деревьев вокруг него."
+			tasks: [{
+				id: "0C483FD414E64354"
+				item: "bewitchment:stone_witch_altar"
+				type: "item"
+			}]
+			title: "Энергетический Контейнер Ведьмы"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F847E4D1CC154C9"]
+			id: "1577D6D2BA74ADE1"
+			rewards: [{
+				id: "61546F56C5B5B4D3"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Жаровня используется для проклинания, благовония и ритуалов, так что иметь одну такую будет жизненно необходимо если мы хотим быть успешными, юная ведьма."
+			tasks: [{
+				id: "1B7523FDC014B527"
+				item: "bewitchment:brazier"
+				type: "item"
+			}]
+			title: "Ритуальный Сжигатель"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F847E4D1CC154C9"]
+			id: "35DBF08CC1F62458"
+			rewards: [{
+				id: "53DD63A89A90FF42"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Мел крайне важен для ведьмы, так как он является основой ритуалов, ведь для них нужно нарисовать круг чтобы активировать. Лучше иметь мел каждого типа наготове."
+			tasks: [
+				{
+					id: "112FD4CB4AE9DDF2"
+					item: {
+						Count: 1b
+						id: "bewitchment:chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40F195965FDBA568"
+					item: {
+						Count: 1b
+						id: "bewitchment:golden_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63AB9892FD8F92C0"
+					item: {
+						Count: 1b
+						id: "bewitchment:fiery_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BBDFBAD65757222"
+					item: {
+						Count: 1b
+						id: "bewitchment:eldritch_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Мел-Зона"
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			id: "3AD9313AFAEB7BAC"
+			rewards: [{
+				id: "46474BDC6DBDB38C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Соль важна не только в качестве приправы для еды, но и в отпугивании злых духов и демонов, которые могут охотиться на тебя. Соль хороша для барьеров."
+			tasks: [{
+				id: "394C5E4C34E67F3A"
+				item: "bewitchment:salt"
+				type: "item"
+			}]
+			title: "Не ешь соль!"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			id: "6B084C88BBDB74B8"
+			rewards: [{
+				id: "5051995466309063"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "По крайней мере ты можешь насладиться вкусным перекусом, пока используешь чеснок для магических целей."
+			tasks: [{
+				id: "13DD560CDE2751B0"
+				item: "bewitchment:garlic_bread"
+				type: "item"
+			}]
+			title: "Где масло?"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "312E441051273F07"
+			rewards: [{
+				id: "0A27B606DFD265C4"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Получение этих двух предметов необходимо если ты хочешь создать некоторые из вещей для проклятий или декораций. Они находятся убийством демонов и адских псов."
+			tasks: [
+				{
+					id: "733D85357179B9B2"
+					item: "bewitchment:demon_horn"
+					type: "item"
+				}
+				{
+					id: "03D78D78886AEA2E"
+					item: "bewitchment:snake_tongue"
+					type: "item"
+				}
+			]
+			title: "Части Демонов"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["312E441051273F07"]
+			id: "0F99480AF49C90B9"
+			rewards: [{
+				id: "08F657B6FCB818AB"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Ведьминский предмет для иммунитета к огню по цене небольшого количества магической энергии. Сами предметы также устойчивы к огню."
+			tasks: [{
+				id: "2E37E9880EA11D4C"
+				item: "bewitchment:hellish_bauble"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C32BEA3E2E932F0"]
+			id: "1AC8A7B786C0D443"
+			rewards: [{
+				id: "0D5D93C5030CB3AA"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Это предотвратит появление любого моба в радиусе 24 блоков."
+			tasks: [{
+				id: "7E0C9FFE8A4F16CF"
+				item: "bewitchment:glowing_bramble"
+				type: "item"
+			}]
+			title: "Естественный Настенный Свет"
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["13E6C2121AC06E4D"]
+			id: "399185DBAC205280"
+			rewards: [{
+				id: "443D9ED4C06A0363"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Любой моб, вошедший в контакт с ними, будет телепортирован в случайное место в радиусе 64 блоков."
+			tasks: [{
+				id: "59613A7AA45623A6"
+				item: "bewitchment:ender_bramble"
+				type: "item"
+			}]
+			title: "Подальше от тебя!"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1705C4BCC0877881"]
+			id: "25D9B2CA3A60C643"
+			rewards: [{
+				id: "3D163E5C8F076D84"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Эти ягоды выращивают специальный фрукт, который может быть использован для создания еды, восстанавливающей магическую энергию при поглощении."
+			tasks: [{
+				id: "222520A5F47C0EB4"
+				item: "bewitchment:fruiting_bramble"
+				type: "item"
+			}]
+			title: "Ведьмин Куст"
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["497F772433CCD604"]
+			id: "6B4DFDBED1932929"
+			rewards: [{
+				id: "1F19DDBB551ECFDA"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Не дает сущностям проходить сквозь, пока ты не присядешь, чтобы пройти."
+			tasks: [{
+				id: "636E535F031DDD36"
+				item: "bewitchment:thick_bramble"
+				type: "item"
+			}]
+			title: "ТЫ НЕ ПРОЙДЕШЬ! так просто."
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2C772382F591E206"]
+			id: "34974FD493DCDB71"
+			rewards: [{
+				id: "2E620C0D9DF1A0B1"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Отправь любого моба полетать в воздухе при контакте с этой стеной."
+			tasks: [{
+				id: "1EC1EC2052EA4713"
+				item: "bewitchment:fleeting_bramble"
+				type: "item"
+			}]
+			title: "Трамплин, но на стене"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["40DA06BA210A7F4F"]
+			id: "5974E6F54D4E94B7"
+			rewards: [{
+				id: "6615962E9D17E3E1"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Сжигает любого моба, который войдет с ягодами в контакт."
+			tasks: [{
+				id: "13822D8C28661F37"
+				item: "bewitchment:scorched_bramble"
+				type: "item"
+			}]
+			title: "Файрволл, но для сущностей, а не вирусов."
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["25D9B2CA3A60C643"]
+			id: "3F11B040CEECD604"
+			rewards: [{
+				id: "61DC222D6B591D8F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Лучший друг ведьмы. Используется для создания еды."
+			tasks: [{
+				id: "2D70BA17F299C0C9"
+				item: "bewitchment:witchberry"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3F11B040CEECD604"]
+			id: "0093445D83A733ED"
+			rewards: [{
+				id: "4F4505D4D169DF2D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					id: "59E6811404E5AB82"
+					item: "bewitchment:witchberry_cookie"
+					type: "item"
+				}
+				{
+					id: "49758753A4D3318C"
+					item: "bewitchment:witchberry_pie"
+					type: "item"
+				}
+			]
+			title: "Еда из ведьминой ягоды"
+			x: 5.0d
+			y: 9.5d
+		}
+	]
+	title: "&c Ведьмино Исскуство \\& Ритуалы"
+}

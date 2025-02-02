@@ -1,0 +1,358 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "e_spell_books"
+	group: "5EA21B61C2E147CB"
+	id: "0A5ED3FF6297E59E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eСтол заклинаний создаёт книги заклинаний I уровня. Также позволяет добавлять заклинания в любые книги вне зависимости от их уровня."
+				""
+				"&7Для максимальной эффективности и разблокировки всех заклинаний окружите его &eкнижными полками&7 по аналогии со столом зачаровывания."
+			]
+			id: "2ACBF734342376E6"
+			shape: "hexagon"
+			subtitle: "&8[Нажмите для инструкций]"
+			tasks: [{
+				id: "27A316975F783582"
+				item: "spell_engine:spell_binding"
+				type: "item"
+			}]
+			title: "&eСтол заклинаний"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ACBF734342376E6"]
+			description: [
+				"&eПрежде чем создавать книгу заклинаний, важно понять систему уровней:"
+				"&8Сложность указывает на способ получения и мастерства."
+				""
+				"&eУровень I: &7Базовые книги, создаваемые через Стол заклинаний."
+				"&6Уровень II: &7Гибридные книги, требующие рецепта крафта с книгой I уровня."
+				"&cУровень III: &7Продвинутые книги, эволюционирующие из II уровня или требующие Трофея Пеплостоя. Часто имеют уникальную механику."
+				""
+				"&7Высший уровень &cне гарантирует силу&7, а отражает сложность получения."
+			]
+			id: "3D769BC0E31CF27B"
+			rewards: [{
+				count: 8
+				id: "63E0801C38149B0D"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Нажмите для инструкций]"
+			tasks: [{
+				id: "5C2381C13E96EC72"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			title: "&eИсточник силы"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eКодекс Воина"
+				"&7Базовая книга для ближнего боя. Универсальный выбор для медленных, но мощных атак."
+			]
+			id: "680CDC0CDDB2A1E7"
+			shape: "diamond"
+			subtitle: "&eУровень I&7- &aПросто"
+			tasks: [{
+				id: "0CC8838FD229F0D3"
+				item: "rogues:warrior_spell_book"
+				type: "item"
+			}]
+			title: "&eПуть берсерка"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eРуководство Разбойника"
+				"&7Фокусируется на скрытности: телепортации, станы, усиление атак и маскировка."
+			]
+			id: "78944A4B5A1CD1EA"
+			shape: "diamond"
+			subtitle: "&eУровень I &7- &aПросто"
+			tasks: [{
+				id: "420A3C82E6373505"
+				item: "rogues:rogue_spell_book"
+				type: "item"
+			}]
+			title: "&eТени смерти"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eУчебник лучника"
+				"&7Улучшает стрельбу: пассивные бонусы, контроль толпы и серийные выстрелы."
+			]
+			id: "39463E71A1709CE8"
+			shape: "diamond"
+			subtitle: "&eУровень I &7- &aПросто"
+			tasks: [{
+				id: "659C0887A14C58E8"
+				item: "archers:archer_spell_book"
+				type: "item"
+			}]
+			title: "&eМеткий стрелок"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eСвященный фолиант"
+				"&7Исцеление союзников через древние священные ритуалы."
+			]
+			id: "420BD41EBB2FCBF2"
+			shape: "diamond"
+			subtitle: "&eУровень I &7- &aПросто"
+			tasks: [{
+				id: "4A76EA93FA7EBA05"
+				item: "paladins:priest_spell_book"
+				type: "item"
+			}]
+			title: "&eСвятой целитель"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eТом Арканы"
+				"&7Дальнобойные атаки с высоким критом и взрывным уроном."
+				""
+				"- &eТом Льда"
+				"&7Контроль толпы, быстрые атаки и защитные заклинания."
+				""
+				"- &eТом Огня"
+				"&7Мощные поджигающие атаки с повышенным шансом крита."
+			]
+			id: "2FE046702FE7E363"
+			shape: "diamond"
+			subtitle: "&eУровень I  &7- &aПросто"
+			tasks: [
+				{
+					id: "767C8498E6F73BF4"
+					item: "wizards:arcane_spell_book"
+					type: "item"
+				}
+				{
+					id: "1645A1DF79B0CC8F"
+					item: "wizards:frost_spell_book"
+					type: "item"
+				}
+				{
+					id: "0AC2E4E46CF093ED"
+					item: "wizards:fire_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eСтихийная магия"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"680CDC0CDDB2A1E7"
+				"420BD41EBB2FCBF2"
+			]
+			description: [
+				"- &eЛибрам Паладина (Танк)"
+				"&7Гибрид Воина и Жреца, использующий священную магию для защиты союзников."
+			]
+			id: "55D2E1055E762E33"
+			shape: "pentagon"
+			subtitle: "&6Уровень II &7- &eСредне"
+			tasks: [{
+				id: "1B0545C60E16399F"
+				item: "paladins:paladin_spell_book"
+				type: "item"
+			}]
+			title: "&eСвятой воитель"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["680CDC0CDDB2A1E7"]
+			description: [
+				"&7Три типа Рыцарей Смерти:"
+				""
+				"- &eТом Вечной Зимы (Лёд - Урон)"
+				"&7Атаки по области, сложное мастерство."
+				""
+				"- &eТом Нечестивых Учений (Нечестивость - Урон)"
+				"&7Фокус на единичные цели с талантом 'Гниющая Преданность'."
+				""
+				"- &eТом Вампиризма (Кровь - Танк)"
+				"&7Самовосстановление через заклинания, зависящие от здоровья."
+			]
+			id: "12369F6ACB62CBC1"
+			shape: "pentagon"
+			subtitle: "&6Уровень II &7- &eСредне"
+			tasks: [
+				{
+					id: "7F6EA37603A11140"
+					item: "death_knights:blood_spell_book"
+					type: "item"
+				}
+				{
+					id: "4A010BC27744790E"
+					item: "death_knights:unholy_spell_book"
+					type: "item"
+				}
+				{
+					id: "5022B3CA9933DD1B"
+					item: "death_knights:frost_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eРыцари Смерти"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2FE046702FE7E363"
+				"78944A4B5A1CD1EA"
+			]
+			description: [
+				"&eМагические клинки, сочетающие магию и ближний бой."
+				""
+				"- &eТехники Стихий"
+				"&7Серия книг с элементальными заклинаниями для ближнего боя."
+			]
+			id: "2D6DC01DD507C1EC"
+			shape: "pentagon"
+			subtitle: "&6Уровень II &7- &aПросто"
+			tasks: [
+				{
+					id: "17F3314D40F30CEE"
+					item: "spellbladenext:frost_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "7BABA4105E09F7BE"
+					item: "spellbladenext:fire_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "6CFA154E9DDFAF6B"
+					item: "spellbladenext:arcane_battlemage_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eМагические клинки"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2FE046702FE7E363"]
+			description: [
+				"&eАстральная магия объединяет Аркану, Огонь и Лёд."
+				""
+				"- &eАстральные призывы"
+				"&7Комбинируйте стихии для создания 39 вариантов заклинаний. Ультимативное заклинание меняется в зависимости от использованных элементов."
+				""
+				"&cСамая сложная книга для мастерства."
+			]
+			id: "6EBA56E6576665E2"
+			shape: "hexagon"
+			subtitle: "&cУровень III &7- &cСложно"
+			tasks: [{
+				id: "6FF598197E4A5471"
+				item: "invoke:invoker_spell_book"
+				type: "item"
+			}]
+			title: "&eАстральная магия"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39463E71A1709CE8"]
+			description: [
+				"- &eУжас Минтаки (Лёд)"
+				"&7Контроль толпы через оглушения и ледяные эффекты."
+				""
+				"- &eВзгляд Альнилама (Точность)"
+				"&7Быстрая стрельба для скрытных лучников."
+				""
+				"- &eМощь Альнитака (Огонь)"
+				"&7Поджигающие взрывные атаки."
+			]
+			id: "24588E0C17F50C15"
+			shape: "pentagon"
+			subtitle: "&cУровень III &7- &eСредне"
+			tasks: [
+				{
+					id: "362CF726EC9049D2"
+					item: "archers_expansion:tundra_hunter_spell_book"
+					type: "item"
+				}
+				{
+					id: "3BDCCF2AA3A70E04"
+					item: "archers_expansion:deadeye_spell_book"
+					type: "item"
+				}
+				{
+					id: "09E48B2921BFBA96"
+					item: "archers_expansion:war_archer_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eТри охотника"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2D6DC01DD507C1EC"]
+			description: [
+				"&eПродвинутые версии книг техник:"
+				""
+				"- &eВысвобожденные эхо"
+				"&7Тайные знания Арканы."
+				""
+				"- &eТом Смертельного Холода"
+				"&7Абсолютное владение Льдом."
+				""
+				"- &eРитуалы Феникса"
+				"&7Перерождение через очищающее пламя."
+			]
+			id: "54865C68BCE9863A"
+			shape: "hexagon"
+			subtitle: "&cУровень III &7- &eСредне"
+			tasks: [
+				{
+					id: "0C0195D29CA499EE"
+					item: "spellbladenext:runic_echoes_spell_book"
+					type: "item"
+				}
+				{
+					id: "1822DD768F03A89D"
+					item: "spellbladenext:deathchill_spell_book"
+					type: "item"
+				}
+				{
+					id: "61E0031395517090"
+					item: "spellbladenext:phoenix_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eЗнания Магистра"
+			x: -3.0d
+			y: -5.0d
+		}
+	]
+	title: " &eОткрытие Способностей"
+}

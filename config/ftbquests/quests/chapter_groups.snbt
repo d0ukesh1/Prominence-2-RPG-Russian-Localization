@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{ id: "5EA21B61C2E147CB", title: "&6Обучение" }
+		{ id: "3DBADFFDA1FDAD84", title: "&6Кампания" }
+		{ id: "3E586F2160161EEA", title: "&6Реальности" }
+		{ id: "555B69C1AF8C1C7F", title: "&6Боевка \\& Снаряжение" }
+		{ id: "244F516C4853FD2F", title: "&6Магия" }
+		{ id: "49D52BD6447C5CC0", title: "&6Техника" }
+		{ id: "7367AB870F5BB5DC", title: "&dПуть к Вечному Знанию" }
+	]
+}
+

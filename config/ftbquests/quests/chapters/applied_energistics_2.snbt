@@ -1,0 +1,1733 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "applied_energistics_2"
+	group: "49D52BD6447C5CC0"
+	icon: "ae2:controller"
+	id: "75FDA9480EE7777C"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "ae2:item/blank_pattern"
+		rotation: 0.0d
+		width: 3.0d
+		x: 17.5d
+		y: 1.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "35105F4914FBEC3B"
+			rewards: [
+				{
+					id: "5378EDCF86A50277"
+					item: "ae2:crank"
+					type: "item"
+				}
+				{
+					id: "7C8731764F83270B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "gear"
+			subtitle: "Зарядник заряжает поддерживаемые инструменты через МЕ Сеть или вручную с помощью рукояти. С помощью него также создается Заряженный Истинный Кварц из Истинного Кварца, а также Метеоритный Компасс из Компасса."
+			tasks: [{
+				id: "26755D4A4B6D447D"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			title: "Подготовливаемся к Нахождению Метеоритов 1"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35105F4914FBEC3B"]
+			id: "452FE521007EE0D9"
+			rewards: [{
+				id: "6FEF03650DCF64BB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Чтобы создать метеоритный компас, заряди компас в Заряднике. Это делается с помощью Деревянной Рукояти. Метеоритный Компас указывает в направлении ближайшего Метеорита в радиусе 2,700 блоков. Когда компас быстро крутится это означает что в этом чанке есть Небесный Камень! Когда компас крутится медленно, это означает что он не нашел метеорит в своём радиусе."
+			tasks: [{
+				id: "78C149237D81A6C9"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			title: "Подготавливаемся к Нахождению Метеоритов 2"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["452FE521007EE0D9"]
+			id: "007FF6F71BEF7E3C"
+			rewards: [
+				{
+					count: 5
+					id: "7CE488318BA92052"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "372018AD002EAB96"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Перед тем как ты выдвинешься убедись что у тебя есть Железная кирка или лучше. Метеориты состоят из очень твердого материала названного Небесным Камнем. Копай в центр метеорита и собери Кристаллы Истинного Кварца, блоки Истинного Кварца и Печати Вырезателя!"
+			tasks: [
+				{
+					id: "48E8D095ECE464DA"
+					item: "ae2:quartz_block"
+					type: "item"
+				}
+				{
+					id: "7DC44DB8FC93E8D5"
+					item: "ae2:sky_stone_block"
+					type: "item"
+				}
+			]
+			title: "Твой Первый Метеорит"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["007FF6F71BEF7E3C"]
+			id: "5962DB7143D9AD5F"
+			rewards: [{
+				id: "3B59CCFFB6854AD4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Печати Вырезателя найдены в Небесных Сундуках в центре Метеорита. Они используются в создании печатных плат в Вырезателе."
+			tasks: [
+				{
+					id: "16939C6D195B1127"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "5F50C782FA557D79"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "12C4E49B4C9A757F"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "62B22B264CC9DB3C"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "Печати Вырезателя"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["007FF6F71BEF7E3C"]
+			id: "1B26C03FD0CDAAEA"
+			rewards: [
+				{
+					count: 5
+					id: "3AC3C9E895D83229"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "30EC3DC01C69D736"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Теперь когда у тебя есть Кристаллы Истинного Кварца, время их зарядить. Положи один в Зарядник и проверни рукоять!"
+			tasks: [{
+				id: "1281175EA867EDB4"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B26C03FD0CDAAEA"]
+			id: "649045BE6DED01C9"
+			rewards: [{
+				count: 3
+				id: "0D3C8EDC0D461667"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			subtitle: "Этот кристалл обладает уникальной возможностью поглощать и конвертировать энергию из одной формы в другую, и является основой всей ME технологии. Флюисовый Кристалл создаётся путем смешивания Заряженного Истинного Кварца, Незер Кварца и Редстоуновой Пыли в воде. Оно начнет бурно реагировать, и получится Флюисовый кристалл."
+			tasks: [{
+				id: "13A7FC8BE40D58E0"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5962DB7143D9AD5F"]
+			id: "7F098E39492F5712"
+			rewards: [{
+				id: "5B1B56388B2BA3D8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "gear"
+			subtitle: "Для создания процессоров, необходимых для будущих машин, тебе нужен Вырезатель. Каждый вид процессора имеет свою печать, которые находятся в метеоритах. Каждой операции нужно 1к AE."
+			tasks: [{
+				id: "16BB9E2C20ACE60D"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "6CF436D4831F590C"
+			optional: true
+			rewards: [
+				{
+					id: "7C36387AF835846D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "182113DDE4152A4B"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "6DD0B7F79E511E2A"
+					item: "ae2:flawless_budding_quartz"
+					type: "item"
+				}
+			]
+			subtitle: "Гаечный ключ из Кристалла Истинного Кварца или Незер Кварца. Пригодиться для поворота машин и удаления определенных частей кабеля."
+			tasks: [{
+				id: "5EA3D64A96FA7D0D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_wrench"
+							}
+							{
+								Count: 1b
+								id: "ae2:nether_quartz_wrench"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Поворачиваем Ваши Машины"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["21257050C6608D6E"]
+			id: "4795979571F1FAEA"
+			rewards: [
+				{
+					count: 5
+					id: "361CBEEF5109DC0C"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					id: "4167497BDB02B925"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Модифицированная печь, способная создавать ПЭ Силу вместо переплавки руд. Когда стоит на ME Сети заряжает Ячейку Энергии или другие Девайсы Сети. Резонирующая Камера сожжет почти любое твердое топливо. Кол-во генерируемой энергии опирается на то, как много энергии оно может вместить vs что осталось. Генерирует между 1 и 10 ПЭ/т в зависимости от скорости сожжения."
+			tasks: [{
+				id: "25A5962657B80ED5"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			title: "Запитываем Вашу Сеть 2"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4795979571F1FAEA"]
+			id: "27BAA1F4DE80AC55"
+			rewards: [
+				{
+					id: "3E8202CD81EECE2A"
+					item: "ae2:vibration_chamber"
+					type: "item"
+				}
+				{
+					id: "6A04923E85403E6E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Хранит до 200,000 ПЭ. Он не принимает энергию напрямую, но используется как дополнительная ячейка энергии в ME Сети."
+			tasks: [{
+				id: "6F08AD378A0958C5"
+				item: {
+					Count: 1b
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Храня Энергию 1"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27BAA1F4DE80AC55"]
+			id: "75A4BA8547564888"
+			rewards: [
+				{
+					id: "1390E8DAC4871757"
+					item: {
+						Count: 1b
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3DAFDEEF368FB2ED"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Хранят до 1.6 миллионов ПЭ. Они не принимают энергию напрямую, но добавляют ячейки энергии в ME Сеть."
+			tasks: [{
+				id: "3D4139F14C804ED4"
+				item: {
+					Count: 1b
+					id: "ae2:dense_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Храня Энергию 2"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "21257050C6608D6E"
+			rewards: [{
+				id: "14D8468BA2E3CF58"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "Приёмщик энергии конвертирует энергию из внешней системы в ПЭ и хранит его в сети. Следующие системы поддерживаются: Энергия Фордж / Рэдстоун Флюс 2 ФЭ = 1 ПЭ."
+			tasks: [{
+				id: "362E208A454BEBF4"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			title: "Запитываем Вашу Сеть 1"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27BAA1F4DE80AC55"]
+			id: "0906EC11E1795CC1"
+			rewards: [{
+				count: 16
+				id: "71390843293CA000"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			subtitle: "Волокно создано для передачи энергии двумя MЭ Сетями без передачи чего-либо ещё, также используется в создании Флюисовых MЭ Стеклянных кабелей."
+			tasks: [{
+				id: "2B2D067EEDAE889D"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			title: "Передавая энергию между сетями"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4A041E600B41F4C3"
+				"7F098E39492F5712"
+			]
+			id: "386BB0A6D8D16F8D"
+			rewards: [
+				{
+					count: 6
+					id: "77FB614EA59587E6"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "0D3BC9C872978757"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Используется в создании Вычислительных Процессоров в Вырезателе."
+			tasks: [{
+				id: "730C6C0DFD9ED426"
+				item: "ae2:printed_calculation_processor"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4329D355F5B2E80D"
+				"7F098E39492F5712"
+			]
+			id: "0B07F044C4AD8C6A"
+			rewards: [
+				{
+					count: 6
+					id: "251829A57DC1C984"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "345400CDDD512945"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Используется в создании Инженерных процессоров в Вырезателе."
+			tasks: [{
+				id: "5F7A54FA2EF9E9AA"
+				item: "ae2:printed_engineering_processor"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0EDC1CB91ADAC3DB"
+				"7F098E39492F5712"
+			]
+			id: "145B60BAC740910A"
+			rewards: [
+				{
+					id: "58AF2295766079F6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 6
+					id: "0E0E2CA4C515C87E"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Используется в создании Логического процессора в Вырезателе."
+			tasks: [{
+				id: "0F0C927B0578FE62"
+				item: "ae2:printed_logic_processor"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42A4FAD05869BF4A"]
+			id: "12CAEA99C1F2148D"
+			rewards: [
+				{
+					count: 16
+					id: "0C4CFCB1C2278794"
+					item: "ae2:silicon"
+					type: "item"
+				}
+				{
+					id: "7E588738718F5F7B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Нужен для создания всех Процессоров."
+			tasks: [{
+				id: "3B4ABFDA13975AB3"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			id: "42A4FAD05869BF4A"
+			rewards: [{
+				count: 10
+				id: "28C31F4A67ACA1D6"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Кремний создается переплавкой Пыли Истинного Кварца. Он используется в Вырезателе вместе с Кремниевой Печатью для Вырезателя, чтобы создать Печатный Кремний."
+			tasks: [{
+				id: "24324D7D876CB420"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["649045BE6DED01C9"]
+			id: "2DB4F8709A1E0F36"
+			optional: true
+			rewards: [
+				{
+					count: 10
+					id: "7810E51EF3729FC0"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "70546A10DACCBDB3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Используется для ускорения роста кристаллов, что позволяет тебе создать Истинный Кварцевый Кристалл и Флюисовый Кристалл из кристальной пыли. Запитывается ME Сетью через верх или низ, поглощая 8 ПЭ/т. Семена Кристаллов должны быть в близлежащем блоке воды, семена будут блистать более быстро в присутствии включенного Ускорителя Роста Кристаллов. Присоединяется только к проводам, или другим машинам в сети в низу и верху машины."
+			tasks: [{
+				id: "392757001D259FB4"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "0EDC1CB91ADAC3DB"
+			shape: "circle"
+			subtitle: "Нужен для создания Печатной Логической Схемы вместе с логической печатью для вырезателя."
+			tasks: [{
+				id: "51A800BB297FD52A"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "4A041E600B41F4C3"
+			shape: "circle"
+			subtitle: "Нужен для создания Печатной Вычислительной Схемы вместе с Вычислительной Печатью в Вырезателе."
+			tasks: [{
+				id: "66148600F741E743"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			id: "4329D355F5B2E80D"
+			shape: "circle"
+			subtitle: "Нужен для создания Печатной Инженерной Схемы вместе с Инженерной Печатью в Вырезателе."
+			tasks: [{
+				id: "554F62ED2C0E58EF"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3428F823206436AD"
+				"7F098E39492F5712"
+			]
+			id: "126B63BE0CB0D54B"
+			rewards: [{
+				count: 10
+				id: "5C222722D1F7D78A"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "181AECB6AE9347EC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:ender_pearl_dusts"
+					}
+				}
+				title: "Любая Эндер-пыль "
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"686528C6DC3955B0"
+				"7F098E39492F5712"
+			]
+			id: "55A8B55BAC452EA1"
+			rewards: [{
+				count: 10
+				id: "3784D39EE30392E5"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4228861311FA81EC"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0029F5652C806DC9"
+				"7F098E39492F5712"
+			]
+			id: "31FA79C3BEBB98E5"
+			rewards: [{
+				count: 10
+				id: "54F3CAF83A286613"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ADFFC4F54E91AEC"
+				item: "ae2:fluix_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"437AFE0B8B869077"
+				"7F098E39492F5712"
+			]
+			id: "6B5493F80C24051C"
+			rewards: [{
+				count: 10
+				id: "555DF47B733B39D3"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3631E4A84AB5821F"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "686528C6DC3955B0"
+			shape: "circle"
+			tasks: [{
+				id: "565289F508761008"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:certus_quartz"
+					}
+				}
+				title: "Any #c:certus_quartz"
+				type: "item"
+			}]
+			title: "Истинный Кварц"
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "3428F823206436AD"
+			shape: "circle"
+			tasks: [{
+				id: "08AEBD195912F566"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "0029F5652C806DC9"
+			shape: "circle"
+			tasks: [{
+				id: "5D293BBCF0B0A648"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "437AFE0B8B869077"
+			shape: "circle"
+			tasks: [{
+				id: "02DFCD72D6DF52C7"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"12CAEA99C1F2148D"
+				"386BB0A6D8D16F8D"
+				"3D5BF7E05FE7FF71"
+			]
+			id: "3D550CD9EEE29E6F"
+			rewards: [
+				{
+					count: 4
+					id: "092B0A409C7732EC"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "293F98F8BFC819DE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Процессор среднего уровня."
+			tasks: [{
+				id: "04010B4761D37E97"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"12CAEA99C1F2148D"
+				"0B07F044C4AD8C6A"
+				"3D5BF7E05FE7FF71"
+			]
+			id: "5CFE6E363FC52BDD"
+			rewards: [
+				{
+					count: 4
+					id: "6A9A4885B01AB4D2"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "434AF030733EB94C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Самый продвинутый Процессор."
+			tasks: [{
+				id: "672ED8F45A5EA6CD"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"145B60BAC740910A"
+				"12CAEA99C1F2148D"
+				"3D5BF7E05FE7FF71"
+			]
+			id: "736D489426858C6C"
+			rewards: [
+				{
+					count: 4
+					id: "076DFBE5E3271FAF"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "09C1450B4C0DAEAC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Самый базовый процессор."
+			tasks: [{
+				id: "5A4D826E9A34C2AB"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			id: "3D5BF7E05FE7FF71"
+			shape: "circle"
+			subtitle: "Рэдстоун является компонентом процессора."
+			tasks: [{
+				id: "738D2517D2F6BF15"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "7991B5D4970CDCFE"
+			rewards: [{
+				id: "14403ACBBD2863C8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			subtitle: "Компонент, необходимый для создания ячеек хранения. Ячейка хранения это одна из ключевых механик хранения в Applied Energistics 2, из них есть три вида: для предметов, для жидкостей, и для регионов космоса. Эти хранят только вещи."
+			tasks: [{
+				id: "5B56842ACD469029"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2AA2D0140E9B0F88"]
+			id: "68487E90AA4A1FC5"
+			rewards: [{
+				id: "1EE031DC3BFEC98A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "MЭ Сундук даёт использовать ячейки Хранилища, а также даёт прямой доступ к содержимому ячейки внутри. Он запитывается как внешней энергией, так и MЭ Сетью. В сети, содержимое сундука доступно другим девайсам в той же сети и с тем же Каналом. Без сети, количество переносимой стопки за раз блокируется на 38 предметах."
+			tasks: [{
+				id: "0799E1752E0725D9"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6FE1CBDF3A7515EC"
+				"6D17293BBEDF3958"
+				"4B2D031595A25305"
+			]
+			id: "2AA2D0140E9B0F88"
+			rewards: [{
+				id: "59F80FDDAD78058E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Держит Диски Хранилища и показывает инвентарь MЭ Сундуков."
+			tasks: [{
+				id: "76A1D105E526A568"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "6FE1CBDF3A7515EC"
+			rewards: [{
+				id: "133282D467E7A4C9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			subtitle: "Компонент, нужный для создания МЭ терминала."
+			tasks: [{
+				id: "749DBDC7DEFE6313"
+				item: "ae2:formation_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2B2D067EEDAE889D"
+				"0906EC11E1795CC1"
+			]
+			id: "4AABEFF8E855D8D8"
+			rewards: [{
+				count: 16
+				id: "4CAC3534467BF088"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			subtitle: "Флюисовый MЭ Стеклянный Кабель это простейший для создания кабель, переносит энергию до 8 Каналов. Он поставляется в 17 цветах, по умолчанию стоит Флюисовый, красится в любой цвет с помощью любого из 16 красителей."
+			tasks: [{
+				id: "430D87ABC96168C8"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "6D17293BBEDF3958"
+			rewards: [{
+				id: "1D949F901B6427AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			subtitle: "Компонент, нужный для создания МЭ терминала."
+			tasks: [{
+				id: "266628AB0DCB3A70"
+				item: "ae2:annihilation_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7649744CC59CA17A"]
+			id: "4B2D031595A25305"
+			rewards: [{
+				id: "566B502AF531FA45"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Компонент, нужный для создания МЭ терминала."
+			tasks: [{
+				id: "3A43960E6E52F985"
+				item: "ae2:semi_dark_monitor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "7649744CC59CA17A"
+			rewards: [
+				{
+					id: "12BFD9651BEF51C8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "6CB8B4B68B1499D0"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Компонент, нужный для создания освещённой панели."
+			tasks: [{
+				id: "3FA27A630451FC41"
+				item: "ae2:quartz_glass"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5CFE6E363FC52BDD"
+				"67FA1292129370E6"
+			]
+			id: "754DEFB6247B4FB5"
+			rewards: [
+				{
+					id: "31DB9D02E7F4316A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "2AD172292ADF47A9"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "MЭ Регулятор это хаб MЭ Сети. Без него, только 8 девайсов смогут взаимодействовать, одним больше и все перестанет работать. Нельзя иметь 2 MЭ Регулятора в одной MЭ Сети. В отличии от многих других девайсов MЭ Сети, МЭ Регулятор не требует каналов, он наоборот их даёт от 8 до 32 на сторону."
+			tasks: [{
+				id: "340A427B8E9BBE08"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			id: "67FA1292129370E6"
+			rewards: [{
+				count: 32
+				id: "3A4B01741D76DC8E"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			subtitle: "Небесные Каменные Блоки создаются переплавкой Небесного Камня в печи."
+			tasks: [{
+				id: "777BB83C3E8E0FB5"
+				item: "ae2:smooth_sky_stone_block"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5CFE6E363FC52BDD"]
+			id: "14AAC7075B000B15"
+			rewards: [{
+				id: "7C2EC0045F215C6A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Блок который делает всего одну вещь, хранит Ячейки Хранилища. Блок хранит 10 ячеек хранилища так что ты сможешь плотно запаковать свои предметы в очень маленькое пространство."
+			tasks: [{
+				id: "5203A4E286C6629B"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7649744CC59CA17A"]
+			id: "2CA7F84EB26F0B96"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "056453367D0F8712"
+				item: "ae2:quartz_vibrant_glass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "21D071C553C01CA3"
+			shape: "diamond"
+			subtitle: "Жидкостные Ячейки это тоже самое что и Предметные Ячейки, но вместо хранения предметов они содержат жидкости."
+			tasks: [{
+				id: "691D74EA299E9AB0"
+				item: "ae2:fluid_cell_housing"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			id: "6BA81EEC6176D279"
+			rewards: [{
+				id: "05B98E5E9125A2FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Компоненты Хранения это основа любой ячейки что ты создашь в AE2."
+			tasks: [{
+				id: "5AA14A1CAB53D12F"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6BA81EEC6176D279"]
+			id: "6965B19BD3B71CDF"
+			rewards: [{
+				id: "32EE0A23293C95F3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7852B9C45FEDD5B5"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6965B19BD3B71CDF"]
+			id: "1C3D02337D74236D"
+			rewards: [{
+				id: "79CD3EE7C645A332"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2382A194230F4FE8"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C3D02337D74236D"]
+			id: "10F78B944D78AB3E"
+			rewards: [{
+				id: "1673787A84D2929C"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "69AD245CFDD65D3B"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10F78B944D78AB3E"]
+			id: "5A35DC8E1B5C5C1C"
+			rewards: [{
+				id: "215F9EA9E4D4FEFA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "34EE85B15BABBB51"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7991B5D4970CDCFE"]
+			id: "449772CDAE2C0F9C"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "044EA1A27746FB35"
+				item: "megacells:mega_item_cell_housing"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["21D071C553C01CA3"]
+			id: "013D0D433BC1453E"
+			optional: true
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "62B38B674FEED18A"
+				item: "megacells:mega_fluid_cell_housing"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A35DC8E1B5C5C1C"]
+			id: "404F8E90E684897A"
+			optional: true
+			rewards: [{
+				id: "08A97CEBDB21BE64"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "61D92190C7DE2B7A"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["404F8E90E684897A"]
+			id: "4DB79C938A013520"
+			optional: true
+			rewards: [{
+				id: "5DDA3D98F165C88D"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "3865F52A6D7F086E"
+				item: "megacells:cell_component_4m"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4DB79C938A013520"]
+			id: "53667AE11FFFAC3F"
+			optional: true
+			rewards: [{
+				id: "217E47FDDDA14C7D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "4B3601745F56270C"
+				item: "megacells:cell_component_16m"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["53667AE11FFFAC3F"]
+			id: "6F34909783DD3D8A"
+			optional: true
+			rewards: [{
+				id: "5A06251AC8BCFF1E"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			tasks: [{
+				id: "72F525FE1EAFE574"
+				item: "megacells:cell_component_64m"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F34909783DD3D8A"]
+			id: "3C670B8D50E994C1"
+			optional: true
+			rewards: [{
+				id: "122AFB1A68EEF2D0"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34B209523D27FBBE"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7991B5D4970CDCFE"
+				"6BA81EEC6176D279"
+			]
+			id: "2015C13CBE4C04EA"
+			rewards: [{
+				id: "44D4568A87956F3A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4696F75329791E02"
+				item: {
+					Count: 1b
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7991B5D4970CDCFE"
+				"6965B19BD3B71CDF"
+			]
+			id: "099C6C1ECFAA8988"
+			rewards: [{
+				id: "6137FDB34EB86D35"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5280A20140E9B855"
+				item: {
+					Count: 1b
+					id: "ae2:item_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7991B5D4970CDCFE"
+				"1C3D02337D74236D"
+			]
+			id: "65C9F147DE28049E"
+			rewards: [{
+				id: "62934DC9F1838F7F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7EFBE049944FE119"
+				item: {
+					Count: 1b
+					id: "ae2:item_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7991B5D4970CDCFE"
+				"10F78B944D78AB3E"
+			]
+			id: "120129247CA4354A"
+			rewards: [{
+				id: "68E274C68846C448"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "45B8E9EED0FDA41A"
+				item: {
+					Count: 1b
+					id: "ae2:item_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7991B5D4970CDCFE"
+				"5A35DC8E1B5C5C1C"
+			]
+			id: "52DF04779A3F142F"
+			rewards: [{
+				id: "2E6820FBAF69E405"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "01C57620D90A9BAE"
+				item: {
+					Count: 1b
+					id: "ae2:item_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"449772CDAE2C0F9C"
+				"404F8E90E684897A"
+			]
+			id: "2189645CF41DEEE8"
+			optional: true
+			rewards: [{
+				id: "0E15F7B07A807CA9"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "01F942B2319FD779"
+				item: {
+					Count: 1b
+					id: "megacells:item_storage_cell_1m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"449772CDAE2C0F9C"
+				"4DB79C938A013520"
+			]
+			id: "38FAF68954EDC76E"
+			optional: true
+			rewards: [{
+				id: "5A4EDD13E97C89F7"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "002A9855BA5926F1"
+				item: {
+					Count: 1b
+					id: "megacells:item_storage_cell_4m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"449772CDAE2C0F9C"
+				"53667AE11FFFAC3F"
+			]
+			id: "71868D43777AB2DB"
+			optional: true
+			rewards: [{
+				id: "032B433C5DB22187"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "5DACF6D44C3561F1"
+				item: {
+					Count: 1b
+					id: "megacells:item_storage_cell_16m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"449772CDAE2C0F9C"
+				"6F34909783DD3D8A"
+			]
+			id: "28FEABAFA3D516F8"
+			optional: true
+			rewards: [{
+				id: "56F158D8F3E371CC"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			tasks: [{
+				id: "5B6F45969ADBDEFE"
+				item: {
+					Count: 1b
+					id: "megacells:item_storage_cell_64m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"449772CDAE2C0F9C"
+				"3C670B8D50E994C1"
+			]
+			id: "12CA9F10581B180F"
+			optional: true
+			rewards: [{
+				id: "37C5738C1A7ADA4C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "4429E2DC37BED28C"
+				item: {
+					Count: 1b
+					id: "megacells:item_storage_cell_256m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"21D071C553C01CA3"
+				"6BA81EEC6176D279"
+			]
+			id: "0EB40422787DADB7"
+			rewards: [{
+				id: "266E27A2BA957747"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7B49907FEEAE04B2"
+				item: {
+					Count: 1b
+					id: "ae2:fluid_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"21D071C553C01CA3"
+				"6965B19BD3B71CDF"
+			]
+			id: "5C23AABE273D559B"
+			rewards: [{
+				id: "02D501BBAF290AA2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "13440EA0ACEAB070"
+				item: {
+					Count: 1b
+					id: "ae2:fluid_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"21D071C553C01CA3"
+				"1C3D02337D74236D"
+			]
+			id: "4E25207381F8999F"
+			rewards: [{
+				id: "5CCDCF9406FF9382"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "407C5673E824B9FD"
+				item: {
+					Count: 1b
+					id: "ae2:fluid_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"21D071C553C01CA3"
+				"10F78B944D78AB3E"
+			]
+			id: "50CD701DC35E1532"
+			rewards: [{
+				id: "5E254A1A8AE26B71"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "746D4613CB317EDB"
+				item: {
+					Count: 1b
+					id: "ae2:fluid_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"21D071C553C01CA3"
+				"5A35DC8E1B5C5C1C"
+			]
+			id: "107CEF6630C5070B"
+			rewards: [{
+				id: "7BF6EAA5F2DE5E90"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7B23089179FF4570"
+				item: {
+					Count: 1b
+					id: "ae2:fluid_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"013D0D433BC1453E"
+				"404F8E90E684897A"
+			]
+			id: "48E5092B70741DBE"
+			optional: true
+			rewards: [{
+				id: "52AEF511562B7049"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "60597CD73E32A642"
+				item: {
+					Count: 1b
+					id: "megacells:fluid_storage_cell_1m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"013D0D433BC1453E"
+				"4DB79C938A013520"
+			]
+			id: "519EBF8D02EC27BD"
+			optional: true
+			rewards: [{
+				id: "6B8DDEEAE24C737D"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "2A5D723FF5E0158F"
+				item: {
+					Count: 1b
+					id: "megacells:fluid_storage_cell_4m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"013D0D433BC1453E"
+				"53667AE11FFFAC3F"
+			]
+			id: "6A8FF7B29CCB6DC6"
+			optional: true
+			rewards: [{
+				id: "44AAC672721C6726"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "6156FD0FF7E8C248"
+				item: {
+					Count: 1b
+					id: "megacells:fluid_storage_cell_16m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"013D0D433BC1453E"
+				"6F34909783DD3D8A"
+			]
+			id: "788CC2380A983F63"
+			optional: true
+			rewards: [{
+				id: "34A7E9ABFB9E1694"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			tasks: [{
+				id: "0C975CA8085EF18A"
+				item: {
+					Count: 1b
+					id: "megacells:fluid_storage_cell_64m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"013D0D433BC1453E"
+				"3C670B8D50E994C1"
+			]
+			id: "3DB6BABB4EF0D205"
+			optional: true
+			rewards: [{
+				id: "19E00435DCE72F16"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "6988B7A4516A3E87"
+				item: {
+					Count: 1b
+					id: "megacells:fluid_storage_cell_256m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7991B5D4970CDCFE"]
+			icon: {
+				Count: 1b
+				id: "ae2:portable_item_cell_64k"
+				tag: {
+					internalCurrentPower: 20000.0d
+				}
+			}
+			id: "6AA5455AAC85BB9A"
+			shape: "circle"
+			subtitle: "Переносные ячейки - это обычные ячейки, но их можно открывать, как рюкзак (за исключением привязки к клавишам). Они все еще требуют энергии, но могут быть полезны в начале игры, если рюкзак не справляется со своей задачей."
+			tasks: [{
+				id: "499196DA5227D9E6"
+				title: "Немного о переносном хранилище"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			id: "4FC13E2D1139A1E5"
+			shape: "hexagon"
+			size: 1.35d
+			tasks: [{
+				id: "77D2CA2DBA4F8C81"
+				stat: "ae2:items_extracted"
+				type: "stat"
+				value: 1000000
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+	]
+	subtitle: ["Эта квестовая линия познакомит тебя с основами AE2. Ты сможешь сделать базовую генерацию энергии, а также систему хранения!"]
+	title: "&9 Applied Energistics 2"
+}

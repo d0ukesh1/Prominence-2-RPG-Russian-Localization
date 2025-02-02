@@ -1,0 +1,156 @@
+{
+	"fyrdmg+5": {
+		"title": "§f\uF943 §6+5% §7Урона, наносимого §6Громогневом",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/attack.png"
+            }
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_damage",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"maxhealth+5": {
+		"title": "§6+2.5% §7Урон Хватки Титана",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/lethality.png"
+            }
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:titan_damage",
+					"value": 0.025,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"infusion_etyr": {
+		"title": "§f\uF940 §6Сила серконидов",
+		"description": "§7Обратитесь к чистой силе расы серконидов, которая даст вам высокое сопротивление порче и улучшенную хватку титана.\n \n§6+10% §7Урон Громогнева\n§6+25% §7Урон Хватки Титана\n§2+60 §7Сопротивления к Порче",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/berserker_path.png"
+            }
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption_resistance",
+					"value": 60,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_damage",
+					"value": 0.10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:titan_damage",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "n241yslto644cv8k"
+		}
+	},
+	"infusion_corruption": {
+		"title": "§f\uF940 §eЗов валькирии",
+		"description": "§7Сосредоточьте гром в Громовержце, чтобы наследие Серконидов также на короткое время оглушало цель.\n \n§6+12% §7Урон Громогнева\n§e+30 §7Электрическая Сила Заклинаний\n§9+30§7 Порчи",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "spell_power:textures/mob_effect/lightning.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 30,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:lightning",
+					"value": 30,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_damage",
+					"value": 0.12,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3krb"
+		}
+	}
+}

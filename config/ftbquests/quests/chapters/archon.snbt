@@ -1,0 +1,2965 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "archon"
+	group: "244F516C4853FD2F"
+	icon: {
+		Count: 1b
+		id: "wizards:wand_fire"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "184A69F072ECA80E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "archon:grimoire"
+			id: "0AD9BE143D39268F"
+			rewards: [
+				{
+					id: "2009BAE85FB8319E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 5
+					id: "14F1B61D053B0F18"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			subtitle: "Добро пожаловать в мир рун. Здесь мы используем руны и ману для создания магических заклинаний, оружия и даже брони. Ты готов обучиться миру магии?"
+			tasks: [
+				{
+					id: "4A5671A5B0CD7CD3"
+					title: "Ты готов стать Волшебником?"
+					type: "checkmark"
+				}
+				{
+					id: "4613B914D39D4B45"
+					item: "archon:grimoire"
+					type: "item"
+				}
+			]
+			title: "Первые Магические Шаги"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "596D88086910FE78"
+			shape: "diamond"
+			subtitle: "В глубинах мира находятся Эссенции Земли, и найти их будет непростой задачей, ведь подземный мир огромен."
+			tasks: [{
+				id: "166125A8F31A4AF4"
+				item: "archon:earth_essence"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			description: [""]
+			id: "01258A1B33747993"
+			shape: "diamond"
+			subtitle: "Среди пустоты лежат Эссенции Края, найденные на островах Края, и найти их будет очень сложно, если только вы не будете достаточно решительны."
+			tasks: [{
+				id: "6811A109A2B99E71"
+				item: "archon:end_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "186E62F56B11DEFF"
+			rewards: [
+				{
+					id: "58B0284258D01216"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 12
+					id: "691BCD09A8308601"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			subtitle: "Тебе понадобится этот алтарь если ты захочешь торговать с Жителем Волшебником, который будет торговать с тобой магическими рунами, которые ты сможешь использовать."
+			tasks: [{
+				id: "3D5E38B785675C22"
+				item: "runes:crafting_altar"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["186E62F56B11DEFF"]
+			id: "1B3C4772FD23213D"
+			rewards: [{
+				id: "1FB5F4FE9CC2169A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Эта Руна используется в Магии Арканы."
+			tasks: [{
+				id: "117A13189352B7B8"
+				item: "runes:arcane_stone"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["186E62F56B11DEFF"]
+			id: "3E238EE66DC12E3E"
+			rewards: [{
+				id: "3FD1C1B219A6BACA"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Эта руна используется в Огненной Магии."
+			tasks: [{
+				id: "57392B3F4BF2BA2C"
+				item: "runes:fire_stone"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["186E62F56B11DEFF"]
+			id: "6BCF68B9804BF285"
+			rewards: [{
+				id: "50DDB76F6E3F1EFA"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Эта руна исползуется в Ледяной Магии."
+			tasks: [{
+				id: "558F12C5E1FE953B"
+				item: "runes:frost_stone"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			description: ["Ты также можешь держать в своих руках проводник и блок выбранного тобою материала для работы."]
+			id: "1780D396DC014BA0"
+			rewards: [
+				{
+					id: "12C24B12F06DFF66"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "6A2EE2401F255A2B"
+					item: "archon:mana_berries"
+					type: "item"
+				}
+			]
+			subtitle: "Проводник это палочка, которая может вливать ману в определенные блоки, что создаст их разработанную версию или новый магический материал. Протестируй пару материалов."
+			tasks: [{
+				id: "1F130DEA61749920"
+				item: "archon:channeler"
+				type: "item"
+			}]
+			title: "Алхимия на палочке"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "3225D08099FF42D1"
+			rewards: [{
+				id: "1D5ED91613D3C915"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Шпили это длинные башни, находящиеся в лесных и горных биомах, которые содержат определенный лут. Остерегайся пиявок!"
+			tasks: [{
+				id: "22D665001A85F2BD"
+				structure: "archon:spire"
+				title: "Найди Шпиль"
+				type: "structure"
+			}]
+			title: "Найди Шпиль"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3225D08099FF42D1"
+				"0C1026686D425091"
+			]
+			id: "572B7DC7185B8D61"
+			rewards: [{
+				id: "76A9DB8342C6E299"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Эти Древние Свитки помогали улучшать ману человека либо увеличением её емкости, либо улучшением возможностей её регенерации."
+			tasks: [
+				{
+					id: "320435EC60BCA545"
+					item: "archon:capacity_scroll"
+					type: "item"
+				}
+				{
+					id: "311484D8F55C8CEB"
+					item: "archon:removal_scroll"
+					type: "item"
+				}
+			]
+			title: "Они сделаны из Папайруса?"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1780D396DC014BA0"]
+			id: "4CA7E7DA58B3B6C7"
+			rewards: [
+				{
+					id: "729F1DF03193454C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "2BA3C7E0CB49F240"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			subtitle: "Кажется ты понял как использовать Проводник. Может быть ты сможешь добиться большего с этим материалом?"
+			tasks: [{
+				id: "202BB1E0C0815F14"
+				item: "archon:glisteel_ingot"
+				type: "item"
+			}]
+			title: "Металл волшебника"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			id: "498575A162B584BA"
+			subtitle: "Маска Силы ускоряет регенерацию маны до 4 единиц в секунду."
+			tasks: [{
+				id: "5398332BD46C3DD3"
+				item: {
+					Count: 1b
+					id: "archon:mask_of_power"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Шлем Волшебника"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			id: "5065CA5BF502C166"
+			rewards: [{
+				id: "5E3F32BEDC7EBEE7"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Катализатор Маны увеличивает емкость маны всех игроков на дополнительные 50 единиц в радиусе 16 блоков."
+			tasks: [{
+				id: "72B068BE05DD165D"
+				item: "archon:mana_catalyst"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5065CA5BF502C166"]
+			id: "5902382AF39E025B"
+			rewards: [{
+				id: "1447F2852B46FD71"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Улучшенный Катализатор Маны, который увеличивает емкость маны на 100 единиц в радиусе 22 блоков."
+			tasks: [{
+				id: "3409F3F1F5E5F4CF"
+				item: "archon:diamond_mana_catalyst"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5902382AF39E025B"]
+			id: "264F98EA94806BFD"
+			rewards: [{
+				id: "5FD88F7F5DA11A65"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Мощнейший Катализатор Маны, который увеличивает емкость маны до 200 единиц с дальностью в 34 блока."
+			tasks: [{
+				id: "1D13EB7516BA9670"
+				item: "archon:netherite_mana_catalyst"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["66AC80AD26AE6447"]
+			id: "7E60780B737DD1D2"
+			rewards: [{
+				id: "3F85D801A656AD77"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Меч, позволяющий пользователю запускать маленькое облако медлительности на ближайших врагов."
+			tasks: [{
+				id: "54BBD82D93AC2563"
+				item: {
+					Count: 1b
+					id: "archon:frost_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["66AC80AD26AE6447"]
+			id: "64A67185CA3803CB"
+			rewards: [{
+				id: "40612B57312756E5"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Ожерелье позволяет держащему ходить по воде при ношении в главной руке, и дышать под водой при ношении в инвентаре."
+			tasks: [{
+				id: "7C184EBE6A7E8369"
+				item: "archon:sea_master_charm"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1DBE4C392FA662F5"]
+			id: "3AF01B2FC9C43D67"
+			rewards: [{
+				id: "0E90D85B135F749A"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Лук запускает огненный шар Гаста и увеличивает скорость выстрела в зависимости от длительности натяжения тетивы."
+			tasks: [{
+				id: "3755E9409961A81F"
+				item: {
+					Count: 1b
+					id: "archon:heat_ranger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1DBE4C392FA662F5"]
+			id: "19AB079C58E4848F"
+			rewards: [{
+				id: "56D0CCB16F64A543"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Как Иссушитель, Иссушающий Посох дает пользователю способность запускать черепы иссушителей во врагов."
+			tasks: [{
+				id: "26CAABD2CBC8B780"
+				item: {
+					Count: 1b
+					id: "archon:wither_stave"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1DBE4C392FA662F5"]
+			id: "76BF9FAE02BCBC4F"
+			rewards: [{
+				id: "69598316DE90F4BE"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Покров дает носящему сопротивление к огню и способность к имплозии, вызывающей взрывной урон, чем больше маны, тем больше урон."
+			tasks: [{
+				id: "7045685A90496FF7"
+				item: {
+					Count: 1b
+					id: "archon:infernal_coat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["01258A1B33747993"]
+			id: "1A05717ECF6DE912"
+			rewards: [{
+				id: "3CF19BEA90F6C152"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Клинок наделяет обладателя умением телепортироваться на 8 блоков в направлении его взора."
+			tasks: [{
+				id: "1279B4ABCC1E83FA"
+				item: {
+					Count: 1b
+					id: "archon:ender_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["74B92B1059A13E09"]
+			id: "4582AA8695D7C497"
+			rewards: [{
+				id: "491EA51F85C3E338"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Скипетр дает обладателю возможность телепортироваться на 10 блоков в направлении его взгляда, но при этом всегда будет наносить взрывной урон."
+			tasks: [{
+				id: "2FB7594EC933F904"
+				item: {
+					Count: 1b
+					id: "archon:void_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["62AA08A21BAD0109"]
+			id: "3419E86BFC533271"
+			rewards: [{
+				id: "33ED7F7850D6E117"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Булава ударяет по земле, швыряя ближайших целей вокруг игрока в воздух, отчего те получают урон от падения. Не наносит урон питомцам."
+			tasks: [{
+				id: "0279E54654D52F0B"
+				item: {
+					Count: 1b
+					id: "archon:terrain_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "212337E36BE98725"
+			rewards: [{
+				id: "4ACD18EF8FF254E6"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Этот древний кулак... возможно, С'келлак поможет его усовершенствовать."
+			tasks: [{
+				id: "16B48CF0C7179D07"
+				item: {
+					Count: 1b
+					id: "archon:fist_of_fury"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "1DFB92FFA9EA18FB"
+			rewards: [{
+				id: "7815BB588948D7F2"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Топор дает обладателю несколько секунд сопротивления и способность отражать снаряды от себя."
+			tasks: [{
+				id: "7F83BC7E74B126C2"
+				item: {
+					Count: 1b
+					id: "archon:terranean_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			description: ["Ингредиенты для призыва боссов есть в твоей Гримории."]
+			id: "719EE06DB5C14C73"
+			rewards: [{
+				id: "3BB1615C5B551B58"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Пьедестал используется для призыва боссов, при использовании правильных ингредиентов. Ты можешь нажать Shift + ЛКМ по нему чтобы удалить все ингредиенты. Нажми ПКМ c ингредиентами в руке, чтобы поставить их на пьедестал, так как у него нет интерфейса."
+			tasks: [{
+				id: "25802A48A70C6EF9"
+				item: "archon:summoning_pedestal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			id: "75279E814DD9CC2B"
+			rewards: [{
+				id: "137FEC265144557B"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Сокрушитель превращает все вражеские души в ману. 20 маны на убийство моба, 30 маны на убийство игрока, и 50 маны на убийство босса."
+			tasks: [{
+				id: "380768867D8D8CF1"
+				item: {
+					Count: 1b
+					id: "archon:soul_crusher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			id: "3167EFF48EC07804"
+			rewards: [{
+				id: "7A8E7EF349CFD265"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Коса дает носящему шанс вырвать душу выбранной цели. Посох Нежити призывает миньонов, когда у него есть ядра."
+			tasks: [
+				{
+					id: "38E3369502B92326"
+					item: {
+						Count: 1b
+						id: "archon:soul_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E4968B9B17F4D10"
+					item: "archon:undead_staff"
+					type: "item"
+				}
+			]
+			title: "Игрушки Жнеца Пожинателя"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3167EFF48EC07804"]
+			id: "3088860FB0C2E447"
+			rewards: [
+				{
+					id: "4A56971F5C62FEE1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "32DA263D531A69E6"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			subtitle: "Душа любого моба, собранного косой души. 5% шанс выпадения за каждое убийство."
+			tasks: [{
+				id: "120EF28A04618FCF"
+				item: "archon:creature_soul"
+				type: "item"
+			}]
+			title: "Душа Существа"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3167EFF48EC07804"]
+			id: "0A0827885634A5A8"
+			rewards: [
+				{
+					id: "1A66F2ECB966847F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 3
+					id: "3BEB61D8D8609439"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			subtitle: "Душа любого игрока, ведьмы, или илладжера, собранная косой души. Есть 5% шанс выпадения с упомянутых целей."
+			tasks: [{
+				id: "6AD0A2F0318D0CD5"
+				item: "archon:player_soul"
+				type: "item"
+			}]
+			title: "Душа Игрока"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3167EFF48EC07804"]
+			id: "05E4644D3C082757"
+			rewards: [
+				{
+					id: "00434ACAFBEA9A99"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 5
+					id: "35E1A2F74AA1AE1F"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			subtitle: "Душа мощной сущности, собранной косой души, всегда выпадает."
+			tasks: [{
+				id: "0734F33F221A62FD"
+				item: "archon:boss_soul"
+				type: "item"
+			}]
+			title: "Душа Босса"
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3088860FB0C2E447"]
+			id: "6B5781356B5EE07F"
+			rewards: [{
+				id: "35799FDC7AA707C6"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Ты можешь использовать это ядро души чтобы призвать стандартного Скелта. Им нельзя дать какого-либо снаряжения."
+			tasks: [{
+				id: "3491D22B7FFC18E8"
+				item: "archon:soul_core_creature"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0A0827885634A5A8"]
+			id: "2082ECE901AEEEBC"
+			rewards: [{
+				id: "7F974E5D488ED5EF"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Ты можешь использовать это ядро души чтобы призвать Скелта, которому можно дать броню, как ванильную, так и модовую. Тем не менее поменять их железный меч на какое-либо другое оружие нельзя."
+			tasks: [{
+				id: "3309C959FFA8D183"
+				item: "archon:soul_core_player"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["05E4644D3C082757"]
+			id: "7EC5EE0789603462"
+			rewards: [{
+				id: "1F0E29543EF0B476"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Ты можешь использовать это ядро души чтобы призвать огромного Скелта. Хорош в виде танка, довольно медлителен, но имеет много ХП и медленную атаку. Ты не можешь дать ему какого-либо снаряжения."
+			tasks: [{
+				id: "13E79C17C3BA094D"
+				item: "archon:soul_core_boss"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "63E59E2AF9E3212A"
+			rewards: [
+				{
+					id: "2A1BA180613A8708"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1E3CE062120A9331"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			subtitle: "Чертежный Стол дает игроку возможность создавать томы заклинаний, используя различные ингредиенты. Схоже с алхимией."
+			tasks: [{
+				id: "417F1BA3D82A6C67"
+				item: "archon:scripture_table"
+				type: "item"
+			}]
+			title: "Алхимия, но для книг заклинаний"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "1DBE4C392FA662F5"
+			rewards: [{
+				id: "2B4D6ED3F8B05FFA"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "15C9B951455CCC64"
+				item: "archon:fire_essence"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "66AC80AD26AE6447"
+			rewards: [{
+				id: "296B168EF46E2A85"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "00785D3C2C822EDB"
+				item: "archon:water_essence"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "444BFAF1CC19067C"
+			rewards: [{
+				id: "55285A3584BF2A40"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "716F84648AE17DC4"
+				item: "archon:sky_essence"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			
+			dependencies: ["1DBE4C392FA662F5"]
+			id: "21CE1961E26C1017"
+			rewards: [{
+				id: "3B5C53AF196F8618"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Пламенный Посох, может использовать только те огненные заклинания, что находятся в Незере."
+			tasks: [{
+				id: "1035F0368F67CD69"
+				item: {
+					Count: 1b
+					id: "archon:fire_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["444BFAF1CC19067C"]
+			id: "34DF5FBF5F85F328"
+			rewards: [{
+				id: "1419B4B332A0DA15"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Небесный Посох, может использовать только заклинания, найденные в деревнях."
+			tasks: [{
+				id: "611F65B429A0DF07"
+				item: {
+					Count: 1b
+					id: "archon:sky_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["66AC80AD26AE6447"]
+			id: "2B493ED51109E97A"
+			rewards: [{
+				id: "51684706EF706DA4"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Посох Воды, может использовать только те заклинания, что находятся в структурах Океана или посредством рыбалки."
+			tasks: [{
+				id: "776C19E8B948579B"
+				item: {
+					Count: 1b
+					id: "archon:water_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["01258A1B33747993"]
+			id: "71354BED076EFCB4"
+			rewards: [{
+				id: "673E42CCCF20E86E"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Посох Края, может использовать только заклинания края, расположенные в Городах Края или Подземельях."
+			tasks: [{
+				id: "72305223DA5927DF"
+				item: {
+					Count: 1b
+					id: "archon:end_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "02986E00C637B71A"
+			rewards: [{
+				id: "2D3AF785AB1A149A"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Посох Земли, может использовать только те заклинания, что находятся в храмах и шахтах."
+			tasks: [{
+				id: "7AD3C9B9978B1421"
+				item: {
+					Count: 1b
+					id: "archon:earth_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "5A4B01060EA8D976"
+			rewards: [{
+				id: "4ECA2B89E9396EF9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "0D5D68F88F6A7E70"
+					item: "archon:fireball_tome"
+					type: "item"
+				}
+				{
+					id: "11ADC10564759BAC"
+					item: "archon:incombustible_tome"
+					type: "item"
+				}
+				{
+					id: "06797709318995B4"
+					item: "archon:scorch_tome"
+					type: "item"
+				}
+				{
+					id: "658377934BEDDC14"
+					item: "archon:hellbeam_tome"
+					type: "item"
+				}
+			]
+			title: "Огненные заклинания"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "7C2CF79D5DABC617"
+			rewards: [{
+				id: "5AB2F55B892FFC62"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "61E4E8EBCEC20ACA"
+					item: "archon:aqua_shield_tome"
+					type: "item"
+				}
+				{
+					id: "5B6A2C0487BC2719"
+					item: "archon:freeze_tome"
+					type: "item"
+				}
+				{
+
+					id: "73400EEED20273F7"
+					item: "archon:mend_tome"
+					type: "item"
+				}
+			]
+			title: "Водяные Заклинания"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "72C391EA7497368D"
+			rewards: [{
+				id: "7204DDAB887D76D5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "7E1DF19FBF750513"
+					item: "archon:propel_tome"
+					type: "item"
+				}
+				{
+					id: "7B4AFBDA5A363B2D"
+					item: "archon:gust_tome"
+					type: "item"
+				}
+				{
+					id: "6AEF118888731383"
+					item: "archon:thunder_strike_tome"
+					type: "item"
+				}
+				{
+					id: "2678D8B2CD455A2B"
+					item: "archon:cloudshot_tome"
+					type: "item"
+				}
+			]
+			title: "Небесные Заклинания"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "07DB2F535985042D"
+			rewards: [{
+				id: "22E28C53552D4750"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "57DC457D1FD6922F"
+					item: "archon:rumble_tome"
+					type: "item"
+				}
+				{
+					id: "157A713FEC88676E"
+					item: "archon:crush_tome"
+					type: "item"
+				}
+				{
+					id: "0C1219D57875AB0D"
+					item: "archon:spike_tome"
+					type: "item"
+				}
+				{
+					id: "6835905C9B2CF7C9"
+					item: "archon:terrain_toss_tome"
+					type: "item"
+				}
+			]
+			title: "Земляные Заклинания"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "562419B5DE97151B"
+			rewards: [{
+				id: "403F29B31E8236E8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "509CBDECC38242AD"
+					item: "archon:darkball_tome"
+					type: "item"
+				}
+				{
+					id: "7921CF4A9A568076"
+					item: "archon:swap_tome"
+					type: "item"
+				}
+				{
+					id: "35A723D0DE04D8E5"
+					item: "archon:ender_tome"
+					type: "item"
+				}
+				{
+					id: "188FD28CADAE1579"
+					item: "archon:shadow_tome"
+					type: "item"
+				}
+			]
+			title: "Заклинания Края"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C1026686D425091"]
+			id: "1346633DE684A124"
+			rewards: [{
+				id: "772AF4658152ECDE"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Как следует из названия, она содержит молнии, которые могут быть выпущены на землю при броске. Также может быть создана когда пустую бутылку ударяет молния."
+			tasks: [{
+				id: "2C0E35986C988B35"
+				item: "archon:lightning_bottle"
+				type: "item"
+			}]
+			title: "Дыхание Тора"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "0C1026686D425091"
+			rewards: [
+				{
+					id: "41388712788104DF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "09CEA17274019A20"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			subtitle: "Волшебные книжные полки не только хороши для декорации, но также используются Жителями Волшебниками чтобы продавать магические безделушки."
+			tasks: [{
+				id: "27236DE839F10DFA"
+				item: "archon:magical_bookshelf"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1780D396DC014BA0"]
+			id: "58C19792A4305FFE"
+			rewards: [{
+				id: "585BF431600D262D"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Листья пикси создаются с помощью проводника и блока листьев."
+			tasks: [{
+				id: "44C69C4B62C5A18C"
+				item: "archon:pixie_leaves"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1780D396DC014BA0"]
+			id: "4A2BB75BFAEAC38C"
+			rewards: [{
+				id: "5295CEA552170A92"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Подвижная пыль создается вливанием маны в песок, используя проводник."
+			tasks: [{
+				id: "56BEC1279C60C482"
+				item: "archon:spry_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58C19792A4305FFE"]
+			id: "2655A30B4B1130E7"
+			rewards: [
+				{
+					id: "553C0FA8C5025F26"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "538623ECC8C3FDA0"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "Ношение этих сапогов дает носящему способность удобрять растения и культуры, используя ману крадучись."
+			tasks: [{
+				id: "292102AC8D26DBAB"
+				item: {
+					Count: 1b
+					id: "archon:druid_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Магический Фермер"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A2BB75BFAEAC38C"]
+			id: "7D2248647FAC3759"
+			rewards: [{
+				id: "6FA27627DF291532"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Заряды Уничтожения используются для выкапывания зоны 7x7 на земле или стене, хорошо подходит для копания."
+			tasks: [{
+				id: "7729E325FBDAC69E"
+				item: "archon:combustion_charge"
+				type: "item"
+			}]
+			title: "Экологически чистый ТНТ"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DBE4C392FA662F5"]
+			id: "6B1CB8B78FD963E5"
+			rewards: [{
+				id: "2F463BBF43A6C5BB"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Пылающий Жнец увеличивает шанс выпадения предметов с мобов, связанных с огнем."
+			tasks: [{
+				id: "4245080FFBF7FAB8"
+				item: {
+					Count: 1b
+					id: "archon:flaming_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["444BFAF1CC19067C"]
+			id: "4A14DF58C18FF4DD"
+			rewards: [{
+				id: "1A3B7297CE709A65"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Ветреный Жнец увеличивает шанс выпадения предметов с мобов, связанных с ветром или воздухом."
+			tasks: [{
+				id: "322A63DA6ADF5CBB"
+				item: {
+					Count: 1b
+					id: "archon:breezy_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66AC80AD26AE6447"]
+			id: "3B0A0F4B0F54AB22"
+			rewards: [{
+				id: "7F66E28149E92EAC"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Глубинный Жнец увеличивает шанс выпадения предметов с мобов, связанных с водой."
+			tasks: [{
+				id: "38249728822F838A"
+				item: {
+					Count: 1b
+					id: "archon:soaking_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["01258A1B33747993"]
+			id: "389D82938C93E56F"
+			rewards: [{
+				id: "5922D2BB5B77D399"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Искаженный Жнец увеличивает шанс выпадения предметов с мобов, связанных с Краем."
+			tasks: [{
+				id: "2D176598582F1DDE"
+				item: {
+					Count: 1b
+					id: "archon:warping_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "65CEB8D4AC52BF28"
+			rewards: [{
+				id: "6DBD88B655BDDCED"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Каменный жней увеличичивает шанс выпадения предметов с мобов, связанных с землей."
+			tasks: [{
+				id: "0ED01AE891B58E3D"
+				item: {
+					Count: 1b
+					id: "archon:rocky_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "43804968CD10C39F"
+			rewards: [{
+				id: "500F869E0F44AF71"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Маленькие бутыли используются для хранения опыта при надобности. Бутыль может хранить до 550 единиц опыта."
+			tasks: [{
+				id: "34872FD95C254318"
+				item: {
+					Count: 1b
+					id: "archon:experience_pouch"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43804968CD10C39F"]
+			description: [""]
+			id: "50F46E32A29E3290"
+			rewards: [{
+				id: "79F40F1D32731339"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "pentagon"
+			subtitle: "Улучшенная бутыль, которая может хранить до 2920 единиц опыта."
+			tasks: [{
+				id: "3733C69851295D5E"
+				item: {
+					Count: 1b
+					id: "archon:super_experience_pouch"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["719EE06DB5C14C73"]
+			id: "51A049502F5B868E"
+			rewards: [
+				{
+					id: "2DCACC98959E8C05"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+
+					id: "20A8F94E43E23E72"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Ты должен победить это существо чтобы обуздать эссенцию земли."
+			tasks: [{
+				entity: "archon:tar"
+				id: "64F464705D0CF636"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Победи Земного Элементаля"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["719EE06DB5C14C73"]
+			id: "63A3A558A3BA0065"
+			rewards: [
+				{
+					id: "7EC17531EA3EA5A9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+
+					id: "054D291C0F43FC5E"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Ты должен победить это существо чтобы обуздать эссенцию небес."
+			tasks: [{
+				entity: "archon:ayla"
+				id: "393F2822E6349AA9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Победи Небесного Элементаля"
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["719EE06DB5C14C73"]
+			id: "0D40904111245F80"
+			rewards: [
+				{
+					id: "2E53A6D1AB9C8B5A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+
+					id: "1F7A7A90E5C8878D"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Ты должен победить это существо чтобы обуздать эссенцию пламени."
+			tasks: [{
+				entity: "archon:inigo"
+				id: "096E0352AE193913"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Победи Огненного Элементаля"
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["719EE06DB5C14C73"]
+			id: "21A154E44E6158F4"
+			rewards: [
+				{
+					id: "13B02C9D8EBE6518"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+
+					id: "372051982668460A"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Ты должен победить это существо чтобы обуздать эссенцию морей."
+			tasks: [{
+				entity: "archon:leven"
+				id: "43D121342CCCEDE9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Победи Водного Элементаля"
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"1B3C4772FD23213D"
+				"3E238EE66DC12E3E"
+				"6BCF68B9804BF285"
+				"3B75CF511CA0757A"
+			]
+			description: ["Пожалуйста проверь свою привязку клавиш когда захочешь переключить используемые заклинания и нажми 1, 2, 3 чтобы поменяться между заклинаниями."]
+			id: "05E166DEF41C9B5A"
+			rewards: [{
+				id: "02333A803301A7CE"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Стол Привязки Заклинаний требует книжные полки вокруг него, и он позволяет игроку привязывать заклинания к оружию Заклинания, используя лазурит и опыт."
+			tasks: [{
+				id: "1AFCCC25DC5912D3"
+				item: "spell_engine:spell_binding"
+				type: "item"
+			}]
+			title: "Привязка Заклинаний!"
+			x: 20.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["186E62F56B11DEFF"]
+			id: "5E37BCA75887C22A"
+			rewards: [{
+				id: "1AB9E10EE4D9DA17"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Набор Волшебника это стандартный магический комплект для магов новичков. Может быть есть способ получить больше силы?"
+			tasks: [
+				{
+					id: "51E2350D9B99C322"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0334E481A38444AD"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73CFB3C9A672CEC8"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BD896B233AB0B55"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32DE405F4907EFE8"
+					item: {
+						Count: 1b
+						id: "wizards:wand_novice"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Первая Одежда Мага"
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E37BCA75887C22A"]
+			id: "42507FBE736C9B32"
+			rewards: [{
+				id: "44E4B50ECE74DA65"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Набор Мага Арканы, дает пользователю увеличенный урон арканы."
+			tasks: [
+				{
+					id: "27FAA1EB95E490A9"
+					item: {
+						Count: 1b
+						id: "wizards:arcane_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37A1F2157A200426"
+					item: {
+						Count: 1b
+						id: "wizards:arcane_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24F4E17421F20C3B"
+					item: {
+						Count: 1b
+						id: "wizards:arcane_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C7F40C273A1F3A9"
+					item: {
+						Count: 1b
+						id: "wizards:arcane_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор Мага Арканы"
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E37BCA75887C22A"]
+			id: "1DDA724AAE1C4398"
+			rewards: [{
+				id: "49665077190C2D56"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Набор Ледяного Мага дает носящему увеличенный морозный урон."
+			tasks: [
+				{
+					id: "327547829D61E07C"
+					item: {
+						Count: 1b
+						id: "wizards:frost_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55E6BF9B4E1AFE5A"
+					item: {
+						Count: 1b
+						id: "wizards:frost_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "175683798B60FDB0"
+					item: {
+						Count: 1b
+						id: "wizards:frost_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "480E96E6495E5B1F"
+					item: {
+						Count: 1b
+						id: "wizards:frost_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор Ледяного Мага"
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E37BCA75887C22A"]
+			id: "4B46FB044CDBFC90"
+			rewards: [{
+				id: "74AA62BCEA65C2DE"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Набор Огненного Мага дает обладателю увеличенный огненный урон."
+			tasks: [
+				{
+					id: "7BD8E910979DE77D"
+					item: {
+						Count: 1b
+						id: "wizards:fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A365C20376BEEBE"
+					item: {
+						Count: 1b
+						id: "wizards:fire_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FAF396ABE51D51A"
+					item: {
+						Count: 1b
+						id: "wizards:fire_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DF2393DF007BE42"
+					item: {
+						Count: 1b
+						id: "wizards:fire_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор Огненного Мага"
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B46FB044CDBFC90"]
+			id: "246919290AE1AFD5"
+			rewards: [{
+				id: "2E593A5771E387CB"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "3328B69463327634"
+				item: {
+					Count: 1b
+					id: "wizards:wand_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["246919290AE1AFD5"]
+			id: "5A9C06D4B038B534"
+			rewards: [
+				{
+					id: "3517E3F243F3F4C9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 5
+					id: "6530231141FB6356"
+					item: "runes:fire_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5120CCAB8EFEB07A"
+				item: {
+					Count: 1b
+					id: "wizards:wand_netherite_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A9C06D4B038B534"]
+			id: "22973F234E5D00B5"
+			rewards: [{
+				id: "01E08327F161F46B"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4619D86629D79118"
+				item: {
+					Count: 1b
+					id: "wizards:staff_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22973F234E5D00B5"]
+			id: "71CF2D9ED649A714"
+			rewards: [
+				{
+					id: "138D1D06752443EE"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 5
+					id: "7D0764E9798F6E2F"
+					item: "runes:fire_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A2A9BFA422BA9DC"
+				item: {
+					Count: 1b
+					id: "wizards:staff_netherite_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["71CF2D9ED649A714"]
+			id: "317461803AFB3D14"
+			rewards: [
+				{
+					id: "1343AFE83E3347C9"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 5
+					id: "1079FDD11C6C3BD2"
+					item: "runes:fire_stone"
+					type: "item"
+				}
+			]
+			subtitle: "Ты держишь последнее оружие мага огня. Теперь ты можешь призывать огненные шары, огненные дыхания и даже метеоры."
+			tasks: [{
+				id: "081C1A34BAEED0D2"
+				item: {
+					Count: 1b
+					id: "wizards:staff_ruby_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Чародейство Мага Огня"
+			x: 15.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["42507FBE736C9B32"]
+			id: "779C2625A296162E"
+			rewards: [{
+				id: "340BFEFE97900D1A"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "598ACE62D9618119"
+				item: {
+					Count: 1b
+					id: "wizards:wand_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["779C2625A296162E"]
+			id: "2BFAE7189DED9D30"
+			rewards: [
+				{
+					id: "3BE3A2F7CB2B89B3"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 5
+					id: "3D45969B81AFF19C"
+					item: "runes:arcane_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FE9AF089199ABAD"
+				item: {
+					Count: 1b
+					id: "wizards:wand_netherite_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2BFAE7189DED9D30"]
+			id: "72F62B877124F701"
+			rewards: [{
+				id: "5315225FA09C326C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5C33E88C4320F86C"
+				item: {
+					Count: 1b
+					id: "wizards:staff_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72F62B877124F701"]
+			id: "03E2473F6D8E6E77"
+			rewards: [
+				{
+					id: "7B2E6E8CF8D26109"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 5
+					id: "7B1BED1712B3C3B0"
+					item: "runes:arcane_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33A54FACC0D3CCEC"
+				item: {
+					Count: 1b
+					id: "wizards:staff_netherite_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["03E2473F6D8E6E77"]
+			id: "3B15C4848682B160"
+			rewards: [
+				{
+					id: "0257F63145C030C9"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 5
+					id: "0CB86C4234D1B5B5"
+					item: "runes:arcane_stone"
+					type: "item"
+				}
+			]
+			subtitle: "Ты держишь последнее оружие мага арканы. Теперь ты можешь со временем увеличивать урон арканы и стрелять лазерами."
+			tasks: [{
+				id: "53C731B93D19BCA0"
+				item: {
+					Count: 1b
+					id: "wizards:staff_crystal_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Чародейство Мага Арканы"
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1DDA724AAE1C4398"]
+			id: "651F06C58C6995CD"
+			rewards: [{
+				id: "0C9339B590B139E6"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0A5E01D2A13E6EB6"
+				item: {
+					Count: 1b
+					id: "wizards:wand_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["651F06C58C6995CD"]
+			id: "4BEFB77702941725"
+			rewards: [
+				{
+					id: "5568C1AE6E93F8EB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 5
+					id: "1D86DC463B6FFE82"
+					item: "runes:frost_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E837C47352C4C36"
+				item: {
+					Count: 1b
+					id: "wizards:wand_netherite_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4BEFB77702941725"]
+			id: "272C8B757FF3C11E"
+			rewards: [{
+				id: "59A26FBECBCF6E4B"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "195BEE0D619C90C0"
+				item: {
+					Count: 1b
+					id: "wizards:staff_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["272C8B757FF3C11E"]
+			id: "775A5C43E767BC79"
+			rewards: [
+				{
+					id: "5C9336903D96D9EA"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 5
+					id: "3322DEF3159FB985"
+					item: "runes:frost_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55841DF0E469A493"
+				item: {
+					Count: 1b
+					id: "wizards:staff_netherite_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["775A5C43E767BC79"]
+			id: "232DD46D583E5697"
+			rewards: [
+				{
+					id: "2F1D07CBBE4161CD"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 5
+					id: "23D4713942CDA0C0"
+					item: "runes:frost_stone"
+					type: "item"
+				}
+			]
+			subtitle: "Ты держишь последнее оружие ледяного мага. Теперь ты можешь замедлять и замораживать врагов, параллельно защищаясь от внешнего урона морозом."
+			tasks: [{
+				id: "4E12E5BB950D0A6E"
+				item: {
+					Count: 1b
+					id: "wizards:staff_smaragdant_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Чародейство Мага Холода"
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["186E62F56B11DEFF"]
+			id: "3B75CF511CA0757A"
+			tasks: [{
+				id: "2BE8DCCB745FE2F4"
+				item: "runes:healing_stone"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["186E62F56B11DEFF"]
+			id: "5F3A2A596DD6359E"
+			rewards: [{
+				id: "6D9709773FF926CC"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Ты имеешь дело не только с Волшебниками, но и с Монахами тоже."
+			tasks: [{
+				id: "00A1F659732D7A0D"
+				item: "paladins:monk_workbench"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F3A2A596DD6359E"]
+			id: "335D1C81F509B850"
+			rewards: [{
+				id: "4AFB8C26372FD152"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Здесь начинается твое путешествие в роли святого монаха, ты готов обуздать силу света?"
+			tasks: [
+				{
+					id: "7D96A5644F0B89CE"
+					item: {
+						Count: 1b
+						id: "paladins:acolyte_wand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "237A9956C8B769CD"
+					item: {
+						Count: 1b
+						id: "paladins:iron_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57E8420971CC142A"
+					item: {
+						Count: 1b
+						id: "paladins:stone_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FF8466B96AE216B"
+					item: {
+						Count: 1b
+						id: "paladins:wooden_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ученик Монах"
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1962121D5F702D10"]
+			id: "1423B114C15C3577"
+			rewards: [{
+				id: "4D06156828299B68"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "30090B3986B62154"
+				item: {
+					Count: 1b
+					id: "paladins:golden_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1423B114C15C3577"]
+			id: "11190879F899C254"
+			rewards: [{
+				id: "078CE26794FDFDDC"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "7EDB66441891F54A"
+				item: {
+					Count: 1b
+					id: "paladins:diamond_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["11190879F899C254"]
+			dependency_requirement: "one_completed"
+			id: "7897128836807B37"
+			rewards: [
+				{
+					id: "20D53B69B327964F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 5
+					id: "4F3BDB8B60F8584F"
+					item: "runes:healing_stone"
+					type: "item"
+				}
+			]
+			subtitle: "Теперь ты держишь сильнейшее оружие Приора. Уничтожай своих врагов, богохульствующих против твоих идеалов."
+			tasks: [{
+				id: "75C4F102B9C2958B"
+				item: {
+					Count: 1b
+					id: "paladins:netherite_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Чудо Приора"
+			x: 11.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["41EBB4ADFD20E908"]
+			id: "1782A6E826BAB5FA"
+			rewards: [{
+				id: "236DE3575D2D4B52"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "6EE2660D69D0C732"
+				item: {
+					Count: 1b
+					id: "paladins:iron_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1782A6E826BAB5FA"]
+			id: "411421DB6A1A1199"
+			rewards: [{
+				id: "36BDDDE96A4C09B5"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "681B15E04D3E57AA"
+				item: {
+					Count: 1b
+					id: "paladins:golden_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["411421DB6A1A1199"]
+			id: "5D45324A8FC8DD81"
+			rewards: [{
+				id: "0B76565DE4302241"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "325C13FA1AE06432"
+				item: {
+					Count: 1b
+					id: "paladins:diamond_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5D45324A8FC8DD81"]
+			id: "1BA1B04D54314B01"
+			rewards: [{
+				id: "7F7A97485E3275C4"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "36FAB0A04691C6AF"
+				item: {
+					Count: 1b
+					id: "paladins:netherite_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1BA1B04D54314B01"]
+			id: "6C3345B6A80B9944"
+			rewards: [
+				{
+					id: "365140989543C8AA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 5
+					id: "1457394C0CDB8C11"
+					item: "runes:healing_stone"
+					type: "item"
+				}
+			]
+			subtitle: "Теперь ты держишь сильнейшее оружие Паладина. Рази своим клеймором врагов, богохульствующих против твоих идеалов."
+			tasks: [{
+				id: "5D6DB3BB06C2FAC7"
+				item: {
+					Count: 1b
+					id: "paladins:aeternium_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Паладинское Чудо"
+			x: 13.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6003DACCBB793ACF"]
+			id: "0243B28066C93653"
+			rewards: [{
+				id: "264747E78321C68F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "41BDB69ED72D405A"
+				item: {
+					Count: 1b
+					id: "paladins:stone_great_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0243B28066C93653"]
+			id: "68BFCB7592D48C9A"
+			rewards: [{
+				id: "1F8E1237D41C3704"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "1D35CECBD880114D"
+				item: {
+					Count: 1b
+					id: "paladins:iron_great_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["68BFCB7592D48C9A"]
+			id: "7F87391101C86320"
+			rewards: [{
+				id: "5C355AEFB93374B8"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "7B7E8A314B33B502"
+				item: {
+					Count: 1b
+					id: "paladins:golden_great_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7F87391101C86320"]
+			id: "53E060C4164E6B23"
+			rewards: [{
+				id: "7A67955EE59F8CEE"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "64EC328411AF3919"
+				item: {
+					Count: 1b
+					id: "paladins:diamond_great_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["53E060C4164E6B23"]
+			id: "0178632062C0C8B3"
+			rewards: [{
+				id: "7445405F0DCFBB0C"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "7927D1D237387AF4"
+				item: {
+					Count: 1b
+					id: "paladins:netherite_great_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0178632062C0C8B3"]
+			id: "19D832F332235B5B"
+			rewards: [
+				{
+					id: "5D09FCB59020AFAD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 5
+					id: "11FF2825435A2573"
+					item: "runes:healing_stone"
+					type: "item"
+				}
+			]
+			subtitle: "Теперь ты держишь сильнейшее оружие Крестоносца. Превращай в кашу своих врагов, богохульствующих против твоих идеалов."
+			tasks: [{
+				id: "1BC110139429C175"
+				item: {
+					Count: 1b
+					id: "paladins:aeternium_great_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Чудо Крестоносца"
+			x: 15.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["0806F1FDD511E7DC"]
+			id: "59C0B89A8E7E98B1"
+			rewards: [{
+				id: "0DF7D2F11A754837"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "294EFB9D48765D1B"
+				item: {
+					Count: 1b
+					id: "paladins:holy_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["59C0B89A8E7E98B1"]
+			id: "21ABABCE6BDC784A"
+			rewards: [{
+				id: "7FE089E3D3069106"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "78613F4040898AB6"
+				item: {
+					Count: 1b
+					id: "paladins:netherite_holy_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["21ABABCE6BDC784A"]
+			id: "2F1926CDF97B5AD9"
+			rewards: [{
+				id: "13F2A22B45DF741F"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "6ECD0975B5B32CA6"
+				item: {
+					Count: 1b
+					id: "paladins:holy_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2F1926CDF97B5AD9"]
+			id: "4DC99BE667CD6D5D"
+			rewards: [{
+				id: "30E73128CCF05D5F"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "5D092AAB90E0F53B"
+				item: {
+					Count: 1b
+					id: "paladins:netherite_holy_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4DC99BE667CD6D5D"]
+			id: "3259C203A04A7B96"
+			rewards: [
+				{
+					id: "158FBB4F77FF2D4D"
+					type: "xp"
+					xp: 45
+				}
+				{
+					count: 5
+					id: "45CA39A698E6C193"
+					item: "runes:healing_stone"
+					type: "item"
+				}
+			]
+			subtitle: "Теперь ты держишь сильнейшее оружие Священника. Отправляй на суд божий своих врагов, богохульствующих против твоих идеалов."
+			tasks: [{
+				id: "067FD6C39AE1EE6F"
+				item: {
+					Count: 1b
+					id: "paladins:ruby_holy_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Чудо Священника"
+			x: 16.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["335D1C81F509B850"]
+			id: "1962121D5F702D10"
+			rewards: [{
+				id: "7A904372AAFA5EDA"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Ты выбрал путь Приора, всевышнего в религиозном порядке. Ты готов махать своей булавой до победного?"
+			tasks: [
+				{
+					id: "7924AEE7FC3FA45E"
+					item: {
+						Count: 1b
+						id: "paladins:prior_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6101D0B09A7B9580"
+					item: {
+						Count: 1b
+						id: "paladins:prior_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "391EFFF992BE5F2F"
+					item: {
+						Count: 1b
+						id: "paladins:prior_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "153F1B591194A794"
+					item: {
+						Count: 1b
+						id: "paladins:prior_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор Приора"
+			x: 11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["335D1C81F509B850"]
+			id: "41EBB4ADFD20E908"
+			rewards: [{
+				id: "7A088D7126E6EB3D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Ты выбрал путь паладина, святого рыцаря меча. Ты готов махать своим клеймором до победного?"
+			tasks: [
+				{
+					id: "63E5401B200F2467"
+					item: {
+						Count: 1b
+						id: "paladins:paladin_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AA3D5062156BFEB"
+					item: {
+						Count: 1b
+						id: "paladins:paladin_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D264A4D85454BC8"
+					item: {
+						Count: 1b
+						id: "paladins:paladin_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CBCFA21DB94EC82"
+					item: {
+						Count: 1b
+						id: "paladins:paladin_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор Паладина"
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["335D1C81F509B850"]
+			id: "6003DACCBB793ACF"
+			rewards: [{
+				id: "461C2318EE103A77"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Ты выбрал путь Крестоносца, путешествующего святого рыцаря молота. Ты готов махать своим большим молотом до победного?"
+			tasks: [
+				{
+					id: "3408342049EBB14C"
+					item: {
+						Count: 1b
+						id: "paladins:crusader_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E6FB4B6925F0E18"
+					item: {
+						Count: 1b
+						id: "paladins:crusader_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B84A7DA53318687"
+					item: {
+						Count: 1b
+						id: "paladins:crusader_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "022D722EA2FD2B7C"
+					item: {
+						Count: 1b
+						id: "paladins:crusader_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор Крестоносца"
+			x: 15.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["335D1C81F509B850"]
+			id: "0806F1FDD511E7DC"
+			rewards: [{
+				id: "19CCB2F51C39BEF5"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Ты выбрал путь Священника, лидера церкви. Ты готов орудовать своим святым посохом до победного?"
+			tasks: [
+				{
+					id: "1CCEAED1B260191E"
+					item: {
+						Count: 1b
+						id: "paladins:priest_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01A0C51AD76EDD9E"
+					item: {
+						Count: 1b
+						id: "paladins:priest_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "194173EFB2E432E8"
+					item: {
+						Count: 1b
+						id: "paladins:priest_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3467DBE1EBEC5E0E"
+					item: {
+						Count: 1b
+						id: "paladins:priest_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор Священника"
+			x: 16.5d
+			y: -8.0d
+		}
+	]
+	title: " &bМастерство Заклинаний"
+}

@@ -1,0 +1,1780 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main_story"
+	group: "3DBADFFDA1FDAD84"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "eldritch_end:textures/icon/corruption.png"
+		}
+	}
+	id: "33AB3D787DE6F0E5"
+	images: [
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 2.5d
+			x: -12.270408163265301d
+			y: -0.07142857142854808d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:block/cobweb"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "betterend:textures/particle/jungle_spore_1.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -3.6785714285714306d
+			y: 0.05357142857141639d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "betternether:block/blackstone_furnace_front_on"
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 1.4954166666666664d
+			hover: [ ]
+			image: "prominent:textures/text/dimensionalthreats.png"
+			rotation: 0.0d
+			width: 9.7d
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "prominent:textures/text/the_beginning.png"
+			rotation: 0.0d
+			width: 8.06060606060606d
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "63A18694A9470D66"
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "prominent:textures/other/prominent_logo.png"
+			rotation: 0.0d
+			width: 1.7d
+			x: -2.696428571428555d
+			y: -1.5892857142857153d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "endrem:textures/backgrounds/advance_back.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.6632653061224545d
+			y: 0.0357142857142847d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -35.0d
+			y: -27.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "18E337BC1F3F75FD"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "soulsweapons:item/lord_soul_rose"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.677040816326539d
+			y: 3.1773809523809504d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "18E337BC1F3F75FD"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "soulsweapons:item/lord_soul_day_stalker"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.085204081632654d
+			y: 4.218197278911568d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "18E337BC1F3F75FD"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "soulsweapons:item/lord_soul_white"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.677040816326539d
+			y: 5.17738095238095d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "18E337BC1F3F75FD"
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "prominent:textures/other/tear_in_space.png"
+			rotation: 0.0d
+			width: 24.48979591836735d
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "245E77F81FB78B58"
+			dev: false
+			height: 4.901960784313726d
+			hover: [ ]
+			image: "eldritch_end:textures/icon/faceless_head.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.716836734693871d
+			y: 12.392857142857153d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "prominent:item/demonic_essence"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.948979591836732d
+			y: -1.392857142857146d
+		}
+		{
+			click: ""
+			color: 16711680
+			corner: false
+			dependency: "214E47AB3004E7D3"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -5.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"49C9DC2F3D131A14"
+				"5B31D4D4029F1891"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eРекомендованный уровень: 15"
+				""
+				"&7&oРукавица, прежде зоркий смотритель и первый вестник Преисподней, теперь же падшая в темные объятья Пустоты. Порабощенная под знаменем одной из вестников Пустоты, ныне угрожающая своей собственной реальности разрушением."
+				""
+				"&7&oТы же можешь Рукавицу отыскать, в монолитной тюрьме запертую. Разбей её око, и пробуди теперь уже испорченное создание."
+				""
+				"&eПодсказка: &7Этот босс имеет сильные удары и может убить тебя с одного удара, если ты играешь на Нормальной или Сложной сложности! Пытайся уклоняться или создай защитные зелья!"
+
+			]
+			id: "1B76F8D3B54F3FE6"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "466ECA697E5C8AD1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "19426F4CF9537B2B"
+					item: "adventurez:gilded_netherite_fragment"
+					type: "item"
+				}
+				{
+					id: "7F629FB4A3ADD188"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "7D169777B9E97386"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/guantlet.png"
+					}
+				}
+				id: "0F843C913D775125"
+				title: "Убей Адскую Перчатку"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &cРукавица, Первый Вестник Преисподней"
+			x: -12.234693877551024d
+			y: 0.3214285714285765d
+		}
+		{
+			dependencies: ["7CBAFED315D614C3"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eРекомендуемый Уровень: 10"
+				"&cБольше подходит для дальнего боя"
+				""
+				"&7&oДавно разложившиеся души всех королей королевства Ли'релл были Пустотой воскрешены и искажены, теперь известные как единый монстр, названный Ночным Личом."
+				""
+				"&7&oНочной Лич дремлет на поверхности Верхнего мира. Разыскай его в биомах холодных, в остатках разрушенной башни."
+				""
+				"&7&oДабы найти эту структуру, используй Звезды Душ, носимые нежитью, которые должны к башне тебя направить."
+				""
+				"&eПодсказка: &7Это босс дальнего боя, используй летающего маунта если ты воин ближнего боя, или лук в качестве второстепенного оружия!"
+
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icons/night_lich.png"
+				}
+			}
+			id: "49C9DC2F3D131A14"
+			rewards: [
+				{
+					id: "347448D4FD9CD997"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "5F09631C2FF6849A"
+					item: "things:hardening_catalyst"
+					type: "item"
+				}
+				{
+					advancement: "prominent:level_10"
+					auto: "enabled"
+					criterion: ""
+					id: "578CFD2AAF5AA3C4"
+					title: "&eРазблокирует Уровни 11-50"
+					type: "advancement"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [
+				{
+					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+					criterion: ""
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/boss_icons/night_lich.png"
+						}
+					}
+					id: "6B577BDBE2FCAB16"
+					title: "&9Срази Ночного Лича"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "3B40E2130DDD7AD3"
+					item: "bosses_of_mass_destruction:soul_star"
+					title: "Получи и используй по крайней мере 4 Звезды Души"
+					type: "item"
+				}
+			]
+			title: "&f &9Ночной Лич, Король Всех Королей"
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48AADA398DC4E940"]
+			description: [
+				"&eРекомендованный уровень: 25"
+				""
+				"&7Чернитовый Голем, последний Вестник Преисподней, это громадное, ужасное существо, которое призвано быть может ритуалом в пределах Ада."
+				""
+				"&7Платформу построй, размерами 9x9, из любого рода Чернита, с Резными Полированными Чернитовыми Держателями у каждого угла."
+				"&7Положи по осколку Золочёного Чернита на каждый держатель, чтоб ритуалу начало ознаменовать."
+
+			]
+			id: "5063E49140A8BB20"
+			rewards: [
+				{
+					id: "12E25C32584091FB"
+					item: "artifacts:panic_necklace"
+					type: "item"
+				}
+				{
+					id: "692FA0E0AC7B298F"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				entity: "adventurez:blackstone_golem"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/blackstone_golem.png"
+					}
+				}
+				id: "5663873E5843130D"
+				title: "Убей Чернитового Голема"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &cЧернитовый Голем"
+			x: -11.979761904761915d
+			y: 2.0059523809523796d
+		}
+		{
+			dependencies: ["383590146CEEB423"]
+			description: [
+				"&eРекомендуемый уровень: 35"
+				""
+				"&7Остатки Старого Чемпиона находятся в этой могиле, укрывающиеся под землей в Верхнем Мире. Эта скелето-подобная фигура, однажды бывшая великим чемпионом, теперь же находится во владении другого существа. "
+				""
+				"&8Атаки его вращаются вокруг того, в защите ли он, меняясь между стойками с щитом и атаками."
+
+			]
+			id: "759AA6DD39277704"
+			rewards: [
+				{
+					id: "09826DC6C54E3B82"
+					item: {
+						Count: 1b
+						id: "simplyswords:runic_greataxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E37D66FCBBFD2D7"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				entity: "soulsweapons:draugr_boss"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/the_fallen_icon.png"
+					}
+				}
+				id: "2C3EE780FC4E8C0E"
+				title: "&7Победи Остатки Старого Чемпиона"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &9Остатки Старого Чемпиона"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["759AA6DD39277704"]
+			description: [
+				"&eРекомендуемый уровень: 40"
+				""
+				"&7Обсидилит, живой монолит, это один из столбов влияния пустоты в Краю."
+				""
+				"&7Расположенная на своей платформе, исполинская, ужасающая структура, найдена быть может, парящей в краю. Дабы заставить её появиться, используй око эндера на вершине этой платформы."
+				""
+				"&eПодсказка:&7 Принесу кирку!"
+
+			]
+			id: "103203350DABF6BB"
+			rewards: [
+				{
+					id: "0BCA9A9F79729399"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "40F2B08C36A0CE8B"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
+				{
+					id: "0570B3A44D8F91AA"
+					item: "bosses_of_mass_destruction:levitation_block"
+					type: "item"
+				}
+				{
+					id: "2DDF9907F58C329F"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/obsidilith.png"
+					}
+				}
+				id: "722BFEAA5498B1FC"
+				title: "Убей &5Обсидилита"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &dСтолб Пустоты, Обсидилит"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["103203350DABF6BB"]
+			description: [
+				"&eРекомендуемый уровень: 50"
+				""
+				"&7Чистая эссенция Края, \"Эндер\", был искажен присутствием пустоты. Глаз Эндера должен быть побежден, дабы установить баланс в теперь опустошенном измерении."
+				""
+				"&7Око может быть призвано только в Святилище Ока. Святилище строится с основанием из платформы обсидианом, размерами 5×5, и слоем плачущего обсидиана 3×3. По всем краям стержень края поставлен быть должен. На святилища верхушке, ты в жертву должен принести, дракона яйцо. Око может вызвано быть только в Края измерении."
+
+			]
+			icon: "minecraft:ender_eye"
+			id: "0E567E587E669BED"
+			rewards: [
+				{
+					id: "70136D4984015F56"
+					item: {
+						Count: 1b
+						id: "mcdw:dagger_void_touched_blade"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "mcdw:void_strike"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D3DC793B74D8837"
+					item: {
+						Count: 1b
+						id: "mcdw:bow_call_of_the_void"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "null"
+									lvl: 1s
+								}
+								{
+									id: "mcdw:fuse_shot"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E60883C821CB3E5"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "73120B643C6ABF1C"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				entity: "adventurez:the_eye"
+				icon: "minecraft:ender_eye"
+				id: "5A3673477EA57892"
+				title: "Убей Око"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &dЭссенция Эндера, Око"
+			x: -3.668367346938794d
+			y: 0.030612244897938012d
+		}
+		{
+			dependencies: ["5063E49140A8BB20"]
+			description: [
+				"&eРекомендованный Уровень: 30"
+				""
+				"&7Это гигантское око служит вечным смотрителем Тюрьмы Проклятых, обитая в своем собственном Логове, глубоко в Тюрьме."
+				""
+				"&7Дабы вызвать его на бой, ты обязан овладеть Руной Лоз, получаемой в Набережной Осужденных. С этой руной, получи доступ к Логову и сразись лицом к лицу с оком."
+
+			]
+			id: "383590146CEEB423"
+			rewards: [
+				{
+					id: "74C32AE494757CF7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "11B72D0A200DD1F1"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F3AF87B2C2E9CB1"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/conjuctivius.png"
+					}
+				}
+				id: "009152F0C0BE39FA"
+				title: "Победи Конъюктивиуса"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &9Конъюктивиус, Тюремный Смотритель"
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B76F8D3B54F3FE6"]
+			description: [
+				"&eРекомендованный уровень: 20"
+				""
+				"&7&oДжин, однажды бывшая благородным и великолепным изумрудным драконом, по наше время поддалась злостному влиянию Пустоты. Теперь испорчена она, поглощенная гневом Пустоты, она пребывает в самом сердце Края, известная как Эндер Дракон."
+				""
+				"&7&oОна совсем не простой соперник, ведь Пустотой дарованные силы усиливают её и без того чудовищную мощь, гонимые сильнейшим и неиссякаемым гневом, зовущимся Эндером."
+				""
+				"&7&oДабы открыть древний портал Края, тебе необходимо разыскать двенадцать из шестнадцати очей особенных. Эти глаза разбросаны по необъемлемому простору Верхнего Мира, и глубинам пылающим Преисподней."
+
+			]
+			id: "48AADA398DC4E940"
+			rewards: [
+				{
+					id: "544D6EE6AB75D837"
+					item: {
+						Count: 1b
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3437FBE6631BF571"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "39AAC0CCD8746B5F"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/dragon.png"
+					}
+				}
+				id: "028D2778B20852AA"
+				title: "Kill the Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &dДжин, Падший Дракон"
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&7&oГлубоко в недрах Вааза, первозданного вулкана откуда все произошло, Живая Статуя обитает, зовущая себя С'келлаком, кузнецом всего сущего."
+				""
+				"&7&oОн поддерживает тонкий баланс во всех измерениях, развязав бесчисленное количество войн, дабы предотвратить разрушение реальностей."
+
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/other/skellak.png"
+				}
+			}
+			id: "343EF47C470616FF"
+			shape: "square"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор]"
+			tasks: [{
+				id: "0C6DB9DA67E14C1A"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "Начало Созидания"
+			x: -12.234693877551024d
+			y: -7.714285714285708d
+		}
+		{
+			dependencies: ["343EF47C470616FF"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&o&7Но сейчас, когда вечность прошла, С'келлак слаб как прежде никогда. Ужасающая тень расцветает, сверхъестественная сила, Пустотой именуемая."
+				""
+				"&o&7Веками, Пустоту сдерживал С'келлак, но когда мощь его теперь в истощении, тень вспыхивает, замышляя разрыв и уничтожение всех реальностей. Что однажды было безмятежными созданиями, будут теперь искривлены в смертоносных испорченных тварей, пока искажение раскидывает свои мерзкие щупальца. Час расплаты близится."
+
+			]
+			hide: true
+			icon: "bosses_of_mass_destruction:void_thorn"
+			id: "7AE1542456418BCD"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор]"
+			tasks: [{
+				id: "64C1384346BEE406"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "Теневой Всплеск"
+			x: -12.234693877551024d
+			y: -5.464285714285708d
+		}
+		{
+			dependencies: ["214E47AB3004E7D3"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&o&7С'келлак, нынешне обнаружил источник, равновесие нарушивший, в пределах реальностей. Все измерения ощутили прикосновения ужасающей Пустоты."
+				""
+				"&o&7Тихие когда-то существа были искривлены в мощных испорченных созданий её искажающим влиянием. Реальностей судьба лежит на тебе."
+
+			]
+			hide: true
+			icon: "ftbquests:book"
+			id: "7CBAFED315D614C3"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[Нажми чтобы прочитать больше]"
+			tasks: [{
+				id: "444189B4E513644B"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&6&lГлава I: &eВторжение Пустоты"
+			x: -12.234693877551024d
+			y: -3.464285714285708d
+		}
+		{
+			dependencies: ["0E567E587E669BED"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7&oС победой угроз межпространственных, и восстановлением реальностей баланса, С'келлак, Вечный Пламень, заговорил напрямую с чемпионом."
+				""
+				"&6\"В признание доблести твоей и твоего упорства,\"&r &7&oсрезонировал голос С'келлака,&r &6\"Дарую я тебе частицу моей эссенции, Литое Ядро.\""
+				""
+				"&7Этот дар, освященный силой С'келлака, знаменует как триумф героя, так и его клятву продолжать защиту реальностей."
+
+			]
+			hide: true
+			icon: "prominent:molten_core"
+			id: "63A18694A9470D66"
+			rewards: [{
+				advancement: "prominent:molten_core"
+				criterion: ""
+				icon: "prominent:molten_core"
+				id: "1D40A53ECB061059"
+				type: "advancement"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&8[Нажми, чтобы прочитать лор]"
+			tasks: [{
+				id: "388209961991648D"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eС'келлака Награда"
+			x: -3.6479591836734855d
+			y: -1.5408163265306314d
+		}
+		{
+			dependencies: ["0E567E587E669BED"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7Эссенция Эндера была побеждена, но его сущность сбежала из пустоты, и разлом сформировался в Краю. Что-то грядет."
+				""
+				"&7Глубоко в Краю, странные голоса теперь шепчат &8&o\"Король в Желтом близко\"&r."
+
+			]
+			hide: true
+			icon: "ftbquests:book"
+			id: "18E337BC1F3F75FD"
+			rewards: [{
+				id: "2C782D1FC3BF8165"
+				item: "prominent:music_disc_festivities"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор]"
+			tasks: [{
+				id: "25E42BD5FCDFACD1"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&6&lГлава II:&e Новый Конец"
+			x: -2.4976190476190467d
+			y: 3.377380952380989d
+		}
+		{
+			dependencies: ["18E337BC1F3F75FD"]
+			description: [
+				"&eВторжение было сдержано, на время.&r"
+				""
+				"&6\"Мы подготовиться должны, для того что ждет нас впереди — новое обличие магии, с которым незнакомы мы, известное как искажение. Я отправлюсь на задание, дабы разузнать о новом материале, что сможет дать нам шанс в битве против него."
+				""
+				"&6Что до тебя, это литое ядро ничто, но сосуд. Тебе понадобятся эссенции существ древних. Как только обузданы, эти эссенции усилят его, чтобы он выкован мог быть в мощнейшие артефакты. Твоя миссия в их получении.\" &e&oОбъяснил С'келлак."
+
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "spell_power:textures/mob_effect/critical_damage.png"
+				}
+			}
+			id: "777FC868034D4BA5"
+			rewards: [{
+				id: "14BC34CA5ACF9748"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&8[Нажми, чтобы прочитать лор]"
+			tasks: [{
+				id: "308FF619B83911E7"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eНеизвестная Сила"
+			x: -3.681122448979579d
+			y: 4.250000000000007d
+		}
+		{
+			dependencies: ["777FC868034D4BA5"]
+			description: [
+				"&eРекомендуемый уровень: 50"
+				""
+				"&7Бафомет, Древний Великий Демон Магии, хранящий мощную демоническую эссенцию."
+				""
+				"&7Чтобы призвать его ты должен совершить запутанный ритуал, используя темную магию, прочитать которую можно в Книге Теней."
+			]
+			hide: true
+			icon: "prominent:demon_essence"
+			id: "45A926EF078F465E"
+			rewards: [
+				{
+					id: "4FF3029DF16C29F1"
+					item: "prominent:demon_essence"
+					type: "item"
+				}
+				{
+					id: "79CB012999BF6FF3"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&7Полная ненависти и порчи."
+			tasks: [
+			{
+				entity: "bewitchment:baphomet"
+				icon: "bewitchment:demon_heart"
+				id: "277B6B1BC747DB9D"
+				title: "&7Порази &cБафомета, Козла Шабаша"
+				type: "kill"
+				value: 1L
+			}
+			{
+					id: "1BC30A17132EDB34"
+					item: "bewitchment:book_of_shadows"
+					type: "item"
+				}
+			]
+			title: "&cДемоническая Эссенция"
+			x: -5.216836734693885d
+			y: 3.2857142857142847d
+		}
+		{
+			dependencies: ["777FC868034D4BA5"]
+			description: [
+				"&eРекомендуемый уровень: 50"
+				""
+				"&7Использовав Эссенцию Вечера на Алтаре Старой Луны, ты вернешь истинного наследника обратно в его тело. В результате это вызовает Падшую Икону, свирепую, усиленную версию Рыцаря Возвращения с быстрой и опасной второй фазой. При призыве, он наделит каждого поблизости Слабостью, Тошнотой, и Медлительностью."
+
+			]
+			hide: true
+			icon: "prominent:glory_essence"
+			id: "7C7838CB12D2C972"
+			rewards: [
+				{
+					id: "114FBE48AC53C28D"
+					item: "prominent:glory_essence"
+					type: "item"
+				}
+				{
+					id: "301A8E41E98B7A3D"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&7Брошенная тем, кто раньше был чемпионом"
+			tasks: [{
+				entity: "soulsweapons:moonknight"
+				icon: "moretotems:skeletal_totem_of_undying"
+				id: "433CB31E80566625"
+				title: "Порази &dПадшую Икону"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Эссенция Славы"
+			x: -5.609693877551017d
+			y: 4.214285714285722d
+		}
+		{
+			dependencies: ["777FC868034D4BA5"]
+			description: [
+				"&eРекомендуемый уровень: 50"
+				""
+				"&7Ты должен использовать Рог-Ракушку, найденную в Глубоком Морозном Океане. Вызови её в Ледяном Лабиринте, около воды."
+				""
+				"&7При сражении, ослаблена может быть она, иначе побежденной ей не быть."
+
+			]
+			hide: true
+			icon: "prominent:wrath_essence"
+			id: "569B422A5AE03E53"
+			rewards: [
+				{
+					id: "15234597F3615533"
+					item: "prominent:wrath_essence"
+					type: "item"
+				}
+				{
+					id: "4D3FB39B7963C4F1"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&7Из духа великого лидера"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "mythicupgrades:aquamarine"
+				id: "0A7FC00545E75EB6"
+				title: "&7Порази &dПризрака Капитанши Корнелии"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&bЭссенция Гнева"
+			x: -5.216836734693871d
+			y: 5.142857142857146d
+		}
+		{
+			dependencies: ["5472D472A72B4DB9"]
+			description: [
+				"&7Примитивное семя созидания, &9Первобытная Бездна&7 поимела наибольшее влияние от космических ужасов. Это прогнившая земля со своим собственным испорченным видом жизни, известным как &9искажения&7."
+
+			]
+			hide: true
+			icon: "eldritch_end:abysmal_fronds"
+			id: "601BDBA6DF073CB0"
+			rewards: [
+				{
+					id: "20AF3FB04172CD7D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7D147DFCB62331BF"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				biome: "eldritch_end:primordial_abyss"
+				icon: "eldritch_end:abysmal_fronds"
+				id: "5849FCE25177F4E9"
+				title: "Посети Первобытную Бездну"
+				type: "biome"
+			}]
+			title: "&9Первобытная Бездна"
+			x: 0.24642857142856656d
+			y: 3.9452380952381034d
+		}
+		{
+			dependencies: ["5472D472A72B4DB9"]
+			description: [
+				"&7Хастурианские стоки - это опустошенная земля, полная шпилей, известных как &eСпиральные Шпили&7. Некоторые из этих шпилей обладают неизвестным металлом, благословленным Хастуром. Он может быть лучшим способом борьбы с порчей."
+
+			]
+			hide: true
+			icon: "eldritch_end:hasturian_moss"
+			id: "2500331DBBD67515"
+			rewards: [
+				{
+					id: "652F23E5179D282C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "26BC7C66C6002DA0"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				biome: "minecraft:plains"
+				icon: "eldritch_end:hasturian_moss"
+				id: "3C7ECD7B595CB560"
+				title: "Посети Хастурианские Стоки"
+				type: "biome"
+			}]
+			title: "&6Хастурианские Стоки"
+			x: 0.2617346938775569d
+			y: 5.034523809523826d
+		}
+		{
+			dependencies: ["18E337BC1F3F75FD"]
+			description: [
+				"&7С победой над Оком, край был поражен высшими силами Пустоты, &dкосмическими ужасами&7. Зловещие существа, по венам которых течет чистая порча."
+
+			]
+			hide: true
+			icon: "eldritch_end:aberration_heart"
+			id: "5472D472A72B4DB9"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&8[Нажми, чтобы прочитать лор]"
+			tasks: [{
+				id: "07CED6DB48113EC0"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eВлияние Пустоты"
+			x: -1.073979591836732d
+			y: 4.250000000000007d
+		}
+		{
+			dependencies: ["601BDBA6DF073CB0"]
+			description: [
+				"&eИскажения.&7 Это ужасающие существа, живущие в Первобытной Бездне. Будь осторожен с ними, ведь когда они ударяют тебя, они наделяют тебя &9порчей&7, которая может перемножаться. Ты бы не хотел чтобы они били тебя по нескольку раз."
+
+			]
+			id: "250AEC20271670DC"
+			rewards: [
+				{
+					id: "74384560D55D0246"
+					item: "eldritch_end:aberration_heart"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7F7158B6AE0A9C1E"
+					item: "eldritch_end:aberration_limb"
+					type: "item"
+				}
+				{
+					id: "6B18659A64643BC2"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				entity: "eldritch_end:aberration"
+				icon: "eldritch_end:aberration_limb"
+				id: "5320BD9556152B9B"
+				title: "&8Очисти искажения"
+				type: "kill"
+				value: 50L
+			}]
+			title: "&eОчищение Искажения"
+			x: 1.5474489795918345d
+			y: 3.932482993197297d
+		}
+		{
+			dependencies: ["2500331DBBD67515"]
+			description: [
+				"&7Металл со Спиральных Шпилей, &2Этир&7, имеет уникальное свойство, он обладает &2сопротивлением к порче&7. Мы могли бы использовать этот металл, чтобы не дать космическим ужасам исказить край."
+
+			]
+			hide: true
+			id: "40BF64AA85FF6010"
+			rewards: [
+				{
+					id: "4C9534C42B2996FE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1CDAA49449A21A15"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				id: "3E1F65C1ABAE9FCB"
+				item: "eldritch_end:etyr_ingot"
+				type: "item"
+			}]
+			title: "&2Бой против искажения"
+			x: 1.5474489795918345d
+			y: 5.054931972789134d
+		}
+		{
+			dependencies: ["6EEFBD329C02E34A"]
+			description: [
+				"&6\"Начнем же готовиться к призыву."
+				""
+				"&6Для начала, потребуется нам пъедестал призыва.\" &e&oОбъяснил С'келлак."
+
+			]
+			hide: true
+			id: "4AEBBAD5C5474582"
+			rewards: [
+				{
+					id: "4FEB878C30483E7D"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "0C41207DC801BC52"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				id: "09F7148E11D7AB38"
+				item: "archon:summoning_pedestal"
+				type: "item"
+			}]
+			title: "&eЗаточение Пустоты"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4AEBBAD5C5474582"]
+			description: [
+				"&6\"Не существует ничего более прочного, чем пепельный камень для этих целей, выкованный прямо из глубин Вааза. Этого должно быть достаточно для заточения его эссенции, но боюсь я, что нечто неизвестное ты можешь вызволить в процессе\" &e&oСказал С'келлак"
+
+			]
+			icon: "prominent:empty_vessel"
+			id: "3FEF5FC9AB6C6AAE"
+			rewards: [{
+				id: "471E486F532A0EEA"
+				item: "prominent:empty_vessel"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				id: "28BE3CCC9574A4ED"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eСосуд"
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3FEF5FC9AB6C6AAE"]
+			description: [
+				"&6\"Оно ждет тебя. Принеси пъедестал этот в Край, и поставь на него немного эссенции Края, самоцвет Края, эндер-жемчуг и кристал Энда. Приготовься, и не позабудь заточить его в ловушку. Дарую я тебе благословление свое, дитя.\" &e&oСказал С'келлак"
+
+			]
+			id: "173314BDF690683E"
+			rewards: [
+				{
+					id: "0C4C0CE22BAC24C1"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "08148C17CC7568EA"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [
+				{
+					count: 2L
+					id: "1920BD6A823B9D7E"
+					item: "archon:end_essence"
+					type: "item"
+				}
+				{
+					id: "38594AAF825AD872"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					id: "6F816197EE03C601"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			title: "&eСверхъестественный Ритуал"
+			x: -9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["173314BDF690683E"]
+			description: [
+				"&7Глубоко внутри разлома Края, существо с размерами человека было увидено призывающим неизвестное заклинание. Твой ритуал сможет прервать его, и заставить придти к тебе."
+				""
+				"&7Нуль это мощный и ловкий босс, он будет телепортироваться каждый раз при ударе, и призывать миньонов для атаки тебя. Никогда не прекращай его бить, или же он будет исцеляться."
+
+			]
+			icon: "mcda:upgrade_core_void"
+			id: "67DD847F1737097C"
+			rewards: [
+				{
+					advancement: "prominent:unlock_mythic_challenges"
+					criterion: ""
+					icon: {
+						Count: 1b
+						id: "prominent:void_hourglass"
+						tag: {
+							mythicbosses: {
+								bossType: "adventurez:blackstone_golem"
+								mythicLevel: 1
+							}
+						}
+					}
+					id: "0BCF26135D1E3843"
+					title: "&eРазблокируй Мифические Испытания"
+					type: "advancement"
+				}
+				{
+					id: "14CE356155EABB81"
+					item: "prominent_ost:music_disc_time_flows"
+					type: "item"
+				}
+				{
+					id: "4B3C8DF6DCE47A91"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.45d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				entity: "archon:null"
+				icon: "powah:ender_core"
+				id: "1A0B9A7E5B466268"
+				title: "&dПризови и победи Нуль"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &eЭссенция Пустоты: &dНуль"
+			x: -11.6d
+			y: 7.975d
+		}
+		{
+			dependencies: ["18E337BC1F3F75FD"]
+			description: [
+				"&6\"Ещё ничего не окончено. Это было ничто, лишь тень, и теперь с разломом этим, боюсь я, мы не справимся."
+				""
+				"&r&6Если только... мы не используем их собственные силы против них же. Могли бы мы запереть одного из вестников Пустоты в эдакий сосуд, и с ним, поглотить их мощь. Но сперва, создай себе оружие получше, а я создам сосуд.\"&e&o Сказал С'келлак."
+				""
+				"&eСледуй квестовой линии &cКузня С'келлака&e чтобы узнать больше о том, как выковать оружия артефакты."
+
+			]
+			hide: true
+			id: "6EEFBD329C02E34A"
+			rewards: [
+				{
+					id: "0C0D89333847D8F0"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "17C60BE7957D6B9B"
+					item: "prominent_ost:music_disc_iv"
+					type: "item"
+				}
+				{
+					id: "3C0A05193B0CF55D"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				id: "27B44E04748B6582"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "prominent:artifacts"
+					}
+				}
+				title: "&6Выкуй свой Артефакт"
+				type: "item"
+			}]
+			title: "&eРазлом Края"
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["67DD847F1737097C"]
+			description: [
+				"&7&oПрямо перед заключением Нуль в клетку, он успешно призвал заклинание. Большое, монструозное существо возникло из разлома"
+				""
+				"&6\"Безликий здесь, очередный вестник пустоты, а также корень порчи\" &e&oсказал С'келлак"
+
+			]
+			hide: true
+			icon: "ftbquests:book"
+			id: "245E77F81FB78B58"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&8[Нажми, чтобы прочитать лор]"
+			tasks: [{
+				id: "55B2EEFDAFAC3D0C"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&6&lГлава III: &eЛицо Пустоты"
+			x: -14.529931972789107d
+			y: 8.483333333333348d
+		}
+		{
+			dependencies: ["67DD847F1737097C"]
+			description: [
+				"&cТребуется 50-ый уровень"
+				""
+				"&dМифические Испытания&7 - это битвы из конца игры, разблокируемые после победы над Нуль. Они являются пустотными кошмарами, созданными теперь выпущенным на волю Безликим существом."
+				""
+				"&7Каждое успешное сражение одарит тебя новыми песочными часами с более высоким уровнем. Чем выше уровень, тем сильнее кошмар."
+				""
+				"&cСмерть от мифического босса провалит испытание, и призовет новые песочные часы, с более низким уровнем."
+				""
+				"&7Ты можешь призвать их с помощью &dПустотных Песочных Часов&7. Если ты поставил свои песочные часы не на то место, то можешь получить новые от Нуль, но их уровень будет снова 1."
+
+			]
+			icon: {
+				Count: 1b
+				id: "prominent:void_hourglass"
+				tag: {
+					mythicbosses: {
+						bossType: "adventurez:blackstone_golem"
+						mythicLevel: 1
+					}
+				}
+			}
+			id: "78E3D778D84410AE"
+			shape: "diamond"
+			subtitle: "&8[Нажми, чтобы прочитать подсказки]"
+			tasks: [{
+				id: "44E571FD07C153AC"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&f &dМифические Испытания"
+			x: -11.573979591836732d
+			y: 9.392857142857139d
+		}
+		{
+			dependencies: ["7CD3D2757242817B"]
+			description: [
+				"&eРекомендуемый уровень: 50"
+				""
+				"&7В сердце воздействия Пустоты, в Первозданной Бездне, ты можешь призвать вестника Пустоты, шепчащее безликое существо со своим темным ритуалом, если сломаешь сердце искажения посредине."
+				""
+				"&6\"Береги себя, просто ослабь его, а я постараюсь опустить его в Вааз, дабы запереть его там на веки вечные. Судьба реальностей лежит на тебе.\" &eтвердил С'келлак"
+
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "eldritch_end:textures/icon/faceless_head.png"
+				}
+			}
+			id: "69574BA63A9F05E8"
+			rewards: [
+				{
+					count: 5
+					id: "1F536D989D554373"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "12A95E19A6DDC894"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				entity: "eldritch_end:the_faceless"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "eldritch_end:textures/icon/faceless_head.png"
+					}
+				}
+				id: "1FC4C638A5DF2AC0"
+				title: "&9Призови и начни бой против Безликого"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &9&lБезликий"
+			x: -4.78826530612244d
+			y: 13.607142857142861d
+		}
+		{
+			dependencies: ["245E77F81FB78B58"]
+			description: [
+				"&eРекомендуемый уровень: 50"
+				""
+				"&7Магус, лидер Колдовского клана, это один из ключей пустоты, с помощью которых она попадает в Верхний Мир. Он не был поражен Порчей, но им движут его собственные интересы, и потому он заключил соглашение с Пустотой."
+				""
+				"&7Он является могущественным магом, его барьер может быть слабым к некоторым элементам, но заклинание Небесной Кары также сможет разбить его."
+				""
+				"&eИспользование магии и способностей привлечет внимание Колдовского Клана. Используй Магический Клинок на их портале, чтобы отправится в Стеклянный Океан, а после используй Призматический Жемчуг чтобы призвать его."
+
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "spellbladenext:item/magus_chest"
+				}
+			}
+			id: "3A8C4B633BAF1EFF"
+			rewards: [
+				{
+					count: 3
+					id: "16E3270F0CFB0F91"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "7E5B66C9E08C7507"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [
+				{
+					entity: "spellbladenext:magus"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "spellbladenext:item/magus_head"
+						}
+					}
+					id: "0B213F812EBAA325"
+					title: "&bСрази Архимага Магуса"
+					type: "kill"
+					value: 1L
+				}
+				{
+					dimension: "spellbladenext:glassocean"
+					icon: "archon:water_essence"
+					id: "781DD5C7F6F464F1"
+					title: "&bПосети Стеклянный Океан"
+					type: "dimension"
+				}
+			]
+			title: "&f &bМагус, Архимаг"
+			x: -13.216836734693878d
+			y: 10.714285714285708d
+		}
+		{
+			dependencies: ["3A8C4B633BAF1EFF"]
+			description: [
+				"&6\"Чтобы сразить вестника заключительного, тебе пройти придется через их собственную темную магию. Ты должен создать оружие, рожденное из чистой порчи, Прилив Страха, чтобы обезуметь, и привлечь мрачные мысли из пустоты, Всевидящие Глаза; нам понадобится четверо таких для ритуала."
+				""
+				"&6Пока ты занимаешься этим, я разузнаю побольше об этом ритуале. Просто остерегайся, не впадай в безумие, ведь тогда пути назад уже не будет.\" &e&oсказал С'келлак"
+
+			]
+			id: "0A5F7ABD54251511"
+			rewards: [{
+				id: "50729E9131DFED4A"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [
+				{
+					id: "0EA07F48C91B6FBF"
+					item: "eldritch_end:ominous_eye"
+					title: "&eОбрети 4 Зловещих Глаза от Всевидящих Глаз"
+					type: "item"
+				}
+				{
+					id: "43FE16B7924AD804"
+					item: {
+						Count: 1b
+						id: "simplyswords:dreadtide"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Путь к Порче: Всевидящие Глаза"
+			x: -10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0A5F7ABD54251511"]
+			description: [
+				"&6\"Я нашел одну из затерянных страниц Некрономикона, она должна помочь тебе с ритуалом.\" &e&oсказал С'келлак"
+				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"
+
+			]
+			id: "7CD3D2757242817B"
+			rewards: [{
+				id: "5ADEB6806C96F673"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [
+				{
+					id: "1415FEE0A0DB5355"
+					item: "eldritch_end:eldritch_pedestal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "49221E02C7030B22"
+					item: "eldritch_end:abysmal_pedestal"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "184864F46C22A6B7"
+					item: "minecraft:black_candle"
+					type: "item"
+				}
+			]
+			title: "&eПуть к Порче: Ритуал Проклятья"
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["69574BA63A9F05E8"]
+			description: [
+				"&7Безликий был пойман и заперт внутри Вааза, С'келлак допросил его."
+				""
+				"&9\"C' мгепгах, лллл ч', с'ден эпхайагль от е'енхе, умг' ахорна мгах ахф''ы ног, умг' ахорна мгах ух'еог пх'нглуи турор\" &e&oСказал Безликий, на неведомом языке"
+				""
+				"&7\"Дитя мое, если то, что он говорит истинно, то в таком случае наша битва только началась.\" &e&oТвердил С'келлак, взволнованно."
+				""
+				"&8&oГлубоко в Крае, разлом закрывается, но открывается темный портал."
+
+			]
+			hide: true
+			icon: "minecraft:writable_book"
+			id: "04AF2E026BB918AE"
+			rewards: [
+				{
+					id: "6E74EE6FA0B3D926"
+					item: "prominent_ost:music_disc_convergence"
+					type: "item"
+				}
+				{
+					advancement: "prominent:end_of_voids_invasion"
+					criterion: ""
+					id: "085A183D10962F5D"
+					type: "advancement"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8[Нажми, чтобы прочитать лор]"
+			tasks: [{
+				id: "6CD2D01CFB2304DD"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eВторжение Заканчивается"
+			x: -3.0382653061224545d
+			y: 13.678571428571402d
+		}
+		{
+			dependencies: ["7CBAFED315D614C3"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eРекомендуемый уровень: 10"
+				"&cБольше подходит для ближнего боя."
+				""
+				"&7Найденный в Аду, он был проклят теми, кто по его мнению были его союзниками. Его королевство было осаждено и пало под морем лавы, и Король мог лишь беспомощно смотреть, пока его разум и тело медленно иссушались."
+
+			]
+			hide: true
+			id: "5B31D4D4029F1891"
+			rewards: [
+				{
+					id: "79B0D3F4FFF9781D"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "46825316B1A4F7BC"
+					item: "things:hardening_catalyst"
+					type: "item"
+				}
+				{
+					advancement: "prominent:level_10"
+					auto: "enabled"
+					criterion: ""
+					id: "0C140E150DFB6C5D"
+					title: "&eРазблокирует Уровни 11-50"
+					type: "advancement"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор и инструкции]"
+			tasks: [{
+				advancement: "soulsweapons:end_of_reigns"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "soulsweapons:item/withered_demon_heart"
+					}
+				}
+				id: "73C1A4EF70AFE2BE"
+				title: "&4Порази Разлагающегося Короля"
+				type: "advancement"
+			}]
+			title: "&f &cРазлагающийся король"
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7AE1542456418BCD"]
+			description: [
+				"&eУ боссов кампании есть свои уровни, как и у вас, что видно в верхней части вашего инвентаря."
+    			""
+    			"&cЭто означает, что если ваш уровень недостаточно высок, вы не сможете нанести достаточно урона, чтобы их убить."
+    			""
+    			"&7Всего вы будете наносить &cна 10% меньше урона за каждый уровень разницы&7, то есть, если вы на уровне 45, а босс на уровне 50, вы нанесете только 50% от общего урона, который могли бы нанести."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info_gray"
+				}
+			}
+			id: "214E47AB3004E7D3"
+			rewards: [{
+				auto: "enabled"
+				icon: "ftbquests:book"
+				id: "73B06E8111436D07"
+				title: "&eUnlock Chapter I"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Нажми, чтобы прочитать информацию]"
+			tasks: [{
+				id: "3A4B95414CAC2233"
+				title: "Хорошо, я понял!"
+				type: "checkmark"
+			}]
+			title: "&cВажная информация: &eУровни Боссов"
+			x: -10.5d
+			y: -4.5d
+		}
+	]
+	title: " &d&lВторжение Пустоты"
+}

@@ -1,0 +1,388 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "elhasturian_era"
+	group: "3DBADFFDA1FDAD84"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "eldritch_end:textures/mob_effect/hastur_presence.png"
+		}
+	}
+	id: "38345D0552E8A4AF"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "derelict:item/fancy_cobweb_with_spider_nest"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.2544642857142847d
+			y: -1.8125d
+		}
+		{
+			click: ""
+			color: 15780692
+			corner: false
+			dependency: "7E7462C4751E0C1B"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0089285714285623d
+			y: 3.7857142857142847d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&cЗакончи все главы Вторжения Пустоты чтобы разблокировать сюжетную линию этого расширения."
+				""
+				"&8Русский"
+				""
+				"{@pagebreak}"
+				"&cTermina todos los capitulos de Void's Invasion para desbloquear la campaña de esta expansión."
+				""
+				"&8Español"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "eldritch_end:textures/mob_effect/hastur_presence.png"
+				}
+			}
+			id: "73DA5990952CEA35"
+			rewards: [{
+				advancement: "prominent:level_50"
+				auto: "enabled"
+				criterion: ""
+				id: "1D56AC4A22CDB24A"
+				title: "&eРазблокирует Уровни 51-65"
+				type: "advancement"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать подсказки]"
+			tasks: [{
+				advancement: "prominent:end_of_voids_invasion"
+				criterion: ""
+				id: "190537CB8ABEDC05"
+				title: "&dЗакончи Кампанию Вторжения Пустоты"
+				type: "advancement"
+			}]
+			title: "&eХастурианская Эра"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73DA5990952CEA35"]
+			description: [
+				"&7&oВечность тому назад, С'келлак сражался со зловещими существами, победив и заперев первобытное создание, Ктулху."
+				""
+				"&7&oЕго последователи сбежали, но цепи, сдерживавшие его сводного брата, высокого существа в капюшоне с щупальцами, были разбиты. С'келлак не смог остановить его побег, и он его не видел многие века."
+				""
+				"&8Русский (1/2)"
+				"{@pagebreak}"
+				"&7&oДо этого момента, после попытки доминации над оставшимися силами пустоты, все реальности сейчас слабее, чем когда-либо."
+				""
+				"&e&oКороль в Желтом вернулся, и он не остановится пока все реальности не поддадутся его правлению."
+				""
+				"&8Русский (2/2)"
+				"{@pagebreak}"
+				"&7&oHace eones, S'kellak luchó contra los seres ancestrales, derrotando y encarcelando al ser primordial C'thulhu."
+				""
+				"&7&oMientras sus seguidores escapaban, las cadenas que aprisionaban a su medio hermano, un monstruo alto encapuchado con tentáculos, se rompieron. S'kellak no pudo detener su escape, y durante eones no lo volvió a ver."
+				""
+				"&8Español (1/2)"
+				"{@pagebreak}"
+				"&7&oHasta que después del intento de dominación de las fuerzas restantes del vacío, todos los reinos se hallan en su punto más débil."
+				""
+				"&e&oEl Rey de Amarillo ha vuelto, y no se detendrá hasta que todos los reinos sucumban a su nuevo reinado."
+				""
+				"&8Español (2/2)"
+			]
+			hide: true
+			icon: "ftbquests:book"
+			id: "579138B8DB19724C"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&8[Нажми, чтобы прочитать лор]"
+			tasks: [{
+				id: "3E72FE8109B34FDF"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&6&lГлава I: &e&lТень За Горизонтом"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["579138B8DB19724C"]
+			description: [
+				"&8Пепельное послание гласит:"
+				""
+				"&7&o\"Мои поздравления, Чемпион,"
+				""
+				"&7&oЯ подтвердил что он, это первобытное существо всего нечестивого, известное как Хастур."
+				""
+				"&7&oВерхний Мир более небезопасен, Хастур умел в искажении разумов других, мне нужно чтобы ты пришел в Вааз, перед тем как один из его искаженных рабов придет за тобой."
+				""
+				"&7&oИспользуй этот маяк в Верхнем Мире, и я перенесу тебя в Вааз."
+				""
+				"&7&oИ ещё, зачаруй свое оружие на Небесную Кару, ведь последователи Хастура - это нежить. Ты должен подготовиться к худшему.\""
+				""
+				"&8Русский"
+				"{@pagebreak}"
+				"&8La misiva de piedraceniza dice:"
+				""
+				"&7&o\"Saludos, mi joven,"
+				""
+				"&7&oHe confirmado que es él, el ser primordial de todas las cosas profanas, conocido como Hastur."
+				""
+				"&7&oEl Overworld no está a salvo, Hastur es experto en retorcer las mentes de los seres. Necesito que vengas a Vaaz tan pronto como puedas, antes de que uno de sus esclavos retorcidos venga tras de ti."
+				""
+				"&7&oUsa este faro en el Overworld, y te traeré a Vaaz."
+				""
+				"&7&oTambién encanta tu arma con Castigo, los seguidores de Hastur son no-muertos. Debes estar preparado para lo peor.\""
+				""
+				"&8Español"
+			]
+			hide: true
+			icon: "minecraft:paper"
+			id: "440126C71C47DB94"
+			rewards: [{
+				id: "3BA7B87E636751B8"
+				item: "prominent:beacon_of_hope"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "&8[Нажми, чтобы прочитать послание]"
+			tasks: [{
+				id: "2FDEA9ADE1778463"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eПослание от С'келлака"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E7462C4751E0C1B"]
+			description: [
+				"&eТребуемый Уровень: 60"
+				""
+				"&7Однажды архимаг и лидер Колдовского Клана, казненный в руках Чемпионов Вааза, был возрожден самим Хастуром."
+				""
+				"&7Теперь же он - часть культа, усиленный силой Хастура, выбранный для саботажа планов С'келлака. Захватывая и убивая любого, кто пытается отправиться в Пепельные Глубины."
+				""
+				"&eИспользуй Небесную Кару чтобы пробить его барьер, если у тебя не хватает силы заклинания!"
+				""
+				"&8Русский"
+				"{@pagebreak}"
+				"&eNivel Requerido: 65"
+				""
+				"&7El pasado archimago y líder de los Hex, muerto a manos de los Campeones de Vaaz, ha sido resucitado por el mismísimo Hastur."
+				""
+				"&7Ahora, como parte del culto e infundido con el poder de Hastur, ha sido elegido para sabotear los planes de S'kellak. Secuestrando y matando a cualquiera que intente viajar a las Profundidades de Piedraceniza."
+				""
+				"&eUsa Castigo para romper su barrera si no tienes el poder de hechizo requerido!"
+				""
+				"&8Español"
+			]
+			hide: true
+			id: "2D24C45915E27222"
+			rewards: [
+				{
+					count: 3
+					id: "6E0F1E016DBC1DDF"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "1130E573AFE26B87"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				entity: "sbprom:hasturmagus"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "eldritch_end:item/hastur_crown"
+					}
+				}
+				id: "3247325A58CE070C"
+				title: "&eСрази возрожденного Магуса, Гу'маса"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &6Гу'мас, Падший Архимаг"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["440126C71C47DB94"]
+			description: [
+				"&7Посигналь этим маяком в Верхнем Мире, чтобы отправиться в Вааз и повстречаться со С'келлаком."
+				""
+				"&8Русский"
+				"{@pagebreak}"
+				"&7Llama este faro en el Overworld para viajar a Vaaz y encontrarte con S'kellak."
+				""
+				"&8Español"
+			]
+			icon: "prominent:beacon_of_hope"
+			id: "7E7462C4751E0C1B"
+			rewards: [{
+				id: "289A62D9E5C0F7C8"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "&8[Нажми, чтобы прочитать подсказки]"
+			tasks: [{
+				advancement: "prominent:beacon_of_hope"
+				criterion: ""
+				icon: "prominent:beacon_of_hope"
+				id: "52B65A162D7F91D6"
+				title: "&eИспользуй Маяк Надежды и Отправься в Вааз"
+				type: "advancement"
+			}]
+			title: "&eВааз, Пепельный Вулкан"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["579138B8DB19724C"]
+			description: [
+				"&7&oУлучшения Порчи используются для добавления порчи к Кускам Брони, что полезно для способностей, зависимых от порчи."
+				""
+				"&7&oАктивные Способности из Древа Талантов имеют особые эффекты и улучшаются с увеличением Порчи."
+				""
+				"&7Шаблон Улучшения Порчи находится в качестве добычи в городах Края."
+				""
+				"&eИспользуй в Столе Кузнеца вместе с желаемым предметом и материалом."
+				""
+				"&eТы можешь использовать следующие материалы:"
+				"&7- Конечность Помрачения &8(+10)"
+				"&7- Сердце Помраченя &8(+20)"
+				"&7- З'ал, безликое Око&8(+35)"
+				""
+				"&8Русский"
+				"{@pagebreak}"
+				"&7&oLas Infusiones de Corrupción pueden ser usadas para añadir corrupción a piezas de Armadura, lo cual es útil para habilidades que escalan con la corrupción."
+				""
+				"&7&oLas Habilidades Activas del Árbol de Talentos tienen efectos especiales y escalan con la Corrupción."
+				""
+				"&7El Molde de Infusión de Corrupción se puede encontrar como botín en las ciudades del End."
+				""
+				"&eUsa en una Mesa de Herrería junto con el arma o armadura, y un material."
+				""
+				"&ePuedes infusionar los siguientes materiales:"
+				"&7- Tentáculo de Aberración &8(+10)"
+				"&7- Corazón de Aberración &8(+20)"
+				"&7- X'al, El Ojo Ignoto &8(+35)"
+				""
+				"&8Spanish"
+			]
+			hide: true
+			id: "34CA824A855AF82F"
+			rewards: [{
+				id: "54A81371F005122B"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "&8[Нажми, чтобы прочитать подсказки]"
+			tasks: [{
+				id: "14FE830D52563C60"
+				item: "eldritch_end:corruption_upgrade_pattern"
+				type: "item"
+			}]
+			title: "&eПуть к Порче: Улучшения"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["579138B8DB19724C"]
+			description: [
+				"&7&oЭтировые Улучшения могут быть использованы, чтобы добавить Сопротивления Порче частям брони, которые противодействуют твоему количеству порчи."
+				""
+				"&7&oХотя способности улучшаются с увеличением Порчи, негативные эффекты основаны на твоей &nОбщей Порче&r&7&o, которая принимает в счет твой Этир."
+				""
+				"&7Шаблон Улучшения Этира находится в качестве добычи в городах Края."
+				""
+				"&eИспользуй в Столе Кузнеца вместе с желаемым предметом и материалом."
+				""
+				"&eТы можешь использовать следующие материалы:"
+				"&7- Слиток Этира &8(+10)"
+				"{@pagebreak}"
+				"&7&oLas Infusiones de Etyr pueden ser usadas para añadir Resistencia a la Corrupción a las piezas de armadura, contrarrestando tu cantidad de corrupción."
+				""
+				"&7&oMientras que las habilidades escalan con la Corrupción, los efectos negativos se basan en tu &nCorrupción Total&r&7&o, que tiene en cuenta tu Etyr."
+				""
+				"&7El Molde de Infusión de Etyr se puede encontrar como botín en las ciudades del End."
+				""
+				"&eUsa en una Mesa de Herrería junto con la armadura y un material."
+				""
+				"&ePuedes infusionar los siguientes objetos:"
+				"&7- Lingote de Etyr &8(+10)"
+			]
+			hide: true
+			id: "66FA883FD0CBC7E7"
+			rewards: [{
+				id: "0CF598B77802C9EA"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Нажми, чтобы прочитать подсказки]"
+			tasks: [{
+				id: "40986AEC7D527067"
+				item: "eldritch_end:etyr_upgrade_pattern"
+				type: "item"
+			}]
+			title: "&eПуть к Этиру: Улучшения"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D24C45915E27222"]
+			description: [
+				"&7Маяк Надежды разбит, и теперь, без способа коммуникации со С'келлаком, тебе потребуется найти способ путешествовать в Вааз самому."
+				""
+				"&eЭта квестовая линия появиться в v3.1.0, вместе с измерением Пепельных Глубин и столичным городом Вааз!"
+				""
+				"&6Следи за новостями!"
+			]
+			hide: true
+			icon: "prominent:cinderstone_trophy"
+			id: "5E4919750C5CE35D"
+			shape: "hexagon"
+			subtitle: "&8[Нажми, чтобы прочитать лор]"
+			tasks: [{
+				id: "539D6D4124775E80"
+				title: "&eПродолжение следует в v3.1.0"
+				type: "custom"
+			}]
+			title: "&eПутешествие в Вааз"
+			x: 5.0535714285714235d
+			y: 3.732142857142861d
+		}
+	]
+	title: " &e&lХастурианская Эра"
+}

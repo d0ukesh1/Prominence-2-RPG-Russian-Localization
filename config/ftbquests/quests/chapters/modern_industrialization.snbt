@@ -1,0 +1,2050 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "modern_industrialization"
+	group: "49D52BD6447C5CC0"
+	icon: "modern_industrialization:guidebook"
+	id: "5BB4D2FC1908D3D1"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbteams:textures/add.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -42.0d
+		y: -15.5d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Запомни, эта книга-гайд очень, очень важна если ты не знаешь что делать. Пожалуйста, посвяти свое время этой книге, если понадобиться."]
+			icon: "modern_industrialization:guidebook"
+			id: "6F6196A606D3A8EF"
+			rewards: [{
+				id: "30114C4833A34014"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Привет, юный техник! Я здесь чтобы провести тебя через мир заводов Modern Industrialization. Это может сбить с толку по началу, но это не будет слишком сложно, так ведь?"
+			tasks: [
+				{
+					id: "3E45F701C61708E1"
+					type: "checkmark"
+				}
+				{
+					id: "0C23DC9B228035CD"
+					item: "modern_industrialization:guidebook"
+					type: "item"
+				}
+			]
+			title: "Школа Инженерии?!"
+			x: -9.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6F6196A606D3A8EF"]
+			id: "385079198388468C"
+			rewards: [
+				{
+					id: "22EDAF043A96FEEF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "15EDC42C4703B53F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "7F9340B38EA75839"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Это снаряжение определенно будет важно для наших нужд! Как будто мы выполняем работу кузнецов!"
+			tasks: [
+				{
+					id: "1B769C345EAF942C"
+					item: "modern_industrialization:forge_hammer"
+					type: "item"
+				}
+				{
+					id: "6302ACABBC6AEA42"
+					item: {
+						Count: 1b
+						id: "modern_industrialization:iron_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Мы кузнецы?"
+			x: -9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["385079198388468C"]
+			description: ["Паровые машины принимают вход с любой стороны, будь это предмет, пар или жидкость. Ты можешь запереть их слоты нажимая на замок в интерфейсе. Запертые слоты принимают только один тип жидкости или предмета."]
+			icon: "modern_industrialization:bronze_ingot"
+			id: "4661838E492BDE53"
+			rewards: [{
+				id: "48BE059E717F3B88"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			subtitle: "Вперед на всех парах! Ты дошёл до точки где понял как технологии работают, ты готов к большему?"
+			tasks: [{
+				count: 32L
+				id: "393032946BC049BC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:bronze_ingots"
+					}
+				}
+				title: "Bronze Ingots"
+				type: "item"
+			}]
+			title: "Твоя первая бронза!"
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			id: "7F96B49412F52611"
+			rewards: [
+				{
+					count: 5
+					id: "7001E0BE6F705515"
+					item: "techreborn:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "12C276B1044FCBB4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Скорее всего это первая машина которую ты построишь, так как она спасает твой молот от уменьшения его прочности."
+			tasks: [{
+				id: "3F8C83D99FC1C002"
+				item: "modern_industrialization:bronze_compressor"
+				type: "item"
+			}]
+			title: "Механический пресс, но более современный!"
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [
+				"Паровым машинам нужен пар для работы, и это то, что обеспечивает испаритель. Он медленно расходует топливо для нагрева. Когда нагрева достаточно, он начинает производить пар. Не забывай кормить его водой, иначе твое топливо сгорит просто так."
+				""
+				"Ты также можешь переплавить ведра с водой в ведра с паром. Создай бронзовый компрессор перед испарителем, чтобы сэкономить на пластинах!"
+				""
+				"Скорее всего сейчас для тебя это слишком дорого, но не забывай что ты можешь утраивать руды молотом. Также, как только ты получишь свои первые две машины, создание станет более чем в два раза дешевле!"
+				""
+				"Испаритель автоматически производит и отправляет пар присоединенным машинам, до 8 миллибакетов в такт."
+				""
+				"Бронзовые машины могут обрабатывать рецепты до 2 EЭ/т, что значит рецепты тратят 2 Единицы Энергии на тик. Так как 1 миллибакет пара = 1 EЭ, испаритель на максимальном нагреве может зарядить до 4 машин одновременно!"
+			]
+			id: "0BAB52BE15CE157F"
+			rewards: [
+				{
+					count: 3
+					id: "48FE673386EA9DF8"
+					item: "modern_industrialization:steam_bucket"
+					type: "item"
+				}
+				{
+					id: "50EE9ECCB68BB9FD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Оу, это горячо! Помни что испаритель это продвинутая машина, которая эффективно расходует топливо и способна запитать несколько машин за раз. Не забывай питать его водой или же топливными отходами, сгорающими дотла."
+			tasks: [{
+				id: "047BE723A63F9E5F"
+				item: "modern_industrialization:bronze_boiler"
+				type: "item"
+			}]
+			title: "На полных парах вперед!"
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"748D2241F66FF644"
+				"0DD703B94D202B68"
+				"4AD93229344EA0BE"
+			]
+			description: [""]
+			icon: "modern_industrialization:steam_blast_furnace"
+			id: "586CB8FEAA0A50C6"
+			rewards: [{
+				id: "48C41FC140863B6B"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Паровая доменная печь имеет структуру, схожую с Коксовой печью, но используется для создания стали. Наверное здесь начинается новая эра."
+			tasks: [
+				{
+					count: 29L
+					id: "34C10A32EE244F3F"
+					item: "modern_industrialization:fire_clay_bricks"
+					type: "item"
+				}
+				{
+					id: "49215E965FF25243"
+					item: "modern_industrialization:steam_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "343625490325E9E0"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "1F0ABBBFABD188C2"
+					item: "modern_industrialization:bronze_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "6056045338C6DD46"
+					item: "modern_industrialization:bronze_item_output_hatch"
+					type: "item"
+				}
+			]
+			title: "Сауна но для металлов"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [""]
+			id: "5A27B361EF71A4DF"
+			rewards: [{
+				id: "66BB04E6CA8C33E5"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "rsquare"
+			subtitle: "Измельчитель - это интересная машина, которая перерабатывает ресурсы и измельчает их в пыль, чтобы использовать снова."
+			tasks: [{
+				id: "7799145BACA36D6A"
+				item: "modern_industrialization:bronze_macerator"
+				type: "item"
+			}]
+			title: "Уменьшай, Повторно используй, Перековывай"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["385079198388468C"]
+			description: [""]
+			id: "70CD9F0D26A75E13"
+			rewards: [
+				{
+					id: "77CB2BB7884957A3"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1D21EBE1D2B67222"
+					item: "modern_industrialization:coke"
+					type: "item"
+				}
+			]
+			subtitle: "Предмет, который любой шахтер жаждет получить, он пробурит туннель 3x3. Не забывай вовремя дозаправить водой и углем как в паровом двигателе!"
+			tasks: [{
+				id: "4BCB31C3818DC3D7"
+				item: "modern_industrialization:steam_mining_drill"
+				type: "item"
+			}]
+			title: "Мой Бур Пронзит Небеса!"
+			x: -11.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			dependency_requirement: "one_started"
+			id: "4575644C7E5F2DEE"
+			rewards: [
+				{
+					id: "3BF5F814E7572F46"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+				{
+					id: "5C18906AE0E461D7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Смешивающий станок поможет тебе смешивать порошки или жидкости за более дешёвую цену. Просто не ложи туда свои ингредиенты для еды, или оно будет плохо пахнуть."
+			tasks: [{
+				id: "1CCFC1ADFBB4F858"
+				item: "modern_industrialization:bronze_mixer"
+				type: "item"
+			}]
+			title: "Это для выпекания?"
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [""]
+			icon: "modern_industrialization:bronze_cutting_machine"
+			id: "68E8311AC3140A56"
+			rewards: [{
+				id: "562C0214B1418055"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Это идеальная машина для экономии ресурсов! Используй его для вырезки любой части машины, по цене небольшого количества смазки."
+			tasks: [{
+				icon: "modern_industrialization:bronze_cutting_machine"
+				id: "05C1EB3A2AEB99EF"
+				item: "modern_industrialization:bronze_cutting_machine"
+				type: "item"
+			}]
+			title: "Я порежу тебя!"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [""]
+			id: "39FADF9C0442304F"
+			rewards: [
+				{
+					count: 16
+					id: "12FF8CCB7F2657F8"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "1A047D17FD23D1EF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Пыль в пыль! Глину в кирпичи! Создать эти кирпичи не так уж и сложно, тебе просто надо перемолоть кирпичи, соединить с глиной и переплавить."
+			tasks: [{
+				count: 12L
+				id: "5FB4F9E06ED83BA2"
+				item: "modern_industrialization:fire_clay_brick"
+				type: "item"
+			}]
+			title: "Где земля в глинозёмистом кирпиче?"
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["39FADF9C0442304F"]
+			description: [""]
+			id: "4AD93229344EA0BE"
+			rewards: [{
+				id: "2D513299E81DDA0D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Бронзовая печь так же медленна как и обычная печь, но использует пар вместо сжигаемого топлива, ещё и дешевле."
+			tasks: [{
+				id: "747A0D40FA945748"
+				item: "modern_industrialization:bronze_furnace"
+				type: "item"
+			}]
+			title: "Это для жарки еды?"
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [
+				"Кокс нужен для создания стали, но также он является мощным топливом."
+				""
+				"Я надеюсь что ты найдешь подходящее расположение для шлюзов ввода и вывода, чтобы он запускался гладко."
+			]
+			icon: "modern_industrialization:coke_oven"
+			id: "36ECD7C06649DE78"
+			rewards: [
+				{
+					count: 32
+					id: "28752E436B412354"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "6C440A2969E906B9"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Коксовая печь нужна для создания не того \"кокса\", а коксового угля. Не забудь заправить печь паром, используя шлюх ввода, и оно отдаст кокс в шлюзе вывода. Всегда носи гаечный ключ с собой, чтобы увидеть проекцию мультиблока."
+			tasks: [
+				{
+					id: "217D2448551C324A"
+					item: "modern_industrialization:coke_oven"
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "2418D8560CE16E75"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					id: "1EC4B2642DBB8127"
+					item: "modern_industrialization:bronze_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "510058C68DBCD031"
+					item: "modern_industrialization:bronze_item_output_hatch"
+					type: "item"
+				}
+				{
+					id: "267A96FED5F44276"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "092B490D68ACEA49"
+					item: "modern_industrialization:bronze_fluid_output_hatch"
+					type: "item"
+				}
+			]
+			title: "Это не тот кокс!"
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["36ECD7C06649DE78"]
+			description: [""]
+			id: "748D2241F66FF644"
+			rewards: [
+				{
+					id: "5D4B74FC7E1B82E1"
+					item: "modern_industrialization:coke_block"
+					type: "item"
+				}
+				{
+					id: "44DF7C8EB7213352"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Кокс является хорошим топливом, которое намного мощнее чем любое другое топливо, а также небольшое требование для того, что появится позже."
+			tasks: [
+				{
+					id: "4F5F070D435F875B"
+					item: "modern_industrialization:coke"
+					type: "item"
+				}
+				{
+					id: "6C1E991F4D0A3148"
+					item: "modern_industrialization:coke_dust"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0BAB52BE15CE157F"]
+			description: [""]
+			id: "0DD703B94D202B68"
+			rewards: [
+				{
+					count: 5
+					id: "5C2F3FDE9BA07D12"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "1607CABFFD8D45E6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Бронзовый насос хорош для накачки воды в машины которым требуется вода, в особенности испарители. Убедись что он рядом с источником воды для работы автоматически!"
+			tasks: [{
+				id: "510DB26BFE950469"
+				item: "modern_industrialization:bronze_water_pump"
+				type: "item"
+			}]
+			title: "Накачайте свои поршни!"
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [""]
+			id: "75608EDF99965533"
+			rewards: [
+				{
+					count: 8
+					id: "1E311CE091051941"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					id: "2C38E0BDB85FF28F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Идеально! Теперь мы можем перемещать жидкости как надо! Правда оно работает только с одним типом жидкости за раз."
+			tasks: [{
+				count: 16L
+				id: "2E9298C2FC478FF5"
+				item: "modern_industrialization:fluid_pipe"
+				type: "item"
+			}]
+			title: "Транспортировка жидкостей"
+			x: -11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["586CB8FEAA0A50C6"]
+			description: [""]
+			id: "7C5C1CA5A7954896"
+			rewards: [{
+				id: "583024642A669E0B"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "gear"
+			subtitle: "Сталь является компонентом для продвинутой техники, но было не просто достичь этой точки, но также это показывает твою способность думать наперёд."
+			tasks: [{
+				id: "3612549FFBF5E73C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:steel_ingots"
+					}
+				}
+				title: "Стальные слитки"
+				type: "item"
+			}]
+			title: "&8Килограмм перьев или килограмм стали?"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F6196A606D3A8EF"]
+			id: "0D10B5E838DF9196"
+			rewards: [{
+				count: 8
+				id: "468AFB6AC11BDA99"
+				item: "modern_industrialization:lignite_coal_block"
+				type: "item"
+			}]
+			subtitle: "Это просто двойной близнец угля, ничем не отличающийся от собрата, но по крайней мере полезный."
+			tasks: [{
+				count: 64L
+				id: "5B8A314E5014ADA6"
+				item: "modern_industrialization:lignite_coal"
+				type: "item"
+			}]
+			title: "Брат близнец угля"
+			x: -11.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "6F4AE13DA520109C"
+			rewards: [{
+				id: "1AD889DB628B5A42"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Время прокачать бронзовые машины в их стальные варианты, они эволюционировали даже дальше, чем ты себе можешь представить."
+			tasks: [{
+				count: 2L
+				id: "763B45889C554D7E"
+				item: "modern_industrialization:steel_upgrade"
+				type: "item"
+			}]
+			title: "Ты живешь, Ты учишься, Ты прокачиваешься"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			description: [
+				"Паровой Карьер - это паровой мультиблок, потребляющий бронзовые буры, используя их для копания под бедроком и нахождения там руд, как ты можешь видеть в EMI."
+				""
+				"Будет лучше если у тебя будет несколько паровых доменных печей перед тем, как ты попытаешься построить карьер, ведь для него нужно много стали."
+			]
+			icon: "modern_industrialization:steam_quarry"
+			id: "26E587E34810A8FE"
+			rewards: [
+				{
+					count: 5
+					id: "21D56C8F919971F6"
+					item: "modern_industrialization:bronze_drill_head"
+					type: "item"
+				}
+				{
+					id: "204170409FA28596"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "И вот мы здесь, время собрать Паровой карьер, продвинутую технику которая использует бронзовые буры чтобы вскапывать руды. Это дорогая машина, но она будет одной из твоих лучших инвестиций."
+			tasks: [
+				{
+					id: "0B829B6C4987D67B"
+					item: "modern_industrialization:steam_quarry"
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "3FA8E3781E4BF9AE"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "4AEC4A5817CF1493"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "05F5685C54F12B88"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			title: "Бесконечные ресурсы?"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2050D2FF42E29F6D"]
+			id: "74A278B57EF76B3B"
+			rewards: [{
+				id: "3AF9B328CED1A5BF"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Теперь мы готовы, возможно мы сможем дать карьеру больше чем этот бур, может возможно продвинуться ещё дальше?"
+			tasks: [{
+				count: 4L
+				id: "624F6E6D7A45923D"
+				item: "modern_industrialization:bronze_drill"
+				type: "item"
+			}]
+			title: "Бронзовый забурник"
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			description: [""]
+			id: "43F43FB0B9ED0818"
+			rewards: [
+				{
+					count: 4
+					id: "1E9D18D104CA30EC"
+					item: { Count: 4b, id: "techreborn:steel_plate" }
+					type: "item"
+				}
+				{
+					id: "35629DF69C5A56D9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Стальной проволочно-прокатный станок позволит создать ещё более сложную технику, но также помни, что тебе понадобиться синтетическое масло и бумага чтобы сделать резиновые полотна."
+			tasks: [{
+				id: "32FF28A50A8B3DD5"
+				item: "modern_industrialization:steel_wiremill"
+				type: "item"
+			}]
+			title: "Не запутай там провода, хорошо?"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2050D2FF42E29F6D"]
+			id: "2F5A88568154E986"
+			rewards: [{
+				id: "113170A0A2F1E4A1"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Давай начнем с маленького. Никогда не знаешь что может случиться."
+			tasks: [{
+				id: "4CB128CC2F0687DD"
+				item: "modern_industrialization:copper_drill"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "19E5E31614FE485E"
+			rewards: [{
+				id: "749148FEAC43A349"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			subtitle: "Ты хорошо справился и далеко забрался. Теперь когда мы ушли от пара, мы сможем делать ещё более комплексную технику используя электричество, но результаты будут впечатляющими."
+			tasks: [{
+				count: 2L
+				id: "33A196551A047E54"
+				item: "modern_industrialization:analog_circuit"
+				type: "item"
+			}]
+			title: "&6Теперь я хочу Нокию!"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			description: [""]
+			id: "38F9192F665742BA"
+			rewards: [
+				{
+					count: 8
+					id: "0B0E01C14DDDB67F"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					id: "54FAEED00879D52F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Теперь мы можем заставить предметы транспортироваться! Не забудь сделать соединение с трубами в технику, чтобы они транспортировали их, когда понадобиться."
+			tasks: [{
+				count: 16L
+				id: "52537690D3281DBF"
+				item: "modern_industrialization:item_pipe"
+				type: "item"
+			}]
+			title: "Транспортировка предметов"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19E5E31614FE485E"]
+			description: [""]
+			id: "79F4B68189C05A25"
+			rewards: [
+				{
+					count: 2
+					id: "2E44F161981497D4"
+					item: "modern_industrialization:robot_arm"
+					type: "item"
+				}
+				{
+					id: "2453759A75AEE3D5"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Сборочномонтажная установка это сложная машина, которая автоматизирует сборку почти всех компонентов машин, и лучше сделать сразу несколько таких чтобы сделать производство легче."
+			tasks: [{
+				id: "651D4E443F87E715"
+				item: "modern_industrialization:assembler"
+				type: "item"
+			}]
+			title: "Машинные части, СОЕДИНЯЕМСЯ!!"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19E5E31614FE485E"]
+			description: [""]
+			icon: "modern_industrialization:large_steam_boiler"
+			id: "2F6ED192CC3A9AF4"
+			rewards: [
+				{
+					count: 16
+					id: "66C0E34F6FD976C3"
+					item: "modern_industrialization:white_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "7234354A2DB717F6"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Мне кажется что мы создаем Паровой Двигатель, учитывая насколько большие эти котлы. Все равно, это улучшенная версия известного тебе испарителя, он потребляет больше топлива, но и создает намного больше пара."
+			tasks: [
+				{
+					id: "7D1063975B5EA66E"
+					item: "modern_industrialization:large_steam_boiler"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "13C71839379B60DA"
+					item: "modern_industrialization:bronze_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "32E98789AE243D6A"
+					item: "modern_industrialization:bronze_plated_bricks"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "27E2509D1BD44B95"
+					item: "modern_industrialization:heatproof_machine_casing"
+					type: "item"
+				}
+			]
+			title: "Теперь мы можем варить нашу еду? Нет?"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19E5E31614FE485E"]
+			description: [""]
+			id: "55ED05A197F8D24A"
+			rewards: [{
+				id: "596B76D1A8846CD9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Паровая турбина использует пар для выработки энергии. Но в дальнейшем будут улучшения на эту турбину, так что сделай побольше таких для питания электрических машин."
+			tasks: [{
+				id: "0497A2F2D5A65B0C"
+				item: "modern_industrialization:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "Это мой электрический фен?"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["55ED05A197F8D24A"]
+			id: "5F52B24FFE2DDD86"
+			rewards: [
+				{
+					count: 4
+					id: "36D19E83ED7A2C1B"
+					item: "modern_industrialization:steel_rod_magnetic"
+					type: "item"
+				}
+				{
+					id: "34537E4DA898574A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Поляризатор является уникальной машиной, которая добавляет магнетические свойства некоторым компонентам, что будет неотъемлемым в сборке машин."
+			tasks: [{
+				id: "796F845AA4E8F271"
+				item: "modern_industrialization:polarizer"
+				type: "item"
+			}]
+			title: "Мы сможем создать Магнемит?"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5F52B24FFE2DDD86"]
+			description: [""]
+			icon: "modern_industrialization:electric_blast_furnace"
+			id: "796F33AE4A9CF30C"
+			rewards: [
+				{
+					id: "242165A5743BEA2A"
+					item: "modern_industrialization:steel_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5969D12E96E787AE"
+					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
+				}
+				{
+					id: "3651BB07120D0AD5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Электрическая версия Паровой Доменной Печи, ни больше, ни меньше. Но она добавляет рецепты, ранее недоступные, которые можно сделать только с помощью этой печи."
+			tasks: [
+				{
+					id: "39EB9EA6FC93093F"
+					item: "modern_industrialization:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "3AD3F002BEB84710"
+					item: "modern_industrialization:heatproof_machine_casing"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "431CC13936EFB564"
+					item: "modern_industrialization:cupronickel_coil"
+					type: "item"
+				}
+			]
+			title: "Индукционная плита?"
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["796F33AE4A9CF30C"]
+			id: "6BEB4461CA08633F"
+			rewards: [{
+				id: "0F79198782678260"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "gear"
+			subtitle: "О боже, этой было такой головной болью, но теперь мы идем ещё дальше? Надеюсь у меня не будет болеть голова..."
+			tasks: [{
+				id: "36962E06671E364F"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
+			title: "&bТеперь я хочу машину!"
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["33BF21CF8232FD35"]
+			id: "036292964BDE4944"
+			rewards: [{
+				id: "3305918FD4754EE6"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Разберет жидкости на их более легкие части. Так вот как мы получим дистилированную воду?"
+			tasks: [{
+				id: "25449DE629548BDF"
+				item: "modern_industrialization:distillery"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["036292964BDE4944"]
+			description: [""]
+			id: "6D0310EF6A259AC8"
+			rewards: [{
+				id: "6FD4B8C610F5ED57"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Эти инструменты мощны, и потенциально могут заменить твою кирку и лопату. Реактивный ранец также летает быстрее с лучшим топливом, обращайся с заботой."
+			tasks: [
+				{
+					id: "67C570594E13FA80"
+					item: "modern_industrialization:diesel_mining_drill"
+					type: "item"
+				}
+				{
+					id: "7E63F544E1AF7DC1"
+					item: "modern_industrialization:diesel_chainsaw"
+					type: "item"
+				}
+				{
+					id: "13107B90179730F8"
+					item: "modern_industrialization:diesel_jetpack"
+					type: "item"
+				}
+			]
+			title: "&bЭто реактивный двигатель или дизельный двигатель?"
+			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"036292964BDE4944"
+				"64BACF5B60AD2406"
+			]
+			id: "7CE18D246F01445D"
+			rewards: [{
+				id: "12A8A25898D36CAF"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "gear"
+			subtitle: "Цифровой мир! Наконец-то, мы на том этапе, где всё становится невероятно комплексным. Читай внимательно."
+			tasks: [{
+				id: "096259C009D8AFC1"
+				item: "modern_industrialization:digital_circuit"
+				type: "item"
+			}]
+			title: "&9Теперь я хочу консоль!"
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			description: [""]
+			icon: "modern_industrialization:oil_drilling_rig"
+			id: "33BF21CF8232FD35"
+			rewards: [{
+				id: "3D028FD471613B8A"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Большой мультиблок, который добывает сырую нефть из под бедрока, используя жидкостные трубы. Я надеюсь что мы сможем продать всю эту нефть ради денег... Подожди, у нас вообще есть деньги?"
+			tasks: [
+				{
+					id: "26F6DB1C04F1CF93"
+					item: "modern_industrialization:oil_drilling_rig"
+					type: "item"
+				}
+				{
+					count: 38L
+					id: "0BC5972EF14E4DA5"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0FF841D00CE1829C"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "0806B1D850EDDACE"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			title: "Время стать богатым!"
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "6B11B8A209763B36"
+			rewards: [{
+				id: "418FD62C77FE7890"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Заставляет предметы и жидкости реагировать друг с другом."
+			tasks: [{
+				id: "4405859846ECFE0E"
+				item: "modern_industrialization:chemical_reactor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7CE18D246F01445D"]
+			id: "2AE689F6495C83A6"
+			rewards: [{
+				id: "3B83F18D0F1A5394"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Это очень продвинутая машина, которая по правде очень высока, учитывая как она может соединяться в ещё более высокую машину. Если ты захочешь изменить высоту, щелкни по кнопке слева в интерфейсе машины, и это применяется к другим мультиблокам с множеством форм как у ЭДП фехралевого уровня!"
+			tasks: [{
+				id: "54C9073262B25D06"
+				item: "modern_industrialization:distillation_tower"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7CE18D246F01445D"]
+			id: "7F41EEF87B3A8B84"
+			rewards: [{
+				id: "6F2C95E5F5B98B7E"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Используй Теплообменник, чтобы превратить воду ВД в обычную воду для ещё одного цикла."
+			tasks: [{
+				id: "4223D53BFBB35DEF"
+				item: "modern_industrialization:heat_exchanger"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B522DC6845DB558"]
+			description: [""]
+			id: "65CB5CA13FBD010E"
+			rewards: [{
+				id: "177817FBCF270434"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Турбо модернизация позволяет ускорить машину при щелчке ПКМ, в то время как Усовершенствованные станковые корпуса используются на машинах, чтобы те принимали только МВ как будто они более высокого уровня. Оба могут быть сняты с помощью лома."
+			tasks: [
+				{
+					id: "5625CE2C5AF1194F"
+					item: "modern_industrialization:turbo_upgrade"
+					type: "item"
+				}
+				{
+					id: "08B66500C8E9F4CE"
+					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
+				}
+			]
+			title: "Больше улучшений!"
+			x: 10.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "693E05A909195578"
+			rewards: [{
+				id: "2B562E202B3E2FC4"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Разделяет предметы, очень быстро их вращая."
+			tasks: [{
+				id: "68D837AA6DE85D6F"
+				item: "modern_industrialization:centrifuge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			description: [
+				"Дайте ему ресурсы и энергию, и смотрите как поток ресурсов ВЫХОДИТ ИЗ ПОД КОНТРОЛЯ!"
+				""
+				"Его структура такая же, как и у Парового карьера."
+			]
+			icon: "modern_industrialization:electric_quarry"
+			id: "3DC21B6F47A253E4"
+			rewards: [{
+				id: "789C3CC47EFFAF36"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Электрический эквивалент Парового Карьера."
+			tasks: [
+				{
+					id: "1004292AA09E90E0"
+					item: "modern_industrialization:electric_quarry"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "530C5BAAAE5874C2"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2CAD989D39D01AD6"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "773643F90F9A7B82"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "381693770EF21108"
+			rewards: [{
+				id: "74C349AA8684AA58"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Один из буров карьера"
+			tasks: [{
+				id: "7B1FED6BDC3FB1FA"
+				item: "modern_industrialization:gold_drill"
+				type: "item"
+			}]
+			title: "&6Золотой бур"
+			x: 5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "01BBE636EBB71416"
+			rewards: [{
+				id: "040558025CE54280"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Один из буров карьера."
+			tasks: [{
+				id: "6A35321C6F3D7D64"
+				item: "modern_industrialization:stainless_steel_drill"
+				type: "item"
+			}]
+			title: "&3Бур из нержавеющей стали"
+			x: 4.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "04B4FB69D88D1C76"
+			rewards: [{
+				id: "318007A8654AD93F"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Один из буров карьера."
+			tasks: [{
+				id: "758EB0D2CB85F803"
+				item: "modern_industrialization:steel_drill"
+				type: "item"
+			}]
+			title: "&8Стальной бур"
+			x: 6.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["036292964BDE4944"]
+			description: [""]
+			id: "6B522DC6845DB558"
+			rewards: [{
+				id: "42A6BE7F8466142A"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Ты почти дошел! С переработкой нефти, ты на пару шагов ближе к созданию ещё более продвинутой техники."
+			tasks: [{
+				id: "71B5428A94930A18"
+				item: "modern_industrialization:advanced_upgrade"
+				type: "item"
+			}]
+			title: "Улучшения!"
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "7D4B8F84394B1B35"
+			rewards: [{
+				id: "18F80756296C9C71"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Интересно сможет ли паровая турбина снести нас? Не."
+			tasks: [{
+				id: "16E814CBBEE5F8AB"
+				item: "modern_industrialization:mv_steam_turbine"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7CE18D246F01445D"]
+			id: "2B0219B675E3820F"
+			rewards: [{
+				id: "7259BDAB5CDCB430"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Ещё одна опция для небольших установок - это использовать паровую турбину высокого напряжения, это не шутка с их объемом производства."
+			tasks: [{
+				id: "54B31CE72767D4C6"
+				item: "modern_industrialization:hv_steam_turbine"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			icon: "modern_industrialization:vacuum_freezer"
+			id: "0A0931D04AE50D4B"
+			rewards: [
+				{
+					id: "670918DB54A59B14"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 32
+					id: "7322BEDD2D7C61E3"
+					item: "modern_industrialization:annealed_copper_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Вакуумный морозильный аппарат делает именно то, что ты думаешь, он охлаждает или замораживает твердые или жидкие предметы, чтобы сделать их используемыми."
+			tasks: [
+				{
+					id: "2D292B2E8511A84D"
+					item: "modern_industrialization:vacuum_freezer"
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "43D4C2C2AB9CAA35"
+					item: "modern_industrialization:frostproof_machine_casing"
+					type: "item"
+				}
+			]
+			title: "Я надеюсь это безопасно - ложить туда мороженое."
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "68BD457258EC8CBF"
+			rewards: [{
+				id: "57D249639CB0DD0E"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Разделяет материалы на разные составляющие, используя сильный электрический ток."
+			tasks: [{
+				id: "4ECD4D66C0DAB6AC"
+				item: "modern_industrialization:electrolyzer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0A0931D04AE50D4B"]
+			description: ["Переплавка пыли из нержавеющей стали в ЭДП даст тебе горячие слитки, которые ты сможешь охладить в обычные слитки в Вакуумном морозильном аппарате."]
+			id: "64BACF5B60AD2406"
+			rewards: [{
+				id: "16BD1A2AE7B30382"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Нержавеющая сталь, ещё один необходимый слиток для продвижения дальше. Подожди.. Я вижу здесь ржавчину!"
+			tasks: [{
+				id: "37EE6FA75FA9D21D"
+				item: "modern_industrialization:stainless_steel_ingot"
+				type: "item"
+			}]
+			title: "Настолько Чистый, Что Скрипит"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64BACF5B60AD2406"]
+			id: "6B15091EC1B119B0"
+			rewards: [
+				{
+					id: "1820D9BCBE47DF52"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 10
+					id: "51E2F19F88B5020E"
+					item: "modern_industrialization:kanthal_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Фехралевые катушки нужны электрической доменной печи, дабы она производила больше материалов, так как они достаточно мощны для этого."
+			tasks: [{
+				count: 16L
+				id: "2BD708AAF08C5905"
+				item: "modern_industrialization:kanthal_coil"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B15091EC1B119B0"]
+			id: "7D3D156BE9C9E150"
+			rewards: [{
+				id: "47D7E1DF8030D3AD"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "С этим металлом работать не легко, помни что нужна техника что бы просто сделать это, но это показывает прочность этого металла."
+			tasks: [{
+				id: "040031047A05E0AE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:titanium_ingots"
+					}
+				}
+				title: "Любой титановый слиток"
+				type: "item"
+			}]
+			title: "Титан"
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6B15091EC1B119B0"
+				"7CE18D246F01445D"
+			]
+			id: "5310B93F2821826A"
+			rewards: [{
+				id: "09F0E3FEF88A4E55"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Процессор используется для создания очень сложных компонентов машин и даже более продвинутых буров, которые уже довольно сложно использовать."
+			tasks: [{
+				id: "5D18FA4D68318732"
+				item: "modern_industrialization:processing_unit"
+				type: "item"
+			}]
+			title: "Мозг компьютера"
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D3D156BE9C9E150"]
+			id: "6B05C72FF31E104D"
+			rewards: [{
+				id: "04E110046D2E9DF1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7103DFB1F1EF3828"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:raw_iridium_ores"
+					}
+				}
+				title: "Рудный Иридий"
+				type: "item"
+			}]
+			title: "Рудный иридий"
+			x: 19.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7D3D156BE9C9E150"]
+			id: "1EACE9E49BA4B753"
+			rewards: [{
+				id: "4D5F114F8BFAC71D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Взрывостойкая легированная пластина будет особенно важна для особого процесса, который будет взрывным."
+			tasks: [{
+				id: "072C3C5C4355E8DF"
+				item: "modern_industrialization:blastproof_alloy_plate"
+				type: "item"
+			}]
+			title: "Мы сможем сделать щит из этого?"
+			x: 17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7D3D156BE9C9E150"
+				"7CE18D246F01445D"
+			]
+			icon: "modern_industrialization:pressurizer"
+			id: "46319F2AE2F90532"
+			rewards: [
+				{
+					id: "24AE87D5D3E02EDB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "10F2E622F3B1EE3A"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Новый мультиблок, сделанный из титана, который может превратить воду в воду ВД (высокого давления), пар в пар ВД, и т.д."
+			tasks: [
+				{
+					id: "34D13E49CD76D0E5"
+					item: "modern_industrialization:pressurizer"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "406C11A88083444C"
+					item: "modern_industrialization:solid_titanium_machine_casing"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "44B6C74129ADE260"
+					item: "modern_industrialization:titanium_machine_casing_pipe"
+					type: "item"
+				}
+			]
+			title: "Хватит давить на меня!"
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B05C72FF31E104D"]
+			id: "18949581A0F3E28B"
+			rewards: [{
+				id: "41162E317076EB09"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "119D5B764A8F7E09"
+				item: "modern_industrialization:superconductor_cable"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18949581A0F3E28B"]
+			description: [""]
+			id: "6C1822FED0613FAF"
+			rewards: [
+				{
+					id: "41ECB8916CEA5AF0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3A6A0ADDC3AD8899"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Специализованный нагрудник дает хозяину невосприимчивость к урону от падения и полет, но не защитит от внешнего урона. Броня должна быть запитана для использования."
+			tasks: [{
+				id: "4AEAA8FA55EA9B82"
+				item: "modern_industrialization:gravichestplate"
+				type: "item"
+			}]
+			title: "Железный человек"
+			x: 21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1EACE9E49BA4B753"]
+			icon: "modern_industrialization:implosion_compressor"
+			id: "0F7CE2BA2A295A4D"
+			rewards: [{
+				id: "5C077C4D2DE7FCAE"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Компрессор всестороннего сжатия - это интересная машина, которая производит взрывы внутри себя. Используя промышленный ТНТ, она сможет сжать самые прочные материалы."
+			tasks: [
+				{
+					id: "459C20F94BC31393"
+					item: "modern_industrialization:implosion_compressor"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "36704F63596BB959"
+					item: "modern_industrialization:blastproof_casing"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "1D26B3532226028F"
+					item: "modern_industrialization:solid_titanium_machine_casing"
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0F7CE2BA2A295A4D"]
+			id: "46D1B0C583A57B12"
+			rewards: [{
+				id: "56D32E4289136DC7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "36161A69190A900D"
+				item: "modern_industrialization:mixed_ingot_iridium"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["46D1B0C583A57B12"]
+			id: "363455215C23E84E"
+			rewards: [{
+				id: "7B97711A7833FA13"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Этот деликатный материал понадобиться для создания техники лучших из лучших, для получения БЕЗГРАНИЧНОЙ СИЛЫ!!"
+			tasks: [{
+				id: "7E4D849D6F611B94"
+				item: "modern_industrialization:quantum_circuit"
+				type: "item"
+			}]
+			title: "&dКонец игры"
+			x: 16.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["363455215C23E84E"]
+			id: "4847BA675A04852F"
+			rewards: [{
+				id: "75608929A229D94D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Самое мощное улучшение, когда-либо созданное. Посмотри сам, может сможешь создать Репликатор?"
+			tasks: [{
+				id: "4CD547671372F659"
+				item: "modern_industrialization:quantum_upgrade"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["363455215C23E84E"]
+			icon: "modern_industrialization:fusion_reactor"
+			id: "208DE0E29C636F41"
+			rewards: [{
+				id: "4A2AF8D770E54116"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Термоядерный Реактор является ультимативным источником энергии, что бы он работал потребуется много энергии, и, после комбинирования Дейтерия, Трития, и/ или Гелия-3, это превратится в Гелиевую Плазму."
+			tasks: [
+				{
+					id: "3F8F140654BCBDCA"
+					item: "modern_industrialization:fusion_reactor"
+					type: "item"
+				}
+				{
+					count: 40L
+					id: "0ED2032159A96066"
+					item: "modern_industrialization:fusion_chamber"
+					type: "item"
+				}
+				{
+					count: 203L
+					id: "64AE82C5CFDBF6D2"
+					item: "modern_industrialization:highly_advanced_machine_hull"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["208DE0E29C636F41"]
+			id: "370EE225E8140570"
+			rewards: [{
+				id: "09F1818CD1B04036"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Не недооценивайте НАУКУ! Без неё, мы бы не смогли создать лучший производитель энергии во всём моде!"
+			tasks: [
+				{
+					id: "414FC59A3998C675"
+					item: "modern_industrialization:plasma_turbine"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "2B841E64FB2F9D5D"
+					item: "modern_industrialization:iridium_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "553244F087ECF3CA"
+					item: "modern_industrialization:plasma_handling_iridium_machine_casing"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0F7CE2BA2A295A4D"]
+			description: [
+				"Он производит в 100 раз больше EЭ/т чем дизель. Он идет в нескольких размерах."
+				""
+				"То, как это все работает под капотом, сбивает с толку, тем не менее, тебе не надо понимать детали, чтобы создать мощный реактор. Мы рекомендуем тебе поэкспериментировать с разными видами реакторов в креативе, пока не найдешь то, что тебе подходит."
+				""
+				"Заметь что ядерный реактор не может взорваться, излучать радиацию, или как то ещё повредить карту. Единственное, он может повредить предметы внутри себя, если ты перегреешь его (об этом позже). Чувствуй свободу в экспериментах, и наслаждайся новой жизнью в роли ученого-ядерщика!"
+				""
+				"Главный компонент реактора - это ядерная обшивка, созданная из ядерного сплава: микс кадмия, бериллия и взрывостойкого сплава."
+				""
+				"Верхняя часть структуры принимает ядерный предмет или жидкостный шлюз (или простую обшивку). Это входы и выходы реактора."
+				""
+				"Каждый шлюз имеет вход (предметный или жидкостный) и два выхода. Слоты входа сформируют сетку, отображенную в интерфейсе реактора (доступному по щелчку ПКМ по контроллеру)."
+				""
+				"Каждый шлюз нагревается и может быть охлажден несколькими путями. Тепло перемещается к близлежащему шлюзу или испаряется, если шлюз на краю (тепло тогда теряется). Скорость передачи равна коэффиценту теплопередачи содержимого люка (показано в EMI) помноженного на разницу температур. Тепло также может быть извлечено в жидкостный шлюз, производя пар. Температура выше лимита предмета уничтожит этот предмет."
+				""
+				"Центральные элементы ядерного реактора это нейтроны. Они производятся ядерным топливом. Есть два типа нейтронов, быстрые и тепловые : быстрые несут энергию, а тепловые нет. Нейтроны двигаются по прямой, пока не встретят элемент или не выйдут из реактора (для быстрых нейтронов, их энергия теряется). Поток нейтронов показан в интерфейсе реактора."
+				""
+				"Когда нейтрон встречает не пустой шлюз, две вещи могут случиться : нейтрон поглощается, либо повреждается. Повреждённый нейтрон случайно изменит направление. Если поврежденный нейтрон быстрый, он может замедлиться, становясь тепловым. Это переносит энергию из нейтрона в шлюз в форме тепла. Поглощенный нейтрон останавливается, также переносит энергию если это был быстрый нейтрон."
+				""
+				"Число поглощенных нейтронов в каждом люке видно в интерфейсе. Вероятность каждого процесса показана в EMI. Они будут опираться на содержимое люка и тип нейтрона. Ядерное топливо поглощает тепловые нейтроны намного лучше."
+				""
+				"Когда нейтрон, любого вида, поглощается в ядерном топливе, генерируется ещё больше нейтронов. Это всегда будут быстрые нейтроны со случайным направлением. Их генерация также сопровождается выбросом тепла в люке."
+				""
+				"Достигнув определенного порога, число создающихся нейтронов уменьшается с температурой, пока не достигнет нуля. Этот процесс тратит немного энергии, но гарантирует стабильность реактора. Число созданных нейтронов (и эффективности), чистая энергия и порог температур находятся в EMI."
+				""
+				"Каждый ядерный компонент имеет максимальное число поглощений. При его достижении, предмет уничтожается или превращается в его обедневшую версию. Это частично полезно для ядерного топлива, т.к. часть урана 238 превращается в Плутоний в обедненной версии, что значит некоторая часть топлива может быть переработана обратно."
+				""
+				"То же случается с жидкостями: часть жидкости трансформируется от каждого поглощения нейтрона. Это можно использовать для массового производства полезных изотопов, таких как тритий или дейтерий. В обоих случаях, выход показан в EMI."
+			]
+			id: "03896D148D7B4E3B"
+			rewards: [{
+				id: "36615F6544892129"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Большой мультиблок, чья цель в генерации огромного количества энергии, потребляя ядерное топливо."
+			tasks: [
+				{
+					id: "6539BC5A7D008ABE"
+					item: "modern_industrialization:nuclear_reactor"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "453E60CB97E09F53"
+					item: "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 77L
+					id: "6A65032810E039AA"
+					item: "modern_industrialization:nuclear_casing"
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["03896D148D7B4E3B"]
+			id: "04FAF93691F0BD9C"
+			rewards: [{
+				id: "7944381BFE9F2996"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Нет, оно не взрывается и не наносит внешний урон, оно работает только внутри техники, прости за излишний пафос."
+			tasks: [{
+				id: "562F6128B9E139A8"
+				item: "modern_industrialization:nuke"
+				type: "item"
+			}]
+			title: "ТАКТИЧЕСКАЯ ЯДЕРКА! ПРИБЛИЖАЕТСЯ!!"
+			x: 18.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["04FAF93691F0BD9C"]
+			id: "6314525E36DEA54B"
+			rewards: [
+				{
+					id: "7585ED4813069C75"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "136D111C9638282F"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Это ведь безопасно создавать миниатюрную чёрную дыру? В любом случае, это пригодиться в квантовой физике."
+			tasks: [{
+				id: "1A5C0F0D73190307"
+				item: "modern_industrialization:singularity"
+				type: "item"
+			}]
+			title: "Мы собираемся исправить историю Человечества?"
+			x: 18.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6314525E36DEA54B"]
+			id: "79802A9D4A83E757"
+			rewards: [
+			{
+				id: "35F90BA880FF48B6"
+				type: "xp_levels"
+				xp_levels: 5
+			}
+			{
+					id: "392AB02FBCD2F27C"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Это сложное для использования ведро. Используя электролизер и сингулярность, большие количества энергии превратятся в Излучение Хокинга, в УИ материю, ткань самой вселенной!!"
+			tasks: [{
+				id: "15325EFF41DA3891"
+				item: "modern_industrialization:uu_matter_bucket"
+				type: "item"
+			}]
+			title: "UwU Материя"
+			x: 18.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5310B93F2821826A"]
+			id: "60A05C52ACCBE35D"
+			rewards: [{
+				id: "38A91AF5616D43B4"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "537CE70D027A8B77"
+				item: "modern_industrialization:highly_advanced_upgrade"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33BF21CF8232FD35"]
+			id: "419F7B74E30C2AF4"
+			rewards: [
+				{
+					id: "695F346DFC3362DE"
+					item: "modern_industrialization:crude_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "2DC7DD622E6FC4FD"
+					type: "xp"
+					xp: 40
+				}
+			]
+			subtitle: "Специализованный бур, нужный для добычи сырой нефти, полезен только в нефтебуровой установке."
+			tasks: [{
+				count: 4L
+				id: "5F35CE6C3C6BAEF9"
+				item: "modern_industrialization:aluminum_drill"
+				type: "item"
+			}]
+			title: "&bАлюминиевый бур"
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7D3D156BE9C9E150"]
+			id: "24535DA01189CC75"
+			rewards: [{
+				id: "4C22D23C96F1C508"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Один из самых дорогих буров, используется для добычи иридиевой и урановой руд."
+			tasks: [{
+				id: "6448D47D73DD3726"
+				item: "modern_industrialization:titanium_drill"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: ["Не ломай ключом, используй кирку."]
+			id: "2DB9C3C383C91BC0"
+			rewards: [{
+				id: "2975DAD665501B19"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Это обезьяна или ключ? В любом случае это пригодится в поворачивании машин или изменении их входа или выхода."
+			tasks: [{
+				id: "68063DD59C50E1A7"
+				item: "modern_industrialization:wrench"
+				type: "item"
+			}]
+			title: "Игрушка инженера"
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["796F33AE4A9CF30C"]
+			id: "1B0A4271FCBD581F"
+			rewards: [
+				{
+					id: "0CFB0E3E504A70F7"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					id: "5EC9EA78055ED67E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Этот машинный компонент понадобиться для более продвинутой электрической техники, так что сделай немного таких."
+			tasks: [{
+				id: "13C4EB4423DBF2B5"
+				item: "modern_industrialization:lv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "Где затычка?"
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["26E587E34810A8FE"]
+			description: [""]
+			id: "2050D2FF42E29F6D"
+			rewards: [
+				{
+					id: "54AF33022467EEBE"
+					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4CF31744EC697161"
+					item: "modern_industrialization:copper_drill_head"
+					type: "item"
+				}
+				{
+					id: "3DD0D4DAE02EF45C"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Получение стальных люков обязательно для карьера, чтобы он мог использовать буры и выдавать результат."
+			tasks: [
+				{
+					id: "7A4F57CDD12A6800"
+					item: "modern_industrialization:steel_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5D7622FC67473FA0"
+					item: "modern_industrialization:steel_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "4A27BBE015E4B476"
+					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
+				}
+			]
+			title: "Улучшайся, продвигайся, прогрессируй!"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			description: ["Теперь ты можешь удваивать слитки и трубы, например! Опять же, проверь EMI."]
+			id: "324B15844FC6C305"
+			rewards: [{
+				id: "06CDD11D0F136DDC"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Стальной упаковочный станок автоматизирует комбинирование определенных комплектующих машин, брат стального распаковывающего станка."
+			tasks: [{
+				id: "52306C6F2E77D371"
+				item: "modern_industrialization:steel_packer"
+				type: "item"
+			}]
+			title: "Запаковывайте сумки, люди!"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "2D320F78629CC719"
+			rewards: [{
+				id: "228B42F539A2DAFC"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Стальной распаковочный станок разбирает комплектующие машин на части как вид переработки. Является братом стального упаковывающего станка."
+			tasks: [{
+				id: "58691A4447512CEE"
+				item: "modern_industrialization:steel_unpacker"
+				type: "item"
+			}]
+			title: "Распаковывайте свои сумки, люди!"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19E5E31614FE485E"]
+			description: [""]
+			id: "4DCFE7721417E669"
+			rewards: [{
+				id: "09EC6A5EC9AD5AF6"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			subtitle: "Кабельные сети имеют лимит на количество энергии, который увеличивается с уровнем."
+			tasks: [{
+				id: "2E9730BA35730C4B"
+				item: "modern_industrialization:tin_cable"
+				type: "item"
+			}]
+			title: "Перенос энергии"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "31BCEF301071F67C"
+			subtitle: "Моя спина убивает меня! Больше котлов?! Мне кажется я получу тепловой удар в таком темпе!"
+			tasks: [{
+				id: "5A4042280D8835FB"
+				item: "modern_industrialization:advanced_large_steam_boiler"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+	]
+	title: " &6Modern Industrialization"
+}

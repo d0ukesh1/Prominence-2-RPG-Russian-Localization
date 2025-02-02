@@ -1,0 +1,351 @@
+{
+	"haste": {
+		"title": "§f賂 §b+2% §7Магическая Спешка",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/spell_haste.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:haste",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"critchance": {
+		"title": "§f雷 §d+2% §7Шанс Критических Заклинаний",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/spell_critical.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_chance",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8c"
+		}
+	},
+	"critdamage": {
+		"title": "§c雷 §c+2% §7Критический Урон Заклинаний",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/spell_critical_damage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_damage",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "st7ee3sncy4vfgdk"
+		}
+	},
+	"infusion_arcane": {
+		"title": "§f鹿 §dИнфузия Арканой",
+		"description": "§7Наделить Экавар силой арканы, превратив его в §dАль На'ир, Яркая Звезда§7.\n \n§f\uF951 §d+30%§7 Таинственная Сила Заклинаний\n§fꦘ §9+20§7 Порчи",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/magic_type/arcane.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_phase",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3krb"
+		}
+	},
+	"infusion_fire": {
+		"title": "§f鹿 §cИнфузия Огнём",
+		"description": "§7Наделить Экавар силой огня, превратив его в §cАдассиль, Сожженное Древо§7.\n \n§f\uF950 §c+30%§7 Огненная Сила Заклинаний\n§fꦘ §9+20§7 Порчи",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/magic_type/fire.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_phase",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3k54"
+		}
+	},
+	"infusion_frost": {
+		"title": "§f鹿 §bИнфузия Льдом",
+		"description": "§7Наделить Экавар силой льда, превратив его в §bКаз'ель, Морозная Судьба§7.\n \n§f\uF952 §b+30%§7 Ледяная Сила Заклинанийr\n§f\uAB01 §2+20§7 Сопротивления к Порче",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/magic_type/frost.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_phase",
+					"value": 3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption_resistance",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3en4"
+		}
+	},
+	"infusion_holy": {
+		"title": "§f鹿 §6Инфузия Светом",
+		"description": "§7Наделить Экавар исцеляющей силой, превратив его в §6Ад'анель, Секрет Айна§7.\n \n§f\uF957 §6+30%§7 Исцеляющая Сила\n§f\uAB01 §2+20§7 Сопротивления к Порче",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/magic_type/holy.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_phase",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption_resistance",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3yf5"
+		}
+	},
+	"infusion_astral": {
+		"title": "§f鹿 §dИнфузия Астралом",
+		"description": "§7Наделить Экавар силой элементов, превратив его в §dСингулярность, Возрождение Звезды§7.\n \n§f\uF956 §d+20%§7 Астральная Сила\n§f\uAB01 §2+10§7 Сопротивления к Порче\n§fꦘ §9+10§7 Порчи",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/supernova/fate_corruption.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_phase",
+					"value": 5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption_resistance",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqcc0c3yu3"
+		}
+	}
+}

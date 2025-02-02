@@ -1,0 +1,2177 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_revolution"
+	group: "49D52BD6447C5CC0"
+	icon: "indrev:mining_rig_mk4"
+	id: "7DBBF6BCE6FF4D19"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "32DE8281608AE114"
+			rewards: [{
+				id: "72931100F1CC135D"
+				item: "indrev:guide_book"
+				type: "item"
+			}]
+			subtitle: "Добро пожаловать в Industrial Revolution, технический мод, предоставляющий инструменты, оружия и способы генерации ресурсов."
+			tasks: [{
+				id: "0F631934C103EDFA"
+				title: "Добро пожаловать в Industrial Revolution"
+				type: "checkmark"
+			}]
+			title: "Добро пожаловать в Industrial Revolution!"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E8DC0584EEE678C"]
+			id: "6841FAEED4EA275E"
+			rewards: [{
+				id: "171A8709403772D2"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "73E3ABB96762A500"
+				item: "indrev:cable_mk1"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4D880BADADB6263C"
+				"6841FAEED4EA275E"
+			]
+			id: "3179BA004879DD1A"
+			rewards: [{
+				id: "3AF21D524F4E8E1D"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "441BCA462AF9B925"
+				item: "indrev:cable_mk2"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7B94F028FE5D4300"
+				"3179BA004879DD1A"
+			]
+			id: "349330B6A4E1B950"
+			rewards: [{
+				id: "0528C8412AA61B6A"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "20839ACA45F2A854"
+				item: "indrev:cable_mk3"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"10F20DB208053F1C"
+				"349330B6A4E1B950"
+			]
+			id: "066AF0A07A03503E"
+			rewards: [{
+				id: "1EB5CDD5E7AE0779"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "494D6D7DCBBC7DA3"
+				item: "indrev:cable_mk4"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["32DE8281608AE114"]
+			id: "7E8DC0584EEE678C"
+			rewards: [{
+				id: "40134DF4E0376385"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Бирюзовая пыль с полезными свойствами создания машин."
+			tasks: [{
+				id: "22D23AA53B2D0362"
+				item: "indrev:nikolite_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E8DC0584EEE678C"]
+			id: "4D880BADADB6263C"
+			rewards: [{
+				id: "5A9E2DA791983BDB"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "Железный слиток, усиленный путем слияния с Николитом."
+			tasks: [{
+				id: "38A727856663A1E5"
+				item: "indrev:nikolite_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D880BADADB6263C"]
+			id: "7B94F028FE5D4300"
+			rewards: [{
+				id: "0DFB84187A908900"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "Слияние Николитовой Пыли с Алмазной Пылью, кажется, улучшает её свойства."
+			tasks: [{
+				id: "1AC296A4FC960449"
+				item: "indrev:enriched_nikolite_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B94F028FE5D4300"]
+			id: "10F20DB208053F1C"
+			rewards: [{
+				id: "3F31ECE32D214F02"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Слиток, искрящийся энергией Обогащенного Николита."
+			tasks: [{
+				id: "4A79A79E92FD11ED"
+				item: "indrev:enriched_nikolite_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["336AC58F9C15B5C1"]
+			id: "382C9B8F7D377F4C"
+			rewards: [{
+				id: "4E735E9D792716DB"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "Позволяет улучшать машины до MK2, это ускоряет обработку и дает установку 2 усилителей."
+			tasks: [{
+				id: "4A6086EE8638877E"
+				item: "indrev:tier_upgrade_mk2"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["32D50443C8F667C6"]
+			id: "35A24097168FBBCE"
+			rewards: [{
+				id: "674E5AAC33DC9E32"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "Позволяет улучшать машины до MK3, это ускоряет обработку и дает установку 3 усилителей."
+			tasks: [{
+				id: "3003CAAF0A0E1043"
+				item: "indrev:tier_upgrade_mk3"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4292881C886EFF62"]
+			id: "1A1EA6AC2FC9E464"
+			rewards: [{
+				id: "56E1A7CC93BFE326"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Позволяет улучшать машины до MK4, это ускоряет обработку и дает установку 4 усилителей."
+			tasks: [{
+				id: "081EC201A8162C39"
+				item: "indrev:tier_upgrade_mk4"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4292881C886EFF62"]
+			icon: "indrev:mining_rig_mk4"
+			id: "28597D75AD3B9509"
+			rewards: [{
+				id: "21DBEF29CF4A9B69"
+				type: "xp"
+				xp: 1000
+			}]
+			size: 1.5d
+			subtitle: "Станочная буровая машина позволяет тебе генерировать руды. \\n\\nЧтобы установить его, тебе понадобится: \\n1. Станочная буровая машина.\\n2. 1-8 Сверл буровой установки.\\n3. 1-8 Головок бура.\\n4. Зашифрованная карта с данными руд.\\n\\nЗаметка: головки бура более высокого уровня позволяют быстрее генерировать руды."
+			tasks: [
+				{
+					id: "27749ADE514D74C7"
+					item: "indrev:mining_rig_mk4"
+					type: "item"
+				}
+				{
+					id: "3DF061635F081A96"
+					item: "indrev:drill_bottom"
+					type: "item"
+				}
+				{
+					id: "1853474A9B33A934"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "indrev:stone_drill_head"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "indrev:iron_drill_head"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "indrev:diamond_drill_head"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "indrev:netherite_drill_head"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Любая Головка Бура"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7E8DC0584EEE678C"]
+			id: "114491A0ECA253E8"
+			rewards: [{
+				id: "5A6322B9515187DE"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Основа машин 1 уровня."
+			tasks: [{
+				id: "3C1713111B82178E"
+				item: "indrev:circuit_mk1"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4D880BADADB6263C"
+				"114491A0ECA253E8"
+			]
+			id: "336AC58F9C15B5C1"
+			rewards: [{
+				id: "25065BE987DAC599"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "Основа машин 2 уровня."
+			tasks: [{
+				id: "283EF189CEEDE8CF"
+				item: "indrev:circuit_mk2"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7B94F028FE5D4300"
+				"336AC58F9C15B5C1"
+			]
+			id: "32D50443C8F667C6"
+			rewards: [{
+				id: "011B309D4EBBEEC9"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "Основа машин 3 уровня."
+			tasks: [{
+				id: "20B586B0085CFFB6"
+				item: "indrev:circuit_mk3"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"10F20DB208053F1C"
+				"32D50443C8F667C6"
+			]
+			id: "4292881C886EFF62"
+			rewards: [{
+				id: "432B94A47D75680E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Основа машин 4 уровня."
+			tasks: [{
+				id: "6143C60A56C29E38"
+				item: "indrev:circuit_mk4"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["32DE8281608AE114"]
+			id: "4EFD04B00ADBD50E"
+			subtitle: "Отвертка позволяет настраивать входные и выходные стороны машины, а также куб энергии."
+			tasks: [{
+				id: "0336F4103F460751"
+				item: "indrev:screwdriver"
+				type: "item"
+			}]
+			title: "Конфигурация машин"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "563C4FEA39531845"
+			rewards: [{
+				id: "2CB7CFF0452DC6EF"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Простая машина, использующая LF чтобы переплавлять предметы."
+			tasks: [{
+				id: "006643CD4ACB0DD5"
+				item: "indrev:electric_furnace_mk1"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["563C4FEA39531845"]
+			icon: "indrev:electric_furnace_factory_mk4"
+			id: "06603DC3541DEB95"
+			rewards: [{
+				id: "02A2B2A18F52A248"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Высочайший уровень Электрической Печи, позволяет обрабатывать 5 предметов за раз."
+			tasks: [
+				{
+					id: "16CEFF263293C772"
+					item: "indrev:electric_furnace_factory_mk4"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "70DB6A10F9B01054"
+					item: "indrev:frame"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "40C59B8757620251"
+					item: "indrev:silo"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "27FDF4FAA444A105"
+					item: "indrev:intake"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "15C3BDABD227496A"
+					item: "indrev:duct"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "76921C10EB44F864"
+					item: "indrev:cabinet"
+					type: "item"
+				}
+				{
+					id: "44A0019F34F5B28D"
+					item: "indrev:controller"
+					type: "item"
+				}
+				{
+					id: "110D54BA3A1CF124"
+					item: "indrev:warning_strobe"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "34AD352626226978"
+			rewards: [{
+				id: "4A0C03249F4D88FF"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Позволяет пульверизацию многих материалов."
+			tasks: [{
+				id: "3259088F99EA9060"
+				item: "indrev:pulverizer_mk1"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34AD352626226978"]
+			icon: "indrev:pulverizer_factory_mk4"
+			id: "5BF75A8B35CF8BEC"
+			rewards: [{
+				id: "69B83565A7E25E7E"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Пульверизатор высочайшего уровня, позволяет обрабатывать 5 предметов за раз."
+			tasks: [
+				{
+					id: "7B8DBCDA7DEBD0E2"
+					item: "indrev:pulverizer_factory_mk4"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "28BA24BD580EBB97"
+					item: "indrev:frame"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "4705A3F09366AF10"
+					item: "indrev:silo"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "41253A312474E5B4"
+					item: "indrev:intake"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "364999D2D9EE2CAA"
+					item: "indrev:duct"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "63F9F7B5843F66AD"
+					item: "indrev:cabinet"
+					type: "item"
+				}
+				{
+					id: "510B7A0862C58E12"
+					item: "indrev:controller"
+					type: "item"
+				}
+				{
+					id: "142FE0AF12CD8214"
+					item: "indrev:warning_strobe"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0362B2FF4E5681B2"]
+			id: "71D3FB31485B9F05"
+			size: 1.5d
+			subtitle: "Основа большинства машин в Industrial Revolution."
+			tasks: [
+				{
+					id: "1792BD2A7CB4D3BE"
+					item: "indrev:machine_block"
+					type: "item"
+				}
+				{
+					id: "195C72CB17C8844C"
+					item: "indrev:battery"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["32DE8281608AE114"]
+			hide_dependency_lines: true
+			id: "09E10855340778F7"
+			rewards: [{
+				id: "55ABE61A29284F36"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Перед тем как использовать жидкостную трубу тебе понадобится сервопривод вывода или сервопривод-извлекатель."
+			tasks: [{
+				id: "5633521FA0CD7BB7"
+				item: "indrev:fluid_pipe_mk1"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"09E10855340778F7"
+				"4D880BADADB6263C"
+			]
+			id: "5E22E2F77B5876A6"
+			rewards: [{
+				id: "3C1C999C7518734C"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "4C5E7B074869D226"
+				item: "indrev:fluid_pipe_mk2"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7B94F028FE5D4300"
+				"5E22E2F77B5876A6"
+			]
+			id: "3680B35246913C90"
+			rewards: [{
+				id: "11C0280D8F9EEC73"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "60DF9C626FC3A3DD"
+				item: "indrev:fluid_pipe_mk3"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3680B35246913C90"
+				"10F20DB208053F1C"
+			]
+			id: "2ABCB8A640CDB0AD"
+			rewards: [{
+				id: "52C9FFD7AAA11BE6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75B11271331C3324"
+				item: "indrev:fluid_pipe_mk4"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7C514B78456F01BF"
+				"09E10855340778F7"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "3F0F9ED6CD74A8F7"
+			rewards: [{
+				id: "174BD5CA4344A836"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Сервопривод-извлекатель пытается втянуть в машину, в которую смотрит, всё из других машин, подсоединенных к этой трубе."
+			tasks: [{
+				id: "5F6EB1B1786EEBDF"
+				item: {
+					Count: 1b
+					id: "indrev:servo_retriever"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7C514B78456F01BF"
+				"09E10855340778F7"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "26076501DA60CB75"
+			rewards: [{
+				id: "520B3734D90A77CD"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Сервопривод вывода пытается вытянуть из машины, в которую направлен, предметы в другую машину, соединенную с трубами."
+			tasks: [{
+				id: "12790B91DDF80C81"
+				item: {
+					Count: 1b
+					id: "indrev:servo_output"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32DE8281608AE114"]
+			hide_dependency_lines: true
+			id: "7C514B78456F01BF"
+			rewards: [{
+				id: "76B32664F2484507"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Чтобы использовать предметную трубу тебе понадобится сервопривод вывода или сервопривод-извлекатель."
+			tasks: [{
+				id: "1141AC2BFE66C951"
+				item: "indrev:item_pipe_mk1"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4D880BADADB6263C"
+				"7C514B78456F01BF"
+			]
+			id: "3844D08B2DB5C6E6"
+			rewards: [{
+				id: "4D6AB068AF714A07"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "5C35C4E0E2D4BC87"
+				item: "indrev:item_pipe_mk2"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7B94F028FE5D4300"
+				"3844D08B2DB5C6E6"
+			]
+			id: "6B2784FA8ADE4E6F"
+			rewards: [{
+				id: "720828770A7A1C29"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "16CD0E3445FBD096"
+				item: "indrev:item_pipe_mk3"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"10F20DB208053F1C"
+				"6B2784FA8ADE4E6F"
+			]
+			id: "4407C33AA96DF346"
+			rewards: [{
+				id: "0A119D223D6F019B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "36C967C0D22D9B5C"
+				item: "indrev:item_pipe_mk4"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "1DF04A11406C2667"
+			rewards: [{
+				id: "7CE958ADF42583FE"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Позволяет тебе делать пластины, не используя молот, а также создавать усилители для увеличения производительности твоих машин."
+			tasks: [{
+				id: "5FFFF0490FAC7779"
+				item: "indrev:compressor_mk1"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1DF04A11406C2667"]
+			icon: "indrev:compressor_factory_mk4"
+			id: "6D636C93B8884BE3"
+			rewards: [{
+				id: "71EE55610CBA3DA2"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Высочайший уровень Компрессора, позволяющий одновременную обработку сразу 5 предметов."
+			tasks: [
+				{
+					id: "1A9600EC4FC50D2F"
+					item: "indrev:compressor_factory_mk4"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6EDE2CAA7E2C7D37"
+					item: "indrev:frame"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2F70D327BB99D85B"
+					item: "indrev:silo"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "426C8D6930CC4621"
+					item: "indrev:intake"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "61BD498597CD1855"
+					item: "indrev:duct"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6386F46273030791"
+					item: "indrev:cabinet"
+					type: "item"
+				}
+				{
+					id: "0CB3ECEAF1DCD641"
+					item: "indrev:controller"
+					type: "item"
+				}
+				{
+					id: "7485E9C8240C34D6"
+					item: "indrev:warning_strobe"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "561D892792DE7BF8"
+			rewards: [{
+				id: "26605AEB1527EFF9"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Жизненно важен в создании высоко-уровневых материалов, так как это единственная машина, способная соединять николитовую пыль с другими материалами, для улучшения их возможностей."
+			tasks: [{
+				id: "0162EED060A620C9"
+				item: "indrev:solid_infuser_mk1"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["561D892792DE7BF8"]
+			icon: "indrev:solid_infuser_factory_mk4"
+			id: "37961D25B5CC7404"
+			rewards: [{
+				id: "0B20F1DA2981C74C"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Высочайший уровень твердотельного настойника, позволяющий обработку 5 предметов одновременно."
+			tasks: [
+				{
+					id: "6DE1A8C5F2A3931E"
+					item: "indrev:solid_infuser_factory_mk4"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "099CDBCE8B62E9CF"
+					item: "indrev:frame"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0CA079C1CC287220"
+					item: "indrev:silo"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "24930C3950113910"
+					item: "indrev:intake"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "673E71938FBF0EDA"
+					item: "indrev:duct"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "51EA518FF8BB99DB"
+					item: "indrev:cabinet"
+					type: "item"
+				}
+				{
+					id: "497B2A0EF0754EB0"
+					item: "indrev:controller"
+					type: "item"
+				}
+				{
+					id: "7615144DE4EBB4C7"
+					item: "indrev:warning_strobe"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "7E3E1C542B624D4F"
+			rewards: [{
+				id: "7BD7FFB81AB949DD"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Машина, позволяющая извлекать дополнительные доски из бревен, также как и опилки."
+			tasks: [{
+				id: "02B367974E248910"
+				item: "indrev:sawmill_mk1"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E3E1C542B624D4F"]
+			id: "2255F0DC5472032E"
+			rewards: [{
+				id: "2147B466A5140D5D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Лесопилка высочайшего уровня."
+			tasks: [{
+				id: "6A07E6DD472ED08A"
+				item: "indrev:sawmill_mk4"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "011E16AE09FB030A"
+			rewards: [{
+				id: "57914E2BEBBDBAC7"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Автоматически ставит саженцы и срубает деревья. Для функционирования необходим топор."
+			tasks: [{
+				id: "29354D1557D10A42"
+				item: "indrev:chopper_mk1"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "7AC8A8E3E86987A2"
+			rewards: [{
+				id: "069393B0E483B78A"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Позволяет автоматическое собирание и посадку растений."
+			tasks: [{
+				id: "0A8A1824D486651B"
+				item: "indrev:farmer_mk1"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "0A8FEAAE69FF1871"
+			rewards: [{
+				id: "161A7A61378FE4FB"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Машина, которая убивает мобов, используя предоставленный ей меч."
+			tasks: [{
+				id: "424163F9D3A8DCC0"
+				item: "indrev:slaughter_mk1"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "06E944EA35BFD6FB"
+			rewards: [{
+				id: "1C519D75EDDC56E5"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Машина, автоматически разводящая и убивающая животных."
+			tasks: [{
+				id: "16DBCD671C99E72E"
+				item: "indrev:rancher_mk1"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "7F7191A03F884B3A"
+			rewards: [{
+				id: "03D6EB577950FB68"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Автоматически собирает любую жидкость выше его."
+			tasks: [{
+				id: "6BCA806FB997839F"
+				item: "indrev:drain_mk1"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "4B2734DD638F02C3"
+			rewards: [{
+				id: "39056B87F3AAAD83"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Позволяет извлечение жидкостей, найденных в мире."
+			tasks: [{
+				id: "304662C834225F42"
+				item: "indrev:pump_mk1"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6890EA95BC24049C"]
+			id: "199A5BA094AC15B7"
+			rewards: [{
+				id: "79007D7E1FDEBB35"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Базовая форма ЛФ хранилища."
+			tasks: [{
+				id: "7CF9120CCA224B49"
+				item: "indrev:lazuli_flux_container_mk1"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["199A5BA094AC15B7"]
+			id: "5190595C03133F0C"
+			rewards: [{
+				id: "6FDC7068BB459898"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Хранилище энергии самого высокого уровня в Industrial Revolution."
+			tasks: [{
+				id: "0BCC0932F9AEA74A"
+				item: "indrev:lazuli_flux_container_mk4"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["336AC58F9C15B5C1"]
+			id: "4ED4835617626D42"
+			rewards: [{
+				id: "4C37BE58C4F1DBA5"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "Эквивалент Железной Кирки, использует ЛФ вместо прочности."
+			tasks: [{
+				id: "3E1786F8F3301991"
+				item: "indrev:mining_drill_mk2"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["114491A0ECA253E8"]
+			id: "601EB16F02F0829E"
+			rewards: [{
+				id: "5F919709505C9DE7"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Эквивалент Каменной Кирки, использует ЛФ вместо прочности."
+			tasks: [{
+				id: "592EDAF86DC224FE"
+				item: "indrev:mining_drill_mk1"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["32D50443C8F667C6"]
+			id: "66E6632AA1C3DE14"
+			rewards: [{
+				id: "2CEDBCD74DF9062C"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "Эквивалент Алмазной Кирки, использует ЛФ вместо прочности."
+			tasks: [{
+				id: "1561749937B55522"
+				item: "indrev:mining_drill_mk3"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4292881C886EFF62"]
+			id: "0141CEF16FE9DF82"
+			rewards: [{
+				id: "667A03B94FF9D665"
+				type: "xp"
+				xp: 150
+			}]
+			size: 1.25d
+			subtitle: "Эквивалент Незеритовой Кирки, использует ЛФ вместо прочности.\\n\\n Этот инструмент также позволяет установку модулей с помощью Модульного Верстака."
+			tasks: [{
+				id: "5249D4CAA3D43FD5"
+				item: "indrev:mining_drill_mk4"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["28597D75AD3B9509"]
+			icon: "indrev:data_card_writer_mk4"
+			id: "022E7898D8F08636"
+			rewards: [{
+				id: "64C97D5FBFC577CD"
+				type: "xp"
+				xp: 400
+			}]
+			subtitle: "Чтобы использовать Станочную буровую установку, тебе понадобится зашифрованная карта с данными руд.\\n\\nОна создается в Шифрователе карт данных предоставлением 64 единиц руды, которые ты хочешь зашифровать, и карты данных руд. \\n\\nТы также можешь увеличить богатство своих карт используя Обогащенный Николит, по 16 на 1%. Более высокие уровни богатства увеличивают количество руды, полученной на каждую операцию."
+			tasks: [
+				{
+					id: "01E20AAC5727E0FB"
+					item: "indrev:data_card_writer_mk4"
+					type: "item"
+				}
+				{
+					id: "65F266EC166F6A00"
+					item: "indrev:ore_data_card"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "44493EE8C4898DBE"
+			rewards: [
+				{
+					id: "5134A704A06EE67B"
+					item: {
+						Count: 1b
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74DE076F1C5AA7E0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Машина, которая может самостоятельно рыбачить. Требует удочку и источник воды, прилежащий к машине."
+			tasks: [{
+				id: "622A1326F071D08B"
+				item: "indrev:fisher_mk2"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6890EA95BC24049C"]
+			id: "562CB67AF723367C"
+			rewards: [{
+				id: "2429EAFF8F622BA1"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "Пассивная форма генерации энергии, требующая только солнечный свет для работы."
+			tasks: [{
+				id: "251D7A4D050376D7"
+				item: "indrev:solar_generator_mk1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["562CB67AF723367C"]
+			id: "3854E77F541CAB4C"
+			rewards: [{
+				id: "6007CC914C110469"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Улучшение Солнечного Генератора."
+			tasks: [{
+				id: "1B446742F5601191"
+				item: "indrev:solar_generator_mk3"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["32DE8281608AE114"]
+			id: "6890EA95BC24049C"
+			rewards: [{
+				id: "1B0D7FADBA5EFA9E"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "Самый базовый генератор, потребляющий любое сжигаемое топливо для производства ЛФ."
+			tasks: [{
+				id: "0A6F900672307E3C"
+				item: "indrev:coal_generator_mk1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6890EA95BC24049C"]
+			id: "2229FBE0472060FF"
+			rewards: [{
+				id: "2BBC15463890DABE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Генератор, позволяющий семенам и другой растительной материи быть использованной в понятии генерации энергии, если перед этим будет превращена в биомассу."
+			tasks: [{
+				id: "68C755DE9DE014A6"
+				item: "indrev:biomass_generator_mk3"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6890EA95BC24049C"]
+			id: "267A1C9CDC825494"
+			rewards: [{
+				id: "1C3538C3B7209E99"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Лучший ЛФ/такт генератор в Industrial Revolution. Он потребляет лаву для генерации ЛФ."
+			tasks: [{
+				id: "5EA67D9DB04812FA"
+				item: "indrev:heat_generator_mk4"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["114491A0ECA253E8"]
+			id: "3EB472FADC42E955"
+			rewards: [{
+				id: "1EB2FDEB5F8EACD6"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Небольшой девайс, который читает количество энергии, хранимой в машине, как и потенциальное потребление ЛФ этой машины.\\n\\nЭто может быть отчасти полезно, когда пытаешься узнать потребление ЛФ машины с улучшениями в них."
+			tasks: [{
+				id: "2B5BB6332505B4C7"
+				item: "indrev:energy_reader"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3DC8D8576946AFB7"]
+			icon: "indrev:modular_core_activated"
+			id: "15BA3DFCB1C58722"
+			min_width: 300
+			rewards: [{
+				id: "7D0945DF4215A0D0"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Пошаговая инструкция для зарядки Ядра Модульности: \\n\\n1. Положи свою капсулу рядом с Лазерным Излучателем, чтобы тот смотрел на Капсулу в 3 блоках от неё. \\n\\n2. Положи свое Ядро Модульности (незаряженное) в Капсулу.\\n\\n3. Заряди Лазерный Эмиттер, направив ЛФ в его заднюю часть.\\n\\n4. Подведи редстоун сигнал к Лазерному Излучателю.\\n\\nЕсли ты хочешь автоматизировать отключение своих лазеров, то будет полезно знать что компараторы выпускают сигнал когда Капсула пуста или закончила зарядку."
+			tasks: [
+				{
+					id: "722D007879784300"
+					item: "indrev:modular_core"
+					type: "item"
+				}
+				{
+					id: "5B91939503BCBD97"
+					item: "indrev:modular_core_activated"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4292881C886EFF62"]
+			icon: "indrev:laser_emitter_mk4"
+			id: "3DC8D8576946AFB7"
+			rewards: [{
+				id: "04C4B97C32BDEEA2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Используется для зарядки ядер модульности.\\n\\n Будь осторожен и не подводи сигнал редстоуна к своему лазерному излучателю когда капсула пуста, так как это уничтожит капсулу. Также, подводка редстоун сигнала к лазерному излучателю, когда тот не смотрит на Капсулу, вызовет взрыв через некоторое время."
+			tasks: [
+				{
+					id: "55D740096391D07C"
+					item: "indrev:laser_emitter_mk4"
+					type: "item"
+				}
+				{
+					id: "7FD0CB8E7764A714"
+					item: "indrev:capsule"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15BA3DFCB1C58722"]
+			id: "54C1BD7197FE453F"
+			rewards: [{
+				id: "35C9666093ABA3FE"
+				type: "xp"
+				xp: 150
+			}]
+			size: 1.25d
+			subtitle: "Шлем, позволяющий установку модулей."
+			tasks: [{
+				id: "13279A65486B3B7D"
+				item: {
+					Count: 1b
+					id: "indrev:modular_armor_helmet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15BA3DFCB1C58722"]
+			id: "0D1D5AC94B516339"
+			rewards: [{
+				id: "6B9E46FED18859AC"
+				type: "xp"
+				xp: 150
+			}]
+			size: 1.25d
+			subtitle: "Нагрудник, позволяющий установку модулей."
+			tasks: [{
+				id: "18F4272FADDD55D5"
+				item: {
+					Count: 1b
+					id: "indrev:modular_armor_chest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["15BA3DFCB1C58722"]
+			id: "3F6C3D4CD2135DF9"
+			rewards: [{
+				id: "12BE5348CB595190"
+				type: "xp"
+				xp: 150
+			}]
+			size: 1.25d
+			subtitle: "Поножи, позволяющие установку модулей."
+			tasks: [{
+				id: "53BB342EBDD0D957"
+				item: {
+					Count: 1b
+					id: "indrev:modular_armor_legs"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15BA3DFCB1C58722"]
+			id: "7976E2D046C342FA"
+			rewards: [{
+				id: "69742441EA45FFF7"
+				type: "xp"
+				xp: 150
+			}]
+			size: 1.25d
+			subtitle: "Пара ботинок, позволяющая установку модулей."
+			tasks: [{
+				id: "09DBCD31FE861696"
+				item: {
+					Count: 1b
+					id: "indrev:modular_armor_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15BA3DFCB1C58722"]
+			id: "5B4859601A6A1485"
+			rewards: [{
+				id: "6ABFE5A6F3053FA2"
+				type: "xp"
+				xp: 150
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "7688BFB275A299E3"
+				item: "indrev:modular_workbench_mk4"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4292881C886EFF62"]
+			description: ["&eЭто мемовое оружие, пожалуйста, не используйте его всерьез, оно плохое."]
+			id: "5A0531E384E622FA"
+			rewards: [{
+				id: "6A939D850B0B985E"
+				type: "xp"
+				xp: 150
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "08D8E846F2846652"
+				item: {
+					Count: 1b
+					id: "indrev:gamer_axe"
+					tag: {
+						Active: 1b
+						Damage: 0
+						Progress: 1.0f
+						energy: 10000L
+						selected: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5B4859601A6A1485"]
+			id: "743290E12413F2F7"
+			rewards: [{
+				id: "0A26355698A7235F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Может быть найдена в качестве сокровища в подземельях."
+			tasks: [{
+				id: "645E1AFF80FEF744"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "indrev:module_color_pink"
+							}
+							{
+								Count: 1b
+								id: "indrev:module_color_red"
+							}
+							{
+								Count: 1b
+								id: "indrev:module_color_purple"
+							}
+							{
+								Count: 1b
+								id: "indrev:module_color_blue"
+							}
+							{
+								Count: 1b
+								id: "indrev:module_color_cyan"
+							}
+							{
+								Count: 1b
+								id: "indrev:module_color_green"
+							}
+							{
+								Count: 1b
+								id: "indrev:module_color_yellow"
+							}
+							{
+								Count: 1b
+								id: "indrev:module_color_orange"
+							}
+							{
+								Count: 1b
+								id: "indrev:module_color_brown"
+							}
+							{
+								Count: 1b
+								id: "indrev:module_color_black"
+							}
+						]
+					}
+				}
+				title: "Any Color Module"
+				type: "item"
+			}]
+			title: "Color Modules"
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A0531E384E622FA"]
+			id: "1CDD281D50DC90E0"
+			rewards: [{
+				id: "2FB3450DC242F676"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5A442C83AF97FECF"
+				item: "indrev:module_sharpness"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A0531E384E622FA"]
+			id: "049A85C449F87D0E"
+			rewards: [{
+				id: "0022922ADAACB6D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2AE3F20B17FD2B95"
+				item: "indrev:module_fire_aspect"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A0531E384E622FA"]
+			id: "01E794A2D19C4413"
+			rewards: [{
+				id: "26F001EFD89CD275"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2096CCD307A1CF4C"
+				item: "indrev:module_looting"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0141CEF16FE9DF82"]
+			id: "520D8ED74E052F05"
+			rewards: [{
+				id: "75F9BC871EC97EA7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "40BA054C65B04DD7"
+				item: "indrev:module_silk_touch"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0141CEF16FE9DF82"]
+			id: "190F2043087BBCAF"
+			rewards: [{
+				id: "3B17FD3F4AB3F882"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E63245E8B01928E"
+				item: "indrev:module_fortune"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0141CEF16FE9DF82"]
+			id: "1CF982BE5CB01B82"
+			rewards: [{
+				id: "1BBF9FE2695258AC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E9B30B20F9BD6B5"
+				item: "indrev:module_efficiency"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["32DE8281608AE114"]
+			id: "0362B2FF4E5681B2"
+			rewards: [{
+				id: "6D2984C366EDA4FE"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Используется для создания пластин перед созданием компрессора."
+			tasks: [{
+				id: "462B8764930866AB"
+				item: {
+					Count: 1b
+					id: "indrev:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0141CEF16FE9DF82"]
+			id: "254003AED83BD44B"
+			rewards: [{
+				id: "56AC0F7D5A6D6C8D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "54B623567C87FCEB"
+				item: "indrev:module_range"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0D1D5AC94B516339"]
+			id: "0C27AAAC9088274F"
+			rewards: [{
+				id: "65D48F41D77A68A3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "495A3C67CBBC5091"
+				item: "indrev:module_fire_resistance"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D1D5AC94B516339"]
+			id: "14207A0D5335CBC8"
+			rewards: [{
+				id: "453018E1B0588826"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60403DBBCF28383E"
+				item: "indrev:module_elytra"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B4859601A6A1485"]
+			id: "23EC29A8EABB06D5"
+			rewards: [{
+				id: "233AF652B11FC327"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "15B7EC1FA32BBDB5"
+				item: "indrev:module_piglin_tricker"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54C1BD7197FE453F"]
+			id: "6271AEA63D308383"
+			rewards: [{
+				id: "286E8724CED80593"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "47F65CB7C2A94ABB"
+				item: "indrev:module_solar_panel"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D1D5AC94B516339"]
+			id: "3C74653584F59C9B"
+			rewards: [{
+				id: "5FB29794FF295464"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "629C78C5AB80DE73"
+				item: "indrev:module_charger"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54C1BD7197FE453F"]
+			id: "222B701D2EEBEB2A"
+			rewards: [{
+				id: "4BB3E846B78411A7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "100B5525A217B77C"
+				item: "indrev:module_auto_feeder"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7976E2D046C342FA"]
+			id: "3F4C7423E91E6119"
+			rewards: [{
+				id: "7890CFECCD45BBE9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "700EC635AEB9ABB0"
+				item: "indrev:module_feather_falling"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54C1BD7197FE453F"]
+			id: "4D6F79CE5A3E069F"
+			rewards: [{
+				id: "457F6F1F12AE0942"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E0533FA51A60E23"
+				item: "indrev:module_breathing"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54C1BD7197FE453F"]
+			id: "2A5029E52975C877"
+			rewards: [{
+				id: "1F4910CA94B606D2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "13854E8024901B0C"
+				item: "indrev:module_night_vision"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7976E2D046C342FA"]
+			id: "5E89A2C0F02C940D"
+			rewards: [{
+				id: "1DDA58010C49CC82"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "400870F710271691"
+				item: "indrev:module_jump_boost"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F6C3D4CD2135DF9"]
+			id: "775F621F38E18D04"
+			rewards: [{
+				id: "248E3D7D01E3686F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0F4A719861B1DC38"
+				item: "indrev:module_speed"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B4859601A6A1485"]
+			id: "6063AA2C5961BB4A"
+			rewards: [{
+				id: "0725732F4CBF7073"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "40D2CCE20FDC106E"
+				item: "indrev:module_protection"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["32DE8281608AE114"]
+			id: "39FF583B7278103A"
+			subtitle: "Инструмент, позволяющий тебе поворачивать блоки и ломать машины кликом ПКМ крадучись."
+			tasks: [{
+				id: "4923ECBCEF56D65E"
+				item: "indrev:wrench"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32DE8281608AE114"]
+			icon: {
+				Count: 1b
+				id: "indrev:fan"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "446C1A9D56CC3CEB"
+			tasks: [
+				{
+					id: "4F9CB4B0CF0F59CB"
+					item: {
+						Count: 1b
+						id: "indrev:fan"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "031127910272B37D"
+					item: {
+						Count: 1b
+						id: "indrev:cooler_cell"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33651DB0E58175E2"
+					item: {
+						Count: 1b
+						id: "indrev:heatsink"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Тепло"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "07FC8DC730733737"
+			rewards: [{
+				id: "2B9DAEC4CF5399C1"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "В основном используется для создания хладагента и обработки руд. И ещё может сделать непробиваемый для визера обсидиан."
+			tasks: [{
+				id: "777FADC55E95A59E"
+				item: "indrev:fluid_infuser_mk1"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07FC8DC730733737"]
+			id: "53AFF799043627E8"
+			rewards: [{
+				id: "5F9910E1A2769E45"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Жидкостный настойник высочайшего уровня."
+			tasks: [{
+				id: "5257ED14B6EC4D92"
+				item: "indrev:fluid_infuser_mk4"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A8FEAAE69FF1871"]
+			id: "70E4B90B51D85501"
+			rewards: [{
+				id: "5CBEE8BB384CDD95"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Бойня высочайшего уровня."
+			tasks: [{
+				id: "448EF11D0E1E48F1"
+				item: "indrev:slaughter_mk4"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7AC8A8E3E86987A2"]
+			id: "42134A2543CFA025"
+			rewards: [{
+				id: "1D13F051FFAC615A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Фермер высочайшего уровня."
+			tasks: [{
+				id: "44BA665696CDDB11"
+				item: "indrev:farmer_mk4"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["011E16AE09FB030A"]
+			id: "3E26197882796159"
+			rewards: [{
+				id: "534A4B3C15F346A8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Лесоруб высочайшего уровня."
+			tasks: [{
+				id: "51C83F19BDC775FD"
+				item: "indrev:chopper_mk4"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06E944EA35BFD6FB"]
+			id: "03AEBA69DBBD6822"
+			rewards: [{
+				id: "7C508CAE2AF650A2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Скотовод высочайшего уровня."
+			tasks: [{
+				id: "32CF695BBF3AECD2"
+				item: "indrev:rancher_mk4"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E8DC0584EEE678C"]
+			id: "7CCFDADE34350ED7"
+			rewards: [{
+				id: "75E3855765EE390B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Основа для всех усилителей."
+			tasks: [{
+				id: "4950AD9878049B7F"
+				item: "indrev:empty_enhancer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CCFDADE34350ED7"]
+			id: "50E24249F5D07C25"
+			rewards: [{
+				id: "06006024E5598EB0"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Увеличивает ёмкость LF машины на 25k LF за каждое улучшение."
+			tasks: [{
+				id: "7E21A3FB2E9D8F4C"
+				item: "indrev:buffer_enhancer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CCFDADE34350ED7"]
+			id: "6029E7B17C4D4AC6"
+			rewards: [{
+				id: "36938862621624E9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1AEC120244DAD57E"
+				item: "indrev:speed_enhancer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7CCFDADE34350ED7"]
+			id: "7D1752A9E94C1063"
+			rewards: [{
+				id: "7BA6E2D75F0749F0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "00F86C21EEBF4160"
+				item: "indrev:blast_furnace_enhancer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CCFDADE34350ED7"]
+			id: "55CCAC3ACB77B54C"
+			rewards: [{
+				id: "46B0C836509678E1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "63EB29E8F1917BD3"
+				item: "indrev:smoker_enhancer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7CCFDADE34350ED7"]
+			id: "42848E0EAB5534EE"
+			rewards: [{
+				id: "642D9FE5270392ED"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "560B005C4916F940"
+				item: "indrev:damage_enhancer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5190595C03133F0C"]
+			id: "30B2B5E1AB6138B7"
+			rewards: [{
+				id: "173AEDCC5CB928BD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Блок, позволяющий тебе заряжать предметы в твоих руках, и твою броню при наступании на него. Подведи энергию к низу блока."
+			tasks: [{
+				id: "60FE57C7D20CB98F"
+				item: "indrev:charge_pad_mk4"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71D3FB31485B9F05"]
+			id: "634A3ADD40195C4D"
+			rewards: [{
+				id: "6D34A6ACCF0024B1"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "Машина, которая создает биомассу для генератора на биомассе."
+			tasks: [{
+				id: "4EC7BE99AB922C68"
+				item: "indrev:recycler_mk2"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+	]
+	title: " &bIndustrial Revolution"
+}

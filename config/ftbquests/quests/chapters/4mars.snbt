@@ -1,0 +1,498 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4mars"
+	group: "3E586F2160161EEA"
+	icon: "ad_astra:mars_globe"
+	id: "7408CCEC3E990DEE"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "ad_astra:mars_globe"
+			id: "03B338AC5277FC20"
+			rewards: [
+				{
+					icon: "vitalize:experience_cubed"
+					id: "4F8B321BD010DB05"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "33470D48BBAE66A9"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "3242106C382B0F09"
+				type: "dimension"
+			}]
+			title: "Марс"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03B338AC5277FC20"]
+			icon: "ad_astra:ostrum_ingot"
+			id: "41BB8B88C954489F"
+			rewards: [
+				{
+					id: "61C3CD586B0A6BE5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 5
+					id: "3625F2ADA2A175AC"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "71382C93D5A5F99B"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			title: "Создай Острумовый Слиток"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["03B338AC5277FC20"]
+			icon: "minecraft:spyglass"
+			id: "0771E60447729733"
+			rewards: [{
+				id: "1F1B5DDA0729F67B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "379CD1A3A63DD0F5"
+				title: "Исследование"
+				type: "checkmark"
+			}]
+			title: "Исследование"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0771E60447729733"]
+			id: "2C6AC5DED1C711B5"
+			rewards: [{
+				id: "768D6A0798EF3907"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "ad_astra:mars_sand"
+				id: "6A912D7129CFA0A3"
+				structure: "ad_astra:mars_temple"
+				title: "Найди &4Храм Марса"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["41BB8B88C954489F"]
+			id: "7858FFA43A47D466"
+			rewards: [
+				{
+					id: "082394ED2050A928"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 5
+					id: "4F5779798BA1B999"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "&6Незеритовый космический костюм&f является обновлённой версией &6стандартного космического костюма&r, включающего перманентное сопротивление огню, больше защиты и возможность выжить на &6Венере&f и &6Меркурии&f. Перед тем как ты отправишься на эти планеты, ты должен создать &6Незеритовый космический костюм&f, иначе будешь сожжен до смерти."
+			tasks: [
+				{
+					id: "143A97761621C1FA"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "257B0306BE23B18E"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D4B756908CA1309"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C33471C5137AD37"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Создай &4Незеритовый космический шлем"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["41BB8B88C954489F"]
+			id: "0627F265DD29BD9E"
+			rewards: [{
+				id: "15106417361DAB1E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "&6Станция зарядки&r - это машина, cпособная &aзаряжать предметы&r и хранить большое количество &bэнергии&r. Чтобы &eзарядить предмет&r, &aзаряди станцию зарядки&r и нажми ПКМ на зарядной станции этим предметом. Она хранит 2 миллиона единиц &bэнергии&r, что делает её способной &cзаряжать предметы на протяжении очень долгого времени&r. Также она сохраняет свою &bэнергию&r даже когда &bсломана&r."
+			tasks: [{
+				id: "514A8297F77535B4"
+				item: "ad_astra:energizer"
+				title: "Создай &eстанцию зарядки"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["41BB8B88C954489F"]
+			id: "2BAEF82B11C57314"
+			rewards: [
+				{
+					id: "42DD8CFD94C4D5F2"
+					item: "ad_astra:solar_panel"
+					type: "item"
+				}
+				{
+					id: "4F1A3832EA887AA1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&6Топливо&r получить сложно; для него &aнеобходимо заплыть&r в океан, в поисках &bстолба нефти&r. &3Криогенератор&r представляет новый способ получить более хорошее топливо - &3Криотопливо&r. &3Криотопливо&r намного эффективней чем &aпереработанное топливо&r, позволяющее запускать ракету только одним &9ведром&r."
+			tasks: [{
+				id: "200EFCCAE2B8814F"
+				item: "ad_astra:cryo_freezer"
+				title: "Создай &4Криогенератор"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BB6420D6F690764"]
+			id: "0C9431C254E91312"
+			rewards: [
+				{
+					id: "3F99A2BCD94AA60D"
+					item: {
+						Count: 1b
+						id: "ad_astra:oxygen_tank"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "677E5BF3E89C493A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "&6Кислородный датчик&r - это машина, которая создает &cредстоуновый сигнал&r, когда обнаруживает кислород."
+			tasks: [{
+				id: "3D9148290F4408BD"
+				item: "ad_astra:oxygen_sensor"
+				title: "Создай &bКислородный датчик"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BB6420D6F690764"]
+			id: "5E9A5E881BFA5A44"
+			rewards: [{
+				id: "5E2FCD9EB9108B9A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 2L
+				id: "40C4CA18B388EDB2"
+				item: "ad_astra:ostrum_sliding_door"
+				type: "item"
+			}]
+			title: "Создай &5Острумовую раздвижную дверь"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BB6420D6F690764"]
+			id: "2762FEBBF9BD6F67"
+			rewards: [{
+				id: "09991D0A9A48219A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 4L
+				id: "693E7A56BF855753"
+				item: "ad_astra:solar_panel"
+				title: "Построй &4Солнечную панель Марса"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0771E60447729733"]
+			id: "76416A580A900385"
+			rewards: [{
+				id: "12A75F693FFDECD1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "ad_astra:martian_raptor"
+				icon: "ad_astra:martian_raptor_spawn_egg"
+				id: "2555C0762391F396"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Победи &4Марсианских рапторов"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"41BB8B88C954489F"
+				"7858FFA43A47D466"
+				"13172E89C05009C7"
+			]
+			description: ["- Теперь когда ты можешь полететь на &6Венеру&r и &6Mеркурий&r, твоя новая цель это добыть достаточно &bКалорита&r чтобы построить ультимейтную ракету."]
+			id: "6A46307688B99ADE"
+			rewards: [
+				{
+					id: "00D5712780A1AEA0"
+					item: "ad_astra:raw_ostrum_block"
+					type: "item"
+				}
+				{
+					id: "3FD9495137B9E050"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 5
+					id: "6AFDACC54E1DB1ED"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "092EA839233F2696"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				title: "Создай &3Ракету &83-го уровня"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7858FFA43A47D466"]
+			id: "79D51FAB1AD2E48C"
+			rewards: [{
+				id: "620CE8551A78B483"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 4L
+				id: "6535700B823D9EC3"
+				item: {
+					Count: 1b
+					id: "ad_astra:oxygen_tank"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"338050AAE5CCDD7C"
+				"14377841BB0F2875"
+				"41BB8B88C954489F"
+			]
+			id: "0BB6420D6F690764"
+			rewards: [
+				{
+					count: 2
+					id: "3238EE7345D1A510"
+					item: {
+						Count: 1b
+						id: "ad_astra:oxygen_tank"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41F9A90BE31F43AB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 5
+					id: "4AACA1EFD125592E"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "389075840058C4C5"
+				item: "ad_astra:oxygen_distributor"
+				title: "Создай &bКислородный распылитель"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BAEF82B11C57314"]
+			id: "106B11CF15CA9948"
+			rewards: [{
+				id: "3819F4DC6A45855A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7D3BD864115B77C9"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			title: "Получите &bКриотопливо"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A46307688B99ADE"]
+			description: [""]
+			id: "4D812F63717BFA30"
+			rewards: [
+				{
+					icon: "vitalize:experience_cubed"
+					id: "3CF6E615B84D85DE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "54FCD67F279F82FF"
+					item: "ad_astra:oxygen_bucket"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "Кликни!"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "1FAAF55A4049C58A"
+				title: "Венера"
+				type: "dimension"
+			}]
+			title: "На &eВенеру"
+			x: 2.25d
+			y: 6.0d
+		}
+		{
+			id: "13172E89C05009C7"
+			rewards: [{
+				id: "67ABB9CFE4B35BC6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 2L
+				id: "6D0146BC96487668"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			title: "Cоздай &8Пусковую площадку"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A46307688B99ADE"]
+			id: "1C182FFE92C8CE36"
+			rewards: [{
+				count: 5
+				id: "7AC16448A7B82BE2"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "33AE4B97DEF5A319"
+				title: "На &cМер&6курий"
+				type: "dimension"
+			}]
+			x: 3.75d
+			y: 6.0d
+		}
+	]
+	title: " &4Марс"
+}

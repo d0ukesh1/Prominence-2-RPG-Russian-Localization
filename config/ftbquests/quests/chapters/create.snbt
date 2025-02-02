@@ -1,0 +1,2618 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "49D52BD6447C5CC0"
+	icon: "create:wrench"
+	id: "27900E4479E6E12D"
+	images: [{
+		click: ""
+		corner: false
+		dependency: "68ED01D9FDB64432"
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "minecraft:block/campfire_fire"
+		rotation: 0.0d
+		width: 1.0d
+		x: -8.55357142857143d
+		y: 2.250000000000007d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2D3191960D3277B6"
+			rewards: [{
+				id: "70E17A0AE9A269AF"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			subtitle: "Добро пожаловать в Create, стимпанк мод, позволяющий тебе строить изобретения, чтобы делать большинство вещей о которых ты только можешь подумать.\\n\\nCreate даёт отличные гайды для большинства своих механизмов если ты наведешь курсор на предмет в EMI или в своем инвентаре и зажмешь 'W' чтобы \"поразмышлять\" о предмете. Это открывает меню, обьясняющее как использовать этот предмет.\\n\\nИз-за этого глава в основном сфокусирована на рассказывании того что уже существует, давая тебе грубое очертание прогрессии мода."
+			tasks: [{
+				id: "724FF2D395554F21"
+				title: "Добро пожаловать в Create!"
+				type: "checkmark"
+			}]
+			title: "&6Добро Пожаловать в Create!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D3191960D3277B6"]
+			icon: "create:andesite_casing"
+			id: "05BFBACBB2337231"
+			rewards: [{
+				id: "34FB2B519C0B531E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "09B4969F2D644C44"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "147C1BF492E5BAFD"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2C8EF8E65133D178"]
+			id: "67B3D0A82F1BB3EA"
+			rewards: [{
+				id: "337CD2C3AF95492F"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "Основа для большинства продвинутых блоков."
+			tasks: [{
+				id: "5E78EF843E840FEB"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2D3191960D3277B6"]
+			id: "666E9828756ADB0C"
+			rewards: [{
+				id: "36FDB567DB8B450E"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Основа большинства вещей, относящихся к жидкостям в Create.\\n\\nТакже используется в упаковке жидкостных труб."
+			tasks: [{
+				id: "1086C0B67F6D716F"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["408D9361AF8AA499"]
+			icon: "create:railway_casing"
+			id: "672C61B048CB3B85"
+			rewards: [{
+				id: "1CCAFBA68CEF1661"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Чтобы сделать поезд тебе понадобится по крайней мере:\\n- 1 Железнодорожный Корпус\\n- 1 Станция Поездов\\n- Достаточно рельс, чтобы сделать железнодорожный путь.\\n\\nЧтобы увидеть как тебе собрать поезд, \"поразмышляй\" о станции поезда."
+			tasks: [
+				{
+					id: "232FE43D6046A984"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+				{
+					id: "6DC16219FFD21528"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3DE38636656DD1F6"]
+			id: "7F5E2D38C40E93F7"
+			rewards: [{
+				id: "0DA12D707F75174F"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "heart"
+			subtitle: "Позволяет тебе переносить редстоуновый сигнал беспроводным способом."
+			tasks: [{
+				id: "2B3E6D1D62FDC013"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3DE38636656DD1F6"]
+			id: "0306E0A1DA82A811"
+			rewards: [{
+				id: "02CB9CB17D865FAD"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Редстоуновый компонент, выдающий сигнал при контакте с другим редстоуновым контактом. Отчасти полезен для построения изобретений."
+			tasks: [{
+				id: "3B876444ABFE78A7"
+				item: "create:redstone_contact"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D11842DDDE1D396"]
+			id: "642172D58E8B11E1"
+			rewards: [{
+				id: "5C97594995C329B8"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Кинетический источник, использующий поток воды как источник энергии. Будет генерировать то же количество ЕС, что и поворотов в минуту пока проходит хотя бы один блок текущей воды.\\n\\nТы также можешь изменить вид колеса воды щелчком ПКМ почти любыми деревянными досками (включая те, что из других модов)."
+			tasks: [{
+				id: "09BD5EDC2EB2C9A8"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["642172D58E8B11E1"]
+			id: "68CC0DF64AD608C1"
+			rewards: [{
+				id: "0C2B3BD0AFFAA3E5"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Генерирует в два раза больше ЕС, чем обычное колесо воды, но на меньших оборотах."
+			tasks: [{
+				id: "3F56128992A66C90"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C8D19B106618A91"]
+			id: "60D073A200595414"
+			rewards: [{
+				id: "5846404036F94006"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет тебе видеть текущий нагрузки и вместимость нагрузки кинетической сети."
+			tasks: [{
+				id: "24A191823C524B7F"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0C8D19B106618A91"]
+			id: "0B5FF13E714BF391"
+			rewards: [{
+				id: "447327FED7DF5A56"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет тебе видеть поворотную скорость кинетической сети."
+			tasks: [{
+				id: "3A89E6C63152D847"
+				item: "create:speedometer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3D11842DDDE1D396"]
+			icon: "create:steam_engine"
+			id: "2CC43C68A8EECB8D"
+			rewards: [{
+				id: "531C15EBB8C8DB06"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Компактнейший кинетический источник. Однако имеющий высочайшую комплексность, требуя стабильный источник воды и тепла."
+			tasks: [
+				{
+					id: "65EFBB616B81C185"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4175D82CEAC3E51D"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D11842DDDE1D396"]
+			icon: "create:white_sail"
+			id: "3163768E54FA4D87"
+			rewards: [{
+				id: "3EF3FA5E52B88D59"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					id: "2732DDF036DAE5A8"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0AB34A818670D670"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D11842DDDE1D396"]
+			id: "72A81CC09FB3CACD"
+			rewards: [{
+				id: "66FB24EB083F7921"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Схожа с Рукояткой, но поворачивается только на определенное число градусов с каждым взаимодействием."
+			tasks: [{
+				id: "52F0F6E11AA698A8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:valve_handles"
+					}
+				}
+				title: "Любые Ручки Вентиля"
+				type: "item"
+			}]
+			title: "Ручки Вентиля"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D11842DDDE1D396"]
+			id: "0945E885A92D06B7"
+			rewards: [{
+				id: "7495DAD29529D294"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Простейший путь производства кинетической энергии, использование себя как источник энергии."
+			tasks: [{
+				id: "25B67DFF4D7D133C"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["798CADF6B8930572"]
+			icon: "create:blaze_burner"
+			id: "2C8EF8E65133D178"
+			rewards: [{
+				id: "118195F28D292221"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Чтобы получить латунь, тебе нужно будет нагреть механический смешиватель, который смешает цинк и медь.\\n\\n Пустая Горелка Всполоха наполняется щелчком ПКМ по спавнеру всполоха или по самому всполоху."
+			tasks: [
+				{
+					id: "56A3A3F749002218"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "125E4A4ADDA04A58"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "744FB92A49608EFC"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			title: "Горелка Всполоха"
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2C3CD6663D38750A"]
+			icon: "create:mechanical_mixer"
+			id: "798CADF6B8930572"
+			rewards: [{
+				id: "66BF3227AC441793"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Машина, поддерживающая автосоздание бесформенных рецептов, а также смешивание вещей, таких как зелья.\\n\\nТребует как минимум 30 оборотов в минуту для работы."
+			tasks: [
+				{
+					id: "07FF2BB8A0BD2648"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "686C1DBD611CE5F9"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["666E9828756ADB0C"]
+			id: "6CE47960B6FEF89D"
+			rewards: [{
+				id: "0D3ABDC5B0BE6BD2"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Используется чтобы поставить или извлечь большие тела жидкости."
+			tasks: [{
+				id: "607208C6F1478733"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["666E9828756ADB0C"]
+			id: "227597F357AA480D"
+			rewards: [{
+				id: "0912E016AA8C1D36"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет извлекать жидкости из предметов."
+			tasks: [{
+				id: "08934572DD5E9F61"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["666E9828756ADB0C"]
+			id: "5E04B024C8E9B865"
+			rewards: [{
+				id: "3880E1DA468E8DBC"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Используется для заполнения предметов жидкостями и создания определенных предметов, используя жидкости."
+			tasks: [{
+				id: "2B4848DB23F4997E"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["666E9828756ADB0C"]
+			id: "73A2838E56534342"
+			rewards: [{
+				id: "2CE3AEEAD7BB8665"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет изобретениям переносить жидкости к блокам."
+			tasks: [{
+				id: "7B83A027D9578FA7"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05BFBACBB2337231"]
+			id: "10331210B10CF626"
+			rewards: [{
+				id: "1353B4CFB86C365B"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет тебе использовать ЕС для ломания блоков, также может быть прикреплен к приспособлениям для создания туннелей и т. п."
+			tasks: [{
+				id: "3198FC817DAC3708"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C3CD6663D38750A"]
+			id: "155F388D56FB4A5F"
+			rewards: [{
+				id: "2F56546A3F6094E4"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Блоки, которые могут повалить деревья или позволить приспособлениям валить деревья. Также как и некоторые рецепты создания, такие как резка блоков или очистка бревен."
+			tasks: [{
+				id: "7E64DBFEDFEAFFF1"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2C3CD6663D38750A"]
+			id: "3B925864D243F779"
+			rewards: [{
+				id: "007F1E2C2DF94E6C"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Блоки, позволяющие приспособлениям пожинать культуры."
+			tasks: [{
+				id: "20A426E6FB08AD11"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2C3CD6663D38750A"]
+			id: "6F4B091DDC613408"
+			rewards: [{
+				id: "756ECFAD170AC166"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Блоки, позволяющие приспособлениям создавать сельхозугодия или запускать существ."
+			tasks: [{
+				id: "170232754395A74B"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["672C61B048CB3B85"]
+			id: "293196C72E44A5AC"
+			rewards: [{
+				id: "37E982CC1FACFBA7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Позволяет тебе очищать и прокладывать во время езды на поезде."
+			tasks: [{
+				id: "665B1AD5FBED88EC"
+				item: "create:mechanical_roller"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["67CE399D0A9C0F57"]
+			id: "7B9D2F7F33818837"
+			rewards: [{
+				id: "066935CA487D065D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "По сути это улучшение жернова, предоставляющее разные рецепты, так что может быть стоит держать у себя оба."
+			tasks: [{
+				id: "611BC5F4DE28D4B1"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["67B3D0A82F1BB3EA"]
+			id: "67CE399D0A9C0F57"
+			rewards: [{
+				id: "4713E3F391EC349A"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "Блоки, позволяющие автоматическое создание обычных рецептов, также как и создание по рецептам большим, чем обычная сетка крафта."
+			tasks: [{
+				id: "47627BC50C096EE5"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["4206216A5F414642"]
+			id: "021E30871E97C634"
+			rewards: [{
+				id: "04F4A270A0A0FF1D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Продвинутая машина распространения предметов."
+			tasks: [{
+				id: "6846ED041DD31AF2"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["408D9361AF8AA499"]
+			id: "2E10D93D926631F6"
+			rewards: [{
+				id: "72B86CB86B3849F7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Предмет, использующийся для создания более продвинутых предметов."
+			tasks: [{
+				id: "50E4571A0FEE8DD2"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0C8D19B106618A91"]
+			id: "7088750D467E771E"
+			rewards: [{
+				id: "289200B5C7809177"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "heart"
+			subtitle: "Позволяет точную настройку оборотов в минуту."
+			tasks: [{
+				id: "742DE9F13B641CCF"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["672C61B048CB3B85"]
+			id: "4E834477717F726A"
+			rewards: [{
+				id: "2219C901EEC16697"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Позволяет тебе контролировать поезд."
+			tasks: [{
+				id: "590ADCA983BAC485"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["672C61B048CB3B85"]
+			id: "7B3913CCEBC7717D"
+			rewards: [{
+				id: "725A7DE045B10201"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Даёт редстоуновый сигнал при обнаружении поезда."
+			tasks: [{
+				id: "40BB8DC4CB805C3B"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["672C61B048CB3B85"]
+			id: "7F4D5B0A7A3CA576"
+			rewards: [{
+				id: "788B91277AAD820F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Контролирует поток поездов на дорогах и пересечениях дорог."
+			tasks: [{
+				id: "3DFE3FCEDDB8DAB1"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["672C61B048CB3B85"]
+			id: "0138F3EB263D1721"
+			rewards: [{
+				id: "6740C809B8E3D897"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Блок, собирающий и разбирающий поезда."
+			tasks: [{
+				id: "0997709EA341B377"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["672C61B048CB3B85"]
+			id: "063D47D4F61457BC"
+			rewards: [{
+				id: "18897046A9A8459E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Позволяет тебе планировать графики поездов, которые мобы или горелки всполоха могут водить."
+			tasks: [{
+				id: "6FCDB526898B9687"
+				item: "create:schedule"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["672C61B048CB3B85"]
+			id: "48E5D56C47DF6642"
+			rewards: [{
+				id: "3E6CC6B39C2DE3F6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Штука, на которой едет твой поезд."
+			tasks: [{
+				id: "48A879AA84014B3A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "create:track"
+										}
+										{
+											Count: 1b
+											id: "railways:track_acacia"
+										}
+										{
+											Count: 1b
+											id: "railways:track_crimson"
+										}
+										{
+											Count: 1b
+											id: "railways:track_birch"
+										}
+										{
+											Count: 1b
+											id: "railways:track_dark_oak"
+										}
+										{
+											Count: 1b
+											id: "railways:track_jungle"
+										}
+										{
+											Count: 1b
+											id: "railways:track_oak"
+										}
+										{
+											Count: 1b
+											id: "railways:track_spruce"
+										}
+										{
+											Count: 1b
+											id: "railways:track_blackstone"
+										}
+										{
+											Count: 1b
+											id: "railways:track_ender"
+										}
+										{
+											Count: 1b
+											id: "railways:track_tieless"
+										}
+										{
+											Count: 1b
+											id: "railways:track_phantom"
+										}
+										{
+											Count: 1b
+											id: "railways:track_mangrove"
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "railways:track_hexcasting_edified"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_aspen"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_baobab"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_blue_enchanted"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_bulbis"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_cherry"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_cika"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_ebony"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_embur"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_ether"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_fir"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_green_enchanted"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_holly"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_imparius"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_jacaranda"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_lament"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_mahogany"
+										}
+										{
+											Count: 1b
+											id: "railways:track_twilightforest_mangrove"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_sythian"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_skyris"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_redwood"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_rainbow_eucalyptus"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_pine"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_palm"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_nightshade"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_maple"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_white_mangrove"
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "railways:track_byg_willow"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_witch_hazel"
+										}
+										{
+											Count: 1b
+											id: "railways:track_byg_zelkova"
+										}
+										{
+											Count: 1b
+											id: "railways:track_twilightforest_canopy"
+										}
+										{
+											Count: 1b
+											id: "railways:track_twilightforest_darkwood"
+										}
+										{
+											Count: 1b
+											id: "railways:track_twilightforest_minewood"
+										}
+										{
+											Count: 1b
+											id: "railways:track_twilightforest_sortingwood"
+										}
+										{
+											Count: 1b
+											id: "railways:track_twilightforest_twilight_oak"
+										}
+										{
+											Count: 1b
+											id: "railways:track_twilightforest_transwood"
+										}
+										{
+											Count: 1b
+											id: "railways:track_twilightforest_timewood"
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Любой железнодорожный путь"
+				type: "item"
+			}]
+			title: "Железнодорожные пути"
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["67CE399D0A9C0F57"]
+			id: "2D0B2D01669E88DD"
+			rewards: [{
+				id: "293810FADA26C904"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Просто Картофельная Пушка."
+			tasks: [{
+				id: "619FE344BCBDAB36"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["67CE399D0A9C0F57"]
+			id: "618FF4D4A0FCC14C"
+			rewards: [{
+				id: "211E24B0BDA91AAA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Позволяет тебе поставить зеркало, помогающее в постройке симметричных вещей."
+			tasks: [{
+				id: "56F361A8A8DFF6FA"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["05BFBACBB2337231"]
+			id: "4007D36163F8555E"
+			rewards: [{
+				id: "76B1B568AFF740C3"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Перемалывать всё в пыль."
+			tasks: [{
+				id: "67576FE45FFD6AAD"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C3CD6663D38750A"]
+			id: "19183F380B49F31C"
+			rewards: [{
+				id: "36B3F08858EFBDE9"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Очень разносторонняя машина, которая может притягивать и толкать сущностей также как и мыть, обивать, плавить и жарить предметы."
+			tasks: [{
+				id: "7147221C3EA3496C"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["19183F380B49F31C"]
+			id: "784FB68F70299F18"
+			rewards: [{
+				id: "505F7FF83401A3C9"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Когда поставлено на сопло Вентилятора в Корпусе, меняет эффект толкания/притягивания в сферу вместо линии."
+			tasks: [{
+				id: "3BE7CFB9AB8E66DA"
+				item: "create:nozzle"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2D3191960D3277B6"]
+			id: "385C156051820A7B"
+			rewards: [{
+				id: "483DFA5AB3E76D9A"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Хранит сжатый воздух для использования вместе с водолазным шлемом."
+			tasks: [{
+				id: "68D17460D2020F20"
+				item: {
+					Count: 1b
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["385C156051820A7B"]
+			id: "21DD4EFBB31B669D"
+			rewards: [{
+				id: "17951621561E7EBC"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Улучшенная версия Медного Баллона."
+			tasks: [{
+				id: "7832A4786CFEC81A"
+				item: {
+					Count: 1b
+					id: "create:netherite_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D3191960D3277B6"]
+			id: "4377B43142216C8D"
+			rewards: [{
+				id: "06894B0D2B0DE96B"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Шлем, позволяющий тебе дышать воздухом под водой из надетого баллона."
+			tasks: [{
+				id: "17228D5A74B1A33E"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D3191960D3277B6"]
+			id: "7EA4E2D90A0FBC21"
+			rewards: [{
+				id: "7F954126F33AC855"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет тебе ходить под водой как будто на земле, а также на ремнях, при этом не двигаясь."
+			tasks: [{
+				id: "5242A70758AE33CD"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4377B43142216C8D"]
+			id: "2AB0806AA6A7076C"
+			rewards: [{
+				id: "142B6C3326CAE4D4"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Улучшенная версия Медного Водолазного Шлема."
+			tasks: [{
+				id: "1AF3B77EDDF1673E"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7EA4E2D90A0FBC21"]
+			id: "312320F8FF1FDF24"
+			rewards: [{
+				id: "09FE262AC0190041"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Улучшенная версия Медных Водолазных Ботинок."
+			tasks: [{
+				id: "78E8394EB1AF6284"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DE38636656DD1F6"]
+			id: "0A2167437E1C4F13"
+			rewards: [{
+				id: "6473C960C2ACA928"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Повторитель, отправляющий импульс после настраиваемого количества времени."
+			tasks: [{
+				id: "6D315695BEDF175D"
+				item: "create:pulse_repeater"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3DE38636656DD1F6"]
+			id: "5CDDAD4D40B67D7B"
+			rewards: [{
+				id: "344B46CE6C154834"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Редстоуновый компонент, расширяющий импульс в настраиваемом количестве."
+			tasks: [{
+				id: "4687120095DF4BAD"
+				item: "create:pulse_extender"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0C8D19B106618A91"]
+			id: "5611FCC58301372A"
+			rewards: [{
+				id: "548E8C87918AF117"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Позволяет тебе установить последовательность поворотов выполняемых при получении сигнала редстоуна."
+			tasks: [{
+				id: "1C0BF64A4DDB1C74"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3DE38636656DD1F6"]
+			id: "4E0503134BFF19F0"
+			rewards: [{
+				id: "72BDEA6211C81A75"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Блок, проверяющий уровни наполнения инвентарей и резервуаров."
+			tasks: [{
+				id: "48562A69B4CD0DF9"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3DE38636656DD1F6"]
+			id: "5D0986618729A519"
+			rewards: [{
+				id: "77B4FD3E381D17CD"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Блок, который может искать определенные предметы в мире или в инвентаре."
+			tasks: [{
+				id: "233CB45D43CF5A83"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3DE38636656DD1F6"]
+			id: "541988089F760BD6"
+			rewards: [{
+				id: "58D0177E1621C19F"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Редстоуновый компонент, переключающий своё состояние с каждым импульсом редстоуна."
+			tasks: [{
+				id: "472CE7CD4B9E48CC"
+				item: "create:powered_toggle_latch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3DE38636656DD1F6"]
+			id: "06653E21053ACDF6"
+			rewards: [{
+				id: "1F39879F363ED769"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Редстоуновый компонент, включающийся при принятии импульса редстоуна на одной стороне, и выключающийся при принятии сигнала на другой стороне."
+			tasks: [{
+				id: "724B607209AD7235"
+				item: "create:powered_latch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AFD022E4050ECB5"]
+			id: "19166D31F298D0D5"
+			rewards: [{
+				id: "2770AA613AE55D68"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "По сути продвинутая табличка, обновляющаяся быстрее с большими оборотами в минуту."
+			tasks: [{
+				id: "456D6FC02DCD10F6"
+				item: "create:display_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4206216A5F414642"]
+			id: "6AFD022E4050ECB5"
+			rewards: [{
+				id: "7D81C38BB3D906FD"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Отображает информацию подключенного дисплея или газорязрядного индикатора в реальном времени."
+			tasks: [{
+				id: "2A97B913C570C8CF"
+				item: "create:display_link"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3DE38636656DD1F6"]
+			id: "29649C654117D56A"
+			rewards: [{
+				id: "0ECC44CDB0390AF9"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Рычаг который может выпускать любой уровень редстоуна."
+			tasks: [{
+				id: "6B33295820423762"
+				item: "create:analog_lever"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AFD022E4050ECB5"]
+			id: "776F0CA023690BC6"
+			rewards: [{
+				id: "78E7113A0D3A72EE"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Отображает текст или числа."
+			tasks: [{
+				id: "4556367BB6B12C8B"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["05BFBACBB2337231"]
+			id: "2C3CD6663D38750A"
+			rewards: [{
+				id: "655387599BFD8E5B"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Перестукивает слитки в пластины."
+			tasks: [{
+				id: "051795CF492B0D08"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2C3CD6663D38750A"]
+			id: "29EFF7AED691682B"
+			rewards: [{
+				id: "1D198D0F9E3A7DA7"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет тебе моментально ломать большинство блоков Create щелчком Shift + ПКМ. И поворачивать щелчком ПКМ."
+			tasks: [{
+				id: "4EE90B940F3352BA"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5FF617620A38A716"]
+			id: "44AE17D3427B487C"
+			rewards: [{
+				id: "469A67C7D7B068E7"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "\"Дорогой канатный шкив\"\\n\\nИспользуется для создания лифтов."
+			tasks: [{
+				id: "63BB8C331459E255"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6CE47960B6FEF89D"]
+			icon: "minecraft:lava_bucket"
+			id: "3736B545828490F1"
+			rewards: [{
+				id: "298C72B84DE6E99A"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Некоторые жидкости могут быть бесконечно извлечены из мира пока шланговый шкив бассейна извлекает из содержащего 10000 или больше блоков источника.\\n\\nВы можете поискать в EMI жидкости которые принимают использование написанием \"$create:bottomless\""
+			tasks: [{
+				advancement: "create:hose_pulley_lava"
+				criterion: ""
+				id: "646591EE01FB892E"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C8D19B106618A91"]
+			id: "50C0D23949DD8BE6"
+			rewards: [{
+				id: "3AD13FFAA3B40A17"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет тебе останавливать поворотную силу, идущую насквозь, при запитывании сигналом редстоуна."
+			tasks: [{
+				id: "5EE2295BD64F843D"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["67CE399D0A9C0F57"]
+			id: "13D4FF6929AE8D8F"
+			rewards: [{
+				id: "6A121DE617A233F4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Предмет увеличивающий досягаемость."
+			tasks: [{
+				id: "3E3A3CDA9C9A330B"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["2C8EF8E65133D178"]
+			id: "408D9361AF8AA499"
+			rewards: [{
+				id: "09C5E2F070537C98"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "heart"
+			subtitle: "Простая машина с массивным потенциалом. Может ставить блоки, и также использовать предметы на блоках/существ."
+			tasks: [{
+				id: "456C3529E567AEC7"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5FF617620A38A716"]
+			id: "3B10D31EFD80798C"
+			rewards: [{
+				id: "3AB26B76755804EB"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Позволяет вам создать свои пользовательские функциональные часы."
+			tasks: [{
+				id: "30B7D161EC8DD97F"
+				item: "create:clockwork_bearing"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["19183F380B49F31C"]
+			id: "00DFC7824C3750FB"
+			rewards: [{
+				id: "1F8397A143BF26D4"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Когда поставлен перед Вентилятором в Корпусе, позволяет обивать предметы.\\n\\nВ особенности песок в песок душ."
+			tasks: [{
+				id: "42A84A29F509093C"
+				item: "minecraft:soul_campfire"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["19183F380B49F31C"]
+			id: "12C789BF2D021A55"
+			rewards: [{
+				id: "643D2D361363E521"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Когда поставлен перед Вентилятором в Корпусе, позволяет жарить предметы."
+			tasks: [{
+				id: "5064F06ABFDF2A62"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["19183F380B49F31C"]
+			id: "49EE6F88CD93352E"
+			rewards: [{
+				id: "5F5AC577F95B616A"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Когда поставлен перед Вентилятором в Корпусе, позволяет плавить предметы."
+			tasks: [{
+				id: "41E261CED3536733"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["19183F380B49F31C"]
+			id: "1A541F8D6FF3C21B"
+			rewards: [{
+				id: "3BB3826801E729E3"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Когда поставлен перед Вентилятором в Корпусе, позволяет мыть предметы.\\n\\nВ особенности песок душ в незер кварц."
+			tasks: [{
+				id: "7320D17889EF5B9D"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4206216A5F414642"]
+			id: "7452A3A5599B09AB"
+			rewards: [{
+				id: "34B7B32BDD9BCA4D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Блок, позволяющий вход и выход из инвентаря по 1 предмету за раз.\\n\\nВ размышлении не было упомянуто что шлюз может бросать предметы на землю из какого-либо инвентаря, когда поставлен на него и будет держать 1 предмет на земле, если он достаточно близок к блокированию приземления предмета."
+			tasks: [{
+				id: "02FEDF3DBC2F1D5C"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4206216A5F414642"]
+			id: "52C1D5727A82A72F"
+			rewards: [{
+				id: "3AB6EBC30FB4AD33"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Туннели используются для управления потоком предметов на ремнях."
+			tasks: [{
+				id: "66B5FF3C7E354196"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52C1D5727A82A72F"]
+			id: "3EADB5F22FAD4A56"
+			rewards: [{
+				id: "0327B221D8D522D5"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Улучшение андезитовому туннелю, дающее большую настраиваемость в том, что делать с предметами."
+			tasks: [{
+				id: "6820CFF93651E22C"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7452A3A5599B09AB"]
+			id: "757B12A4C7F7D355"
+			rewards: [{
+				id: "28868B52578CCB10"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Более продвинутый шлюз, позволяющий фильтрование и большие размеры стопки."
+			tasks: [{
+				id: "5371D134D29BDBAE"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["39E865F0D72CF9B8"]
+			id: "4206216A5F414642"
+			rewards: [{
+				id: "54963A3CA83D7C2E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "05795186BC4AEB9F"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Манипуляция предметами"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D3191960D3277B6"]
+			id: "39E865F0D72CF9B8"
+			rewards: [{
+				id: "1815394F4652D9A3"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3CDFABDD807C1515"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4206216A5F414642"]
+			id: "1CE6DB5F873483AF"
+			rewards: [{
+				id: "236A022A9963AB5C"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Жёлоба используются для перемещения между инвентарями вертикально."
+			tasks: [{
+				id: "73079540419DC7D4"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CE6DB5F873483AF"]
+			id: "03FAA1891E7D56FD"
+			rewards: [{
+				id: "0F1B90ED699FA33F"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Более настраиваемый желоб."
+			tasks: [{
+				id: "7FBAAD8D8C39BC6E"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4206216A5F414642"]
+			id: "2A0F7A2AA1C0E9C1"
+			rewards: [{
+				id: "0FDBBB131B9DEC09"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Обычный фильтр."
+			tasks: [{
+				id: "1C5692C6DAD65F0C"
+				item: "create:filter"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A0F7A2AA1C0E9C1"]
+			id: "0A6F439E158D1525"
+			rewards: [{
+				id: "2D7FFDE7F8AD547D"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Фильтр который может фильтровать по атрибутам, таким как \"может быть переплавлен\" или \"из Create\"."
+			tasks: [{
+				id: "513E9DDE52888CA5"
+				item: "create:attribute_filter"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4206216A5F414642"]
+			id: "07680D1563629D55"
+			rewards: [{
+				id: "4F95F622365F470B"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Это реально просто ремень, который не двигается."
+			tasks: [{
+				id: "0C6C3F7245F978D9"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07680D1563629D55"]
+			id: "0E491A562DF88795"
+			rewards: [{
+				id: "04FD40663826446F"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Весовые катапульты могут аккуратно запускать предметы на большие расстояния."
+			tasks: [{
+				id: "52BD9C86E2053161"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4206216A5F414642"]
+			id: "44E0DDEE0578557F"
+			rewards: [{
+				id: "5EC198EBD5DF4247"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Мультиблоковое хранилище, к которому нельзя получить доступ вручную."
+			tasks: [{
+				id: "0318344CC072DB90"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D3191960D3277B6"]
+			icon: "minecraft:redstone"
+			id: "3DE38636656DD1F6"
+			tasks: [{
+				id: "7BF8211293C37A5F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2D3191960D3277B6"]
+			id: "3D11842DDDE1D396"
+			subtitle: "Терминология:\\n\\nЕдиницы Стресса(ЕС) это число, которое описывает как много нагрузки что-то производит или требует для запуска.\\n\\n"
+			tasks: [{
+				id: "313C85E8DD396B20"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["410BEC9893112A43"]
+			id: "0C8D19B106618A91"
+			tasks: [{
+				id: "50ED53EBA397BCA0"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0C8D19B106618A91"]
+			id: "16CD1CC9F70A91AF"
+			rewards: [{
+				id: "55DBDCA244CD8A4A"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Используется для раздвоения или удвоения поворотной скорости присоединенных цепных приводов при получении сигнала редстоуна."
+			tasks: [{
+				id: "37822B22A5C1A507"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0C8D19B106618A91"]
+			id: "219E307B851DB05A"
+			rewards: [{
+				id: "42A5346D9D475425"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет тебе реверсировать направление поворота с помощью редстоуна."
+			tasks: [{
+				id: "646B576AF1805948"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0C8D19B106618A91"]
+			id: "74ADDF7066B30B3F"
+			rewards: [{
+				id: "3B61CF50978213B4"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет несколько параллельных поворотных выходов."
+			tasks: [{
+				id: "5970DCA6D0289D86"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5FF617620A38A716"]
+			id: "155FBDDA1C6194CA"
+			rewards: [{
+				id: "648CCAB0B88A7B9E"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет тебе отключать части приспособлений когда они сформированы."
+			tasks: [{
+				id: "5096B4C7D1B10D6A"
+				item: "create:contraption_controls"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2C3CD6663D38750A"]
+			id: "5FF617620A38A716"
+			rewards: [{
+				id: "1B8BAAA74FF7CD72"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "heart"
+			subtitle: "Как предпологает имя, этот предмет позволяет тебе склеивать блоки вместе. Отчасти полезно при создании приспособлений."
+			tasks: [{
+				id: "2C10D674D26CA38B"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5FF617620A38A716"]
+			id: "12913E20A87ABA1F"
+			rewards: [{
+				id: "0CD9E48CB9C62200"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет создание приспособлений, двигающихся вверх и вниз."
+			tasks: [{
+				id: "4EA4C5E105C04D33"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5FF617620A38A716"]
+			id: "617D59D4F14FA3AE"
+			rewards: [{
+				id: "6626F6142E8CA721"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет создание приспособлений, пересекающих рельсы, тем же образом, что и у вагонеток."
+			tasks: [{
+				id: "2F75A4EB5C548B05"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5FF617620A38A716"]
+			id: "2BC564546A48616B"
+			rewards: [{
+				id: "6B21520D44E4CC76"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет создание приспособлений, поворачивающихся вокруг точки в пространстве, отчасти полезно в фермах."
+			tasks: [{
+				id: "18AFCA54B52E2A53"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5FF617620A38A716"]
+			id: "44C3B2628015505C"
+			rewards: [{
+				id: "2E5F21F50F834C2B"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет двигать структуры по линии, используя поворотную силу."
+			tasks: [{
+				id: "2E5C745B6235D5D2"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:mechanical_piston"
+							}
+							{
+								Count: 1b
+								id: "create:sticky_mechanical_piston"
+							}
+						]
+					}
+				}
+				title: "Любой Механический Поршень"
+				type: "item"
+			}]
+			title: "Механические Поршни"
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5FF617620A38A716"]
+			icon: "create:gantry_carriage"
+			id: "65A2AC554D856D93"
+			rewards: [{
+				id: "1854E0CB2C20E87D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Позволяет создание приспособлений, движущихся через порталы."
+			tasks: [
+				{
+					id: "41BB3531186CBFC2"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					id: "757E0EF6B40FEF1B"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5FF617620A38A716"]
+			id: "3887DB2CA518BC26"
+			rewards: [{
+				id: "5A829D70C18EA6FB"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Полезный блок для создания приспособлений."
+			tasks: [{
+				id: "362DDDAFDB8BE7AE"
+				item: "create:radial_chassis"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5FF617620A38A716"]
+			id: "7E8E6019017D76EC"
+			rewards: [{
+				id: "2E0C055FB7ECB1F0"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Клеится к блокам, когда запитан редстоуном."
+			tasks: [{
+				id: "09CEF616AFC73210"
+				item: "create:sticker"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2D3191960D3277B6"]
+			icon: "create:schematicannon"
+			id: "2246A107ECC3CBC5"
+			shape: "heart"
+			tasks: [
+				{
+					id: "27C21CCE62A42A97"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "600FB4F4F0EF780E"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "46305751C9D78BAE"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["666E9828756ADB0C"]
+			icon: "create:mechanical_pump"
+			id: "4267B97B18413E1D"
+			rewards: [{
+				id: "0964AE3432E1517C"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Большинство блоков в Create не позволяют ручное извлечение и введение жидкостей, и поэтому эти трубы полезны.\\n\\nТакже используется в создании бесконечной воды путем извлечения из блока-источника который имеет ещё 2 блока-источника."
+			tasks: [
+				{
+					id: "636000287FF9300E"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "3D64547483ED902D"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["666E9828756ADB0C"]
+			id: "4F61B1F3D1E2C6E2"
+			rewards: [{
+				id: "490279294484D88A"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Главный блок, используемый для хранения жидкости."
+			tasks: [{
+				id: "5B4A68157DA2CC98"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D3191960D3277B6"]
+			id: "0FB4FFD361C5DF69"
+			tasks: [{
+				id: "5FB026F193CA182B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:seats"
+					}
+				}
+				title: "Любое Сиденье"
+				type: "item"
+			}]
+			title: "Сиденья"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["39E865F0D72CF9B8"]
+			id: "410BEC9893112A43"
+			rewards: [{
+				id: "2FC7CF083ABF54E4"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "1941DE49FCC4EC20"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:large_cogwheel"
+							}
+							{
+								Count: 1b
+								id: "create:cogwheel"
+							}
+						]
+					}
+				}
+				title: "Любая Шестерня"
+				type: "item"
+			}]
+			title: "Шестерни"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2C3CD6663D38750A"]
+			id: "6C26214738805896"
+			rewards: [{
+				id: "536ED513AEA4E170"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "heart"
+			subtitle: "Обязательно для любого человека, работающего с Create. Позволяет тебе видеть больше информации о блоках, например нагрузку."
+			tasks: [{
+				id: "77BFA7F311B85850"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2C8EF8E65133D178"]
+			id: "72F3965D09F3B6F0"
+			rewards: [{
+				id: "0F69C182E2BAFECD"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Когда-нибудь хотел запитать Горелки Всполоха жидкостями? Просто отдай им трубочку и они схлюпают все прямо из трубы.\\n\\nТы можете нажать 'U' на трубочке чтобы увидеть какие жидкости она принимает, а также время горения."
+			tasks: [{
+				id: "5F5801039DFF0AAC"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["67CE399D0A9C0F57"]
+			id: "5C06543962E420C4"
+			rewards: [{
+				id: "20A67181C9A616AD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Мотор, конвертирующий энергию(Э) в кинетическую энергию(СУ) на любых оборотах."
+			tasks: [{
+				id: "678EB5C0465B67BF"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["67CE399D0A9C0F57"]
+			id: "17541CB8E37D10F1"
+			subtitle: "Генерирует энергию(Э) из кинетической энергии, количество сгенерированного базируется на оборотах в минуту и ограничен на 256 Э/т"
+			tasks: [{
+				id: "7AC7370CAA066A09"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["2C3CD6663D38750A"]
+			id: "152333F57A5C1913"
+			rewards: [{
+				id: "1ECC2DA21EFD1C73"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Создает из пластин пруты и из прутов провода."
+			tasks: [{
+				id: "68ABE40EEEDCC2E4"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["67CE399D0A9C0F57"]
+			id: "3C67BDE80F43FF9E"
+			rewards: [{
+				id: "3AAE950DEFBC8754"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Позволяет тебе заряжать определенные предметы."
+			tasks: [{
+				id: "70D2AA3ADCD4A18D"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["67B3D0A82F1BB3EA"]
+			id: "39CF18F0C2B06818"
+			rewards: [{
+				id: "0BFBE497A2DB1CBC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Мультиблоковая структура, позволяющая тебе хранить большие количества энергии."
+			tasks: [{
+				id: "3664133A21E04ADE"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			title: "Аккумулятор"
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["152333F57A5C1913"]
+			icon: "createaddition:connector"
+			id: "1ABC2ADBFEF3144D"
+			rewards: [{
+				id: "379F23FD8FDD52E6"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Коннекторы вставляют/извлекают энергию из/в блоки. Провода используются для соединения между коннекторами."
+			tasks: [
+				{
+					id: "5E183F5347F06931"
+					item: "createaddition:connector"
+					type: "item"
+				}
+				{
+					id: "1053B1858A9926B3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "createaddition:copper_spool"
+								}
+								{
+									Count: 1b
+									id: "createaddition:gold_spool"
+								}
+								{
+									Count: 1b
+									id: "createaddition:festive_spool"
+								}
+							]
+						}
+					}
+					title: "Любая Катушка Проводов"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1ABC2ADBFEF3144D"]
+			id: "3F8B59B04E26C1C2"
+			rewards: [{
+				id: "4E83862411F4036B"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Редстоуновый компонент, позволяющий только энергии(Э) протекать, когда получает редстоун сигнал."
+			tasks: [{
+				id: "5F44260E3434FFEC"
+				item: "createaddition:redstone_relay"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["408D9361AF8AA499"]
+			id: "282E21725CEBD4F2"
+			rewards: [{
+				id: "120A6D219ABD5B7E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Кондукторы позволяют тебе активировать редстоун пока ты смотришь на них и также могут нести твой ящик для инструментов."
+			tasks: [{
+				id: "4C320CF1DF11D854"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railways:white_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:orange_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:magenta_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:light_blue_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:yellow_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:lime_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:pink_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:gray_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:light_gray_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:cyan_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:purple_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:blue_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:brown_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:green_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:red_conductor_cap"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "railways:black_conductor_cap"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Любая Фуражка Кондуктора"
+				type: "item"
+			}]
+			title: "Кондукторы"
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["282E21725CEBD4F2"]
+			id: "301C55381B54E564"
+			rewards: [{
+				id: "16AA87EE671590B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26E526B3ADB65613"
+				item: "railways:conductor_whistle"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["282E21725CEBD4F2"]
+			id: "19B1A849EE98B04C"
+			rewards: [{
+				id: "0374772F77B872B5"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Позволяет тебе видеть через глаза кондуктора, как и контролировать их движение."
+			tasks: [{
+				id: "43C050F7FB2AEDAA"
+				item: "railways:remote_lens"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["672C61B048CB3B85"]
+			id: "0C28FF9D09B326D7"
+			rewards: [{
+				id: "6738559662E6DC52"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Визуализирует и контролирует направление поездов в перекрестках."
+			tasks: [{
+				id: "12A8B09593EB685E"
+				item: "railways:track_switch_andesite"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["672C61B048CB3B85"]
+			id: "23D1935F6FBE0303"
+			rewards: [{
+				id: "44C84B34CE9DB127"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "То же самое что и Андезитовый Стрелочный Перевод, но также позволяет переключение для расписания поездов."
+			tasks: [{
+				id: "470594A0FBC82476"
+				item: "railways:track_switch_brass"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["672C61B048CB3B85"]
+			id: "5301642EE0752220"
+			rewards: [{
+				id: "69B0B8E07A22F3D7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Позволяет тебе соединять и разъединять поезда без разборки."
+			tasks: [{
+				id: "7EDE06A5392F7A5B"
+				item: "railways:track_coupler"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["672C61B048CB3B85"]
+			id: "52490456CC021CD1"
+			rewards: [{
+				id: "19095DCB9E1E89CD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Визуализирует доступные пути для поездов."
+			tasks: [{
+				id: "262ADFC794B3089C"
+				item: "railways:semaphore"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["05BFBACBB2337231"]
+			id: "7C5CDB413D2EBD0C"
+			rewards: [{
+				id: "3CB2D9EC5EF62AD0"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Зполняемые блоки позволяют тебе сделать лестницу и полублоки из вещей которые обычно не могут принимать такие формы."
+			tasks: [
+				{
+					id: "31C77A6DFB98D443"
+					item: "create:copycat_panel"
+					type: "item"
+				}
+				{
+					id: "06A187F10DDFBD8B"
+					item: "create:copycat_step"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.5d
+			}
+		{
+			id: "68ED01D9FDB64432"
+			invisible: true
+			rewards: [{
+				id: "571317E7C09367F3"
+				title: "&eСкоро: &6Косметика"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			size: 1.45d
+			subtitle: "&6Вечные испытания"
+			tasks: [{
+				id: "2C9B2EC104D11E5D"
+				item: "estrogen:estrogen_chip_cookie"
+				type: "item"
+			}]
+			title: "&dОдно печенье, чтобы управлять ими всеми"
+			x: -8.5d
+			y: 3.0d
+		}
+	]
+	title: " &6Create"
+}

@@ -1,0 +1,192 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lfgl7atio"
+	group: "3E586F2160161EEA"
+	icon: "ad_astra:glacio_globe"
+	id: "35E93C492B4BEDFA"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6DF2A87008095EE4"
+			rewards: [{
+				count: 5
+				id: "42CEF069E0A2A58B"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "7A2C8ADB61A66611"
+				title: "Посетите Гласио"
+				type: "dimension"
+			}]
+			title: "Гласио"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DF2A87008095EE4"]
+			icon: "minecraft:spyglass"
+			id: "443F35236F2C9720"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4A375F3DC199C022"
+				title: "Исследование"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["443F35236F2C9720"]
+			icon: "ad_astra:ice_shard"
+			id: "55ABAE2969CC234E"
+			rewards: [{
+				id: "03E240466CD65D93"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				entity: "ad_astra:glacian_ram"
+				icon: "ad_astra:ice_shard"
+				id: "07B846789F586E9E"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Победи &4Гласиевых баранов"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["443F35236F2C9720"]
+			id: "0866F87A496F53AC"
+			rewards: [
+				{
+					count: 10
+					id: "71FAABB4D0476D04"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
+				}
+				{
+					id: "14F137EC60B678D3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "4D86B4E9F8E7D659"
+				item: "minecraft:milk_bucket"
+				title: "Выпей &lБаранье МОЛОЧКО"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C0A0E9139DC2A63"]
+			id: "395D8FDA9575D8A6"
+			rewards: [{
+				id: "11E7AA073E85CEE0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 32L
+				id: "36DEC923E339C8BB"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			title: "Получи Дешовый Лист"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C0A0E9139DC2A63"]
+			id: "212E9564C03EE0FB"
+			rewards: [{
+				id: "76E398FA24865362"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 32L
+				id: "03F71431F638CEDD"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "Получи Слиток Деша"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C0A0E9139DC2A63"]
+			id: "4650A789171F1441"
+			rewards: [{
+				id: "792B70477903AE98"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 32L
+				id: "7A1258B12E4F3ADA"
+				item: "techreborn:steel_ingot"
+				type: "item"
+			}]
+			title: "Получи Стальной Слиток"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C0A0E9139DC2A63"]
+			id: "5440777F1DE94B3D"
+			rewards: [{
+				id: "7AFF987C9EC15115"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "641A27A13106F50F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:iron_plates"
+					}
+				}
+				title: "Любые Железные Пластины"
+				type: "item"
+			}]
+			title: "Получи Железную Пластину"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6DF2A87008095EE4"]
+			description: [
+				"- &aКосмическая Станция&r это структура создаваемая на экране выбора планет, с условием что у тебя есть материалы. Космические станции расположены на &bлунной или планетарной орбите&r, давая возможность ставить блоки на этой орбите.&r"
+				""
+				"- Космические станции можно расширять, позволяя тебе построить базу своей мечты на орбите &bлуны/планеты&r. Они всегда появляются в позиции в которой ты запустил свою ракету, так что запомни координаты чтобы не потерять структуру.&r"
+			]
+			icon: "ad_astra:steel_block"
+			id: "4C0A0E9139DC2A63"
+			shape: "circle"
+			size: 1.5d
+			subtitle: "Щелк!"
+			tasks: [{
+				id: "55206455D9F31308"
+				title: "Собери Разные Стальные Блоки"
+				type: "checkmark"
+			}]
+			title: "&lМиссия Космической Станции"
+			x: -2.5d
+			y: 0.0d
+		}
+	]
+	title: " &bГласио"
+}

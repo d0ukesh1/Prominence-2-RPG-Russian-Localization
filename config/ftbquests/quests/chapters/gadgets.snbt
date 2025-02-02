@@ -1,0 +1,418 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gadgets"
+	group: "49D52BD6447C5CC0"
+	icon: "kibe:cobblestone_generator_mk3"
+	id: "5E6450E48F6FFE86"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "modern_industrialization:block/machines/diesel_generator/overlay_front_active"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:block/cog_block_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.10714285714286831d
+			y: 4.125d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:block/cog_block_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.9642857142857295d
+			y: 4.982142857142861d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:block/cog_block_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.9642857142857224d
+			y: 4.125d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:block/cog_block_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.10714285714286831d
+			y: 3.267857142857146d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			id: "272B5685646C522E"
+			rewards: [{
+				id: "749ED8232EC8098B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Блок для генерации Булыжника!"
+			tasks: [{
+				id: "019C6F0E4943EE76"
+				item: "kibe:cobblestone_generator_mk1"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["272B5685646C522E"]
+			id: "202A89A44FC39203"
+			rewards: [{
+				id: "3049ED4D2C5AD6F6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5FB32FCE41AB16B6"
+				item: "kibe:cobblestone_generator_mk2"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["202A89A44FC39203"]
+			id: "57FE6A61042C4F26"
+			rewards: [{
+				id: "34A8D49CB123E3D2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "47012DB3FC46AD60"
+				item: "kibe:cobblestone_generator_mk3"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57FE6A61042C4F26"]
+			id: "189176286B6E28F4"
+			rewards: [{
+				id: "3B7B306453132E15"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "1E00797F8B97E26A"
+				item: "kibe:cobblestone_generator_mk4"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["189176286B6E28F4"]
+			id: "26A42453CA1F0F1D"
+			optional: true
+			rewards: [{
+				id: "2AB1CD986F3F0085"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4409F5E6147284FB"
+				item: "kibe:cobblestone_generator_mk5"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			id: "698C1D52BBCFA71D"
+			rewards: [{
+				id: "532424C32E3953EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Блок для генерации Базальта!"
+			tasks: [{
+				id: "7FE15890CCD21465"
+				item: "kibe:basalt_generator_mk1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["698C1D52BBCFA71D"]
+			id: "362CF5CFE6362C52"
+			rewards: [{
+				id: "2D891D924489EED5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0A5B24964DC3B830"
+				item: "kibe:basalt_generator_mk2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["362CF5CFE6362C52"]
+			id: "754D9CEEDB384336"
+			rewards: [{
+				id: "4EE4358F690003E8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4B67A4E6A158D66B"
+				item: "kibe:basalt_generator_mk3"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["754D9CEEDB384336"]
+			id: "0C91FB5B9F7988B9"
+			rewards: [{
+				id: "2ECDE0733CEF8AE8"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "5D72B7CADC9514DA"
+				item: "kibe:basalt_generator_mk4"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0C91FB5B9F7988B9"]
+			id: "29D70F4BD652022A"
+			optional: true
+			rewards: [{
+				id: "189E0E15EB2124A2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "43A8DECB43CA54B4"
+				item: "kibe:basalt_generator_mk5"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "01BF1397DC5B4906"
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Эта квестовая линия рассказывает об изучении уникальных и прикольных предметов/блоков в Prominence, которые могут даже помочь с некоторомы индустриальными модами!"
+			tasks: [{
+				id: "3EE7C97623ACE6EA"
+				title: "Добро Пожаловать!"
+				type: "checkmark"
+			}]
+			x: 0.625d
+			y: 3.75d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			id: "33C2B1CC10CF07D1"
+			rewards: [{
+				id: "785B286B5BCEB11A"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Пустые пластины это основа Пластин эффектов. Наступание на Пластины эффектов даст тебе обозначенный эффект."
+			tasks: [{
+				id: "1A0EDE59F7165D1D"
+				item: "darkutils:blank_plate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["33C2B1CC10CF07D1"]
+			id: "682198412A038176"
+			rewards: [{
+				id: "7E9DEF92BB22995C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "146EA13F09C298E1"
+				item: "darkutils:vector_plate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["682198412A038176"]
+			id: "222E128CF7D132DA"
+			rewards: [{
+				id: "7E6279A9A6BC947C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "274A29FA7DBE0A56"
+				item: "darkutils:vector_plate_fast"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["222E128CF7D132DA"]
+			id: "51186DDE3C82D092"
+			rewards: [{
+				id: "330A7BAE15169F3D"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "43CBEBF90FD1C4BC"
+				item: "darkutils:vector_plate_extreme"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51186DDE3C82D092"]
+			id: "4C73E9CCD2C8DEFC"
+			optional: true
+			rewards: [{
+				id: "5C1CE0BD2839DB12"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "294BD2C76A8E2DD5"
+				item: "darkutils:vector_plate_ultra"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["33C2B1CC10CF07D1"]
+			id: "22E7D110891A35CE"
+			rewards: [{
+				id: "3AD057C78A190708"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "35C1195647FCD6F7"
+				item: "darkutils:damage_plate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["22E7D110891A35CE"]
+			id: "42480A1A38796A11"
+			rewards: [{
+				id: "12E9C09815F34173"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E5E44A38ACC27EB"
+				item: "darkutils:damage_plate_player"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["(там есть не только Фильтры Игроков)"]
+			id: "105CE0D106AEF623"
+			rewards: [{
+				id: "27D2B1FEDF40CD34"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Фильтры Мобов это блоки, через которые могут пройти только несколько сущностей."
+			tasks: [{
+				id: "16497AA38411B191"
+				item: "darkutils:filter_player"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			id: "643A54B52DA18CD9"
+			rewards: [{
+				id: "3A6C563676D74C02"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Медные миски это ранняя альтернатива рудным фармам, обычно находимым в технических модах по типу Create. Если положить песок/гравий под миску, и воду над ней, она начнет иногда генерировать рудные самородки, гравий, изумруды, и несколько других различных предметов."
+			tasks: [{
+				id: "2F7AA5CAC5265F1A"
+				item: "oxidized:copper_pan"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			id: "55EF78F7FBC33FDB"
+			rewards: [{
+				id: "294AC68BFCAC531E"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Блоки шестерни это примерно то же, что и редстоун, но они могут быть поставлены в воздухе."
+			tasks: [{
+				id: "1C16C5D041D713A7"
+				item: "supplementaries:cog_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+	]
+	title: " &eGadgets"
+}

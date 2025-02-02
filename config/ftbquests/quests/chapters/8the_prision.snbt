@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "8the_prision"
+	group: "3E586F2160161EEA"
+	icon: "graveyard:dark_iron_bars"
+	id: "419EFD597601A50B"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "minecells:item/blood_sword"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.0d
+		y: -1.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "0D23A31DAF3866F4"
+			rewards: [{
+				id: "4A4473CE89392149"
+				item: "minecells:health_flask"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Портал в &8Тюремное &rизмерение появляется случайно в &aВерхнем Мире&r. Если ты, когда-либо, был одержим &bалмазами&r, портал будет уже активирован."
+			tasks: [{
+				dimension: "minecells:prison"
+				icon: "graveyard:dark_iron_bars"
+				id: "0E868C4F785876CA"
+				title: "Посети Тюрьму"
+				type: "dimension"
+			}]
+			title: "&8Войди в Тюрьму"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			id: "056835280827D016"
+			rewards: [
+				{
+					id: "2FCF73BFB5EB1746"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "40247E988E658E5A"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Находиться в &1Логове&r, которое может быть найдено в подземелье в измерении &8Тюрьмы&r. Чтобы наносить урон &dКонъюктивиусу&r, ты должен сначала убить щупальца."
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: {
+					Count: 1b
+					id: "minecells:tentacle"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60BB85E2901C9AFB"
+				title: "Победи Конъюктивиуса"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&lБитва с Боссом: &d&lКонъюктивиус"
+			x: -2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			id: "3C8D91F2793CECAD"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Лифт расположенный на последнем этаже тюрьмы приведет тебя к Набережной.\\n \\n&eПредпологается что ты возьмешь с собой путевой камень или карманную червоточину чтобы вернуться домой."
+			tasks: [{
+				dimension: "minecells:promenade"
+				icon: "minecells:promenade_torch"
+				id: "3D4982DEF40E26A6"
+				title: "Посетите Набережную"
+				type: "dimension"
+			}]
+			title: "&7Войди в &cНабережную"
+			x: 2.4642857142857153d
+			y: 1.5178571428571388d
+		}
+		{
+			dependencies: ["58E9FDE95BB414C8"]
+			id: "618580FC7F5FFBD0"
+			subtitle: "Кузница Клеток позволяет тебе создавать различные оружия ближнего и дальнего боя для своего снаряжения в Mine Cells."
+			tasks: [{
+				icon: "minecells:cell_crafter"
+				id: "57DD47C8EC79E9E4"
+				observe_type: 0
+				timer: 0L
+				title: "Используй Кузницу Клеток"
+				to_observe: "minecells:cell_crafter"
+				type: "observation"
+			}]
+			title: "Создай &cКузницу Клеток"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			id: "58E9FDE95BB414C8"
+			subtitle: "Клетки Монстров падают с монстров в измерении &8Тюрьмы&r."
+			tasks: [{
+				id: "5A6C4572411834AA"
+				item: "minecells:monster_cell"
+				type: "item"
+			}]
+			title: "Получи Клетку Монстра"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58E9FDE95BB414C8"]
+			id: "364E9528AE5F1047"
+			subtitle: "Некоторые оружия, создаваемые на Кузнице Клеток, требуют Заряженную Клетками Сталь. Держи это в уме."
+			tasks: [{
+				id: "492AFFEA634E0376"
+				item: "minecells:cell_infused_steel"
+				type: "item"
+			}]
+			title: "Создай немного &bЗаряженной Клетками &rСтали"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			description: ["&eМожет быть создана с использованием Внутренностей и Клеток Монстра"]
+			id: "447E7AA3CB192FE4"
+			subtitle: "Лечебная фляга - это действительно полезный предмет, который исцеляет вам 10% от вашего максимального здоровья и предоставляет регенерацию на несколько секунд."
+			tasks: [{
+				icon: "minecells:health_flask"
+				id: "2D109EBD7B56015A"
+				title: "Хилимся-Живём!"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
+	title: " &7Тюрьма"
+}

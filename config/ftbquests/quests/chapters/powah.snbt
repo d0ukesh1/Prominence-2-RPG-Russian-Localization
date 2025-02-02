@@ -1,0 +1,1943 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "49D52BD6447C5CC0"
+	icon: "powah:thermo_generator_nitro"
+	id: "36A6C90C2DBEDD00"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Эта книга поможет тебе понять мод если понадобится."]
+			icon: "powah:book"
+			id: "2CE2E7816C6866AF"
+			rewards: [
+				{
+					id: "2B758FE085185E39"
+					item: "powah:book"
+					type: "item"
+				}
+				{
+					id: "76D7AD77630157D7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Добро пожаловать в Powah! Мод про генераторы, используемые чтобы заряжать машины практически любой доступной техники. Знание о том как использовать их даст тебе энергию чтобы заряжать машины без необходимости использовать топливо."
+			tasks: [{
+				id: "49D4D76E7C8A344B"
+				title: "Готовы Заряжать?"
+				type: "checkmark"
+			}]
+			title: "Первая Работа Электрика"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2CE2E7816C6866AF"]
+			id: "13B5E4EF97D6308F"
+			rewards: [
+				{
+					id: "35C083510AF2B566"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "20E814FDC4635465"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Диэлектрическая паста это ингредиент, используемый для склейки и создания электрических частей, используемых в машинах, ты должен подготовить много такой, если планируешь улучшаться."
+			tasks: [{
+				count: 64L
+				id: "109BC50F07B47320"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			title: "Электрический Клей"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["13B5E4EF97D6308F"]
+			id: "713D81FCECD1A537"
+			rewards: [{
+				id: "5567D15D2BD4B471"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Диэлектрические Стержни это одни из главных строительных частей в производстве машин."
+			tasks: [
+				{
+					count: 16L
+					id: "768770670B1578DF"
+					item: "powah:dielectric_rod"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0ABC509DB3CCFEB8"
+					item: "powah:dielectric_rod_horizontal"
+					type: "item"
+				}
+			]
+			title: "Начальные Части"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13B5E4EF97D6308F"]
+			id: "2C0442E2897E8966"
+			rewards: [{
+				id: "563B05383DD40AF0"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Гаечный Ключ это инструмент, используемый для поворота машин из Powah, соединении с электрическими кабелями и даже присоединении определенных электрических стержней к зарядным сферам."
+			tasks: [{
+				id: "6166A7A7A3D373D3"
+				item: {
+					Count: 1b
+					id: "powah:wrench"
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Правая Рука Электрика"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["13B5E4EF97D6308F"]
+			id: "18724D965654056F"
+			rewards: [{
+				id: "271AC2CB25C50917"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Она не полезна сама по себе, но после её использования на Зомби или Оболочке, она улучшится в Связанную Эфирную Жемчужину."
+			tasks: [{
+				id: "728900D62C10DBD9"
+				item: "powah:aerial_pearl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["713D81FCECD1A537"]
+			id: "44EE18F81A61FCEE"
+			rewards: [{
+				id: "6ECCE5A6CF77218D"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Конденсаторы это части, используемые для создания разнообразных электрических механизмов, также ты можешь соединить два конденсатора чтобы получить большой или разрезать один, чтобы получить два маленьких конденсатора."
+			tasks: [
+				{
+					id: "23495AC55711E4F9"
+					item: "powah:capacitor_basic"
+					type: "item"
+				}
+				{
+					id: "40B837A97A971436"
+					item: "powah:capacitor_basic_large"
+					type: "item"
+				}
+				{
+					id: "2B999A36B6FA6F0E"
+					item: "powah:capacitor_basic_tiny"
+					type: "item"
+				}
+			]
+			title: "Вторичные части"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["44EE18F81A61FCEE"]
+			id: "4E0F2BFF1BF61BBC"
+			rewards: [{
+				id: "3BA92C700B720B67"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Термопластины это важный компонент, используемый для создания и улучшения генераторов."
+			tasks: [{
+				id: "5AE009AA59523FB8"
+				item: "powah:thermoelectric_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["713D81FCECD1A537"]
+			id: "501B670CACF1CD84"
+			subtitle: "Диэлектрический Корпус это предмет, требующийся во всех машинах, чтобы те могли функционировать, они всегда используют корпус в своем рецепте или улучшении."
+			tasks: [{
+				count: 4L
+				id: "2A1BE06C03DA8CE4"
+				item: "powah:dielectric_casing"
+				type: "item"
+			}]
+			title: "Сердце Машины"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18724D965654056F"]
+			id: "5B978E6C5FE55BEB"
+			rewards: [{
+				id: "34507C0D0683DC6F"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Эксклюзивный ингредиент, используемый для создания Беспроводных Зарядников."
+			tasks: [{
+				id: "03D3E03DF60AEA0A"
+				item: "powah:player_aerial_pearl"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B978E6C5FE55BEB"]
+			hide_text_until_complete: false
+			id: "22A1CEAE96D66DC5"
+			rewards: [
+				{
+					id: "75A5E175B147E6E7"
+					item: "powah:dielectric_casing"
+					type: "item"
+				}
+				{
+					id: "7EDD757B7026F547"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Беспроводной Зарядник может заряжать предметы в инвентаре игрока или экипированные броню/безделушки."
+			tasks: [{
+				id: "6CE18295ACA3DD1F"
+				item: "powah:player_transmitter_starter"
+				type: "item"
+			}]
+			title: "Ходячая Батарея"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22A1CEAE96D66DC5"]
+			id: "315BE66F5DF44912"
+			rewards: [{
+				id: "295566BAC79E1F05"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Используется для создания Карт Связи."
+			tasks: [{
+				id: "61D1BE4D864D09A7"
+				item: "powah:blank_card"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["315BE66F5DF44912"]
+			id: "23147B94406A7B99"
+			rewards: [{
+				id: "5461A4560BC0B924"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Карта Связи используется для соединения Беспроводного Зарядника и машины, которые могут привязаться друг к другу и заряжать. Работает только в одном измерении."
+			tasks: [{
+				id: "0288F6CC6D84C894"
+				item: "powah:binding_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23147B94406A7B99"]
+			id: "5C78BBC3403DFB6F"
+			rewards: [{
+				id: "7501CB9CC8CC4007"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Эта Карта Связи позволит беспроводную зарядку через измерения, для получения надо использовать Карту Связи на Эндермене."
+			tasks: [{
+				id: "5221EAD0348A3C7F"
+				item: "powah:binding_card_dim"
+				type: "item"
+			}]
+			title: "Связан Сквозь Измерения"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22A1CEAE96D66DC5"]
+			id: "61E215F7C69ECF62"
+			rewards: [{
+				id: "39401B34236A1BD4"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "498DC89C49651EAC"
+				item: "powah:player_transmitter_basic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61E215F7C69ECF62"]
+			id: "21455D8FD098C0FB"
+			rewards: [{
+				id: "2A47D3D32B044C77"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "36D1A19629DE0A30"
+				item: "powah:player_transmitter_hardened"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21455D8FD098C0FB"]
+			id: "2839A1C93C002E0D"
+			rewards: [{
+				id: "2DBA38A70F6F338A"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "5EA99CF42E9D5666"
+				item: "powah:player_transmitter_blazing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2839A1C93C002E0D"]
+			id: "63B83A23BB033495"
+			rewards: [{
+				id: "078784EA82C327AD"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "14CDAD337AB7127E"
+				item: "powah:player_transmitter_niotic"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63B83A23BB033495"]
+			id: "5A910A8F35A42FA7"
+			rewards: [{
+				id: "1C3D4F7F11D5C26D"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "3DD07AA881846CD2"
+				item: "powah:player_transmitter_spirited"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A910A8F35A42FA7"]
+			id: "0046F03B57ADDBDA"
+			rewards: [{
+				id: "2D4928FD73791FF1"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "01CEAD803B4CF218"
+				item: "powah:player_transmitter_nitro"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2620A7CCFB446634"]
+			id: "15A88EE622C1F407"
+			subtitle: "Зарядоотвод это тип машин, заряжающий предметы, содержащиеся в зарядной сфере и трансформирующий их."
+			tasks: [{
+				id: "74DA07ECB10356FD"
+				item: "powah:energizing_rod_starter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["501B670CACF1CD84"]
+			id: "2620A7CCFB446634"
+			rewards: [
+				{
+					id: "377663FCD8A4FCE1"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "772869BD4DECDEA2"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Как говорит имя, Зарядная Сфера получает электрический заряд и использует его на предметах, чтобы улучшать машины. Чем выше уровень материала, тем больше энергии потребуется для зарядки."
+			tasks: [{
+				id: "7512F9EE955E2F6F"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15A88EE622C1F407"]
+			id: "5F3A9A75B3F72AAB"
+			tasks: [{
+				id: "3F742DCA31222C20"
+				item: "powah:energizing_rod_basic"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2620A7CCFB446634"]
+			id: "379F1D649B48E472"
+			rewards: [{
+				id: "62ED45932E026E1A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "784CFF1C134AA6A5"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["379F1D649B48E472"]
+			id: "3BA81A5823D3B604"
+			rewards: [{
+				id: "7B09F0AE630A5A72"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "492170421B39FDB7"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3BA81A5823D3B604"]
+			id: "2D532D8AEFA04EDB"
+			rewards: [{
+				id: "75D5EE59E1E09C72"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "320D55DD855C7F9E"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D532D8AEFA04EDB"]
+			id: "30C6832B32F6E3AF"
+			rewards: [{
+				id: "410FB0F03947F97D"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "103A3DF53CD1F6EC"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30C6832B32F6E3AF"]
+			id: "4207CA7E1482D63E"
+			rewards: [{
+				id: "67A2ADBF4A00140C"
+				type: "xp"
+				xp: 65
+			}]
+			tasks: [{
+				id: "127DDDFEC4B34F4D"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F3A9A75B3F72AAB"]
+			id: "5F0FD8A9DDF546C5"
+			tasks: [{
+				id: "455A0947350D72F0"
+				item: "powah:energizing_rod_hardened"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F0FD8A9DDF546C5"]
+			id: "02358BD0F82E3371"
+			tasks: [{
+				id: "34CE5C2881C5F7BC"
+				item: "powah:energizing_rod_blazing"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["02358BD0F82E3371"]
+			id: "7C1E7DB4B08BA2F3"
+			tasks: [{
+				id: "7038D4C1433254E0"
+				item: "powah:energizing_rod_niotic"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C1E7DB4B08BA2F3"]
+			id: "7B3D1B3AD317D15D"
+			tasks: [{
+				id: "1A0EB26CF80FB68A"
+				item: "powah:energizing_rod_spirited"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B3D1B3AD317D15D"]
+			id: "0BA8D9CD9E1C4762"
+			tasks: [{
+				id: "5F065C95A6DF3B42"
+				item: "powah:energizing_rod_nitro"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44EE18F81A61FCEE"]
+			id: "3DEEF330074DD80C"
+			rewards: [{
+				id: "49FFBF9D76A6C010"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Конденсаторы 2-го уровня, используемые для улучшения до Усиленного Уровня."
+			tasks: [{
+				id: "10B9E95AA7E9B73B"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3DEEF330074DD80C"]
+			id: "37CD6EBB40276EE2"
+			rewards: [{
+				id: "4107DCB76D1BCAF1"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Конденсаторы 3-го уровня, улучшающие до Пламенного Уровня."
+			tasks: [{
+				id: "567E8C0E5A1A4698"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["37CD6EBB40276EE2"]
+			id: "768D429DF69F48DE"
+			rewards: [{
+				id: "79729C24256759B8"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Конденсаторы 4-го уровня, улучшающие до Ниотиевого Уровня."
+			tasks: [{
+				id: "419FA08380102759"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["768D429DF69F48DE"]
+			id: "44266A4B1118A31E"
+			rewards: [{
+				id: "2E4F610F7C5DB5C8"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Конденсаторы 5-го уровня, улучшающие до Резонансного Уровня."
+			tasks: [{
+				id: "58E048BB40679FE4"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["44266A4B1118A31E"]
+			id: "65B818D879FA7E4F"
+			rewards: [{
+				id: "7B84855B7906F9C8"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Конденсатор 6-го уровня, используемый для улучшения до Нитро Машин, последнего уровня."
+			tasks: [{
+				id: "627155774E7D792B"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4E0F2BFF1BF61BBC"]
+			id: "499506BBA2F2BF14"
+			rewards: [{
+				id: "5F15076C9E8C7CCC"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Термогенераторы используют источники тепла под ними, чтобы генерировать энергию и используют воду, чтобы охлаждаться. Чем выше уровень, тем больше энергия, сгенерированная из тепла."
+			tasks: [{
+				id: "76F3D1591A275CD7"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["499506BBA2F2BF14"]
+			id: "5FF4B4029069566C"
+			rewards: [{
+				id: "18BBD5364C01B5CA"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "7873ECDFCFAE7B0C"
+				item: "powah:thermo_generator_basic"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5FF4B4029069566C"]
+			id: "4B95DEA88201659A"
+			rewards: [{
+				id: "15C4FBFBAC94C110"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "79F199AEC0F7EA41"
+				item: "powah:thermo_generator_hardened"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4B95DEA88201659A"]
+			id: "11381F7BA5796288"
+			rewards: [{
+				id: "7F262D30715F685F"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "790B508EC0D43AD3"
+				item: "powah:thermo_generator_blazing"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["11381F7BA5796288"]
+			id: "047274EE645E2955"
+			rewards: [{
+				id: "34B7E8BC7F82BB1F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1287A7615CD9C83A"
+				item: "powah:thermo_generator_niotic"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["047274EE645E2955"]
+			id: "1E5045B30E52E715"
+			rewards: [{
+				id: "4557BF9416598292"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "34C32F3202591C97"
+				item: "powah:thermo_generator_spirited"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1E5045B30E52E715"]
+			id: "24483F616C80F43D"
+			rewards: [{
+				id: "1E8EBEA110F68E18"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "3023C2A19188475D"
+				item: "powah:thermo_generator_nitro"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["501B670CACF1CD84"]
+			id: "7AAA9CE6FA1E72F6"
+			rewards: [{
+				id: "46B3B0C8915D9E7A"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Углегенераторы используют горящее топливо, такое как уголь и дерево чтобы генерировать энергию. Чем выше уровень, тем выше энергия и эффективность горящего топлива."
+			tasks: [{
+				id: "7FBDB381D9E8E54C"
+				item: "powah:furnator_starter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["501B670CACF1CD84"]
+			id: "33DBE8E47A2000EC"
+			rewards: [{
+				id: "610C9056E37395F7"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Энерговоронки используются для зарядки предметов в сундуке без нужды использования зарядного шара."
+			tasks: [{
+				id: "051577DC3C936C13"
+				item: "powah:energy_hopper_starter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44EE18F81A61FCEE"]
+			id: "042EE2F5E9F5CFBF"
+			rewards: [{
+				count: 5
+				id: "15101466802A83CC"
+				item: "powah:deepslate_uraninite_ore_dense"
+				type: "item"
+			}]
+			subtitle: "Уранинит используется для создания Реакторов, которые также используют уранинит для генерации электричества. Тебе понадобится 36 блоков для создания функционирующего Реактора, чем выше уровень, тем больше энергии генерируется из Уранинита."
+			tasks: [{
+				id: "45F6B2B9B6B4AFB5"
+				item: "powah:uraninite_raw"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["042EE2F5E9F5CFBF"]
+			id: "4EE2F0953F7F20F0"
+			rewards: [{
+				id: "7999231B1F0ED3DB"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "77C26824573EE4A3"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2620A7CCFB446634"]
+			id: "7953BCBBF9F386C4"
+			rewards: [{
+				id: "6F307AC0B29FF790"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Эндер-ядра это главный ингредиент для эндер-связанных механизмов."
+			tasks: [{
+				id: "2A0A29CC1620B3E8"
+				item: "powah:ender_core"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7953BCBBF9F386C4"]
+			id: "10B753CFD971CB80"
+			rewards: [{
+				id: "3388E055F7FEC079"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Эндер-ячейки это передающие энергию механизмы, которые беспроводным способом будут заряжать другую Эндер-ячейку, использующую тот же номер канала. Каждая Эндер-ячейка должна содержать Энергоячейку, чтобы функционировать и хранить энергию."
+			tasks: [{
+				id: "4AEADCEA97645D91"
+				item: "powah:ender_cell_starter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4EE2F0953F7F20F0"]
+			id: "6ABB2790D205614A"
+			rewards: [{
+				id: "32AF560B77D5E31C"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				count: 36L
+				id: "41CE032A363D1659"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6ABB2790D205614A"]
+			id: "1FBBC1DD54614290"
+			rewards: [{
+				id: "213BDE533D2FBA61"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 36L
+				id: "4A1FE060375D1FE8"
+				item: "powah:reactor_basic"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1FBBC1DD54614290"]
+			id: "6186A32F75654958"
+			rewards: [{
+				id: "69E632EBE7D98554"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 36L
+				id: "4459E9C95780A732"
+				item: "powah:reactor_hardened"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6186A32F75654958"]
+			id: "08A3B5A8AC2DBC78"
+			rewards: [{
+				id: "3FD13FB3302762F1"
+				type: "xp"
+				xp: 70
+			}]
+			tasks: [{
+				count: 36L
+				id: "778F1AB5D9F720BC"
+				item: "powah:reactor_blazing"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["08A3B5A8AC2DBC78"]
+			id: "3FBDD57671611929"
+			rewards: [{
+				id: "0672E196271B8659"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				count: 36L
+				id: "3275F3EA6281894A"
+				item: "powah:reactor_niotic"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3FBDD57671611929"]
+			id: "604D50E441A81CEC"
+			rewards: [{
+				id: "52E223809A78951C"
+				type: "xp"
+				xp: 90
+			}]
+			tasks: [{
+				count: 36L
+				id: "3F5DF552F972BAE3"
+				item: "powah:reactor_spirited"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["604D50E441A81CEC"]
+			id: "7CBB55FF100C4AF7"
+			rewards: [{
+				id: "71AF361F207EBB28"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 36L
+				id: "2750A4213835773C"
+				item: "powah:reactor_nitro"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["10B753CFD971CB80"]
+			id: "607A7D45CCDCCA25"
+			rewards: [{
+				id: "4330EE380C5842F6"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "5FBE83F6194A86CE"
+				item: "powah:ender_cell_basic"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["607A7D45CCDCCA25"]
+			id: "113731DA6B434A38"
+			rewards: [{
+				id: "0E89B930863083A4"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "16B89FD3C87B77E7"
+				item: "powah:ender_cell_hardened"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["113731DA6B434A38"]
+			id: "408F03EA66A6FA6F"
+			rewards: [{
+				id: "496EFA478024B266"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "40EFBE96AA2999F6"
+				item: "powah:ender_cell_blazing"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["408F03EA66A6FA6F"]
+			id: "29C351D650667BCE"
+			rewards: [{
+				id: "48915F9A9041772D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0B66B5C01777A2EE"
+				item: "powah:ender_cell_niotic"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29C351D650667BCE"]
+			id: "50AC623B371C8519"
+			rewards: [{
+				id: "572A0FC0F119612C"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "36CBE22754BA827B"
+				item: "powah:ender_cell_spirited"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["50AC623B371C8519"]
+			id: "2D6AF0176372C243"
+			rewards: [{
+				id: "202E6425CE657854"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "66EDCB8B2C0D0AC7"
+				item: "powah:ender_cell_nitro"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["501B670CACF1CD84"]
+			id: "3D90929CDE45D3D0"
+			rewards: [{
+				id: "6437D01D46239B1D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Магмогенераторы используют лаву чтобы генерировать энергию. Чем больше уровень, тем больше энергии и эффективности лавы."
+			tasks: [{
+				id: "778D1D2F9263DD78"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2620A7CCFB446634"]
+			id: "384E5189E0273AE7"
+			rewards: [{
+				id: "7E8DE7EB4BC6285E"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Сухой Лед используется для охлаждения Реакторов, ещё одна альтернатива воде как охладителю."
+			tasks: [{
+				id: "334990D575313572"
+				item: "powah:dry_ice"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["501B670CACF1CD84"]
+			id: "0D9DFC48E3D2F434"
+			rewards: [{
+				id: "59D1BF3F3140AF9F"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Энергоразрядники высасывают энергию из заряженной машины и хранят её во внутреннем карманном хранилище и могут перенаправить энергию в другую машину с помощью кабелей."
+			tasks: [{
+				id: "5A67B6525013D8D3"
+				item: "powah:energy_discharger_starter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["501B670CACF1CD84"]
+			id: "761B9A10EA2161C1"
+			rewards: [
+				{
+					id: "682CA1D00C0F0E7D"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					id: "156462943F4D377D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Фотоэлементы используются для создания Солнечных Панелей."
+			tasks: [{
+				id: "5B719B206080AC78"
+				item: "powah:photoelectric_pane"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["761B9A10EA2161C1"]
+			description: ["Используйте Фотоэлемент на Эндермене или Эндермите."]
+			id: "6FD2FD1F7F98537C"
+			rewards: [{
+				id: "5AACB0ECF127B40E"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Эндер-линза позволяет Солнечным Панелям видеть сквозь блоки, что позволяет им поглощать солнечный свет, находясь под блоком."
+			tasks: [{
+				id: "79AC10CFD9A89F7C"
+				item: "powah:lens_of_ender"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["761B9A10EA2161C1"]
+			id: "1A29FC5A73FDE328"
+			rewards: [{
+				id: "78A95581F9CB9A2F"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Солнечные Панели генерируют энергию в дневное время, чем выше уровень, тем больше энергии генерируется во время дня."
+			tasks: [{
+				id: "5B2660AC580B32BF"
+				item: "powah:solar_panel_starter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2620A7CCFB446634"]
+			id: "63D55699D4BB8848"
+			rewards: [{
+				id: "0883DDC479EEAE5B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Энергоснежки хранят достаточно энергии, чтобы вызвать удар молнии при ударе с мобом или землей."
+			tasks: [{
+				id: "34DE6FFB2CF05252"
+				item: "powah:charged_snowball"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44EE18F81A61FCEE"]
+			id: "7309B35D119998EE"
+			rewards: [{
+				id: "51DD3A1407D33126"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Портативное хранилище энергии, которое может быть использовано для зарядки техники при необходимости."
+			tasks: [{
+				id: "146A5CDD2739CF08"
+				item: {
+					Count: 1b
+					id: "powah:battery_starter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7309B35D119998EE"]
+			id: "78C5A9A045C8FB4D"
+			rewards: [{
+				id: "398E73592430B17D"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "67B6D1008137F05A"
+				item: {
+					Count: 1b
+					id: "powah:battery_basic"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["78C5A9A045C8FB4D"]
+			id: "1D9332EEA990F149"
+			rewards: [{
+				id: "13BE57EC4E0C762B"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "65832D45AAB4DF40"
+				item: {
+					Count: 1b
+					id: "powah:battery_hardened"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1D9332EEA990F149"]
+			id: "1FC319B753930D4C"
+			rewards: [{
+				id: "64DBBB21DE39D9C7"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "6EA847EE93EC17D6"
+				item: {
+					Count: 1b
+					id: "powah:battery_blazing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1FC319B753930D4C"]
+			id: "3EB414A01FE45955"
+			rewards: [{
+				id: "4E9808B197CE6A73"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "33CB82FECA01089D"
+				item: {
+					Count: 1b
+					id: "powah:battery_niotic"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3EB414A01FE45955"]
+			id: "6CA94D80C9383AA5"
+			rewards: [{
+				id: "4C36A68C38B5CE5F"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "7C758E401D832798"
+				item: {
+					Count: 1b
+					id: "powah:battery_spirited"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6CA94D80C9383AA5"]
+			id: "5CAB72B1E8214739"
+			rewards: [{
+				id: "690A0953EDCC9098"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "526B44A242E86190"
+				item: {
+					Count: 1b
+					id: "powah:battery_nitro"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0D9DFC48E3D2F434"]
+			id: "24F2324F5A12B191"
+			rewards: [{
+				id: "62E7BB62A0B5C9B4"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "7724C38A2C1A1B77"
+				item: "powah:energy_discharger_basic"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["24F2324F5A12B191"]
+			id: "55B9885307DC4B59"
+			rewards: [{
+				id: "1D85FE66D3E543D2"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "6AF5C850FF1F1C60"
+				item: "powah:energy_discharger_hardened"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["55B9885307DC4B59"]
+			id: "6689AB5D1040DE91"
+			rewards: [{
+				id: "166DC98F31CAF0FB"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "6C0E96BBD52AB3CE"
+				item: "powah:energy_discharger_blazing"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6689AB5D1040DE91"]
+			id: "51D42A789D9D7181"
+			rewards: [{
+				id: "1C9283389752577F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "521579611FE0F19C"
+				item: "powah:energy_discharger_niotic"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51D42A789D9D7181"]
+			id: "25A612B1C6D63B41"
+			rewards: [{
+				id: "118EECC257B059F5"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "7BB129948F8519B8"
+				item: "powah:energy_discharger_spirited"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25A612B1C6D63B41"]
+			id: "2D2B853CADCCC9BC"
+			rewards: [{
+				id: "7500AC8768CDF5E7"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "1C6B65F6748F7653"
+				item: "powah:energy_discharger_nitro"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33DBE8E47A2000EC"]
+			id: "1739611693DA3DD3"
+			rewards: [{
+				id: "17BC07D1916EB1CF"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "69C62387DF05F413"
+				item: "powah:energy_hopper_basic"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1739611693DA3DD3"]
+			id: "4B441C5B81DFCAF6"
+			rewards: [{
+				id: "5AEBC384883BE880"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "2B053581E41C40BC"
+				item: "powah:energy_hopper_hardened"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4B441C5B81DFCAF6"]
+			id: "67DCD264B4CB2BFD"
+			rewards: [{
+				id: "7CDA4CA8217E7B82"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "69003E4246D0A809"
+				item: "powah:energy_hopper_blazing"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67DCD264B4CB2BFD"]
+			id: "0712AD84CAACC21E"
+			rewards: [{
+				id: "76FD094D2EDC3A01"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "18A74ED02C7722B0"
+				item: "powah:energy_hopper_niotic"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0712AD84CAACC21E"]
+			id: "322FCF78F5D1D19F"
+			rewards: [{
+				id: "3085402937428BDD"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "0103278A7311C4C1"
+				item: "powah:energy_hopper_spirited"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["322FCF78F5D1D19F"]
+			id: "1E1DB6BB92985CCF"
+			rewards: [{
+				id: "735B1B6BC1A1061C"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "01163E433956BD75"
+				item: "powah:energy_hopper_nitro"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44EE18F81A61FCEE"]
+			id: "358D742BF236AFA7"
+			rewards: [{
+				id: "7862CACAA3885D82"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Энергоячейка это по сути большая батарея которая может хранить и передавать энергию другим присоединенным механизмам, когда генератор не может произвести достаточно энергии."
+			tasks: [{
+				id: "535C60D29F8E9F7B"
+				item: "powah:energy_cell_starter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["358D742BF236AFA7"]
+			id: "6D4195500F2AA828"
+			rewards: [{
+				id: "226C836869D50377"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "270F4DFAB8DD8D6E"
+				item: "powah:energy_cell_basic"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6D4195500F2AA828"]
+			id: "2ABA9CB83073B6C8"
+			rewards: [{
+				id: "29D71501B3ECE783"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "2A1FF41A83233FE8"
+				item: "powah:energy_cell_hardened"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["65B9360BAAF4AC5F"]
+			id: "66E6F30DEB8FF209"
+			rewards: [{
+				id: "5BD49B31A2BDC614"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "4805694FA796CE00"
+				item: "powah:energy_cell_niotic"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2ABA9CB83073B6C8"]
+			id: "65B9360BAAF4AC5F"
+			rewards: [{
+				id: "61519AB99BBF98AF"
+				type: "xp"
+				xp: 70
+			}]
+			tasks: [{
+				id: "4D6A571FA8CE6232"
+				item: "powah:energy_cell_blazing"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["66E6F30DEB8FF209"]
+			id: "2ECCAB972D597EA2"
+			rewards: [{
+				id: "615E7906E078C610"
+				type: "xp"
+				xp: 90
+			}]
+			tasks: [{
+				id: "72592DCC09071C38"
+				item: "powah:energy_cell_spirited"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2ECCAB972D597EA2"]
+			id: "60CE204B19179AE8"
+			rewards: [{
+				id: "2D5C513BBEC06A7B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "25FA8036AE54739A"
+				item: "powah:energy_cell_nitro"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7AAA9CE6FA1E72F6"]
+			id: "1682CFF697E2FDE2"
+			rewards: [{
+				id: "7B0C0C81EECFAAF2"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "72983F49AED495AB"
+				item: "powah:furnator_basic"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1682CFF697E2FDE2"]
+			id: "738F1EB49F652D7A"
+			rewards: [{
+				id: "3012A7D6106073EF"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "154AD93337C174B9"
+				item: "powah:furnator_hardened"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["738F1EB49F652D7A"]
+			id: "6A18972FF0B61412"
+			rewards: [{
+				id: "036CBDB32A0DE7DF"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "4A6C04F8612BB5B7"
+				item: "powah:furnator_blazing"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6A18972FF0B61412"]
+			id: "498F2717199A797F"
+			rewards: [{
+				id: "6DCCA8B3EAB93226"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "474B806E194F1130"
+				item: "powah:furnator_niotic"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["498F2717199A797F"]
+			id: "0A8C7634AC8E594E"
+			rewards: [{
+				id: "16A12948155801BD"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "61D275AF5231DF03"
+				item: "powah:furnator_spirited"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A8C7634AC8E594E"]
+			id: "76CE1A6E717FACBE"
+			rewards: [{
+				id: "4634FE39C61AE487"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "2EB261A87B78B5BA"
+				item: "powah:furnator_nitro"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D90929CDE45D3D0"]
+			id: "04ABEA2EA283936D"
+			rewards: [{
+				id: "2F0672A8BC322660"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "128FAEA44CFAE0D2"
+				item: "powah:magmator_basic"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04ABEA2EA283936D"]
+			id: "5B4C7EBEDC7CCFB0"
+			rewards: [{
+				id: "5DBC30B364701287"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "0766DDB5EF271704"
+				item: "powah:magmator_hardened"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B4C7EBEDC7CCFB0"]
+			id: "6FB0733C13FD5D1C"
+			rewards: [{
+				id: "008C4A6138AC8380"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "25721F354489C3C2"
+				item: "powah:magmator_blazing"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6FB0733C13FD5D1C"]
+			id: "281F4EC7505A5019"
+			rewards: [{
+				id: "4E8564D2041BAEC3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6417E21C8175D8BC"
+				item: "powah:magmator_niotic"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["281F4EC7505A5019"]
+			id: "79E2E9348FC448F1"
+			rewards: [{
+				id: "13656F4C3B182B96"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "0CD6972BBBCE250C"
+				item: "powah:magmator_spirited"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79E2E9348FC448F1"]
+			id: "4436ADD18CC070A6"
+			rewards: [{
+				id: "4295DE3C4F90FDCC"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "68DB0E7AF766DF7F"
+				item: "powah:magmator_nitro"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A29FC5A73FDE328"]
+			id: "1022643F3728C7A2"
+			rewards: [{
+				id: "2BDF3DE5BD2EB01F"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "1894F278E703EF74"
+				item: "powah:solar_panel_basic"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1022643F3728C7A2"]
+			id: "4B8FF0B0C88A4B23"
+			rewards: [{
+				id: "0CB2B09D451CCF5E"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "6E559B8F1DB6FEA5"
+				item: "powah:solar_panel_hardened"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B8FF0B0C88A4B23"]
+			id: "7EB63B0A055008FA"
+			rewards: [{
+				id: "5B1D32B7E71AF7F0"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "167191995F46BDCB"
+				item: "powah:solar_panel_blazing"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EB63B0A055008FA"]
+			id: "41F26082DCC568DF"
+			rewards: [{
+				id: "34088867A3714B4D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "47DB0193B787CEB7"
+				item: "powah:solar_panel_niotic"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41F26082DCC568DF"]
+			id: "2F9AA4468E5EFF9A"
+			rewards: [{
+				id: "7DD3FDB0F160605D"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "043A1A214153AD9A"
+				item: "powah:solar_panel_spirited"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F9AA4468E5EFF9A"]
+			id: "146FEF1C7ED8F7D2"
+			rewards: [{
+				id: "311E75C8DEF33490"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "1A7D61066342B135"
+				item: "powah:solar_panel_nitro"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+	]
+	title: " &5Powah!"
+}

@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "3E586F2160161EEA"
+	icon: "minecraft:obsidian"
+	id: "0D7FF8F037EFF568"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.5d
+		hover: [ ]
+		image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+		rotation: 0.0d
+		width: 3.5d
+		x: -5.0d
+		y: 0.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "46D0AAEEB69E28B3"
+			rewards: [
+				{
+					id: "139F0AE37754B697"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "39ADDD2829E0F754"
+					item: "artifacts:fire_gauntlet"
+					type: "item"
+				}
+				{
+					id: "40CCAD2EFE886731"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "7FC5892104C0744C"
+				title: "Войдите в Ад"
+				type: "dimension"
+			}]
+			title: "Войди в &cАд"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			hide_dependency_lines: true
+			id: "5B11DB2289D4F66C"
+			rewards: [{
+				id: "6DD706B856271577"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "pentagon"
+			subtitle: "Появляется рядом с &6Рассадником Всполохов &7в &4Адских Крепостях&7 но также может появится в &4Адских Пустошах."
+			tasks: [{
+				entity: "adventurez:blaze_guardian"
+				icon: "minecraft:blaze_rod"
+				id: "4DBABAE3AE00C903"
+				title: "Убей Полыхающего Стража"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убей &6Полыхающего Стража"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			hide_dependency_lines: true
+			id: "69872C1F1CCBDEBD"
+			rewards: [
+				{
+					id: "124E580CC33DE0EF"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 3
+					id: "39B2E092980E4C04"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Появляется в &4Адских крепостях&r."
+			tasks: [{
+				entity: "adventurez:necromancer"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "745C505DC4DF253C"
+				title: "Убей Некроманта"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убей &8Некроманта"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "3963B69A10D95565"
+			shape: "pentagon"
+			subtitle: "&8Каменный Голем&r может быть только призван &6Ритуалом Голема&r в &4Аду&f (используйте для большей информации)"
+			tasks: [{
+				entity: "adventurez:blackstone_golem"
+				icon: "adventurez:blackstone_golem_heart"
+				id: "27D27F2750D953BC"
+				title: "Убей Чернокаменного Голема"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убей &8Чернокаменного Голема"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			hide_dependency_lines: true
+			id: "4BCD1F2BA84D70D7"
+			rewards: [
+				{
+					id: "1D8B697841671F20"
+					item: {
+						Count: 1b
+						id: "soulsweapons:withered_wabbajack"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4682C347018D1DDC"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Находиться в &4Багряных Лесах&r."
+			tasks: [{
+				entity: "soulsweapons:withered_demon"
+				icon: "soulsweapons:withered_demon_heart"
+				id: "239ACDE3872515BB"
+				title: "Убей Иссохшего Демона"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убей &8Иссохшего Демона"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			description: ["Это проклятое чудовище носит Клинок Даркина, имея при себе много смертельных атак которых нужно опасаться. Его убийство даёт Клинок Даркина, Душу Лорда и Иссохшее Сердце Демона."]
+			hide_dependency_lines: true
+			icon: "soulsweapons:lord_soul_red"
+			id: "2F11604C9E2C0353"
+			rewards: [{
+				id: "28AA4F3CC36D1AFD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			subtitle: "Находится в &4Остатках Разлагающегося Королевства&r."
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				icon: "soulsweapons:lord_soul_red"
+				id: "2137D80B50F2DCCB"
+				title: "Убей &4Разлагающегося Короля"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			hide_dependency_lines: true
+			id: "6B7553ECE9DF7675"
+			rewards: [
+				{
+					id: "705883451DE278E3"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 5
+					id: "53E7372968FD4D83"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Жнец Душ находиться в &bдолине песчаного песка&r со своим скакуном, Кошмаром."
+			tasks: [{
+				entity: "adventurez:soul_reaper"
+				icon: "soulsweapons:lord_soul_void"
+				id: "09CA256D27D0482F"
+				title: "Убей &8Жнеца Душ"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+	]
+	title: " &cНезер"
+}

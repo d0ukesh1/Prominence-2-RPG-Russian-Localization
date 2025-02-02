@@ -1,0 +1,784 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simply_swords"
+	group: "555B69C1AF8C1C7F"
+	id: "75316E8D631F174C"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.5d
+		hover: [ ]
+		image: "simplyswords:item/twisted_blade"
+		rotation: 0.0d
+		width: 1.5d
+		x: -10.0d
+		y: -13.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6&lSimply Swords&r предлагает &a&l15&r типов оружия для игрока."
+				""
+				"Он также имеет уникальной набор особенностей, &b&n&lРунических сил&r, что могут быть даны оружиями через &n&bячейки&r!"
+			]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "simplyswords:runic_grimoire"
+				}
+			}
+			id: "0F426527B63F854D"
+			rewards: [
+				{
+					id: "4990EA6F31E34290"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "6FE0BF1D6A5156CE"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E12586E60A353E5"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Один из многих ячеек!"
+			tasks: [
+				{
+					id: "6461B5E43F7DF63E"
+					title: "&d&lSimply Swords!"
+					type: "checkmark"
+				}
+				{
+					id: "6DB4A88379161C44"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["574677AD427E33FB"]
+			description: [
+				"&c&lУсиленные Остатки&r создаются переплавлением уникальных оружий."
+				""
+				"Они используются в созданиии &9&lРунических самоцветов&r, и &6&lАдских самоцветов&r."
+			]
+			id: "5AA2A1E358A18B4E"
+			rewards: [
+				{
+					id: "484700ADEF26CFD9"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "5BF39C352371EC2D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "3AD57D6DAA2392B8"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Создание этого настоящая боль..."
+			tasks: [{
+				id: "5DF612576542C997"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5AA2A1E358A18B4E"]
+			description: [
+				"Для создания, скомбинируй &bРуническую табличку&r и &cУсиленный остаток&r столе кузнеца."
+				""
+				"Нажми чтобы узнать какая сила тебе попалась."
+			]
+			id: "3E5207641E8653DC"
+			rewards: [
+				{
+					id: "0B046175AB1496F5"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7E8172D545591CF2"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "123D0FDCADF578A5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Создан из &klol&r"
+			tasks: [{
+				id: "5C78E6FA3E4F93CB"
+				item: {
+					Count: 1b
+					id: "simplyswords:runefused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5AA2A1E358A18B4E"]
+			description: [
+				"Для создания соедини &cУсиленный Остаток&r и &6Незеритовый слиток&r в столе кузнеца."
+				""
+				"Нажми чтобы узнать какая сила тебе попалась."
+			]
+			id: "47EBDA6516061205"
+			rewards: [
+				{
+					id: "5B95526DD588D574"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00F0A6CDD2E3D77C"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "09E4171B6A7E42EB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Создан из пепла."
+			tasks: [{
+				id: "1F673D38D2BBDA24"
+				item: {
+					Count: 1b
+					id: "simplyswords:netherfused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0F426527B63F854D"]
+			description: ["Это твой первый шаг в &bизучении ячеек&r и &9рунических сил&r!"]
+			id: "574677AD427E33FB"
+			rewards: [
+				{
+					id: "7F3ACDEA0EBADED3"
+					item: {
+						Count: 1b
+						id: "simplyswords:slumbering_lichblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4614B78F16F62367"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "И впрям уникальное."
+			tasks: [{
+				id: "0D8720163BD20211"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "simplyswords:uniques"
+					}
+				}
+				title: "Получи &6Уникальное&r Оружие."
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"47EBDA6516061205"
+				"3E5207641E8653DC"
+			]
+			description: [""]
+			icon: "simplyswords:empowered_remnant"
+			id: "771507AA08194DE6"
+			rewards: [
+				{
+					count: 5
+					id: "6D591FC77216444F"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "7DB2BBD0F8B74E53"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Собери оставшиеся Оружия!"
+			tasks: [{
+				id: "673BEC88D5083E14"
+				title: "Собери их всех!"
+				type: "checkmark"
+			}]
+			title: "&l&bРунический перезаряд..."
+			x: -10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			id: "5B27AA1CCE537327"
+			rewards: [
+				{
+					count: 3
+					id: "453DD074D7E9068B"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "29BE710AE7221493"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "45A8A5308D96050F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "4084E23C5A3D5F45"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:extended_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Горячо горя."
+			tasks: [
+				{
+					id: "25E1716F6BED844C"
+					item: {
+						Count: 1b
+						id: "simplyswords:brimstone_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "500FFB155670A2FF"
+					item: {
+						Count: 1b
+						id: "simplyswords:emberblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41D22B752B03E087"
+					item: {
+						Count: 1b
+						id: "simplyswords:molten_edge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6&n&lГорящие глубины..."
+			x: -11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			id: "0AD5B94945CAFEA5"
+			rewards: [
+				{
+					count: 4
+					id: "515015C4CAFCC8AC"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "74309BC4878251AA"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "191E898B3CC7B7CA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Не задремай! "
+			tasks: [
+				{
+					id: "40DF72334515BC94"
+					item: {
+						Count: 1b
+						id: "simplyswords:watcher_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "686651C9E831A57C"
+					item: {
+						Count: 1b
+						id: "simplyswords:watching_warglaive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "417154DBE628ABFB"
+					item: {
+						Count: 1b
+						id: "simplyswords:soulrender"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F660EA57A5763F5"
+					item: {
+						Count: 1b
+						id: "simplyswords:soulstealer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&n&b&lДушепарад!"
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			id: "498F2AE0D31869F5"
+			rewards: [
+				{
+					count: 3
+					id: "6EDDBA000BF169D6"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6132DBF8560F08F4"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "078C810D710BC5A9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Остр и холоден при прикосновении!"
+			tasks: [
+				{
+					id: "160CA89905A2A539"
+					item: {
+						Count: 1b
+						id: "simplyswords:frostfall"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68AC2EDC4090A9EC"
+					item: {
+						Count: 1b
+						id: "simplyswords:icewhisper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "515E3D929FD2B507"
+					item: {
+						Count: 1b
+						id: "simplyswords:arcanethyst"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&d&n&lКристалитовый Толчок"
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			id: "1A59D35015E0BB3F"
+			rewards: [{
+				id: "60CB3191CAB85C48"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			subtitle: "Спящая Сила дремлет по ту сторону..."
+			tasks: [{
+				id: "0F8DD51E27AD3B4A"
+				item: {
+					Count: 1b
+					id: "simplyswords:dormant_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1A59D35015E0BB3F"]
+			id: "1E65DAC37F8D34F9"
+			rewards: [
+				{
+					count: 4
+					id: "0E71C79F09F1D234"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "4A1A3317D2320B18"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "4D4664097A94E786"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Очень мощный!"
+			tasks: [{
+				id: "70287F102D2FE077"
+				item: {
+					Count: 1b
+					id: "simplyswords:righteous_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1A59D35015E0BB3F"]
+			id: "10710081934A30C6"
+			rewards: [
+				{
+					id: "63937C3288DE0667"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "24410DEACDE6303C"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "1F3F63D864A2579F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Испорчен и извращен."
+			tasks: [{
+				id: "7B79D2A0339B4CFC"
+				item: {
+					Count: 1b
+					id: "simplyswords:tainted_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1E65DAC37F8D34F9"]
+			id: "3B50D775CE678833"
+			rewards: [
+				{
+					id: "270A0151325730F0"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					id: "196792A0E772FEA1"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "35CBCEA6D5519A6D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "08666B06A2472292"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Чистый Свет."
+			tasks: [{
+				id: "1CECDA302A1F41AE"
+				item: {
+					Count: 1b
+					id: "simplyswords:sunfire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["10710081934A30C6"]
+			id: "3B253027B3A56099"
+			rewards: [
+				{
+					id: "1599BEFB22AC6BA5"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0C97AA455652678D"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "61DC296EEFD8DFFA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1BAB7350E1D7E652"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Смерть Ожидает."
+			tasks: [{
+				id: "31C29D8D28776CF2"
+				item: {
+					Count: 1b
+					id: "simplyswords:harbinger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: [""]
+			id: "6B432D872586D91D"
+			rewards: [
+				{
+					count: 3
+					id: "3979DE74450E5C93"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4CF86E1EA3BF8D37"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "4849AF6911FF02F2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Довольно шокирующе."
+			tasks: [
+				{
+					id: "7732EAA92E6455BA"
+					item: {
+						Count: 1b
+						id: "simplyswords:stormbringer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FD56B75FF607307"
+					item: {
+						Count: 1b
+						id: "simplyswords:thunderbrand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F9D18F59CA26A5C"
+					item: {
+						Count: 1b
+						id: "simplyswords:storms_edge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&n&b&lБольшой потенциал!"
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			id: "27B045439DB314E7"
+			rewards: [
+				{
+					id: "2F26C125769F6427"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "71583AAFB44BE803"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "29B2ACA54FE67117"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:strong_warding"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Магическое ЖАЛО!"
+			tasks: [{
+				id: "068033145A55BB5F"
+				item: {
+					Count: 1b
+					id: "simplyswords:shadowsting"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			id: "123C703D6049E87A"
+			rewards: [
+				{
+					id: "30860BB894D93405"
+					item: {
+						Count: 1b
+						id: "minecraft:lingering_potion"
+						tag: {
+							Potion: "minecraft:long_poison"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15C06B39E5F6380A"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "2660FECCE50B6789"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "Ужасно пахнет при нагреве."
+			tasks: [{
+				id: "4B5E527B4C808313"
+				item: {
+					Count: 1b
+					id: "simplyswords:toxic_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.5d
+		}
+	]
+	title: " &dУникальное вооружение"
+}

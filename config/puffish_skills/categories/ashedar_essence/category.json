@@ -1,0 +1,38 @@
+{
+	"unlocked_by_default": false,
+	"exclusive_root": true,
+	"spent_points_limit": 7,
+	"title": "Аш'эдар, Космические близнецы",
+    "icon": {
+        "type": "texture",
+        "data": {
+            "texture": "prominent:textures/item/molten_core.png"
+        }
+    },
+	"background": {
+        "texture": "prominent:textures/backgrounds/ashedar.png",
+        "width": 5120,
+        "height": 1440,
+		"position": "fill_height"
+    },
+    "colors": {
+		"connections": {
+			"locked": {
+				"fill": "#23211d",
+				"stroke": "#272521"
+			},
+			"available": {
+				"fill": "#595856",
+				"stroke": "#605e5c"
+			},
+			"unlocked": {
+				"fill": "#b37d12",
+				"stroke": "#bf8c26"
+			},
+			"excluded": {
+				"fill": "#b31212",
+				"stroke": "#bf2626"
+			}
+		}
+	}
+}
