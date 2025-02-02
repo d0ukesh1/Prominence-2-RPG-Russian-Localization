@@ -1,0 +1,11 @@
+{
+  "itemGroup.quartzelv.quartz_elevator": "Кварцевый лифт",
+  "block.quartzelv.quartz_elevator": "Кварцевый лифт",
+  "block.quartzelv.smooth_quartz_elevator": "Гладкий Кварцевый лифт",
+  "text.autoconfig.quartzelv.title": "Кварцевый лифт",
+  "text.autoconfig.quartzelv.option.quartzElevatorDistance": "Максимальная дистанция кварцевого лифта",
+  "text.autoconfig.quartzelv.option.smoothQuartzElevatorDistance": "Максимальная дистанция гладкого кварцевого лифта",
+  "text.autoconfig.quartzelv.option.mixTypes": "Движется между разными типами лифта ",
+  "text.autoconfig.quartzelv.option.isPlayerOnly": "Только Игрок",
+  "text.autoconfig.quartzelv.option.displayParticles": "Отображать частицы"
+}

@@ -1,0 +1,117 @@
+{
+    "itemGroup.archers.general": "Archers",
+
+    "item.archers.auto_fire_hook.description_1": "При полном заряде выпускает снаряд",
+
+    "item.archers.auto_fire_hook.description_2": "Устанавливается на дальнобойное оружие, на наковальне",
+
+    "item.ranged_weapon.pull_time": "Скорость заряда: %1$s",
+
+    "block.archers.archers_workbench": "Стол ремесленника",
+
+    "block.archers.archers_workbench.hint": "Рабочее место лучника-ремесленника",
+
+    "entity.minecraft.villager.archery_artisan": "Лучник-ремесленник",
+
+    "entity.minecraft.villager.archers:archery_artisan": "Лучник-ремесленник",
+
+    "item.archers.auto_fire_hook": "Модуль автострельбы",
+
+    "item.archers.flint_spear": "Кремниевое копьё",
+
+    "item.archers.iron_spear": "Железное копьё",
+
+    "item.archers.golden_spear": "Золотое копьё",
+
+    "item.archers.diamond_spear": "Алмазное копьё",
+
+    "item.archers.netherite_spear": "Незеритовое копьё",
+
+    "item.archers.aeternium_spear": "Этериевое копье",
+
+    "item.archers.ruby_spear": "Рубиновое копье",
+
+    "item.archers.archer_armor_head": "Капюшон лучника",
+
+    "item.archers.archer_armor_chest": "Куртка лучника",
+
+    "item.archers.archer_armor_legs": "Штаны лучника",
+
+    "item.archers.archer_armor_feet": "Ботинки лучника",
+
+    "item.archers.ranger_armor_head": "Капюшон охотника",
+
+    "item.archers.ranger_armor_chest": "Куртка охотника",
+
+    "item.archers.ranger_armor_legs": "Штаны охотника",
+
+    "item.archers.ranger_armor_feet": "Ботинки охотника",
+
+    "item.archers.composite_longbow": "Композитный большой лук",
+
+    "item.archers.mechanic_shortbow": "Механический короткий лук",
+
+    "item.archers.royal_longbow": "Позолоченный большой лук",
+
+    "item.archers.rapid_crossbow": "Скоростной арбалет",
+
+    "item.archers.heavy_crossbow": "Тяжёлый арбалет",
+
+    "item.archers.netherite_shortbow": "Незеритовый короткий лук",
+
+    "item.archers.netherite_longbow": "Незеритовый большой лук",
+
+    "item.archers.netherite_rapid_crossbow": "Незеритовый скоростной арбалет",
+
+    "item.archers.netherite_heavy_crossbow": "Незеритовый тяжёлый арбалет",
+
+    "item.archers.crystal_shortbow": "Кристалический короткий лук",
+
+    "item.archers.crystal_longbow": "Кристалический большой лук",
+
+    "item.archers.ruby_rapid_crossbow": "Рубиновый скоростной арбалет",
+
+    "item.archers.ruby_heavy_crossbow": "Рубиновый тяжёлый арбалет",
+
+    "item.archers.archer_spell_book": "Пособие лучника",
+
+    "spell.archers.power_shot.name": "Мощный выстрел",
+
+    "spell.archers.power_shot.description": "Производит мощный выстрел снаряда и накладывает на цель метку длительностью в {effect_duration} сек., тем самым повышая её урон на 5%%. Действие эффекта может складываться до {effect_amplifier} раз",
+
+    "effect.archers.hunters_mark": "Метка охотника",
+
+    "effect.archers.hunters_mark.description": "Увеличивает урон, получаемый от всех источников, на 5%%",
+
+    "spell.archers.entangling_roots.name": "Заросшие корни",
+
+    "spell.archers.entangling_roots.description": "Наделяет область растущими из-под земли корнями, замедляя врагов на {cloud_duration} сек.",
+
+    "effect.archers.entangling_roots": "Заросшие корни",
+
+    "effect.archers.entangling_roots.description": "Уменьшает скорость передвижения",
+
+    "spell.archers.barrage.name": "Шквал",
+
+    "spell.archers.barrage.description": "Производит серию выстрелов",
+
+    "spell.archers.magic_arrow.name": "Магическая стрела",
+
+    "spell.archers.magic_arrow.description": "Выпускает магическую стрелу, которая пронзает всех врагов на своём пути, нанося каждому {damage} урона.",
+
+    "advancements.rpg_series.path_choose_archer.title": "Путь лучника",
+
+    "advancements.rpg_series.path_choose_archer.description": "Создайте Руководство лучника",
+
+    "advancements.rpg_series.spell_novice_archer.title": "Смертоносные выстрелы",
+
+    "advancements.rpg_series.spell_novice_archer.description": "Получите своё первое умение лучника",
+
+    "advancements.rpg_series.spell_master_archer.title": "Выдающийся охотник",
+
+    "advancements.rpg_series.spell_master_archer.description": "Заполучите все умения лучника",
+
+    "advancements.rpg_series.obtain_arrow.title": "Время охоты",
+
+    "advancements.rpg_series.obtain_arrow.description": "Получите стрелу"
+}

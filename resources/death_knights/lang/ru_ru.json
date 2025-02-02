@@ -1,0 +1,123 @@
+{
+    "itemGroup.death_knights.main":                         "Рыцари Смерти",
+    
+    "attribute.name.death_knights.blood_power":             "Сила Крови",
+    "attribute.name.death_knights.unholy_power":            "Сила Нечестивости",
+
+    "effect.death_knights.blood_power":                     "Сила Крови",
+    "effect.death_knights.unholy_power":                    "Сила Нечестивости",
+
+    "enchantment.death_knights.decaying":                   "Разложение",
+    "enchantment.death_knights.decaying.desc":              "Увеличивает урон, наносимый Силами Кровавых и Нечестивых Заклинаний.",
+    "enchantment.death_knights.decaying.description":       "Увеличивает урон, наносимый Силами Кровавых и Нечестивых Заклинаний.",
+
+    "item.death_knights.blood_stone":                       "Кровавая Руна",
+    "item.death_knights.unholy_stone":                      "Нечестивая Руна",
+    
+    "item.death_knights.runecarved_stone":                  "Рунический Камень",
+
+    "item.death_knights.blood_spell_book":                  "Том Вампирского Знания",
+    "item.death_knights.unholy_spell_book":                 "Том Нечестивых Учений",
+    "item.death_knights.frost_spell_book":                  "Том Вечной Зимы",
+
+    "item.death_knights.initiate_runeblade":                "Железный Рунический Клинок",
+    "item.death_knights.diamond_runeblade":                 "Алмазный Рунический Клинок",
+    "item.death_knights.netherite_runeblade":               "Незеритовый Рунический Клинок",
+    "item.death_knights.ruby_runeblade":                    "Рубиновый Рунический Клинок",
+    "item.death_knights.aeternium_runeblade":               "Этерниумовый Рунический Клинок",
+
+    "item.death_knights.great_iron_runeblade":              "Великий Железный Рунический Клинок",
+    "item.death_knights.great_diamond_runeblade":           "Великий Алмазный Рунический Клинок",
+    "item.death_knights.great_netherite_runeblade":         "Великий Незеритовый Рунический Клинок",
+    "item.death_knights.great_ruby_runeblade":              "Великий Рубиновый Рунический Клинок",
+    "item.death_knights.great_aeternium_runeblade":         "Великий Этерниумовый Рунический Клинок",
+
+    "item.death_knights.great_iron_runeaxe":                "Великий Железный Рунный Топор",
+    "item.death_knights.great_diamond_runeaxe":             "Великий Алмазный Рунный Топор",
+    "item.death_knights.great_netherite_runeaxe":           "Великий Незеритовый Рунный Топор",
+    "item.death_knights.great_ruby_runeaxe":                "Великий Рубиновый Рунный Топор",
+    "item.death_knights.great_aeternium_runeaxe":           "Великий Этерниумовый Рунный Топор",
+
+    "item.death_knights.initiate_armor_head":               "Капюшон Зова Смерти",
+    "item.death_knights.initiate_armor_chest":              "Туника Зова Смерти",
+    "item.death_knights.initiate_armor_legs":               "Поножи Зова Смерти",
+    "item.death_knights.initiate_armor_feet":               "Ботинки Зова Смерти",
+
+    "item.death_knights.frozen_champion_armor_head":        "Шлем Ледяного Чемпиона",
+    "item.death_knights.frozen_champion_armor_chest":       "Нагрудник Ледяного Чемпиона",
+    "item.death_knights.frozen_champion_armor_legs":        "Ножные Пластины Ледяного Чемпиона",
+    "item.death_knights.frozen_champion_armor_feet":        "Ботинки Ледяного Чемпиона",
+
+    "item.death_knights.plaguebringer_armor_head":          "Шлем Разносчика Чумы",
+    "item.death_knights.plaguebringer_armor_chest":         "Нагрудник Разносчика Чумы",
+    "item.death_knights.plaguebringer_armor_legs":          "Ножные Пластины Разносчика Чумы",
+    "item.death_knights.plaguebringer_armor_feet":          "Ботинки Разносчика Чумы",
+
+    "item.death_knights.crimson_guard_armor_head":          "Шлем Багряного Стража",
+    "item.death_knights.crimson_guard_armor_chest":         "Нагрудник Багряного Стража",
+    "item.death_knights.crimson_guard_armor_legs":          "Ножные Пластины Багряного Стража",
+    "item.death_knights.crimson_guard_armor_feet":          "Ботинки Багряного Стража",
+
+    "item.death_knights.frost_dk_ring":                     "Кольцо Вечной Зимы",
+    "item.death_knights.frost_dk_ring.lore":                "Рожденное из смерти и холода, никто не знает, откуда появилось это древнее кольцо.",
+    "item.death_knights.frost_dk_necklace":                 "Бич Драконов",
+    "item.death_knights.frost_dk_necklace.lore":            "Созданный из остатков древнего ледяного дракона.",
+
+    "item.death_knights.unholy_dk_ring":                    "Печать Смерти",
+    "item.death_knights.unholy_dk_ring.lore":               "Прислушайтесь... услышьте боль и страдания проклятых душ, сдерживаемых взаперти этого кольца.",
+    "item.death_knights.unholy_dk_necklace":                "Эхо Проклятого",
+    "item.death_knights.unholy_dk_necklace.lore":           "Прошедшее через многие поколения, проклинаемое душой каждого владельца, что его хранили.",
+
+    "item.death_knights.blood_dk_ring":                     "Кольцо Жажды Крови",
+    "item.death_knights.blood_dk_ring.lore":                "Кровь тех, кто использовал это кольцо, все ещё стекает с него и по сей день.",
+    "item.death_knights.blood_dk_necklace":                 "Ожерелье Кровавой Королевы",
+    "item.death_knights.blood_dk_necklace.lore":            "Выкованный из крови королевы, может содержать проклятье.",
+
+    "spell.death_knights.lesser_death_strike.name":         "Смертельный удар",
+    "spell.death_knights.lesser_death_strike.description":  "Ударьте цель мощной атаков, нанося {damage_1} физического урона и {damage_2} кровавого урона.",
+    "spell.death_knights.death_strike.name":                "Смертельный удар",
+    "spell.death_knights.death_strike.description":         "Ударьте цель мощной атаков, нанося {damage_1} физического урона и {damage_2} кровавого урона. Вы исцеляете 10% от максимального здоровья, а если здоровье уже на максимуме, вы получаете поглощение, эквивалентное 10% от вашего максимального здоровья.",
+    "spell.death_knights.blood_boil.name":                  "Кипящая Кровь",
+    "spell.death_knights.blood_boil.description":           "Пусть вскипит кровь всех врагов в радиусе 8 блоков, нанося {damage_1} кровавого урона и нанося Кровавую Чуму, нанося постоянный урон в секунду.",
+    "spell.death_knights.marrowrend.name":                  "Разрыв Мозга",
+    "spell.death_knights.marrowrend.description":           "Разорвите цель, нанося {damage_1} физического урона и {damage_2} кровавого урона. наносит 3 уровня Сопротивления призывающему, получение урона заберет уровень. Уровень может дойти до 4.",
+    "spell.death_knights.dark_command.name":                "Темный Приказ",
+    "spell.death_knights.dark_command.description":         "Вскрикните и внушите цели, разгневав её, заставив её атаковать вас. Разгневанные враги наносят на 20% меньше урона.",
+
+    "spell.death_knights.lesser_festering_strike.name":     "Гнойный Удар",
+    "spell.death_knights.lesser_festering_strike.description": "Ударьте цель гнойной атакой, нанося {damage_1} физического урона и {damage_2} нечестивого урона.",
+    "spell.death_knights.festering_strike.name":            "Гнойный Удар",
+    "spell.death_knights.festering_strike.description":     "Ударьте цель гнойной атакой, нанося {damage_1} физического урона и {damage_2} нечестивого урона. Наносит два уровня случайной заразы на цель, если у неё нет активной заразы, или увеличивает уровень активной заразы на 2.",
+    "spell.death_knights.death_coil.name":                  "Виток Смерти",
+    "spell.death_knights.death_coil.description":           "Выпустите виток смерти, нанося {damage} нечестивого урона цели. Если цель затронута заразой, она взорвется до 4 раз и нанесет один уровень этой заразы ближайшим не инфицированным целям.",
+    "spell.death_knights.epidemic.name":                    "Эпидемия",
+    "spell.death_knights.epidemic.description":             "Взорвите до 2 уровней активной заразы всех ближайших врагов, и наносите нечестивый урон на каждый уровень заразы каждой затронутой цели.",
+    "spell.death_knights.death_grip.name":                  "Смертельная Хватка",
+    "spell.death_knights.death_grip.description":           "Схватите цель с силой смерти, притягивая её к себе, наделяя медлительностью.",
+
+    "spell.death_knights.lesser_obliterate.name":           "Уничтожение",
+    "spell.death_knights.lesser_obliterate.description":    "Ударьте цель сильной атакой, нанося {damage_1} физического урона и {damage_2} ледяного урона.",
+    "spell.death_knights.obliterate.name":                  "Уничтожение",
+    "spell.death_knights.obliterate.description":           "Ударьте цель сильной атакой, нанося {damage_1} физического урона и {damage_2} ледяного урона. Наделяет цель заморозкой на 2 секунды и увеличивает длительность Безжалостной Зимы и Агонизирующего Дыхания.",
+    "spell.death_knights.frost_strike.name":                "Ледяной Удар",
+    "spell.death_knights.frost_strike.description":         "Наполните свой Рунический Клинок морозом, нанося {damage_2} ледяного урона и {damage_1} физического урона. Если цель заморожена, льдинки будут брошены во всех ближайших врагов, нанося {damage_2} ледяного урона.",
+    "spell.death_knights.remorseless_winter.name":          "Безжалостная Зима",
+    "spell.death_knights.remorseless_winter.description":   "Окружите себя безжалостной зимой, нанося постоянный ледяной урон всем врагам в радиусе 9 блоков каждую секунду, имея маленький шанс заморозить их на секунду каждый раз при нанесении урона.",
+    "spell.death_knights.agonizing_breath.name":            "Агонизирующее Дыхание",
+    "spell.death_knights.agonizing_breath.description":     "Выдыхните конусом холода, нанося большой ледяной урон всем врагам перед вами. Если ни одна цель не задета, дыхание остановится.",
+
+    "effect.death_knights.festering_wound":                 "Гниющая Рана",
+    "effect.death_knights.atrocious_plague":                "Ужасная Чума",
+    "effect.death_knights.atrocious_plague.desc":           "Уменьшает урон, наносимый целями на 10% за уровень.",
+    "effect.death_knights.grevious_plague":                 "Жадная Чума",
+    "effect.death_knights.grevious_plague.desc":            "Уменьшает исцеление, получаемое целью на 15% за уровень.",
+    
+    "effect.death_knights.blood_plague":                    "Кровавая Чума",
+    "effect.death_knights.blood_plague.desc":               "Наносит постоянный урон в секунду, зависящий от силы ближайшего кровавого рыцаря смерти.",
+    "effect.death_knights.blood_thirst":                    "Жажда Крови",
+    "effect.death_knights.blood_thirst.desc":               "Жажда крови берет верх, позволяя наносить урон ближайшим врагам, задетым Кровавой Чумой.",
+    "effect.death_knights.marrowshield":                    "Щит из Останков",
+    "effect.death_knights.marrowshield.desc":               "Защищенные костями падших, вы получаете уровни Сопротивления, теряемые от ударов.",
+    "effect.death_knights.enraged":                         "Разгневанный",
+    "effect.death_knights.enraged.desc":                    "Разгневанный жаждой крови. Вы наносите на 20% меньше урона."
+}

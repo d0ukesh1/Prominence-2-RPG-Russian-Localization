@@ -1,0 +1,15 @@
+{
+  "emi.category.emi_enchanting.enchantments": "Информация о зачаровании",
+  "emi_enchanting.yes_good": "§0Да",
+  "emi_enchanting.no_good": "§4Нет",
+  "emi_enchanting.yes_bad": "§4Да",
+  "emi_enchanting.no_bad": "§0Нет",
+  "emi_enchanting.treasure": "Сокровище: %s",
+  "emi_enchanting.curse": "Проклятье: %s",
+  "emi_enchanting.tradeable": "Обмен Жителей: %s",
+  "emi_enchanting.random": "Случайно Выбираемый: %s",
+  "emi_enchanting.maxLvl": "Максимальный Уровень: %s",
+  "emi_enchanting.valid_items": "Допустимые Предметы",
+  "emi_enchanting.description": "Описание Зачарования",
+  "emi_enchanting.exclusions": "Исключения"
+}

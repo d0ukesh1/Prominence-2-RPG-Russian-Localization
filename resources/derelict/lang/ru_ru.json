@@ -1,0 +1,381 @@
+{
+    "itemGroup.derelict.derelict": [
+        {
+            "text": "Derelict",
+
+            "color": "#F2A6FF"
+        }
+    ],
+
+    "itemGroup.derelict.derelict.tab.general": [
+        {
+            "text": "General Items & Blocks",
+
+            "color": "#F2A6FF"
+        }
+    ],
+
+    "item.derelict.aging_staff": "Трость старения",
+
+    "item.derelict.waxing_staff": "Посох вощения",
+
+    "item.derelict.spiderling_in_a_bucket": "Паучонок в ведре",
+    "entity.derelict.spiderling": "Паучонок",
+
+    "block.derelict.burned_planks": "Обгоревшие доски",
+
+    "block.derelict.burned_log": "Обгоревшее бревно",
+
+    "block.derelict.stripped_burned_log": "Обтёсанное обгоревшее бревно",
+
+    "block.derelict.burned_wood": "Обгоревшая древесина",
+
+    "block.derelict.stripped_burned_wood": "Обтёсанная обгоревшая древесина",
+
+    "block.derelict.burned_stairs": "Обгоревшие ступеньки",
+
+    "block.derelict.burned_slab": "Обгоревшая плита",
+
+    "block.derelict.burned_fence": "Обгоревший забор",
+
+    "block.derelict.burned_fence_gate": "Обгоревшая калитка",
+
+    "block.derelict.burned_door": "Обгоревшая дверь",
+
+    "block.derelict.burned_trapdoor": "Обгоревший люк",
+
+    "block.derelict.burned_button": "Обгоревшая кнопка",
+
+    "block.derelict.burned_pressure_plate": "Обгоревшая нажимная плита",
+
+    "block.derelict.burned_sign": "Обгоревшая табличка",
+
+    "block.derelict.burned_wall_sign": "Обгоревшая подвесная табличка",
+
+    "block.derelict.smoldering_leaves": "Догорающие листья",
+
+    "block.derelict.burned_leaves": "Опалённые листья",
+
+    "block.derelict.smoldering_embers": "Тлеющие угли",
+
+    "block.derelict.smoking_embers": "Дымящиеся угли",
+
+    "block.derelict.dried_grass_block": "Высушенный дёрн",
+
+    "block.derelict.dried_grass": "Высушенная трава",
+
+    "block.derelict.tall_dried_grass": "Высокая высушенная трава",
+
+    "block.derelict.burned_grass_block": "Выжженный дёрн",
+
+    "block.derelict.burned_grass": "Выжженная трава",
+
+    "block.derelict.tall_burned_grass": "Высокая выжженная трава",
+
+    "block.derelict.oak_cover_board": "Дубовая защитная доска",
+
+    "block.derelict.birch_cover_board": "Берёзовая защитная доска",
+
+    "block.derelict.spruce_cover_board": "Еловая защитная доска",
+
+    "block.derelict.jungle_cover_board": "Защитная доска из тропического дерева",
+
+    "block.derelict.dark_oak_cover_board": "Защитная доска из тёмного дуба",
+
+    "block.derelict.acacia_cover_board": "Акациевая защитная доска",
+
+    "block.derelict.mangrove_cover_board": "Мангровая защитная доска",
+
+    "block.derelict.cherry_cover_board": "Вишнёвая защитная доска",
+
+    "block.derelict.warped_cover_board": "Искажённая защитная доска",
+
+    "block.derelict.crimson_cover_board": "Багровая защитная доска",
+
+    "block.derelict.burned_cover_board": "Обгоревшая защитная доска",
+
+    "block.derelict.bamboo_cover_board": "Бамбуковая защитная доска",
+
+    "block.derelict.double_oak_cover_boards": "Двойные дубовые защитные доски",
+
+    "block.derelict.double_birch_cover_boards": "Двойные берёзовые защитные доски",
+
+    "block.derelict.double_spruce_cover_boards": "Двойные еловые защитные доски",
+
+    "block.derelict.double_jungle_cover_boards": "Двойные защитные доски из тропического дерева",
+
+    "block.derelict.double_dark_oak_cover_boards": "Двойные защитные доски из тёмного дуба",
+
+    "block.derelict.double_acacia_cover_boards": "Двойные акациевые защитные доски",
+
+    "block.derelict.double_mangrove_cover_boards": "Двойные мангровые защитные доски",
+
+    "block.derelict.double_cherry_cover_boards": "Двойные вишнёвые защитные доски",
+
+    "block.derelict.double_warped_cover_boards": "Двойные искажённые защитные доски",
+
+    "block.derelict.double_crimson_cover_boards": "Двойные багровые защитные доски",
+
+    "block.derelict.double_burned_cover_boards": "Двойные обгоревшие защитные доски",
+
+    "block.derelict.double_bamboo_cover_boards": "Двойные бамбуковые защитные доски",
+
+    "block.derelict.crossed_oak_cover_boards": "Дубовые защитные доски накрест",
+
+    "block.derelict.crossed_birch_cover_boards": "Берёзовые защитные доски накрест",
+
+    "block.derelict.crossed_spruce_cover_boards": "Еловые защитные доски накрест",
+
+    "block.derelict.crossed_jungle_cover_boards": "Защитные доски из тропического дерева накрест",
+
+    "block.derelict.crossed_dark_oak_cover_boards": "Защитные доски из тёмного дуба накрест",
+
+    "block.derelict.crossed_acacia_cover_boards": "Акациевые защитные доски накрест",
+
+    "block.derelict.crossed_mangrove_cover_boards": "Мангровые защитные доски накрест",
+
+    "block.derelict.crossed_cherry_cover_boards": "Вишнёвые защитные доски накрест",
+
+    "block.derelict.crossed_warped_cover_boards": "Искажённые защитные доски накрест",
+
+    "block.derelict.crossed_crimson_cover_boards": "Багровые защитные доски накрест",
+
+    "block.derelict.crossed_burned_cover_boards": "Обгоревшие защитные доски накрест",
+
+    "block.derelict.crossed_bamboo_cover_boards": "Бамбуковые защитные доски накрест",
+
+    "block.derelict.flickering_redstone_lamp": "Мигающий редстоуновый фонарь",
+
+    "block.derelict.flickering_soul_lantern": "Мигающий фонарь душ",
+
+    "block.derelict.flickering_lantern": "Мигающий фонарь",
+
+    "block.derelict.flickering_jack_o_lantern": "Мигающий светильник Джека",
+
+    "block.derelict.flickering_sea_lantern": "Мигающий морской фонарь",
+
+    "block.derelict.flickering_glowstone": "Мерцающий светокамень",
+    "block.derelict.flickering_shroomlight": "Мерцающий грибосвет",
+    "block.derelict.flickering_end_rod": "Мерцающий стержень Края",
+    "block.derelict.flickering_verdant_froglight": "Мерцающий зелёный лягушачий свет",
+    "block.derelict.flickering_ochre_froglight": "Мерцающий охряный лягушачий свет",
+    "block.derelict.flickering_pearlescent_froglight": "Мерцающий перламутровый лягушачий свет",
+
+    "block.derelict.extinguished_sea_lantern": "Потухший морской фонарь",
+    "block.derelict.extinguished_glowstone": "Потухший светокамень",
+    "block.derelict.extinguished_shroomlight": "Потухший грибосвет",
+    "block.derelict.extinguished_end_rod": "Потухший стержень Края",
+    "block.derelict.extinguished_verdant_froglight": "Потухший зелёный лягушачий свет",
+    "block.derelict.extinguished_ochre_froglight": "Потухший охряный лягушачий свет",
+    "block.derelict.extinguished_pearlescent_froglight": "Потухший перламутровый лягушачий свет",
+
+    "block.derelict.extinguished_lantern": "Потухший фонарь",
+
+    "block.derelict.noctisteel_block": "Блок темностали",
+
+    "block.derelict.cut_noctisteel": "Резной блок темностали",
+
+    "block.derelict.noctisteel_pillar": "Темностальная колонна",
+
+    "block.derelict.cut_noctisteel_stairs": "Резные темностальные ступеньки",
+
+    "block.derelict.cut_noctisteel_slab": "Резная темностальная плита",
+
+    "block.derelict.noctisteel_grate": "Темностальная решётка",
+
+    "block.derelict.noctisteel_chain": "Темностальная цепь",
+
+    "block.derelict.noctisteel_beam": "Темностальная балка",
+
+    "block.derelict.noctisteel_trapdoor": "Темностальной люк",
+
+    "block.derelict.noctisteel_ladder": "Темностальная лестница",
+
+    "block.derelict.noctisteel_patch": "Темностальная обшивка",
+
+    "block.derelict.noctisteel_sheet": "Лист темностали",
+
+    "block.derelict.noctisteel_chain_link_fence": "Темностальное сетчатое ограждение",
+
+    "block.derelict.noctisteel_barbed_wire": "Темностальная колючая проволока",
+
+    "block.derelict.weathered_noctisteel_block": "Состаренный блок темностали",
+
+    "block.derelict.weathered_cut_noctisteel": "Состаренный резной блок темностали",
+
+    "block.derelict.weathered_noctisteel_pillar": "Состаренная темностальная колонна",
+
+    "block.derelict.weathered_cut_noctisteel_stairs": "Состаренные резные темностальные ступеньки",
+
+    "block.derelict.weathered_cut_noctisteel_slab": "Состаренная резная темностальная плита",
+
+    "block.derelict.weathered_noctisteel_grate": "Состаренная темностальная решётка",
+
+    "block.derelict.weathered_noctisteel_chain": "Состаренная темностальная цепь",
+
+    "block.derelict.weathered_noctisteel_beam": "Состаренная темностальная балка",
+
+    "block.derelict.weathered_noctisteel_trapdoor": "Состаренный темностальной люк",
+
+    "block.derelict.weathered_noctisteel_ladder": "Состаренная темностальная лестница",
+
+    "block.derelict.weathered_noctisteel_patch": "Состаренная темностальная обшивка",
+
+    "block.derelict.weathered_noctisteel_sheet": "Состаренный лист темностали",
+
+    "block.derelict.weathered_noctisteel_chain_link_fence": "Состаренное темностальное сетчатое ограждение",
+
+    "block.derelict.weathered_noctisteel_barbed_wire": "Состаренная темностальная колючая проволока",
+
+    "block.derelict.oxidized_noctisteel_block": "Окисленный блок темностали",
+
+    "block.derelict.oxidized_cut_noctisteel": "Окисленный резной блок темностали",
+
+    "block.derelict.oxidized_noctisteel_pillar": "Окисленная темностальная колонна",
+
+    "block.derelict.oxidized_cut_noctisteel_stairs": "Окисленные резные темностальные ступеньки",
+
+    "block.derelict.oxidized_cut_noctisteel_slab": "Окисленная резная темностальная плита",
+
+    "block.derelict.oxidized_noctisteel_grate": "Окисленная темностальная решётка",
+
+    "block.derelict.oxidized_noctisteel_chain": "Окисленная темностальная цепь",
+
+    "block.derelict.oxidized_noctisteel_beam": "Окисленная темностальная балка",
+
+    "block.derelict.oxidized_noctisteel_trapdoor": "Окисленный темностальной люк",
+
+    "block.derelict.oxidized_noctisteel_ladder": "Окисленная темностальная лестница",
+
+    "block.derelict.oxidized_noctisteel_patch": "Окисленная темностальная обшивка",
+
+    "block.derelict.oxidized_noctisteel_sheet": "Окисленный лист темностали",
+
+    "block.derelict.oxidized_noctisteel_chain_link_fence": "Окисленное темностальное сетчатое ограждение",
+
+    "block.derelict.oxidized_noctisteel_barbed_wire": "Окисленная темностальная колючая проволока",
+
+    "block.derelict.waxed_noctisteel_block": "Вощёный блок темностали",
+
+    "block.derelict.waxed_cut_noctisteel": "Вощёный резной блок темностали",
+
+    "block.derelict.waxed_noctisteel_pillar": "Вощёная темностальная колонна",
+
+    "block.derelict.waxed_cut_noctisteel_stairs": "Вощёные резные темностальные ступеньки",
+
+    "block.derelict.waxed_cut_noctisteel_slab": "Вощёная резная темностальная плита",
+
+    "block.derelict.waxed_noctisteel_grate": "Вощёная темностальная решётка",
+
+    "block.derelict.waxed_noctisteel_chain": "Вощёная темностальная цепь",
+
+    "block.derelict.waxed_noctisteel_beam": "Вощёная темностальная балка",
+
+    "block.derelict.waxed_noctisteel_trapdoor": "Вощёный темностальной люк",
+
+    "block.derelict.waxed_noctisteel_ladder": "Вощёная темностальная лестница",
+
+    "block.derelict.waxed_noctisteel_patch": "Вощёная темностальная обшивка",
+
+    "block.derelict.waxed_noctisteel_sheet": "Вощёный лист темностали",
+
+    "block.derelict.waxed_noctisteel_chain_link_fence": "Вощёное темностальное сетчатое ограждение",
+
+    "block.derelict.waxed_noctisteel_barbed_wire": "Вощёная темностальная колючая проволока",
+
+    "block.derelict.waxed_weathered_noctisteel_block": "Вощёный состаренный блок темностали",
+
+    "block.derelict.waxed_weathered_cut_noctisteel": "Вощёный состаренный резной блок темностали",
+
+    "block.derelict.waxed_weathered_noctisteel_pillar": "Вощёная состаренная темностальная колонна",
+
+    "block.derelict.waxed_weathered_cut_noctisteel_stairs": "Вощёные состаренные резные темностальные ступеньки",
+
+    "block.derelict.waxed_weathered_cut_noctisteel_slab": "Вощёная состаренная резная темностальная плита",
+
+    "block.derelict.waxed_weathered_noctisteel_grate": "Вощёная состаренная темностальная решётка",
+
+    "block.derelict.waxed_weathered_noctisteel_chain": "Вощёная состаренная темностальная цепь",
+
+    "block.derelict.waxed_weathered_noctisteel_beam": "Вощёная состаренная темностальная балка",
+
+    "block.derelict.waxed_weathered_noctisteel_trapdoor": "Вощёный состаренный темностальной люк",
+
+    "block.derelict.waxed_weathered_noctisteel_ladder": "Вощёная состаренная темностальная лестница",
+
+    "block.derelict.waxed_weathered_noctisteel_patch": "Вощёная состаренная темностальная обшивка",
+
+    "block.derelict.waxed_weathered_noctisteel_sheet": "Вощёный состаренный лист темностали",
+
+    "block.derelict.waxed_weathered_noctisteel_chain_link_fence": "Вощёное состаренное темностальное сетчатое ограждение",
+
+    "block.derelict.waxed_weathered_noctisteel_barbed_wire": "Вощёная состаренная темностальная колючая проволока",
+
+    "block.derelict.waxed_oxidized_noctisteel_block": "Вощёный окисленный блок темностали",
+
+    "block.derelict.waxed_oxidized_cut_noctisteel": "Вощёный окисленный резной блок темностали",
+
+    "block.derelict.waxed_oxidized_noctisteel_pillar": "Вощёная окисленная темностальная колонна",
+
+    "block.derelict.waxed_oxidized_cut_noctisteel_stairs": "Вощёные окисленные резные темностальные ступеньки",
+
+    "block.derelict.waxed_oxidized_cut_noctisteel_slab": "Вощёная окисленная резная темностальная плита",
+
+    "block.derelict.waxed_oxidized_noctisteel_grate": "Вощёная окисленная темностальная решётка",
+
+    "block.derelict.waxed_oxidized_noctisteel_chain": "Вощёная окисленная темностальная цепь",
+
+    "block.derelict.waxed_oxidized_noctisteel_beam": "Вощёная окисленная темностальная балка",
+
+    "block.derelict.waxed_oxidized_noctisteel_trapdoor": "Вощёный окисленный темностальной люк",
+
+    "block.derelict.waxed_oxidized_noctisteel_ladder": "Вощёная окисленная темностальная лестница",
+
+    "block.derelict.waxed_oxidized_noctisteel_patch": "Вощёная окисленная темностальная обшивка",
+
+    "block.derelict.waxed_oxidized_noctisteel_sheet": "Вощёный окисленный лист темностали",
+
+    "block.derelict.waxed_oxidized_noctisteel_chain_link_fence": "Вощёное окисленное темностальное сетчатое ограждение",
+
+    "block.derelict.waxed_oxidized_noctisteel_barbed_wire": "Вощёная окисленная темностальная колючая проволока",
+
+    "block.derelict.fancy_cobweb": "Диковинная паутинка",
+
+    "block.derelict.fancy_cobweb_with_spider_nest": "Диковинная паутинка с паучьим гнездом",
+
+    "block.derelict.fancy_cobweb.disabled_tooltip": "",
+
+    "block.derelict.fancy_corner_cobweb": "Диковинная угловая паутинка",
+
+    "block.derelict.corner_cobweb": "Угловая паутинка",
+
+    "tag.item.derelict.general_tab": "Общие предметы из Руин Дерелика",
+    "tag.item.derelict.burned_logs": "Обгоревшие бревна",
+    "tag.item.derelict.unwaxed_metals": "Невощённые металлы",
+    "tag.item.derelict.waxed_metals": "Вощёные металлы",
+    "tag.item.derelict.waxed": "Вощёные",
+    "tag.item.derelict.unburned_cover_boards": "Несожженные защитные доски",
+    "tag.item.derelict.unburned_crossed_cover_boards": "Несожженные перекрещенные защитные доски",
+    "tag.item.derelict.unburned_double_cover_boards": "Несожженные двойные защитные доски",
+    "tag.item.derelict.unburned_leaves": "Несожженные листья",
+    "tag.item.derelict.unburned_logs": "Несожженные бревна",
+    "tag.item.derelict.unburned_planks": "Несожженные доски",
+    "tag.item.derelict.unburned_stripped_logs": "Несожженные обтёсанные бревна",
+    "tag.item.derelict.unburned_stripped_wood": "Несожженная обтёсанная древесина",
+    "tag.item.derelict.unburned_wood": "Несожженная древесина",
+    "tag.item.derelict.unburned_wooden_buttons": "Несожженные деревянные кнопки",
+    "tag.item.derelict.unburned_wooden_doors": "Несожженные деревянные двери",
+    "tag.item.derelict.unburned_wooden_fences": "Несожженные деревянные заборы",
+    "tag.item.derelict.unburned_wooden_fence_gates": "Несожженные деревянные ворота",
+    "tag.item.derelict.unburned_wooden_pressure_plates": "Несожженные деревянные нажимные плиты",
+    "tag.item.derelict.unburned_wooden_signs": "Несожженные деревянные таблички",
+    "tag.item.derelict.unburned_wooden_slabs": "Несожженные деревянные плиты",
+    "tag.item.derelict.unburned_wooden_stairs": "Несожженные деревянные лестницы",
+    "tag.item.derelict.unburned_wooden_trapdoors": "Несожженные деревянные люки",
+    "tag.block.derelict.burned_logs": "Обгоревшие бревна",
+    "tag.block.derelict.cobwebs": "Паутина",
+    "tag.block.derelict.cover_boards": "Защитные доски",
+    "tag.block.derelict.metal_sheets": "Металлические листы",
+    "tag.entity_type.derelict.spawns_spiderlings_on_death": "Призывает паучков при смерти",
+    "category.derelict.aging": "Старение"
+}

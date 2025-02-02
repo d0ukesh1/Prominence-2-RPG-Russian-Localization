@@ -1,0 +1,26 @@
+{
+  "item.moretotems.explosive_totem_of_undying": "Взрывной Тотем Бессмертия",
+
+  "item.moretotems.stinging_totem_of_undying": "Жалящий Тотем Бессмертия",
+
+  "item.moretotems.teleporting_totem_of_undying": "Телепортирующий Тотем Бессмертия",
+
+  "item.moretotems.ghastly_totem_of_undying": "Жуткий Тотем Бессмертия",
+
+  "item.moretotems.skeletal_totem_of_undying": "Скелетный Тотем Бессмертия",
+
+  "item.moretotems.tentacled_totem_of_undying": "Щупальцевый Тотем Бессмертия",
+
+  "item.moretotems.rotting_totem_of_undying": "Гниющий Тотем Бессмертия",
+
+  "effect.moretotems.sniper": "Снайпер",
+
+  "effect.moretotems.necrosis": "Некроз",
+
+  "effect.moretotems.cephalopod": "Головоногий",
+
+  "entity.moretotems.summoned_bee": "Тотемная Пчела",
+
+  "entity.moretotems.summoned_zombie": "Тотемный Зомби"
+
+}
