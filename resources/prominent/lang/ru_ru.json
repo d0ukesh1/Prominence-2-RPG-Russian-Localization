@@ -1,0 +1,109 @@
+{
+    "itemGroup.prominent.tab":"Кастомный контент Prominence",
+    "itemGroup.prominent.mythic":"Мифические боссы Prominence",
+    "item.prominent.icon":"Prominent",
+
+    "item.prominent.music_disc_coniferus_forest":"Музыкальная пластинка",
+    "item.prominent.music_disc_coniferus_forest.desc":"Orangery - Coniferus Forest (Тема Главного Меню)",
+    "item.prominent.music_disc_festivities":"Музыкальная пластинка",
+    "item.prominent.music_disc_festivities.desc":"Sideralis Music - Prominent Festivities (Оригинальный Саундтрек)",
+    
+    "item.prominent.knowledge_scroll": "Свиток Знаний",
+    "item.prominent.molten_core": "Литое Ядро",
+    "item.prominent.cinderstone_trophy": "Пепельный Трофей",
+
+    "item.prominent.molten_remnant": "Литой Осколок",
+    "item.prominent.infused_molten_remnant": "Усиленный Литой Осколок",
+
+    "item.prominent.thunderwrath": "Громогнев, Лавовый Шторм",
+    "item.prominent.supernova": "Сверхновая, Смерть Звезды",
+    "item.prominent.fury_of_a_thousand_fists": "Ярость Тысячи Ударов",
+    "item.prominent.frostmourne": "Ледяная Скорбь, Меч Падшего Короля",
+    "item.prominent.azhar": "A'зар, Коса Проклятого",
+    "item.prominent.fyralath": "Фир'Алат, Выжженная Aгония",
+    "item.prominent.ekavar_staff": "Экавар, Великий Пепельный Посох",
+    "item.prominent.ekavar_staff.phase.1": "Аль На'ир, Яркая Звезда",
+    "item.prominent.ekavar_staff.phase.2": "Адассиль, Сожженное Древо",
+    "item.prominent.ekavar_staff.phase.3": "Каз'ель, Морозная Судьба",
+    "item.prominent.ekavar_staff.phase.4": "Ад'анель, Секрет Айна",
+    "item.prominent.ekavar_staff.phase.5": "Сингулярность, Возрождение Звезды",
+    "item.prominent.orion": "Орион, Охотник за звездами",
+    "item.prominent.vaazkar": "Ваазкар, Защитник Расплавленного Города",
+
+    "item.prominent.ashedar": "Аш'эдар, Космические Близнецы",
+    "item.prominent.ash": "Аш, Остаток Солнца",
+    "item.prominent.edar": "Эдар, Полутьма",
+    "item.prominent.ashedar_essence": "Эссенция Аш'эдара, Космических Близнецов",
+
+    "item.prominent.illusion_of_thunderwrath": "Иллюзия Громогнева",
+    "item.prominent.illusion_of_supernova": "Иллюзия Сверхновой",
+    "item.prominent.illusion_of_fury_of_a_thousand_fists": "Иллюзия Ярости Тысячи Ударов",
+    "item.prominent.illusion_of_frostmourne": "Иллюзия Ледяной Скорби",
+    "item.prominent.illusion_of_azhar": "Иллюзия A'зар",
+    "item.prominent.illusion_of_fyralath": "Иллюзия Фир'Алат",
+    "item.prominent.illusion_of_ekavar_staff": "Иллюзия Экавар",
+    "item.prominent.illusion_of_ash": "Иллюзия Аш",
+    "item.prominent.illusion_of_edar": "Иллюзия Эдар",
+    "item.prominent.illusion_of_orion": "Иллюзия Ориона",
+    "item.prominent.illusion_of_vaazkar": "Иллюзия Ваазкар",
+
+    "spell.prominent.supernova.name": "Aстральный Взрыв",
+    "spell.prominent.supernova.description": "Сконцентрируй всю энергию Сверхновой в единой точке, которая взорвётся в летальной новой звезде которая наносит огромный урон всем ближайшим врагам.",
+    "spell.prominent.rage.name": "Разгневаться",
+    "spell.prominent.rage.description": "Раскрой свой внутренний гнев, увеличивая свою скорость атаки на 500% на короткий отрезок времени. Необходим Кулак Ярости и Ярость Тысячи Ударов.",
+
+    "item.prominent.demon_essence": "Демоническая эссенция",
+    "item.prominent.glory_essence": "Эссенция Славы",
+    "item.prominent.wrath_essence": "Эссенция Гнева",
+    
+    "item.prominent.cosmic_essence": "Космическая Эссенция",
+    "item.prominent.encased_remnant": "Заключенный остаток",
+
+    "item.prominent.beacon_of_hope": "Маяк Надежды",
+    "item.prominent.broken_beacon_of_hope": "Разбитый Маяк Надежды",
+
+    "item.prominent.empty_vessel": "Пепельный Сосуд",
+    "item.prominent.void_hourglass": "Пустотные Песочные часы",
+    "item.prominent.lesser_mythical_essence": "Малая Мифическая Эссенция",
+    "item.prominent.greater_mythical_essence": "Великая Мифическая Эссенция",
+    "effect.prominent.mythic": "Мифический",
+
+    "effect.prominent.obliterated_agony": "Стёртая Агония",
+    "effect.prominent.remorseless_winter": "Безжалостная Зима",
+    "effect.prominent.agonizing_breath": "Агонизирующее Дыхание",
+    "effect.prominent.broken_soul": "Сломанная Душа",
+    "effect.prominent.soul_absorption": "Поглощение Душ",
+
+    "effect.prominent.solar_eclipse": "Солнечное Затмение",
+    "effect.prominent.lunar_eclipse": "Лунное Затмение",
+    "effect.prominent.darkening": "Тьма",
+    "effect.prominent.sunstrike": "Солнечный Удар",
+    "effect.prominent.moonlight_nova": "Выброс Лунного Света",
+    "effect.prominent.prominence": "Выброс Славы",
+
+    "effect.prominent.faceless_gift": "Безликий Подарок",
+    "effect.prominent.combat": "В Бою",
+
+    "effect.prominent.cooling_flames": "Охлаждающее пламя",
+
+    "attribute.prominent.mythic_level": "Мифический уровень",
+    "attribute.prominent.artifact_damage": "Урон Артефакта",
+    "attribute.prominent.titan_damage": "Урон Хватки Титана",
+    "attribute.prominent.ekavar_phase": "Фаза экавара",
+
+    "block.prominent.volcanic_cinderstone": "Вулканический Пепельный Камень",
+
+    "item.prominent.health_flask.tooltip": "Восстанавливает 10% от Максимального Здоровья и дает Регенерацию IV на 5 секунд.",
+    "item.prominent.health_flask.cooldown": " 2-ух секундная перезарядка",
+
+    "stat.prominent.mythic_reforges": "Мифические Перековки",
+    "stat.prominent.hck_ashedar": "Мифические Испытания, выполненные с Аш'эдар",
+    "stat.prominent.hck_ekavar": "Мифические Испытания, выполненные с Экавар",
+    "stat.prominent.hck_orion": "Мифические Испытания, выполненные с Орион",
+    "stat.prominent.hck_thunderwrath": "Мифические Испытания, выполненные с Громогневом",
+    "stat.prominent.hck_supernova": "Мифические Испытания, выполненные с Сверхновой",
+    "stat.prominent.hck_fury_of_a_thousand_fists": "Мифические Испытания, выполненные с Яростью Тысячи Ударов",
+    "stat.prominent.hck_frostmourne": "Мифические Испытания, выполненные с Ледяной Скорбью",
+    "stat.prominent.hck_azhar": "Мифические Испытания, выполненные с A'зар",
+    "stat.prominent.hck_fyralath": "Мифические Испытания, выполненные с Фир'Алат"
+}

@@ -1,0 +1,16 @@
+{
+    "attribute.name.eternal_attributes.creation_power": "Сила Созидания",
+    "attribute.name.eternal_attributes.life_power": "Сила Жизни",
+    "attribute.name.eternal_attributes.death_power": "Сила Смерти",
+    "attribute.name.eternal_attributes.destruction_power": "Сила Разрушения",
+
+    "attribute.name.eternal_attributes.unholy_power": "Сила Нечестивости",
+    "attribute.name.eternal_attributes.corruption_power": "Сила Порчи",
+
+    "attribute.name.eternal_attributes.astral_power": "Астральная Сила",
+    "attribute.name.eternal_attributes.blood_power": "Сила Крови",
+    "attribute.name.eternal_attributes.nature_power": "Сила Природы",
+    "attribute.name.eternal_attributes.decaying_power": "Сила Угасания",
+
+    "attribute.name.eternal_attributes.corruption_resistance": "Сопротивление Порче"
+}

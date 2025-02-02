@@ -1,0 +1,6 @@
+{
+    "effect.shield_overhaul.stun":"Оглушен",
+    "effect.shield_overhaul.stun.description":"Цель не может двигаться, использовать предметы или атаковать",
+    "effect.shield_overhaul.immunity":"Невосприимчивость к оглушению",
+    "effect.shield_overhaul.immunity.description":"Цель невозможно оглушить"
+}

@@ -1,0 +1,291 @@
+{
+  "generic.dig_speed": "Скорость Копания",
+  "generic.crit_chance": "Шанс Критического удара",
+  "generic.durable": "Прочность",
+  "generic.range_attack_damage": "Урон Атаки с Расстояния",
+
+  "tiered:common_armor_1.label": "Common",
+  "tiered:common_armor_2.label": "Common",
+  "tiered:common_armor_3.label": "Common",
+  "tiered:common_armor_4.label": "Common",
+
+  "tiered:common_tool_1.label": "Common",
+  "tiered:common_tool_2.label": "Common",
+  "tiered:common_tool_3.label": "Common",
+  "tiered:common_tool_4.label": "Common",
+
+  "tiered:common_melee_1.label": "Common",
+  "tiered:common_melee_2.label": "Common",
+  "tiered:common_melee_3.label": "Common",
+  "tiered:common_melee_4.label": "Common",
+
+  "tiered:common_ranged_1.label": "Common",
+  "tiered:common_ranged_2.label": "Common",
+  "tiered:common_ranged_3.label": "Common",
+  "tiered:common_ranged_4.label": "Common",
+
+  "tiered:common_fishing_1.label": "Common",
+  "tiered:common_fishing_2.label": "Common",
+  "tiered:common_fishing_3.label": "Common",
+  "tiered:common_fishing_4.label": "Common",
+
+  "tiered:common_shield_1.label": "Common",
+  "tiered:common_shield_2.label": "Common",
+  "tiered:common_shield_3.label": "Common",
+  "tiered:common_shield_4.label": "Common",
+
+  "tiered:common_elytra_1.label": "Common",
+  "tiered:common_elytra_2.label": "Common",
+  "tiered:common_elytra_3.label": "Common",
+  "tiered:common_elytra_4.label": "Common",
+
+  "tiered:common_staffwand_1.label": "Common",
+  "tiered:common_staffwand_2.label": "Common",
+
+  "tiered:uncommon_armor_1.label": "Uncommon",
+  "tiered:uncommon_armor_2.label": "Uncommon",
+  "tiered:uncommon_armor_3.label": "Uncommon",
+  "tiered:uncommon_armor_4.label": "Uncommon",
+
+  "tiered:uncommon_tool_1.label": "Uncommon",
+  "tiered:uncommon_tool_2.label": "Uncommon",
+  "tiered:uncommon_tool_3.label": "Uncommon",
+  "tiered:uncommon_tool_4.label": "Uncommon",
+
+  "tiered:uncommon_melee_1.label": "Uncommon",
+  "tiered:uncommon_melee_2.label": "Uncommon",
+  "tiered:uncommon_melee_3.label": "Uncommon",
+  "tiered:uncommon_melee_4.label": "Uncommon",
+
+  "tiered:uncommon_ranged_1.label": "Uncommon",
+  "tiered:uncommon_ranged_2.label": "Uncommon",
+  "tiered:uncommon_ranged_3.label": "Uncommon",
+  "tiered:uncommon_ranged_4.label": "Uncommon",
+
+  "tiered:uncommon_fishing_1.label": "Uncommon",
+  "tiered:uncommon_fishing_2.label": "Uncommon",
+  "tiered:uncommon_fishing_3.label": "Uncommon",
+  "tiered:uncommon_fishing_4.label": "Uncommon",
+
+  "tiered:uncommon_shield_1.label": "Uncommon",
+  "tiered:uncommon_shield_2.label": "Uncommon",
+  "tiered:uncommon_shield_3.label": "Uncommon",
+  "tiered:uncommon_shield_4.label": "Uncommon",
+
+  "tiered:uncommon_elytra_1.label": "Uncommon",
+  "tiered:uncommon_elytra_2.label": "Uncommon",
+  "tiered:uncommon_elytra_3.label": "Uncommon",
+  "tiered:uncommon_elytra_4.label": "Uncommon",
+
+  "tiered:uncommon_staffwand_1.label": "Uncommon",
+  "tiered:uncommon_staffwand_2.label": "Uncommon",  
+
+  "tiered:rare_armor_1.label": "Rare",
+  "tiered:rare_armor_2.label": "Rare",
+  "tiered:rare_armor_3.label": "Rare",
+  "tiered:rare_armor_4.label": "Rare",
+
+  "tiered:rare_tool_1.label": "Rare",
+  "tiered:rare_tool_2.label": "Rare",
+  "tiered:rare_tool_3.label": "Rare",
+  "tiered:rare_tool_4.label": "Rare",
+
+  "tiered:rare_melee_1.label": "Rare",
+  "tiered:rare_melee_2.label": "Rare",
+  "tiered:rare_melee_3.label": "Rare",
+  "tiered:rare_melee_4.label": "Rare",
+
+  "tiered:rare_ranged_1.label": "Rare",
+  "tiered:rare_ranged_2.label": "Rare",
+  "tiered:rare_ranged_3.label": "Rare",
+  "tiered:rare_ranged_4.label": "Rare",
+
+  "tiered:rare_fishing_1.label": "Rare",
+  "tiered:rare_fishing_2.label": "Rare",
+  "tiered:rare_fishing_3.label": "Rare",
+  "tiered:rare_fishing_4.label": "Rare",
+
+  "tiered:rare_shield_1.label": "Rare",
+  "tiered:rare_shield_2.label": "Rare",
+  "tiered:rare_shield_3.label": "Rare",
+  "tiered:rare_shield_4.label": "Rare",
+
+  "tiered:rare_elytra_1.label": "Rare",
+  "tiered:rare_elytra_2.label": "Rare",
+  "tiered:rare_elytra_3.label": "Rare",
+  "tiered:rare_elytra_4.label": "Rare",
+
+  "tiered:rare_staffwand_1.label": "Rare",
+  "tiered:rare_staffwand_2.label": "Rare",  
+
+  "tiered:epic_armor_1.label": "Epic",
+  "tiered:epic_armor_2.label": "Epic",
+  "tiered:epic_armor_3.label": "Epic",
+  "tiered:epic_armor_4.label": "Epic",
+
+  "tiered:epic_tool_1.label": "Epic",
+  "tiered:epic_tool_2.label": "Epic",
+  "tiered:epic_tool_3.label": "Epic",
+  "tiered:epic_tool_4.label": "Epic",
+
+  "tiered:epic_melee_1.label": "Epic",
+  "tiered:epic_melee_2.label": "Epic",
+  "tiered:epic_melee_3.label": "Epic",
+  "tiered:epic_melee_4.label": "Epic",
+
+  "tiered:epic_ranged_1.label": "Epic",
+  "tiered:epic_ranged_2.label": "Epic",
+  "tiered:epic_ranged_3.label": "Epic",
+  "tiered:epic_ranged_4.label": "Epic",
+
+  "tiered:epic_fishing_1.label": "Epic",
+  "tiered:epic_fishing_2.label": "Epic",
+  "tiered:epic_fishing_3.label": "Epic",
+  "tiered:epic_fishing_4.label": "Epic",
+
+  "tiered:epic_shield_1.label": "Epic",
+  "tiered:epic_shield_2.label": "Epic",
+  "tiered:epic_shield_3.label": "Epic",
+  "tiered:epic_shield_4.label": "Epic",
+
+  "tiered:epic_elytra_1.label": "Epic",
+  "tiered:epic_elytra_2.label": "Epic",
+  "tiered:epic_elytra_3.label": "Epic",
+  "tiered:epic_elytra_4.label": "Epic",
+
+  "tiered:epic_staffwand_1.label": "Epic",
+  "tiered:epic_staffwand_2.label": "Epic",  
+
+  "tiered:legendary_armor_1.label": "Legendary",
+  "tiered:legendary_armor_2.label": "Legendary",
+  "tiered:legendary_armor_3.label": "Legendary",
+  "tiered:legendary_armor_4.label": "Legendary",
+
+  "tiered:legendary_tool_1.label": "Legendary",
+  "tiered:legendary_tool_2.label": "Legendary",
+  "tiered:legendary_tool_3.label": "Legendary",
+  "tiered:legendary_tool_4.label": "Legendary",
+
+  "tiered:legendary_melee_1.label": "Legendary",
+  "tiered:legendary_melee_2.label": "Legendary",
+  "tiered:legendary_melee_3.label": "Legendary",
+  "tiered:legendary_melee_4.label": "Legendary",
+
+  "tiered:legendary_ranged_1.label": "Legendary",
+  "tiered:legendary_ranged_2.label": "Legendary",
+  "tiered:legendary_ranged_3.label": "Legendary",
+  "tiered:legendary_ranged_4.label": "Legendary",
+
+  "tiered:legendary_fishing_1.label": "Legendary",
+  "tiered:legendary_fishing_2.label": "Legendary",
+  "tiered:legendary_fishing_3.label": "Legendary",
+  "tiered:legendary_fishing_4.label": "Legendary",
+
+  "tiered:legendary_shield_1.label": "Legendary",
+  "tiered:legendary_shield_2.label": "Legendary",
+  "tiered:legendary_shield_3.label": "Legendary",
+  "tiered:legendary_shield_4.label": "Legendary",
+
+  "tiered:legendary_elytra_1.label": "Legendary",
+  "tiered:legendary_elytra_2.label": "Legendary",
+  "tiered:legendary_elytra_3.label": "Legendary",
+  "tiered:legendary_elytra_4.label": "Legendary",
+
+  "tiered:legendary_staffwand_1.label": "Legendary",
+  "tiered:legendary_staffwand_2.label": "Legendary",
+
+  "tiered:mythic_armor_1.label": "Mythic",
+  "tiered:mythic_armor_2.label": "Mythic",
+  "tiered:mythic_armor_3.label": "Mythic",
+  "tiered:mythic_armor_4.label": "Mythic",
+
+  "tiered:mythic_tool_1.label": "Mythic",
+  "tiered:mythic_tool_2.label": "Mythic",
+  "tiered:mythic_tool_3.label": "Mythic",
+  "tiered:mythic_tool_4.label": "Mythic",
+
+  "tiered:mythic_melee_1.label": "Mythic",
+  "tiered:mythic_melee_2.label": "Mythic",
+  "tiered:mythic_melee_3.label": "Mythic",
+  "tiered:mythic_melee_4.label": "Mythic",
+
+  "tiered:mythic_ranged_1.label": "Mythic",
+  "tiered:mythic_ranged_2.label": "Mythic",
+  "tiered:mythic_ranged_3.label": "Mythic",
+  "tiered:mythic_ranged_4.label": "Mythic",
+
+  "tiered:mythic_fishing_1.label": "Mythic",
+  "tiered:mythic_fishing_2.label": "Mythic",
+  "tiered:mythic_fishing_3.label": "Mythic",
+  "tiered:mythic_fishing_4.label": "Mythic",
+
+  "tiered:mythic_shield_1.label": "Mythic",
+  "tiered:mythic_shield_2.label": "Mythic",
+  "tiered:mythic_shield_3.label": "Mythic",
+  "tiered:mythic_shield_4.label": "Mythic",
+
+  "tiered:mythic_elytra_1.label": "Mythic",
+  "tiered:mythic_elytra_2.label": "Mythic",
+  "tiered:mythic_elytra_3.label": "Mythic",
+  "tiered:mythic_elytra_4.label": "Mythic",
+
+  "tiered:mythic_staffwand_1.label": "Mythic",
+  "tiered:mythic_staffwand_2.label": "Mythic",
+
+  "tiered:common.label": "Common",
+  "tiered:uncommon.label": "Uncommon",
+  "tiered:rare.label": "Rare",
+  "tiered:epic.label": "Epic",
+  "tiered:legendary.label": "Legendary",
+  "tiered:mythic.label": "Mythic",
+
+  "text.autoconfig.tiered-client.title": "Конфигурация Tierify",
+  "text.autoconfig.tiered-client.category.default": "Настройки Tierify",
+  "text.autoconfig.tiered-client.category.client_settings": "Пользовательские Настройки",
+  "text.autoconfig.tiered-client.option.lootContainerModifier": "Модификатор Добычи Контейнеров",
+  "text.autoconfig.tiered-client.option.entityItemModifier": "Модификатор Предметов Сущностей",
+  "text.autoconfig.tiered-client.option.craftingModifier": "Модификатор Создания",
+  "text.autoconfig.tiered-client.option.merchantModifier": "Модификатор Торговца",
+  "text.autoconfig.tiered-client.option.reforgeModifier": "Модификатор Перековки",
+  "text.autoconfig.tiered-client.option.levelzReforgeModifier": "Модификатор Перековки УровеньZ",
+  "text.autoconfig.tiered-client.option.luckReforgeModifier": "Модификатор Удачи Перековки",
+  "text.autoconfig.tiered-client.option.mythicReforge": "Мифическая Перековка",
+  "text.autoconfig.tiered-client.option.showReforgingTab": "Показывать Вкладку Перековки",
+  "text.autoconfig.tiered-client.option.xIconPosition": "Позиция Иконки по X",
+  "text.autoconfig.tiered-client.option.yIconPosition": "Позиция Иконки по Y",
+  "text.autoconfig.tiered-client.option.tieredTooltip": "Подсказка Tiered",
+  "text.autoconfig.tiered-client.option.showPlatesOnName": "Показывать Панели на Имени",
+  "text.autoconfig.tiered-client.option.centerName": "Центрировать Имя",
+
+  "container.reforge": "Перековочное Снаряжение",
+  "screen.tiered.reforging_screen": "Перековочное Снаряжение",
+  "screen.tiered.reforge_ingredient": "Требует Ингридиент",
+  "screen.tiered.reforge_damaged": "Требует Полную Прочность",
+
+  "text.tiered.smithing_info_1_1": "Каждое очко умения увеличивает",
+  "text.tiered.smithing_info_1_2": "удачу перековки на %d%%",
+
+  "tiered.attribute.modifier.plus.0": "%s %s %s",
+  "tiered.attribute.modifier.plus.1": "%s %s %s",
+  "tiered.attribute.modifier.plus.2": "%s %s %s",
+
+  "tiered.attribute.modifier.equals.0": "%s %s %s",
+  "tiered.attribute.modifier.equals.1": "%s %s %s",
+  "tiered.attribute.modifier.equals.2": "%s %s %s",
+
+  "tiered.attribute.modifier.take.0": "%s %s %s",
+  "tiered.attribute.modifier.take.1": "%s %s %s",
+  "tiered.attribute.modifier.take.2": "%s %s %s",
+
+  "item.modifiers.hand": "Когда в Руке:",
+
+  "commands.tiered.failed": "Ничего не изменилось. Главная рука цели пуста",
+  "commands.tiered.untier_failed": "Ничего не изменилось. %s из %s не имеет уровня",
+  "commands.tiered.untier": "Разуровнил %s из %s",
+  "commands.tiered.tiering_failed": "Ничего не изменилось. %s из %s не имеет полученного уровня",
+  "commands.tiered.tier": "Увеличен уровень %s из %s",
+
+  "item.tiered.limestone_chunk": "Кусок Известняка",
+  "item.tiered.pyrite_chunk": "Кусок Пирита",
+  "item.tiered.galena_chunk": "Кусок Галенита"
+}
