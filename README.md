@@ -1,2 +1,36 @@
-# Prominence-2-RPG-Russian-Localization
-Перевод сборки Prominence 2 RPG на русский язык
+# Prominence 2 RPG (Russian Localization)
+## Информация
+Локализация модпака Prominence 2 RPG на русский язык
+
+Оригинал модпака можно найти по [ссылке](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg).
+
+## О локализации
+Была протестирована на лаунчерах **CurseForge** и **Prism Launcher**. 
+
+### Установка:
+
+1. [Скачать последний релиз](https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization/releases) перевода и убедиться, что версия модпака и перевода совпадают.
+2. Копируйте с заменой файлы в корневую директорию модпака (например, **C:\Users\USERNAME\curseforge\minecraft\Instances\Prominence II RPG Hasturian Era**)
+3. В игре выберете русский язык.
+4. Наслаждайтесь!
+
+### Авторство
+
+Перевод некоторых элементов интерфейса и квестов был взят с [сайта](https://ru-minecraft.ru/klienty-minecraft/80311-prominence-ii-rpg-perevod-sborki.html).
+
+Это адаптация перевода от автора **strelok656** для актуальной на данный момент версии модпака.
+
+Обнаруженные ошибки локализации и непереведенный текст можно указывать в [Issues](https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization/issues). По мере возможностей локализация будет корректироваться либо мной, либо автором оригинального перевода.
+
+### Заметки по переводу
+
+Моды, которые были удалены из оригинального перевода и их актуальные версии:
+- Eldritch_End-FABRIC-MC1.20.1-0.3.3 ( было Eldritch_End-FABRIC-MC1.20.1-0.3.2)
+- Prominent_Talents-FABRIC-2.7.0 ( было Prominent_Talents-FABRIC-2.4.0, нужно русифицировать характеристики)
+- Prominent-GLOBAL-MC1.20.1-3.9.1 ( было Prominent-GLOBAL-MC1.20.1-3.7.0, были добавлены для зачарований строки по пути \resources\prominent\textures\gui\ench_limit - русифицировать)
+
+Некоторые из вышеперечисленных модов не следует добавлять заново, ведь файлы с перведенными спрайтами были добавлены в \resources. 
+
+Непереведенные элементы интерфейса:
+- По пути \config\fancymenu\assets\gui лежат новые кнопки для инвентаря, в идеале переписать спрайты на русский
+- Разобраться с атрибутами(у некоторых отсутствует перевод)
