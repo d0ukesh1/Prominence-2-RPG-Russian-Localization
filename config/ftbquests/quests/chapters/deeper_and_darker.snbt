@@ -148,7 +148,7 @@
 			}]
 			title: "Убей &3Подражателя"
 			x: 7.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["704CCA2CEAB23B4D"]

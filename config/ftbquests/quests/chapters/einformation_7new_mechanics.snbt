@@ -4740,6 +4740,7 @@
 				"1079F098AE98FCF6"
 			]
 			description: ["&eДостаточно знаний, чтобы понять все сборки четвертого уровня. Хорошая работа."]
+			hide: true
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -4749,7 +4750,6 @@
 				}
 			}
 			id: "74BA5C6954FEFCE8"
-			invisible: true
 			rewards: [{
 				icon: {
 					Count: 1b

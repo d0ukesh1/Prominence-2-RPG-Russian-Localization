@@ -652,19 +652,8 @@
 			id: "5B27C3D3E677563D"
 			invisible: true
 			rewards: [{
-				id: "49781F57CCD891E7"
-				item: {
-					Count: 1b
-					id: "prominent:illusion_of_orion"
-					tag: {
-						soulboundTo: [I;
-							-509841217
-							1799570245
-							-1395779439
-							-155772242
-						]
-					}
-				}
+				id: "532ED5976A9851CC"
+				item: "prominent:illusion_of_orion"
 				type: "item"
 			}]
 			shape: "hexagon"
