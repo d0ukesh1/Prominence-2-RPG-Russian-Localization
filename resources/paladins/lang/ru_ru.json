@@ -2,202 +2,126 @@
     "itemGroup.paladins.general": "Паладины и священники",
 
     "item.paladins.paladin_spell_book": "Манускрипт правосудия",
-
     "item.paladins.priest_spell_book": "Библия",
 
     "item.paladins.paladin_armor_head": "Шлем паладина",
-
     "item.paladins.paladin_armor_chest": "Нагрудник паладина",
-
     "item.paladins.paladin_armor_legs": "Поножи паладина",
-
     "item.paladins.paladin_armor_feet": "Ботинки паладина",
-
     "item.paladins.crusader_armor_head": "Шлем крестоносца",
-
     "item.paladins.crusader_armor_chest": "Нагрудник крестоносца",
-
     "item.paladins.crusader_armor_legs": "Поножи крестоносца",
-
     "item.paladins.crusader_armor_feet": "Ботинки крестоносца",
+    "item.paladins.netherite_crusader_armor_head": "Незеритовый шлем крестоносца",
+    "item.paladins.netherite_crusader_armor_chest": "Незеритовый нагрудник крестоносца",
+    "item.paladins.netherite_crusader_armor_legs": "Незеритовые поножи крестоносца",
+    "item.paladins.netherite_crusader_armor_feet": "Незеритовые сапоги крестоносца",
 
     "item.paladins.stone_claymore": "Каменный клеймор",
-
     "item.paladins.iron_claymore": "Железный клеймор",
-
     "item.paladins.golden_claymore": "Золотой клеймор",
-
     "item.paladins.diamond_claymore": "Алмазный клеймор",
-
     "item.paladins.netherite_claymore": "Незеритовый клеймор",
-
     "item.paladins.aeternium_claymore": "Этериевый клеймор",
-
     "item.paladins.ruby_claymore": "Рубиновый клеймор",
 
     "item.paladins.wooden_great_hammer": "Деревянный боевой молот",
-
     "item.paladins.stone_great_hammer": "Каменный боевой молот",
-
     "item.paladins.iron_great_hammer": "Железный боевой молот",
-
     "item.paladins.golden_great_hammer": "Золотой боевой молот",
-
     "item.paladins.diamond_great_hammer": "Алмазный боевой молот",
-
     "item.paladins.netherite_great_hammer": "Незеритовый боевой молот",
-
     "item.paladins.aeternium_great_hammer": "Этериевый боевой молот",
-
     "item.paladins.ruby_great_hammer": "Рубиновый боевой молот",
 
     "item.paladins.stone_mace": "Каменная булава",
-
     "item.paladins.iron_mace": "Железная булава",
-
     "item.paladins.golden_mace": "Золотая булава",
-
     "item.paladins.diamond_mace": "Алмазная булава",
-
     "item.paladins.netherite_mace": "Незеритовая булава",
-
     "item.paladins.aeternium_mace": "Этериевая булава",
-
     "item.paladins.ruby_mace": "Рубиновая булава",
 
     "item.paladins.priest_robe_head": "Воротник священника",
-
     "item.paladins.priest_robe_chest": "Одеяние священника",
-
     "item.paladins.priest_robe_legs": "Штаны священника",
-
     "item.paladins.priest_robe_feet": "Ботинки священника",
-
     "item.paladins.prior_robe_head": "Воротник приора",
-
     "item.paladins.prior_robe_chest": "Одеяние приора",
-
     "item.paladins.prior_robe_legs": "Штаны приора",
-
     "item.paladins.prior_robe_feet": "Ботинки приора",
+    "item.paladins.netherite_prior_robe_head": "Незеритовый воротник приора",
+    "item.paladins.netherite_prior_robe_chest": "Незеритовое одеяние приора",
+    "item.paladins.netherite_prior_robe_legs": "Незеритовые штаны приора",
+    "item.paladins.netherite_prior_robe_feet": "Незеритовые ботинки приора",
 
     "item.paladins.acolyte_wand": "Жезл прислужника",
-
     "item.paladins.holy_wand": "Жезл света",
-
     "item.paladins.diamond_holy_wand": "Алмазный жезл света",
-
     "item.paladins.netherite_holy_wand": "Незеритовый жезл света",
 
     "item.paladins.holy_staff": "Посох света",
-
     "item.paladins.diamond_holy_staff": "Алмазный посох света",
-
     "item.paladins.netherite_holy_staff": "Незеритовый посох света",
-
     "item.paladins.ruby_holy_staff": "Рубиновый посох света",
 
     "item.paladins.iron_kite_shield": "Железный щит с гербом",
-
     "item.paladins.golden_kite_shield": "Золотой щит с гербом",
-
     "item.paladins.diamond_kite_shield": "Алмазный щит с гербом",
-
     "item.paladins.netherite_kite_shield": "Незеритовый щит с гербом",
-
     "item.paladins.aeternium_kite_shield": "Этериевый щит с гербом",
-
     "item.paladins.ruby_kite_shield": "Рубиновый щит с гербом",
 
     "spell.paladins.flash_heal.name": "Быстрое исцеление",
-
     "spell.paladins.flash_heal.description": "Восполняет {heal} ед. здоровья вам или союзнику",
-
     "spell.paladins.divine_protection.name": "Божественная защита",
-
     "spell.paladins.divine_protection.description": "Защищает вас от урона {effect_amplifier} раз(а) в течении {effect_duration} сек.",
-
     "effect.paladins.divine_protection": "Божественная защита",
-
     "effect.paladins.divine_protection.description": "Защищает вас от урона",
-
     "spell.paladins.judgement.name": "Правосудие",
-
     "spell.paladins.judgement.description": "Поражает цель и рядом находящихся врагов в радиусе {impact_range} блоков, нанося {damage} ед. урона и ошеломляя их на {effect_duration} сек.",
-
     "effect.paladins.judgement": "Ошеломлён",
-
     "effect.paladins.judgement.description": "Препятствует движению и действиям",
-
     "spell.paladins.battle_banner.name": "Боевое знамя",
-
     "spell.paladins.battle_banner.description": "Увеличивает скорость атаки и сопротивление урону для вас и союзников поблизости, в пределах {cloud_radius} блоков, на {cloud_duration} секунд.",
-
     "effect.paladins.battle_banner": "Боевое знамя",
-
     "effect.paladins.battle_banner.description": "Увеличивает скорость атаки и сопротивление урону",
 
     "spell.paladins.heal.name": "Исцеление",
-
     "spell.paladins.heal.description": "Восполняет {heal} ед. здоровья вам или союзнику",
-
     "spell.paladins.holy_shock.name": "Шок небес",
-
     "spell.paladins.holy_shock.description": "Восполняет вам или союзнику {heal} ед. здоровья или наносит врагу {damage} ед. магического урона",
-
     "spell.paladins.holy_beam.name": "Свет небес",
-
     "spell.paladins.holy_beam.description": "Выпускает луч света, который каждую секунду восполняет {heal} ед. здоровья союзникам и наносит врагам {damage} ед. магического урона",
-
     "spell.paladins.circle_of_healing.name": "Круг исцеления",
-
     "spell.paladins.circle_of_healing.description": "Восполняет {heal} ед. здоровья вам или союзнику и накладывает поглащение на {effect_duration} сек. в небольшом радиусе",
-
     "effect.paladins.priest_absorption": "Поглащение",
-
     "effect.paladins.priest_absorption.description": "Поглощает часть получаемого урона",
-
     "spell.paladins.barrier.name": "Барьер",
-
     "spell.paladins.barrier.description": "Вызывает круговой барьер, защищающий вас и союзников от снарядов, магии или врагов, вошедших в зону действия.",
 
     "entity.paladins.barrier": "Барьер",
-
     "entity.paladins.battle_banner": "Боевое знамя",
-
     "entity.minecraft.villager.monk": "Монах",
-
     "entity.minecraft.villager.paladins:monk": "Монах",
-
     "block.paladins.monk_workbench": "Монашский стол",
-
     "block.paladins.monk_workbench.hint": "Рабочее место монаха",
 
     "advancements.rpg_series.path_choose_paladin.title": "Путь правосудия",
-
     "advancements.rpg_series.path_choose_paladin.description": "Создайте манускрипт правосудия",
-
     "advancements.rpg_series.path_choose_priest.title": "Путь света",
-
     "advancements.rpg_series.path_choose_priest.description": "Создайте Библию",
 
     "advancements.rpg_series.spell_novice_paladin.title": "Ярый защитник",
-
     "advancements.rpg_series.spell_novice_paladin.description": "Получите свое первое заклинание паладина",
-
     "advancements.rpg_series.spell_novice_priest.title": "Святое обещание",
-
     "advancements.rpg_series.spell_novice_priest.description": "Получите свое первое заклинание священника",
 
     "advancements.rpg_series.spell_master_paladin.title": "Бей супастатов...",
-
     "advancements.rpg_series.spell_master_paladin.description": "Заполучите все умения паладина",
-
     "advancements.rpg_series.spell_master_priest.title": "Воистину воскрес!",
-
     "advancements.rpg_series.spell_master_priest.description": "Заполучите все умения священника",
 
     "advancements.rpg_series.obtain_healing_rune.title": "Истинный путь",
-
     "advancements.rpg_series.obtain_healing_rune.description": "Получите руну исцеления"
 }
