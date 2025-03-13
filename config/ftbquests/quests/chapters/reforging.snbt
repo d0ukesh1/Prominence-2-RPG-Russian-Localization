@@ -348,11 +348,18 @@
 			hide: true
 			id: "014ABD8E6E102E16"
 			invisible: true
-			rewards: [{
+			rewards: [
+			{
 				id: "3F13487D35D42A30"
 				item: "prominent:infused_molten_remnant"
 				type: "item"
-			}]
+			}
+			{
+					id: "127869B7CFFDBE8F"
+					item: "prominent:xmog_molten_sword"
+					type: "item"
+				}
+				]
 			shape: "hexagon"
 			size: 1.25d
 			subtitle: "&6Вечные испытания"

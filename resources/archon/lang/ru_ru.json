@@ -88,7 +88,8 @@
   "item.archon.earth_wand": "Посох земли",
   "item.archon.end_wand": "Посох Края",
 
-  "item.archon.tome": "Фолиант заклинаний",
+  "item.archon.spell_tome": "Фолиант заклинаний",
+  "item.archon.soul_tome": "Фолиант души",
 
   "entity.archon.water_bolt": "Водяной залп",
   "entity.minecraft.villager.wizard": "Волшебник",
@@ -110,6 +111,8 @@
 
   "enchantment.archon.arcane": "Знахарство",
   "enchantment.archon.arcane.desc": "Снижает затраты маны на оружие на 10% за уровень",
+  "enchantment.archon.reaping": "Жатва",
+  "enchantment.archon.reaping.desc": "Мобы теряют свои души после смерти",
 
   "attribute.name.generic.max_mana": "Максимальная мана",
 
@@ -141,6 +144,12 @@
   "spell.archon.astrofall": "Звездопад",
   "spell.archon.warp": "Искажение",
 
+  "summon.archon.hound_pack": "Стая гончих",
+  "summon.archon.silver_swarm": "Серебряный рой",
+  "summon.archon.archer": "Лучник",
+  "summon.archon.twin_knights": "Рыцари-близнецы",
+  "summon.archon.titan": "Титан",
+
   "text.archon.capacity": "Вместимость",
   "text.archon.accelerate": "Ускорение",
   "text.archon.removal": "Отречение",
@@ -159,7 +168,9 @@
   "text.archon.dial_mode_blind": "Стрелки переведены на: Ослепление",
   "text.archon.obj": "%s",
   "text.archon.current_spell": "Заклинание: %s",
+  "text.archon.current_summon": "Призыв: %s",
   "text.archon.none": "Пусто",
+  "text.archon.summon_none": "Призыв: Пусто",
   "text.archon.shift": "Удерживайте Shift для подробностей",
   "text.archon.set_pos": "Поставить точку телепорта на %s, %s, %s",
   "text.archon.infernal_coat1": "Наделяет огнестойкостью",
@@ -173,6 +184,9 @@
   "text.archon.terranean1": "Наделяет сопротивлением и отражением снарядов на 20с",
   "text.archon.seeking_amulet1": "Нажмите Shift и ПКМ, чтобы установить позицию",
   "text.archon.seeking_amulet2": "ПКМ для телепорта на эту позицию откуда угодно",
+  "text.archon.undead.power": "Сила душ: %s",
+  "text.archon.undead.souls": "Души: %s",
+  "text.archon.no_summons": "У этого посоха нет призывов!",
 
   "text.archon.tar.spawn": "[Тарр] Думаешь сможешь противостоять мне? ГЛУПЕЦ!",
   "text.archon.tar.kill": "[Тарр] Ха! Слишком просто!",

@@ -374,8 +374,14 @@
 			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
 			tasks: [
 				{
-					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
-					criterion: ""
+					count: 4L
+					id: "3B40E2130DDD7AD3"
+					item: "bosses_of_mass_destruction:soul_star"
+					title: "Получи и используй по крайней мере 4 Звезды Души"
+					type: "item"
+				}
+				{
+					entity: "bosses_of_mass_destruction:lich"
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -383,16 +389,10 @@
 							Icon: "prominent:textures/boss_icons/night_lich.png"
 						}
 					}
-					id: "6B577BDBE2FCAB16"
+					id: "1F9BB747D54F1CD1"
 					title: "&9Срази Ночного Лича"
-					type: "advancement"
-				}
-				{
-					count: 4L
-					id: "3B40E2130DDD7AD3"
-					item: "bosses_of_mass_destruction:soul_star"
-					title: "Получи и используй по крайней мере 4 Звезды Души"
-					type: "item"
+					type: "kill"
+					value: 1L
 				}
 			]
 			title: "&f &9Ночной Лич, Король Всех Королей"
@@ -563,42 +563,6 @@
 			icon: "minecraft:ender_eye"
 			id: "0E567E587E669BED"
 			rewards: [
-				{
-					id: "70136D4984015F56"
-					item: {
-						Count: 1b
-						id: "mcdw:dagger_void_touched_blade"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "mcdw:void_strike"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7D3DC793B74D8837"
-					item: {
-						Count: 1b
-						id: "mcdw:bow_call_of_the_void"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "null"
-									lvl: 1s
-								}
-								{
-									id: "mcdw:fuse_shot"
-									lvl: 1s
-								}
-							]
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "5E60883C821CB3E5"
 					item: "prominent:cinderstone_trophy"
@@ -1723,18 +1687,12 @@
 			size: 1.5d
 			subtitle: "&8[Нажми, чтобы прочитать лор и инструкции]"
 			tasks: [{
-				advancement: "soulsweapons:end_of_reigns"
-				criterion: ""
-				icon: {
-					Count: 1b
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "soulsweapons:item/withered_demon_heart"
-					}
-				}
-				id: "73C1A4EF70AFE2BE"
-				title: "&4Порази Разлагающегося Короля"
-				type: "advancement"
+				entity: "soulsweapons:accursed_lord_boss"
+				icon: "soulsweapons:withered_demon_heart"
+				id: "1E53C2B640C2CED4"
+				title: "&cПорази Разлагающегося Короля"
+				type: "kill"
+				value: 1L
 			}]
 			title: "&f &cРазлагающийся король"
 			x: -11.0d

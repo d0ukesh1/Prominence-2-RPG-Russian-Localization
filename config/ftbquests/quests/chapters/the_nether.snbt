@@ -29,11 +29,6 @@
 					xp_levels: 2
 				}
 				{
-					id: "39ADDD2829E0F754"
-					item: "artifacts:fire_gauntlet"
-					type: "item"
-				}
-				{
 					id: "40CCAD2EFE886731"
 					item: {
 						Count: 1b

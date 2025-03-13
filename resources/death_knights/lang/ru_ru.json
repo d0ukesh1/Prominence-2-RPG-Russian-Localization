@@ -58,6 +58,21 @@
     "item.death_knights.crimson_guard_armor_legs":          "Ножные Пластины Багряного Стража",
     "item.death_knights.crimson_guard_armor_feet":          "Ботинки Багряного Стража",
 
+    "item.death_knights.icebound_knight_armor_head":        "Шлем Ледяного рыцаря",
+    "item.death_knights.icebound_knight_armor_chest":       "Нагрудник Ледяного рыцаря",
+    "item.death_knights.icebound_knight_armor_legs":        "Поножи Ледяного рыцаря",
+    "item.death_knights.icebound_knight_armor_feet":        "Сапоги Ледяного рыцаря",
+
+    "item.death_knights.blightbringer_armor_head":          "Шлем Вестника Порчи",
+    "item.death_knights.blightbringer_armor_chest":         "Нагрудник Вестника Порчи",
+    "item.death_knights.blightbringer_armor_legs":          "Поножи Вестника Порчи",
+    "item.death_knights.blightbringer_armor_feet":          "Сапоги Вестника Порчи",
+
+    "item.death_knights.crimson_knight_armor_head":         "Шлем Багрового рыцаря",
+    "item.death_knights.crimson_knight_armor_chest":        "Нагрудник Багрового рыцаря",
+    "item.death_knights.crimson_knight_armor_legs":         "Поножи Багрового рыцаря",
+    "item.death_knights.crimson_knight_armor_feet":         "Сапоги Багрового рыцаря",
+
     "item.death_knights.frost_dk_ring":                     "Кольцо Вечной Зимы",
     "item.death_knights.frost_dk_ring.lore":                "Рожденное из смерти и холода, никто не знает, откуда появилось это древнее кольцо.",
     "item.death_knights.frost_dk_necklace":                 "Бич Драконов",
