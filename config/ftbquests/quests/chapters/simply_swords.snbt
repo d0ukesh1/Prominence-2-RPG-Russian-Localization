@@ -186,24 +186,11 @@
 			dependencies: ["0F426527B63F854D"]
 			description: ["Это твой первый шаг в &bизучении ячеек&r и &9рунических сил&r!"]
 			id: "574677AD427E33FB"
-			rewards: [
-				{
-					id: "7F3ACDEA0EBADED3"
-					item: {
-						Count: 1b
-						id: "simplyswords:slumbering_lichblade"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
+			rewards: [{
 					id: "4614B78F16F62367"
 					type: "xp_levels"
 					xp_levels: 5
-				}
-			]
+				}]
 			subtitle: "И впрям уникальное."
 			tasks: [{
 				id: "0D8720163BD20211"

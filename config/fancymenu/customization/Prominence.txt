@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = title_screen
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1738159565092
+  last_edited_time = 1740556210318
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:2b2271b3-18af-42bd-8524-e9138858af75-1738159555964] = [groups:][instances:20bae017-bfb3-4656-a84d-b9d8609b127a1701187536401;]
+  [loading_requirement_container_meta:dac06e33-e439-4806-8554-506b17c7f7b7-1740556181025] = [groups:][instances:20bae017-bfb3-4656-a84d-b9d8609b127a1701187536401;]
   [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if][req_id:20bae017-bfb3-4656-a84d-b9d8609b127a1701187536401] = ftbquests
 }
 
@@ -1141,7 +1141,7 @@ vanilla_button {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Language
+  description = Язык
   navigatable = true
   widget_active_state_requirement_container_identifier = 50ca97c1-3fe9-4d6c-91e3-c8d33009e942-1738159556051
   [loading_requirement_container_meta:50ca97c1-3fe9-4d6c-91e3-c8d33009e942-1738159556051] = [groups:][instances:]

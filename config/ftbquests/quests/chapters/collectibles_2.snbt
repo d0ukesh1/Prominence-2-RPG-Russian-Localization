@@ -2365,11 +2365,18 @@
 		{
 			id: "497FCDC2AF27836F"
 			invisible: true
-			rewards: [{
+			rewards: [
+			{
 				id: "072154E1C02961C4"
 				item: "prominent:infused_molten_remnant"
 				type: "item"
-			}]
+			}
+			{
+					id: "33A9169AEAB69112"
+					item: "prominent:xmog_jade_halberd"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.35d
 			subtitle: "&6Вечные испытания"
@@ -2415,7 +2422,7 @@
 					type: "item"
 				}
 			]
-			title: "&cЗвёздный Веер"
+			title: "&cПоклонник Сидералиса"
 			x: -1.5d
 			y: -2.0d
 		}

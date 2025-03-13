@@ -1162,17 +1162,6 @@
 			subtitle: "&7Уровень I &8- [Нажмите, чтобы прочитать руководство]"
 			tasks: [
 				{
-					id: "2B6E23796C90FA24"
-					item: {
-						Count: 1b
-						id: "minecraft:diamond_axe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "0312CC52D893C4BE"
 					item: {
 						Count: 1b
@@ -1219,6 +1208,18 @@
 				{
 					id: "72B8245645ACDA0E"
 					item: "rogues:warrior_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E21A277D16B449A"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
 					optional_task: true
 					type: "item"
 				}
