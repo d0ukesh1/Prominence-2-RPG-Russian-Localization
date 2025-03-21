@@ -1,0 +1,17 @@
+{
+  "name": "Сапоги друида",
+  "icon": "archon:druid_boots",
+  "category": "archon:misc",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "archon:druid_boots",
+      "text": "Сапоги друида - обувь кожаного уровня, которая действует на блоки вокруг как костная мука. Активируется, когда владелец крадётся, хоть на это требуется 30 маны и перезарядка длится 3 секунды."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "archon:druid_boots"
+    }
+  ]
+}

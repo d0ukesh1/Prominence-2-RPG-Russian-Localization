@@ -820,7 +820,6 @@
 			y: -4.0d
 		}
 		{
-			
 			dependencies: ["1DBE4C392FA662F5"]
 			id: "21CE1961E26C1017"
 			rewards: [{
@@ -989,7 +988,6 @@
 					type: "item"
 				}
 				{
-
 					id: "73400EEED20273F7"
 					item: "archon:mend_tome"
 					type: "item"
@@ -1401,7 +1399,6 @@
 					xp_levels: 5
 				}
 				{
-
 					id: "20A8F94E43E23E72"
 					item: "prominent:molten_remnant"
 					type: "item"
@@ -1428,7 +1425,6 @@
 					xp_levels: 5
 				}
 				{
-
 					id: "054D291C0F43FC5E"
 					item: "prominent:molten_remnant"
 					type: "item"
@@ -1455,7 +1451,6 @@
 					xp_levels: 5
 				}
 				{
-
 					id: "1F7A7A90E5C8878D"
 					item: "prominent:molten_remnant"
 					type: "item"
@@ -1482,7 +1477,6 @@
 					xp_levels: 5
 				}
 				{
-
 					id: "372051982668460A"
 					item: "prominent:molten_remnant"
 					type: "item"

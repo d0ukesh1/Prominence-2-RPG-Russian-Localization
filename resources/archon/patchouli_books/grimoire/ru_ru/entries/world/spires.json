@@ -1,0 +1,20 @@
+{
+  "name": "Шпиль",
+  "icon": "minecraft:deepslate_bricks",
+  "category": "archon:world",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Этот вид башен можно найти высоко в лесах и горах. Внутри можно найти $(l:archon:mana/scrolls)свитки$(), блестящие слитки, хлеб и лазурит. Также вам встретятся $(l:archon:misc/mana_leech)мана-пиявки$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "archon:textures/gui/book/spire.png"
+      ],
+      "title": "Шпиль",
+      "border": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Прилив маны",
+  "icon": "archon:textures/mob_effect/mana_boost.png",
+  "category": "archon:effects_enchants",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Прилив маны увеличивает запас маны цели на $(#2895CB)50$() за уровень. Накладывается $(l:archon:mana/mana_catalysts)катализаторами маны$() или через консоль."
+    }
+  ]
+}

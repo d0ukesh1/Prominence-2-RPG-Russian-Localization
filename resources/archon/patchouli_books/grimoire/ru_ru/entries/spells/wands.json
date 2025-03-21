@@ -1,0 +1,26 @@
+{
+  "name": "Посохи",
+  "icon": "archon:water_wand",
+  "category": "archon:spells",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Посохи необходимы для применения заклинаний. Они могут исполнять только заклинания соответствующих им стихий. Чтобы пользоваться посохом, достаточно знать одно заклинаие. Переключение между заклинаниями: shift+ПКМ. Ваше действующее заклинание и необходимая мана будут отображаться в описании посоха."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "archon:fire_wand",
+      "recipe2": "archon:water_wand"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "archon:earth_wand",
+      "recipe2": "archon:sky_wand"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "archon:end_wand"
+    }
+  ]
+}

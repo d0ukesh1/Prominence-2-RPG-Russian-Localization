@@ -1,0 +1,21 @@
+{
+  "name": "Катализаторы маны",
+  "icon": "archon:mana_catalyst",
+  "category": "archon:mana",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Катализаторы маны - это блоки, которые увеличивают запас маны всех игроков в области действия. У каждого катализатора она своя, а прибавка маны определяется типом катализатора. Радиус обычного - 16 блоков, прибавка маны $(#2895CB)50$(), у алмазного - 22 и прибавка $(#2895CB)100$(), у незеритового - 34 и прибавка $(#2895CB)200$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "archon:mana_catalyst",
+      "recipe2": "archon:diamond_mana_catalyst"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "archon:netherite_mana_catalyst"
+    }
+  ]
+}

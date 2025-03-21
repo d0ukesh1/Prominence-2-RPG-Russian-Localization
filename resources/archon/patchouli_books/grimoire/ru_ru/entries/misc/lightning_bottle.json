@@ -1,0 +1,13 @@
+{
+  "name": "Молния в склянке",
+  "icon": "archon:lightning_bottle",
+  "category": "archon:misc",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "archon:lightning_bottle",
+      "text": "Пузырёк можно разбить, выпустив стихию на свободу. А ещё с помощью неё выходит зарядить крипера. Можно купить у $(l:archon:world/wizard)Волшебника$() или кинуть пустую бутылочку в молнию."
+    }
+  ]
+}

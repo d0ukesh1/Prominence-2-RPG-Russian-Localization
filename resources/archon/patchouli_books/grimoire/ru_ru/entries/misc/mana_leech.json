@@ -1,0 +1,16 @@
+{
+  "name": "Мана-пиявка",
+  "icon": "archon:mana_leech_spawn_egg",
+  "category": "archon:misc",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Мана-пиявки слабые, но юркие существа. Они накладывают $(l:archon:effects_enchants/obstructed)Блокирование маны$() при укусе и гнездятся в $(l:archon:world/spires)Шпилях$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "archon:mana_leech"
+    }
+  ]
+}

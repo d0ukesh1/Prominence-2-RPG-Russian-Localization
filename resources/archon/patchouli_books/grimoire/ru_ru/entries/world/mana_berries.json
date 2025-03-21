@@ -1,0 +1,17 @@
+{
+  "name": "Мана-ягоды",
+  "icon": "archon:textures/block/mana_berry_bush_stage3.png",
+  "category": "archon:world",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Кусты мана-ягод растут по всей Тайге, прямо как сладкие ягоды. Полностью созревшие кусты дают 2-3 мана-ягодки."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "archon:mana_berries",
+      "text": "Мана-ягоды восполняют 0.1 насыщения и 2 голода, а также - 10 маны."
+    }
+  ]
+}

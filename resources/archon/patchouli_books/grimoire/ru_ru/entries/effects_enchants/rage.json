@@ -1,0 +1,12 @@
+{
+  "name": "Ярость",
+  "icon": "archon:textures/mob_effect/rage.png",
+  "category": "archon:effects_enchants",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ярость утраивает скорость атаки. Можно получить при использовании заклинания Ярость или через консоль."
+    }
+  ]
+}

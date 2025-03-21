@@ -1,0 +1,12 @@
+{
+  "name": "Крепкая кожа",
+  "icon": "archon:textures/mob_effect/sturdy.png",
+  "category": "archon:effects_enchants",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект Крепкая кожа отражает большинство снарядов. Можно получить, используя $(l:archon:weapons/earth#terranean)Терранитовый топор$() или через консоль."
+    }
+  ]
+}

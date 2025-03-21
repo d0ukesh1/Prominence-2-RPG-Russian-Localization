@@ -1,0 +1,17 @@
+{
+  "name": "Проводник",
+  "icon": "archon:channeler",
+  "category": "archon:mana",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "archon:channeler",
+      "text": "Проводник - это важная вещица, которой можно перенаправлять потоки маны в блоки и тем самым создавать новые предметы. Наполнение маной требует затрат различного её количества. Чтобы посмотреть все рецепты, советуем использовать мод REI."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "archon:channeler"
+    }
+  ]
+}

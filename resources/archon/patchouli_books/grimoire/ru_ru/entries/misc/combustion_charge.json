@@ -1,0 +1,17 @@
+{
+  "name": "Заряд уничтожения",
+  "icon": "archon:combustion_charge",
+  "category": "archon:misc",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "archon:combustion_charge",
+      "text": "Заряд раскапывает область 7x7 блоков пола или стены, оставляя материалы рядом. Можно использовать для крупномасштабных раскопок."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "archon:combustion_charge"
+    }
+  ]
+}

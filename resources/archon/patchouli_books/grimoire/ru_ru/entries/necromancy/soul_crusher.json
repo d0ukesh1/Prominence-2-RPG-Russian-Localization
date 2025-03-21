@@ -1,0 +1,17 @@
+{
+  "name": "Сокрушитель души",
+  "icon": "archon:soul_crusher",
+  "category": "archon:necromancy",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "archon:soul_crusher",
+      "text": "Сокрушитель души - предмет некроманта, который превращает души поверженных врагов в ману. Вместо получения душ, победа над врагами принесёт вам 40 маны за существо."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "archon:soul_crusher"
+    }
+  ]
+}

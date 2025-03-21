@@ -1,0 +1,22 @@
+{
+  "name": "Древние свитки",
+  "icon": "archon:capacity_scroll",
+  "category": "archon:mana",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Древние свитки - специальные предметы, при использовании наделяющие особыми чарами маны. Вы можете привязать к себе лишь $(#2895CB)1 Свиток$(), потому выбирайте с умом!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "archon:capacity_scroll",
+      "text": "Свиток вместимости можно выторговать у $(l:archon:world/wizard)Волшебника$() или найти в $(l:archon:world/spires)Шпилях$(), он увеличивает $(#2895CB)запас маны до 200$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "archon:removal_scroll",
+      "text": "Свиток отречения можно найти в $(l:archon:world/spires)Шпилях$(). Он убирает привязанный к вам свиток."
+    }
+  ]
+}

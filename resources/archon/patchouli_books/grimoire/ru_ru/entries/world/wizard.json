@@ -1,0 +1,23 @@
+{
+  "name": "Житель-волшебник",
+  "icon": "archon:magical_bookshelf",
+  "category": "archon:world",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Волшебник - новая профессия для жителей. Вы можете найти их дома в деревнях или дать жителю работу с помощью волшебной книжной полки. У них продаются $(l:archon:mana/scrolls)свитки$(), ингредиенты, и зачарование $(l:archon:effects_enchants/arcane)Знахарство$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "archon:textures/gui/book/wizard.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "archon:magical_bookshelf"
+    }
+  ]
+}

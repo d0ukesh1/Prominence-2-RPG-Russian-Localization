@@ -1,0 +1,17 @@
+{
+  "name": "Души",
+  "icon": "archon:soul",
+  "category": "archon:necromancy",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Души — это особые предметы, которые можно получить, убивая мобов с помощью $(l:archon:necromancy/soul_scythe)Косы Душ$() или предмета, зачарованного на $(l:archon:effects_enchants/reaping)Жатву$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Использование",
+      "text": "Эти души используются с $(l:archon:necromancy/undead_staff)Посохом Нежити$() для получения Силы Душ. Если у вас в инвентаре есть Посох Нежити, он будет автоматически поглощать подобранные души."
+    }
+  ]
+}

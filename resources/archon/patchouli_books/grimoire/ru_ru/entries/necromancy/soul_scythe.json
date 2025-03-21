@@ -1,0 +1,17 @@
+{
+  "name": "Коса душ",
+  "icon": "archon:soul_scythe",
+  "category": "archon:necromancy",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "archon:soul_scythe",
+      "text": "Коса душ - необходимый садовый инвентарь любого некроманта, позволяет получать $(l:archon:necromancy/souls)души$() за победу над существами (например, за игроков, куриц, зомби)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "archon:soul_scythe"
+    }
+  ]
+}

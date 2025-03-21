@@ -1,0 +1,12 @@
+{
+  "name": "Зачарование Жатвы",
+  "icon": "minecraft:enchanted_book",
+  "category": "archon:effects_enchants",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Зачарование Жатвы можно наложить на оружие, топоры или Посох Нежити. Оно используется для получения $(l:archon:necromancy/souls)душ$(). Жатва является сокровищным зачарованием, и его можно получить только от $(l:archon:world/wizard)Волшебника$() или деревенского библиотекаря."
+    }
+  ]
+}

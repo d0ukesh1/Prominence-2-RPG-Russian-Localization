@@ -1,0 +1,12 @@
+{
+  "name": "Блокирование маны",
+  "icon": "archon:textures/mob_effect/obstructed.png",
+  "category": "archon:effects_enchants",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Блокирование маны перекрывает магический поток цели. Можно получить от $(l:archon:misc/mana_leech)Мана-пиявок$() или через консоль."
+    }
+  ]
+}

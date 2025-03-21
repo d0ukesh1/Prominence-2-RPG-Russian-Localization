@@ -1,0 +1,18 @@
+{
+  "name": "Бутыльки для опыта",
+  "icon": "archon:super_experience_pouch",
+  "category": "archon:misc",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "archon:experience_pouch",
+      "text": "Бутыльки для опыта используются для удобного его хранения. Нажмите ПКМ и бутылочка откроется, а дальше вы решаете - оставить опыт или забрать его. Простые бутыльки могут вмещать до 550 опыта, а большие - до 2920."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "archon:experience_pouch",
+      "recipe2": "archon:super_experience_pouch"
+    }
+  ]
+}
