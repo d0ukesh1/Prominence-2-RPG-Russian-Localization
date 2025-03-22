@@ -1,7 +1,7 @@
 {
-  "attribute.name.spell_power.arcane" : "Сила Заклинаний Тайной магии",
-  "attribute.name.spell_power.fire" : "Сила Заклинаний Огня",
-  "attribute.name.spell_power.frost" : "Сила Заклинаний Льда",
+  "attribute.name.spell_power.arcane" : "\u00a7f\uf951\u00a7r Сила Тайной магии",
+  "attribute.name.spell_power.fire" : "\u00a7f\uf950\u00a7r Сила Огня",
+  "attribute.name.spell_power.frost" : "\u00a7f\uf952\u00a7r Сила Льда",
   "attribute.name.spell_power.healing" : "Сила Заклинаний Исцеления",
   "attribute.name.spell_power.lightning" : "Сила Заклинаний Молнии",
   "attribute.name.spell_power.soul" : "Сила Заклинаний Души",

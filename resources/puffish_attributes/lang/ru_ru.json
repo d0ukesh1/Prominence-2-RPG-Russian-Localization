@@ -3,6 +3,12 @@
 	"attribute.puffish_attributes.player.repair_cost": "Стоимость починки",
 	"attribute.puffish_attributes.player.pickaxe_speed": "Скорость кирки",
 	"attribute.puffish_attributes.player.axe_speed": "Скорость топора",
-	"attribute.puffish_attributes.player.shovel_speed": "Скорость лопаты"
+	"attribute.puffish_attributes.player.shovel_speed": "Скорость лопаты",
+
+	"attribute.name.generic.max_health": "\u00a7f\uf946\u00a7r Максимальное здоровье",
+	"attribute.name.generic.armor": "\u00a7f\uf945\u00a7r Броня",
+	"attribute.name.generic.attack_damage": "\u00a7f\uf943\u00a7r Урон в ближнем бою",
+	"attribute.name.ranged_weapon.damage": "\u00a7f\uf955\u00a7r Урон в дальнем бою",
+	"attribute.name.generic.attack_speed": "\u00a7f\uf944\u00a7r Скорость атаки"
 	
 }

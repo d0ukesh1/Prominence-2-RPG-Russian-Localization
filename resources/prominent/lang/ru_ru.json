@@ -90,6 +90,9 @@
     "attribute.prominent.artifact_damage": "Урон Артефакта",
     "attribute.prominent.titan_damage": "Урон Хватки Титана",
     "attribute.prominent.ekavar_phase": "Фаза экавара",
+    "prominent.artifact_damage": "Урон артефакта",
+    "prominent.artifact_phase": "Фаза артефакта",
+    "prominent.titan_damage": "Урон Хватки титана",
 
     "block.prominent.volcanic_cinderstone": "Вулканический Пепельный Камень",
 
