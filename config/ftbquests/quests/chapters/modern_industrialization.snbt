@@ -1808,12 +1808,12 @@
 			dependencies: ["6314525E36DEA54B"]
 			id: "79802A9D4A83E757"
 			rewards: [
-			{
-				id: "35F90BA880FF48B6"
-				type: "xp_levels"
-				xp_levels: 5
-			}
-			{
+				{
+					id: "35F90BA880FF48B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
 					id: "392AB02FBCD2F27C"
 					item: "prominent:infused_molten_remnant"
 					type: "item"

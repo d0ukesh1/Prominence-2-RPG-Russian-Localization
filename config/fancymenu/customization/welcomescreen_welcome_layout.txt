@@ -35,7 +35,7 @@ scroll_list_customization {
 
 element {
   interactable = true
-  source = Проверьте Официальную Wiki
+  source = Проверь Нашу Wiki
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -91,7 +91,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Start Journey
+  label = Начни Путешествие
   navigatable = true
   widget_active_state_requirement_container_identifier = c5c416ec-befb-4c37-b124-8fcead93479f-1738626064205
   [loading_requirement_container_meta:c5c416ec-befb-4c37-b124-8fcead93479f-1738626064205] = [groups:][instances:]
@@ -160,7 +160,7 @@ element {
 
 element {
   interactable = true
-  source = Присоединяйтесь к нашему Discord
+  source = Заходи в наш Discord
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -593,7 +593,7 @@ element {
 
 element {
   interactable = true
-  source = Быстрый кувырок
+  source = Кувырок
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -642,7 +642,7 @@ element {
 
 element {
   interactable = true
-  source = Вы — Пламенерожденный, созданный С'Келлаком, Создателем Всего Сущего.%n%%n%Вы отправляетесь в неизведанный Верхний мир с заданием остановить Вторжение Пустоты во всех измерения.
+  source = Ты — Пламенерожденный, созданный С'Келлаком, Создателем Всего Сущего.%n%%n%Ты отправляешься в неизведанный Верхний мир с заданием остановить Вторжение Пустоты во всех измерениях.
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -691,7 +691,7 @@ element {
 
 element {
   interactable = true
-  source = Повышайте свой уровень, улучшайте свои сильные стороны и открывайте новые способности.
+  source = Повышай свой уровень, улучшай свои сильные стороны и открывай новые способности.
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -740,7 +740,7 @@ element {
 
 element {
   interactable = true
-  source = Увеличьте масштаб изображения, чтобы рассмотреть вещи поближе.
+  source = Приблизь изображение, чтобы рассмотреть вещи поближе.
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -789,7 +789,7 @@ element {
 
 element {
   interactable = true
-  source = Уклоняйтесь от опасности, уклоняйтесь от атак и уходите от врагов.
+  source = Избегай опасности, уклоняйся от атак и уходи от врагов.
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -838,7 +838,7 @@ element {
 
 element {
   interactable = true
-  source = Отчет о проблеме и обратная связь
+  source = Обратная связь
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -956,7 +956,7 @@ element {
 
 element {
   interactable = true
-  source = Послушайте оригинальный саундтрек
+  source =   Послушай наш саундтрек
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -993,7 +993,7 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = a60b2350-bd9d-49e3-ae13-8430fc09d3b2-1738636563326
-  x = 23
+  x = 35
   y = 3
   width = 172
   height = 20
@@ -1044,7 +1044,7 @@ element {
 
 element {
   interactable = true
-  source = Руководство по производительности
+  source = Гайд по FPS
   source_mode = direct
   shadow = true
   scale = 1.0

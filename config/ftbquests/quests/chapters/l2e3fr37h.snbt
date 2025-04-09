@@ -5,7 +5,7 @@
 	group: "3E586F2160161EEA"
 	icon: "ad_astra:earth_globe"
 	id: "50342FF0C32120E0"
-	order_index: 8
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

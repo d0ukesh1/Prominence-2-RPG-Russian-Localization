@@ -2366,12 +2366,12 @@
 			id: "497FCDC2AF27836F"
 			invisible: true
 			rewards: [
-			{
-				id: "072154E1C02961C4"
-				item: "prominent:infused_molten_remnant"
-				type: "item"
-			}
-			{
+				{
+					id: "072154E1C02961C4"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
 					id: "33A9169AEAB69112"
 					item: "prominent:xmog_jade_halberd"
 					type: "item"

@@ -1,0 +1,23 @@
+{
+  "mods": [
+    "Prominent-GLOBAL-MC1.20.1-3.9.5",
+    "Prominent_Talents-FABRIC-2.7.0",
+    "Tierify-FABRIC-1.20.1-1.2.0",
+    "spellbladenext-1.21.3+1.20.1",
+    "Eldritch_End-FABRIC-MC1.20.1-0.3.3"
+  ],
+  "classes": [],
+  "apply_mods": [],
+  "default_language": "ru_ru",
+  "class_patch": true,
+  "debug_mode": {
+    "is_enable": false,
+    "output_format": "<source> -> <target>",
+    "output_mode": 0,
+    "hide_pairs": 7,
+    "output_node_debug": false,
+    "export_class": false,
+    "use_cache": false,
+    "missing_warn": true
+  }
+}
