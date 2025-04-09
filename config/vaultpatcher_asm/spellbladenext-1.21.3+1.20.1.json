@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Here is name of your module",
+    "desc": "You can describe the module here.",
+    "mods": "And this is the applied mod of your module",
+    "authors": "You can write down your name here",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": {
+      "name": "com.example.mod.SomethingClass",
+      "method": "doSomething",
+      "local": "Lsomething",
+      "i18n": false,
+      "ordinal": 209
+    },
+    "pairs": []
+  }
+]

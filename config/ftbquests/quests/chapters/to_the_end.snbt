@@ -21,7 +21,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-					dependencies: [
+			dependencies: [
 				"263D24D35E699557"
 				"7F0434CFE9CAEF07"
 				"6AD07DC2ED3C734D"
@@ -45,20 +45,20 @@
 			min_required_dependencies: 1
 			rewards: [{
 				id: "0A7247778B088F39"
-					type: "xp_levels"
-					xp_levels: 3
-				}]
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "Чтобы открыть и войти в &5портал Края&r, тебе надо будет использовать глаза из End Remastered. Тебе необходимо &2Исследовать структуры &rчтобы найти их, но некоторые из них могут быть &6созданы"
+			subtitle: "&eВойди в портал Энда, используя 12 уникальных глаз."
 			tasks: [{
 				dimension: "minecraft:the_end"
 				icon: "minecraft:ender_eye"
 				id: "126F26CCB046CD5D"
-				title: "Войди в Край"
+				title: "Вход в Энд"
 				type: "dimension"
 			}]
-			title: "Войди &5в Край"
+			title: "&dКонец?"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -101,7 +101,7 @@
 		{
 			id: "6F658E35279100C8"
 			optional: true
-			subtitle: &7Изготовлено с помощью глаза Ведьмы"
+			subtitle: "&7Изготовлено с помощью глаза Ведьмы"
 			tasks: [{
 				id: "3E473BEA23E8C1FE"
 				item: "endrem:witch_eye"
@@ -211,7 +211,7 @@
 		{
 			id: "72EFFD1039B48784"
 			optional: true
-			subtitle: "&7Найдено в джунглях"
+			subtitle: "&7Найдено в пирамидах джунглей"
 			tasks: [{
 				id: "1239D763D441A4BF"
 				item: "endrem:rogue_eye"
@@ -248,7 +248,7 @@
 		{
 			id: "64E302C442B729B8"
 			optional: true
-			subtitle: "&7Инфузировано на столе зачарования."
+			subtitle: "&7Создается слиянием на столе зачарования."
 			tasks: [{
 				id: "685E4965B8364BEC"
 				item: "endrem:cryptic_eye"

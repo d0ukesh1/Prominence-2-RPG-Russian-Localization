@@ -1,0 +1,283 @@
+[
+  {
+    "name": "Prominent_Talents-FABRIC-2.7.0.jar extracted.",
+    "desc": "Use VaultPatcherDuper extracted mods hardcoded text.",
+    "mods": "Prominent_Talents-FABRIC-2.7.0",
+    "authors": "d0ukesh1",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " (Maximum Level)",
+        "value": "(Максимальный уровень)"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a77\u2022 ",
+        "value": "\u00a77\u2022 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Current Level:",
+        "value": "Текущий уровень:"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " ",
+        "value": " "
+      },
+      {
+        "key": "",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " XP to reach next level",
+        "value": " XP до следующего уровня"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a7f\uf946\u00a77 ",
+        "value": "\u00a7f\uf946\u00a77 "
+      },
+      {
+        "key": " Maximum Health",
+        "value": " Максимум здоровья"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a7f\uf945\u00a77 ",
+        "value": "\u00a7f\uf945\u00a77 "
+      },
+      {
+        "key": " Armor",
+        "value": " Брони"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a7f\uf943\u00a77 ",
+        "value": "\u00a7f\uf943\u00a77 "
+      },
+      {
+        "key": " Physical Damage",
+        "value": " Урона в ближнем бою"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a7f\uf955\u00a77 ",
+        "value": "\u00a7f\uf955\u00a77 "
+      },
+      {
+        "key": " Ranged Damage",
+        "value": " Урона в дальнем бою"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a7f\uf951\u00a77 ",
+        "value": "\u00a7f\uf951\u00a77 "
+      },
+      {
+        "key": " Arcane Power",
+        "value": " Силы Тайной магии"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a7f\uf950\u00a77 ",
+        "value": "\u00a7f\uf950\u00a77 "
+      },
+      {
+        "key": " Fire Power",
+        "value": " Силы Огня"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a7f\uf952\u00a77 ",
+        "value": "\u00a7f\uf952\u00a77 "
+      },
+      {
+        "key": " Frost Power",
+        "value": " Силы Льда"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a7f\uf954\u00a77 ",
+        "value": "\u00a7f\uf954\u00a77 "
+      },
+      {
+        "key": " Unholy Power",
+        "value": " Силы Нечестивости"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a7f\uf953\u00a77 ",
+        "value": "\u00a7f\uf953\u00a77 "
+      },
+      {
+        "key": " Blood Power",
+        "value": " Силы Крови"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.util.TalentTree",
+      "method": "triggerLevelUpClient",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Congratulations! You have reached level ",
+        "value": "Поздравляю! Ты достиг "
+      },
+      {
+        "key": "!",
+        "value": " уровня!"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.util.TalentTree",
+      "method": "triggerLevelUpClient",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": "Level ",
+        "value": "Уровень "
+      }
+    ]
+  }
+]

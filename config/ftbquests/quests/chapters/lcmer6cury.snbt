@@ -5,7 +5,7 @@
 	group: "3E586F2160161EEA"
 	icon: "ad_astra:mercury_globe"
 	id: "429F6931FD1BBEC8"
-	order_index: 12
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{

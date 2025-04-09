@@ -4,26 +4,26 @@
     "death.attack.corruption": "%1$s пал пред порчей.",
     "death.attack.corruption.player": "%1$s пал пред порчей.",
 
-    "eldritch_end.corruption": "§f\uA999§r Порчи",
+    "eldritch_end.corruption": "§f\uA999§r Порча",
     "eldritch_end.corruption.desc": "Количество порчи у игрока.",
-    "eldritch_end.corruption_resistance": "§f\uAB01§r Сопротивления порче",
+    "eldritch_end.corruption_resistance": "§f\uAB01§r Сопротивление порче",
     "eldritch_end.corruption_resistance.desc": "Количество сопротивления порче у игрока.",
     "eldritch_end.corruption.gui.player": "Порча игрока",
     "eldritch_end.corruption.gui.desc.1": "Обуздайте питаемые порчей способности,",
     "eldritch_end.corruption.gui.desc.2": "ценой потери рассудка в процессе.",
 
     "eldritch_end.corruption.gui.effect.name.1": "%COST%: Пробуждение",
-    "eldritch_end.corruption.gui.effect.description.1": "%COST%: Вы берете %TAKEN_DAMAGE% дополнительного урона от всех источников кроме порчи.",
+    "eldritch_end.corruption.gui.effect.description.1": "%COST%: Вы получаете %TAKEN_DAMAGE% дополнительного урона от всех источников, кроме порчи.",
     "eldritch_end.corruption.gui.effect.name.2": "%COST%: Шепот Снизу",
-    "eldritch_end.corruption.gui.effect.description.2": "%COST%: В бою, из земли могут появиться щупальца с шансом %TENTACLE_CHANCE% каждые %TENTACLE_UPDATE_RATE% секунд.",
+    "eldritch_end.corruption.gui.effect.description.2": "%COST%: В бою из земли могут появиться щупальца с шансом %TENTACLE_CHANCE% каждые %TENTACLE_UPDATE_RATE% секунд.",
     "eldritch_end.corruption.gui.effect.name.3": "%COST%: Безумие Изнутри",
-    "eldritch_end.corruption.gui.effect.description.3": "%COST%: Порча начинает влиять на ваше зрение, вы начинаете видеть все с небольшим фиолетовым оттенком, которые увеличивают вашу порчу.",
+    "eldritch_end.corruption.gui.effect.description.3": "%COST%: Порча начинает влиять на ваше зрение, вы начинаете видеть все с небольшим фиолетовым оттенком, который повышает вашу порчу.",
     "eldritch_end.corruption.gui.effect.name.4": "%COST%: Объятья Пустоты",
-    "eldritch_end.corruption.gui.effect.description.4": "%COST%: Вы получаете на %DAMAGE_REDUCTION% меньше урона от всех источников кроме порчи.",
+    "eldritch_end.corruption.gui.effect.description.4": "%COST%: Вы получаете на %DAMAGE_REDUCTION% меньше урона от всех источников, кроме порчи.",
     "eldritch_end.corruption.gui.effect.name.5": "%COST%: Всевидящие Глаза",
     "eldritch_end.corruption.gui.effect.description.5": "%COST%: Каждые %EYES_TENTACLE_RATE% секунд, Зловещие Глаза могут начать охотиться на вас с шансом %EYES_CHANCE%.",
     "eldritch_end.corruption.gui.effect.name.6": "%COST%: Полная Потеря Рассудка",
-    "eldritch_end.corruption.gui.effect.description.6": "%COST%: Безумие начинает охватывать вас, заставляя вас брать %MADNESS_DAMAGE% от вашего максимального здоровья в качестве истинного урона каждую секунду.",
+    "eldritch_end.corruption.gui.effect.description.6": "%COST%: Безумие начинает охватывать вас, заставляя вас получать %MADNESS_DAMAGE% от вашего максимального здоровья в качестве прямого урона каждую секунду.",
     "eldritch_end.corruption.gui.shift": "Нажмите SHIFT для большей информации",
 
     "biome.eldritch_end.hasturian_wastes": "Хастурийская пустыня",
@@ -165,6 +165,5 @@
     "entity.eldritch_end.the_faceless_one": "Безликий",
     "entity.eldritch_end.hastur": "Образ Хастура",
 
-    "entity.eldritch_end.the_faceless": "Безликий",
-    "entity.eldritch_end.hastur": "Изображение Хастура"
+    "entity.eldritch_end.the_faceless": "Безликий"
 }

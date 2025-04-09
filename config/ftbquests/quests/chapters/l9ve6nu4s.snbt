@@ -5,7 +5,7 @@
 	group: "3E586F2160161EEA"
 	icon: "ad_astra:venus_globe"
 	id: "45AFAE5FE9971A23"
-	order_index: 11
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{

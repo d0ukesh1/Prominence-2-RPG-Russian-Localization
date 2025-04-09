@@ -688,19 +688,17 @@
 				xp_levels: 5
 			}]
 			subtitle: "Если ты посмотришь в бездну, бездна посмотрит на тебя. Но если у тебя есть храбрость сразится с любой опасностью, может быть они тебя наградят."
-			tasks: [
-				{
-					id: "3C8E000E958CA1BB"
-					item: {
-						Count: 1b
-						id: "aquamirae:whisper_of_the_abyss"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "3C8E000E958CA1BB"
+				item: {
+					Count: 1b
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "Оружия Морской Бездны"
 			x: -2.5d
 			y: -9.5d

@@ -5,7 +5,7 @@
 	group: "3E586F2160161EEA"
 	icon: "ad_astra:mars_globe"
 	id: "7408CCEC3E990DEE"
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{

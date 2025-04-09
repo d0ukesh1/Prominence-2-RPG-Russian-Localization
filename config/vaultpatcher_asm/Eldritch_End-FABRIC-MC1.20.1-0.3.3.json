@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Here is name of your module",
+    "desc": "You can describe the module here.",
+    "mods": "And this is the applied mod of your module",
+    "authors": "You can write down your name here",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": {
+      "name": "elocindev.eldritch_end.corruption.CorruptionDisplayTooltip",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uab01 ",
+        "value": "\uab01 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.eldritch_end.corruption.CorruptionDisplayTooltip",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Corruption Resistance",
+        "value": " Сопротивление порче"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.eldritch_end.corruption.CorruptionDisplayTooltip",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\ua999 ",
+        "value": "\ua999 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.eldritch_end.corruption.CorruptionDisplayTooltip",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Corruption",
+        "value": " Количество порчи"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.eldritch_end.corruption.CorruptionDisplayTooltip",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\ua999 ",
+        "value": "\ua999 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.eldritch_end.corruption.CorruptionDisplayTooltip",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Affected Corruption",
+        "value": " Уровень порчи"
+      }
+    ]
+  }
+]
