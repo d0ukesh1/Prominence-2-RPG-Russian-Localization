@@ -1,20 +1,23 @@
 [
   {
-    "name": "Here is name of your module",
-    "desc": "You can describe the module here.",
-    "mods": "And this is the applied mod of your module",
-    "authors": "You can write down your name here",
+    "name": "spellbladenext-1.21.3+1.20.1.jar extracted.",
+    "desc": "Translation of the mod especially for https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization",
+    "mods": "spellbladenext-1.21.3+1.20.1",
+    "authors": "d0ukesh1",
     "dynamic": false,
     "i18n": false
   },
   {
     "target_class": {
-      "name": "com.example.mod.SomethingClass",
-      "method": "doSomething",
-      "local": "Lsomething",
-      "i18n": false,
-      "ordinal": 209
+      "name": "elocindev.tierify.item.ReforgeAddition",
+      "method": "method_7851",
+      "local": ""
     },
-    "pairs": []
+    "pairs": [
+      {
+        "key": "Reforging Qualities:",
+        "value": "Свойства перековки:"
+      }
+    ]
   }
 ]

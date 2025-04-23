@@ -1,7 +1,7 @@
 [
   {
     "name": "Prominent-GLOBAL-MC1.20.1-3.9.5.jar extracted",
-    "desc": "Use VaultPatcherDuper extracted mods hardcoded text.",
+    "desc": "Translation of the mod especially for https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization",
     "mods": "Prominent-GLOBAL-MC1.20.1-3.9.5",
     "authors": "d0ukesh1",
     "dynamic": false,
@@ -11,9 +11,7 @@
     "target_class": {
       "name": "com.example.mod.SomethingClass",
       "method": "doSomething",
-      "local": "Lsomething",
-      "i18n": false,
-      "ordinal": 209
+      "local": ""
     },
     "pairs": []
   }

@@ -1,7 +1,7 @@
 [
   {
     "name": "Prominent_Talents-FABRIC-2.7.0.jar extracted.",
-    "desc": "Use VaultPatcherDuper extracted mods hardcoded text.",
+    "desc": "Translation of the mod especially for https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization",
     "mods": "Prominent_Talents-FABRIC-2.7.0",
     "authors": "d0ukesh1",
     "dynamic": false,

@@ -1,20 +1,803 @@
 [
   {
-    "name": "Here is name of your module",
-    "desc": "You can describe the module here.",
-    "mods": "And this is the applied mod of your module",
-    "authors": "You can write down your name here",
+    "name": "spellbladenext-1.21.3+1.20.1.jar extracted.",
+    "desc": "Translation of the mod especially for https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization",
+    "mods": "spellbladenext-1.21.3+1.20.1",
+    "authors": "d0ukesh1",
     "dynamic": false,
     "i18n": false
   },
   {
     "target_class": {
-      "name": "com.example.mod.SomethingClass",
-      "method": "doSomething",
-      "local": "Lsomething",
-      "i18n": false,
-      "ordinal": 209
+      "name": "com.spellbladenext.items.Ashes",
+      "method": "method_7851",
+      "local": ""
     },
-    "pairs": []
+    "pairs": [
+      {
+        "key": "Unidentified.",
+        "value": "Неопознанный."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Ashes",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "A single facet contains the wisdom",
+        "value": "Одна грань содержит мудрость"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Ashes",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "of countless disintegrated worlds.",
+        "value": "несметного множества разрушенных миров."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.EviscerateOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Adds Massacre to a tool, and turns it into a spell container, if it isn't already.",
+        "value": "Добавляет Резню к предмету и превращает его в носитель заклинаний, если он им не является."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.EviscerateOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can only be used on a weapon not already containing a spell.",
+        "value": "Можно использовать только на оружии, которое ещё не содержит заклинание."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.EviscerateOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Drag over an item and right click to use. IRREVERSIBLE. USE CAREFULLY.",
+        "value": "Перетащите на предмет и нажмите правой кнопкой мыши, чтобы использовать. НЕОБРАТИМО. ИСПОЛЬЗУЙТЕ С ОСТОРОЖНОСТЬЮ."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.FinalStrikeOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Adds Sonic Strike to a tool, and turns it into a spell container, if it isn't already.",
+        "value": "Добавляет Звуковой Удар к предмету и превращает его в носитель заклинаний, если он им не является."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.FinalStrikeOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can only be used on a weapon not already containing a spell.",
+        "value": "Можно использовать только на оружии, которое ещё не содержит заклинание."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.FinalStrikeOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Drag over an item and right click to use. IRREVERSIBLE. USE CAREFULLY.",
+        "value": "Перетащите на предмет и нажмите правой кнопкой мыши, чтобы использовать. НЕОБРАТИМО. ИСПОЛЬЗУЙТЕ С ОСТОРОЖНОСТЬЮ."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.FlickerStrikeOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Adds Flicker Strike to a tool, and turns it into a spell container, if it isn't already.",
+        "value": "Добавляет Мерцающее пламя к предмету и превращает его в носитель заклинаний, если он им не является."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.FlickerStrikeOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can only be used on a weapon not already containing a spell.",
+        "value": "Можно использовать только на оружии, которое ещё не содержит заклинание."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.FlickerStrikeOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Drag over an item and right click to use. IRREVERSIBLE. USE CAREFULLY.",
+        "value": "Перетащите на предмет и нажмите правой кнопкой мыши, чтобы использовать. НЕОБРАТИМО. ИСПОЛЬЗУЙТЕ С ОСТОРОЖНОСТЬЮ."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Offering",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Keep in inventory to ward away Hex, consuming the item when hexed.",
+        "value": "Храните в инвентаре, чтобы отразить проклятие, предмет будет израсходован при наложении проклятия."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Offering",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Use on a block to summon a friendly Hexblade portal. Consumed when used.",
+        "value": "Используйте на блоке, чтобы призвать дружественный портал Клинка Проклятий. Расходуется при использовании."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Omni",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Unidentified.",
+        "value": "Неопознанный."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Omni",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "That winter, scorched refugees emerged from the shrine,",
+        "value": "Той зимой из святилища вышли обожжённые беженцы,"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Omni",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "speaking only in strange tongues. They prayed to a new",
+        "value": "говорившие на странных языках. Они молились новому"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Omni",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "symbol of power, not out of love, but out of fear.",
+        "value": "символу силы — не из любви, а из страха."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Orb",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Orbweaver's Grace",
+        "value": "Милость Ткачихи Паутины"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Orb",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Move normally while casting",
+        "value": "Свободное движение во время чтения заклинания"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Magus cannot be summoned outside the Glass Ocean.",
+        "value": "Магуса нельзя призвать за пределами Стеклянного Океана."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Magus' full power is unleashed in the Glass Ocean!",
+        "value": "Полная сила Магуса высвобождается в Стеклянном Океане!"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This dimension seems to diminish Magus' power.",
+        "value": "Эта реальность, похоже, ослабляет силу Магуса."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Magus has no room at your location",
+        "value": "Для Магуса недостаточно места в этом месте"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Magus is already present within 200 blocks.",
+        "value": "Магус уже присутствует в радиусе 200 блоков."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Use to summon Magus, if available.",
+        "value": "Используйте, чтобы призвать Магуса, если это возможно."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Magus is stronger and drops more stuff in the Glass Ocean.",
+        "value": "Магус усиливается и оставляет больше добычи в Стеклянном Океане."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SingularPurpose",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Unidentified.",
+        "value": "Неопознанный."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SingularPurpose",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "The stats of the ",
+        "value": "Характеристики "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SingularPurpose",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " used to create this item determines its stats.",
+        "value": ", использованные для создания этого предмета, определяют его свойства."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SingularPurpose",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Champion that which you love.",
+        "value": "Стань защитником того, что любишь."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SingularPurpose",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "He who fights for nothing - dies for nothing.",
+        "value": "Кто ни за что не борется — тот умирает ни за что."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SmiteOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Adds Smite to a tool, and turns it into a spell container, if it isn't already.",
+        "value": "Добавляет Божественную Кару к предмету и превращает его в носитель заклинаний, если он им не является."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SmiteOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can only be used on a weapon not already containing a spell.",
+        "value": "Можно использовать только на оружии, которое ещё не содержит заклинание."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SmiteOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Drag over an item and right click to use. IRREVERSIBLE. USE CAREFULLY.",
+        "value": "Перетащите на предмет и нажмите правой кнопкой мыши, чтобы использовать. НЕОБРАТИМО. ИСПОЛЬЗУЙТЕ С ОСТОРОЖНОСТЬЮ."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SpellOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Allows a tool to cast spells from a spell book. ",
+        "value": "Позволяет предмету применять заклинания из книги заклинаний."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SpellOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can only be used on a weapon not already containing a spell.",
+        "value": "Можно использовать только на оружии, которое ещё не содержит заклинание."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SpellOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Drag over an item and right click to use. IRREVERSIBLE. USE CAREFULLY.",
+        "value": "Перетащите на предмет и нажмите правой кнопкой мыши, чтобы использовать. НЕОБРАТИМО. ИСПОЛЬЗУЙТЕ С ОСТОРОЖНОСТЬЮ."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Starforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Triggers Elemental Novas on hit, with a 1 second base cooldown and a 0.8 coefficient.",
+        "value": "Вызывает Всплески Стихий при ударе, с базовым откатом в 1 секунду и коэффициентом 0.8."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Starforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Requires runes of the right type, or Spell Infinity.",
+        "value": "Требуются руны подходящего типа или заклинание Бесконечность."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Starforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "The end is written into the beginning.",
+        "value": "Конец уже вписан в начало."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TabulaRasa",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "item.spellbladenext.tabula_rasa.desc2",
+        "value": "item.spellbladenext.tabula_rasa.desc2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TabulaRasa",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "DISABLED via server config",
+        "value": "ОТКЛЮЧЕНО через конфигурацию сервера"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheAvatar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Unidentified.",
+        "value": "Неопознанный."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheAvatar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "The stats of the ",
+        "value": "Характеристики "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheAvatar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " used to create this item determines its stats.",
+        "value": ", использованные для создания этого предмета, определяют его свойства."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheAvatar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Night's promises are dark, for even the stars must be harvested.",
+        "value": "Обещания ночи мрачны, ведь даже звезды подлежат жатве."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheAvatar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Icy fangs seek tender hulls to sink themselves into.",
+        "value": "Ледяные клыки ищут нежные оболочки, чтобы вонзиться в них."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheAvatar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "In my dreams I see a great warrior, his skin scorched black, his fists aflame.",
+        "value": "Во снах я вижу великого воина — его кожа почернела от ожогов, его кулаки пылают."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheSpark",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Spells of non-Arcane Magic Schools",
+        "value": "Заклинания не из школы Тайной магии"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheSpark",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "use your Arcane Power instead.",
+        "value": "будут использовать вашу силу Тайной магии."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheSpark",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Pure arcana, woven like fabric,",
+        "value": "Чистая тайная магия, сотканная как ткань,"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheSpark",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "scalding or freezing to the touch.",
+        "value": "обжигающая или обмораживающая при прикосновении."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.ThesisBook",
+      "method": "method_7864",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Thesis on",
+        "value": "Трактат о"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Voidforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Triggers Elemental Novas on hit, with a 1 second base cooldown and a 0.8 coefficient.",
+        "value": "Вызывает Всплески Стихий при ударе, с базовым откатом в 1 секунду и коэффициентом 0.8."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Voidforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Requires runes of the right type, or Spell Infinity.",
+        "value": "Требуются руны подходящего типа или заклинание Бесконечность."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Voidforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "A weapon born of nothingness,",
+        "value": "Оружие, рождённое из пустоты,"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Voidforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "can only create more nothingness.",
+        "value": "может породить лишь ещё больше пустоты."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.WhirlwindOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Adds Cyclone to a tool, and turns it into a spell container, if it isn't already.",
+        "value": "Добавляет Вихрь к предмету и превращает его в носитель заклинаний, если он им не является."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.WhirlwindOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can only be used on a weapon not already containing a spell.",
+        "value": "Можно использовать только на оружии, которое ещё не содержит заклинание."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.WhirlwindOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Drag over an item and right click to use. IRREVERSIBLE. USE CAREFULLY.",
+        "value": "Перетащите на предмет и нажмите правой кнопкой мыши, чтобы использовать. НЕОБРАТИМО. ИСПОЛЬЗУЙТЕ С ОСТОРОЖНОСТЬЮ."
+      }
+    ]
   }
 ]
