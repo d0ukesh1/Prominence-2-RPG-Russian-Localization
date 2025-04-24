@@ -956,7 +956,7 @@ element {
 
 element {
   interactable = true
-  source =   Послушай наш саундтрек
+  source = Послушай наш саундтрек
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -993,7 +993,7 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = a60b2350-bd9d-49e3-ae13-8430fc09d3b2-1738636563326
-  x = 35
+  x = 23
   y = 3
   width = 172
   height = 20
