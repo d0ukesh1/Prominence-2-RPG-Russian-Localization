@@ -15,34 +15,8 @@
     },
     "pairs": [
       {
-        "key": "ElocinDev",
-        "value": "ElocinDev"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.ProminentLoader",
-      "method": "isValidManifest",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Prominence II RPG Hasturian Era",
-        "value": "Prominence II RPG Хастурианская эра"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.ProminentLoader",
-      "method": "isValidManifest",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "Hello there! You seem to be using Prominent in a modified version of Prominence (or another pack that isn't Prominence). Keep in mind this is not allowed, both Prominent and Prominence have a strict license that does not allow redistribution or public modification, making this either an illegal reupload of Prominence, or a an illegal redistribution of Prominent, as Prominent is not available through CurseForge, so you're also breaking the license of Prominent by overriding the file within the modpack. ",
-        "value": "Привет! Похоже, вы используете Prominent в модифицированной версии Prominence (или другого сборника, который не является Prominence). Имейте в виду, что это запрещено: как Prominent, так и Prominence имеют строгую лицензию, которая не разрешает перераспределение или публичное изменение. Таким образом, это либо незаконная повторная загрузка Prominence, либо незаконное распространение Prominent. Кроме того, Prominent недоступен через CurseForge, поэтому, переопределяя файл внутри модпака, вы также нарушаете лицензию Prominent."
+        "value": "Привет! Похоже, вы используете Prominent в модифицированной версии Prominence (или другого сборника, который не является Prominence). Имейте в виду, что это запрещено: как Prominent, так и Prominence имеют строгую лицензию, которая не разрешает перераспределение или публичное изменение. Таким образом, это либо незаконная повторная загрузка Prominence, либо незаконное распространение Prominent. Кроме того, Prominent недоступен через CurseForge, поэтому, переопределяя файл внутри модпака, вы также нарушаете лицензию Prominent. "
       }
     ]
   },
@@ -54,8 +28,8 @@
     },
     "pairs": [
       {
-        "key": "ꦖ §7Unleash the remnant to upgrade your Artifact weapon.",
-        "value": "ꦖ §7Раскройте потенциал остатков, чтобы улучшить свое артефактное оружие."
+        "key": "\ua996 \u00a77Unleash the remnant to upgrade your Artifact weapon.",
+        "value": "\ua996 \u00a77Раскройте потенциал остатков, чтобы улучшить свое артефактное оружие."
       }
     ]
   },
@@ -136,8 +110,8 @@
     },
     "pairs": [
       {
-        "key": "§7Made from the depths of §cVaaz§7 by the creator of all things, §cS'kellak§7.",
-        "value": "§7Создано в глубинах §cВааза§7 создателем всех вещей, §cС'келлаком§7."
+        "key": "\u00a77Made from the depths of \u00a7cVaaz\u00a77 by the creator of all things, \u00a7cS'kellak\u00a77.",
+        "value": "\u00a77Создано в глубинах \u00a7cВааза\u00a77 создателем всех вещей, \u00a7cС'келлаком\u00a77."
       }
     ]
   },
@@ -149,8 +123,8 @@
     },
     "pairs": [
       {
-        "key": "§7Given as a reward to those who have proven themselves worthy by eliminating the threats of the realms.",
-        "value": "§7Даётся в качестве награды тем, кто доказал свою доблесть, устранив угрозы измерений."
+        "key": "\u00a77Given as a reward to those who have proven themselves worthy by eliminating the threats of the realms.",
+        "value": "\u00a77Даётся в качестве награды тем, кто доказал свою доблесть, устранив угрозы измерений."
       }
     ]
   },
@@ -162,8 +136,8 @@
     },
     "pairs": [
       {
-        "key": "§eComplete Chapter I of Void's Invasion to unlock.",
-        "value": "§eЗавершите Главу I вторжения Пустоты, чтобы разблокировать."
+        "key": "\u00a7eComplete Chapter I of Void's Invasion to unlock.",
+        "value": "\u00a7eЗавершите Главу I вторжения Пустоты, чтобы разблокировать."
       }
     ]
   },
@@ -175,8 +149,8 @@
     },
     "pairs": [
       {
-        "key": "§8This is a personal soulbound item! Do not try to share or destroy or it will break progression.",
-        "value": "§8Это личный привязанный к душе предмет! Не пытайтесь передать его или уничтожить, иначе это нарушит прогресс."
+        "key": "\u00a78This is a personal soulbound item! Do not try to share or destroy or it will break progression.",
+        "value": "\u00a78Это личный привязанный к душе предмет! Не пытайтесь передать его или уничтожить, иначе это нарушит прогресс."
       }
     ]
   },
@@ -539,8 +513,8 @@
     },
     "pairs": [
       {
-        "key": "盧 ",
-        "value": "盧 "
+        "key": "\uf933 ",
+        "value": "\uf933 "
       }
     ]
   },
@@ -552,8 +526,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -565,8 +539,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -578,8 +552,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -604,8 +578,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -695,8 +669,8 @@
     },
     "pairs": [
       {
-        "key": "盧 ",
-        "value": "盧 "
+        "key": "\uf933 ",
+        "value": "\uf933 "
       }
     ]
   },
@@ -708,8 +682,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -739,7 +713,7 @@
       },
       {
         "key": " A'zhar Modifier",
-        "value": " A'zhar Modifier"
+        "value": " Модификатор А'зар"
       }
     ]
   },
@@ -764,8 +738,8 @@
     },
     "pairs": [
       {
-        "key": "盧 ",
-        "value": "盧 "
+        "key": "\uf933 ",
+        "value": "\uf933 "
       }
     ]
   },
@@ -777,8 +751,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -829,8 +803,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -894,8 +868,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -977,7 +951,7 @@
       },
       {
         "key": " Ekavar Modifier",
-        "value": " Ekavar Modifier"
+        "value": " Модификатор Экавар"
       }
     ]
   },
@@ -1028,8 +1002,8 @@
     },
     "pairs": [
       {
-        "key": "盧 ",
-        "value": "盧 "
+        "key": "\uf933 ",
+        "value": "\uf933 "
       }
     ]
   },
@@ -1041,8 +1015,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -1093,8 +1067,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -1132,8 +1106,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -1171,8 +1145,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -1210,8 +1184,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -1249,8 +1223,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -1301,8 +1275,8 @@
     },
     "pairs": [
       {
-        "key": "§9+30% §f陋 §9Arcane Power",
-        "value": "§9+30% §f陋 §9Сила Тайной магии"
+        "key": "\u00a79+30% \u00a7f\uf951 \u00a79Arcane Power",
+        "value": "\u00a79+30% \u00a7f\uf951 \u00a79Сила Тайной магии"
       }
     ]
   },
@@ -1314,8 +1288,8 @@
     },
     "pairs": [
       {
-        "key": "§9+30% §f縷 §9Fire Power",
-        "value": "§9+30% §f縷 §9Сила Огня"
+        "key": "\u00a79+30% \u00a7f\uf950 \u00a79Fire Power",
+        "value": "\u00a79+30% \u00a7f\uf950 \u00a79Сила Огня"
       }
     ]
   },
@@ -1327,8 +1301,8 @@
     },
     "pairs": [
       {
-        "key": "§9+30% §f勒 §9Frost Power",
-        "value": "§9+30% §f勒 §9Сила Льда"
+        "key": "\u00a79+30% \u00a7f\uf952 \u00a79Frost Power",
+        "value": "\u00a79+30% \u00a7f\uf952 \u00a79Сила Льда"
       }
     ]
   },
@@ -1340,8 +1314,8 @@
     },
     "pairs": [
       {
-        "key": "§9+30% §f綾 §9Holy Power",
-        "value": "§9+30% §f綾 §9Сила Исцеления"
+        "key": "\u00a79+30% \u00a7f\uf957 \u00a79Holy Power",
+        "value": "\u00a79+30% \u00a7f\uf957 \u00a79Сила Исцеления"
       }
     ]
   },
@@ -1353,8 +1327,8 @@
     },
     "pairs": [
       {
-        "key": "§9+20% §f稜 §9Astral Power",
-        "value": "§9+20% §f稜 §9Астральная Сила"
+        "key": "\u00a79+20% \u00a7f\uf956 \u00a79Astral Power",
+        "value": "\u00a79+20% \u00a7f\uf956 \u00a79Астральная Сила"
       }
     ]
   },
@@ -1418,8 +1392,8 @@
     },
     "pairs": [
       {
-        "key": "盧 ",
-        "value": "盧 "
+        "key": "\uf933 ",
+        "value": "\uf933 "
       }
     ]
   },
@@ -1431,8 +1405,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -1539,8 +1513,8 @@
     },
     "pairs": [
       {
-        "key": "盧 ",
-        "value": "盧 "
+        "key": "\uf933 ",
+        "value": "\uf933 "
       }
     ]
   },
@@ -1552,8 +1526,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -1604,8 +1578,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -1656,8 +1630,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -1708,8 +1682,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -1773,8 +1747,8 @@
     },
     "pairs": [
       {
-        "key": "盧 ",
-        "value": "盧 "
+        "key": "\uf933 ",
+        "value": "\uf933 "
       }
     ]
   },
@@ -1786,8 +1760,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -1825,8 +1799,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -1864,8 +1838,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -1903,8 +1877,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -1930,7 +1904,7 @@
     "pairs": [
       {
         "key": "Increase the damage dealt by your abilities from the Mintaka's Fright spellbook.",
-        "value": "Увеличивает урон, наносимый вашими способностями из заклинания «Ужас Минтаки»."
+        "value": "Увеличивает урон, наносимый вашими способностями из заклинания 'Ужас Минтаки'."
       }
     ]
   },
@@ -1942,8 +1916,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -1969,7 +1943,7 @@
     "pairs": [
       {
         "key": "Increase the damage dealt by your abilities from the Alnilam's Sight spellbook.",
-        "value": "Увеличивает урон, наносимый вашими способностями из заклинания «Зрение Альнилама»."
+        "value": "Увеличивает урон, наносимый вашими способностями из заклинания 'Зрение Альнилама'."
       }
     ]
   },
@@ -1981,8 +1955,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -2008,7 +1982,7 @@
     "pairs": [
       {
         "key": "Increase the damage dealt by your abilities from the Alnitak's Might spellbook.",
-        "value": "Увеличивает урон, наносимый вашими способностями из заклинания «Мощь Альнитака»."
+        "value": "Увеличивает урон, наносимый вашими способностями из заклинания 'Мощь Альнитака'."
       }
     ]
   },
@@ -2020,8 +1994,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -2059,8 +2033,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -2098,8 +2072,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -2137,8 +2111,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -2164,7 +2138,7 @@
     "pairs": [
       {
         "key": "The Focus Zone passive can now also be applied when using the third ability of any archer spellbook.",
-        "value": "Пассивная способность «Концентрация» теперь также может активироваться при использовании третьей способности из любой стрелковой книги заклинаний."
+        "value": "Пассивная способность 'Концентрация' теперь также может активироваться при использовании третьей способности из любой стрелковой книги заклинаний."
       }
     ]
   },
@@ -2219,8 +2193,8 @@
     },
     "pairs": [
       {
-        "key": "盧 ",
-        "value": "盧 "
+        "key": "\uf933 ",
+        "value": "\uf933 "
       }
     ]
   },
@@ -2245,8 +2219,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -2314,8 +2288,8 @@
     },
     "pairs": [
       {
-        "key": "盧 ",
-        "value": "盧 "
+        "key": "\uf933 ",
+        "value": "\uf933 "
       }
     ]
   },
@@ -2327,8 +2301,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -2379,8 +2353,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -2431,8 +2405,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -2483,8 +2457,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -2535,8 +2509,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -2587,8 +2561,8 @@
     },
     "pairs": [
       {
-        "key": "盧 ",
-        "value": "盧 "
+        "key": "\uf933 ",
+        "value": "\uf933 "
       }
     ]
   },
@@ -2600,8 +2574,8 @@
     },
     "pairs": [
       {
-        "key": "老 ",
-        "value": "老 "
+        "key": "\uf934 ",
+        "value": "\uf934 "
       }
     ]
   },
@@ -2708,8 +2682,8 @@
     },
     "pairs": [
       {
-        "key": "盧 ",
-        "value": "盧 "
+        "key": "\uf933 ",
+        "value": "\uf933 "
       }
     ]
   },
@@ -2721,8 +2695,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -2790,8 +2764,8 @@
     },
     "pairs": [
       {
-        "key": "盧 ",
-        "value": "盧 "
+        "key": "\uf933 ",
+        "value": "\uf933 "
       }
     ]
   },
@@ -2803,8 +2777,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -2868,8 +2842,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -2946,8 +2920,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -3011,8 +2985,8 @@
     },
     "pairs": [
       {
-        "key": "路 ",
-        "value": "路 "
+        "key": "\uf937 ",
+        "value": "\uf937 "
       }
     ]
   },
@@ -3089,8 +3063,8 @@
     },
     "pairs": [
       {
-        "key": "盧 ",
-        "value": "盧 "
+        "key": "\uf933 ",
+        "value": "\uf933 "
       }
     ]
   },
@@ -3132,8 +3106,8 @@
     },
     "pairs": [
       {
-        "key": "露 ",
-        "value": "露 "
+        "key": "\uf938 ",
+        "value": "\uf938 "
       }
     ]
   },
@@ -3145,8 +3119,8 @@
     },
     "pairs": [
       {
-        "key": "蘆 ",
-        "value": "蘆 "
+        "key": "\uf935 ",
+        "value": "\uf935 "
       }
     ]
   },
@@ -3240,8 +3214,8 @@
     },
     "pairs": [
       {
-        "key": "露 ",
-        "value": "露 "
+        "key": "\uf938 ",
+        "value": "\uf938 "
       }
     ]
   },
@@ -3513,8 +3487,8 @@
     },
     "pairs": [
       {
-        "key": "蘆 Loot from Mythic 10+ Bosses",
-        "value": "蘆 Добыча с мифических боссов 10+ уровня."
+        "key": "\uf935 Loot from Mythic 10+ Bosses",
+        "value": "\uf935 Добыча с мифических боссов 10+ уровня."
       }
     ]
   },
@@ -3526,8 +3500,8 @@
     },
     "pairs": [
       {
-        "key": "蘆 Loot from Mythic 20+ Bosses",
-        "value": "蘆 Добыча с мифических боссов 20+ уровня."
+        "key": "\uf935 Loot from Mythic 20+ Bosses",
+        "value": "\uf935 Добыча с мифических боссов 20+ уровня."
       }
     ]
   },
@@ -3552,8 +3526,8 @@
     },
     "pairs": [
       {
-        "key": "蘆 ",
-        "value": "蘆 "
+        "key": "\uf935 ",
+        "value": "\uf935 "
       }
     ]
   },
@@ -3578,8 +3552,8 @@
     },
     "pairs": [
       {
-        "key": "蘆 ",
-        "value": "蘆 "
+        "key": "\uf935 ",
+        "value": "\uf935 "
       }
     ]
   },
@@ -3682,8 +3656,8 @@
     },
     "pairs": [
       {
-        "key": "\"And now, it's your turn,§§ TO REBORN!\"",
-        "value": "\"И теперь настала твоя очередь, §§ ВОЗРОДИТЬСЯ!\""
+        "key": "\"And now, it's your turn,\u00a7\u00a7 TO REBORN!\"",
+        "value": "\"И теперь настала твоя очередь, \u00a7\u00a7 ВОЗРОДИТЬСЯ!\""
       }
     ]
   },
@@ -3721,8 +3695,8 @@
     },
     "pairs": [
       {
-        "key": "盧",
-        "value": "盧"
+        "key": "\uf933",
+        "value": "\uf933"
       }
     ]
   },
@@ -3734,8 +3708,8 @@
     },
     "pairs": [
       {
-        "key": "老",
-        "value": "老"
+        "key": "\uf934",
+        "value": "\uf934"
       }
     ]
   },
@@ -3747,8 +3721,8 @@
     },
     "pairs": [
       {
-        "key": "路",
-        "value": "路"
+        "key": "\uf937",
+        "value": "\uf937"
       }
     ]
   },
@@ -3760,8 +3734,8 @@
     },
     "pairs": [
       {
-        "key": "露",
-        "value": "露"
+        "key": "\uf938",
+        "value": "\uf938"
       }
     ]
   },
