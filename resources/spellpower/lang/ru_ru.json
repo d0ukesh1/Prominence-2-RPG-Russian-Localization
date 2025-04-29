@@ -2,7 +2,7 @@
   "attribute.name.spell_power.arcane" : "\u00a7f\uf951\u00a7r Сила Тайной магии",
   "attribute.name.spell_power.fire" : "\u00a7f\uf950\u00a7r Сила Огня",
   "attribute.name.spell_power.frost" : "\u00a7f\uf952\u00a7r Сила Льда",
-  "attribute.name.spell_power.healing" : "Сила Исцеления",
+  "attribute.name.spell_power.healing" : "\u00a7f\uF957\u00a7r Сила Исцеления",
   "attribute.name.spell_power.lightning" : "Сила Молнии",
   "attribute.name.spell_power.soul" : "Сила Души",
   "attribute.name.spell_power.air" : "Сила Воздуха",
