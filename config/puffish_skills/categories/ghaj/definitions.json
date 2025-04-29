@@ -1,0 +1,109 @@
+{
+	"damage": {
+		"title": "§f弄 §6+5% §7Урона, наносимого §6Г'аджем §7и §fꦘ §9+3 §7Порчи",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/attack.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_damage",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"attackspeed": {
+		"title": "§f籠 §6+2% §7Скорости атаки и §fꦘ §9+2 §7Порчи",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/attack_speed.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "tks8it22eggnvngt"
+		}
+	},
+	"infusion_corruption": {
+		"title": "§f鹿 §9Усиленные тени",
+		"description": "§7Использование Шага сквозь тень мгновенно даст Спешку(V), чтобы насытить Г'адж для следующей атаки.\n \n§fꦘ §9+20§7 Порчи",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "eldritch_end:textures/icon/corruption.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3krb"
+		}
+	}
+}

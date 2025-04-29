@@ -1,0 +1,1268 @@
+[
+  {
+    "name": "Prominent-GLOBAL-MC1.20.1-3.9.6.jar extracted",
+    "desc": "Translation of the mod especially for https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization",
+    "mods": "Prominent-GLOBAL-MC1.20.1-3.9.6",
+    "authors": "d0ukesh1",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.ProminentLoader",
+      "method": "isValidManifest",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Hello there! You seem to be using Prominent in a modified version of Prominence (or another pack that isn't Prominence). Keep in mind this is not allowed, both Prominent and Prominence have a strict license that does not allow redistribution or public modification, making this either an illegal reupload of Prominence, or a an illegal redistribution of Prominent, as Prominent is not available through CurseForge, so you're also breaking the license of Prominent by overriding the file within the modpack. ",
+        "value": "Привет! Похоже, вы используете Prominent в модифицированной версии Prominence (или другого сборника, который не является Prominence). Имейте в виду, что это запрещено: как Prominent, так и Prominence имеют строгую лицензию, которая не разрешает перераспределение или публичное изменение. Таким образом, это либо незаконная повторная загрузка Prominence, либо незаконное распространение Prominent. Кроме того, Prominent недоступен через CurseForge, поэтому, переопределяя файл внутри модпака, вы также нарушаете лицензию Prominent. "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.ArtifactUpgrader",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\ua996 \u00a77Unleash the remnant to upgrade your Artifact weapon.",
+        "value": "\ua996 \u00a77Раскройте потенциал остатков, чтобы улучшить свое артефактное оружие."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.ArtifactUpgrader",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Artifact Power",
+        "value": " Сила артефакта"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.ArtifactUpgrader",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Your Artifact is already fully upgraded.",
+        "value": "Ваш артефакт уже полностью улучшен."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.ArtifactUpgrader",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "The remnant was unleashed and captured by your Artifact Weapon. +",
+        "value": "Остаток был освобождён и поглощён вашим артефактным оружием. +"
+      },
+      {
+        "key": " Artifact Power Obtained",
+        "value": " Получена сила артефакта"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.BeaconOfHope",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Call upon S'kellak's Aid to travel to the city of Vaaz.",
+        "value": "Призовите помощь С'келлака, чтобы попасть в город Вааз."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.BeaconOfHope",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Given as quest reward in Chapter I of Hasturian Era.",
+        "value": " Выдаётся в качестве награды за задание в Главе I Хастурианской эры."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.MoltenCore",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a77Made from the depths of \u00a7cVaaz\u00a77 by the creator of all things, \u00a7cS'kellak\u00a77.",
+        "value": "\u00a77Создано в глубинах \u00a7cВааза\u00a77 создателем всех вещей, \u00a7cС'келлаком\u00a77."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.MoltenCore",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a77Given as a reward to those who have proven themselves worthy by eliminating the threats of the realms.",
+        "value": "\u00a77Даётся в качестве награды тем, кто доказал свою доблесть, устранив угрозы измерений."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.MoltenCore",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a7eComplete Chapter I of Void's Invasion to unlock.",
+        "value": "\u00a7eЗавершите Главу I вторжения Пустоты, чтобы разблокировать."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.MoltenCore",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\u00a78This is a personal soulbound item! Do not try to share or destroy or it will break progression.",
+        "value": "\u00a78Это личный привязанный к душе предмет! Не пытайтесь передать его или уничтожить, иначе это нарушит прогресс."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.ScrollItem",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Your talent tree has been reset.",
+        "value": "Ваше древо талантов было сброшено."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.ScrollItem",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Resets your talent tree knowledge and refunds all points previously spent.",
+        "value": "Сбрасывает древо талантов и возвращает все ранее потраченные очки."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Apophis",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Apophis Holy Modifier",
+        "value": "Модификатор исцеления Апофиса"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Apophis",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf933 ",
+        "value": "\uf933 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Apophis",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Apophis",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf934 ",
+        "value": "\uf934 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Apophis",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf934 ",
+        "value": "\uf934 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Ashedar Fire Modifier",
+        "value": "Модификатор огня Аш'эдар"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Ashedar Arcane Modifier",
+        "value": "Модификатор тайной магии Аш'эдар"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "The Essence of Ash'edar must be on your main hand, and your off hand must be empty.",
+        "value": "Эссенция Аш'эдара должна находиться в вашей основной руке, а вторая рука должна быть свободна."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Ash'edar, the Cosmic Twins",
+        "value": "Аш'эдар, Космические близнецы"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Sunfire & Arcane Artifacts",
+        "value": "Артефакты Солнечного огня и Тайной магии"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf933 ",
+        "value": "\uf933 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf934 ",
+        "value": "\uf934 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Converts the Essence of Ash'edar into its weapon form. Requires a free offhand",
+        "value": "Преобразует Сущность Аш'эдара в форму оружия. Требуется свободная вторая рука."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " A'zhar Modifier",
+        "value": " Модификатор А'зар"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " Ekavar Modifier",
+        "value": " Модификатор Экавар"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Weapon modifier",
+        "value": "Модификатор оружия"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Frostmourne",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Frostmourne Frost Modifier",
+        "value": "Модификатор льда Ледяной Скорби"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Frostmourne",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Frostmourne Blood Modifier",
+        "value": "Модификатор крови Ледяной Скорби"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Frostmourne",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Frostmourne Unholy Modifier",
+        "value": "Модификатор нечестивости Ледяной Скорби"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " Fyr'alath Modifier",
+        "value": " Модификатор Фир'Алата"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Reabsorption Fyr'alath Modifier",
+        "value": "Модификатор перепоглощения Фир'Алата"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Skillet",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " Granny's Pan Modifier",
+        "value": " Модификатор бабушкиной сковороды"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Skillet",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Knockback Granny's Pan Modifier",
+        "value": "Модификатор отбрасывания бабушкиной сковороды"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " Supernova Modifier",
+        "value": " Модификатор Сверхновой"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.ThousandFists",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " Fury of a Thousand Fists Modifier",
+        "value": " Модификатор Ярости Тысячи Кулаков"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Thunderwrath",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Lightning Thunderwrath Modifier",
+        "value": "Модификатор молнии Громогнева"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.core.CosmeticArtifact",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Artifact Illusion",
+        "value": "Иллюзия артефакта"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.core.CosmeticArtifact",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf933 ",
+        "value": "\uf933 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.core.CosmeticArtifact",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "An illusion made to be used on other items with the magic of Transmogrification.",
+        "value": "Иллюзия, созданная для использования на других предметах с помощью магии Трансмогрификации."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.core.CosmeticArtifact",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\" Eternal Challenge.",
+        "value": "\" Вечные испытания."
+      },
+      {
+        "key": "Obtained through the \"Mastery of ",
+        "value": "Получено через \"Мастерство "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf938 ",
+        "value": "\uf938 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf935 ",
+        "value": "\uf935 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Affixes",
+        "value": "Аффиксы"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": "Mythic ",
+        "value": "Мифический "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Faceless Gift                    ",
+        "value": "Дар Безликого                    "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Aberrations may arise every 30 seconds, helping and",
+        "value": " Аберрации могут появляться каждые 30 секунд, помогая и"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " inheriting the mythical attributes of their leader.",
+        "value": " наследуя мифические атрибуты своего лидера."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.transmog.TransmogItem",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Transmog Appearance",
+        "value": "Внешний вид трансмогрификации"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.transmog.TransmogItem",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf938 ",
+        "value": "\uf938 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.transmog.TransmogItem",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "An illusion made to be used on other items with the magic of Transmogrification.",
+        "value": "Иллюзия, созданная для использования на других предметах с помощью магии Трансмогрификации."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.transmog.TransmogItem",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Dropped by Mythic Challenges with a 5% Drop Chance.",
+        "value": "Выпадает из мифических испытаний с шансом 5%."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Thunderwrath",
+        "value": "Громогнев"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Supernova",
+        "value": "Сверхновая"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Fury of a Thousand Fists",
+        "value": "Ярость Тысячи Ударов"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Frostmourne",
+        "value": "Ледяная Скорбь"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "A'zhar",
+        "value": "А'зар"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Fyr'alath",
+        "value": "Фир'Алат"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Ash",
+        "value": "Аш"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Edar",
+        "value": "Эдар"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Ekavar",
+        "value": "Экавар"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Vaazkar",
+        "value": "Ваазкар"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Orion",
+        "value": "Орион"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "getDescription",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Full of hatred and demonic presences.",
+        "value": "Полный ненависти и демонических проявлений."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "getDescription",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "A shining light full of concentrated raw power.",
+        "value": "Сияющий свет, полный сконцентрированной чистой силы."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "getDescription",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Holds wrathful souls.",
+        "value": "Хранит души, полные гнева."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "getDescription",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can be used to re-roll and repair artifact weapons.",
+        "value": "Может использоваться для повторного выбора характеристик и ремонта артефактного оружия."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "method_43470",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "A reward from S'kellak for aiding him in defeating the threats of the realms, used to craft useful relics.",
+        "value": "Награда от С'келлака за помощь в победе над угрозами измерений, используется для создания полезных реликвий."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "method_43470",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "- Obtainable as a reward from Campaign Boss Quests",
+        "value": "- Доступен в качестве награды за выполнение заданий боссов кампании."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "method_43470",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "- Craftable using Encased Remnants and Greater Mythical Essences",
+        "value": "- Можно создать с помощью заключённых осколков и высших мифических эссенций."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "getDescription",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf935 Loot from Mythic 10+ Bosses",
+        "value": "\uf935 Добыча с мифических боссов 10+ уровня."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "getDescription",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf935 Loot from Mythic 20+ Bosses",
+        "value": "\uf935 Добыча с мифических боссов 20+ уровня."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ProminentMaterials",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "ARTIFACT",
+        "value": "АРТЕФАКТ"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.TabRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf935 ",
+        "value": "\uf935 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.TabRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Mythic Bosses",
+        "value": "Мифические боссы"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.TabRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf935 ",
+        "value": "\uf935 "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.TabRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Eternal Rewards",
+        "value": "Вечные награды"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\"Do you really think you can kill me?\"",
+        "value": "\"Ты действительно думаешь, что сможешь убить меня?\""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\"You will be very useful to the new king\"",
+        "value": "\"Ты будешь очень полезен новому королю\""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\"But I'll have to kill you first\"",
+        "value": "\"Но сначала мне придется убить тебя\""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Tip: Activate the waystone for a checkpoint.",
+        "value": "Совет: активируйте камень пути для точки сохранения."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\"You thought you killed me...\"",
+        "value": "\"Ты думал, что убил меня...\""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\"But the King in Yellow made me reborn stronger\"",
+        "value": "\"Но Король в Желтом сделал меня более сильным, возродив к жизни\""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\"And now, it's your turn,\u00a7\u00a7 TO REBORN!\"",
+        "value": "\"И теперь настала твоя очередь, \u00a7\u00a7 ВОЗРОДИТЬСЯ!\""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5555",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "The beacon calls nobody. You cannot use this item yet.",
+        "value": "Маяк не зовет никого. Вы пока не можете использовать этот предмет."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5555",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This beacon only works in the Overworld.",
+        "value": "Этот маяк работает только в Верхнем мире."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev/prominent/text/ICONS",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf933",
+        "value": "\uf933"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev/prominent/text/ICONS",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf934",
+        "value": "\uf934"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev/prominent/text/ICONS",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf937",
+        "value": "\uf937"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev/prominent/text/ICONS",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\uf938",
+        "value": "\uf938"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.soulbinding.Soulbound",
+      "method": "onCraft",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " is now soulbound to you.",
+        "value": " теперь привязан к вашей душе."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.dialogue.Dialogue",
+      "method": "getGumasDialogue",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "a familiar voice whispers",
+        "value": "знакомый голос шепчет"
+      }
+    ]
+  }
+]

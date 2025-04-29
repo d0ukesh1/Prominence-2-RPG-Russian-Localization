@@ -1,0 +1,201 @@
+{
+    "category.smallships": "Small Ships",
+
+    "death.attack.cannon_ball": "%s был подстрелен из пушки.",
+
+    "death.attack.cannon_ball.player": "%s был подстрелен из пушки %s.",
+
+    "death.attack.cannonball": "%s был подстрелен из пушки.",
+
+    "death.attack.cannonball.player": "%s был подстрелен из пушки %s.",
+
+    "death.attack.hit_ship": "%s был подбит кораблём.",
+
+    "death.attack.hit_ship.player": "%s был подбит кораблём %s.",
+
+    "death.attack.ship_collision": "%s был подбит кораблём.",
+
+    "death.attack.ship_collision.player": "%s был подбит кораблём %s.",
+
+    "entity.smallships.brigg": "Бриг",
+
+    "entity.smallships.cog": "Когг",
+
+    "entity.smallships.dhow": "Дау",
+
+    "entity.smallships.drakkar": "Драккар",
+
+    "entity.smallships.galley": "Галера",
+
+    "entity.smallships.rowboat": "Гребная лодка",
+
+    "entity.smallships.war_galley": "Боевая галера",
+
+    "item.smallships.acacia_brigg": "Акациевый бриг",
+
+    "item.smallships.acacia_cog": "Акациевый когг",
+
+    "item.smallships.acacia_dhow": "Акациевый дау",
+
+    "item.smallships.acacia_drakkar": "Акациевый драккар",
+
+    "item.smallships.acacia_galley": "Акациевая галера",
+
+    "item.smallships.acacia_rowboat": "Акациевая гребная лодка",
+
+    "item.smallships.acacia_war_galley": "Акациевая боевая галера",
+
+    "item.smallships.bamboo_brigg": "Бамбуковый бриг",
+
+    "item.smallships.bamboo_cog": "Бамбуковый когг",
+
+    "item.smallships.bamboo_dhow": "Бамбуковый дау",
+
+    "item.smallships.bamboo_drakkar": "Бамбуковый драккар",
+
+    "item.smallships.bamboo_galley": "Бамбуковая галера",
+
+    "item.smallships.bamboo_rowboat": "Бамбуковая гребная лодка",
+
+    "item.smallships.bamboo_war_galley": "Бамбуковая боевая галера",
+
+    "item.smallships.birch_brigg": "Еловый бриг",
+
+    "item.smallships.birch_cog": "Берёзовый когг",
+
+    "item.smallships.birch_dhow": "Берёзовый дау",
+
+    "item.smallships.birch_drakkar": "Берёзовый драккар",
+
+    "item.smallships.birch_galley": "Берёзовая галера",
+
+    "item.smallships.birch_rowboat": "Берёзовая гребная лодка",
+
+    "item.smallships.birch_war_galley": "Берёзовая боевая галера",
+
+    "item.smallships.cannon": "Корабельная пушка",
+
+    "item.smallships.cannon_ball": "Пушечное ядро",
+
+    "item.smallships.cherry_brigg": "Вишнёвый бриг",
+
+    "item.smallships.cherry_cog": "Вишнёвый когг",
+
+    "item.smallships.cherry_dhow": "Вишнёвый дау",
+
+    "item.smallships.cherry_drakkar": "Вишнёвый драккар",
+
+    "item.smallships.cherry_galley": "Вишнёвая галера",
+
+    "item.smallships.cherry_rowboat": "Вишнёвая гребная лодка",
+
+    "item.smallships.cherry_war_galley": "Вишнёвая боевая галера",
+
+    "item.smallships.dark_oak_brigg": "Бриг из тёмного дуба",
+
+    "item.smallships.dark_oak_cog": "Когг из тёмного дуба",
+
+    "item.smallships.dark_oak_dhow": "Дау из тёмного дуба",
+
+    "item.smallships.dark_oak_drakkar": "Драккар из тёмного дуба",
+
+    "item.smallships.dark_oak_galley": "Галера из тёмного дуба",
+
+    "item.smallships.dark_oak_rowboat": "Гребная лодка из тёмного дуба",
+
+    "item.smallships.dark_oak_war_galley": "Боевая галера из тёмного дуба",
+
+    "item.smallships.jungle_brigg": "Бриг из тропического дерева",
+
+    "item.smallships.jungle_cog": "Когг из тропического дерева",
+
+    "item.smallships.jungle_dhow": "Дау из тропического дерева",
+
+    "item.smallships.jungle_drakkar": "Драккар из тропического дерева",
+
+    "item.smallships.jungle_galley": "Галера из тропического дерева",
+
+    "item.smallships.jungle_rowboat": "Гребная лодка из тропического дерева",
+
+    "item.smallships.jungle_war_galley": "Боевая галера из тропического дерева",
+
+    "item.smallships.mangrove_brigg": "Мангровый бриг",
+
+    "item.smallships.mangrove_cog": "Мангровый когг",
+
+    "item.smallships.mangrove_dhow": "Мангровый дау",
+
+    "item.smallships.mangrove_drakkar": "Мангровый драккар",
+
+    "item.smallships.mangrove_galley": "Мангровая галера",
+
+    "item.smallships.mangrove_rowboat": "Мангровая гребная лодка",
+
+    "item.smallships.mangrove_war_galley": "Мангровая боевая галера",
+
+    "item.smallships.oak_brigg": "Дубовый бриг",
+
+    "item.smallships.oak_cog": "Дубовый когг",
+
+    "item.smallships.oak_dhow": "Дубовый дау",
+
+    "item.smallships.oak_drakkar": "Дубовый драккар",
+
+    "item.smallships.oak_galley": "Дубовая галера",
+
+    "item.smallships.oak_rowboat": "Дубовая гребная лодка",
+
+    "item.smallships.oak_war_galley": "Дубовая боевая галера",
+
+    "item.smallships.sail": "Парус",
+
+    "item.smallships.spruce_brigg": "Еловый бриг",
+
+    "item.smallships.spruce_cog": "Еловый когг",
+
+    "item.smallships.spruce_dhow": "Еловый дау",
+
+    "item.smallships.spruce_drakkar": "Еловый драккар",
+
+    "item.smallships.spruce_galley": "Еловая галера",
+
+    "item.smallships.spruce_rowboat": "Еловая гребная лодка",
+
+    "item.smallships.spruce_war_galley": "Еловая боевая галера",
+
+    "itemGroup.smallships.smallships": "Small Ships",
+
+    "key.cannon_shoot": "Выстрелить из пушки",
+
+    "key.ship_backward": "Движение корабля назад",
+
+    "key.ship_forward": "Движение корабля вперёд",
+
+    "key.ship_left": "Повернуть корабль влево",
+
+    "key.ship_right": "Повернуть корабль вправо",
+
+    "key.smallships.higher_ship_sail": "Поднять парус",
+
+    "key.smallships.lower_ship_sail": "Опустить парус",
+
+    "key.smallships.ship_inventory": "Открыть инвентарь корабля",
+
+    "key.smallships.ship_sail": "Переключить парус",
+
+    "smallships.creative_mode_tab": "Small Ships",
+
+    "subtitles.smallships.cannon_shot": "Пушка стреляет",
+
+    "subtitles.smallships.sail_move": "Парус движется",
+
+    "subtitles.smallships.sail_pull": "Парус поднят",
+
+    "subtitles.smallships.ship_hit": "Корабль подвергается удару",
+
+    "tooltip.plane.damage": "Урон: %s %%",
+
+    "tooltip.plane.speed": "Скорость: %s",
+
+    "tooltip.plane.throttle": "Тяга: %s %%"
+}
