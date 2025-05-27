@@ -550,9 +550,11 @@
 			description: [
 				"&eРекомендуемый уровень: 50"
 				""
-				"&7Чистая эссенция Края, \"Эндер\", был искажен присутствием пустоты. Глаз Эндера должен быть побежден, дабы установить баланс в теперь опустошенном измерении."
+				"&7Первозданная сущность Края - \"Око Эндера\" - была искажена присутствием пустоты, превратившись в ужасное создание. Теперь его необходимо спасти от влияния пустоты, чтобы восстановить равновесие в опустошённом измерении."
 				""
 				"&7Око может быть призвано только в Святилище Ока. Святилище строится с основанием из платформы обсидианом, размерами 5×5, и слоем плачущего обсидиана 3×3. По всем краям стержень края поставлен быть должен. На святилища верхушке, ты в жертву должен принести, дракона яйцо. Око может вызвано быть только в Края измерении."
+				""
+				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
 			]
 			icon: "minecraft:ender_eye"
 			id: "0E567E587E669BED"
@@ -567,19 +569,30 @@
 					item: "prominent:infused_molten_remnant"
 					type: "item"
 				}
+				{
+					id: "169BCF5304D7C2A1"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
 			]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
 			tasks: [{
-				entity: "adventurez:the_eye"
-				icon: "minecraft:ender_eye"
+				entity: "eldritch_end:eye"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "a_overrides:textures/quests/icon/the_eldritch_eye.png"
+					}
+				}
 				id: "5A3673477EA57892"
-				title: "Убей Око"
+				title: "Убей Древнее Око"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&f &dЭссенция Эндера, Око"
+			title: "&f &dДревнее Око"
 			x: -3.668367346938794d
 			y: 0.030612244897938012d
 		}
@@ -1406,6 +1419,13 @@
 					id: "12A95E19A6DDC894"
 					item: "prominent:infused_molten_remnant"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21B6E7DC9CD2B786"
+					table_id: 8008058263494883425L
+					title: "Преображение, тронутое Пустотой"
+					type: "choice"
 				}
 			]
 			shape: "hexagon"

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = welcomescreen_welcome
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1738782593644
+  last_edited_time = 1748087774531
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:bc4b4516-03a0-48f9-af62-82f16dd10501-1738782571363] = [groups:][instances:]
+  [loading_requirement_container_meta:d7afc5cb-666f-4414-8d13-35a59324562f-1748087745677] = [groups:][instances:]
 }
 
 menu_background {
@@ -209,7 +209,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 160d70fa-772b-4dec-8926-a456199e594e-1738626173119
-  [executable_action_instance:ef71d78e-b1e7-42ed-b639-4bfefee29d76-1738703867086][action_type:openlink] = https://discord.gg/lunapixel
+  [executable_action_instance:ef71d78e-b1e7-42ed-b639-4bfefee29d76-1738703867086][action_type:openlink] = https://discord.gg/prominence
   [executable_block:160d70fa-772b-4dec-8926-a456199e594e-1738626173119][type:generic] = [executables:ef71d78e-b1e7-42ed-b639-4bfefee29d76-1738703867086;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true

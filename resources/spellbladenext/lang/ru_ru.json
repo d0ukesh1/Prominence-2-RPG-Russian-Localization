@@ -1,5 +1,5 @@
 {
-	"attribute.name.spellbladenext.warding" : "Реактивная Камера",
+	"attribute.name.spellbladenext.warding" : "Ответный барьер",
 	"attribute.name.spellbladenext.convertfromfire" : "Сила Огня, преобразованная в Урон от атаки",
 	"attribute.name.spellbladenext.convertfromfrost" : "Сила Льда, преобразованная в Урон от атаки",
 	"attribute.name.spellbladenext.convertfromarcane" : "Сила Тайной магии, преобразованная в Урон от атаки",
@@ -160,7 +160,6 @@
  	"dimension.spellbladenext.glassocean": "Стеклянный Океан",
  	"dimensiontype.spellbladenext.glassocean": "Стеклянный Океан",
 	"travelerstitles.spellbladenext.glassocean": "Стеклянный Океан",
- 	"dimension.spellbladenext.glassocean": "Стеклянный Океан",
 
 	"spell.spellbladenext.fireflourish.name": "Огненное Процветание",
 	"spell.spellbladenext.fireflourish.description": "Быстро вращайтесь, нанося {damage_1} не критического физического урона, плюс {damage_2}} огненного урона.",

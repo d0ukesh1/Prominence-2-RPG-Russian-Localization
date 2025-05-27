@@ -9,7 +9,7 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:ef7b4df9-cf04-425d-9b2c-7b541c04e1cc-1720181858498] = [groups:][instances:5ab85f2b-4cd7-4968-ba6d-a988218d21d81701186067211;5a6d90ec-1a94-4483-8368-bdac4d3721421701183786264;9a181567-2a38-4967-a7ce-b2197e71a42d1701186075513;]
+  [loading_requirement_container_meta:5ea354ae-ce28-4874-8017-e36e50e6460a-1743444459594] = [groups:][instances:5ab85f2b-4cd7-4968-ba6d-a988218d21d81701186067211;5a6d90ec-1a94-4483-8368-bdac4d3721421701183786264;9a181567-2a38-4967-a7ce-b2197e71a42d1701186075513;]
   [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if_not][req_id:5ab85f2b-4cd7-4968-ba6d-a988218d21d81701186067211] = ftblibrary
   [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if_not][req_id:5a6d90ec-1a94-4483-8368-bdac4d3721421701183786264] = ftbquests
   [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if_not][req_id:9a181567-2a38-4967-a7ce-b2197e71a42d1701186075513] = ftbteams
@@ -97,7 +97,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 8bb2a037-4067-44bf-ae94-4302f1e9f378-1716207221208
-  [executable_action_instance:62bb9238-d829-4e2d-b6ab-9d17824eee62-1716207221208][action_type:openlink] = https://github.com/LunaPixelStudios/Prominence/issues
+  [executable_action_instance:62bb9238-d829-4e2d-b6ab-9d17824eee62-1716207221208][action_type:openlink] = https://github.com/nvb-uy/ProminenceII-HasturianEra/issues
   [executable_block:8bb2a037-4067-44bf-ae94-4302f1e9f378-1716207221208][type:generic] = [executables:62bb9238-d829-4e2d-b6ab-9d17824eee62-1716207221208;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true

@@ -1,8 +1,8 @@
 [
   {
-    "name": "Prominent_Talents-FABRIC-2.7.0.jar extracted.",
+    "name": "Prominent_Talents-FABRIC-2.8.0.jar extracted.",
     "desc": "Translation of the mod especially for https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization",
-    "mods": "Prominent_Talents-FABRIC-2.7.0",
+    "mods": "Prominent_Talents-FABRIC-2.8.0",
     "authors": "d0ukesh1",
     "dynamic": false,
     "i18n": false
@@ -123,7 +123,7 @@
       },
       {
         "key": " Armor",
-        "value": " Брони"
+        "value": " Броня"
       }
     ]
   },
@@ -140,7 +140,7 @@
       },
       {
         "key": " Physical Damage",
-        "value": " Урона в ближнем бою"
+        "value": " Урон в ближнем бою"
       }
     ]
   },
@@ -157,7 +157,7 @@
       },
       {
         "key": " Ranged Damage",
-        "value": " Урона в дальнем бою"
+        "value": " Урон в дальнем бою"
       }
     ]
   },
@@ -174,7 +174,7 @@
       },
       {
         "key": " Arcane Power",
-        "value": " Силы Тайной магии"
+        "value": " Сила Тайной магии"
       }
     ]
   },
@@ -191,7 +191,7 @@
       },
       {
         "key": " Fire Power",
-        "value": " Силы Огня"
+        "value": " Сила Огня"
       }
     ]
   },
@@ -208,7 +208,7 @@
       },
       {
         "key": " Frost Power",
-        "value": " Силы Льда"
+        "value": " Сила Льда"
       }
     ]
   },
@@ -225,7 +225,7 @@
       },
       {
         "key": " Unholy Power",
-        "value": " Силы Нечестивости"
+        "value": " Сила Нечестивости"
       }
     ]
   },
@@ -242,7 +242,7 @@
       },
       {
         "key": " Blood Power",
-        "value": " Силы Крови"
+        "value": " Сила Крови"
       }
     ]
   },

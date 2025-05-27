@@ -25,7 +25,7 @@
   "enchantment.extraspellattributes.glancingblow.desc": "Увеличивает ваш шанс получить блестающий взрыв на 4% за уровень. Блестающий взрыв наносит на 35% меньше урона.",
   "enchantment.extraspellattributes.battlerouse.desc": "+4% урона к вашей жизни отрегенерирует за следующие четыре секунды за уровень.",
 
-  "attribute.name.extraspellattributes.determination": "Урон к Здоровью, Восстановленный как Здоровье за Следующие 4 Секунды",
+  "attribute.name.extraspellattributes.determination": "Урон, обращённый в исцеление в течение 4 секунд",
 
   "desc.extraspellattributes.glance": "Блестающий взрыв наносит только 65% урона. Вы не можете получать Блестающие взрывы от урона, не приходящего от сущности(такой как Огонь или Яд).",
 

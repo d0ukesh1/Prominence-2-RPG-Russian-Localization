@@ -149,6 +149,7 @@
     "item.eldritch_end.xal.shadowburst.1": "Призывает энергию пустоты, ударяя 3 раза и нанося",
     "item.eldritch_end.xal.shadowburst.2": "урон всем врагам на большой области.",
 
+    "item.eldritch_end.eye_spawn_egg": "Яйцо призыва Древнего Ока",
     "item.eldritch_end.aberration_spawn_egg": "Яйцо призыва Помрачения",
     "item.eldritch_end.tentacle_spawn_egg": "Яйцо призыва Щупальца",
     "item.eldritch_end.undead_tentacle_spawn_egg": "Яйцо призыва Бессмертного щупальца",
@@ -159,11 +160,14 @@
     "effect.eldritch_end.corruption": "Порча",
     "effect.eldritch_end.hastur_presence": "Присутствие Хастура",
 
+    "entity.eldritch_end.crystal": "Резонирующий кристалл",
+    "entity.eldritch_end.eye": "Древнее Око",
     "entity.eldritch_end.aberration": "Помрачение",
+    "entity.eldritch_end.ominous_eye": "Зловещий Глаз",
     "entity.eldritch_end.tentacle": "Щупальце",
     "entity.eldritch_end.undead_tentacle": "Бессмертное щупальце",
-    "entity.eldritch_end.the_faceless_one": "Безликий",
-    "entity.eldritch_end.hastur": "Образ Хастура",
+    "entity.eldritch_end.dendler": "Дендлер",
 
-    "entity.eldritch_end.the_faceless": "Безликий"
+    "entity.eldritch_end.the_faceless": "Безликий",
+    "entity.eldritch_end.hastur": "Образ Хастура"
 }
