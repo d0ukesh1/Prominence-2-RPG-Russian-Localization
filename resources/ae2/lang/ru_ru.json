@@ -1,0 +1,8 @@
+{
+    "item.ae2.cell_component_256k": "256К МЭ компонент хранения",
+    "block.ae2.256k_crafting_storage": "Хранилище для изготовления на 256k",
+    "item.ae2.fluid_storage_cell_256k": "256К МЭ жидкостная ячейка хранения",
+    "item.ae2.item_storage_cell_256k": "256К МЭ предметная ячейка хранения",
+    "item.ae2.portable_fluid_cell_256k": "256К Переносная жидкостная ячейка",
+    "item.ae2.portable_item_cell_256k": "256К Переносная предметная ячейка"
+}
