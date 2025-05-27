@@ -1,0 +1,9 @@
+{
+  "item.dummmmmmy.target_dummy": "Тренировочный манекен",
+  "entity.dummmmmmy.target_dummy": "Тренировочный манекен",
+  "message.dummmmmmy.dps": "%1$s УВС",
+  "message.dummmmmmy.hps": "%1$s ХПС",
+  "message.dummmmmmy.single": "%1$s: %2$s",
+  "message.dummmmmmy.double": "%1$s: %2$s, %3$s",
+  "message.dummmmmmy.crit": "%d (%dx)"
+}
