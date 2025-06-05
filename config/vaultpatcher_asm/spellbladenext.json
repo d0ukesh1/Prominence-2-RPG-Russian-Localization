@@ -799,5 +799,31 @@
         "value": "Перетащите на предмет и нажмите правой кнопкой мыши, чтобы использовать. НЕОБРАТИМО. ИСПОЛЬЗУЙТЕ С ОСТОРОЖНОСТЬЮ."
       }
     ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.effect.Hex",
+      "method": "method_5555",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Hexblade Magister",
+        "value": "Магистр Колдовского клинка: "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.effect.Hex",
+      "method": "method_5555",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": ": \"Greetings, rogue mage. Pay us your dues or pay with your life. You have until the Hex expires.\"",
+        "value": "\"Приветствую, маг-отступник. Заплати нам дань или заплатишь жизнью. У тебя есть время до окончания Проклятия.\""
+      }
+    ]
   }
 ]
