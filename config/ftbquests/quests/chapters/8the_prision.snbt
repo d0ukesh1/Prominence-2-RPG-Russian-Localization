@@ -6,11 +6,7 @@
 	icon: "graveyard:dark_iron_bars"
 	id: "419EFD597601A50B"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 3.0d
-		hover: [ ]
 		image: "minecells:item/blood_sword"
 		rotation: 0.0d
 		width: 3.0d
@@ -30,15 +26,15 @@
 			}]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "Портал в &8Тюремное &rизмерение появляется случайно в &aВерхнем Мире&r. Если ты, когда-либо, был одержим &bалмазами&r, портал будет уже активирован."
+			subtitle: "Портал в &8Тюремное &rизмерение появляется случайно в &aВерхнем Мире&r."
 			tasks: [{
 				dimension: "minecells:prison"
 				icon: "graveyard:dark_iron_bars"
 				id: "0E868C4F785876CA"
-				title: "Посети Тюрьму"
+				title: "Окажись в Тюрьмах"
 				type: "dimension"
 			}]
-			title: "&8Войди в Тюрьму"
+			title: "&8Тюрьма"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -54,7 +50,7 @@
 				{
 					id: "40247E988E658E5A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -68,11 +64,11 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Находиться в &1Логове&r, которое может быть найдено в подземелье в измерении &8Тюрьмы&r. Чтобы наносить урон &dКонъюктивиусу&r, ты должен сначала убить щупальца."
+			subtitle: "Находится в &1Логове&r, которое может быть найдено в подземелье в &8Тюремном измерении&r. Чтобы наносить урон &dКонъюктивиусу&r, ты должен сначала убить щупальца."
 			tasks: [{
 				entity: "minecells:conjunctivius"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecells:tentacle"
 					tag: {
 						Damage: 0

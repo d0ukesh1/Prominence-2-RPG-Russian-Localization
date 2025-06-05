@@ -7,11 +7,7 @@
 	id: "4B6E4A0215F45FC0"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "prominent:textures/text/the_otherside.png"
 			rotation: 0.0d
 			width: 3.8d
@@ -19,11 +15,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "deeperdarker:item/heart_of_the_deep"
 			rotation: 0.0d
 			width: 1.0d
@@ -31,7 +23,7 @@
 			y: 1.672619047619051d
 		}
 	]
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -68,7 +60,7 @@
 			tasks: [{
 				id: "42CA7AAF304767E7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "deeperdarker:warden_helmet"
 					tag: {
 						Damage: 0
@@ -189,7 +181,7 @@
 			subtitle: "Может быть приручен зачарованным &cНезеритовым Нагрудником&r. Когда приручен, будет периодически бросать зачарованные книги "
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:netherite_chestplate"
 					tag: {
 						Damage: 0

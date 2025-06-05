@@ -7,11 +7,7 @@
 	id: "7539C31213D86E55"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "prominent:textures/text/the_basics.png"
 			rotation: 0.0d
 			width: 2.504166666666667d
@@ -19,11 +15,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "prominent:textures/text/storage.png"
 			rotation: 0.0d
 			width: 2.504166666666667d
@@ -31,11 +23,7 @@
 			y: -4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.0d
-			hover: [ ]
 			image: "prominent:textures/other/prominent_logo.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -43,11 +31,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "prominent:textures/text/welcome.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -55,12 +39,8 @@
 			y: 2.0d
 		}
 		{
-			click: ""
 			color: 11250603
-			corner: false
-			dev: false
 			height: 7.311518324607329d
-			hover: [ ]
 			image: "prominent:textures/text/prominence-desc.png"
 			rotation: 0.0d
 			width: 10.5d
@@ -109,7 +89,7 @@
 			tasks: [{
 				id: "4184344EFBA63388"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "c:crops"
@@ -143,6 +123,7 @@
 		}
 		{
 			dependencies: ["6E9F5146EA3F505F"]
+			description: ["Чтобы открыть другие &2Главы&r, закройте это задание и переместите курсор влево. Каждая глава содержит уникальный набор заданий, соответствующих своей теме."]
 			icon: "minecraft:filled_map"
 			id: "33961F7EE650AA60"
 			rewards: [{
@@ -182,11 +163,11 @@
 					type: "item"
 				}
 			]
-			subtitle: "Создай &6cундук&r - прокачиваемо через мод &5Iron Chests&r!"
+			subtitle: "Создай &6cундук&r - позже его можно будет улучшить!"
 			tasks: [{
 				id: "17209749B99F5873"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "c:chests"
@@ -228,7 +209,7 @@
 			tasks: [{
 				id: "524D333C37CC1E78"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "travelersbackpack:standard"
 					tag: { }
 				}
@@ -249,16 +230,11 @@
 			]
 			icon: "supplementaries:slice_map"
 			id: "723951CD2A49AEB7"
-			rewards: [{
-				id: "130FE58DD2BBD7D8"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
 			size: 0.75d
 			subtitle: "Нажми на меня и прочитай моё описание!"
 			tasks: [{
 				id: "1BC73062E2DC9CB8"
-				title: "Нажми чтобы продолжить!"
+				title: "Нажми, чтобы продолжить!"
 				type: "checkmark"
 			}]
 			title: "&e&lMультиплеер: &dУтверждение"
@@ -269,7 +245,7 @@
 			dependencies: ["002FC90E5914D9C2"]
 			description: [""]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:textures/other/skellak.png"
@@ -281,11 +257,12 @@
 				item: "prominent_ost:music_disc_iv"
 				type: "item"
 			}]
+			shape: "square"
 			size: 1.5d
 			subtitle: "&eПродолжи своё путешествие через другие главы!"
 			tasks: [{
 				id: "721111D6BBD02194"
-				title: "Нажми сюда чтобы продолжить!"
+				title: "Нажми сюда, чтобы продолжить!"
 				type: "checkmark"
 			}]
 			title: "&6&lДобро пожаловать в Prominence!"
@@ -335,7 +312,7 @@
 			subtitle: "Нажми на меня и прочитай моё описание!"
 			tasks: [{
 				id: "31F7356F773E8E8E"
-				title: "Нажми сюда чтобы продолжить!"
+				title: "Нажми сюда, чтобы продолжить!"
 				type: "checkmark"
 			}]
 			title: "&d&lПрогрессия: &e&lДрево Талантов"
@@ -346,7 +323,7 @@
 			dependencies: ["33961F7EE650AA60"]
 			description: ["Все инструменты теперь имеют случайную &eредкость&r. Это повлияет на их характеристики. Чтобы улучшить редкость, тебе надо &eперековать инструменты&r используя вторую вкладку на наковальне. Тебе понадобится &eспецифичный для данного инструмента материал&r и &eодна из 3 руд&7 чтобы поменять его редкость. &cТы можешь почитать квестовую линию \"Перековка\" для большей информации!"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "tiered:textures/gui/anvil_tab_icon.png"
@@ -391,7 +368,7 @@
 			subtitle: "Нажми на меня и прочитай моё описание!"
 			tasks: [{
 				id: "7E40E783D7E377CB"
-				title: "Нажми сюда чтобы продолжить"
+				title: "Нажми сюда, чтобы продолжить"
 				type: "checkmark"
 			}]
 			title: "&d&lПрогрессия:&6&l Уровни"
@@ -415,12 +392,12 @@
 				"&7Разблокируются после победы над первым боссом кампании &dВторжение Пустоты&7."
 				""
 				"- &e51-65 уровни:"
-				"&7Разблокируются при начале кампании &eЭра Хастурии&7."
+				"&7Разблокируются при начале кампании &eЭра Хастура&7."
 				""
 				"&6Уровень 65 — это текущий максимальный уровень."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "simplyskills:textures/mob_effect/undying.png"
@@ -446,7 +423,7 @@
 				"&7Там более 6 часов контента для чтения, включая углубленные руководства, продвинутые гайды, руководства по конкретным модам, лор, полезные советы и многое другое! И самое главное — она расширяется с каждым днем!"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "emi_loot:textures/gui/random_book.png"
@@ -472,7 +449,7 @@
 				"&7Некоторые также говорят, что это способ получения Вечного Знания."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "emi_loot:textures/gui/random_book.png"

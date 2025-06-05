@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			hide: false
+			hide_until_deps_visible: false
 			icon: "lootr:lootr_chest"
 			id: "0F7A087CC11FB122"
 			rewards: [
@@ -39,7 +39,7 @@
 		{
 			dependencies: ["0F7A087CC11FB122"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:trident"
 				tag: {
 					Damage: 0
@@ -75,7 +75,7 @@
 				{
 					id: "5EA7DE6D6B28290B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "netherdepthsupgrade:long_lava_vision"
@@ -148,7 +148,7 @@
 		{
 			dependencies: ["0F7A087CC11FB122"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "aquamirae:three_bolt_helmet"
 				tag: {
 					Damage: 0
@@ -183,7 +183,7 @@
 				{
 					id: "09E25B72A9AF9B73"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:trident"
 						tag: {
 							Damage: 0
@@ -199,7 +199,7 @@
 				{
 					id: "484AE098F744D1B0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -267,7 +267,7 @@
 				{
 					id: "16C57741C1B44719"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:water_breathing"
@@ -286,7 +286,7 @@
 				{
 					id: "0CEFC504FCA32CE4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:three_bolt_helmet"
 						tag: {
 							Damage: 0
@@ -297,7 +297,7 @@
 				{
 					id: "299207399AC8C79B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:three_bolt_suit"
 						tag: {
 							Damage: 0
@@ -308,7 +308,7 @@
 				{
 					id: "531A19DC9578D686"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:three_bolt_leggings"
 						tag: {
 							Damage: 0
@@ -319,7 +319,7 @@
 				{
 					id: "46045C65C08093FC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:three_bolt_boots"
 						tag: {
 							Damage: 0
@@ -369,7 +369,7 @@
 				{
 					id: "1292E7ED391B2005"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:terrible_helmet"
 						tag: {
 							Damage: 0
@@ -380,7 +380,7 @@
 				{
 					id: "42E1256842D36DE2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:terrible_chestplate"
 						tag: {
 							Damage: 0
@@ -391,7 +391,7 @@
 				{
 					id: "3F98A3E9F7272408"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:terrible_leggings"
 						tag: {
 							Damage: 0
@@ -402,7 +402,7 @@
 				{
 					id: "1130540135C75F47"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:terrible_boots"
 						tag: {
 							Damage: 0
@@ -500,7 +500,7 @@
 				{
 					id: "0CE1CC07D12BE309"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:coral_lance"
 						tag: {
 							Damage: 0
@@ -515,7 +515,7 @@
 				{
 					id: "0BCAB542ADF89F98"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:dagger_of_greed"
 						tag: {
 							Damage: 0
@@ -528,7 +528,7 @@
 				{
 					id: "2B3510910AD7C9A9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:abyssal_tiara"
 						tag: {
 							Damage: 0
@@ -539,7 +539,7 @@
 				{
 					id: "63280497E09D45A6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:abyssal_heaume"
 						tag: {
 							Damage: 0
@@ -550,7 +550,7 @@
 				{
 					id: "4EF177C83BA136C4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:abyssal_brigantine"
 						tag: {
 							Damage: 0
@@ -561,7 +561,7 @@
 				{
 					id: "73B77A97CE249241"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:abyssal_leggings"
 						tag: {
 							Damage: 0
@@ -572,7 +572,7 @@
 				{
 					id: "2F5657A6789B76F4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:abyssal_boots"
 						tag: {
 							Damage: 0
@@ -591,7 +591,7 @@
 				{
 					id: "7222AC6176E7DB32"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:sweet_lance"
 						tag: {
 							Damage: 0
@@ -625,7 +625,7 @@
 				{
 					id: "397F03774AC34FF3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:poisoned_chakra"
 						tag: {
 							Damage: 0
@@ -640,7 +640,7 @@
 				{
 					id: "7B27C41797F58612"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:maze_rose"
 						tag: {
 							Damage: 0
@@ -655,7 +655,7 @@
 				{
 					id: "5784415E1574C13A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:poisoned_blade"
 						tag: {
 							Damage: 0
@@ -666,7 +666,7 @@
 				{
 					id: "04E26BFF0C023DB4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquamirae:remnants_saber"
 						tag: {
 							Damage: 0
@@ -691,7 +691,7 @@
 			tasks: [{
 				id: "3C8E000E958CA1BB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquamirae:whisper_of_the_abyss"
 					tag: {
 						Damage: 0
@@ -710,7 +710,7 @@
 				{
 					id: "0180025C3BB8C796"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_water_breathing"

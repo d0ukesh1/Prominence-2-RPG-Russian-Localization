@@ -4,7 +4,7 @@
 	filename: "reforging"
 	group: "5EA21B61C2E147CB"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "tiered:textures/gui/reforge_tab_icon.png"
@@ -13,11 +13,7 @@
 	id: "7501A35FAE3E34FE"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "tiered:textures/gui/reforge_tab_icon.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -25,11 +21,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.35d
-			hover: [ ]
 			image: "tiered:textures/plates/common.png"
 			rotation: 0.0d
 			width: 1.3363636363636364d
@@ -37,11 +29,7 @@
 			y: 3.2397959183673493d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.35d
-			hover: [ ]
 			image: "tiered:textures/plates/uncommon.png"
 			rotation: 0.0d
 			width: 1.3363636363636364d
@@ -49,11 +37,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.35d
-			hover: [ ]
 			image: "tiered:textures/plates/rare.png"
 			rotation: 0.0d
 			width: 1.3363636363636364d
@@ -61,11 +45,7 @@
 			y: 3.790816326530596d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.35d
-			hover: [ ]
 			image: "tiered:textures/plates/uncommon.png"
 			rotation: 0.0d
 			width: 1.3363636363636364d
@@ -73,11 +53,7 @@
 			y: 3.2193877551020336d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.35d
-			hover: [ ]
 			image: "tiered:textures/plates/rare.png"
 			rotation: 0.0d
 			width: 1.3363636363636364d
@@ -85,11 +61,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.35d
-			hover: [ ]
 			image: "tiered:textures/plates/legendary.png"
 			rotation: 0.0d
 			width: 1.3363636363636364d
@@ -97,11 +69,7 @@
 			y: 4.096938775510203d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.35d
-			hover: [ ]
 			image: "tiered:textures/plates/epic.png"
 			rotation: 0.0d
 			width: 1.3363636363636364d
@@ -109,11 +77,7 @@
 			y: 3.79081632653061d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.35d
-			hover: [ ]
 			image: "tiered:textures/plates/rare.png"
 			rotation: 0.0d
 			width: 1.3363636363636364d
@@ -121,11 +85,7 @@
 			y: 3.2193877551020407d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.35d
-			hover: [ ]
 			image: "tiered:textures/plates/epic.png"
 			rotation: 0.0d
 			width: 1.3363636363636364d
@@ -133,11 +93,7 @@
 			y: 3.5051020408163254d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.35d
-			hover: [ ]
 			image: "tiered:textures/plates/legendary.png"
 			rotation: 0.0d
 			width: 1.3363636363636364d
@@ -145,11 +101,7 @@
 			y: 3.79081632653061d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.35d
-			hover: [ ]
 			image: "tiered:textures/plates/mythic.png"
 			rotation: 0.0d
 			width: 1.3363636363636364d
@@ -157,11 +109,7 @@
 			y: 4.0969387755102105d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.35d
-			hover: [ ]
 			image: "tiered:textures/plates/epic.png"
 			rotation: 0.0d
 			width: 1.3363636363636364d
@@ -169,12 +117,8 @@
 			y: 4.079846938775518d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "014ABD8E6E102E16"
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:block/fire_1"
 			rotation: 0.0d
 			width: 1.0d
@@ -182,11 +126,7 @@
 			y: -0.7033163265306115d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:icons/blank"
 			rotation: 0.0d
 			width: 0.1d
@@ -225,6 +165,7 @@
 				"&e&lБазовый Материал &r&8(Левый Слот)"
 				""
 				"&7Базовый Материал относится напрямую к перековываемому предмету. Например, &eСвятой Посох&7 потребует &eЗолотой Слиток&7 как базовый материал. Ты можешь увидеть требуемые материалы, наведя курсор на кнопку перековки после того как ты положил предмет в средний слот."
+				""
 				""
 				"{@pagebreak}"
 				""
@@ -345,7 +286,7 @@
 		{
 			dependencies: ["2DE7359A85169236"]
 			description: ["&eСто мифических предметов... Ты действительно стал мастером перековки."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "014ABD8E6E102E16"
 			invisible: true
 			rewards: [
@@ -365,7 +306,7 @@
 			subtitle: "&6Вечные испытания"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "tiered:textures/gui/anvil_tab_icon.png"
@@ -390,10 +331,10 @@
 				"4D3F0D8217067D24"
 			]
 			description: ["&8Ты стал очень известным кузнецом. Что ты будешь делать с этими знаниями?"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "the_bumblezone:item/essence/knowing"
@@ -404,7 +345,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "the_bumblezone:item/essence/knowing"

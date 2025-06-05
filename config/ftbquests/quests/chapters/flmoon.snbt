@@ -5,7 +5,7 @@
 	group: "3E586F2160161EEA"
 	icon: "ad_astra:moon_globe"
 	id: "28E6A8001A80E5C5"
-	order_index: 8
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -71,7 +71,7 @@
 			tasks: [{
 				id: "2420E6A9EF34A16A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_1_rover"
 					tag: {
 						BotariumData: { }
@@ -182,7 +182,7 @@
 					count: 2
 					id: "2258974518D71AD6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:oxygen_tank"
 						tag: {
 							BotariumData: { }
@@ -321,7 +321,7 @@
 			tasks: [{
 				id: "54AA24DC6E16B808"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_2_rocket"
 					tag: {
 						BotariumData: { }

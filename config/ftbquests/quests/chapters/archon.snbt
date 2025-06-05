@@ -4,7 +4,7 @@
 	filename: "archon"
 	group: "244F516C4853FD2F"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "wizards:wand_fire"
 		tag: {
 			Damage: 0
@@ -220,7 +220,7 @@
 					type: "item"
 				}
 			]
-			title: "Они сделаны из Папайруса?"
+			title: "Они сделаны из Папируса?"
 			x: 9.0d
 			y: 0.5d
 		}
@@ -257,7 +257,7 @@
 			tasks: [{
 				id: "5398332BD46C3DD3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:mask_of_power"
 					tag: {
 						Damage: 0
@@ -332,7 +332,7 @@
 			tasks: [{
 				id: "54BBD82D93AC2563"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:frost_sword"
 					tag: {
 						Damage: 0
@@ -372,7 +372,7 @@
 			tasks: [{
 				id: "3755E9409961A81F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:heat_ranger"
 					tag: {
 						Damage: 0
@@ -395,7 +395,7 @@
 			tasks: [{
 				id: "26CAABD2CBC8B780"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:wither_stave"
 					tag: {
 						Damage: 0
@@ -418,7 +418,7 @@
 			tasks: [{
 				id: "7045685A90496FF7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:infernal_coat"
 					tag: {
 						Damage: 0
@@ -441,7 +441,7 @@
 			tasks: [{
 				id: "1279B4ABCC1E83FA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:ender_blade"
 					tag: {
 						Damage: 0
@@ -464,7 +464,7 @@
 			tasks: [{
 				id: "2FB7594EC933F904"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:void_scepter"
 					tag: {
 						Damage: 0
@@ -487,7 +487,7 @@
 			tasks: [{
 				id: "0279E54654D52F0B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:terrain_mace"
 					tag: {
 						Damage: 0
@@ -510,7 +510,7 @@
 			tasks: [{
 				id: "16B48CF0C7179D07"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:fist_of_fury"
 					tag: {
 						Damage: 0
@@ -533,7 +533,7 @@
 			tasks: [{
 				id: "7F83BC7E74B126C2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:terranean_axe"
 					tag: {
 						Damage: 0
@@ -574,7 +574,7 @@
 			tasks: [{
 				id: "380768867D8D8CF1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:soul_crusher"
 					tag: {
 						Damage: 0
@@ -598,7 +598,7 @@
 				{
 					id: "38E3369502B92326"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archon:soul_scythe"
 						tag: {
 							Damage: 0
@@ -615,134 +615,6 @@
 			title: "Игрушки Жнеца Пожинателя"
 			x: -2.0d
 			y: 6.5d
-		}
-		{
-			dependencies: ["3167EFF48EC07804"]
-			id: "3088860FB0C2E447"
-			rewards: [
-				{
-					id: "4A56971F5C62FEE1"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "32DA263D531A69E6"
-					item: "minecraft:bone"
-					type: "item"
-				}
-			]
-			subtitle: "Душа любого моба, собранного косой души. 5% шанс выпадения за каждое убийство."
-			tasks: [{
-				id: "120EF28A04618FCF"
-				item: "archon:creature_soul"
-				type: "item"
-			}]
-			title: "Душа Существа"
-			x: -3.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["3167EFF48EC07804"]
-			id: "0A0827885634A5A8"
-			rewards: [
-				{
-					id: "1A66F2ECB966847F"
-					type: "xp"
-					xp: 20
-				}
-				{
-					count: 3
-					id: "3BEB61D8D8609439"
-					item: "minecraft:bone"
-					type: "item"
-				}
-			]
-			subtitle: "Душа любого игрока, ведьмы, или илладжера, собранная косой души. Есть 5% шанс выпадения с упомянутых целей."
-			tasks: [{
-				id: "6AD0A2F0318D0CD5"
-				item: "archon:player_soul"
-				type: "item"
-			}]
-			title: "Душа Игрока"
-			x: -2.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["3167EFF48EC07804"]
-			id: "05E4644D3C082757"
-			rewards: [
-				{
-					id: "00434ACAFBEA9A99"
-					type: "xp"
-					xp: 30
-				}
-				{
-					count: 5
-					id: "35E1A2F74AA1AE1F"
-					item: "minecraft:bone"
-					type: "item"
-				}
-			]
-			subtitle: "Душа мощной сущности, собранной косой души, всегда выпадает."
-			tasks: [{
-				id: "0734F33F221A62FD"
-				item: "archon:boss_soul"
-				type: "item"
-			}]
-			title: "Душа Босса"
-			x: -3.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["3088860FB0C2E447"]
-			id: "6B5781356B5EE07F"
-			rewards: [{
-				id: "35799FDC7AA707C6"
-				type: "xp"
-				xp: 15
-			}]
-			subtitle: "Ты можешь использовать это ядро души чтобы призвать стандартного Скелта. Им нельзя дать какого-либо снаряжения."
-			tasks: [{
-				id: "3491D22B7FFC18E8"
-				item: "archon:soul_core_creature"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["0A0827885634A5A8"]
-			id: "2082ECE901AEEEBC"
-			rewards: [{
-				id: "7F974E5D488ED5EF"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Ты можешь использовать это ядро души чтобы призвать Скелта, которому можно дать броню, как ванильную, так и модовую. Тем не менее поменять их железный меч на какое-либо другое оружие нельзя."
-			tasks: [{
-				id: "3309C959FFA8D183"
-				item: "archon:soul_core_player"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["05E4644D3C082757"]
-			id: "7EC5EE0789603462"
-			rewards: [{
-				id: "1F0E29543EF0B476"
-				type: "xp"
-				xp: 35
-			}]
-			subtitle: "Ты можешь использовать это ядро души чтобы призвать огромного Скелта. Хорош в виде танка, довольно медлителен, но имеет много ХП и медленную атаку. Ты не можешь дать ему какого-либо снаряжения."
-			tasks: [{
-				id: "13E79C17C3BA094D"
-				item: "archon:soul_core_boss"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 8.5d
 		}
 		{
 			dependencies: ["0AD9BE143D39268F"]
@@ -831,7 +703,7 @@
 			tasks: [{
 				id: "1035F0368F67CD69"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:fire_wand"
 					tag: {
 						archon: { }
@@ -854,7 +726,7 @@
 			tasks: [{
 				id: "611F65B429A0DF07"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:sky_wand"
 					tag: {
 						archon: { }
@@ -877,7 +749,7 @@
 			tasks: [{
 				id: "776C19E8B948579B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:water_wand"
 					tag: {
 						archon: { }
@@ -900,7 +772,7 @@
 			tasks: [{
 				id: "72305223DA5927DF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:end_wand"
 					tag: {
 						archon: { }
@@ -923,7 +795,7 @@
 			tasks: [{
 				id: "7AD3C9B9978B1421"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:earth_wand"
 					tag: {
 						archon: { }
@@ -1196,7 +1068,7 @@
 			tasks: [{
 				id: "292102AC8D26DBAB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:druid_boots"
 					tag: {
 						Damage: 0
@@ -1238,7 +1110,7 @@
 			tasks: [{
 				id: "4245080FFBF7FAB8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:flaming_harvester"
 					tag: {
 						Damage: 0
@@ -1261,7 +1133,7 @@
 			tasks: [{
 				id: "322A63DA6ADF5CBB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:breezy_harvester"
 					tag: {
 						Damage: 0
@@ -1284,7 +1156,7 @@
 			tasks: [{
 				id: "38249728822F838A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:soaking_harvester"
 					tag: {
 						Damage: 0
@@ -1307,7 +1179,7 @@
 			tasks: [{
 				id: "2D176598582F1DDE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:warping_harvester"
 					tag: {
 						Damage: 0
@@ -1330,7 +1202,7 @@
 			tasks: [{
 				id: "0ED01AE891B58E3D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:rocky_harvester"
 					tag: {
 						Damage: 0
@@ -1353,7 +1225,7 @@
 			tasks: [{
 				id: "34872FD95C254318"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:experience_pouch"
 					tag: {
 						archon: { }
@@ -1378,7 +1250,7 @@
 			tasks: [{
 				id: "3733C69851295D5E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:super_experience_pouch"
 					tag: {
 						archon: { }
@@ -1530,7 +1402,7 @@
 				{
 					id: "51E2350D9B99C322"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:wizard_robe_head"
 						tag: {
 							Damage: 0
@@ -1541,7 +1413,7 @@
 				{
 					id: "0334E481A38444AD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:wizard_robe_chest"
 						tag: {
 							Damage: 0
@@ -1552,7 +1424,7 @@
 				{
 					id: "73CFB3C9A672CEC8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:wizard_robe_legs"
 						tag: {
 							Damage: 0
@@ -1563,7 +1435,7 @@
 				{
 					id: "3BD896B233AB0B55"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:wizard_robe_feet"
 						tag: {
 							Damage: 0
@@ -1574,7 +1446,7 @@
 				{
 					id: "32DE405F4907EFE8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:wand_novice"
 						tag: {
 							Damage: 0
@@ -1600,7 +1472,7 @@
 				{
 					id: "27FAA1EB95E490A9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:arcane_robe_head"
 						tag: {
 							Damage: 0
@@ -1611,7 +1483,7 @@
 				{
 					id: "37A1F2157A200426"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:arcane_robe_chest"
 						tag: {
 							Damage: 0
@@ -1622,7 +1494,7 @@
 				{
 					id: "24F4E17421F20C3B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:arcane_robe_legs"
 						tag: {
 							Damage: 0
@@ -1633,7 +1505,7 @@
 				{
 					id: "3C7F40C273A1F3A9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:arcane_robe_feet"
 						tag: {
 							Damage: 0
@@ -1659,7 +1531,7 @@
 				{
 					id: "327547829D61E07C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:frost_robe_head"
 						tag: {
 							Damage: 0
@@ -1670,7 +1542,7 @@
 				{
 					id: "55E6BF9B4E1AFE5A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:frost_robe_chest"
 						tag: {
 							Damage: 0
@@ -1681,7 +1553,7 @@
 				{
 					id: "175683798B60FDB0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:frost_robe_legs"
 						tag: {
 							Damage: 0
@@ -1692,7 +1564,7 @@
 				{
 					id: "480E96E6495E5B1F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:frost_robe_feet"
 						tag: {
 							Damage: 0
@@ -1718,7 +1590,7 @@
 				{
 					id: "7BD8E910979DE77D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:fire_robe_head"
 						tag: {
 							Damage: 0
@@ -1729,7 +1601,7 @@
 				{
 					id: "4A365C20376BEEBE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:fire_robe_chest"
 						tag: {
 							Damage: 0
@@ -1740,7 +1612,7 @@
 				{
 					id: "0FAF396ABE51D51A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:fire_robe_legs"
 						tag: {
 							Damage: 0
@@ -1751,7 +1623,7 @@
 				{
 					id: "6DF2393DF007BE42"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:fire_robe_feet"
 						tag: {
 							Damage: 0
@@ -1775,7 +1647,7 @@
 			tasks: [{
 				id: "3328B69463327634"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:wand_fire"
 					tag: {
 						Damage: 0
@@ -1805,7 +1677,7 @@
 			tasks: [{
 				id: "5120CCAB8EFEB07A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:wand_netherite_fire"
 					tag: {
 						Damage: 0
@@ -1827,7 +1699,7 @@
 			tasks: [{
 				id: "4619D86629D79118"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:staff_fire"
 					tag: {
 						Damage: 0
@@ -1857,7 +1729,7 @@
 			tasks: [{
 				id: "7A2A9BFA422BA9DC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:staff_netherite_fire"
 					tag: {
 						Damage: 0
@@ -1888,7 +1760,7 @@
 			tasks: [{
 				id: "081C1A34BAEED0D2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:staff_ruby_fire"
 					tag: {
 						Damage: 0
@@ -1911,7 +1783,7 @@
 			tasks: [{
 				id: "598ACE62D9618119"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:wand_arcane"
 					tag: {
 						Damage: 0
@@ -1941,7 +1813,7 @@
 			tasks: [{
 				id: "7FE9AF089199ABAD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:wand_netherite_arcane"
 					tag: {
 						Damage: 0
@@ -1963,7 +1835,7 @@
 			tasks: [{
 				id: "5C33E88C4320F86C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:staff_arcane"
 					tag: {
 						Damage: 0
@@ -1993,7 +1865,7 @@
 			tasks: [{
 				id: "33A54FACC0D3CCEC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:staff_netherite_arcane"
 					tag: {
 						Damage: 0
@@ -2024,7 +1896,7 @@
 			tasks: [{
 				id: "53C731B93D19BCA0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:staff_crystal_arcane"
 					tag: {
 						Damage: 0
@@ -2047,7 +1919,7 @@
 			tasks: [{
 				id: "0A5E01D2A13E6EB6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:wand_frost"
 					tag: {
 						Damage: 0
@@ -2077,7 +1949,7 @@
 			tasks: [{
 				id: "4E837C47352C4C36"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:wand_netherite_frost"
 					tag: {
 						Damage: 0
@@ -2099,7 +1971,7 @@
 			tasks: [{
 				id: "195BEE0D619C90C0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:staff_frost"
 					tag: {
 						Damage: 0
@@ -2129,7 +2001,7 @@
 			tasks: [{
 				id: "55841DF0E469A493"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:staff_netherite_frost"
 					tag: {
 						Damage: 0
@@ -2160,7 +2032,7 @@
 			tasks: [{
 				id: "4E12E5BB950D0A6E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:staff_smaragdant_frost"
 					tag: {
 						Damage: 0
@@ -2213,7 +2085,7 @@
 				{
 					id: "7D96A5644F0B89CE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:acolyte_wand"
 						tag: {
 							Damage: 0
@@ -2224,7 +2096,7 @@
 				{
 					id: "237A9956C8B769CD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:iron_mace"
 						tag: {
 							Damage: 0
@@ -2235,7 +2107,7 @@
 				{
 					id: "57E8420971CC142A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:stone_claymore"
 						tag: {
 							Damage: 0
@@ -2246,7 +2118,7 @@
 				{
 					id: "4FF8466B96AE216B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:wooden_great_hammer"
 						tag: {
 							Damage: 0
@@ -2270,7 +2142,7 @@
 			tasks: [{
 				id: "30090B3986B62154"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:golden_mace"
 					tag: {
 						Damage: 0
@@ -2292,7 +2164,7 @@
 			tasks: [{
 				id: "7EDB66441891F54A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:diamond_mace"
 					tag: {
 						Damage: 0
@@ -2324,7 +2196,7 @@
 			tasks: [{
 				id: "75C4F102B9C2958B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:netherite_mace"
 					tag: {
 						Damage: 0
@@ -2347,7 +2219,7 @@
 			tasks: [{
 				id: "6EE2660D69D0C732"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:iron_claymore"
 					tag: {
 						Damage: 0
@@ -2369,7 +2241,7 @@
 			tasks: [{
 				id: "681B15E04D3E57AA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:golden_claymore"
 					tag: {
 						Damage: 0
@@ -2391,7 +2263,7 @@
 			tasks: [{
 				id: "325C13FA1AE06432"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:diamond_claymore"
 					tag: {
 						Damage: 0
@@ -2413,7 +2285,7 @@
 			tasks: [{
 				id: "36FAB0A04691C6AF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:netherite_claymore"
 					tag: {
 						Damage: 0
@@ -2444,7 +2316,7 @@
 			tasks: [{
 				id: "5D6DB3BB06C2FAC7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:aeternium_claymore"
 					tag: {
 						Damage: 0
@@ -2467,7 +2339,7 @@
 			tasks: [{
 				id: "41BDB69ED72D405A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:stone_great_hammer"
 					tag: {
 						Damage: 0
@@ -2489,7 +2361,7 @@
 			tasks: [{
 				id: "1D35CECBD880114D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:iron_great_hammer"
 					tag: {
 						Damage: 0
@@ -2511,7 +2383,7 @@
 			tasks: [{
 				id: "7B7E8A314B33B502"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:golden_great_hammer"
 					tag: {
 						Damage: 0
@@ -2533,7 +2405,7 @@
 			tasks: [{
 				id: "64EC328411AF3919"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:diamond_great_hammer"
 					tag: {
 						Damage: 0
@@ -2555,7 +2427,7 @@
 			tasks: [{
 				id: "7927D1D237387AF4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:netherite_great_hammer"
 					tag: {
 						Damage: 0
@@ -2586,7 +2458,7 @@
 			tasks: [{
 				id: "1BC110139429C175"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:aeternium_great_hammer"
 					tag: {
 						Damage: 0
@@ -2609,7 +2481,7 @@
 			tasks: [{
 				id: "294EFB9D48765D1B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:holy_wand"
 					tag: {
 						Damage: 0
@@ -2631,7 +2503,7 @@
 			tasks: [{
 				id: "78613F4040898AB6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:netherite_holy_wand"
 					tag: {
 						Damage: 0
@@ -2653,7 +2525,7 @@
 			tasks: [{
 				id: "6ECD0975B5B32CA6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:holy_staff"
 					tag: {
 						Damage: 0
@@ -2675,7 +2547,7 @@
 			tasks: [{
 				id: "5D092AAB90E0F53B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:netherite_holy_staff"
 					tag: {
 						Damage: 0
@@ -2706,7 +2578,7 @@
 			tasks: [{
 				id: "067FD6C39AE1EE6F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:ruby_holy_staff"
 					tag: {
 						Damage: 0
@@ -2731,7 +2603,7 @@
 				{
 					id: "7924AEE7FC3FA45E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:prior_robe_head"
 						tag: {
 							Damage: 0
@@ -2742,7 +2614,7 @@
 				{
 					id: "6101D0B09A7B9580"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:prior_robe_chest"
 						tag: {
 							Damage: 0
@@ -2753,7 +2625,7 @@
 				{
 					id: "391EFFF992BE5F2F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:prior_robe_legs"
 						tag: {
 							Damage: 0
@@ -2764,7 +2636,7 @@
 				{
 					id: "153F1B591194A794"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:prior_robe_feet"
 						tag: {
 							Damage: 0
@@ -2790,7 +2662,7 @@
 				{
 					id: "63E5401B200F2467"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:paladin_armor_head"
 						tag: {
 							Damage: 0
@@ -2801,7 +2673,7 @@
 				{
 					id: "0AA3D5062156BFEB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:paladin_armor_chest"
 						tag: {
 							Damage: 0
@@ -2812,7 +2684,7 @@
 				{
 					id: "0D264A4D85454BC8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:paladin_armor_legs"
 						tag: {
 							Damage: 0
@@ -2823,7 +2695,7 @@
 				{
 					id: "1CBCFA21DB94EC82"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:paladin_armor_feet"
 						tag: {
 							Damage: 0
@@ -2849,7 +2721,7 @@
 				{
 					id: "3408342049EBB14C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:crusader_armor_head"
 						tag: {
 							Damage: 0
@@ -2860,7 +2732,7 @@
 				{
 					id: "3E6FB4B6925F0E18"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:crusader_armor_chest"
 						tag: {
 							Damage: 0
@@ -2871,7 +2743,7 @@
 				{
 					id: "4B84A7DA53318687"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:crusader_armor_legs"
 						tag: {
 							Damage: 0
@@ -2882,7 +2754,7 @@
 				{
 					id: "022D722EA2FD2B7C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:crusader_armor_feet"
 						tag: {
 							Damage: 0
@@ -2908,7 +2780,7 @@
 				{
 					id: "1CCEAED1B260191E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:priest_robe_head"
 						tag: {
 							Damage: 0
@@ -2919,7 +2791,7 @@
 				{
 					id: "01A0C51AD76EDD9E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:priest_robe_chest"
 						tag: {
 							Damage: 0
@@ -2930,7 +2802,7 @@
 				{
 					id: "194173EFB2E432E8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:priest_robe_legs"
 						tag: {
 							Damage: 0
@@ -2941,7 +2813,7 @@
 				{
 					id: "3467DBE1EBEC5E0E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:priest_robe_feet"
 						tag: {
 							Damage: 0

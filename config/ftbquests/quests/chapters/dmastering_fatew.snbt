@@ -4,7 +4,7 @@
 	filename: "dmastering_fatew"
 	group: "7367AB870F5BB5DC"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "the_bumblezone:item/essence/knowing"

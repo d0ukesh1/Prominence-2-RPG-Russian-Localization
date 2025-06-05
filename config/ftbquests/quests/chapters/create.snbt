@@ -6,12 +6,8 @@
 	icon: "create:wrench"
 	id: "27900E4479E6E12D"
 	images: [{
-		click: ""
-		corner: false
 		dependency: "68ED01D9FDB64432"
-		dev: false
 		height: 1.0d
-		hover: [ ]
 		image: "minecraft:block/campfire_fire"
 		rotation: 0.0d
 		width: 1.0d
@@ -287,7 +283,7 @@
 			tasks: [{
 				id: "52F0F6E11AA698A8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "create:valve_handles"
@@ -709,7 +705,7 @@
 			tasks: [{
 				id: "48A879AA84014B3A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -959,7 +955,7 @@
 			tasks: [{
 				id: "619FE344BCBDAB36"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:potato_cannon"
 					tag: {
 						Damage: 0
@@ -1050,7 +1046,7 @@
 			tasks: [{
 				id: "68D17460D2020F20"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:copper_backtank"
 					tag: {
 						Air: 900
@@ -1073,7 +1069,7 @@
 			tasks: [{
 				id: "7832A4786CFEC81A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:netherite_backtank"
 					tag: {
 						Air: 900
@@ -1096,7 +1092,7 @@
 			tasks: [{
 				id: "17228D5A74B1A33E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:copper_diving_helmet"
 					tag: {
 						Damage: 0
@@ -1119,7 +1115,7 @@
 			tasks: [{
 				id: "5242A70758AE33CD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:copper_diving_boots"
 					tag: {
 						Damage: 0
@@ -1142,7 +1138,7 @@
 			tasks: [{
 				id: "1AF3B77EDDF1673E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:netherite_diving_helmet"
 					tag: {
 						Damage: 0
@@ -1165,7 +1161,7 @@
 			tasks: [{
 				id: "78E8394EB1AF6284"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:netherite_diving_boots"
 					tag: {
 						Damage: 0
@@ -1462,7 +1458,7 @@
 			tasks: [{
 				id: "3E3A3CDA9C9A330B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:extendo_grip"
 					tag: {
 						Damage: 0
@@ -1910,7 +1906,7 @@
 			tasks: [{
 				id: "2C10D674D26CA38B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:super_glue"
 					tag: {
 						Damage: 0
@@ -1984,7 +1980,7 @@
 			tasks: [{
 				id: "2E5C745B6235D5D2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2138,7 +2134,7 @@
 			tasks: [{
 				id: "5FB026F193CA182B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "create:seats"
@@ -2162,7 +2158,7 @@
 			tasks: [{
 				id: "1941DE49FCC4EC20"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2296,7 +2292,6 @@
 				item: "createaddition:modular_accumulator"
 				type: "item"
 			}]
-			title: "Аккумулятор"
 			x: 2.0d
 			y: 15.5d
 		}
@@ -2319,7 +2314,7 @@
 				{
 					id: "1053B1858A9926B3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2374,7 +2369,7 @@
 			tasks: [{
 				id: "4C320CF1DF11D854"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [

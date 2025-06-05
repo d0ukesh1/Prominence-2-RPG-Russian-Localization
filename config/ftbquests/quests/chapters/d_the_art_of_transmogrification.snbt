@@ -4,7 +4,7 @@
 	filename: "d_the_art_of_transmogrification"
 	group: "244F516C4853FD2F"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "zenith:items/gems/endersurge"
@@ -13,11 +13,7 @@
 	id: "0EF4DA402B0EFC8E"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplyswords:item/lichblade_eyes"
 			rotation: 0.0d
 			width: 0.016666666666666666d
@@ -25,11 +21,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "botania:block/purple_mystical_flower"
 			rotation: 0.0d
 			width: 1.0d

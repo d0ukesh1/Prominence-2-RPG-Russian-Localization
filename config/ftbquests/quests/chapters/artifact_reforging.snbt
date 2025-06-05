@@ -3,8 +3,9 @@
 	default_quest_shape: ""
 	filename: "artifact_reforging"
 	group: "3DBADFFDA1FDAD84"
+	hide_quest_until_deps_complete: true
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "prominent:item/molten_core"
@@ -13,11 +14,7 @@
 	id: "13D4D78DE7B38A80"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:block/campfire_fire"
 			rotation: 0.0d
 			width: 1.0d
@@ -25,11 +22,8 @@
 			y: -0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
+			dependency: "3453FD3CA0E3233A"
 			height: 1.0d
-			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x_alt"
 			rotation: 0.0d
 			width: 1.0d
@@ -37,11 +31,7 @@
 			y: 1.8642857142857139d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:icons/blank"
 			rotation: 0.0d
 			width: 0.1d
@@ -110,7 +100,7 @@
 			tasks: [{
 				id: "7F239D03EBB09534"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "prominent:frostmourne"
 					tag: {
 						Damage: 0
@@ -135,7 +125,7 @@
 			tasks: [{
 				id: "52D24DAEDFD19F9A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "prominent:fyralath"
 					tag: {
 						Damage: 0
@@ -155,7 +145,7 @@
 			tasks: [{
 				id: "43F5AAA9405EE27D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "prominent:azhar"
 					tag: {
 						Damage: 0
@@ -175,7 +165,7 @@
 			tasks: [{
 				id: "6B6E9C04C7D69E89"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "prominent:supernova"
 					tag: {
 						Damage: 0
@@ -195,7 +185,7 @@
 			tasks: [{
 				id: "3D838C3D611886A5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "prominent:fury_of_a_thousand_fists"
 					tag: {
 						Damage: 0
@@ -215,7 +205,7 @@
 			tasks: [{
 				id: "22CACA94593603A7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "prominent:thunderwrath"
 					tag: {
 						Damage: 0
@@ -248,7 +238,7 @@
 				"&cЭволюционирует в одну из 5 улучшенных версий Астральных, Огненных, Морозных, Святых или Тайных магов в Древе Улучшений."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "prominent:ekavar_staff"
 				tag: {
 					Damage: 0
@@ -260,7 +250,7 @@
 			tasks: [{
 				id: "133C7DC53BD48F85"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "prominent:ekavar_staff"
 					tag: {
 						Damage: 0
@@ -353,10 +343,10 @@
 				"36916D6575BB39B7"
 			]
 			description: ["&8Вы выковали все Артефактные Оружия и раскрыли их Мастерство. Вы держали в руках все виды силы. И теперь вопрос: что вы собираетесь делать с этим знанием?"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "the_bumblezone:item/essence/knowing"
@@ -367,7 +357,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "the_bumblezone:item/essence/knowing"
@@ -393,7 +383,7 @@
 			dependencies: ["6AD67E7C8CD78371"]
 			description: [""]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:item/artifacts/vaazkar/vaazkar_item"
@@ -414,7 +404,7 @@
 			dependencies: ["6AD67E7C8CD78371"]
 			description: ["&eБабушка, это восхитительно!"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "prominent:skillet"
 				tag: {
 					Damage: 0
@@ -430,7 +420,7 @@
 			invisible: true
 			rewards: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:item/cinderstone_trophy"
@@ -445,7 +435,7 @@
 			tasks: [{
 				id: "5E0FF5030814F464"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "prominent:skillet"
 					tag: {
 						Damage: 0
@@ -477,7 +467,7 @@
 			subtitle: "&6Вечное Испытание"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
@@ -508,7 +498,7 @@
 			subtitle: "&6Вечное Испытание"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
@@ -539,7 +529,7 @@
 			subtitle: "&6Вечное Испытание"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
@@ -570,7 +560,7 @@
 			subtitle: "&6Вечное Испытание"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
@@ -601,7 +591,7 @@
 			subtitle: "&6Вечное Испытание"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
@@ -632,7 +622,7 @@
 			subtitle: "&6Вечное Испытание"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
@@ -663,7 +653,7 @@
 			subtitle: "&6Вечное Испытание"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
@@ -701,7 +691,7 @@
 			subtitle: "&6Вечное Испытание"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
@@ -732,7 +722,7 @@
 			subtitle: "&6Вечное Испытание"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
@@ -763,7 +753,7 @@
 			subtitle: "&6Вечное Испытание"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
@@ -788,7 +778,7 @@
 			tasks: [{
 				id: "319EB24C08B33386"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "prominent:ghaj"
 					tag: {
 						Damage: 0
@@ -809,7 +799,7 @@
 			subtitle: "&6Вечное Испытание"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
@@ -847,7 +837,7 @@
 			tasks: [{
 				id: "1E3C6D4ED246A31F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "prominent:apophis"
 					tag: {
 						Damage: 0
@@ -873,7 +863,7 @@
 			subtitle: "&6Вечное Испытание"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"

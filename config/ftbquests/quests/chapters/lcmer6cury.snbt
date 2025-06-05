@@ -5,7 +5,7 @@
 	group: "3E586F2160161EEA"
 	icon: "ad_astra:mercury_globe"
 	id: "429F6931FD1BBEC8"
-	order_index: 11
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
@@ -186,7 +186,7 @@
 			tasks: [{
 				id: "210B997455B590E5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_1_rover"
 					tag: {
 						BotariumData: { }

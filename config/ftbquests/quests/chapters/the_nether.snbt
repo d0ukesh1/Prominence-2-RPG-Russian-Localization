@@ -6,11 +6,7 @@
 	icon: "minecraft:obsidian"
 	id: "0D7FF8F037EFF568"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 3.5d
-		hover: [ ]
 		image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
 		rotation: 0.0d
 		width: 3.5d
@@ -31,7 +27,7 @@
 				{
 					id: "40CCAD2EFE886731"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "minecraft:long_fire_resistance"
@@ -46,7 +42,7 @@
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:netherrack"
 				id: "7FC5892104C0744C"
-				title: "Войдите в Ад"
+				title: "Войди в Ад"
 				type: "dimension"
 			}]
 			title: "Войди в &cАд"
@@ -68,11 +64,11 @@
 				entity: "adventurez:blaze_guardian"
 				icon: "minecraft:blaze_rod"
 				id: "4DBABAE3AE00C903"
-				title: "Убей Полыхающего Стража"
+				title: "Убей Стража пламени"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Убей &6Полыхающего Стража"
+			title: "Убей &6Стража пламени"
 			x: -7.5d
 			y: -2.0d
 		}
@@ -118,11 +114,11 @@
 				entity: "adventurez:blackstone_golem"
 				icon: "adventurez:blackstone_golem_heart"
 				id: "27D27F2750D953BC"
-				title: "Убей Чернокаменного Голема"
+				title: "Убей Чернитового Голема"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Убей &8Чернокаменного Голема"
+			title: "Убей &8Чернитового Голема"
 			x: -5.0d
 			y: -3.0d
 		}
@@ -134,7 +130,7 @@
 				{
 					id: "1D8B697841671F20"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:withered_wabbajack"
 						tag: {
 							Damage: 0

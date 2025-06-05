@@ -242,7 +242,7 @@
 				{
 					id: "1853474A9B33A934"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -640,7 +640,7 @@
 			tasks: [{
 				id: "5F6EB1B1786EEBDF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "indrev:servo_retriever"
 					tag: { }
 				}
@@ -666,7 +666,7 @@
 			tasks: [{
 				id: "12790B91DDF80C81"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "indrev:servo_output"
 					tag: { }
 				}
@@ -1175,7 +1175,7 @@
 				{
 					id: "5134A704A06EE67B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:fishing_rod"
 						tag: {
 							Damage: 0
@@ -1364,7 +1364,7 @@
 			tasks: [{
 				id: "13279A65486B3B7D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "indrev:modular_armor_helmet"
 					tag: { }
 				}
@@ -1386,7 +1386,7 @@
 			tasks: [{
 				id: "18F4272FADDD55D5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "indrev:modular_armor_chest"
 					tag: { }
 				}
@@ -1408,7 +1408,7 @@
 			tasks: [{
 				id: "53BB342EBDD0D957"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "indrev:modular_armor_legs"
 					tag: { }
 				}
@@ -1430,7 +1430,7 @@
 			tasks: [{
 				id: "09DBCD31FE861696"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "indrev:modular_armor_boots"
 					tag: { }
 				}
@@ -1469,7 +1469,7 @@
 			tasks: [{
 				id: "08D8E846F2846652"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "indrev:gamer_axe"
 					tag: {
 						Active: 1b
@@ -1496,7 +1496,7 @@
 			tasks: [{
 				id: "645E1AFF80FEF744"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1658,7 +1658,7 @@
 			tasks: [{
 				id: "462B8764930866AB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "indrev:hammer"
 					tag: {
 						Damage: 0
@@ -1892,7 +1892,7 @@
 		{
 			dependencies: ["32DE8281608AE114"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "indrev:fan"
 				tag: {
 					Damage: 0
@@ -1903,7 +1903,7 @@
 				{
 					id: "4F9CB4B0CF0F59CB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "indrev:fan"
 						tag: {
 							Damage: 0
@@ -1914,7 +1914,7 @@
 				{
 					id: "031127910272B37D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "indrev:cooler_cell"
 						tag: {
 							Damage: 0
@@ -1925,7 +1925,7 @@
 				{
 					id: "33651DB0E58175E2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "indrev:heatsink"
 						tag: {
 							Damage: 0

@@ -99,7 +99,7 @@
 			tasks: [{
 				id: "6166A7A7A3D373D3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:wrench"
 					tag: {
 						PowahWrenchNBT: { }
@@ -1216,7 +1216,7 @@
 			tasks: [{
 				id: "146A5CDD2739CF08"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_starter"
 					tag: { }
 				}
@@ -1236,7 +1236,7 @@
 			tasks: [{
 				id: "67B6D1008137F05A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_basic"
 					tag: { }
 				}
@@ -1256,7 +1256,7 @@
 			tasks: [{
 				id: "65832D45AAB4DF40"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_hardened"
 					tag: { }
 				}
@@ -1276,7 +1276,7 @@
 			tasks: [{
 				id: "6EA847EE93EC17D6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_blazing"
 					tag: { }
 				}
@@ -1296,7 +1296,7 @@
 			tasks: [{
 				id: "33CB82FECA01089D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_niotic"
 					tag: { }
 				}
@@ -1316,7 +1316,7 @@
 			tasks: [{
 				id: "7C758E401D832798"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_spirited"
 					tag: { }
 				}
@@ -1336,7 +1336,7 @@
 			tasks: [{
 				id: "526B44A242E86190"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_nitro"
 					tag: { }
 				}

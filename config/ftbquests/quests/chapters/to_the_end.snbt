@@ -6,11 +6,7 @@
 	icon: "minecraft:end_portal_frame"
 	id: "5AAF050CB8F14B0C"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 4.0d
-		hover: [ ]
 		image: "prominent:textures/text/the_end.png"
 		rotation: 0.0d
 		width: 8.0d

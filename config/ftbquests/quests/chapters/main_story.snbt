@@ -4,7 +4,7 @@
 	filename: "main_story"
 	group: "3DBADFFDA1FDAD84"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "eldritch_end:textures/icon/corruption.png"
@@ -13,12 +13,8 @@
 	id: "33AB3D787DE6F0E5"
 	images: [
 		{
-			click: ""
-			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: false
 			height: 2.5d
-			hover: [ ]
 			image: "minecraft:block/campfire_fire"
 			rotation: 0.0d
 			width: 2.5d
@@ -26,12 +22,8 @@
 			y: -0.07142857142854808d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/cobweb"
 			rotation: 0.0d
 			width: 2.0d
@@ -39,12 +31,8 @@
 			y: -1.5d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "betterend:textures/particle/jungle_spore_1.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -52,12 +40,8 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "endrem:block/ancient_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -65,12 +49,8 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: false
 			height: 2.5d
-			hover: [ ]
 			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
 			rotation: 0.0d
 			width: 2.5d
@@ -78,12 +58,8 @@
 			y: 0.05357142857141639d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "betternether:block/blackstone_furnace_front_on"
 			rotation: 0.0d
 			width: 2.0d
@@ -91,12 +67,8 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: false
 			height: 2.5d
-			hover: [ ]
 			image: "minecells:textures/mob_effect/frozen.png"
 			rotation: 0.0d
 			width: 2.5d
@@ -104,12 +76,8 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: false
 			height: 1.4954166666666664d
-			hover: [ ]
 			image: "prominent:textures/text/dimensionalthreats.png"
 			rotation: 0.0d
 			width: 9.7d
@@ -117,11 +85,7 @@
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "prominent:textures/text/the_beginning.png"
 			rotation: 0.0d
 			width: 8.06060606060606d
@@ -129,12 +93,8 @@
 			y: -9.5d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "63A18694A9470D66"
-			dev: false
 			height: 1.7d
-			hover: [ ]
 			image: "prominent:textures/other/prominent_logo.png"
 			rotation: 0.0d
 			width: 1.7d
@@ -142,12 +102,8 @@
 			y: -1.5892857142857153d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "endrem:textures/backgrounds/advance_back.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -155,11 +111,7 @@
 			y: 0.0357142857142847d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbteams:textures/add.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -167,12 +119,8 @@
 			y: -27.5d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "18E337BC1F3F75FD"
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "soulsweapons:item/lord_soul_rose"
 			rotation: 0.0d
 			width: 1.0d
@@ -180,12 +128,8 @@
 			y: 3.1773809523809504d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "18E337BC1F3F75FD"
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "soulsweapons:item/lord_soul_day_stalker"
 			rotation: 0.0d
 			width: 1.0d
@@ -193,12 +137,8 @@
 			y: 4.218197278911568d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "18E337BC1F3F75FD"
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "soulsweapons:item/lord_soul_white"
 			rotation: 0.0d
 			width: 1.0d
@@ -206,12 +146,8 @@
 			y: 5.17738095238095d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "18E337BC1F3F75FD"
-			dev: false
 			height: 20.0d
-			hover: [ ]
 			image: "prominent:textures/other/tear_in_space.png"
 			rotation: 0.0d
 			width: 24.48979591836735d
@@ -219,12 +155,8 @@
 			y: 8.0d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "245E77F81FB78B58"
-			dev: false
 			height: 4.901960784313726d
-			hover: [ ]
 			image: "eldritch_end:textures/icon/faceless_head.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -232,12 +164,8 @@
 			y: 12.392857142857153d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "prominent:item/demonic_essence"
 			rotation: 0.0d
 			width: 2.0d
@@ -245,13 +173,9 @@
 			y: -1.392857142857146d
 		}
 		{
-			click: ""
 			color: 16711680
-			corner: false
 			dependency: "214E47AB3004E7D3"
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -308,7 +232,7 @@
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/boss_icons/guantlet.png"
@@ -338,9 +262,10 @@
 				""
 				"&eПодсказка: &7Это босс дальнего боя, используй летающего маунта если ты воин ближнего боя, или лук в качестве второстепенного оружия!"
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:textures/boss_icons/night_lich.png"
@@ -381,7 +306,7 @@
 				{
 					entity: "bosses_of_mass_destruction:lich"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "prominent:textures/boss_icons/night_lich.png"
@@ -426,7 +351,7 @@
 			tasks: [{
 				entity: "adventurez:blackstone_golem"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/boss_icons/blackstone_golem.png"
@@ -455,7 +380,7 @@
 				{
 					id: "09826DC6C54E3B82"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_greataxe"
 						tag: {
 							Damage: 0
@@ -475,7 +400,7 @@
 			tasks: [{
 				entity: "soulsweapons:draugr_boss"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/boss_icons/the_fallen_icon.png"
@@ -530,7 +455,7 @@
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/boss_icons/obsidilith.png"
@@ -556,7 +481,13 @@
 				""
 				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
 			]
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "a_overrides:textures/quests/icon/the_eldritch_eye.png"
+				}
+			}
 			id: "0E567E587E669BED"
 			rewards: [
 				{
@@ -581,7 +512,7 @@
 			tasks: [{
 				entity: "eldritch_end:eye"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "a_overrides:textures/quests/icon/the_eldritch_eye.png"
@@ -615,7 +546,7 @@
 				{
 					id: "11B72D0A200DD1F1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -638,7 +569,7 @@
 			tasks: [{
 				entity: "minecells:conjunctivius"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/boss_icons/conjuctivius.png"
@@ -669,7 +600,7 @@
 				{
 					id: "544D6EE6AB75D837"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:elytra"
 						tag: {
 							Damage: 0
@@ -694,7 +625,7 @@
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "prominent:textures/boss_icons/dragon.png"
@@ -716,7 +647,7 @@
 				"&7&oОн поддерживает тонкий баланс во всех измерениях, развязав бесчисленное количество войн, дабы предотвратить разрушение реальностей."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:textures/other/skellak.png"
@@ -743,7 +674,8 @@
 				""
 				"&o&7Веками, Пустоту сдерживал С'келлак, но когда мощь его теперь в истощении, тень вспыхивает, замышляя разрыв и уничтожение всех реальностей. Что однажды было безмятежными созданиями, будут теперь искривлены в смертоносных испорченных тварей, пока искажение раскидывает свои мерзкие щупальца. Час расплаты близится."
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "bosses_of_mass_destruction:void_thorn"
 			id: "7AE1542456418BCD"
 			shape: "pentagon"
@@ -766,7 +698,8 @@
 				""
 				"&o&7Тихие когда-то существа были искривлены в мощных испорченных созданий её искажающим влиянием. Реальностей судьба лежит на тебе."
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "ftbquests:book"
 			id: "7CBAFED315D614C3"
 			shape: "diamond"
@@ -791,7 +724,8 @@
 				""
 				"&7Этот дар, освященный силой С'келлака, знаменует как триумф героя, так и его клятву продолжать защиту реальностей."
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "prominent:molten_core"
 			id: "63A18694A9470D66"
 			rewards: [{
@@ -821,7 +755,8 @@
 				""
 				"&7Глубоко в Краю, странные голоса теперь шепчат &8&o\"Король в Желтом близко\"&r."
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "ftbquests:book"
 			id: "18E337BC1F3F75FD"
 			rewards: [{
@@ -850,9 +785,10 @@
 				""
 				"&6Что до тебя, это литое ядро ничто, но сосуд. Тебе понадобятся эссенции существ древних. Как только обузданы, эти эссенции усилят его, чтобы он выкован мог быть в мощнейшие артефакты. Твоя миссия в их получении.\" &e&oОбъяснил С'келлак."
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "spell_power:textures/mob_effect/critical_damage.png"
@@ -885,7 +821,7 @@
 				""
 				"&7Чтобы призвать его ты должен совершить запутанный ритуал, используя темную магию, прочитать которую можно в Книге Теней."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "prominent:demon_essence"
 			id: "45A926EF078F465E"
 			rewards: [
@@ -928,7 +864,7 @@
 				""
 				"&7Использовав Эссенцию Вечера на Алтаре Старой Луны, ты вернешь истинного наследника обратно в его тело. В результате это вызовает Падшую Икону, свирепую, усиленную версию Рыцаря Возвращения с быстрой и опасной второй фазой. При призыве, он наделит каждого поблизости Слабостью, Тошнотой, и Медлительностью."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "prominent:glory_essence"
 			id: "7C7838CB12D2C972"
 			rewards: [
@@ -966,7 +902,7 @@
 				""
 				"&7При сражении, ослаблена может быть она, иначе побежденной ей не быть."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "prominent:wrath_essence"
 			id: "569B422A5AE03E53"
 			rewards: [
@@ -998,7 +934,7 @@
 		{
 			dependencies: ["5472D472A72B4DB9"]
 			description: ["&7Примитивное семя созидания, &9Первобытная Бездна&7 поимела наибольшее влияние от космических ужасов. Это прогнившая земля со своим собственным испорченным видом жизни, известным как &9искажения&7."]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "eldritch_end:abysmal_fronds"
 			id: "601BDBA6DF073CB0"
 			rewards: [
@@ -1030,7 +966,7 @@
 		{
 			dependencies: ["5472D472A72B4DB9"]
 			description: ["&7Хастурианские стоки - это опустошенная земля, полная шпилей, известных как &eСпиральные Шпили&7. Некоторые из этих шпилей обладают неизвестным металлом, благословленным Хастуром. Он может быть лучшим способом борьбы с порчей."]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "eldritch_end:hasturian_moss"
 			id: "2500331DBBD67515"
 			rewards: [
@@ -1049,7 +985,7 @@
 			size: 1.2d
 			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
 			tasks: [{
-				biome: "minecraft:plains"
+				biome: "eldritch_end:hasturian_wastes"
 				icon: "eldritch_end:hasturian_moss"
 				id: "3C7ECD7B595CB560"
 				title: "Посети Хастурианские Стоки"
@@ -1062,7 +998,8 @@
 		{
 			dependencies: ["18E337BC1F3F75FD"]
 			description: ["&7С победой над Оком, край был поражен высшими силами Пустоты, &dкосмическими ужасами&7. Зловещие существа, по венам которых течет чистая порча."]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "eldritch_end:aberration_heart"
 			id: "5472D472A72B4DB9"
 			shape: "diamond"
@@ -1116,7 +1053,7 @@
 		{
 			dependencies: ["2500331DBBD67515"]
 			description: ["&7Металл со Спиральных Шпилей, &2Этир&7, имеет уникальное свойство, он обладает &2сопротивлением к порче&7. Мы могли бы использовать этот металл, чтобы не дать космическим ужасам исказить край."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "40BF64AA85FF6010"
 			rewards: [
 				{
@@ -1148,7 +1085,8 @@
 				""
 				"&6Для начала, потребуется нам пъедестал призыва.\" &e&oОбъяснил С'келлак."
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "4AEBBAD5C5474582"
 			rewards: [
 				{
@@ -1248,7 +1186,7 @@
 					advancement: "prominent:unlock_mythic_challenges"
 					criterion: ""
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "prominent:void_hourglass"
 						tag: {
 							mythicbosses: {
@@ -1296,7 +1234,8 @@
 				""
 				"&eСледуй квестовой линии &cКузня С'келлака&e чтобы узнать больше о том, как выковать оружия артефакты."
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "6EEFBD329C02E34A"
 			rewards: [
 				{
@@ -1320,7 +1259,7 @@
 			tasks: [{
 				id: "27B44E04748B6582"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "prominent:artifacts"
@@ -1340,7 +1279,7 @@
 				""
 				"&6\"Безликий здесь, очередный вестник пустоты, а также корень порчи\" &e&oсказал С'келлак"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "ftbquests:book"
 			id: "245E77F81FB78B58"
 			shape: "diamond"
@@ -1369,7 +1308,7 @@
 				"&7Ты можешь призвать их с помощью &dПустотных Песочных Часов&7. Если ты поставил свои песочные часы не на то место, то можешь получить новые от Нуль, но их уровень будет снова 1."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "prominent:void_hourglass"
 				tag: {
 					mythicbosses: {
@@ -1400,7 +1339,7 @@
 				"&6\"Береги себя, просто ослабь его, а я постараюсь опустить его в Вааз, дабы запереть его там на веки вечные. Судьба реальностей лежит на тебе.\" &eтвердил С'келлак"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "eldritch_end:textures/icon/faceless_head.png"
@@ -1434,7 +1373,7 @@
 			tasks: [{
 				entity: "eldritch_end:the_faceless"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "eldritch_end:textures/icon/faceless_head.png"
@@ -1461,7 +1400,7 @@
 				"&eИспользование магии и способностей привлечет внимание Колдовского Клана. Используй Магический Клинок на их портале, чтобы отправится в Стеклянный Океан, а после используй Призматический Жемчуг чтобы призвать его."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "spellbladenext:item/magus_chest"
@@ -1488,7 +1427,7 @@
 				{
 					entity: "spellbladenext:magus"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "spellbladenext:item/magus_head"
@@ -1536,7 +1475,7 @@
 				{
 					id: "43FE16B7924AD804"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:dreadtide"
 						tag: {
 							Damage: 0
@@ -1597,7 +1536,8 @@
 				""
 				"&8&oГлубоко в Крае, разлом закрывается, но открывается темный портал."
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "minecraft:writable_book"
 			id: "04AF2E026BB918AE"
 			rewards: [
@@ -1633,7 +1573,8 @@
 				""
 				"&7Найденный в Аду, он был проклят теми, кто по его мнению были его союзниками. Его королевство было осаждено и пало под морем лавы, и Король мог лишь беспомощно смотреть, пока его разум и тело медленно иссушались."
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "5B31D4D4029F1891"
 			rewards: [
 				{
@@ -1680,7 +1621,7 @@
 				"&7Всего ты будешь наносить &cна 10% меньше урона за каждый уровень разницы&7, то есть, если ты на уровне 45, а босс на уровне 50, ты нанесешь только 50% от общего урона, который мог бы нанести."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:icons/info_gray"

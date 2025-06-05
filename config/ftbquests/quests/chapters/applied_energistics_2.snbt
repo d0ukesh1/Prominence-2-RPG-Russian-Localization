@@ -6,11 +6,7 @@
 	icon: "ae2:controller"
 	id: "75FDA9480EE7777C"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 3.0d
-		hover: [ ]
 		image: "ae2:item/blank_pattern"
 		rotation: 0.0d
 		width: 3.0d
@@ -104,7 +100,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Печати Вырезателя найдены в Небесных Сундуках в центре Метеорита. Они используются в создании печатных плат в Вырезателе."
+			subtitle: "Печати Вырезателя находятся в Небесных Сундуках в центре Метеорита. Они используются в создании печатных плат в Вырезателе."
 			tasks: [
 				{
 					id: "16939C6D195B1127"
@@ -217,7 +213,7 @@
 			tasks: [{
 				id: "5EA3D64A96FA7D0D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -283,7 +279,7 @@
 			tasks: [{
 				id: "6F08AD378A0958C5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:energy_cell"
 					tag: { }
 				}
@@ -300,7 +296,7 @@
 				{
 					id: "1390E8DAC4871757"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:energy_cell"
 						tag: { }
 					}
@@ -316,7 +312,7 @@
 			tasks: [{
 				id: "3D4139F14C804ED4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:dense_energy_cell"
 					tag: { }
 				}
@@ -567,13 +563,13 @@
 			tasks: [{
 				id: "181AECB6AE9347EC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "c:ender_pearl_dusts"
 					}
 				}
-				title: "Любая Эндер-пыль "
+				title: "Любая #c:ender_pearl_dusts"
 				type: "item"
 			}]
 			x: 4.5d
@@ -645,7 +641,7 @@
 			tasks: [{
 				id: "565289F508761008"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "c:certus_quartz"
@@ -804,7 +800,7 @@
 				item: "ae2:item_cell_housing"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: -5.5d
 		}
 		{
@@ -1236,7 +1232,7 @@
 			tasks: [{
 				id: "4696F75329791E02"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_1k"
 					tag: { }
 				}
@@ -1259,7 +1255,7 @@
 			tasks: [{
 				id: "5280A20140E9B855"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_4k"
 					tag: { }
 				}
@@ -1282,7 +1278,7 @@
 			tasks: [{
 				id: "7EFBE049944FE119"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_16k"
 					tag: { }
 				}
@@ -1305,7 +1301,7 @@
 			tasks: [{
 				id: "45B8E9EED0FDA41A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_64k"
 					tag: { }
 				}
@@ -1328,7 +1324,7 @@
 			tasks: [{
 				id: "01C57620D90A9BAE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_256k"
 					tag: { }
 				}
@@ -1352,7 +1348,7 @@
 			tasks: [{
 				id: "01F942B2319FD779"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:item_storage_cell_1m"
 					tag: { }
 				}
@@ -1376,7 +1372,7 @@
 			tasks: [{
 				id: "002A9855BA5926F1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:item_storage_cell_4m"
 					tag: { }
 				}
@@ -1400,7 +1396,7 @@
 			tasks: [{
 				id: "5DACF6D44C3561F1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:item_storage_cell_16m"
 					tag: { }
 				}
@@ -1424,7 +1420,7 @@
 			tasks: [{
 				id: "5B6F45969ADBDEFE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:item_storage_cell_64m"
 					tag: { }
 				}
@@ -1449,7 +1445,7 @@
 			tasks: [{
 				id: "4429E2DC37BED28C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:item_storage_cell_256m"
 					tag: { }
 				}
@@ -1472,7 +1468,7 @@
 			tasks: [{
 				id: "7B49907FEEAE04B2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:fluid_storage_cell_1k"
 					tag: { }
 				}
@@ -1495,7 +1491,7 @@
 			tasks: [{
 				id: "13440EA0ACEAB070"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:fluid_storage_cell_4k"
 					tag: { }
 				}
@@ -1518,7 +1514,7 @@
 			tasks: [{
 				id: "407C5673E824B9FD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:fluid_storage_cell_16k"
 					tag: { }
 				}
@@ -1541,7 +1537,7 @@
 			tasks: [{
 				id: "746D4613CB317EDB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:fluid_storage_cell_64k"
 					tag: { }
 				}
@@ -1564,7 +1560,7 @@
 			tasks: [{
 				id: "7B23089179FF4570"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:fluid_storage_cell_256k"
 					tag: { }
 				}
@@ -1588,7 +1584,7 @@
 			tasks: [{
 				id: "60597CD73E32A642"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:fluid_storage_cell_1m"
 					tag: { }
 				}
@@ -1612,7 +1608,7 @@
 			tasks: [{
 				id: "2A5D723FF5E0158F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:fluid_storage_cell_4m"
 					tag: { }
 				}
@@ -1636,7 +1632,7 @@
 			tasks: [{
 				id: "6156FD0FF7E8C248"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:fluid_storage_cell_16m"
 					tag: { }
 				}
@@ -1660,7 +1656,7 @@
 			tasks: [{
 				id: "0C975CA8085EF18A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:fluid_storage_cell_64m"
 					tag: { }
 				}
@@ -1685,7 +1681,7 @@
 			tasks: [{
 				id: "6988B7A4516A3E87"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:fluid_storage_cell_256m"
 					tag: { }
 				}
@@ -1697,7 +1693,7 @@
 		{
 			dependencies: ["7991B5D4970CDCFE"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ae2:portable_item_cell_64k"
 				tag: {
 					internalCurrentPower: 20000.0d

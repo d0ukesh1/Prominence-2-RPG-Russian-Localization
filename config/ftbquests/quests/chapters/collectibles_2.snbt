@@ -80,7 +80,7 @@
 				{
 					id: "434A6EFD9770FC88"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "c:brushitems"
@@ -417,7 +417,7 @@
 			}]
 			title: "Bertsz - Horizon"
 			x: 4.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -434,7 +434,7 @@
 			}]
 			title: "Krossy -  Forsaken Drownage"
 			x: 3.5d
-			y: -16.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -451,7 +451,7 @@
 			}]
 			title: "MissLilitu - Over the Rainbow"
 			x: 2.5d
-			y: -16.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -467,8 +467,8 @@
 				type: "item"
 			}]
 			title: "Firel - Strange and Alien"
-			x: 4.0d
-			y: -5.0d
+			x: 4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -553,7 +553,7 @@
 			}]
 			title: "Kain Vinosec - Fight For Quiescence"
 			x: 4.5d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -564,98 +564,13 @@
 				xp: 50
 			}]
 			tasks: [{
-				id: "476950CC96BEC267"
-				item: "mythicupgrades:music_disc_soot"
+				id: "7371A65B5E8009E6"
+				item: "beachparty:music_disc_wild_veins"
 				type: "item"
 			}]
-			title: "Ali Bakir - Soot"
+			title: "Adam's - Wild Veins"
 			x: 1.5d
 			y: -9.0d
-		}
-		{
-			dependencies: ["1F3B9ECF26B84A71"]
-			id: "5D3EAD372800361D"
-			rewards: [{
-				id: "09FBEC7249E4D0F3"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "341F53FF701AAA42"
-				item: "mythicupgrades:music_disc_appomattox"
-				type: "item"
-			}]
-			title: "Ali Bakir - Appomattox"
-			x: 4.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["1F3B9ECF26B84A71"]
-			id: "72BF3E0B21759BB6"
-			rewards: [{
-				id: "4489E579BBA38704"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "0030A91D12029A6A"
-				item: "mythicupgrades:music_disc_fierce"
-				type: "item"
-			}]
-			title: "Ali Bakir - Fierce"
-			x: 4.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["1F3B9ECF26B84A71"]
-			id: "224F65229839DBC9"
-			rewards: [{
-				id: "46396FD908B89D3F"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "58AEF7B295504FAC"
-				item: "mythicupgrades:music_disc_nelumbo"
-				type: "item"
-			}]
-			title: "Ali Baker - Nelumbo"
-			x: 1.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["1F3B9ECF26B84A71"]
-			id: "12DB3B6352D8DDE3"
-			rewards: [{
-				id: "7BDD9E4665CA134B"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "3EF7AACD2E31835A"
-				item: "mythicupgrades:music_disc_flow_of_the_abyss"
-				type: "item"
-			}]
-			title: "Ali Bakir - Flow of the Abyss"
-			x: 1.5d
-			y: -12.0d
-		}
-		{
-			dependencies: ["1F3B9ECF26B84A71"]
-			id: "396E756E1FFDAF04"
-			rewards: [{
-				id: "5B6D06FE8DF7FE6C"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "3B98DF1C5F1E0FF9"
-				item: "mythicupgrades:music_disc_tanker_on_the_levantines"
-				type: "item"
-			}]
-			title: "Ali Baker - Tanker on the Levantine's"
-			x: 4.5d
-			y: -10.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -672,7 +587,7 @@
 			}]
 			title: "Orangery - Coniferus Forest (Main Menu Theme)"
 			x: 1.5d
-			y: -11.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -689,7 +604,7 @@
 			}]
 			title: "SideralisMusic - Prominent Festivities (Original Soundtrack)"
 			x: 4.5d
-			y: -12.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -706,7 +621,7 @@
 			}]
 			title: "SideralisMusic - IV"
 			x: 4.5d
-			y: -11.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -723,7 +638,7 @@
 			}]
 			title: "SideralisMusic - Primordial (Prominence OST)"
 			x: 1.5d
-			y: -13.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -740,7 +655,7 @@
 			}]
 			title: "SideralisMusic - Void Core (Prominence OST)"
 			x: 1.5d
-			y: -14.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -757,7 +672,7 @@
 			}]
 			title: "SideralisMusic - A Dance of the Blades Part 1 (Prominence OST)"
 			x: 4.5d
-			y: -13.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -774,7 +689,7 @@
 			}]
 			title: "SideralisMusic - A Dance of the Blades Part 2 (Prominence OST)"
 			x: 4.5d
-			y: -14.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -791,7 +706,7 @@
 			}]
 			title: "SideralisMusic - Prominent Festivities (Prominence OST)"
 			x: 1.5d
-			y: -15.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -808,7 +723,7 @@
 			}]
 			title: "SideralisMusic - Time Flows (Prominence OST)"
 			x: 4.5d
-			y: -15.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -825,7 +740,7 @@
 			}]
 			title: "SideralisMusic - Convergence (Prominence OST)"
 			x: 1.5d
-			y: -16.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -842,7 +757,7 @@
 			}]
 			title: "Endigo - Big Chungus (Official Main Theme)"
 			x: 4.5d
-			y: -16.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["4A01B44240D7BE4A"]
@@ -1578,7 +1493,7 @@
 				item: "things:placebo"
 				type: "item"
 			}]
-			title: "Возьми Свою Медицину!"
+			title: "Возьми свою аптечку!"
 			x: -7.5d
 			y: 3.0d
 		}
@@ -1594,7 +1509,7 @@
 			tasks: [{
 				id: "37B038540064B1A8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "things:displacement_tome"
 					tag: { }
 				}
@@ -1668,7 +1583,7 @@
 			tasks: [{
 				id: "2791624BE309C469"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "things:infernal_scepter"
 					tag: {
 						Damage: 0
@@ -2281,7 +2196,7 @@
 			tasks: [{
 				id: "4F295451895E2D31"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "betterarcheology:torrent_totem"
 					tag: {
 						Damage: 0
@@ -2303,7 +2218,7 @@
 			tasks: [{
 				id: "1C8ACE92E0CAC0D7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "betterarcheology:soul_totem"
 					tag: {
 						Damage: 0

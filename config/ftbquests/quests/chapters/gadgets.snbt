@@ -7,11 +7,7 @@
 	id: "5E6450E48F6FFE86"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "modern_industrialization:block/machines/diesel_generator/overlay_front_active"
 			rotation: 0.0d
 			width: 2.0d
@@ -19,11 +15,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:block/cog_block_on"
 			rotation: 0.0d
 			width: 1.0d
@@ -31,11 +23,7 @@
 			y: 4.125d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:block/cog_block_on"
 			rotation: 0.0d
 			width: 1.0d
@@ -43,11 +31,7 @@
 			y: 4.982142857142861d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:block/cog_block_on"
 			rotation: 0.0d
 			width: 1.0d
@@ -55,11 +39,7 @@
 			y: 4.125d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "supplementaries:block/cog_block_on"
 			rotation: 0.0d
 			width: 1.0d

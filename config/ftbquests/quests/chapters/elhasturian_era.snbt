@@ -4,7 +4,7 @@
 	filename: "elhasturian_era"
 	group: "3DBADFFDA1FDAD84"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "eldritch_end:textures/mob_effect/hastur_presence.png"
@@ -13,11 +13,7 @@
 	id: "38345D0552E8A4AF"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "derelict:item/fancy_cobweb_with_spider_nest"
 			rotation: 0.0d
 			width: 1.0d
@@ -25,13 +21,9 @@
 			y: -1.8125d
 		}
 		{
-			click: ""
 			color: 15780692
-			corner: false
 			dependency: "7E7462C4751E0C1B"
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -45,7 +37,7 @@
 		{
 			description: ["&cЗакончи все главы Вторжения Пустоты чтобы разблокировать сюжетную линию этого расширения."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "eldritch_end:textures/mob_effect/hastur_presence.png"
@@ -89,7 +81,8 @@
 				""
 				"&8Страница (2/2)"
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "ftbquests:book"
 			id: "579138B8DB19724C"
 			shape: "diamond"
@@ -119,7 +112,8 @@
 				""
 				"&7&oИ ещё, зачаруй свое оружие на Небесную Кару, ведь последователи Хастура - это нежить. Ты должен подготовиться к худшему.\""
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "minecraft:paper"
 			id: "440126C71C47DB94"
 			rewards: [{
@@ -149,7 +143,8 @@
 				""
 				"&eИспользуй Небесную Кару чтобы пробить его барьер, если у тебя не хватает силы заклинания!"
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "2D24C45915E27222"
 			rewards: [
 				{
@@ -170,7 +165,7 @@
 			tasks: [{
 				entity: "sbprom:hasturmagus"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "eldritch_end:item/hastur_crown"
@@ -225,7 +220,8 @@
 				"&7- Сердце Помраченя &8(+20)"
 				"&7- З'ал, безликое Око&8(+35)"
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "34CA824A855AF82F"
 			rewards: [{
 				id: "54A81371F005122B"
@@ -257,7 +253,8 @@
 				"&eТы можешь использовать следующие материалы:"
 				"&7- Слиток Этира &8(+10)"
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "66FA883FD0CBC7E7"
 			rewards: [{
 				id: "0CF598B77802C9EA"
@@ -284,7 +281,8 @@
 				""
 				"&6Следи за новостями!"
 			]
-			hide: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "prominent:cinderstone_trophy"
 			id: "5E4919750C5CE35D"
 			shape: "hexagon"

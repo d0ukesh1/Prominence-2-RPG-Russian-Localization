@@ -6,11 +6,7 @@
 	icon: "modern_industrialization:guidebook"
 	id: "5BB4D2FC1908D3D1"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 1.0d
-		hover: [ ]
 		image: "ftbteams:textures/add.png"
 		rotation: 0.0d
 		width: 1.0d
@@ -76,7 +72,7 @@
 				{
 					id: "6302ACABBC6AEA42"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "modern_industrialization:iron_hammer"
 						tag: {
 							Damage: 0
@@ -105,7 +101,7 @@
 				count: 32L
 				id: "393032946BC049BC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "c:bronze_ingots"
@@ -224,7 +220,7 @@
 					type: "item"
 				}
 			]
-			title: "Сауна но для металлов"
+			title: "Сауна, но для металлов"
 			x: -9.5d
 			y: -1.5d
 		}
@@ -530,7 +526,7 @@
 			tasks: [{
 				id: "3612549FFBF5E73C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "c:steel_ingots"
@@ -1394,7 +1390,7 @@
 			tasks: [{
 				id: "040031047A05E0AE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "c:titanium_ingots"
@@ -1439,7 +1435,7 @@
 			tasks: [{
 				id: "7103DFB1F1EF3828"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "c:raw_iridium_ores"

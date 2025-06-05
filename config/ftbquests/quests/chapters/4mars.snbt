@@ -5,7 +5,7 @@
 	group: "3E586F2160161EEA"
 	icon: "ad_astra:mars_globe"
 	id: "7408CCEC3E990DEE"
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -124,7 +124,7 @@
 				{
 					id: "143A97761621C1FA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_helmet"
 						tag: {
 							Damage: 0
@@ -135,7 +135,7 @@
 				{
 					id: "257B0306BE23B18E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_suit"
 						tag: {
 							BotariumData: { }
@@ -147,7 +147,7 @@
 				{
 					id: "5D4B756908CA1309"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_pants"
 						tag: {
 							Damage: 0
@@ -158,7 +158,7 @@
 				{
 					id: "0C33471C5137AD37"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_boots"
 						tag: {
 							Damage: 0
@@ -221,7 +221,7 @@
 				{
 					id: "3F99A2BCD94AA60D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:oxygen_tank"
 						tag: {
 							BotariumData: { }
@@ -331,7 +331,7 @@
 			tasks: [{
 				id: "092EA839233F2696"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_3_rocket"
 					tag: {
 						BotariumData: { }
@@ -355,7 +355,7 @@
 				count: 4L
 				id: "6535700B823D9EC3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:oxygen_tank"
 					tag: {
 						BotariumData: { }
@@ -378,7 +378,7 @@
 					count: 2
 					id: "3238EE7345D1A510"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:oxygen_tank"
 						tag: {
 							BotariumData: { }
@@ -443,7 +443,7 @@
 			]
 			shape: "circle"
 			size: 1.5d
-			subtitle: "Кликни!"
+			subtitle: "Нажми!"
 			tasks: [{
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_globe"

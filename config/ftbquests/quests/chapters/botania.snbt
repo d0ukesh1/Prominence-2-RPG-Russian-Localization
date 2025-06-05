@@ -10,7 +10,7 @@
 	quests: [
 		{
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "minecraft:block/cornflower"
@@ -1280,7 +1280,7 @@
 			tasks: [{
 				id: "31850A12E9713DA1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:twig_wand"
 					tag: {
 						color1: 0
@@ -1816,7 +1816,7 @@
 				{
 					id: "3A98D4C8F9D257DF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_pick"
 						tag: {
 							Damage: 0
@@ -1827,7 +1827,7 @@
 				{
 					id: "6902B3E2158A5501"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_shovel"
 						tag: {
 							Damage: 0
@@ -1838,7 +1838,7 @@
 				{
 					id: "76CBDA718AF044AA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_axe"
 						tag: {
 							Damage: 0
@@ -1849,7 +1849,7 @@
 				{
 					id: "589D922E914BD00A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_hoe"
 						tag: {
 							Damage: 0
@@ -1860,7 +1860,7 @@
 				{
 					id: "59E51AF5A0CA191E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_sword"
 						tag: {
 							Damage: 0
@@ -1871,7 +1871,7 @@
 				{
 					id: "202012F7A3421F9D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_shears"
 						tag: {
 							Damage: 0
@@ -1897,7 +1897,7 @@
 				{
 					id: "3E3DDED0D9DF152B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_helmet"
 						tag: {
 							Damage: 0
@@ -1908,7 +1908,7 @@
 				{
 					id: "0280A9191849CA32"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_chestplate"
 						tag: {
 							Damage: 0
@@ -1919,7 +1919,7 @@
 				{
 					id: "78E45E6F60440697"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_leggings"
 						tag: {
 							Damage: 0
@@ -1930,7 +1930,7 @@
 				{
 					id: "79C3CEB773F472C7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_boots"
 						tag: {
 							Damage: 0
@@ -1973,7 +1973,7 @@
 				{
 					id: "141DB6B86472D0BF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manaweave_helmet"
 						tag: {
 							Damage: 0
@@ -1984,7 +1984,7 @@
 				{
 					id: "16AF4F0A2F6CAAA3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manaweave_chestplate"
 						tag: {
 							Damage: 0
@@ -1995,7 +1995,7 @@
 				{
 					id: "5403D4B7C3D2E789"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manaweave_leggings"
 						tag: {
 							Damage: 0
@@ -2006,7 +2006,7 @@
 				{
 					id: "44EB134659DDC262"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manaweave_boots"
 						tag: {
 							Damage: 0
@@ -2032,7 +2032,7 @@
 				{
 					id: "7AF5604D638D7B9B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terra_pick"
 						tag: {
 							Damage: 0
@@ -2044,7 +2044,7 @@
 				{
 					id: "50CA119CEA8853C7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terra_axe"
 						tag: {
 							Damage: 0
@@ -2055,7 +2055,7 @@
 				{
 					id: "7EC34BC9D8D64068"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terra_sword"
 						tag: {
 							Damage: 0
@@ -2087,7 +2087,7 @@
 			tasks: [{
 				id: "2559973595B297D1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:terra_pick"
 					tag: {
 						Damage: 0
@@ -2113,7 +2113,7 @@
 				{
 					id: "0280989DEEBAFAC8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terrasteel_helmet"
 						tag: {
 							Damage: 0
@@ -2124,7 +2124,7 @@
 				{
 					id: "6BD5EA9CAFCE3CD4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terrasteel_chestplate"
 						tag: {
 							Damage: 0
@@ -2135,7 +2135,7 @@
 				{
 					id: "561079626E1E3282"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terrasteel_leggings"
 						tag: {
 							Damage: 0
@@ -2146,7 +2146,7 @@
 				{
 					id: "2A02119EAA96C86E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terrasteel_boots"
 						tag: {
 							Damage: 0

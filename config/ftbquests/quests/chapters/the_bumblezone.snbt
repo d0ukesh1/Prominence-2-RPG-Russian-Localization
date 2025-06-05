@@ -5,7 +5,7 @@
 	group: "3E586F2160161EEA"
 	icon: "minecraft:bee_nest"
 	id: "59490AFCD9D1F93B"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -83,7 +83,7 @@
 				{
 					id: "7745D7DA6B275327"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:flower_headwear"
 						tag: {
 							Damage: 0
@@ -165,7 +165,7 @@
 				{
 					id: "4BCAF18A0B87E5F7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:stinger_spear"
 						tag: {
 							Damage: 0
@@ -176,7 +176,7 @@
 				{
 					id: "49FE029CAD2D437C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:crystal_cannon"
 						tag: {
 							Damage: 0
@@ -187,7 +187,7 @@
 				{
 					id: "73D16FF74DB5B2C9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:honey_crystal_shield"
 						tag: {
 							Damage: 0
@@ -214,7 +214,7 @@
 			tasks: [{
 				id: "314E0B959B386388"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "the_bumblezone:honey_compass"
 					tag: { }
 				}
@@ -275,7 +275,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "the_bumblezone:essence_calming"
 					tag: {
 						abilityUseRemaining: 600
@@ -299,7 +299,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "the_bumblezone:essence_life"
 					tag: {
 						abilityUseRemaining: 1000
@@ -323,7 +323,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "the_bumblezone:essence_knowing"
 					tag: {
 						abilityUseRemaining: 1200
@@ -342,7 +342,7 @@
 			id: "45FE520AC009290F"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "the_bumblezone:essence_raging"
 					tag: {
 						abilityUseRemaining: 28
@@ -366,7 +366,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "the_bumblezone:essence_continuity"
 					tag: {
 						abilityUseRemaining: 1
@@ -390,7 +390,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "the_bumblezone:essence_radiance"
 					tag: {
 						abilityUseRemaining: 4800
@@ -415,7 +415,7 @@
 			subtitle: "Много пчелиных воинов пало и это копье посвящено падшим воинам, оно имеет жало одного из самых значимых пчелиных воинов, когда-либо живших."
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "the_bumblezone:stinger_spear"
 					tag: {
 						Damage: 0
@@ -461,7 +461,7 @@
 			subtitle: "Знакомьтесь с Её Величеством, Королевой Пчёл. Она будет беспристрастна, торгуясь с вами предметами и может быть даже даст вам задачи, достойные завершения."
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "the_bumblezone:honey_compass"
 					tag: { }
 				}
@@ -530,7 +530,7 @@
 				{
 					id: "27A36C84442BD4A7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "the_bumblezone:armors/helmets"
@@ -542,7 +542,7 @@
 				{
 					id: "1E4B0AAE235A44EB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "the_bumblezone:armors/chestplates"
@@ -554,7 +554,7 @@
 				{
 					id: "7A026460FAE4A947"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "the_bumblezone:armors/leggings"
@@ -566,7 +566,7 @@
 				{
 					id: "7474B92AA308F8FD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "the_bumblezone:armors/boots"
@@ -852,7 +852,7 @@
 			subtitle: "Пчёлы тренируют себя чтобы использовать огнестрельное оружие? Они точно умные."
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "the_bumblezone:bee_cannon"
 					tag: {
 						BeesStored: [ ]

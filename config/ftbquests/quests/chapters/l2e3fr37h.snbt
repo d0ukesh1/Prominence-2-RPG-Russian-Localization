@@ -5,7 +5,7 @@
 	group: "3E586F2160161EEA"
 	icon: "ad_astra:earth_globe"
 	id: "50342FF0C32120E0"
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -47,7 +47,7 @@
 				{
 					id: "159AE5570CC9C6C6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:oxygen_tank"
 						tag: {
 							BotariumData: { }
@@ -93,7 +93,7 @@
 			tasks: [{
 				id: "788AE2374588CD5B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_1_rocket"
 					tag: {
 						BotariumData: { }
@@ -118,7 +118,7 @@
 				{
 					id: "7AE8CC8E5EE08211"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_helmet"
 						tag: {
 							Damage: 0
@@ -129,7 +129,7 @@
 				{
 					id: "3A3166D0C41D47F8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_suit"
 						tag: {
 							BotariumData: { }
@@ -141,7 +141,7 @@
 				{
 					id: "52BEDB7FB4BC3E4F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_pants"
 						tag: {
 							Damage: 0
@@ -152,7 +152,7 @@
 				{
 					id: "5D63F4924985F0F6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_boots"
 						tag: {
 							Damage: 0
@@ -362,7 +362,7 @@
 			tasks: [{
 				id: "2EE2EF27B579AAC7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:hammer"
 					tag: {
 						Damage: 0
@@ -441,7 +441,7 @@
 				count: 2L
 				id: "7F0F6434C64A3BDA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:oxygen_tank"
 					tag: {
 						BotariumData: { }
@@ -540,7 +540,7 @@
 				count: 64L
 				id: "217DBFC6CE8F3C8F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "c:iron_plates"

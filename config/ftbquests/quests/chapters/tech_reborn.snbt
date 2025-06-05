@@ -48,7 +48,7 @@
 			tasks: [{
 				id: "34D264E11AE94E6E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "techreborn:treetap"
 					tag: {
 						Damage: 0
@@ -1001,7 +1001,7 @@
 			tasks: [{
 				id: "6A1248D8D9D0D60A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1388,7 +1388,7 @@
 				xp: 10000
 			}]
 			size: 1.5d
-			subtitle: "БЕЗГРАНИЧНАЯ МОЩЬ! Или, по крайней мере, довольно близкая. \\n\\nТермоядерный реактор вырабатывает 16 кЕЭ/тик и даёт возможность создания так сложно добываемого иридия."
+			subtitle: "БЕЗГРАНИЧНАЯ МОЩЬ! Или, по крайней мере, довольно близкая к этому. \\n\\nТермоядерный реактор вырабатывает 16 кЕЭ/тик и даёт возможность создания так сложно добываемого иридия."
 			tasks: [
 				{
 					id: "51219F8329031846"
@@ -1756,7 +1756,7 @@
 			tasks: [{
 				id: "5CE6032CC87B34F1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "techreborn:cell"
 					tag: {
 						fluid: "techreborn:silicon"
@@ -1780,7 +1780,7 @@
 			tasks: [{
 				id: "0AF35CD2565EEA8F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "techreborn:cell"
 					tag: {
 						fluid: "techreborn:beryllium"
@@ -1854,7 +1854,7 @@
 				icon: "techreborn:iridium_ore"
 				id: "06B0300A6DEE26B1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1933,7 +1933,7 @@
 			tasks: [{
 				id: "7EB84992550383DB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "techreborn:cell"
 					tag: {
 						fluid: "techreborn:mercury"
@@ -2151,7 +2151,7 @@
 			tasks: [{
 				id: "5F81C31F20D5C3FF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "techreborn:cell"
 					tag: {
 						fluid: "techreborn:lithium"
@@ -2285,7 +2285,7 @@
 			tasks: [{
 				id: "4A1E3052BA466275"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "techreborn:cell"
 					tag: {
 						fluid: "techreborn:helium"
@@ -2561,7 +2561,7 @@
 			tasks: [{
 				id: "3B3E16367B5812BD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "techreborn:rock_cutter"
 					tag: {
 						Enchantments: [{
@@ -2657,7 +2657,7 @@
 		{
 			dependencies: ["54636677E54B866A"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "techreborn:cell"
 				tag: {
 					fluid: "techreborn:deuterium"
@@ -2682,7 +2682,7 @@
 				{
 					id: "1D57F91C9BB9BDD0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:cell"
 						tag: {
 							fluid: "techreborn:electrolyzed_water"
@@ -2693,7 +2693,7 @@
 				{
 					id: "3DACC8581655E639"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:cell"
 						tag: {
 							fluid: "indrev:hydrogen_still"
@@ -2704,7 +2704,7 @@
 				{
 					id: "0473DB90779BB954"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:cell"
 						tag: {
 							fluid: "techreborn:deuterium"
@@ -2729,7 +2729,7 @@
 			tasks: [{
 				id: "45796A556B155191"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "techreborn:cell"
 					tag: {
 						fluid: "techreborn:tritium"

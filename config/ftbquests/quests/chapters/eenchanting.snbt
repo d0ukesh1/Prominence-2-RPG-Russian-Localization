@@ -4,7 +4,7 @@
 	filename: "eenchanting"
 	group: "5EA21B61C2E147CB"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "minecraft:item/enchanted_book"

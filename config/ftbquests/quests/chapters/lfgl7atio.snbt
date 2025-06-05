@@ -5,7 +5,7 @@
 	group: "3E586F2160161EEA"
 	icon: "ad_astra:glacio_globe"
 	id: "35E93C492B4BEDFA"
-	order_index: 12
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
@@ -153,7 +153,7 @@
 			tasks: [{
 				id: "641A27A13106F50F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "c:iron_plates"
