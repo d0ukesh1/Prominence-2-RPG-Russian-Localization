@@ -1,32 +1,35 @@
+<p align="center">
+  <img src="https://github.com/nvb-uy/cdn/blob/main/desc/prominence/rpg/new_prominence_banner.webp?raw=true" width="512" alt="logo" />
+</p>
+
 # Prominence 2 RPG (Russian Localization)
 ## Информация
-Локализация модпака Prominence 2 RPG на русский язык
+
+Русификация модпака **Prominence 2 RPG: Hasurian Era**.
 
 Оригинал модпака можно найти по [ссылке](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg).
 
 ## О локализации
-Была протестирована на лаунчерах **CurseForge** и **Prism Launcher**. 
 
-### Установка:
+Перевод корректно работает на лаунчерах [**CurseForge**](https://www.curseforge.com/download/app), [**Prism Launcher**](https://prismlauncher.org/download/windows/) и [**Modrinth**](https://modrinth.com/app).
 
-1. [Скачать последний релиз](https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization/releases) перевода и убедиться, что версия модпака и перевода совпадают. 
-(Так же можно скачать перевод через нажатие на кнопку `Code` -> `Download ZIP`)
-2. Копируйте с заменой файлы в корневую директорию модпака (например, **C:\Users\USERNAME\curseforge\minecraft\Instances\Prominence II RPG Hasturian Era**)
-3. В игре выбрать русский язык.
-4. Наслаждайтесь!
+### 🔧 Установка
 
-### Авторство
+1. [**Скачать последний релиз**](https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization/releases) перевода и убедиться, что версия модпака и перевода совпадают.
+2. Скопировать с заменой файлы в корневую директорию модпака. (Например, **C:\Users\USERNAME\curseforge\minecraft\Instances\Prominence II RPG Hasturian Era**)
+3. Запустить игру и убедиться, что выбран русский язык в настройках.
+
+### 👤 Авторство
 
 Перевод некоторых элементов интерфейса и квестов был взят с [сайта](https://ru-minecraft.ru/klienty-minecraft/80311-prominence-ii-rpg-perevod-sborki.html).
 
-Это адаптация перевода от автора **strelok656** для актуальной на данный момент версии модпака.
+Огромное спасибо братьям из Китая за прекрасный [мод](https://www.curseforge.com/minecraft/mc-mods/vault-patcher), который позволил не нарушить лицензию модпака и перевести захардкоженные строки.
 
-Обнаруженные ошибки локализации и непереведенный текст можно указывать в [Issues](https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization/issues). По мере возможностей локализация будет корректироваться либо мной, либо автором оригинального перевода.
+Перевод можно использовать в личных целях. Буду рад, если укажете ссылку на этот репозиторий.
 
-Огромное спасибо братьям из Китая за прекрасный [мод](https://www.curseforge.com/minecraft/mc-mods/vault-patcher), который позволил не нарушить лицензию модпака и перевести захардкоженные строки.(UPD: Автор модпака потихоньку добавляет файлы локализации для модов, поэтому, возможно, этот кастыльный способ перевода будет убран)
+### ✅ Актуальность
 
-### Заметки по переводу
+В игре практически не осталось английского текста, была проведена большая работа. 
 
-Переведены способности артефактов! В игре практически не осталось английского текста, была проведена большая работа. Непереведенный текст можно упоминать в [Issues](https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization/issues).
-
-Возможно, всё ещё есть несостыковки в переводе по типу "Урон от тайной магии"/"Урон араканы" и т.п. Надеюсь, не сильно влияет на погружение.
+Непереведенный текст можно упоминать в [здесь](https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization/issues).
+ 
