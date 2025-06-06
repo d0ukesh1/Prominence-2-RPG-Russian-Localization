@@ -1,0 +1,47 @@
+{
+  "itemGroup.more_rpg_classes.general": "MRPGClasses",
+
+  "effect.more_rpg_classes.molten_armor": "Расплавленная Броня",
+  "effect.more_rpg_classes.molten_armor.description": "Уменьшает броню, твёрдость брони и наносит урон цели, если она одета в броню.",
+  "effect.more_rpg_classes.stun": "Оглушенный",
+  "effect.more_rpg_classes.stun.description": "Не может двигаться, атаковать или прыгать.",
+  "effect.more_rpg_classes.frozen_solid": "Ледяная Твердыня",
+  "effect.more_rpg_classes.frozen_solid.description": "Не может двигаться, атаковать или прыгать, получает дополнительный урон при попадании во время активного эффекта.",
+  "effect.more_rpg_classes.fear": "Страх",
+  "effect.more_rpg_classes.fear.description": "Уменьшает урон от атаки.",
+  "effect.more_rpg_classes.collected_soul": "Коллектор Душ",
+  "effect.more_rpg_classes.collected_soul.description": "Увеличивает силу заклинания души за каждый стек.",
+  "effect.more_rpg_classes.grievous_wounds": "Тяжелые Раны",
+  "effect.more_rpg_classes.grievous_wounds.description": "Уменьшено исцеление и увеличен наносимый урон.",
+  "effect.more_rpg_classes.frosted": "Замороженный",
+  "effect.more_rpg_classes.frosted.description": "Снижена скорость передвижения.",
+  "effect.more_rpg_classes.bleeding": "Кровотечение",
+  "effect.more_rpg_classes.bleeding.description": "Наносит переодический урон.",
+
+  "item.more_rpg_classes.aqua_stone": "Руна Воды",
+  "item.more_rpg_classes.terra_stone": "Руна Земли",
+  "item.more_rpg_classes.storm_stone": "Руна Воздуха",
+  "item.more_rpg_classes.polar_bear_fur": "Медвежий Мех",
+  "item.more_rpg_classes.wolf_fur": "Волчий Мех",
+  "item.more_rpg_classes.hardened_leather": "Закаленная Кожа",
+
+  "death.attack.mrpgc.bleeding": "%1$s истёк кровью.",
+  "death.attack.mrpgc.molten": "%1$s сгорел в своей раскалённой броне.",
+
+  "attribute.name.generic.more_rpg_classes.rage_modifier": "Сила Ярости",
+  "attribute.name.generic.more_rpg_classes.arcane_fuse_modifier": "Мистический Запал",
+  "attribute.name.generic.more_rpg_classes.lifesteal_modifier": "Вампиризм",
+  "attribute.name.generic.more_rpg_classes.damage_reflect_modifier": "Отражение Повреждений",
+
+  "advancements.more_rpg_content.root.title": "Больше РПГ контента!",
+  "advancements.more_rpg_content.root.description": "Исследуйте различные пути, которые вы можете выбрать!",
+
+  "enchantment.more_rpg_classes.elemental": "Повелитель Стихий",
+  "enchantment.more_rpg_classes.elemental.desc": "Увеличивает урон от всех видов стихийной магии",
+  "enchantment.more_rpg_classes.air_mastery": "Повелитель Воздуха",
+  "enchantment.more_rpg_classes.air_mastery.desc": "Увеличивает урон от заклинаний воздуха",
+  "enchantment.more_rpg_classes.earth_mastery": "Повелитель Земли",
+  "enchantment.more_rpg_classes.earth_mastery.desc": "Увеличивает урон от заклинаний земли",
+  "enchantment.more_rpg_classes.water_mastery": "Повелитель Воды",
+  "enchantment.more_rpg_classes.water_mastery.desc": "Увеличивает урон от заклинаний воды"
+}

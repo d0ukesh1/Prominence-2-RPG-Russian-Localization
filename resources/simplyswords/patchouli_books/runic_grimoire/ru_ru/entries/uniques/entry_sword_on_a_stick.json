@@ -1,0 +1,17 @@
+{
+  "name": "Меч на палке",
+  "icon": "simplyswords:sword_on_a_stick",
+  "advancement": "simplyswords:sword_on_a_stick",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:sword_on_a_stick",
+      "text": "Меч на палке — это легендарное оружие, которое, как говорят, передается из поколения в поколение в семье великих воинов. Рассказы о его деяниях распространились далеко по всем землям, и все, кто слышит их, не могут не восхищаться его силой."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Хотя, если подумать, это, вероятно, просто палка с привязанным к концу мечом."
+    }
+  ]
+}

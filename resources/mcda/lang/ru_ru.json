@@ -834,12 +834,12 @@
 	"enchantment.mcda.recycler.desc":	 "Когда в тебя попадают стрелой, есть шанс что ты получишь её, захватывая или подбирая ту стрелу, которой тебя подстрелили.",
 	"enchantment.mcda.snowball.desc":	 "Когда атакован двумя или более врагами, магический снежок бросается в одного из атакующих, отбрасывая их.",
 	"enchantment.mcda.surprise_gift.desc":	"При использовании зелья Моментальной Регенерации, ты получаешь другое зелье из нескольких вариантов.",
-	"enchantment.mcda.swiftfooted.desc":	"When jumping, you gain several seconds of speed boost.",
+	"enchantment.mcda.swiftfooted.desc":	"После прыжка вы получаете повышение скорости бега на несколько секунд.",
 
 	"activity.mcda.firetrail.enabled":	"Огненный След включен.",
 	"activity.mcda.firetrail.disabled":	 "Огненный След отключен.",
 
 	"key.mcda.firetrail.toggle":	"Переключение Огненного Следа",
-	"key.category.mcda":	"MC Dungeons Armors",
+	"key.category.mcda":	"Броня MC Dungeons",
 	"block.mcda.fading_obsidian":	 "Затухающий Обсидиан"
 }

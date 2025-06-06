@@ -1,0 +1,26 @@
+{
+  "name": "Двойной клинок",
+  "icon": "simplyswords:iron_twinblade",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_twinblade",
+      "text": "Двойной клинок — это оружие, требующее высокого уровня мастерства и ловкости для эффективного владения. Благодаря конструкции с двумя клинками он известен своей скоростью и точностью в бою, что делает его грозным оружием в правильных руках."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_twinblade",
+      "recipe2": "simplyswords:gold_twinblade"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_twinblade"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_twinblade",
+      "recipe2": "simplyswords:runic_twinblade"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Магическое копьё",
+  "icon": "simplyswords:magispear",
+  "advancement": "simplyswords:magispear",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:magispear",
+      "text": "Ничего не известно об этой странной технологии."
+    }
+  ]
+}

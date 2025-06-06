@@ -1,0 +1,26 @@
+{
+  "name": "Рапира",
+  "icon": "simplyswords:iron_rapier",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_rapier",
+      "text": "Рапиры были популярны среди высших классов в XVI и XVII веках и использовались в дуэлях и для гражданской самообороны. Рапиры известны своей скоростью, точностью и элегантностью в бою. Из-за тонкого и длинного клинка требуется высокий уровень мастерства и ловкости для эффективного владения."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_rapier",
+      "recipe2": "simplyswords:gold_rapier"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_rapier"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_rapier",
+      "recipe2": "simplyswords:runic_rapier"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Фитильный Прокалыватель",
+  "icon": "simplyswords:wickpiercer",
+  "advancement": "simplyswords:wickpiercer",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:wickpiercer",
+      "text": "Фитильный Прокалыватель — это изысканное копье, которое безупречно сочетает элегантность со смертоносностью, напоминая богато украшенный канделябр. Фитильный Прокалыватель способен влиять на разум и тело своего владельца, вводя его в состояние ярости и усиливая его ловкость."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "trim_pattern.more_armor_trims.storm": "Отделка «Буря»",
+  "trim_pattern.more_armor_trims.ram": "Отделка «Баран»",
+  "trim_pattern.more_armor_trims.myth": "Отделка «Миф»",
+  "trim_pattern.more_armor_trims.greed": "Отделка «Жадность»",
+  "trim_pattern.more_armor_trims.beast": "Отделка «Зверь»",
+  "trim_pattern.more_armor_trims.fever": "Отделка «Лихорадка»",
+  "trim_pattern.more_armor_trims.wraith": "Отделка «Призрак»",
+  "trim_pattern.more_armor_trims.nihility": "Отделка «Пустота»",
+  "trim_pattern.more_armor_trims.horizon": "Отделка «Горизонт»",
+  "trim_pattern.more_armor_trims.origin": "Отделка «Исток»",
+
+  "trim_pattern.more_armor_trims.storm_armor_trim_smithing_template": "Шаблон отделки «Буря»",
+  "trim_pattern.more_armor_trims.ram_armor_trim_smithing_template": "Шаблон отделки «Баран»",
+  "trim_pattern.more_armor_trims.myth_armor_trim_smithing_template": "Шаблон отделки «Миф»",
+  "trim_pattern.more_armor_trims.greed_armor_trim_smithing_template": "Шаблон отделки «Жадность»",
+  "trim_pattern.more_armor_trims.beast_armor_trim_smithing_template": "Шаблон отделки «Зверь»",
+  "trim_pattern.more_armor_trims.fever_armor_trim_smithing_template": "Шаблон отделки «Лихорадка»",
+  "trim_pattern.more_armor_trims.wraith_armor_trim_smithing_template": "Шаблон отделки «Призрак»",
+  "trim_pattern.more_armor_trims.nihility_armor_trim_smithing_template": "Шаблон отделки «Пустота»",
+  "trim_pattern.more_armor_trims.horizon_armor_trim_smithing_template": "Шаблон отделки «Горизонт»",
+  "trim_pattern.more_armor_trims.origin_armor_trim_smithing_template": "Шаблон отделки «Исток»",
+
+  "advancements.adventure.trim_with_all_armor_patterns.title": "Полная коллекция карт",
+  "advancements.adventure.trim_with_all_armor_patterns.description": "Примените каждый шаблон кузнечной отделки хотя бы один раз"
+}

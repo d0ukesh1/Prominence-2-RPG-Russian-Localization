@@ -1,0 +1,13 @@
+{
+  "name": "Энигма",
+  "icon": "simplyswords:enigma",
+  "advancement": "simplyswords:enigma",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:enigma",
+      "text": "Древняя технология неясного происхождения. Странные огни на рукояти, кажется, мигают в ответ на изменения ветра."
+    }
+  ]
+}

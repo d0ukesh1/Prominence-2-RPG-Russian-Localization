@@ -1,0 +1,13 @@
+{
+  "name": "Магический клинок",
+  "icon": "simplyswords:magiblade",
+  "advancement": "simplyswords:magiblade",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:magiblade",
+      "text": "Ничего не известно об этой странной технологии."
+    }
+  ]
+}

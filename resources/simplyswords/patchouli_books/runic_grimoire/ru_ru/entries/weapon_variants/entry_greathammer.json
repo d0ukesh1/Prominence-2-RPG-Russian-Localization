@@ -1,0 +1,26 @@
+{
+  "name": "Большой молот",
+  "icon": "simplyswords:iron_greathammer",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_greathammer",
+      "text": "Большой молот известен своей способностью наносить сокрушительный урон каждым ударом благодаря своему весу и размеру. Традиционно использовался пехотой и тяжелой кавалерией в средневековых войнах, а также кузнецами, каменщиками и другими рабочими для тяжелых ударных работ."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_greathammer",
+      "recipe2": "simplyswords:gold_greathammer"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_greathammer"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_greathammer",
+      "recipe2": "simplyswords:runic_greathammer"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Магическая коса",
+  "icon": "simplyswords:magiscythe",
+  "advancement": "simplyswords:magiscythe",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:magiscythe",
+      "text": "Ничего не известно об этой странной технологии."
+    }
+  ]
+}

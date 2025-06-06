@@ -1,0 +1,13 @@
+{
+  "name": "Восковой Ткач",
+  "icon": "simplyswords:waxweaver",
+  "advancement": "simplyswords:waxweaver",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:waxweaver",
+      "text": "Восковой Ткач — это изысканный двуручный меч, который безупречно сочетает элегантность со смертоносностью, напоминая богато украшенный канделябр. Когда Восковой Ткач поражает горящих врагов, свечи усиливаются, и их сила передается владельцу."
+    }
+  ]
+}

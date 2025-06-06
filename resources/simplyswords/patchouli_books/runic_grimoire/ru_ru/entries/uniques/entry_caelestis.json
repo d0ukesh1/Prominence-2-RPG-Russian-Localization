@@ -1,0 +1,13 @@
+{
+  "name": "Целестис",
+  "icon": "simplyswords:caelestis",
+  "advancement": "simplyswords:caelestis",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:caelestis",
+      "text": "Странное оружие с клинком, открывающим астральный план. Даёт владельцу способность перемещаться в астральное царство, становясь неосязаемым на короткие мгновения."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Сай",
+  "icon": "simplyswords:iron_sai",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_sai",
+      "text": "Сай — это универсальное оружие, требующее высокого уровня мастерства и тренировок для эффективного владения. Оно известно своей способностью отражать и захватывать оружие противника, позволяя владельцу получить преимущество в бою. Благодаря небольшому размеру и легкому обращению может использоваться в тесных пространствах и ближнем бою."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_sai",
+      "recipe2": "simplyswords:gold_sai"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_sai"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_sai",
+      "recipe2": "simplyswords:runic_sai"
+    }
+  ]
+}

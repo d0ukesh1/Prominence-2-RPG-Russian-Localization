@@ -1,0 +1,26 @@
+{
+  "name": "Катана",
+  "icon": "simplyswords:iron_katana",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_katana",
+      "text": "Катана известна своей остротой, прочностью и способностью к быстрому и точному владению. Традиционно использовалась классом самураев феодальной Японии и считалась одним из важнейших оружий самурая."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_katana",
+      "recipe2": "simplyswords:gold_katana"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_katana"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_katana",
+      "recipe2": "simplyswords:runic_katana"
+    }
+  ]
+}

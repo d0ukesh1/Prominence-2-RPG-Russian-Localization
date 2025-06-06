@@ -1,0 +1,13 @@
+{
+  "name": "Шепот ветра",
+  "icon": "simplyswords:whisperwind",
+  "advancement": "simplyswords:whisperwind",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:whisperwind",
+      "text": "Шепот ветра — эфирный клинок, танцующий с ветром, дарует своему владельцу непревзойденную ловкость и загадочную силу. Когда катана рассекает воздух, раздается слабая мелодия, словно несомая легким ветерком. С каждым быстрым рывком чувства врага подвергаются атаке, оставляя их дезориентированными и уязвимыми."
+    }
+  ]
+}

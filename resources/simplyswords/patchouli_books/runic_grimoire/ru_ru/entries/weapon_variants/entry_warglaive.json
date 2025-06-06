@@ -1,0 +1,26 @@
+{
+  "name": "Боевая глефа",
+  "icon": "simplyswords:iron_warglaive",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_warglaive",
+      "text": "Боевые глефы известны своей скоростью и ловкостью, а благодаря острым как бритва краям они могут наносить быстрые и смертельные удары. Они требуют высокого уровня ловкости и мастерства для эффективного владения, но при правильном использовании могут быть очень эффективными в бою."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_warglaive",
+      "recipe2": "simplyswords:gold_warglaive"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_warglaive"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_warglaive",
+      "recipe2": "simplyswords:runic_warglaive"
+    }
+  ]
+}

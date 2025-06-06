@@ -1,0 +1,26 @@
+{
+  "name": "Большой топор",
+  "icon": "simplyswords:iron_greataxe",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_greataxe",
+      "text": "Большой топор требует высокого уровня силы и навыков для эффективного владения. Это двуручное оружие, что означает, что владелец использует обе руки для удержания и размахивания оружием. Он также известен своей универсальностью, поскольку может использоваться для рубящих, режущих и дробящих атак."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_greataxe",
+      "recipe2": "simplyswords:gold_greataxe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_greataxe"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_greataxe",
+      "recipe2": "simplyswords:runic_greataxe"
+    }
+  ]
+}

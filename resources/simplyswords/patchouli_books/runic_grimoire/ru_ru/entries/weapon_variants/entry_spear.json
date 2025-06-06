@@ -1,0 +1,26 @@
+{
+  "name": "Копье",
+  "icon": "simplyswords:iron_spear",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_spear",
+      "text": "Копья использовались на протяжении всей истории как оружие для охоты и войны. Они известны своей универсальностью и дальностью действия, и в основном используются для колющих ударов. Они также относительно просты в изготовлении и обслуживании, что делает их популярным оружием среди древних и примитивных культур."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_spear",
+      "recipe2": "simplyswords:gold_spear"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_spear"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_spear",
+      "recipe2": "simplyswords:runic_spear"
+    }
+  ]
+}

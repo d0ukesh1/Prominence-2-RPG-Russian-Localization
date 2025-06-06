@@ -1,0 +1,26 @@
+{
+  "name": "Коса",
+  "icon": "simplyswords:iron_scythe",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_scythe",
+      "text": "Коса известна своей способностью наносить сокрушительный урон каждым ударом благодаря своему весу и заточенному клинку. Коса может использоваться для рубящих и режущих атак в широком радиусе благодаря особенно большому изогнутому клинку и длинной рукояти."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_scythe",
+      "recipe2": "simplyswords:gold_scythe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_scythe"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_scythe",
+      "recipe2": "simplyswords:runic_scythe"
+    }
+  ]
+}

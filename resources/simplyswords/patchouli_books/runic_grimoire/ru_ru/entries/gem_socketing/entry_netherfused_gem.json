@@ -1,0 +1,20 @@
+{
+  "name": "Адский Самоцвет",
+  "icon": "simplyswords:netherfused_gem",
+  "category": "simplyswords:category_gem_socketing",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:netherfused_gem",
+      "text": "Адские Самоцветы можно получить, объединив Усиленный Остаток и Незеритовый Слиток в кузнечном столе. После идентификации эти самоцветы раскроют случайную силу, заключенную в самоцвете."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Адские Самоцветы можно вставлять в уникальное оружие, которое содержит пустое [ гнездо для адских самоцветов ]."
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherfused_gem"
+    }
+  ]
+}

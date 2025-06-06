@@ -1,0 +1,13 @@
+{
+  "name": "Разлагающаяся реликвия",
+  "icon": "simplyswords:decaying_relic",
+  "advancement": "simplyswords:decaying_relic",
+  "category": "simplyswords:category_unique_weapons",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:decaying_relic",
+      "text": "Пусть тьма приведёт тебя к источнику..."
+    }
+  ]
+}

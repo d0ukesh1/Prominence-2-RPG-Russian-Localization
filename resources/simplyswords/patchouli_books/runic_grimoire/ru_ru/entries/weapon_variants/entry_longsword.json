@@ -1,0 +1,26 @@
+{
+  "name": "Длинный меч",
+  "icon": "simplyswords:iron_longsword",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_longsword",
+      "text": "Длинный меч — это универсальное оружие, которое можно использовать для рубящих, колющих и режущих ударов. Широко использовался рыцарями и другими воинами в средневековый период. Длинный меч считается квинтэссенцией рыцарского оружия и известен своей точностью, режущей силой и универсальностью."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_longsword",
+      "recipe2": "simplyswords:gold_longsword"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_longsword"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_longsword",
+      "recipe2": "simplyswords:runic_longsword"
+    }
+  ]
+}
