@@ -1,8 +1,8 @@
 [
   {
-    "name": "Prominent-GLOBAL-MC1.20.1-3.9.6.jar extracted",
+    "name": "Prominent-GLOBAL-MC1.20.1-3.9.7.jar extracted",
     "desc": "Translation of the mod especially for https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization",
-    "mods": "Prominent-GLOBAL-MC1.20.1-3.9.6",
+    "mods": "Prominent-GLOBAL-MC1.20.1-3.9.7",
     "authors": "d0ukesh1",
     "dynamic": false,
     "i18n": false
@@ -393,6 +393,201 @@
       {
         "key": "Weapon modifier",
         "value": "Модификатор оружия"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Cinderstone Artifact",
+        "value": "Пеплокаменный артефакт"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Cinderstone Core",
+        "value": "Ядро Пепельного Камня"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This staff has the ability to evolve into something greater when infused with power.",
+        "value": "Этот посох обладает способностью эволюционировать во что-то большее, если его наполнить силой."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Evolved via the Upgrade Tree.",
+        "value": " Эволюционирует через Дерево улучшений."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Arcane Infusion",
+        "value": "Таинственная инфузия"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This staff has evolved with the raw power of the Arcane. Known now as Al Na'ir, The Bright Star.",
+        "value": "Этот посох эволюционировал благодаря чистой силе Тайной Магии. Теперь он известен как Аль-На'ир, Яркая Звезда."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Fire Infusion",
+        "value": "Огненная инфузия"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This staff has evolved with the raw power of Fire. Known now as Adassil, The Scorched Tree.",
+        "value": "Этот посох эволюционировал благодаря чистой силе Огня. Теперь он известен как Адассиль, Опалённое Древо."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Frost Infusion",
+        "value": "Ледяная инфузия"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This staff has evolved with the raw frozen power. Known now as Khaz'el, The Frozen Destiny",
+        "value": "Этот посох эволюционировал благодаря чистой силе холода. Теперь он известен как Хаз'эль, Замерзшая Судьба."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Holy Infusion",
+        "value": "Священная инфузия"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This staff has evolved with the raw power of Holy. Known now as Ad'anel, Secret of Ain.",
+        "value": "Этот посох эволюционировал благодаря чистой силе Света. Теперь он известен как Ад'анель, Тайна Эйн."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Astral Infusion",
+        "value": "Астральная инфузия"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This staff has evolved with the raw astral powers. Known now as Singularity, A Star's Rebirth.",
+        "value": "Этот посох эволюционировал благодаря чистой силе астрала. Теперь он известен как Сингулярность, Возрождение Звезды."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Casts Arcane, Fire, Frost and Holy abilities from equipped Spell Book.",
+        "value": "Использует способности Тайной Магии, Огня, Льда и Света из экипированной Книги Заклинаний."
       }
     ]
   },

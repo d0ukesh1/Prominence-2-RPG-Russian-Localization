@@ -16,6 +16,7 @@
 	"item.spellbladenext.thesis_spell_book": "Тезис Пробуждения",
 	"item.spellbladenext.thesis_spell_book.desc": "Не бойтесь мага, призывающего тысячу разных заклинаний за раз, бойтесь мага, призывающего одно заклинание тысячу раз.",
 	"item.spellbladenext.thesis_spell_book.desc2": "Пробудите свое заклинание на столе привязки заклинаний.",
+	"item.spellbladenext.vengeance_spell_book": "Клятва Мести",
 
   "item.spellbladenext.magus_spawn_egg": "Яйцо Призыва Магуса",
 
@@ -24,10 +25,11 @@
 	"item.spellbladenext.tabula_rasa.desc": "Если вы желаете переродиться, лучше быть пустым.",
 	"item.spellbladenext.tabula_rasa.desc2": "Нанесите до шести Заклинательных Масел на этот предмет.",
 
-	"spellblades.avatarof" :                "Аватар",
-	"itemGroup.spellbladenext.general":     "Магические Клинки и тому подобное",
-	"itemGroup.spellbladenext.thesis":      "Книги Тезисов МКиТП",
-	"itemGroup.spellbladenext.spelloils":   "Заклинательные Масла МКиТП",
+
+	"spellblades.avatarof" : "Аватар",
+	"itemGroup.spellbladenext.general": "Магические Клинки и тому подобное",
+	"itemGroup.spellbladenext.thesis": "Книги Тезисов МКиТП",
+	"itemGroup.spellbladenext.spelloils": "Заклинательные Масла МКиТП",
 
 	"item.spellbladenext.arcane_blade": "Таинственный Магический Клинок",
 	"item.spellbladenext.frost_blade": "Ледяной Магический Клинок",
@@ -67,10 +69,23 @@
 	"entity.spellbladenext.magus": "Магус",
 	"entity.spellbladenext.hexbladeportal": "Портал Колдовского Клинка",
 	"entity.spellbladenext.cycloneentity": "Вихрь",
+	"spell.spellbladenext.challenge.name": "Провокация",
+	"spell.spellbladenext.challenge.description": "Провоцирует врага, заставляя его перенаправлять атаки. После смерти спровоцированные враги исцеляют и усиливают своих союзников, одновременно ослабляя ваших.",
+
+	"effect.spellbladenext.fervor": "Жар",
+	"effect.spellbladenext.sundered": "Расколотый",
+	"effect.spellbladenext.challenged": "Спровоцированный",
 
 	"item.spellbladenext.monkeystaff": "Колонна Короля Обезьян",
 	"spell.spellbladenext.thesis.name": "Пробужденный",
 	"spell.spellbladenext.thesis.description": "Вы посвятили свою жизнь призыву одного единственного заклинания. У вас теперь есть на 50%% больше силы заклинания и спешка заклинания.",
+
+	"spell.spellbladenext.overpower.name": "Превосходство",
+	"spell.spellbladenext.overpower.description": "Совершите рывок вперёд, утаскивая ближайших врагов за собой. Наносит {damage_1} физического урона и {damage_2} святого урона в конце применения. Враги, попавшие под финальный удар, получают эффект 'Расколотый' на 6 секунд, теряя всю броню и становясь неподвижными.",
+	"spell.spellbladenext.soul_of_vengeance.name": "Душа Мести",
+	"spell.spellbladenext.soul_of_vengeance.description": "Обновляет эффект 'Жар', устанавливая его значение на 5 на 8 секунд.",
+	"spell.spellbladenext.staffstrike.name": "Удар Булавой",
+	"spell.spellbladenext.staffstrike.description": "Атакует всех врагов в секторе 90 градусов на расстоянии до 6 блоков перед вами, нанося {damage} физического урона и телепортируясь перед ближайшим задетым врагом.",
 
 	"spell.spellbladenext.monkeyreflect.name": "Раздирающие Ветра",
 	"spell.spellbladenext.monkeyreflect.description": "Раскрутите порыв ветра, нанося сильное отбрасывание и {damage} физического урона (доступны критические удары) в секунду.",
@@ -84,6 +99,8 @@
 	"spell.spellbladenext.phoenixdive.description": "Моргните в направлении цели, совершая нову для {damage} огненного урона при приземлении, поджигая врагов.",
 	"spell.spellbladenext.snuffout.name": "Лесной пожар",
 	"spell.spellbladenext.snuffout.description": "Пламя вокруг вас вспыхивает, превращаясь в инфернальное пекло, заставляя горящих врагов наносить {damage} огненного урона врагам вокруг них.",
+	"spell.spellbladenext.spellstrike.name": "Удар заклинателя",
+	"spell.spellbladenext.spellstrike.description": "Активируйте, чтобы получить эффект 'Удар заклинателя' на 16 секунд, дающий 50%% ускорения произнесения заклинаний. В течение действия эффекта вы наносите 80%% от вашей наибольшей Силы Заклинаний в виде магического урона соответствующего типа при каждом попадании.",
 
 	"spell.spellbladenext.sniper.name": "Круг Рунического Огня",
 	"spell.spellbladenext.sniper.description": "Зарядите и выстрелите из винтовки, нанося двойной дальний урон и дополнительные {damage} дальнего физического урона.",
@@ -113,6 +130,26 @@
 
 	"spell.spellbladenext.finalstrike.name": "Сверхбыстрый удар",
 	"spell.spellbladenext.finalstrike.description": "Зарядите смертельную атаку против всех врагов на линии напротив вас, телепортируясь за последнего и нанося {damage_1} физического урона плюс дополнительные {damage_2} таинственного магического урона.",
+	"spell.spellbladenext.frostgrasp.name": "Хватка Зимы",
+	"spell.spellbladenext.frostgrasp.description": "Замораживает целевую область ледяной хваткой, нанося {damage} урона льдом.",
+	"spell.spellbladenext.starfall.name": "Падение Звёзд",
+	"spell.spellbladenext.starfall.description": "Четыре небольших аметистовых метеора обрушиваются на выбранную область, каждый нанося {damage} тайного урона.",
+	"spell.spellbladenext.flamelance.name": "Пламенное Копьё",
+	"spell.spellbladenext.flamelance.description": "Испепеляет полосу перед вами, нанося {damage} урона огнём каждому врагу.",
+
+	"effect.spellbladenext.defiance": "Неповиновение",
+	"effect.spellbladenext.bolster": "Укрепление",
+	"item.spellbladenext.defiance_spell_book": "Клятва Неповиновения",
+	"error.spellbladenext.shieldreq": "Мне нужен щит, чтобы использовать это.",
+
+	"spell.spellbladenext.shield_shatter.name": "Сокрушение Щитом",
+	"spell.spellbladenext.shield_shatter.description": "Метните отскакивающий щит, нанося {damage} урона, зависящего от твердости вашей брони, каждому задетому врагу. Поглощает эффект 'Укрепление'.",
+	"spell.spellbladenext.bolster.name": "Укрепление",
+	"spell.spellbladenext.bolster.description": "Наделяет вас слоем брони: один уровень за стак, максимум до 10 стаков.",
+	"spell.spellbladenext.defiance_of_destiny.name": "Стойка Неповиновения",
+	"spell.spellbladenext.defiance_of_destiny.description": "Пассивно: при получении урона вы получаете эффект 'Неповиновение' (до 3 стаков). 'Неповиновение' исцеляет вас в зависимости от вашего максимального здоровья и количества стаков перед получением урона. Перезарядка — полсекунды. Активно: неустанно бейте по щиту, нанося {damage} урона, зависящего от твердости вашей брони, ближайшим врагам и получая эффект 'Неповиновение' (до 6 стаков).",
+	"spell.spellbladenext.inexorable.name": "Неумолимость",
+	"spell.spellbladenext.inexorable.description": "Пока активно, пассивный эффект 'Стойки Неповиновения' больше не имеет ограничения по количеству стаков.",
 
 	"spell.spellbladenext.eviscerate.name": "Резня",
 	"spell.spellbladenext.eviscerate.description": "Станьте неосязаемыми, атакуя ближайшего врага пять раз в секунду, нанося {damage_1} физического урона и {damage_2} ледяного урона, умноженных на вашу скорость атаки. Если вы убьете врага перед последним ударом, то вы сможете продолжить, атакуя ближайшего врага с дополнительной секундой ударов.",
@@ -138,8 +175,8 @@
 	"spell.spellbladenext.frostvert.name": "Удар Дракона",
 	"spell.spellbladenext.frostvert.description": "Совершите огненный удар, сперва запуская себя в воздух если уже в воздухе. Наносит {damage_1} физического урона плюс дополнительные {damage_2} огненного урона по площади. Вы можете безопасно приземлиться во время выполнения этого хода.",
 
-	"spell.spellbladenext.smite.name": "Божественная Кара",
-	"spell.spellbladenext.smite.description": "Карайте врагов перед вами по площади, нанося {damage_1} не критического физического и {damage_2} дополнительного исцеляющего урона каждому задетому врагу, на 50% больше исцеляющего урона против нежити.",
+	"spell.spellbladenext.smite.name": "Божественная кара",
+	"spell.spellbladenext.smite.description": "Пассивно: Ваши атаки дают вам 'Жар' на 4 секунды, предоставляя 10%% вашего физического урона в качестве Силы Исцеления, максимум до 3 стаков. Активно: Обрушьте кару на врагов перед собой в области, нанося каждому {damage_1} физического и {damage_2} дополнительного урона от исцеления.",
 
 	"spell.spellbladenext.maelstrom.name": "Вихрь",
 	"spell.spellbladenext.maelstrom.description": "Вращайтесь непрерывно, нанося {damage_1} не критического физического урона и {damage_2} таинственного урона в секунду, умноженного на скорость атаки. Штраф за атаку нескольких врагов, смягчающийся Проносящимся Краем. Нажмите Shift чтобы перестать двигаться.",
@@ -182,6 +219,9 @@
 	"effect.spellbladenext.unleash": "Высвобождение",
 	"effect.spellbladenext.slamming": "Удар Дракона",
 	"effect.spellbladenext.phoenixcurse": "Проклятие Феникса",
+	"effect.spellbladenext.collapse": "Коллапс",
+	"effect.spellbladenext.deathchill": "Смертельный Холод",
+	"effect.spellbladenext.spellstrike": "Удар заклинателя",
 
 	"stat.spellbladenext.hex": "Колдовство",
 	"stat.spellbladenext.threat": "Угроза",
@@ -203,6 +243,7 @@
 	"item.spellbladenext.runeblazing_feet": "Ботинки Пылающей Руны",
 	"item.spellbladenext.runefrosted_head": "Шлем Ледяной Руны",
 	"item.spellbladenext.runefrosted_chest": "Нагрудник Ледяной Руны",
+	
 	"item.spellbladenext.runefrosted_legs": "Поножи Ледяной Руны",
 	"item.spellbladenext.runefrosted_feet": "Ботинки Ледяной Руны",
 	"item.spellbladenext.runegleaming_head": "Шлем Сверкающей Руны",
