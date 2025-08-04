@@ -11,14 +11,17 @@
   "item.archers_expansion.netherite_deadeye_legs": "Незеритовые поножи Меткого стрелка",
   "item.archers_expansion.netherite_deadeye_feet": "Незеритовые сапоги Меткого стрелка",
 
+
   "spell.archers_expansion.choking_gas.name": "Удушающий газ",
   "spell.archers_expansion.choking_gas.description": "Создает ядовитое облако газа при попадании снаряда и наносит {damage} урона.",
   "spell.archers_expansion.disabling_shot.name": "Обездвиживающий выстрел",
   "spell.archers_expansion.disabling_shot.description": "Отталкивает назад после попадания в цель, замедляет и наносит цели {damage} урона.",
   "spell.archers_expansion.fast_shot.name": "Быстрый выстрел",
   "spell.archers_expansion.fast_shot.description": "Увеличивает вашу скорость стрельбы с каждым выстрелом.",
-  "spell.archers_expansion.trick_shot.name": "Трюковой выстрел",
+  "spell.archers_expansion.trick_shot.name": "Хитрый выстрел",
   "spell.archers_expansion.trick_shot.description": "Создает отскакивающую стрелу, которая отскакивает от целей и наносит {damage} урона.",
+  "spell.archers_expansion.infiltrators_arrow.name": "§5Стрела проникновения",
+  "spell.archers_expansion.infiltrators_arrow.description": "Выпускает невидимую стрелу, наносящую {damage} урона и дарующую невидимость заклинателю.",
 
   "effect.archers_expansion.fast_shot": "Быстрый выстрел",
   "effect.archers_expansion.fast_shot.description": "Пассивный навык: Увеличивает скорость стрельбы в зависимости от уровня эффекта.",
@@ -28,6 +31,8 @@
   "effect.archers_expansion.leaping_shot.description": "Заклинатель отпрыгивает назад.",
   "effect.archers_expansion.disabling_shot": "Обездвиживающий выстрел",
   "effect.archers_expansion.disabling_shot.description": "Замедляет цель и наносит ей урон со временем.",
+  "effect.archers_expansion.infiltrators_arrow": "Стрела проникновения",
+  "effect.archers_expansion.infiltrators_arrow.description": "Невидим для врагов",
 
   "item.archers_expansion.tundra_hunter_spell_book": "Охота в тундре",
   "item.archers_expansion.tundra_hunter_chest": "Мундир тундры",
@@ -47,11 +52,15 @@
   "spell.archers_expansion.frozen_pact.description": "Наносит урон цели в зависимости от уровня заморозки и снижает её атаку на {effect_duration} секунд.",
   "spell.archers_expansion.frozen_shot.name": "Ледяной выстрел",
   "spell.archers_expansion.frozen_shot.description": "Пассивно: Накладывает эффект заморозки на цель на {effect_duration} секунд.",
+  "spell.archers_expansion.winters_grip.name": "§5Хватка зимы",
+  "spell.archers_expansion.winters_grip.description": "Призывает зимний тотем, замедляющий врагов и замораживающий окружающих при его уничтожении.",
 
   "effect.archers_expansion.enchanted_crystal_arrow": "Кристальная стрела",
   "effect.archers_expansion.enchanted_crystal_arrow.description": "Оглушает цель и накладывает эффект заморозки.",
   "effect.archers_expansion.frozen_pact": "Ледяной договор",
   "effect.archers_expansion.frozen_pact.description": "Наносит урон цели в зависимости от уровня заморозки и снижает её атаку.",
+  "effect.archers_expansion.winters_grip": "Хватка зимы",
+  "effect.archers_expansion.winters_grip.description": "Замораживает окружающих врагов при уничтожении.",
 
   "item.archers_expansion.war_archer_spell_book": "Инструкции по военной стрельбе",
   "item.archers_expansion.war_archer_chest": "Нагрудник лучника",
@@ -65,18 +74,18 @@
 
   "spell.archers_expansion.dual_shot.name": "Двойной выстрел",
   "spell.archers_expansion.dual_shot.description": "Выпускает две стрелы одновременно.",
-  "spell.archers_expansion.pin_down.name": "Пригвоздить",
+  "spell.archers_expansion.pin_down.name": "Оцепенение",
   "spell.archers_expansion.pin_down.description": "Наносит {damage} урона, цель не может двигаться или прыгать в течение {effect_duration} секунд.",
   "spell.archers_expansion.point_blank_shot.name": "Выстрел в упор",
   "spell.archers_expansion.point_blank_shot.description": "Наносит {damage} урона, чем ближе цель к заклинателю, тем сильнее её отбрасывает.",
   "spell.archers_expansion.smoldering_arrow.name": "Тлеющая стрела",
-  "spell.archers_expansion.smoldering_arrow.description": "Пассивно: Создает небольшой взрыв у цели, нанося урон и поджигая окружающих существ.",
+  "spell.archers_expansion.smoldering_arrow.description": "Пассивно: Поджигает цель и наносит дополнительный урон в размере {damage}.",
+  "spell.archers_expansion.fan_of_fire.name": "§5Веер огня",
+  "spell.archers_expansion.fan_of_fire.description": "Выпускает взрывающиеся стрелы, наносящие {damage} урона по области и поджигающие врагов.",
 
-  "effect.archers_expansion.smoldering_arrow": "Тлеющая стрела",
-  "effect.archers_expansion.smoldering_arrow.description": "Создает небольшой взрыв у цели, нанося урон и поджигая окружающих существ.",
   "effect.archers_expansion.point_blank_shot": "Выстрел в упор",
   "effect.archers_expansion.point_blank_shot.description": "Отбрасывает цель, чем ближе она к заклинателю, тем сильнее её отбрасывает.",
-  "effect.archers_expansion.pin_down": "Пригвоздить",
+  "effect.archers_expansion.pin_down": "Оцепенение",
   "effect.archers_expansion.pin_down.description": "Цель не может двигаться или прыгать во время действия эффекта.",
 
   "advancements.archers_expansion.bow_way.title": "Путь лучника",
