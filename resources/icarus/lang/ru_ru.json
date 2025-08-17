@@ -94,12 +94,11 @@
   "config.icarus.can_loop_de_loop_client": "Можете ли вы сделать петлю-де-петлю?",
   "config.icarus.armor_slows": "Броня замедляет игрока?",
   "config.icarus.can_slow_fall": "Может ли игрок медленно падать, пробираясь во время полета?",
-  "config.icarus.max_slowed_multiplier": "Максимальный множитель брони который может вас замедлить",
+  "config.icarus.max_slowed_multiplier": "Максимальный множитель брони, который может вас замедлить",
   "config.icarus.wings_speed": "Как быстро могут летать крылья",
   "config.icarus.wings_durability": "Насколько долговечны все крылья",
-  "config.icarus.exhaustion_amount": "тоимость истощения полета",
-  "config.icarus.required_food_amount": "Сколько (половин) едениц голода потребуется для полета",
-  "config.icarus.roll_amount": "Сколько игрок может перекатиться во время полета. (Требуется капитальный ремонт камеры)",
+  "config.icarus.exhaustion_amount": "Стоимость истощения полета",
+  "config.icarus.required_food_amount": "Сколько (половин) единиц голода потребуется для полета",
   "config.icarus.max_height_enabled": "Следует ли предотвращать полет выше максимально допустимой высоты",
   "config.icarus.max_height_above_world": "Максимальная высота над пределом построения мира, на которую могут летать игроки",
   "config.icarus.flying_target_radius": "Насколько увеличивается хитбокс прицеливания летающего игрока",
@@ -109,5 +108,5 @@
 
   "message.icarus.status.no_fly.dimension": "В этом измерении летать запрещено!",
   "message.icarus.status.no_fly.hunger": "Нельзя лететь с пустым желудком!",
-  "message.icarus.status.no_fly.status_effect": "Вы не можете летать прямо сейчас!"
+  "message.icarus.status.no_fly.status_effect": "Вы не можете летать прямо сейчас!",
 }

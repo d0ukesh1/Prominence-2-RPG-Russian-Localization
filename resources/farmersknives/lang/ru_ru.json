@@ -1,34 +1,52 @@
 {
+  "itemGroup.farmersknives.group": "Farmers Knives",
+
   "item.farmersknives.vibranium_knife": "Вибраниумовый Нож",
   "item.farmersknives.adamantium_knife": "Адамантиевый Нож",
   "item.farmersknives.nether_brick_knife": "Нож из Адского Кирпича",
-  "item.farmersknives.oneshotium_knife": "Онешотиевый Нож",
+  "item.farmersknives.oneshotium_knife": "Онешотиумный Нож",
+
   "item.farmersknives.rose_gold_knife": "Нож из Розового Золота",
   "item.farmersknives.gilded_netherite_knife": "Нож из Позолоченного Незерита",
+
   "item.farmersknives.netherite_iron_knife": "Нож из Железо-Незерита",
   "item.farmersknives.netherite_gold_knife": "Нож из Золото-Незерита",
   "item.farmersknives.netherite_emerald_knife": "Нож из Изумродно-Незерита",
   "item.farmersknives.netherite_diamond_knife": "Нож из Алмазо-Незерита",
+
   "item.farmersknives.chitin_knife": "Хитиновый Нож",
+
   "item.farmersknives.aeternium_knife": "Этериевый Нож",
   "item.farmersknives.thallasium_knife": "Талласиумовый Нож",
   "item.farmersknives.terminite_knife": "Терминитовый Нож",
-  "item.farmersknives.cincinnasite_knife": "Цинциназитовый Нож",
-  "item.farmersknives.cincinnasite_knife_diamond": "Алмазо-Цинциназитовый Нож",
+
+  "item.farmersknives.cincinnasite_knife": "Цинцинназитовый Нож",
+  "item.farmersknives.cincinnasite_knife_diamond": "Алмазо-Цинцинназитовый Нож",
   "item.farmersknives.nether_ruby_knife": "Нож из Адского Рубина",
+
+  "item.farmersknives.manasteel_knife": "Нож из Манастали",
+  "item.farmersknives.elementium_knife": "Нож из Элементиума",
+  "item.farmersknives.terra_knife": "Нож из Террастали",
+
   "item.farmersknives.enderite_knife": "Эндеритовый Нож",
+
   "item.farmersknives.emerald_knife": "Изумрудный Нож",
   "item.farmersknives.ruby_knife": "Рубиновый Нож",
   "item.farmersknives.amethyst_knife": "Аметистовый Нож",
   "item.farmersknives.steel_knife_et": "Стальной Нож",
   "item.farmersknives.obsidian_knife": "Обсидиановый Нож",
   "item.farmersknives.copper_knife_et": "Медный Нож",
+
   "item.farmersknives.soul_alloy_knife": "Нож из сплава душ",
+
   "item.farmersknives.warden_knife": "Нож Вардена",
+
   "item.farmersknives.dragon_knife": "Нож Дракона",
-  "item.farmersknives.gobber_knife": "Нож Болтуна",
+
+  "item.farmersknives.gobber_knife": "Нож Гоббера",
   "item.farmersknives.nether_gobber_knife": "Адский Нож",
   "item.farmersknives.end_gobber_knife": "Нож Края",
+
   "item.farmersknives.adamantite_knife": "Адамантитовый Нож",
   "item.farmersknives.aquarium_knife": "Аквариумовый Нож",
   "item.farmersknives.banglum_knife": "Банглумовый Нож",
@@ -51,10 +69,13 @@
   "item.farmersknives.star_platinum_knife": "Нож из Звёздной Платины",
   "item.farmersknives.steel_knife_mm": "Стальной Нож",
   "item.farmersknives.stormyx_knife": "Штормиксовый Нож",
+
   "item.farmersknives.ironwood_knife": "Железнодеревянный Нож",
   "item.farmersknives.fiery_knife": "Огненный Нож",
   "item.farmersknives.steeleaf_knife": "Нож из Стального Листа",
   "item.farmersknives.knightmetal_knife": "Нож из Рыцарского Металла",
+
   "item.farmersknives.pendorite_knife": "Пендоритовый Нож",
+  
   "item.farmersknives.cryomarble_knife": "Криомраморный Нож"
 }
