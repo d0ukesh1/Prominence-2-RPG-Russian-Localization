@@ -1204,11 +1204,18 @@
 			dependencies: ["6F34909783DD3D8A"]
 			id: "3C670B8D50E994C1"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
 				id: "122AFB1A68EEF2D0"
 				type: "xp_levels"
 				xp_levels: 10
-			}]
+				}
+				{
+					id: "3657B8A8DCF2CFBC"
+					item: "croptopia:banana"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "34B209523D27FBBE"
@@ -1722,6 +1729,96 @@
 			}]
 			x: 9.0d
 			y: 1.0d
+		}
+	{
+			description: ["Когда-нибудь чувствовал себя тонущими в бесконечном океане? Нет? Только я? Ну, теперь и ты сможешь это почувствовать."]
+			id: "3CDD62549F889825"
+			rewards: [
+				{
+					id: "3F9C05B1DDA33360"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "02747441CF9F3548"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "228414D300BB8B5B"
+				item: {
+					Count: 1
+					id: "extendedae:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			description: ["Этот предмет отлично подходит для любой автоматизации, он экономит вам массу работы и легко создается. Обязательная вещь для каждого любителя технологий!"]
+			id: "6C334F83DD405381"
+			rewards: [
+				{
+					id: "5898FDD49A8F25E5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3DE47A03C53306C4"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D22BE939218D105"
+				item: {
+					Count: 1
+					id: "extendedae:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:cobblestone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4795979571F1FAEA"]
+			description: ["Генератор кристаллического резонанса может и не обеспечивает бесконечное количество энергии, но для невероятно простых систем этого более чем достаточно. Любой, кто просто хочет немного хранилища или автоматизировать некоторый цертус, полюбит эту забавную маленькую камеру, похожую на радиатор."]
+			id: "42149F10B97E7874"
+			rewards: [
+				{
+					count: 20
+					id: "5E20193D8275DCFC"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "4271832922528BD5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "299E98942127A1FD"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			title: "Powering your Network 3"
+			x: 0.5d
+			y: -4.5d
 		}
 	]
 	subtitle: ["Эта квестовая линия познакомит тебя с основами AE2. Ты сможешь сделать базовую генерацию энергии, а также систему хранения!"]

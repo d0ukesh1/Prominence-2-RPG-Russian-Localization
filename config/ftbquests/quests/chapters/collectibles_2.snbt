@@ -83,7 +83,7 @@
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "c:brushitems"
+							value: "c:brushes"
 						}
 					}
 					title: "Любые Кисточки"

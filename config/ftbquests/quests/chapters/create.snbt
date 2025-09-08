@@ -1660,11 +1660,18 @@
 		{
 			dependencies: ["2D3191960D3277B6"]
 			id: "39E865F0D72CF9B8"
-			rewards: [{
+			rewards: [
+				{
 				id: "1815394F4652D9A3"
 				type: "xp"
 				xp: 25
-			}]
+				}
+				{
+					id: "0836C6687D3C1520"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3CDFABDD807C1515"
 				item: "create:shaft"

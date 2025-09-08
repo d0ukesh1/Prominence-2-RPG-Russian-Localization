@@ -12,12 +12,6 @@
 			id: "70AE098030DF5056"
 			rewards: [
 				{
-					icon: "minecraft:experience_bottle"
-					id: "55D8D0A7CAE006DB"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					id: "0D876E1B61A2C3A9"
 					item: "ad_astra:oxygen_bucket"
 					type: "item"
@@ -27,6 +21,11 @@
 					id: "2312A0D5897D0AE7"
 					item: "ad_astra:ostrum_ingot"
 					type: "item"
+				}
+				{
+					id: "18AA06794EB95CEC"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "gear"
@@ -199,7 +198,7 @@
 				{
 					id: "29C82905199F8FC8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:jet_suit_helmet"
 						tag: {
 							Damage: 0
@@ -330,10 +329,8 @@
 			]
 			icon: {
 				Count: 1
-				id: "ad_astra:oxygen_tank"
-				tag: {
-					BotariumData: { }
-				}
+				id: "ad_astra_giselle_addon:oxygen_can"
+				tag: { }
 			}
 			id: "788ED2CA8A5DE2DC"
 			rewards: [{
@@ -345,12 +342,17 @@
 			subtitle: "Дыши ВОЗДУХОМ!"
 			tasks: [{
 				count: 8L
-				id: "28B1C0389F298FC6"
+				id: "6E84DA411E43115A"
 				item: {
 					Count: 1
-					id: "ad_astra:oxygen_tank"
+					id: "ad_astra_giselle_addon:oxygen_can"
 					tag: {
-						BotariumData: { }
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 40500L
+								Fluid: "ad_astra:oxygen"
+							}]
+						}
 					}
 				}
 				type: "item"
@@ -363,21 +365,26 @@
 			id: "69D702D8D75FD64E"
 			rewards: [
 				{
-					count: 2
-					id: "5931AEF125050E20"
-					item: {
-						Count: 1
-						id: "ad_astra:oxygen_tank"
-						tag: {
-							BotariumData: { }
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "591F92AC69C5CD4A"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "6A91D774D887E65A"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 40500L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
+						}
+					}
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -398,16 +405,15 @@
 			id: "63F4685E77F88E88"
 			rewards: [
 				{
-					icon: "vitalize:experience_cubed"
-					id: "2BCEC86A95FFE2E7"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					count: 5
 					id: "2A2ED1A376BE78E8"
 					item: "ad_astra:calorite_ingot"
 					type: "item"
+				}
+				{
+					id: "72825DBE1A25B82D"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "circle"

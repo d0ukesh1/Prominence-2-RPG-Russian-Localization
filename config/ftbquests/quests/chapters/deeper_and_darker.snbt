@@ -166,7 +166,7 @@
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:netherite_chestplate"
 				tag: {
 					Damage: 0

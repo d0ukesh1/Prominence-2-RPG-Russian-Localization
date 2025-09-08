@@ -80,6 +80,7 @@
 		}
 		{
 			dependencies: ["6E3B8F7F080FA226"]
+			description: ["Вжух-вжух!"]
 			id: "5D18309D2D29B509"
 			rewards: [
 				{

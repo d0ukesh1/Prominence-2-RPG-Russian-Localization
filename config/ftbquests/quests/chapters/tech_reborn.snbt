@@ -1274,6 +1274,11 @@
 					type: "xp"
 					xp: 1000
 				}
+				{
+					id: "1B00B4EF18C0F950"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
 			]
 			size: 1.5d
 			subtitle: "Требует 30кЕЭ и 30 коробок с утильсырьем на каждую UU-материю"
@@ -1382,11 +1387,18 @@
 			]
 			icon: "techreborn:fusion_control_computer"
 			id: "2567CBAC31932921"
-			rewards: [{
+			rewards: [
+				{
 				id: "25521FA4B1BC8EB1"
 				type: "xp"
 				xp: 10000
-			}]
+				}
+				{
+					id: "6026CF9C2D1DD4C4"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			subtitle: "БЕЗГРАНИЧНАЯ МОЩЬ! Или, по крайней мере, довольно близкая к этому. \\n\\nТермоядерный реактор вырабатывает 16 кЕЭ/тик и даёт возможность создания так сложно добываемого иридия."
 			tasks: [
@@ -2303,7 +2315,7 @@
 			tasks: [{
 				id: "25A4B89E70351DEC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "techreborn:cell"
 					tag: {
 						fluid: "techreborn:helium3"

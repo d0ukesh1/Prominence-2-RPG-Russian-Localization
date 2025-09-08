@@ -1,4 +1,5 @@
 {
+    "block.ae2.crystal_resonance_generator": "Генератор кристаллического резонанса",
     "item.ae2.cell_component_256k": "256К МЭ компонент хранения",
     "block.ae2.256k_crafting_storage": "Хранилище для изготовления на 256k",
     "item.ae2.fluid_storage_cell_256k": "256К МЭ жидкостная ячейка хранения",

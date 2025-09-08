@@ -988,7 +988,7 @@ element {
 }
 
 element {
-  source = Пожалуйста, прочти <3
+  source = 25% скидка!
   source_mode = direct
   scale = 0.45
   shadow = true

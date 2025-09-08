@@ -296,6 +296,25 @@
 			x: 5.0535714285714235d
 			y: 3.732142857142861d
 		}
+	{
+			dependencies: ["5E4919750C5CE35D"]
+			description: ["https://rpg.prominence.wiki/blog/whats-coming-hasturian-era-v4.0"]
+			id: "53E148644BBD5E2F"
+			rewards: [{
+				id: "084B8B62840230CC"
+				item: "croptopia:banana"
+				type: "item"
+			}]
+			subtitle: "If you wanna find out more about 4.0's Development and you didn't know there is a Blog post already, the link can be found on the Wiki or by copying the link below (not clickable)"
+			tasks: [{
+				id: "3BD28AF38278E1E3"
+				title: "Blogpost"
+				type: "checkmark"
+			}]
+			title: "Информация о новой версии из блога"
+			x: 7.0d
+			y: 4.0d
+		}
 	]
 	title: " &e&lХастурианская Эра"
 }

@@ -38,7 +38,7 @@
   "block.betterarcheology.wolf_fossil_body": "Ископаемое Тело Волка",
   "block.betterarcheology.wolf_fossil_body_tooltip": "Могу я почесать его живот?",
   "block.betterarcheology.sheep_fossil": "Овца-Ископаемое",
-  "block.betterarcheology.sheep_fossil_tooltip": "Its horns remind you of Goat Horns. Could it also make a sound?",
+  "block.betterarcheology.sheep_fossil_tooltip": "Её рога напоминают вам о Рогах Козы. Сможет ли он тоже выдать звук?",
   "block.betterarcheology.sheep_fossil_head": "Ископаемый Череп Овцы",
   "block.betterarcheology.sheep_fossil_head_tooltip": "Овцы делают вмятины побольше чем козлы",
   "block.betterarcheology.sheep_fossil_body": "Ископаемое Тело Овцы" ,
@@ -52,7 +52,7 @@
   "block.betterarcheology.creeper_fossil": "Крипер-Ископаемое",
   "block.betterarcheology.creeper_fossil_tooltip": "Он выглядит страшнее чем реальные ...",
   "block.betterarcheology.creeper_fossil_head": "Ископаемый Череп Крипера",
-  "block.betterarcheology.creeper_fossil_head_tooltip": "Ты трепетал перед этим лицом достаточно раз",
+  "block.betterarcheology.creeper_fossil_head_tooltip": "Вы трепетали перед этим лицом достаточно раз",
   "block.betterarcheology.creeper_fossil_body": "Ископаемое Тело Крипера",
   "block.betterarcheology.creeper_fossil_body_tooltip": "Так вот источник его силы!",
   "block.betterarcheology.guardian_fossil": "Страж-Ископаемое",
@@ -83,12 +83,15 @@
   "advancements.all_fossils_found.description": "Соберите все части ископаемых!",
   "advancements.growth_totem": "Когда ты меньше всего ожидаешь это",
   "advancements.growth_totem.description": "Найдите жизнь, росшую среди смерти",
+  "advancements.netherite_brush.title": "Безумное Инвестирование",
+  "advancements.netherite_brush.description": "Иногда, путь к величию высечен сомнительными выборами - но пылью, никогда.",
 
   "block.betterarcheology.fossil_head_set": " [1/2]",
   "block.betterarcheology.fossil_body_set": " [2/2]",
 
   "item.betterarcheology.iron_brush": "Железная Кисточка",
   "item.betterarcheology.diamond_brush": "Алмазная Кисточка",
+  "item.betterarcheology.netherite_brush": "Незеритовая Кисточка",
   "block.betterarcheology.archeology_table": "Стол Археологии",
   "item.betterarcheology.artifact_shards": "Осколки Артефакта",
   "item.betterarcheology.unidentified_artifact": "Неидентифицированный Артефакт",
@@ -110,11 +113,16 @@
   "entity.minecraft.villager.betterarcheology.archeologist": "Археолог",
 
   "enchantment.betterarcheology.penetrating_strike": "Пробивающий Удар",
-  "item.betterarcheology.penetrating_strike_tooltip": "Частично игнорирует эффект зачарования Сопротивления",
+  "enchantment.betterarcheology.penetrating_strike.desc": "Частично игнорирует эффект зачарования Сопротивления",
   "enchantment.betterarcheology.seas_bounty": "Дар Моря",
-  "item.betterarcheology.seas_bounty_tooltip": "Выловите широкое разнообразие сокровищ из глубин",
+  "enchantment.betterarcheology.seas_bounty.desc": "Выловите широкое разнообразие сокровищ из глубин",
   "enchantment.betterarcheology.soaring_winds": "Взмывающие Ветра",
-  "item.betterarcheology.soaring_winds_tooltip": "Оседлайте ветра чтобы получить начальное ускорение при использовании Элитр",
+  "enchantment.betterarcheology.soaring_winds.desc": "Оседлайте ветра чтобы получить начальное ускорение при использовании Элитр",
   "enchantment.betterarcheology.tunneling": "Направление",
-  "item.betterarcheology.tunneling_tooltip": "Также ломает блок под вскопанным блоком"
+  "enchantment.betterarcheology.tunneling.desc": "Также ломает блок под вскопанным блоком",
+
+  "filled_map.catacombs": "Карта исследователя катакомб",
+  "filled_map.light": "Карта исследователя гробниц света",
+
+  "config.notify.disabled": "Эта функция была отключена в настройках!"
 }
