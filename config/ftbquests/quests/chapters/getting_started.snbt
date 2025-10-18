@@ -230,6 +230,11 @@
 			]
 			icon: "supplementaries:slice_map"
 			id: "723951CD2A49AEB7"
+			rewards: [{
+				id: "3232A941301388D8"
+				item: "minecraft:leather"
+				type: "item"
+			}]
 			size: 0.75d
 			subtitle: "Нажми на меня и прочитай моё описание!"
 			tasks: [{
@@ -330,12 +335,19 @@
 				}
 			}
 			id: "58AD6DBD81B67C1C"
-			rewards: [{
-				count: 4
-				id: "4EB0CB7EF7E56D4D"
-				item: "tiered:limestone_chunk"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "4EB0CB7EF7E56D4D"
+					item: "tiered:limestone_chunk"
+					type: "item"
+				}
+				{
+					id: "64D9D6301277044B"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "Нажми, чтобы прочитать описание!"
 			tasks: [{
@@ -364,6 +376,11 @@
 			]
 			icon: "minecraft:writable_book"
 			id: "72EE0A2E9D410B2C"
+			rewards: [{
+				id: "645DC116254AAA07"
+				item: "minecraft:leather"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Нажми на меня и прочитай моё описание!"
 			tasks: [{
@@ -456,6 +473,12 @@
 				}
 			}
 			id: "0773C097052A3D27"
+			rewards: [{
+				count: 2
+				id: "61403C9010BD08CE"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Нажми на меня и прочитай моё описание!"
 			tasks: [{
@@ -478,6 +501,11 @@
 			]
 			icon: "supplementaries:slice_map"
 			id: "239866A8BF58469A"
+			rewards: [{
+				id: "39486CD50933E2A6"
+				item: "minecraft:leather"
+				type: "item"
+			}]
 			size: 0.75d
 			subtitle: "Нажми и прочитай мое описание!"
 			tasks: [{
@@ -490,5 +518,23 @@
 			y: -3.292165295437549d
 		}
 	]
-	title: " Начало"
+	{
+			dependencies: ["2B96D4BA73511402"]
+			description: ["ТЕБЕ РЕАЛЬНО СТОИТ ПОЧИТАТЬ ВИКИ, ОТ ФЕРМ ДО ТУТОРИАЛОВ, ТАМ БУДЕТ ВСЕ ЧТО ПОТРЕБУЕТСЯ, ЧТОБЫ ЗАВЕРШИТЬ ЭТОТ ПАК!!"]
+			id: "028F0467DB3D633B"
+			rewards: [{
+				id: "640827BAB4106307"
+				item: "expandeddelight:chocolate_cookie"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "32891AB9791CF1A8"
+				title: "ПОЖАЛУЙСТА, ПРОЧТИ ВИКИ"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+	title: " &eНачало"
 }

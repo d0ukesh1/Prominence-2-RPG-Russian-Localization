@@ -1,0 +1,68 @@
+{
+  "title.modpack-update-checker": "Modpack Update Checker",
+
+  "screen.modpack-update-checker.modpack-update.title": "Изменения",
+  "screen.modpack-update-checker.info.title": "Информация",
+
+  "screen.modpack-update-checker.hotfix.downloading-text": "Скачивание %s/%s %s %s%% Завершено",
+  "screen.modpack-update-checker.hotfix.title": "Хотфиксы",
+  "screen.modpack-update-checker.hotfix.estimated-time": "Примерно времени осталось: %s:%s:%s",
+  "screen.modpack-update-checker.hotfix.select-all": "Выбрать все",
+  "screen.modpack-update-checker.hotfix.deselect-all": "Отменить выбор",
+  "screen.modpack-update-checker.hotfix.apply-hotfix": "Применить хотфикс",
+  "screen.modpack-update-checker.hotfix.hotfix-applied": "Хотфикс применен",
+  "screen.modpack-update-checker.hotfix.hotfix-applied.description": "Вам может потребоваться перезапустить игру.",
+  "screen.modpack-update-checker.hotfix.no-leaving": "Не закрывайте этот экран пока хотфикс не будет применен.",
+
+  "screen.modpack-update-checker.editor.title": "Редактор",
+  "screen.modpack-update-checker.editor.migrate-config": "Перенести Конфигурацию",
+  "screen.modpack-update-checker.editor.debug": "Информация об Отладке",
+  "screen.modpack-update-checker.editor.reload": "Перезагрузить Конфигурацию",
+  "screen.modpack-update-checker.editor.reload.info": "Перезагружает конфиг и обновляет информацию и хотфиксы из сети.",
+  "screen.modpack-update-checker.editor.reload-hotfixes": "Перезагрузить Хотфиксы",
+  "screen.modpack-update-checker.editor.add-modpack-mods": "Добавить Моды в Модпак",
+  "screen.modpack-update-checker.editor.add-modpack-mods.info": "WIP: Дает всем загруженным модам значок [Modpack] в Меню Модов. Только на (Fabric/Quilt).",
+
+  "screen.modpack-update-checker.scrollable-flow.title": "Перелистывающийся Поток",
+
+  "toast.modpack-update-checker.modpack-update-available": "Доступно обновление модпака",
+  "toast.modpack-update-checker.modpack-update-available.description": "%s -> %s",
+
+  "toast.modpack-update-checker.hotfix-available": "Доступен хотфикс модпака",
+  "toast.modpack-update-checker.hotfix-available.description": "Установите его в меню модпака.",
+
+  "button.modpack-update-checker.changelog-button": "Изменения",
+  "button.modpack-update-checker.changelog-button.update-available": "Доступно обновление",
+  "button.modpack-update-checker.changelog-button.info": "Информация о модпаке",
+
+  "screen.modpack-update-checker.changelog.date-time-format": "ISO_LOCAL_DATE",
+  "screen.modpack-update-checker.changelog.to-be-announced": "Дата Релиза: Не Анонсировано",
+  "screen.modpack-update-checker.changelog.releasingOn": "Релиз состоится: %s",
+  "screen.modpack-update-checker.changelog.releasedAt": "Релиз состоялся: %s",
+  "screen.modpack-update-checker.changelog.modpackInfo": "Информация о Модпаке",
+  "screen.modpack-update-checker.changelog.modpackAuthors": "Автор %s",
+
+  "screen.modpack-update-checker.select-world.modpack-backup": "Последний раз в этом мире играли на %s %s; вы на %s %s. Пожалуйста, сделайте бэкап на случай, если у вас будет повреждение мира!",
+  "screen.modpack-update-checker.select-world.modpack-backup.incompatible": "Последний раз в этом мире играли на %s %s, он не совместим с текущей версией, %s %s.",
+  "screen.modpack-update-checker.select-world.incompatible-modpack-version": "Этот мир не совместим с текущим модпаком.",
+
+  "screen.modpack-update-checker.missing-mods.title": "Отсутствующие Моды!",
+  "screen.modpack-update-checker.missing-mods.auto-download": "Автозагрузка",
+  "screen.modpack-update-checker.missing-mods.downloaded.client-launch": "Загружено автоматически",
+  "screen.modpack-update-checker.missing-mods.downloaded.automatic": "Загружено автоматически",
+  "screen.modpack-update-checker.missing-mods.downloaded.manual": "Найдено!",
+
+  "command.mpuc.error.invalid-hotfix": "%s некорректен",
+  "command.mpuc.error.hotfix-already-queued": "%s уже в очереди",
+
+  "fancymenu.modpack-update-checker.helper.ui.dynamicvariabletextfield.categories.modpack-update-checker": "Modpack Update Checker",
+  "fancymenu.modpack-update-checker.placeholder.current-modpack-version": "Текущая Версия Модпака",
+  "fancymenu.modpack-update-checker.placeholder.current-modpack-version.description": "Текущая установленная версия модпака.",
+  "fancymenu.modpack-update-checker.placeholder.latest-modpack-version": "Последняя Версия Модпака",
+  "fancymenu.modpack-update-checker.placeholder.latest-modpack-version.description": "Последняя доступная версия модпака.",
+
+  "modpack-update-checker.markdown.renderer.builtin.basic.title": "База",
+  "modpack-update-checker.markdown.renderer.builtin.basic.description": "Базовый рендерер, который поддерживает URL ссылки и ссылки разметки",
+  "modpack-update-checker.markdown.renderer.builtin.mpuc_lavendermd.title": "Lavender",
+  "modpack-update-checker.markdown.renderer.builtin.mpuc_lavendermd.description": "Рендерер разметки Lavender, который поддерживает изображения, заголовки и т.д."
+}
