@@ -13,6 +13,1012 @@
 	id: "472AF31E92BAA1CC"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"&7 Чтобы начать твое путешествие в Зачаровании, тебе надо, ну ты знаешь, получить Чародейский Стол."
+				""
+				"&7 Провзаимодействовав с чародейским столом, ты увидишь внизу 3 шкалы; Eterna, Quanta и Arcana"
+				""
+				"&7 &aEterna&7 - Контролирует уровень твоего Чародейского Стола, оно меняет цену, а также то, какие зачарования ты получаешь, нужный уровень опыта при этом в 2 раза больше Eterna, так что 50 единиц Eterna это 100 уровней, нужных для зачарования."
+				""
+				"&7 &4Quanta&7 - Чистый хаос, чем больше у тебя есть, тем более случайным все становится, не рекомендуется повышать."
+				""
+				"&7 &5Arcana&7 - Эта характеристика меняет редкость, количество зачарований. Тебе не стоит выкручивать её на максимум, если ты хочешь получить вещи типо Защиты или Солнечного Огня."
+			]
+			id: "2F8B1BF5905F954D"
+			rewards: [{
+				id: "55EED9C1AD97DB82"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "pentagon"
+			subtitle: "Улучшаем снаряжение дальше"
+			tasks: [{
+				id: "29BBF4C4493B2D31"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Чародейский Стол"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+				"&7Чтобы продолжить свое Путешествие, твоим следующим шагом должны стать либо Морские Книжные Полки, либо Адские. Они дадут первые улучшения для твоего Зачарования. Тебе понадобиться 15 штук в общем или микс из обоих видов, чтобы полностью подготовиться. "
+				"&7Создай ещё пару штук, чтобы провести слияние!"
+			]
+			hide_until_deps_complete: true
+			id: "379C7E6854F4F226"
+			rewards: [{
+				id: "21C7579D17F3F929"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Так начнем же!"
+			tasks: [{
+				count: 5L
+				id: "7CFE22664BFEA884"
+				item: "zenith:seashelf"
+				type: "item"
+			}]
+			title: "Начинаем, Морские Книжные Полки"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+				"&7Чтобы продолжить свое Путешествие, твоим следующим шагом должны стать либо Морские Книжные Полки, либо Адские. Они дадут первые улучшения для твоего Зачарования. Тебе понадобится 15 штук в общем или микс из обоих видов, чтобы полностью подготовиться. "
+				"&7Создай ещё пару штук, чтобы провести слияние!"
+			]
+			hide_until_deps_complete: true
+			id: "52D4F78DE9C64FF3"
+			rewards: [{
+				id: "38792BBCB5C18018"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Так начнем же!"
+			tasks: [{
+				count: 5L
+				id: "3945BAB14D78B572"
+				item: { Count: 5, id: "zenith:hellshelf" }
+				type: "item"
+			}]
+			title: "Начинаем, Адские Книжные Полки"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"52D4F78DE9C64FF3"
+				"379C7E6854F4F226"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&7Тебе надо будет сделать много и таких тоже, &45-10&7, но и больше тоже сойдет, лучше перебдеть, чем недобдеть."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2B99DDA42BB7716C"
+			rewards: [{
+				id: "561CFBB9B1F0D4CA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Не такой горячий, как Вааз"
+			tasks: [{
+				count: 5L
+				id: "44D305E5285AAEE1"
+				item: { Count: 5, id: "zenith:infused_hellshelf" }
+				type: "item"
+			}]
+			title: "Горячее, чем раньше"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"52D4F78DE9C64FF3"
+				"379C7E6854F4F226"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&7Создай парочку таких, может ещё парочку на попозже, &45-10&7 должно быть достаточно на будущее."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "75D6FF466F4DA932"
+			rewards: [{
+				id: "64CBDD9BE4077D57"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Хз, я вообще стажер"
+			tasks: [{
+				count: 5L
+				id: "4C5147D7218117A8"
+				item: "zenith:infused_seashelf"
+				type: "item"
+			}]
+			title: "Морские Полки или Палки?"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75D6FF466F4DA932"]
+			description: [
+				"&7Тебе понадобятся по крайней мере 2 из следующих Книжных Полок: Кристаллические Морские Книжные Полки, Морские Книжные Полки с Выкованным Сердцем, Пылающие Адские Книжные Полки или Светящиеся Адские Книжные Полки."
+				"&7 Это даст тебе 15 Совмещенных Книжных Полок и ещё две более высокого уровня, это даст тебе 30 Eterna, если ты следовал квестам."
+			]
+			id: "55DC0E4792D27682"
+			rewards: [{
+				id: "2DD241DDC4714A0E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Сделано с любовью <3"
+			tasks: [{
+				id: "39013B63D1996B34"
+				item: "zenith:heart_seashelf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["75D6FF466F4DA932"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7Тебе понадобятся по крайней мере 2 из следующих Книжных Полок: Кристаллические Морские Книжные Полки, Морские Книжные Полки с Выкованным Сердцем, Пылающие Адские Книжные Полки или Светящиеся Адские Книжные Полки."
+				"&7 Это даст тебе 15 Совмещенных Книжных Полок и ещё две более высокого уровня, это даст тебе 30 Eterna, если ты следовал квестам."
+			]
+			id: "4011B9F44111D91E"
+			rewards: [{
+				id: "5F0672AF47DC0643"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Блестяшка!!!"
+			tasks: [{
+				id: "0250CC346A0DD595"
+				item: "zenith:crystal_seashelf"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B99DDA42BB7716C"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7Тебе понадобятся по крайней мере 2 из следующих Книжных Полок: Кристаллические Морские Книжные Полки, Морские Книжные Полки с Выкованным Сердцем, Пылающие Адские Книжные Полки или Светящиеся Адские Книжные Полки."
+				"&7 Это даст тебе 15 Совмещенных Книжных Полок и ещё две более высокого уровня, это даст тебе 30 Eterna, если ты следовал квестам."
+			]
+			hide_dependent_lines: true
+			id: "760BEB0339ED65A9"
+			rewards: [{
+				id: "17F855382C24A86F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Становится горячо!"
+			tasks: [{
+				id: "15378E2783A5AAB3"
+				item: "zenith:blazing_hellshelf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B99DDA42BB7716C"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7Тебе понадобятся по крайней мере 2 из следующих Книжных Полок: Кристаллические Морские Книжные Полки, Морские Книжные Полки с Выкованным Сердцем, Пылающие Адские Книжные Полки или Светящиеся Адские Книжные Полки."
+				"&7 Это даст тебе 15 Совмещенных Книжных Полок и ещё две более высокого уровня, это даст тебе 30 Eterna, если ты следовал квестам."
+			]
+			hide_dependent_lines: true
+			id: "7F5414CC388648FC"
+			rewards: [{
+				id: "73E6B66E82C0771C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Я надеюсь это не радиация"
+			tasks: [{
+				id: "65876EEF7C4D9EA6"
+				item: "zenith:glowing_hellshelf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0250CC346A0DD595"
+				"0250CC346A0DD595"
+				"760BEB0339ED65A9"
+				"7F5414CC388648FC"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&7Это твой следующий шаг, ты будешь их либо ненавидеть, либо любить, зависит от того, заинтересован ты ещё или нет. Убедись, что взял все что можно из Древнего города, поверь мне, тебе это понадобится. Осколки Эха будут очень важны на следующем этапе."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "3638B82292E58322"
+			rewards: [{
+				id: "7613C7BF62A57A0F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Спящий, но не мертвый"
+			tasks: [{
+				count: 5L
+				id: "21B4339658E55FEF"
+				item: { Count: 5, id: "zenith:dormant_deepshelf" }
+				type: "item"
+			}]
+			title: "ZZZZZZZZZZZZZZZ"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3638B82292E58322"]
+			description: ["&7 Не волнуйся, они не кусаются, они - это твой следующий шаг, в основном использующийся в создании так-то, поэтому сделай столько, сколько сможешь, пока не сделаешь где-то 8 штук!"]
+			id: "181E4D8DC20A161F"
+			rewards: [{
+				id: "1A26975999222863"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "ПРОБУЖДЕНИЕ!"
+			tasks: [{
+				count: 5L
+				id: "7DA53A17D1F442CF"
+				item: { Count: 5, id: "zenith:deepshelf" }
+				type: "item"
+			}]
+			title: "Чем глубже Книжная Полка, тем глубже твои карманы"
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["181E4D8DC20A161F"]
+			description: ["&7 Тебе понадобится 8 таких, эти или же другие доведут тебя туда, куда тебе надо - до слияний и хороших зачарований."]
+			id: "14688027AF83AD58"
+			rewards: [{
+				id: "7667E39FE00B63FD"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Далекий отголосок, будто сердце стучит где-то..."
+			tasks: [{
+				id: "415BC1C4DB113498"
+				item: "zenith:echoing_deepshelf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["181E4D8DC20A161F"]
+			description: ["&7 Тебе понадобится 8 таких, эти или же другие доведут тебя туда, куда тебе надо - до слияний и хороших зачарований."]
+			id: "7BE41C566915CAC0"
+			rewards: [{
+				id: "3C1E9BFF3F769D2E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Как будто она тронула что-то, что не должна была..."
+			tasks: [{
+				id: "79ED4BC5C5C5D852"
+				item: "zenith:soul_touched_deepshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1B0F69F532F25CED"]
+			description: [
+				"&7Много Томов делают много вещей. Вот короткий экскурс:"
+				""
+				"&7Тома передачи и извлечения в основном используются для снятия зачарований с предметов."
+				""
+				"&7Тома на разное снаряжение могут быть использованы для получения определенных зачарований, возможных только на некоторых наборах снаряжения или броне, например Плавное Падение."
+			]
+			id: "3DCC7DFC27102E56"
+			rewards: [
+				{
+					count: 8
+					id: "21DEA676A6696DFF"
+					item: "zenith:scrap_tome"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4F49EBEDED48949C"
+					item: "zenith:pickaxe_tome"
+					type: "item"
+				}
+				{
+					id: "6B1BE2D2621D208D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Тома"
+			tasks: [{
+				id: "67A155F5E166C842"
+				type: "checkmark"
+			}]
+			title: "Что такое Тома?"
+			x: 4.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5D65F9ABAFC04598"]
+			dependency_requirement: "one_completed"
+			description: ["&7 &4Ты можешь создавать слиянием Тома&7, Тома хороши для извлечения Зачарований из снаряжения, их разделения с помощью, например, &eНаковальни, зачарованной на Разделение&7, это заставит книгу разделится на компоненты, очень полезно, если ты нашел что-то крутое, но оружие фигня! Но будь внимательней, ЧИТАЙ перед использованием, иногда ты можешь потерять предмет, на котором ты его используешь."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:enchanting_table"
+			id: "1B0F69F532F25CED"
+			rewards: [{
+				id: "4EBEBE754EDFD150"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "pentagon"
+			subtitle: "Звучит весело, что это?"
+			tasks: [
+				{
+					count: 3L
+					id: "0FE9FC98DF5C07A0"
+					item: { Count: 3, id: "zenith:melonshelf" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2269676675535AEF"
+					item: { Count: 3, id: "minecraft:bookshelf" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "158A742BA6990074"
+					item: { Count: 8, id: "zenith:echoing_sculkshelf" }
+					type: "item"
+				}
+			]
+			title: "Твоя первая Установка для Слияния"
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["14688027AF83AD58"]
+			description: ["&7Улучши Полки, что ты только что сделал, тебе они понадобятся для следующего шага!"]
+			id: "5D65F9ABAFC04598"
+			rewards: [{
+				id: "61E5B6DC54ED44D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Гул..."
+			tasks: [{
+				count: 8L
+				id: "0195AEE90B3A28AD"
+				item: "zenith:echoing_sculkshelf"
+				type: "item"
+			}]
+			title: "Эхо из Глубины"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: ["&7Иногда ты будешь встречать предметы, дающие проклятия, эти проклятия не могут быть сняты обычными способами, они требуют Особую Паутину, иначе они не спадут."]
+			id: "39501B35F8A9520C"
+			rewards: [
+				{
+					count: 4
+					id: "3DE9DD8EFDD49D8D"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					id: "335DEF7D39E00FDA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Черт их побери!"
+			tasks: [{
+				id: "1DD01687EDBB66CA"
+				item: "zenith:prismatic_web"
+				type: "item"
+			}]
+			title: "Проклятия!"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B0F69F532F25CED"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7Получить Драконье Дыхание, при этом не являясь стоматологом довольно сложно, есть два способа:"
+				""
+				"&7&9Получить его с дракона во время боя&7. Четко и понятно, просто принеси много бутылок и захвати его дыхание."
+				""
+				"&7&9Жители Алхимики&7 также могут его продавать, но для этого нужен высокий уровень мастерства"
+				""
+				"&7Очень ненадежный способ это добыча с подземелий, таких как Шираз, шансы малы, но никогда не равны нулю."
+			]
+			id: "3CC8482AB27413C3"
+			rewards: [{
+				id: "3071D1638FAAAF49"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Освежающе!"
+			tasks: [{
+				id: "306E3015FF1A27CA"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			title: "Экскурсия: Драконье Дыхание"
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3CC8482AB27413C3"]
+			id: "6D97D1472D47E236"
+			rewards: [{
+				count: 3
+				id: "2446D43D8683AF42"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			subtitle: "ЕЩЁ БОЛЕЕ ОСВЕЖАЮЩЕЕ"
+			tasks: [{
+				count: 3L
+				id: "0F2CE0A37D163724"
+				item: { Count: 3, id: "zenith:infused_breath" }
+				type: "item"
+			}]
+			title: "Infused Dragon's Breath"
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"2B99DDA42BB7716C"
+				"75D6FF466F4DA932"
+				"181E4D8DC20A161F"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7 Это &4самый лучший предмет&r, о котором ты только можешь подумать для своих зачарований! &4Все зачарования, хранимые&r в одном блоке, даже совместимым с AE2! Что ещё тебе только нужно, просто поставь Шину Хранения лицом к нему, и у тебя будет доступ ко всем твоим любимым Зачарованиям и Проклятиям!"
+				""
+				"&7 &4МОЖЕТ БЫТЬ ДОБЫТ&r"
+			]
+			hide_dependency_lines: true
+			id: "01683B1B161E67AB"
+			rewards: [{
+				count: 2
+				id: "169ABD5DBB70C2A2"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Содержит много всего!"
+			tasks: [{
+				id: "1F1F4DA2AB2D3456"
+				item: "zenith:library"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01683B1B161E67AB"]
+			description: ["&7Делает тоже самое, но больше, красивее даже, я бы сказал."]
+			id: "6E555092C38226CC"
+			subtitle: "Я подумал, она сгорела..."
+			tasks: [{
+				id: "1B100A9D48825486"
+				item: "zenith:ender_library"
+				type: "item"
+			}]
+			title: "Библиотека Александрии"
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3CBCFFD3B30E10E0"
+				"5CC063470E38D1AA"
+				"286D2A30B3320935"
+			]
+			description: ["&7Тебе это понадобится для Библиотеки Александрии, большая часть, если не всё, также понадобится для следующего шага, не волнуйся."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:enchanting_table"
+			id: "01B622F25CE780AF"
+			rewards: [{
+				id: "7AC10A78B3C3FF62"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "pentagon"
+			subtitle: "Ты настолько близок к концу!"
+			tasks: [
+				{
+					count: 5L
+					id: "150113F1F7073B09"
+					item: { Count: 5, id: "zenith:endshelf" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1EE3757E1307E447"
+					item: { Count: 2, id: "zenith:treasure_shelf" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6ECF86FB20B46A79"
+					item: { Count: 4, id: "zenith:echoing_sculkshelf" }
+					type: "item"
+				}
+			]
+			title: "Как зачаровать *почти* также, как и большие ребята"
+			x: 11.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1B0F69F532F25CED"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2684EE4739B501F6"
+			rewards: [{
+				id: "53B2CC2AB2A44EDC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Хаотичны по натуре"
+			tasks: [{
+				count: 5L
+				id: "7CAD7E899B740A3C"
+				item: { Count: 5, id: "zenith:endshelf" }
+				type: "item"
+			}]
+			title: "Последняя миля - Книжные Полки Эндера"
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2684EE4739B501F6"]
+			description: ["&7Как и Драконьих Книжных Полок, тебе понадобится несколько таких тоже, всегда лучше иметь с собой побольше. Стержни Края создаются и также находятся в Городах Края, у тебя не должно возникнуть проблем с их нахождением!"]
+			id: "5CC063470E38D1AA"
+			rewards: [{
+				id: "56673431B588EF62"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Перламутрово белые!"
+			tasks: [{
+				count: 4L
+				id: "168712189D4FFCD1"
+				item: { Count: 4, id: "zenith:pearl_endshelf" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2684EE4739B501F6"]
+			description: ["&7Головы Эндер Дракона находятся на кораблях, тебе понадобятся пару таких полок позже, в лучшем случае можешь сделать около 5-6, если сможешь достать все головы."]
+			id: "286D2A30B3320935"
+			rewards: [{
+				id: "680672A17BE230CA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Арррр!"
+			tasks: [{
+				id: "180727F1CD0353E7"
+				item: "zenith:draconic_endshelf"
+				type: "item"
+			}]
+			title: "Драконьи Книжные Полки Эндера"
+			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2684EE4739B501F6"]
+			description: ["&7Они дорогие, но ты их не пропустишь, их характеристики отличны, как и их эффект. Сделай парочку, если есть ресурсы."]
+			id: "3CBCFFD3B30E10E0"
+			rewards: [{
+				id: "75459C34259B5713"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Миг Миг!"
+			tasks: [{
+				count: 2L
+				id: "79D4CEE65DF64B8D"
+				item: { Count: 2, id: "zenith:treasure_shelf" }
+				type: "item"
+			}]
+			title: "Блестяшка!"
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["56C00181CBB95EB0"]
+			description: ["&7Используй одну из этих установок для слияния."]
+			icon: "minecraft:enchanting_table"
+			id: "379E8A63DC6E5A5C"
+			rewards: [{
+				id: "6CADEC76C9C4EDEF"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "Наконец-то!"
+			tasks: [
+				{
+					count: 7L
+					id: "43379A33C0312849"
+					item: { Count: 7, id: "zenith:melonshelf" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7207A14D2D67BE6F"
+					item: { Count: 6, id: "zenith:blazing_hellshelf" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6C5E55FCEA69891F"
+					item: { Count: 5, id: "zenith:pearl_endshelf" }
+					type: "item"
+				}
+				{
+					id: "578078FD7001177F"
+					item: "zenith:draconic_endshelf"
+					type: "item"
+				}
+			]
+			title: "Слияние Амулетов: Как сделать их Нерушимыми I"
+			x: 11.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["56C00181CBB95EB0"]
+			description: ["&7Используй одну из этих установок чтобы провести слияние амулетов!"]
+			icon: "minecraft:enchanting_table"
+			id: "049AF60D64091458"
+			rewards: [{
+				id: "5617603B2193CC5B"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "Наконец-то!"
+			tasks: [
+				{
+					count: 5L
+					id: "6648BAF04E1A79DA"
+					item: { Count: 5, id: "zenith:draconic_endshelf" }
+					type: "item"
+				}
+				{
+					id: "7683F506288E5E74"
+					item: "zenith:treasure_shelf"
+					type: "item"
+				}
+				{
+					id: "2B9DE408A58CB038"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "4CEA3A10F9008019"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:candles"
+						}
+					}
+					title: "Любые свечи"
+					type: "item"
+				}
+			]
+			title: "Слияние Амулетов: Как сделать их Нерушимыми II"
+			x: 13.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["01B622F25CE780AF"]
+			description: ["&7 Это все, что тебе понадобится, максимальное все. Фильтруй Морской Книжной Полкой Водной Фильтрации, у тебя может быть сколь угодно, также уменьши Arcana, если хочешь зачарования типо Защиты или классовых зачарований типо Солнечного Огня. Лучше всего зачаровывать кучей и записывать все в Библиотеку Зачарований."]
+			icon: "minecraft:enchanting_table"
+			id: "6D36893D5374B38B"
+			rewards: [
+				{
+					id: "1D92906E686EF072"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "6C919A3AAD22C952"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "ЗАЧАРОВАНИЯ МАКСИМУМ"
+			tasks: [
+				{
+					count: 5L
+					id: "22C42D5B6451D475"
+					item: { Count: 5, id: "zenith:soul_touched_sculkshelf" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7CC672CE8358F354"
+					item: { Count: 4, id: "zenith:echoing_sculkshelf" }
+					type: "item"
+				}
+				{
+					id: "630F2837F2F63237"
+					item: "zenith:draconic_endshelf"
+					type: "item"
+				}
+				{
+					id: "16FA226E9105028E"
+					item: "zenith:treasure_shelf"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "08F4523E38C248C7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:candles"
+						}
+					}
+					title: "Любые свечи"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2713D3D1E03B8E88"
+					item: { Count: 3, id: "zenith:rectifier_t3" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "467CB71A2261B501"
+					item: { Count: 2, id: "zenith:sightshelf_t2" }
+					type: "item"
+				}
+				{
+					id: "287901607B616925"
+					item: "zenith:filtering_shelf"
+					type: "item"
+				}
+			]
+			title: "&eМАТЕРЬ ВСЕХ ЗАЧАРОВАНИЙ"
+			x: 15.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["01B622F25CE780AF"]
+			description: ["&7Это тот час, когда ты наконец сделаешь их нерушимыми, как и обещалось, следующие два квеста расскажут о лучших способах."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "56C00181CBB95EB0"
+			rewards: [{
+				id: "32A05BF7E1EBA11D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			subtitle: "Теперь сделаем их нерушимыми!"
+			tasks: [{
+				id: "4D5C7C609F415DBB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "trinkets:hand/charm"
+					}
+				}
+				title: "Любой Амулет"
+				type: "item"
+			}]
+			title: "Амулеты II: Электрическое Пугало"
+			x: 12.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+				"&7 Амулеты это прекрасный способ получить более долгие эффекты Зелий. Держи в уме, что некоторые из них отключены, но большая часть существуют. Они всегда создаются из 3 штук этого же Зелья, у них есть прочность, это значит, что тебе нужно носить пару зелий, чтобы они не ломались:"
+				""
+				"&7 - Нерушимые, соединенные с Починкой они могут продержаться довольно долго."
+				""
+				"&7 - Укрепляющий Катализатор, я знаю, они дорогие для тебя сейчас, так что одного достаточно для твоего амулета, выбирай с умом, если хочешь использовать его на своем текущем амулете."
+				""
+				"&7 - Слияние, ты обучишься этому позже. Следуй за квестовой линией, пока не подготовишься! "
+			]
+			id: "0D3EA083E83FE6AF"
+			rewards: [{
+				id: "428763DDFC7E1739"
+				item: "things:hardening_catalyst"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Очаровывающе!"
+			tasks: [{
+				id: "10EBBFF3F2982BD8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "trinkets:hand/charm"
+					}
+				}
+				title: "Любой амулет чар"
+				type: "item"
+			}]
+			title: "Амулеты чар I"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: ["&7С Поводком Эндер-фермера ты &4сможешь захватить большинство, если не всех пассивных мобов&r, &eвраждебные и другие игроки не сработают&7, для этого тебе понадобиться SpatialIO. Используй это для своего любимого питомца, какой-нибудь овцы, которую ты хочешь привести к базе, или даже чтобы заполнить Аквариум."]
+			id: "7E791BE2C0D74016"
+			rewards: [{
+				id: "4E675E0EE80B1604"
+				item: {
+					Count: 1
+					id: "zenith:ender_lead"
+					tag: {
+						Damage: 0
+						entity_data: { }
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Это НЕ покебол!"
+			tasks: [{
+				id: "0313B2BB589AD702"
+				item: {
+					Count: 1
+					id: "zenith:ender_lead"
+					tag: {
+						Damage: 0
+						entity_data: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Покебол защищен авторским правом"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+				"&7Есть несколько предметов, которые ты можешь использовать для получения уровней, вот их список:"
+				""
+				"&7&9Броня&7: Танцор Души, полностью отделанный Кварцевой Отделкой (Случайный Кузнечный Шаблон + Кварц)."
+				""
+				"&7&9Аксессуары&7: Золотой Крюк и Суеверная Шляпа"
+				""
+				"&7&9Рюкзак&7: Лазуритовый Рюкзак"
+				""
+				"&7&9Зелье/Амулет&7: Древнее Знание II"
+				""
+				"&7&9Зачарования на оружия, которые могут помочь&7: Добыча, Мусорщик, Пожиратель Душ и Знание Веков(ОН КОНВЕРТИРУЕТ ПРЕДМЕТЫ В ОПЫТ, НЕ ИСПОЛЬЗУЙ НА БОССАХ)"
+				""
+				"&7&9Зачарования Брони&7: Мешок Душ"
+				""
+				"&7Тебе не обязательно нужны все эти вещи, есть и другие способы получить опыт, ты можешь выбрать, какие из этих вещей ты сможешь создать и какие тебе реально понадобятся."
+			]
+			id: "15AF68754CE02E4A"
+			rewards: [{
+				id: "5D49BC2EC790F43C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Тебе их понадобиться куча!"
+			tasks: [{
+				id: "09987381BB96DE43"
+				title: "Как получать Уровни"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: ["&7Наковальни могут быть зачарованы на Уничтожение и Разделение, последнее особенно полезно для разделения большей книги зачарований в более мелкие, один из немногих способов получить только некоторые зачарования из оружия или книги включает в себя это."]
+			id: "5D62225195633904"
+			rewards: [{
+				id: "59493EE82EBCFA4B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "БАМ!"
+			tasks: [{
+				id: "31F16606F96454B7"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "Зачарование Наковальни"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B99DDA42BB7716C"]
+			description: ["&7Слезы Гаста могут быть выторгованы у Алхимика Подмастерья, иногда находятся в Крепостях Ада. Гасты обычно имеют более низкий шанс появления, так что удачи."]
+			id: "65967FFB6D25BD30"
+			rewards: [{
+				id: "24EA0CB52EC9C2CA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Зачем плакать?"
+			tasks: [{
+				id: "3EC1DC3EF9D96059"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			title: "Получение Слез Гаста"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["75D6FF466F4DA932"]
+			description: ["&7Эти двое могут получиться с помощью обработки вентилятором в корпусе с каким-то источником Поворотной Силы, например Рукояткой, перед костром души. Этот метод также используется для обработки лошадей в Души Нежити."]
+			id: "0AACB9207417BB72"
+			rewards: [{
+				id: "325B504046C091EB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Когда монумент слишком далеко"
+			tasks: [
+				{
+					id: "1EE29D15B252AEDB"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					id: "0E3D15DF3DFC8600"
+					item: "minecraft:prismarine_crystals"
+					type: "item"
+				}
+			]
+			title: "Призмарин"
+			x: 0.5d
+			y: -6.5d
+		}
+	]
 	title: " &eЗачарование"
 }

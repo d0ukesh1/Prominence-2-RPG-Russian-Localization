@@ -277,24 +277,49 @@
 			description: [
 				"&7Маяк Надежды разбит, и теперь, без способа коммуникации со С'келлаком, тебе потребуется найти способ путешествовать в Вааз самому."
 				""
-				"&eЭта квестовая линия появиться в v3.2.0, вместе с измерением Пепельных Глубин и столичным городом Вааз!"
+				"&eЭта квестовая линия появиться в v4.0, вместе с измерением Пепельных Глубин и Королевством Вааз!"
 				""
-				"&6Следи за новостями!"
+				"&6Следи за новостями! Между делом, запей свою скорбь"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "prominent:cinderstone_trophy"
 			id: "5E4919750C5CE35D"
+			rewards: [{
+				id: "698955D6962FE85A"
+				item: "brewery:whiskey_jojannik"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "&8[Нажми, чтобы прочитать лор]"
 			tasks: [{
 				id: "539D6D4124775E80"
-				title: "&eПродолжение следует в v3.2.0"
-				type: "custom"
+				type: "checkmark"
 			}]
 			title: "&eПутешествие в Вааз"
 			x: 5.0535714285714235d
 			y: 3.732142857142861d
+		}
+		{
+			dependencies: ["5E4919750C5CE35D"]
+			description: ["&9https://rpg.prominence.wiki/blog/whats-coming-hasturian-era-v4.0"]
+			icon: "prominent:broken_beacon_of_hope"
+			id: "53E148644BBD5E2F"
+			rewards: [{
+				id: "084B8B62840230CC"
+				item: "croptopia:banana"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Если ты хочешь узнать больше о Разработке 4.0 и ещё не знаешь, там уже есть пост, ссылка находится на Вики или путем копирования ссылки ниже (не кликабельно)"
+			tasks: [{
+				id: "3BD28AF38278E1E3"
+				title: "Пост по новостям"
+				type: "checkmark"
+			}]
+			title: "Пост по новостям"
+			x: 5.035714285714292d
+			y: 2.6785714285714235d
 		}
 	]
 	title: " &e&lХастурианская Эра"
