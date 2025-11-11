@@ -1,0 +1,479 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_scarred_night"
+	group: "1E972F135ACD3687"
+	hide_quest_until_deps_complete: true
+	icon: "chipped:anguished_carved_pumpkin"
+	id: "5F3F02C289CF3BA2"
+	images: [
+		{
+			color: 16718321
+			dependency: "078928DAA8041116"
+			height: 1.2d
+			image: "decorative_blocks:block/bonfire_x_alt"
+			rotation: 0.0d
+			width: 1.4d
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "decorative_blocks:block/bonfire_alt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -3.1892857142857167d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&eДоступен только с 20-го Октября до 12-го Ноября"]
+			hide_until_deps_complete: true
+			id: "2A009494CC293B5B"
+			shape: "hexagon"
+			subtitle: "&cХэллоуинский ивент"
+			tasks: [{
+				advancement: "prominent:halloween_check"
+				criterion: ""
+				id: "5E2F23002B2F4B3B"
+				title: "&ePlay Prominence during the Halloween event"
+				type: "advancement"
+			}]
+			title: "&eЯ чувствую что-то в воздухе..."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B74F20D9FFC44D4"]
+			description: [
+				"&7Чтобы вырезать тыкву, нам сначала понадобится тыква."
+				""
+				"&e- Вороний Гайд по Уничтожению Пугал, Страница 1"
+			]
+			id: "6F84EE0AEF1A3784"
+			rewards: [{
+				id: "3013550C64755383"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "&8[Нажми, чтобы прочитать страницу Гайда]"
+			tasks: [{
+				id: "089D8024F1726C3C"
+				item: "minecraft:pumpkin"
+				title: "Получи Тыкву"
+				type: "item"
+			}]
+			title: "&eПодготовка к Вырезке (Страница 1)"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2A009494CC293B5B"]
+			description: [
+				"&7Пугала вторгались в наш мир на протяжении сотен лет."
+				""
+				"&7Мы хотим, чтобы ты призвал их коварного лидера и победил его. У нас есть очень хорошая награда для тебя, если ты это сделаешь."
+				""
+				"&7Мы дадим тебе нашу книгу, в ней есть все, что мы знаем о пугалах и их лидере, её должно быть достаточно, чтоб ты призвал его и освободил нас от их напасти."
+				""
+				"&7С уважением,"
+				"&7Вороны."
+			]
+			icon: "minecraft:paper"
+			id: "2B74F20D9FFC44D4"
+			rewards: [{
+				auto: "enabled"
+				icon: "minecraft:writable_book"
+				id: "101DBC5BFEBA7FDE"
+				title: "Вороний гайд по уничтожению пугал"
+				type: "custom"
+			}]
+			subtitle: "&8[Нажми для большей информации]"
+			tasks: [{
+				id: "6931FBC9B9D34339"
+				title: "Принять"
+				type: "checkmark"
+			}]
+			title: "&cОхота: &eЛидер Пугало"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F84EE0AEF1A3784"]
+			description: [
+				"&7Теперь у тебя есть тыква, так что давай получим твой инструмент, Ножницы."
+				""
+				"&e- Вороний Гайд по Уничтожению Пугал, Страница 2"
+			]
+			id: "2368213E35BAB69D"
+			rewards: [{
+				id: "59FFCFE5D364B693"
+				type: "xp"
+				xp: 56
+			}]
+			subtitle: "&8[Нажми, чтобы прочитать страницу Гайда]"
+			tasks: [{
+				id: "0EE8DBCFB3154BBA"
+				item: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&eИнструменты (Страница 2)"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2368213E35BAB69D"]
+			description: [
+				"&7После того, как ты получил свои ножницы, положи тыкву на землю и используй ножницы на ней, чтобы вырезать на ней лицо, конечно."
+				""
+				"&e- Вороний Гайд к Уничтожению Пугал, Страница 3"
+			]
+			id: "6CEAFB0EBF711698"
+			rewards: [{
+				id: "1E9B13CFB8B71062"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "&8[Нажми, чтобы прочитать страницу Гайда]"
+			tasks: [{
+				id: "35F58113F2DC9474"
+				item: "minecraft:carved_pumpkin"
+				type: "item"
+			}]
+			title: "&eВырезание! (Страница 3)"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69982837AB51D95A"]
+			description: [
+				"&7Чтобы покреативничать с вырезкой, тебе понадобятся более хорошие инструменты, эти ножницы ели-ели что-то высекают."
+				""
+				"&7Сделай Верстак Ботаника, мы сможем использовать его, чтобы вырезать этот Фонарь Джека по новой, и сделать дизайн получше."
+				""
+				"&e- Вороний Гайд к Уничтожению Пугал, Страница 6"
+			]
+			id: "3B31610F00660E03"
+			subtitle: "&8[Нажми, чтобы прочитать страницу Гайда]"
+			tasks: [{
+				id: "7B80824A90E215D7"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			title: "&eРабота Нелегкая (Страница 6)"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CB0B02DE7105856"]
+			description: [
+				"&7Из того, что мы знаем, эти штуки материализуются из неподвижных структур. Другой вид структуры означает другой вид пугала."
+				""
+				"&7Мы знаем, что их лидер имеет металлический крюк на левой руке, потому что тот идиот, который его построил, потратил весь деревянный забор. Ты вообще можешь себе такое представить?? В любом случае, мы знаем его структуру, но мы не знаем его лица. Тебе придется покреативничать с вырезкой и попробовать все варианты, пока не получится, понимаешь?"
+				""
+				"&e- Вороний Гайд к Уничтожению Пугал, Страница 5"
+			]
+			icon: "minecraft:paper"
+			id: "69982837AB51D95A"
+			subtitle: "&8[Нажми, чтобы прочитать страницу Гайда]"
+			tasks: [{
+				id: "41CF251EA1D8AE9C"
+				title: "Следующая Страница"
+				type: "checkmark"
+			}]
+			title: "&eЧто Мы Знаем(Страница 5)"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CEAFB0EBF711698"]
+			description: [
+				"&7Они смогут придти к жизни, только если в их тыкве будет какой-то свет, так что возьми факел и совмести его со своей вырезанной тыквой, чтобы сделать \"Фонарь Джека\"."
+				""
+				"&e- Вороний Гайд к Уничтожению Пугал, Страница 4"
+			]
+			id: "6CB0B02DE7105856"
+			rewards: [{
+				id: "132F55FD69F45E5B"
+				type: "xp"
+				xp: 67
+			}]
+			subtitle: "&8[Нажми, чтобы прочитать страницу Гайда]"
+			tasks: [{
+				id: "64633DE25FF7C024"
+				item: "minecraft:jack_o_lantern"
+				type: "item"
+			}]
+			title: "&eДа Будет Свет! (Страница 4)"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B31610F00660E03"]
+			description: [
+				"&7Теперь, когда у тебя есть этот верстак, начнем же вырезать!"
+				""
+				"&7Вырежи тот рисунок, который хочешь, попробуй поставить его на структуру, и посмотрим, призовет ли это их лидера."
+				""
+				"&e- Вороний Гайд к Уничтожению Пугал, Страница 7"
+			]
+			id: "015A49544148F653"
+			rewards: [{
+				id: "6E1396ACD8EC0E58"
+				type: "xp"
+				xp: 53
+			}]
+			subtitle: "&8[Нажми, чтобы прочитать страницу Гайда]"
+			tasks: [{
+				id: "3BEAC1491E82917D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "chipped:squished_cute_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:nether_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:kitty_faced_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:overjoyed_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:owo_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:slight_smile_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:smiling_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:suspicious_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:tiny_smug_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:upside_down_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:wide_eyed_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:silly_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:anguished_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:bad_time_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:boo_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:creepy_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:devious_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:end_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:end_purple_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:horrified_jack_o_lantern"
+							}
+						]
+					}
+				}
+				title: "&eВырежи красивенькую"
+				type: "item"
+			}]
+			title: "&eКрасивая Вырезка (Страница 7)"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["015A49544148F653"]
+			description: [
+				"&7Построй такую структуру:"
+				""
+				"{image:prominent:textures/quests/halloween_event/halloween_event_book_7_preview.png width:140 height:150 align:center}"
+				""
+				"&7Потом, попробуй так много вырезанных Фонарей Джека, сколько сможешь, пока не появится этот ублюдок."
+				""
+				"&e- Вороний Гайд к Уничтожению Пугал, Страница 8"
+			]
+			id: "3D69B78F6275C119"
+			rewards: [{
+				advancement: "prominent:carved_up"
+				auto: "enabled"
+				criterion: ""
+				id: "3C400491D666AF72"
+				type: "advancement"
+			}]
+			subtitle: "&8[Нажми, чтобы прочитать страницу Гайда]"
+			tasks: [
+				{
+					id: "64F7BE1E85FCB99E"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5ED4C8292E1CF2B7"
+					item: { Count: 2, id: "minecraft:oak_fence" }
+					type: "item"
+				}
+				{
+					id: "337AEC275737ECA0"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+			]
+			title: "&eПризываем Ублюдка (Страница 8)"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D69B78F6275C119"]
+			description: [
+				"&7Лидер Пугал, \"Сэр Вороний Шрам\", названный так после получения шрама от Ворона."
+				""
+				"&7Он немного трус, он будет убегать от тебя и атаковать на дистанции, призывая нежить, которая будет атаковать тебя."
+			]
+			id: "48438CDCDFEB0FAE"
+			rewards: [{
+				id: "6BD27EF90B8936F1"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				entity: "sbprom:scarecrow"
+				icon: "chipped:devious_jack_o_lantern"
+				id: "0590D18F6093F64C"
+				title: "Победи Сэра Вороньего Шрама"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &e&lСэр Вороний Шрам"
+			x: 7.5d
+			y: -2.1428571428571423d
+		}
+		{
+			dependencies: ["48438CDCDFEB0FAE"]
+			description: [
+				"&7Благодарю, Пламерожденный, за помощь нам в уничтожении этого ублюдка хотя бы один раз."
+				""
+				"&7В качестве награды, мы дадим тебе это оружие, которое мы украли у него пару лет назад чистой удачей. Он невероятно опасен с ним, так что тебе повезло, что не пришлось драться с ним таким."
+				""
+				"&eМы не будем сьедать твой огород,"
+				"&e- Вороны"
+			]
+			icon: "minecraft:paper"
+			id: "078928DAA8041116"
+			rewards: [{
+				id: "5999BBF92AEB1882"
+				item: {
+					Count: 1
+					id: "prominent:scarred_night"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "760397317E5B8523"
+				title: "Продолжить"
+				type: "checkmark"
+			}]
+			title: "&eПисьмо от Ворон"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["078928DAA8041116"]
+			description: [
+				"&7\"Что случится, если я отдам его оружие обратно?\" Ты подумал..."
+				""
+				"&dЭссенция Сэра Вороньего Шрама, содержащаяся в Пустотных Песочных Часах, содержит его отражение с его оружием, Израненной Ночью."
+				""
+				"&cЗакончи кампанию Вторжения Пустоты и разблокируй Мифических Боссов, чтобы сразиться с ним. Доступно только с 20-го Октября до 14-го Ноября."
+			]
+			id: "35A0608355D85770"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "prominent:xmog_pumpmourne"
+					tag: {
+						soulboundTo: [I;
+							-509841217
+							1799570245
+							-1395779439
+							-155772242
+						]
+					}
+				}
+				id: "6BBA203A08647F1C"
+				title: "&6Внешность \"Тыквоскорбь\" (20% Шанс)"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&8[Нажми, чтобы прочитать лор и подсказки]"
+			tasks: [{
+				entity: "sbprom:scarecrow_mythic"
+				icon: "chipped:devious_jack_o_lantern"
+				id: "4F9655C7CC6973E0"
+				title: "Победи Мифического Сэра Вороньего Шрама"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &d&lСэр Вороний Шрам (Мифический)"
+			x: 5.0d
+			y: -4.5d
+		}
+	]
+	title: " &cИзраненная Ночь"
+}

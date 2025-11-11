@@ -1,9 +1,9 @@
 [
   {
-    "name": "Prominent-GLOBAL-MC1.20.1-3.9.7.jar extracted",
+    "name": "Prominent-GLOBAL-MC1.20.1-3.9.4.jar extracted",
     "desc": "Translation of the mod especially for https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization",
-    "mods": "Prominent-GLOBAL-MC1.20.1-3.9.7",
-    "authors": "d0ukesh1",
+    "mods": "Prominent-GLOBAL-MC1.20.1-3.9.4",
+    "authors": "d0ukesh1, Synessful",
     "dynamic": false,
     "i18n": false
   },
@@ -1457,6 +1457,32 @@
       {
         "key": "a familiar voice whispers",
         "value": "знакомый голос шепчет"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.TabRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Eternal Artifacts",
+        "value": "Вечные Артефакты"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.TabRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Seasonal Items",
+        "value": "Сезонные Предметы"
       }
     ]
   }

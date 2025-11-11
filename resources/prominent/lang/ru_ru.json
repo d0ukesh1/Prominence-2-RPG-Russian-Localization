@@ -170,7 +170,7 @@
     "item.prominent.ability.ghaj.dagger_mastery.desc1": "Г'адж наполняет силой кинжал в вашей свободной руке, открывая новую",
     "item.prominent.ability.ghaj.dagger_mastery.desc2": "комбинацию из 6 атак, которые наносят на 50% больше урона.",
     "dialogue.ghaj.whisper": "Г'адж шепчет тебе: ",
-    "dialogue.ghaj.1": "Ты мой, корми меня, наделяй силой",
+    "dialogue.ghaj.1": "Ты мой, корми меня, наделяй меня силой",
     "dialogue.ghaj.2": "Ты ничто без меня, ты слаб",
     "dialogue.ghaj.3": "Убей их всех, устрой мне пир",
     "dialogue.ghaj.4": "Приведи меня к Н'уку",
@@ -283,10 +283,7 @@
     "attribute.prominent.mythic_level": "Мифический уровень",
     "attribute.prominent.artifact_damage": "Урон Артефакта",
     "attribute.prominent.titan_damage": "Урон Хватки Титана",
-    "attribute.prominent.ekavar_phase": "Фаза экавара",
-    "prominent.artifact_damage": "Урон артефакта",
-    "prominent.artifact_phase": "Фаза артефакта",
-    "prominent.titan_damage": "Урон Хватки титана",
+    "attribute.prominent.artifact_phase": "Фаза Артефакта",
 
     "block.prominent.volcanic_cinderstone": "Вулканический Пепельный Камень",
 
@@ -303,6 +300,7 @@
     "stat.prominent.hck_frostmourne": "Мифические Испытания, выполненные с Ледяной Скорбью",
     "stat.prominent.hck_azhar": "Мифические Испытания, выполненные с A'зар",
     "stat.prominent.hck_fyralath": "Мифические Испытания, выполненные с Фир'Алат",
+    "stat.prominent.hck_ghaj": "Мифические Испытания, выполненные с Г'адж",
 
     "item.prominent.xmog_ancient_royal_great_sword": "Иллюзия Древнего Королевского Двуручного Меча",
     "item.prominent.xmog_aquatic_sacred_blade": "Иллюзия Водного Священного Клинка",
@@ -343,5 +341,18 @@
     "item.prominent.xmog_unholy_scythe": "Иллюзия Нечестивой Косы",
     "item.prominent.xmog_void_touched_blade": "Иллюзия Клинка, Коснувшегося Бездны",
     "item.prominent.xmog_void_touched_saber": "Иллюзия Сабли, Коснувшейся Бездны",
-    "item.prominent.xmog_void_touched_scythe": "Иллюзия Косы, Коснувшейся Бездны"
+    "item.prominent.xmog_void_touched_scythe": "Иллюзия Косы, Коснувшейся Бездны",
+    "item.prominent.xmog_pumpmourne": "Иллюзия Тыквоскорби, Клинка Одержимой Тыквы",
+
+    "item.prominent.flameborn_stone": "Камень Пламерожденного",
+    "item.prominent.flameborn_stone.tooltip.1": "Создан Вечным существом Созидания, С'келлаком. Имеет вечную связь с Расплавленным Городом Вааз.",
+    "item.prominent.flameborn_stone.tooltip.2": "Используйте для телепорта в Расплавленный Город Вааз.",
+
+    "spell.prominent.flameborn_call.name": "Зов Пламерожденного",
+    "spell.prominent.flameborn_call.description": "Используйте Камень Пламерожденного, чтобы переместиться в Расплавленный Город Вааз.",
+
+    "biome.prominent.city_of_vaaz": "Вааз, Расплавленный Город",
+
+    "item.scarred_night.tooltip": "Фрагмент чистой темноты, усиленный тысячами собранных душ.",
+    "item.prominent.scarred_night": "Израненная Ночь"
 }
