@@ -13,18 +13,17 @@
 			id: "7AF048C0042EFAE9"
 			rewards: [
 				{
-					icon: "vitalize:experience_cubed"
-					id: "019BA3ED0EBFC96A"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
 					id: "72A0C0511EB83457"
 					item: "minecraft:iron_block"
 					type: "item"
 				}
+				{
+					id: "6C3F728E8E3FECFF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
 			]
-			subtitle: "&bКомпрессор&r это машина позволяющая &aслиткам&r быть сжатыми в &eпластины&r.&r"
+			subtitle: "&bКомпрессор&r это машина, позволяющая сжимать &aслитки&r в &eпластины&r.&r"
 			tasks: [{
 				id: "0DC04860F16EAD54"
 				item: "ad_astra:compressor"
@@ -50,7 +49,12 @@
 						Count: 1
 						id: "ad_astra:oxygen_tank"
 						tag: {
-							BotariumData: { }
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 40500L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
 						}
 					}
 					type: "item"
@@ -72,19 +76,19 @@
 				"3A7E9B0ECF32A32B"
 				"7185D67A20B21FFB"
 			]
+			description: ["The basic Tier 1 Rocket that uses 4x Rocket fin, 6x Blocks of Steel, 2x Steel Tank, 1x Rocket Nose Cone and 1x Steel Engine"]
 			id: "199092092D21485E"
 			rewards: [
-				{
-					icon: "minecraft:experience_bottle"
-					id: "10D39C505708DB50"
-					type: "xp_levels"
-					xp_levels: 5
-				}
 				{
 					count: 2
 					id: "01F591407F77D597"
 					item: "ad_astra:steel_block"
 					type: "item"
+				}
+				{
+					id: "1DEE880B5CD30C2B"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "gear"
@@ -218,9 +222,9 @@
 			size: 1.5d
 			subtitle: "Щелк!"
 			tasks: [{
-				id: "5FA1A63B000F595E"
-				title: "Собери различные стальные блоки"
-				type: "checkmark"
+				dimension: "ad_astra:earth_orbit"
+				id: "0F009658EE91E59B"
+				type: "dimension"
 			}]
 			title: "&lМиссия Космической Станции"
 			x: 0.0d
@@ -240,7 +244,7 @@
 				item: "ad_astra:earth_globe"
 				type: "item"
 			}]
-			title: "&lСоберите Глобус Земли"
+			title: "&lСобери Глобус Земли"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -249,18 +253,17 @@
 			id: "670C6423F69F1C9B"
 			rewards: [
 				{
-					icon: "minecraft:experience_bottle"
-					id: "1F6C26BBAB9CFC9D"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "07F8ED2F1DEB90BC"
 					item: "minecraft:iron_block"
 					type: "item"
 				}
+				{
+					id: "2F34A8E99E4ACEC0"
+					type: "xp"
+					xp: 100
+				}
 			]
-			subtitle: "&bУгольный Генератор&r позволяет раннюю генерацию энергии. Он сжигает &fуголь&r чтобы создавать энергию.&r"
+			subtitle: "&bУгольный Генератор&r позволяет раннюю генерацию энергии. Он сжигает &fуголь&r, чтобы создавать энергию.&r"
 			tasks: [{
 				id: "28DC506F6D2A305D"
 				item: "ad_astra:coal_generator"
@@ -281,10 +284,9 @@
 					type: "item"
 				}
 				{
-					icon: "vitalize:experience_cubed"
-					id: "4A6B4B9465E776D5"
-					type: "xp_levels"
-					xp_levels: 3
+					id: "4C7F1C10135DDCCB"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -308,10 +310,9 @@
 					type: "item"
 				}
 				{
-					icon: "minecraft:experience_bottle"
-					id: "31AC27B47F3BEA4E"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "0138A95E955B8102"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -358,19 +359,31 @@
 		}
 		{
 			dependencies: ["0729E0E98B1F4B93"]
+			description: ["Тебе понадобится компрессор, механический пресс или другой способ получать пластины. Компрессор - это легчайший способ пойти вперед, ведь из-за недавних изменений молоты были удалены."]
 			id: "20983C3D23B612F3"
-			tasks: [{
-				id: "2EE2EF27B579AAC7"
-				item: {
-					Count: 1
-					id: "ad_astra:hammer"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "012704CE4A21EDE5"
+					type: "xp"
+					xp: 100
 				}
+				{
+					id: "1EEC5357EB7762D0"
+					item: "techreborn:low_voltage_su"
+					type: "item"
+				}
+				{
+					id: "5ED1E5125E91104B"
+					item: "techreborn:solid_fuel_generator"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BC290667A8E6F86"
+				item: "techreborn:compressor"
 				type: "item"
 			}]
-			title: "Создай &lМолот"
+			title: "Создай &lКомпрессор"
 			x: 3.0d
 			y: 2.0d
 		}
@@ -398,18 +411,37 @@
 				"670C6423F69F1C9B"
 				"7AF048C0042EFAE9"
 			]
+			description: [
+				"&7&4Сталь&r - это важнейший компонент для многих Технических модов. С тех пор как Ad Astra убрала свой легкий рецепт Стали, стало сложнее получить большие её количества. Ты можешь получить Сталь многими способами, один затратней другого. Вот список большинства рецептов Стали."
+				""
+				"&7&5Твердотельный Настойник&r. Все, что тебе понадобится - это дробитель (лучший будет из Tech Reborn!), чтобы сделать угольную и железную пыль, а потом положить их в Твердотельный Настойник. После этого тебе понадобится переплавить Стальную Пыль в печи."
+				""
+				"&7&5Кузница Сплавов&r. Это мультиблок, если тебе нужна помощь, напиши в строке поиска !alloyforge. Тебе понадобится хотя бы 1-ый Уровень, добавь Железо и Уголь в неё. Необработанное Железо тоже работает."
+				""
+				"&7&5Промышленная Доменная Печь&r. Для этого понадобится целый мультиблок, который можно увидеть нажатием \"H\" для операций. Просто добавь Очищенное Железо и 2 Угольной Пыли или 2 Карбоновой Пыли в машину."
+				""
+				"&7Это три самых частых и легких способов получения Стали. Пути Modern Industrializations слишком сложны для большинства игроков, но их тоже можно просмотреть в EMI."
+			]
 			id: "332F08FF38BB4259"
-			rewards: [{
-				id: "71D2342FEC2D6092"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "71D2342FEC2D6092"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "6AF7F109FB024637"
+					item: "techreborn:steel_storage_block"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
-			subtitle: "&bСтальной Слиток&r это базовый компонент создания в &aAd Astra&r. В сопряжении со &bСтальной Пластиной&r, он в основном используется в создании &bРакеты 1 Уровня&r и стальных строящих блоков, также как и остальных предметов.&r"
+			subtitle: "&bСтальной Слиток&r - это базовый компонент создания в &aAd Astra&r. Вместе со &bСтальной Пластиной&r, он в основном используется для создания &bРакеты 1 Уровня&r и стальных блоков, также как и других предметов.&r"
 			tasks: [{
-				id: "14826373FD5B01E9"
-				item: "ad_astra:steel_ingot"
+				id: "0B1EB454345B160E"
+				item: "techreborn:steel_ingot"
 				type: "item"
 			}]
 			title: "Получи &8&lСталь"
@@ -437,14 +469,24 @@
 		{
 			dependencies: ["0FC298D30E5ECCED"]
 			id: "3DA60964C329C153"
+			rewards: [{
+				id: "35C60CF140150771"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				count: 2L
-				id: "7F0F6434C64A3BDA"
+				id: "7F8B225E61C23651"
 				item: {
 					Count: 1
-					id: "ad_astra:oxygen_tank"
+					id: "ad_astra_giselle_addon:oxygen_can"
 					tag: {
-						BotariumData: { }
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 40500L
+								Fluid: "ad_astra:oxygen"
+							}]
+						}
 					}
 				}
 				type: "item"
@@ -467,16 +509,15 @@
 			id: "4368A73BA98E532F"
 			rewards: [
 				{
-					icon: "minecraft:experience_bottle"
-					id: "6F5B0D235B3AF0EC"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					count: 5
 					id: "6845160249D811A8"
 					item: "ad_astra:steel_block"
 					type: "item"
+				}
+				{
+					id: "28879201505E28C8"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "circle"
@@ -570,6 +611,53 @@
 			title: "Получи дешовую пластину"
 			x: 1.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["2C786A12D36166AF"]
+			description: ["Ты этим никого не убьешь, но он точно поможет тебе передвигаться в космосе, пока у тебя не появятся другие виды полёта."]
+			id: "17AB14E88B57FE9B"
+			rewards: [
+				{
+					id: "7DED8BFC93EAAE32"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "5747E913590E5B32"
+					item: "ad_astra:oxygen_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "НЕ СТРЕЛЯЙ"
+			tasks: [{
+				id: "6911A41F079A2058"
+				item: {
+					Count: 1
+					id: "ad_astra:zip_gun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D952DC80615D842"]
+			description: ["В космосе тебя никто не услышит."]
+			id: "651D550383356CBF"
+			rewards: [{
+				id: "665C7A2D7A75191F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "76127D6F7BF22EC8"
+				item: "ad_astra:radio"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
 		}
 	]
 	title: " &2Земля"

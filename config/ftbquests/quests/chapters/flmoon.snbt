@@ -179,18 +179,6 @@
 			id: "47DE7E756DA96CD7"
 			rewards: [
 				{
-					count: 2
-					id: "2258974518D71AD6"
-					item: {
-						Count: 1
-						id: "ad_astra:oxygen_tank"
-						tag: {
-							BotariumData: { }
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "24F67973D9B04E0E"
 					type: "xp_levels"
 					xp_levels: 3
@@ -199,6 +187,23 @@
 					count: 5
 					id: "5A27B4CEE745CBD7"
 					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4120E3FE464C9CD4"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 40500L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
+						}
+					}
 					type: "item"
 				}
 			]
@@ -235,10 +240,9 @@
 			icon: "minecraft:spyglass"
 			id: "722FA069ADAACB56"
 			rewards: [{
-				count: 2
-				id: "3CE4C8A59D630889"
-				item: "create:experience_nugget"
-				type: "item"
+				id: "3F8283E007EE3D5C"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			shape: "circle"
 			size: 1.5d
@@ -256,16 +260,15 @@
 			id: "4C5636DFD629FD1A"
 			rewards: [
 				{
-					icon: "vitalize:experience_cubed"
-					id: "5D74DF1945F5103F"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					count: 5
 					id: "3F457EB64A9741EF"
 					item: "ad_astra:steel_block"
 					type: "item"
+				}
+				{
+					id: "0E69F586322AED34"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "gear"
@@ -339,12 +342,6 @@
 			id: "326E670F51543705"
 			rewards: [
 				{
-					icon: "vitalize:experience_cubed"
-					id: "06116D26C659ADEF"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					count: 5
 					id: "08B0BE4C1A6FDB45"
 					item: "ad_astra:desh_ingot"
@@ -354,6 +351,11 @@
 					id: "79E887F9409C409F"
 					type: "xp_levels"
 					xp_levels: 3
+				}
+				{
+					id: "197CA51120C042E4"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "circle"

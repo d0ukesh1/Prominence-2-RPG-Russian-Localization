@@ -117,7 +117,7 @@
 				item: "ad_astra:oxygen_sensor"
 				type: "item"
 			}]
-			title: "Создай &cКислородный Датчик`"
+			title: "Создай &cКислородный Датчик"
 			x: -1.0d
 			y: 4.5d
 		}

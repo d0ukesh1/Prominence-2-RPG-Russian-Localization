@@ -13,16 +13,15 @@
 			id: "03B338AC5277FC20"
 			rewards: [
 				{
-					icon: "vitalize:experience_cubed"
-					id: "4F8B321BD010DB05"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					count: 5
 					id: "33470D48BBAE66A9"
 					item: "ad_astra:desh_ingot"
 					type: "item"
+				}
+				{
+					id: "3F58C09E7E68720F"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "gear"
@@ -219,20 +218,25 @@
 			id: "0C9431C254E91312"
 			rewards: [
 				{
-					id: "3F99A2BCD94AA60D"
-					item: {
-						Count: 1
-						id: "ad_astra:oxygen_tank"
-						tag: {
-							BotariumData: { }
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "677E5BF3E89C493A"
 					type: "xp_levels"
 					xp_levels: 3
+				}
+				{
+					id: "208774F3545548B3"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 40500L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
+						}
+					}
+					type: "item"
 				}
 			]
 			subtitle: "&6Кислородный датчик&r - это машина, которая создает &cредстоуновый сигнал&r, когда обнаруживает кислород."
@@ -355,11 +359,9 @@
 				count: 4L
 				id: "6535700B823D9EC3"
 				item: {
-					Count: 1
-					id: "ad_astra:oxygen_tank"
-					tag: {
-						BotariumData: { }
-					}
+					Count: 4
+					id: "ad_astra_giselle_addon:oxygen_can"
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -379,10 +381,8 @@
 					id: "3238EE7345D1A510"
 					item: {
 						Count: 1
-						id: "ad_astra:oxygen_tank"
-						tag: {
-							BotariumData: { }
-						}
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: { }
 					}
 					type: "item"
 				}
@@ -430,15 +430,14 @@
 			id: "4D812F63717BFA30"
 			rewards: [
 				{
-					icon: "vitalize:experience_cubed"
-					id: "3CF6E615B84D85DE"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					id: "54FCD67F279F82FF"
 					item: "ad_astra:oxygen_bucket"
 					type: "item"
+				}
+				{
+					id: "2BEA3CBCFF59DC4C"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "circle"
