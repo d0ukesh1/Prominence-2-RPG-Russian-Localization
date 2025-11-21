@@ -5,7 +5,7 @@
 # Prominence 2 RPG (Russian Localization)
 ## Информация
 
-Русификация модпака **Prominence 2 RPG: Hasurian Era**.
+Русификация модпака **Prominence 2 RPG: Hasturian Era**.
 
 Оригинал модпака можно найти по [ссылке](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg).
 
