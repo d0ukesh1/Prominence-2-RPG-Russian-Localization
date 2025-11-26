@@ -4,22 +4,321 @@
 	filename: "simply_swords"
 	group: "555B69C1AF8C1C7F"
 	id: "75316E8D631F174C"
-	images: [{
-		height: 1.5d
-		image: "simplyswords:item/twisted_blade"
-		rotation: 0.0d
-		width: 1.5d
-		x: -10.0d
-		y: -13.0d
-	}]
+	images: [
+		{
+			dependency: "07DAFC04179A4DA0"
+			height: 1.5d
+			image: "simplyswords:item/twisted_blade"
+			rotation: 0.0d
+			width: 1.5d
+			x: -23.0d
+			y: -5.0d
+		}
+		{
+			dependency: "547DCAE28B3968ED"
+			height: 3.0d
+			image: "simplyswords:item/livyatan"
+			rotation: 0.0d
+			width: 3.0d
+			x: -13.5d
+			y: -15.0d
+		}
+		{
+			dependency: "306AAF14EBD13866"
+			height: 2.0d
+			image: "simplyswords:item/soulpyre"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			dependency: "03E7D9E3CD29B32F"
+			height: 1.0d
+			image: "simplyswords:item/ribboncleaver_anim_01"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			dependency: "771507AA08194DE6"
+			height: 1.0d
+			image: "simplyswords:item/tampered_remnant_outer"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependency: "5209EC117C51D5D5"
+			height: 2.0d
+			image: "simplyswords:item/watching_warglaive"
+			rotation: 45.0d
+			width: 2.0d
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependency: "771507AA08194DE6"
+			height: 1.0d
+			image: "simplyswords:item/runic_tablet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -9.5d
+		}
+		{
+			dependency: "1C6075524C120092"
+			height: 3.0d
+			image: "simplyswords:item/lichblade"
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.0d
+			y: -18.0d
+		}
+		{
+			dependency: "6A8665FBC017A00F"
+			height: 2.0d
+			image: "decorative_blocks:block/bonfire_x_alt"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependency: "6A8665FBC017A00F"
+			height: 2.0d
+			image: "graveyard:item/fire_brazier_item"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependency: "5AC50DF4F52A548F"
+			height: 1.0d
+			image: "simplyskills:icons/alternate_reduced/rogue_bladestorm"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependency: "5209EC117C51D5D5"
+			height: 2.0d
+			image: "minecraft:item/ender_eye"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependency: "5209EC117C51D5D5"
+			height: 2.0d
+			image: "minecraft:item/ender_eye"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependency: "0A5F7ABD54251511"
+			height: 1.0d
+			image: "eldritch_end:textures/mob_effect/corruption.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependency: "547DCAE28B3968ED"
+			height: 2.0d
+			image: "simplyswords:item/icewhisper"
+			rotation: 45.0d
+			width: 2.0d
+			x: -16.5d
+			y: -13.5d
+		}
+		{
+			dependency: "18C4F3367A04B882"
+			height: 1.5d
+			image: "simplyswords:item/tempest_anim_01"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -15.0d
+		}
+		{
+			dependency: "6A8665FBC017A00F"
+			height: 2.0d
+			image: "simplyswords:item/hearthflame"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependency: "3940465EE60C2554"
+			height: 3.0d
+			image: "simplyswords:item/stormbringer"
+			rotation: 45.0d
+			width: 3.0d
+			x: -17.5d
+			y: -11.0d
+		}
+		{
+			dependency: "10710081934A30C6"
+			height: 2.0d
+			image: "simplyswords:item/unique_longsword_tainted_whole_32x32"
+			rotation: 0.0d
+			width: 2.0d
+			x: -22.0d
+			y: 3.0d
+		}
+		{
+			dependency: "306AAF14EBD13866"
+			height: 2.0d
+			image: "simplyswords:item/soulpyre_anim_01"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			dependency: "18C4F3367A04B882"
+			height: 1.5d
+			image: "simplyswords:item/tempest_anim_01_e"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -15.0d
+		}
+		{
+			dependency: "3940465EE60C2554"
+			height: 2.0d
+			image: "simplyswords:item/storms_edge"
+			rotation: 45.0d
+			width: 2.0d
+			x: -19.0d
+			y: -8.0d
+		}
+		{
+			dependency: "3940465EE60C2554"
+			height: 2.0d
+			image: "simplyswords:item/storms_edge_layer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -19.0d
+			y: -8.0d
+		}
+		{
+			dependency: "730BC7042CFC5627"
+			height: 2.0d
+			image: "simplyswords:item/enigma_base"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			dependency: "46EE656C1F9E5CD5"
+			height: 2.0d
+			image: "simplyswords:item/magiblade_base"
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependency: "46EE656C1F9E5CD5"
+			height: 2.0d
+			image: "simplyswords:item/magiblade_lights"
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependency: "372B6EB1F66455B8"
+			height: 3.0d
+			image: "simplyswords:item/magiscythe"
+			rotation: 45.0d
+			width: 3.0d
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependency: "2B21952A37C6B9A9"
+			height: 2.0d
+			image: "simplyswords:item/decaying_relic"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.0d
+			y: -9.5d
+		}
+		{
+			dependency: "03E7D9E3CD29B32F"
+			height: 2.0d
+			image: "simplyswords:item/sword_on_a_stick"
+			rotation: 0.0d
+			width: 2.0d
+			x: -16.5d
+			y: 1.5d
+		}
+		{
+			dependency: "1E65DAC37F8D34F9"
+			height: 3.0d
+			image: "simplyswords:item/unique_longsword_holy"
+			rotation: 45.0d
+			width: 3.0d
+			x: -25.0d
+			y: -1.5d
+		}
+		{
+			dependency: "556C78463DB00269"
+			height: 2.0d
+			image: "simplyswords:item/icewhisper_layer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -16.5d
+			y: -13.5d
+		}
+		{
+			dependency: "5B8F694F41090641"
+			height: 3.0d
+			image: "simplyswords:item/bramblethorn"
+			rotation: 0.0d
+			width: 3.0d
+			x: -23.0d
+			y: -3.0d
+		}
+		{
+			dependency: "1E65DAC37F8D34F9"
+			height: 1.7d
+			image: "simplyswords:item/bramblethorn_layer"
+			rotation: 0.0d
+			width: 1.7d
+			x: -23.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -30.5d
+			y: 34.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"&6&lSimply Swords&r предлагает &a&l15&r типов оружия для игрока."
+				"&6&lSimply Swords&r &7предлагает более &a&l15&r &7типов оружия для игрока."
 				""
-				"Он также имеет уникальной набор особенностей, &b&n&lРунических сил&r, что могут быть даны оружиями через &n&bячейки&r!"
+				"&7Также он имеет уникальный набор свойств &b&n&lРунических Сил&r, &7которыми могут быть наделены оружия с помощью &n&bячеек&r!"
 			]
 			icon: {
 				Count: 1
@@ -49,29 +348,23 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Один из многих ячеек!"
-			tasks: [
-				{
-					id: "6461B5E43F7DF63E"
-					title: "&d&lSimply Swords!"
-					type: "checkmark"
-				}
-				{
-					id: "6DB4A88379161C44"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
+			subtitle: "Одна из многих ячеек!"
+			tasks: [{
+				id: "6461B5E43F7DF63E"
+				title: "&d&lПросто Мечи!"
+				type: "checkmark"
+			}]
 			x: -10.0d
-			y: 2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["574677AD427E33FB"]
 			description: [
-				"&c&lУсиленные Остатки&r создаются переплавлением уникальных оружий."
+				"&c&lУсиленные Остатки&r &7создаются переплавкой уникальных оружий."
 				""
-				"Они используются в созданиии &9&lРунических самоцветов&r, и &6&lАдских самоцветов&r."
+				"&7Они используются в создании &9&lРунических Самоцветов&r, &7и &6&lАдских Самоцветов&r."
 			]
+			hide_until_deps_complete: true
 			id: "5AA2A1E358A18B4E"
 			rewards: [
 				{
@@ -85,28 +378,30 @@
 					xp_levels: 5
 				}
 				{
-					count: 4
-					id: "3AD57D6DAA2392B8"
-					item: "minecraft:golden_apple"
+					count: 14
+					id: "6D9E42997C065579"
+					item: "minecells:health_flask"
 					type: "item"
 				}
 			]
-			subtitle: "Создание этого настоящая боль..."
+			shape: "hexagon"
+			subtitle: "Боль при создании..."
 			tasks: [{
 				id: "5DF612576542C997"
 				item: "simplyswords:empowered_remnant"
 				type: "item"
 			}]
 			x: -10.0d
-			y: -1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
 			description: [
-				"Для создания, скомбинируй &bРуническую табличку&r и &cУсиленный остаток&r столе кузнеца."
+				"&7Чтобы сделать его, соедини &bРуническую Табличку&r &7с &cУсиленным Остатком&r &7в Столе Кузнеца."
 				""
-				"Нажми чтобы узнать какая сила тебе попалась."
+				"&7Нажми, чтобы понять, какая способность тебе выпала."
 			]
+			hide_until_deps_complete: true
 			id: "3E5207641E8653DC"
 			rewards: [
 				{
@@ -126,7 +421,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Создан из &klol&r"
+			subtitle: "Созданный из &klol&r"
 			tasks: [{
 				id: "5C78E6FA3E4F93CB"
 				item: {
@@ -136,16 +431,17 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: -3.0d
+			x: -13.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
 			description: [
-				"Для создания соедини &cУсиленный Остаток&r и &6Незеритовый слиток&r в столе кузнеца."
+				"&7Для того, чтобы сделать его, соедини &cУсиленный Остаток&r &7с &6Незеритовым Слитком&r &7в Столе Кузнеца."
 				""
-				"Нажми чтобы узнать какая сила тебе попалась."
+				"&7Нажми, чтобы понять, какая способность тебе выпала."
 			]
+			hide_until_deps_complete: true
 			id: "47EBDA6516061205"
 			rewards: [
 				{
@@ -165,7 +461,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Создан из пепла."
+			subtitle: "Созданный из Пепла."
 			tasks: [{
 				id: "1F673D38D2BBDA24"
 				item: {
@@ -175,19 +471,24 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: -3.0d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0F426527B63F854D"]
-			description: ["Это твой первый шаг в &bизучении ячеек&r и &9рунических сил&r!"]
+			description: [
+				"&7Это будет твой первый шаг в &bоткрытии ячеек&r &7и &9рунических сил&r!"
+				""
+				"&7Эти оружия находятся во многих местах. С достаточной удачей ты, может, уже и нашел одно такое. Легенды твердят, что Визер и Джин, Эндер Дракон, могут иметь их. Некоторые другие сильные враги также могут их иметь с прошлых встреч с Пламерожденными."
+			]
+			hide_until_deps_complete: true
 			id: "574677AD427E33FB"
 			rewards: [{
 				id: "4614B78F16F62367"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "И впрям уникальное."
+			subtitle: "Действительно Уникальное."
 			tasks: [{
 				id: "0D8720163BD20211"
 				item: {
@@ -201,256 +502,68 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"47EBDA6516061205"
 				"3E5207641E8653DC"
 			]
-			description: [""]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7Это, конечно, та ещё задача. Множество таких оружий будут необходимы для твоих последующих Битв. Манускрипты очень обширны, но ты пока что не узнаешь все имена."
+				""
+				""
+				"Ты можешь найти эти оружия разными путями. После пары вычислений из старой книги, ты высчитываешь следующие Шансы:"
+				"&0Визер 20%&r"
+				"&1Эндер Дракон 35%&r"
+				"&7Ночной Лич 30%&r"
+				"&6Рукавица Ада 25%&r"
+				"&8Обсидилит 40%&r"
+				"&1Магус 27%&r"
+				"&dКонъюктивиус 15%&r"
+				"&4Разлагающийся Король 15%&r"
+				"&5Нуль 20%&r"
+			]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "simplyswords:empowered_remnant"
 			id: "771507AA08194DE6"
 			rewards: [
-				{
-					count: 5
-					id: "6D591FC77216444F"
-					item: "minecraft:golden_apple"
-					type: "item"
-				}
 				{
 					id: "7DB2BBD0F8B74E53"
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					count: 16
+					id: "0984AA8BA3E05436"
+					item: "minecells:health_flask"
+					type: "item"
+				}
 			]
-			subtitle: "Собери оставшиеся Оружия!"
+			shape: "hexagon"
+			subtitle: "Собери все остальные диковинки!"
 			tasks: [{
 				id: "673BEC88D5083E14"
-				title: "Собери их всех!"
+				title: "Собери Их Все!"
 				type: "checkmark"
 			}]
-			title: "&l&bРунический перезаряд..."
+			title: "&l&bРуническая Перегрузка..."
 			x: -10.0d
 			y: -6.5d
 		}
 		{
-			dependencies: ["771507AA08194DE6"]
-			id: "5B27AA1CCE537327"
-			rewards: [
-				{
-					count: 3
-					id: "453DD074D7E9068B"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "29BE710AE7221493"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-				{
-					id: "45A8A5308D96050F"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "4084E23C5A3D5F45"
-					item: {
-						Count: 1
-						id: "minecraft:splash_potion"
-						tag: {
-							Potion: "minecraft:extended_fire_resistance"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Горячо горя."
-			tasks: [
-				{
-					id: "25E1716F6BED844C"
-					item: {
-						Count: 1
-						id: "simplyswords:brimstone_claymore"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "500FFB155670A2FF"
-					item: {
-						Count: 1
-						id: "simplyswords:emberblade"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "41D22B752B03E087"
-					item: {
-						Count: 1
-						id: "simplyswords:molten_edge"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&6&n&lГорящие глубины..."
-			x: -11.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["771507AA08194DE6"]
-			id: "0AD5B94945CAFEA5"
-			rewards: [
-				{
-					count: 4
-					id: "515015C4CAFCC8AC"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "74309BC4878251AA"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-				{
-					id: "191E898B3CC7B7CA"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			subtitle: "Не задремай!"
-			tasks: [
-				{
-					id: "40DF72334515BC94"
-					item: {
-						Count: 1
-						id: "simplyswords:watcher_claymore"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "686651C9E831A57C"
-					item: {
-						Count: 1
-						id: "simplyswords:watching_warglaive"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "417154DBE628ABFB"
-					item: {
-						Count: 1
-						id: "simplyswords:soulrender"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7F660EA57A5763F5"
-					item: {
-						Count: 1
-						id: "simplyswords:soulstealer"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&n&b&lДушепарад!"
-			x: -8.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["771507AA08194DE6"]
-			id: "498F2AE0D31869F5"
-			rewards: [
-				{
-					count: 3
-					id: "6EDDBA000BF169D6"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6132DBF8560F08F4"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-				{
-					id: "078C810D710BC5A9"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "Остр и холоден при прикосновении!"
-			tasks: [
-				{
-					id: "160CA89905A2A539"
-					item: {
-						Count: 1
-						id: "simplyswords:frostfall"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "68AC2EDC4090A9EC"
-					item: {
-						Count: 1
-						id: "simplyswords:icewhisper"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "515E3D929FD2B507"
-					item: {
-						Count: 1
-						id: "simplyswords:arcanethyst"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&d&n&lКристалитовый Толчок"
-			x: -11.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["771507AA08194DE6"]
+			dependencies: ["07DAFC04179A4DA0"]
+			description: ["&7Что ты выберешь? Пожалеешь ли ты о своих решениях?"]
 			id: "1A59D35015E0BB3F"
 			rewards: [{
 				id: "60CB3191CAB85C48"
 				item: "simplyswords:empowered_remnant"
 				type: "item"
 			}]
-			subtitle: "Спящая Сила дремлет по ту сторону..."
+			subtitle: "Дремлющая Сила Скрыта Внутри..."
 			tasks: [{
 				id: "0F8DD51E27AD3B4A"
 				item: {
@@ -462,11 +575,13 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -8.5d
+			x: -20.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1A59D35015E0BB3F"]
+			description: ["&7Только посмотри на свою праведность. Если б они только могли увидеть тебя сейчас."]
+			hide_until_deps_complete: true
 			id: "1E65DAC37F8D34F9"
 			rewards: [
 				{
@@ -486,7 +601,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Очень мощный!"
+			subtitle: "Всемогущий!"
 			tasks: [{
 				id: "70287F102D2FE077"
 				item: {
@@ -498,11 +613,13 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: -9.5d
+			x: -22.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1A59D35015E0BB3F"]
+			description: ["&7Предрекали, что ты уничтожишь их, а не примкнешь к ним!"]
+			hide_until_deps_complete: true
 			id: "10710081934A30C6"
 			rewards: [
 				{
@@ -521,7 +638,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Испорчен и извращен."
+			subtitle: "Извращенный и Испорченный."
 			tasks: [{
 				id: "7B79D2A0339B4CFC"
 				item: {
@@ -533,11 +650,13 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: -9.5d
+			x: -20.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1E65DAC37F8D34F9"]
+			description: ["&7Там, где есть Свет, есть и Тьма. Ты уверен, что справишься с Испытанием?"]
+			hide_until_deps_complete: true
 			id: "3B50D775CE678833"
 			rewards: [
 				{
@@ -573,11 +692,13 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: -11.0d
+			x: -23.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["10710081934A30C6"]
+			description: ["&7Его больше нет. Я то, что от него осталось."]
+			hide_until_deps_complete: true
 			id: "3B253027B3A56099"
 			rewards: [
 				{
@@ -602,7 +723,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Смерть Ожидает."
+			subtitle: "Смерть ожидает."
 			tasks: [{
 				id: "31C29D8D28776CF2"
 				item: {
@@ -614,142 +735,243 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: -11.0d
+			x: -21.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["771507AA08194DE6"]
-			description: [""]
-			id: "6B432D872586D91D"
+			dependencies: ["6A8665FBC017A00F"]
+			description: ["&7Потому что человек человеку Волк"]
+			id: "6B35F27EE277F880"
 			rewards: [
 				{
-					count: 3
-					id: "3979DE74450E5C93"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "4CF86E1EA3BF8D37"
+					id: "005F041EA24F4CB7"
 					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 				{
-					id: "4849AF6911FF02F2"
+					id: "3A96FC98FC13BACC"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 2
 				}
 			]
-			subtitle: "Довольно шокирующе."
-			tasks: [
-				{
-					id: "7732EAA92E6455BA"
-					item: {
-						Count: 1
-						id: "simplyswords:stormbringer"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3FD56B75FF607307"
-					item: {
-						Count: 1
-						id: "simplyswords:thunderbrand"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4F9D18F59CA26A5C"
-					item: {
-						Count: 1
-						id: "simplyswords:storms_edge"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&n&b&lБольшой потенциал!"
-			x: -8.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["771507AA08194DE6"]
-			id: "27B045439DB314E7"
-			rewards: [
-				{
-					id: "2F26C125769F6427"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					id: "71583AAFB44BE803"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-				{
-					id: "29B2ACA54FE67117"
-					item: {
-						Count: 1
-						id: "minecraft:splash_potion"
-						tag: {
-							Potion: "minecraft:strong_warding"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Магическое ЖАЛО!"
+			subtitle: "Дабы убить Дракона"
 			tasks: [{
-				id: "068033145A55BB5F"
+				id: "670A4F7E7CD0C61F"
 				item: {
 					Count: 1
-					id: "simplyswords:shadowsting"
+					id: "simplyswords:brimstone_claymore"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -6.5d
+			x: -11.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["771507AA08194DE6"]
-			id: "123C703D6049E87A"
+			dependencies: ["5209EC117C51D5D5"]
+			description: ["&7Этот клинок глядит на тебя с ощущением Святой цели. Чего-то большего, чем оно может даже себе представить."]
+			id: "79714A89BF6B05FC"
 			rewards: [
 				{
-					id: "30860BB894D93405"
-					item: {
-						Count: 1
-						id: "minecraft:lingering_potion"
-						tag: {
-							Potion: "minecraft:long_poison"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "15C06B39E5F6380A"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					id: "2660FECCE50B6789"
+					id: "6C7FD8BA81BE9E19"
 					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
+				{
+					id: "5995365469963A94"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "673D2C60ED97162A"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
 			]
-			subtitle: "Ужасно пахнет при нагреве."
+			subtitle: "&7Оно узрело великого Паладина, убивавшего Зверя. Но тот, кто убивает, и сам не далек от Зверя."
 			tasks: [{
-				id: "4B5E527B4C808313"
+				id: "2FE08DA25699E3CC"
+				item: {
+					Count: 1
+					id: "simplyswords:watcher_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3940465EE60C2554"]
+			description: ["&7Два Шторма, скрепленных единой Рукояткой. Ты можешь почувствовать, насколько оно нестабильно."]
+			id: "3B1D7C24AC35261C"
+			rewards: [
+				{
+					id: "0298CD0BBCED3984"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "0D69378D411D96C5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Шторм не имеет совести."
+			tasks: [{
+				id: "0DBABD4BA5458656"
+				item: {
+					Count: 1
+					id: "simplyswords:storms_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3940465EE60C2554"]
+			description: ["&7Пусть же Земля гремит моим Штормом!"]
+			id: "08AEEA46BD870294"
+			rewards: [
+				{
+					id: "5B11306FD5E55A3E"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "4B25BFEC2CA42630"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Первая Река была Рекой Крови."
+			tasks: [{
+				id: "4C6A2AF592747716"
+				item: {
+					Count: 1
+					id: "simplyswords:stormbringer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["07DAFC04179A4DA0"]
+			description: ["&7У запретного есть некое очарование, что делает его невыразимо желаемым."]
+			id: "5B8F694F41090641"
+			rewards: [
+				{
+					id: "6F28C0BD03A7FA08"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "655E006D3CC2E51B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "039E8A56A668874F"
+					item: "bosses_of_mass_destruction:void_thorn"
+					type: "item"
+				}
+			]
+			subtitle: "Оно жалит, даже просто держа его. На что же этот клинок способен."
+			tasks: [{
+				id: "44506CD76C8EF068"
+				item: {
+					Count: 1
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5209EC117C51D5D5"]
+			description: ["&7Чувствительная пара Глаз, находящиеся на этом клинке, которые вечно судят те убийства, что ты совершаешь с его помощью. Кто ты такой чтобы решать о смерти или жизни?"]
+			id: "0C2D472551252C55"
+			rewards: [
+				{
+					id: "689442E51202D595"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "2B799C93BE7452AD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "59B23FFF8F221524"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			subtitle: "&7Они никогда не перестанут судить твои Действия."
+			tasks: [{
+				id: "79FDD6A9D51E6BB8"
+				item: {
+					Count: 1
+					id: "simplyswords:watching_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5AC50DF4F52A548F"]
+			description: ["&7Кто бы ни носил его, долго он не протянул. Как ты устоишь против себя самого? Клинок настолько отвратителен, насколько он и остр. Надпись на клинке гласит, что Звание Чумного Лорда даровалось бедной душе, что её приняла."]
+			id: "5C6755620140F16B"
+			rewards: [
+				{
+					id: "2B3A7C576CAB6B8F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "003597A68F41F3F7"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					count: 13
+					id: "090776BE188D956E"
+					item: "minecells:infected_flesh"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "734399421D933E9C"
+					item: "minecells:guts"
+					type: "item"
+				}
+			]
+			subtitle: "Чувствуешь себя Больным?"
+			tasks: [{
+				id: "08D0DBDA73A63933"
 				item: {
 					Count: 1
 					id: "simplyswords:toxic_longsword"
@@ -759,9 +981,1620 @@
 				}
 				type: "item"
 			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18C4F3367A04B882"]
+			description: ["&7Кто бы ни подвел оружие носившего, пусть заплатит Цену десятикратно."]
+			id: "4636BDC0E4B33561"
+			rewards: [
+				{
+					id: "0349D4930FE2716C"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "3419EB4B92F19088"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1B63BFE12DDA6E97"
+					item: {
+						Count: 1
+						id: "minecells:flint"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Огонь на этом клинке горит ненавистью, будто на бензине."
+			tasks: [{
+				id: "1D46A25F267B6C7A"
+				item: {
+					Count: 1
+					id: "simplyswords:emberblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6A8665FBC017A00F"]
+			description: ["&7Никакое Зло не считает себя таковым. Никто не выбирает Зло, потому что оно Злое, они просто принимают его за добро, которое они ищут."]
+			id: "3343B7550C09C341"
+			rewards: [
+				{
+					id: "33727DAF742AD337"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "1DCFD398B0D2C847"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Это оружие привлекает Ярость, как Магнит."
+			tasks: [{
+				id: "1B3C92FDB1ED1136"
+				item: {
+					Count: 1
+					id: "simplyswords:hearthflame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["306AAF14EBD13866"]
+			description: ["&7Слишком много Существ, слишком мало Душ."]
+			id: "666D6FFBD5FD2306"
+			rewards: [
+				{
+					id: "5367E26F90AEDC7B"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "0A389E1D8C3CF715"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&7Если бы она была украдена, будет ли она вообще твоей тогда?"
+			tasks: [{
+				id: "516BDA2662CF6688"
+				item: {
+					Count: 1
+					id: "simplyswords:soulkeeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["07DAFC04179A4DA0"]
+			description: ["&7Любое предательство, что ты можешь увидеть, тривиально. Кто бы ни убил этим, он сделал это ради, будто бы, состязания или собственной выгоды. Однажды он был Прямым Клинком, но теперь это оружие имитирует искривленный разум своего Создателя."]
+			id: "32C591A42D8C3C2E"
+			rewards: [
+				{
+					id: "5A9BA4F62BFC1508"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "64BA52BDF9582236"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5A0C0B169C58FAA6"
+					item: {
+						Count: 1
+						id: "mcdw:dagger_backstabber"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "mcdw:ambush"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "С самодовольной ухмылкой, он пронзил то, что по их мнению было ему дорого."
+			tasks: [{
+				id: "651060AA26B81291"
+				item: {
+					Count: 1
+					id: "simplyswords:twisted_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["306AAF14EBD13866"]
+			description: ["&7От этого Клинка несет Предательством, поменявшим это оружие навсегда. Предательство столь душераздирающее, что не может быть забыто даже теми, кто его не знали. Души в этом оружии сочатся виной."]
+			id: "3CFAA0BF10CBEAFD"
+			rewards: [
+				{
+					id: "71BEF04500B967B2"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "1F6F8ECC3A0F1E58"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "50A4F161FF765299"
+					item: "soulsweapons:lost_soul"
+					type: "item"
+				}
+			]
+			subtitle: "&7Клинок, который понравился бы Люциусу."
+			tasks: [{
+				id: "1CEF9F877FD65EA2"
+				item: {
+					Count: 1
+					id: "simplyswords:soulstealer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["306AAF14EBD13866"]
+			description: ["&7Любая Сила требует Жертв и Боли."]
+			id: "1299DA76794F4557"
+			rewards: [
+				{
+					id: "4D3A277A3257DCA2"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "444113DE6D5287DD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "36FE5CBEF99BA682"
+					item: "soulsweapons:lost_soul"
+					type: "item"
+				}
+			]
+			subtitle: "&7Я буду рвать и терзать, пока не стану нечестивым богом."
+			tasks: [{
+				id: "469BBDBE0E523BD3"
+				item: {
+					Count: 1
+					id: "simplyswords:soulrender"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["306AAF14EBD13866"]
+			description: ["&7Как Магнит для Душ. Любит сшивать их, как если бы они были Тканью."]
+			id: "5B267B7674F91DE8"
+			rewards: [
+				{
+					id: "4A0007451F10953C"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "55BE7070B24C1D9A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 13
+					id: "5ACEF1E001129AFA"
+					item: "soulsweapons:lost_soul"
+					type: "item"
+				}
+			]
+			subtitle: "&7Агломерация Душ"
+			tasks: [{
+				id: "1A7B5B0CFEE165C6"
+				item: {
+					Count: 1
+					id: "simplyswords:soulpyre"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["547DCAE28B3968ED"]
+			description: ["&7Чего ты боишься больше, Эхо или ответа. Вой свой Меланхоличный Вопрос."]
+			id: "54A18E7973F870B7"
+			rewards: [
+				{
+					id: "5FEE61C702315FE3"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "1EB86F56416E9166"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Ох, скажи мне, Великий"
+			tasks: [{
+				id: "2B17B08CE72BC56D"
+				item: {
+					Count: 1
+					id: "simplyswords:frostfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6A8665FBC017A00F"]
+			description: ["&7Тебя завораживает текущая Лава на этом Клинке. Она напоминает тебе о чем-то..."]
+			id: "0D8A8981385BAF73"
+			rewards: [
+				{
+					id: "34E944EA6E631A23"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					id: "635BD704C131B043"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "0C41BD7ACCE940E1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Принц"
+			tasks: [{
+				id: "203F635143291359"
+				item: {
+					Count: 1
+					id: "simplyswords:molten_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["547DCAE28B3968ED"]
+			description: ["&7Выкованный из остатков великого морозного существа, ты чувствуешь, как оно сражалось в своей последней Битве с каждым взмахом."]
+			id: "2D894DA57337C966"
+			rewards: [
+				{
+					id: "7A80C0B7A921176B"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "5E16DB494AE2E4BA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Он, который смотрит в Бездну..."
+			tasks: [{
+				id: "4089ACB32C4DD3AF"
+				item: {
+					Count: 1
+					id: "simplyswords:livyatan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["547DCAE28B3968ED"]
+			description: ["&7На этом оружии есть Шифр, от одного из предыдущих хозяинов. Ты можешь разобрать первые две буквы. \"Br-\". Рукоятка все ещё веет теплом, которое ты не ожидаешь от столь холодного оружия. Держа его, ты чувствуешь, будто кто-то сделал одну и ту же шутку несколько сотен раз."]
+			id: "556C78463DB00269"
+			rewards: [
+				{
+					id: "0F780297BE506C56"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "4F45CB30F9903329"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3F930FDF14A1D26A"
+					item: {
+						Count: 1
+						id: "farmersknives:cryomarble_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Некоторые вещи достаточно сказать лишь раз."
+			tasks: [{
+				id: "3CC26FF5DB804069"
+				item: {
+					Count: 1
+					id: "simplyswords:icewhisper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5209EC117C51D5D5"]
+			description: ["&7Однажды подаренный великим Магом Арканы. Это Клинок видел больше многих."]
+			id: "3A333A884ED801AE"
+			rewards: [
+				{
+					id: "780E03AC70E79C92"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "6008A08FF4E4E2EE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "6BC7DBD4DB04B35C"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			subtitle: "&7Ты не можешь проиграть, ты избран."
+			tasks: [{
+				id: "2963F96B9A1741FB"
+				item: {
+					Count: 1
+					id: "simplyswords:arcanethyst"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5AC50DF4F52A548F"]
+			description: ["&7Даже самые спокойные умы имеют Шторм, бушующий в них. Но это дело разума - учится, когда его высвобождать."]
+			id: "177CE07DA601DF07"
+			rewards: [
+				{
+					id: "502B2E3E9567D131"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "5DA1243189E88294"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&7Перед Штормом, всегда идет какое-то затишье."
+			tasks: [{
+				id: "52E9D721F987A254"
+				item: {
+					Count: 1
+					id: "simplyswords:thunderbrand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3940465EE60C2554"]
+			description: ["&7Признак интеллекта - осознание своего невежества."]
+			id: "17FA5AE32F7A22DD"
+			rewards: [
+				{
+					id: "0CDE8305A455A493"
+					item: {
+						Count: 1
+						id: "minecells:lightning_bolt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37DE6EB8190BF512"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "636E61C4B523265F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Боль, неощутимая Виной."
+			tasks: [{
+				id: "162BA6204FED68DF"
+				item: {
+					Count: 1
+					id: "simplyswords:mjolnir"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["547DCAE28B3968ED"]
+			description: ["&7Ты чувствуешь Смерть, держа в руках это оружие. Ни одно живое или неживое существо не хочет приближаться к тебе. Ты чувствуешь, что это оружие чего-то жаждет. Оно хочет пробудится."]
+			id: "1C6075524C120092"
+			rewards: [
+				{
+					id: "715CF5A88EA04F44"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "0D8FDA20E414D2BD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5CE32BBD775090B2"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			subtitle: "Определенное чувство Смерти."
+			tasks: [{
+				id: "45B3A52415EAD3B4"
+				item: {
+					Count: 1
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			x: -12.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["1C6075524C120092"]
+			description: ["&7Оно стало сильнее. Ты понимаешь, что оно ещё не достигло всего своего потенциала. Ты должен продолжать. Ты зашел уже слишком далеко, не так ли? Каннибализируй жизнь."]
+			hide_until_deps_complete: true
+			id: "2629BC0942CC42F6"
+			rewards: [
+				{
+					id: "0477E13CFD9EEC4E"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "20442D710C59F698"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Оно начинает просыпаться..."
+			tasks: [{
+				id: "5ECB8411482DF1D5"
+				item: {
+					Count: 1
+					id: "simplyswords:waking_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["1C6075524C120092"]
+			description: ["&7Клинок шепчет благодарностью тебе. Материализуя что-то, что &4будет очень полезно рано или поздно&r&7. Да будут долгими их страдания. Да радостна нам будет их боль."]
+			hide_until_deps_complete: true
+			id: "0395861176F7F402"
+			rewards: [
+				{
+					id: "51CE52336784BA50"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "58E74C7A157CE8F2"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 3
+					id: "486CF177C76F28D0"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "ПОЛНЫЙ ПОТАНЦЕВАЛ"
+			tasks: [{
+				id: "5332CA7293781217"
+				item: {
+					Count: 1
+					id: "simplyswords:awakened_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["5AC50DF4F52A548F"]
+			description: ["&7Единственная вещь, что всегда будет следовать за тобой, это твоя Тень."]
+			id: "4DD812D8096B5BB7"
+			rewards: [
+				{
+					id: "03013ABAA866E36B"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "1D741D3134DD852A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&7Будто Пчела, созданная из отсутствия света."
+			tasks: [{
+				id: "690E6BEA291AC460"
+				item: {
+					Count: 1
+					id: "simplyswords:shadowsting"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3940465EE60C2554"]
+			description: ["&7Жажда, что не может быть утолена - это Жажда, от которой ты умрешь."]
+			id: "7F9DAA4B9D84E3DC"
+			rewards: [
+				{
+					id: "22516A5A9C6CD07F"
+					item: "windchimes:iron_chime"
+					type: "item"
+				}
+				{
+					id: "2FC6F7D280C6C453"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "137971C5D3CF055A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "В мгновение ока, легчайшая война может быть проиграна Гордостью."
+			tasks: [{
+				id: "1E7216FDECB3DE63"
+				item: {
+					Count: 1
+					id: "simplyswords:whisperwind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6A8665FBC017A00F"]
+			description: ["&7Стать чем-то большим, есть самое одинокое Достижение из всех."]
+			id: "3ADBA2BF57A23E05"
+			rewards: [
+				{
+					id: "3B9891E3219B5FEB"
+					item: {
+						Count: 1
+						id: "minecells:assassins_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73FE375523FE7679"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "51C5AAFCA477DDF4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Клинок, сделанный из заостренного Огня"
+			tasks: [{
+				id: "3CF35DE6F607C295"
+				item: {
+					Count: 1
+					id: "simplyswords:emberlash"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18C4F3367A04B882"]
+			description: ["&7Наши сердца - это монстры. Поэтому наши ребра - это клетки."]
+			id: "1C33DCFADBD4B13F"
+			rewards: [
+				{
+					id: "4E22649CB10625ED"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "68D290123288D492"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0A1E95C54EB699CF"
+					item: "minecraft:candle"
+					type: "item"
+				}
+			]
+			subtitle: "Никогда не извиняйся за то безумие, что сделало из тебя Воина."
+			tasks: [{
+				id: "5D8A324561660A8E"
+				item: {
+					Count: 1
+					id: "simplyswords:waxweaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["03E7D9E3CD29B32F"]
+			description: ["&7Кажется, ты не единственный, кто заинтересован в этом оружии. Тебе лучше не злить Улей, или по крайней мере давать им того, на кого они могут разозлиться."]
+			id: "34BACF93066559BD"
+			rewards: [
+				{
+					id: "3E949534EFA0284B"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+				{
+					id: "0D6AA1F62ACE04B0"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "3F6EDD61CCFC5E5A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "2BF6E06C900DCF0B"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "35A7FD509D3A393A"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
+			subtitle: "Ты слышишь жужжание, доносящееся из самого оружия."
+			tasks: [{
+				id: "48F6A613036C90AF"
+				item: {
+					Count: 1
+					id: "simplyswords:hiveheart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5209EC117C51D5D5"]
+			description: ["&7Известна ли твоя боль Богам?"]
+			id: "7272D65052D97F66"
+			rewards: [
+				{
+					id: "33D110BFAA7F0AF3"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "4FF94DD24E0C9AB8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "41C047607D8135EC"
+					item: {
+						Count: 1
+						id: "botania:star_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Клинок, не из этого мира."
+			tasks: [{
+				id: "607332E4BD902C6C"
+				item: {
+					Count: 1
+					id: "simplyswords:stars_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18C4F3367A04B882"]
+			description: ["&7Ты никогда не сможешь сбежать от своего сердца. Так что лучше слушать, что оно говорит."]
+			id: "02D16E97B12EEA41"
+			rewards: [
+				{
+					id: "638A5B38F952B3C0"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "5E18A7052CA9F22F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Пылавший Ребенок любит огонь"
+			tasks: [{
+				id: "5822A36162719CDE"
+				item: {
+					Count: 1
+					id: "simplyswords:wickpiercer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["18C4F3367A04B882"]
+			description: ["&7Природа не знает Королей и Королев. Они все умирают одинаково."]
+			id: "222ECAF5058016B3"
+			rewards: [
+				{
+					id: "4F348CEF057BF3FB"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "2DE0AD99F9970669"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "39A3C05DAA3B2652"
+					item: "convenientdecor:iron_weather_vane"
+					type: "item"
+				}
+			]
+			subtitle: "Шторм, столь разрушительный - кто мог бы его начать?"
+			tasks: [{
+				id: "205C61F9FAFED7B8"
+				item: {
+					Count: 1
+					id: "simplyswords:tempest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["03E7D9E3CD29B32F"]
+			description: ["&7Огонь достигает таких высот, каких ему позволяет его Топливо."]
+			id: "1E43CA1D1052238D"
+			rewards: [
+				{
+					id: "5F90B61FDB8B0956"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "13337D4C7A62CCFD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "00732A4FF0D1F92D"
+					item: "minecells:firebrands"
+					type: "item"
+				}
+			]
+			subtitle: "Чтобы постичь, он уничтожил себя."
+			tasks: [{
+				id: "5EC4FBD1DC595DC8"
+				item: {
+					Count: 1
+					id: "simplyswords:flamewind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03E7D9E3CD29B32F"]
+			description: [
+				"&7Надпись, написанная ржавой, кровавой краской гласит:"
+				"&4Я привязываю себя к тебе этой ночью,&r"
+				"&4Не важно, как изменится нож,&r"
+				"&4Сквозь кровь и кости,&r"
+				"&4Плоть и сердце,&r"
+				"&4Смерть может придти,&r"
+				"&4Но мы не должны разлучаться.&r"
+			]
+			id: "4602FD0E33DD4D5E"
+			rewards: [
+				{
+					id: "7C894521FF9CE68C"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "392C05E1E444F694"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "5CE749C89990F901"
+					item: "minecells:blood_bottle"
+					type: "item"
+				}
+				{
+					id: "1075F212D25C0615"
+					item: {
+						Count: 1
+						id: "minecells:blood_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Клятва Смерти"
+			tasks: [{
+				id: "74D75A057911D425"
+				item: {
+					Count: 1
+					id: "simplyswords:ribboncleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["574677AD427E33FB"]
+			description: ["&7Как много тебе надо потерять, чтобы быть новым? Что делает тебя тобой?"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2B21952A37C6B9A9"
+			invisible: true
+			rewards: [
+				{
+					count: 3
+					id: "7220D6722F3F0F2F"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "7326499D2C110CE1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Однажды Благородное Оружие, теперь едва ли Реликвия"
+			tasks: [{
+				id: "4A0FB4F0B04D5E98"
+				item: {
+					Count: 1
+					id: "simplyswords:decaying_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["574677AD427E33FB"]
+			description: ["&7Изобретать - значит идти против своих убеждений. Но оправдает ли себя эта Награда?"]
+			hide_dependency_lines: true
+			id: "372B6EB1F66455B8"
+			invisible: true
+			rewards: [
+				{
+					count: 3
+					id: "755406D4A473AF86"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "5DA52B66226C3904"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "399593BCFA78E856"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Ересь."
+			tasks: [{
+				id: "06C634A2A7DB7ACF"
+				item: {
+					Count: 1
+					id: "simplyswords:magiscythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["574677AD427E33FB"]
+			description: ["&7Вопрос, который никогда не задавали, никогда не найдет ответа."]
+			hide_dependency_lines: true
+			id: "730BC7042CFC5627"
+			invisible: true
+			rewards: [
+				{
+					id: "052B6585C641EB07"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "7B096AEA1DE20E40"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "7B4D605504586B8F"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Знание это Сила."
+			tasks: [{
+				id: "51616656C5CA7D35"
+				item: {
+					Count: 1
+					id: "simplyswords:enigma"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["574677AD427E33FB"]
+			description: ["&7Это оружие застало Восстание Глубокой Тьмы. Он отдает пульс Радости, когда видит свой Дом."]
+			hide_dependency_lines: true
+			id: "46EE656C1F9E5CD5"
+			invisible: true
+			rewards: [
+				{
+					count: 3
+					id: "272F11E499A8D6E1"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "142239EE47E0F109"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "1DA6FCCB6C2EC1D3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Клинок, наученный сотням техник."
+			tasks: [{
+				id: "5CED8201A8C06FC1"
+				item: {
+					Count: 1
+					id: "simplyswords:magiblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5AC50DF4F52A548F"]
+			description: ["&7Навсегда Проклятый и Благословленный шагать меж двумя Мирами, мы можем лишь посочувствовать тем бедным Душам."]
+			id: "0E959953F768C259"
+			rewards: [
+				{
+					id: "4D2CA70F1689BE78"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "491AF23A26DC7365"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&7Между двумя Реальностями, но ни в одном нет ей дома."
+			tasks: [{
+				id: "6322CA3B700CAFB4"
+				item: {
+					Count: 1
+					id: "simplyswords:caelestis"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			dependency_requirement: "one_started"
+			description: [
+				"&7У стен есть уши."
+				"&7У дверей есть глаза."
+				"&7У деревьев есть голоса."
+				"&7Звери рассказывают ложь."
+				"&7Остерегайся дождя."
+				"&7Остерегайся снега."
+				"&7Остерегайся человека."
+				"&7Ты думаешь, что знаешь."
+			]
+			hide_until_deps_complete: true
+			id: "547DCAE28B3968ED"
+			rewards: [{
+				id: "79DDDF28B3B0C256"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Вина может поглотить тебя изнутри."
+			tasks: [{
+				id: "022387F0E924D4E6"
+				title: "Ледяное Прошлое"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			hide_until_deps_complete: true
+			id: "3940465EE60C2554"
+			rewards: [{
+				id: "47FC973EA720CF3A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5AE9AAEE101CE4C8"
+				title: "Приближающийся Шторм"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7Ты носишь возмездие, будто броню, но она терзает тебя изнутри. Ты станешь тем, что ты уничтожаешь."]
+			hide_until_deps_complete: true
+			id: "18C4F3367A04B882"
+			rewards: [{
+				id: "25C49131267201A3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Гнев - это Грех, разрушающий изнутри."
+			tasks: [{
+				id: "1384362E58602E2F"
+				title: "Извечный Пепел"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7Некоторые говорят, что Душа это самая важная наша часть. Некоторые говорят, что ты - это просто смесь Гормонов и импульсов. Что если ты все и ничто одновременно?"]
+			hide_until_deps_complete: true
+			id: "306AAF14EBD13866"
+			rewards: [{
+				id: "6246061A51A439A5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Это Глаза. Это всегда Глаза."
+			tasks: [{
+				id: "4E8294EF91FA3E90"
+				title: "Украденные Души"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7Век живи. Век учись. Все эти вещи, их знать было их учением. Их единственным инстинктом было учение."]
+			hide_until_deps_complete: true
+			id: "5209EC117C51D5D5"
+			rewards: [{
+				id: "4FB84C8755CC323A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "&7Их не было много. Но их Глаз было не счесть."
+			tasks: [{
+				id: "39F7EC8B735A21FC"
+				title: "Клинки Смотрителей"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7Чем больше ты берешь, тем меньше у тебя есть. Ты будешь нищать, окруженный Золотом."]
+			hide_until_deps_complete: true
+			id: "07DAFC04179A4DA0"
+			rewards: [{
+				id: "0547E37D366146EE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Жадность - как ненасытна..."
+			tasks: [{
+				id: "5C0B0ECEF7BA052B"
+				title: "Грехи Прошлого"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7Записи хранились хорошо, но природа этих оружий заставляет все увядать со временем. Никто по-настоящему не знает, откуда они пришли, или кто их сделал, но что мы знаем, так это то, что если ты видишь кого-то, носящего эти оружия, они скорее всего обречены на провал."]
+			hide_until_deps_complete: true
+			id: "5AC50DF4F52A548F"
+			rewards: [{
+				id: "5D46399357181290"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "&7Они пришли, летя с неба, которое мы не могли даже представить."
+			tasks: [{
+				id: "0353504AABDB41D8"
+				title: "Небесные Вредители"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7Невыполненное обещание - оно будто удар ножом в Сердце. Поломанная гарантия - это будто удар ножом в Мозг. Разбитое сердце - это удар ножом в Душу."]
+			hide_until_deps_complete: true
+			id: "03E7D9E3CD29B32F"
+			rewards: [{
+				id: "45569995F674458F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Не быть забытым, значит не быть прощенным."
+			tasks: [{
+				id: "4D666B006F72F537"
+				title: "Забытый, не прощенный"
+				type: "checkmark"
+			}]
+			x: -15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7Навсегда - это опасное слово. Как может Смертный предлагать Вечность?"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "6A8665FBC017A00F"
+			rewards: [{
+				id: "0CBEDBFE548D341E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Некоторые вещи не заканчиваются со Смертью."
+			tasks: [{
+				id: "241FA414889A2308"
+				title: "Вечное Пламя Сожаления"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03E7D9E3CD29B32F"]
+			description: ["&7И знаешь что? Он бьет немного дальше, чем если бы ты просто им размахивал. Надейся, что палка не сломается. Бесчестие."]
+			id: "45163F8A6463C455"
+			rewards: [
+				{
+					id: "52BBDA85B350C531"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "40EFCB3A87E814C6"
+					item: {
+						Count: 1
+						id: "simplyswords:iron_longsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3210E38988C762F9"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "4EEDE273BE3D5D27"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Это буквально просто меч на палке."
+			tasks: [{
+				id: "7808F25B17D75A31"
+				item: {
+					Count: 1
+					id: "simplyswords:sword_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D8A8981385BAF73"]
+			description: ["&7Накорми его."]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2FE74D0698201078"
+			invisible: true
+			rewards: [
+				{
+					id: "29A9EBB3D8B6221A"
+					item: {
+						Count: 1
+						id: "simplyswords:molten_edge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06842229DFE46DF2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "261C7A3E10BB4E87"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Оно что-то хочет от тебя. Что-то такое же расплавленное, как и оно само. Что-то, что получает больше, но также и меньше."
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3B2A79DA51FD5FBB"
+				title: "Оружию нужна Еда. Накорми его тем, что ему надо."
+				type: "kill"
+				value: 200L
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7272D65052D97F66"]
+			description: ["&7Ты действительно хочешь ночь без какого-либо подтверждения, что ты не одинок? Ладно. Делай как хочешь."]
+			id: "508A68D4C7383920"
+			invisible: true
+			rewards: [
+				{
+					id: "25705C3F3FEBA3D3"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "77B4213C8D570BE6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			subtitle: "Убить звезды."
+			tasks: [{
+				entity: "ad_astra:star_crawler"
+				icon: "minecraft:nether_star"
+				id: "2A166F07ACC01399"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"79714A89BF6B05FC"
+				"0C2D472551252C55"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&7Убивай то, что имеешь, дорогой. Убивай то, что тебя видит. Ты видишь свое отражение в своих делах?"]
+			id: "17B5281769381237"
+			invisible: true
+			rewards: [
+				{
+					id: "1242B25F048F5F7F"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "737FB61FDAC8971B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			subtitle: "ГЛАЗА, О БОЖЕ, ТОЛЬКО НЕ ГЛАЗА"
+			tasks: [{
+				entity: "eldritch_end:ominous_eye"
+				id: "22B61AA183603949"
+				type: "kill"
+				value: 120L
+			}]
+			x: 2.5d
 			y: -6.5d
 		}
+		{
+			dependencies: ["5AA2A1E358A18B4E"]
+			hide_until_deps_complete: true
+			id: "392E27D0C5EB8965"
+			rewards: [
+				{
+					count: 4
+					id: "23B5A5D5BF2BC3EB"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "2A0DE51B8DFA6602"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Эти Вещи обычно сложнее получить, так как они требуют Руническую Табличку и Незеритовое оружие. Выкуй одно."
+			tasks: [{
+				id: "10EC2EEDE202DA9B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "simplyswords:runic_gear"
+					}
+				}
+				title: "Любое Руническое Снаряжение"
+				type: "item"
+			}]
+			title: "Руническое Снаряжение"
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5AA2A1E358A18B4E"]
+			description: ["&7Эта вещь будет немного полезна, лучше держать её при себе, пока исследуешь Мир!"]
+			hide_until_deps_complete: true
+			id: "127BAE862AB60CFB"
+			rewards: [
+				{
+					id: "7412E2C513BEF79F"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "2C54B3F7D8ED5122"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "64842451B7FA943A"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "Во что оно превратится?"
+			tasks: [{
+				id: "13C58BA33809D669"
+				item: "simplyswords:contained_remnant"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.5d
+		}
 	]
-	title: " &dУникальное вооружение"
+	title: " &dУникальное Вооружение"
 }

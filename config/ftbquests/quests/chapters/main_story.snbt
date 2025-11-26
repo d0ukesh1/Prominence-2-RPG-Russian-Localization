@@ -239,7 +239,7 @@
 					}
 				}
 				id: "0F843C913D775125"
-				title: "Убей Адскую Перчатку"
+				title: "Убей Рукавицу Ада"
 				type: "kill"
 				value: 1L
 			}]
@@ -632,7 +632,7 @@
 					}
 				}
 				id: "028D2778B20852AA"
-				title: "Kill the Ender Dragon"
+				title: "Убей Эндер Дракона"
 				type: "kill"
 				value: 1L
 			}]
