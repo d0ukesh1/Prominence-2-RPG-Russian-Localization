@@ -3032,13 +3032,7 @@
 				"4CF644BC0920C177"
 			]
 			dependency_requirement: "one_completed"
-			description: [
-				"&7Сапфировая броня — это прямое улучшение от Алмазно-незеритовой брони, она имеет меньше общей брони, но предоставляет +20 Максимального Здоровья за каждую часть и пассивку, отражающую урон, получаемый тобою."
-				""
-				"- &eАльтернативы"
-				"&7Если ты предпочитаешь броню с немного большим количеством здоровья, чем у сапфира, но с более низкой броней, то можешь создать &7Броню Стража&7, но это зависит от предпочтений."
-				"&eТопазовая броня&7 также является альтернативой, так как, хотя она не предоставляет здоровья, она дает самую высокую броню с усилением и ту же самую броню, что и броня Стража."
-			]
+			description: ["&7Сапфировая броня — это прямое улучшение от Алмазно-незеритовой брони, она имеет меньше общей брони, но предоставляет +20 Максимального Здоровья за каждую часть и пассивку, отражающую урон, получаемый тобою. Это значит, что вы получаете на 30% меньше урона, чем с любой другой начальной Броней."]
 			hide_until_deps_visible: true
 			id: "080F23071FA8CFC9"
 			min_required_dependencies: 1
@@ -3124,6 +3118,7 @@
 				{
 					id: "60B3A4B08E3A36A6"
 					item: "prominent:vaazkar"
+					optional_task: true
 					title: "&eОпциональный артефакт: &6Ваазкар &e(Танк)"
 					type: "item"
 				}
@@ -3545,6 +3540,7 @@
 							Damage: 0
 						}
 					}
+					optional_task: true
 					title: "&eАльтернативная шляпа: &7Шляпа искателя магов &e(Критический урон заклинаний)"
 					type: "item"
 				}
@@ -4548,60 +4544,59 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "accessories:textures/gui/group/unknown.png"
-						}
-					}
-					id: "427032B27502390C"
-					optional_task: true
-					title: "&eОпциональный артефакт: &6СКОРО(КЛИНОК) &e(Разбойник-убийца)"
-					type: "custom"
-				}
-				{
 					id: "1095B6816693242F"
-					item: {
-						Count: 1
-						id: "mcda:souldancer_robe_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
++					item: {
++						Count: 1
++						id: "mcda:souldancer_robe_helmet"
++						tag: {
++							Damage: 0
++						}
++					}
 					type: "item"
 				}
-				{
-					id: "25A44A4646F5754A"
-					item: {
-						Count: 1
-						id: "mcda:souldancer_robe_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7E986DBE97C6A526"
-					item: {
-						Count: 1
-						id: "mcda:souldancer_robe_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "12F59EBA7E872C0C"
-					item: {
-						Count: 1
-						id: "mcda:souldancer_robe_boots"
-						tag: {
-							Damage: 0
-						}
-					}
++				{
++					id: "25A44A4646F5754A"
++					item: {
++						Count: 1
++						id: "mcda:souldancer_robe_chestplate"
++						tag: {
++							Damage: 0
++						}
++					}
++					type: "item"
++				}
++				{
++					id: "7E986DBE97C6A526"
++					item: {
++						Count: 1
++						id: "mcda:souldancer_robe_leggings"
++						tag: {
++							Damage: 0
++						}
++					}
++					type: "item"
++				}
++				{
++					id: "12F59EBA7E872C0C"
++					item: {
++						Count: 1
++						id: "mcda:souldancer_robe_boots"
++						tag: {
++							Damage: 0
++						}
++					}
++					type: "item"
++				}
++				{
++					id: "71B2A84EC7CC961B"
++					item: {
++						Count: 1
++						id: "prominent:ghaj"
++						tag: {
++							Damage: 0
++						}
++					}
+					optional_task: true
 					type: "item"
 				}
 			]

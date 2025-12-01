@@ -5,7 +5,7 @@
 	group: "49D52BD6447C5CC0"
 	icon: "indrev:mining_rig_mk4"
 	id: "7DBBF6BCE6FF4D19"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

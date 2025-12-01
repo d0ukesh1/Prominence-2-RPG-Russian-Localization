@@ -923,7 +923,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Генерирует 0.1 ЕЭ/тик на каждую грань, касающуюся воды."
+			subtitle: "Генерирует 10 ЕЭ/тик на каждую грань, касающуюся воды."
 			tasks: [{
 				id: "1BBBC06411C8F9A5"
 				item: "techreborn:water_mill"
@@ -940,7 +940,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Генерирует 2 EЭ/тик (2.5 EЭ/тик во время грозы), нужно поставить выше y: 64."
+			subtitle: "Генерирует 15 EЭ/тик (х5 EЭ/тик во время грозы), нужно поставить выше y: 64."
 			tasks: [{
 				id: "542F567D4B904633"
 				item: "techreborn:wind_mill"
@@ -2039,7 +2039,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Генерирует 256 кЕЭ/удар молнии. Поставь железный забор на вершине, присоединение более чем одного увеличит шанс, что молния ударит."
+			subtitle: "Генерирует 262 кЕЭ/удар молнии. Поставь железный забор на вершине, присоединение более чем одного увеличит шанс, что молния ударит."
 			tasks: [{
 				id: "15146E5AA52C1488"
 				item: "techreborn:lightning_rod"
@@ -2364,7 +2364,7 @@
 				item: "techreborn:red_cell_battery"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 7.5d
 		}
 		{
@@ -2417,7 +2417,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["23E8B5EC08A0E818"]
@@ -2528,8 +2528,8 @@
 				item: "techreborn:omni_tool"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 11.0d
+			x: -6.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["62CF041CC3936840"]
@@ -2546,8 +2546,8 @@
 				item: "techreborn:electric_treetap"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 8.5d
+			x: -6.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["62CF041CC3936840"]
@@ -2572,8 +2572,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 6.5d
+			x: -6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6FB5FA2FACF2C776"]
