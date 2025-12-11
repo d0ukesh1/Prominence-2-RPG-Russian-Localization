@@ -5,14 +5,591 @@
 	group: "3E586F2160161EEA"
 	icon: "minecraft:end_portal_frame"
 	id: "5AAF050CB8F14B0C"
-	images: [{
-		height: 4.0d
-		image: "prominent:textures/text/the_end.png"
-		rotation: 0.0d
-		width: 8.0d
-		x: 0.0d
-		y: -6.0d
-	}]
+	images: [
+		{
+			dependency: "37525863A9E5509D"
+			height: 4.0d
+			image: "prominent:textures/text/the_end.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 5.98d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 5.98d
+			x: 0.0d
+			y: -6.11d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: -7.8d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -4.4d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -6.1d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: -6.1d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: -2.7d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.7d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: -2.7d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: -4.4d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -7.8d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: -9.5d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			hover: ["what are you looking at"]
+			image: ""
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 38.0d
+		}
+		{
+			dependency: "4760AE66CBC29443"
+			height: 1.0d
+			image: "betterend:block/lumecorn_light_top_middle"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -28.5d
+		}
+		{
+			dependency: "4760AE66CBC29443"
+			height: 1.0d
+			image: "betterend:block/lumecorn_light_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -29.0d
+		}
+		{
+			dependency: "4760AE66CBC29443"
+			height: 1.0d
+			image: "betterend:block/lumecorn_leaf_2"
+			order: 22
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -25.5d
+		}
+		{
+			dependency: "4760AE66CBC29443"
+			height: 1.0d
+			image: "betterend:block/lumecorn_light_middle_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -26.5d
+		}
+		{
+			dependency: "4760AE66CBC29443"
+			height: 1.0d
+			image: "betterend:block/lumecorn_light_middle_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -26.0d
+		}
+		{
+			dependency: "4760AE66CBC29443"
+			height: 2.0d
+			image: "betterend:block/lumecorn_light_middle_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -27.5d
+		}
+		{
+			dependency: "4760AE66CBC29443"
+			height: 1.0d
+			image: "betterend:block/lumecorn_roots"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -25.0d
+		}
+		{
+			dependency: "4760AE66CBC29443"
+			height: 1.0d
+			image: "betterend:block/lumecorn_stem"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.9d
+			y: -25.0d
+		}
+		{
+			dependency: "45D9C9CD7B2568A0"
+			height: 1.5d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			dependency: "405ECED2C34FC488"
+			height: 1.5d
+			image: "minecraft:block/purpur_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: -24.0d
+		}
+		{
+			dependency: "4B1BEDBB8D2DB24C"
+			height: 2.0d
+			image: "minecraft:block/shulker_box"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: -28.5d
+		}
+		{
+			dependency: "45D9C9CD7B2568A0"
+			height: 6.0d
+			image: "betterend:block/end_portal"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -6.1d
+		}
+		{
+			dependency: "4B1BEDBB8D2DB24C"
+			height: 2.0d
+			image: "minecraft:block/carved_pumpkin"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -28.5d
+		}
+		{
+			dependency: "1C087F6048B1D89F"
+			height: 2.0d
+			image: "promenade:block/dark_amaranth/fungus"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.5d
+			y: -20.5d
+		}
+		{
+			dependency: "06F8BED924CB661F"
+			height: 4.0d
+			image: "betterend:block/umbrella_tree_sapling"
+			rotation: 0.0d
+			width: 4.0d
+			x: -8.5d
+			y: -24.0d
+		}
+		{
+			dependency: "21DB9F756402FE99"
+			height: 1.3d
+			image: "betterend:block/chorus_plant_flower_side"
+			rotation: 0.0d
+			width: 1.3d
+			x: 6.5d
+			y: -22.5d
+		}
+		{
+			dependency: "55829700C661DEA2"
+			height: 3.0d
+			image: "betterend:block/lacugrove_sapling"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.0d
+			y: -14.5d
+		}
+		{
+			dependency: "2BB4AB6CC24236CF"
+			height: 2.0d
+			image: "icarus:item/feathered_wings"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependency: "18F74B2D3AF2364F"
+			height: 2.0d
+			image: "icarus:item/dragon_wings"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependency: "18F74B2D3AF2364F"
+			height: 2.0d
+			image: "icarus:item/dragon_wings_2"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependency: "05A1A7ABDA3ACD3F"
+			height: 1.3d
+			image: "betterend:block/umbralith"
+			rotation: 0.0d
+			width: 1.3d
+			x: 5.0d
+			y: -16.5d
+		}
+		{
+			dependency: "4B1BEDBB8D2DB24C"
+			height: 1.0d
+			image: "icarus:item/discords_wings"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -28.5d
+		}
+		{
+			dependency: "45E85B95F4D8B7AB"
+			height: 2.0d
+			image: "indrev:item/sulfur_crystal"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: -18.0d
+		}
+		{
+			alpha: 122
+			dependency: "7D82D37287E1AE9A"
+			height: 1.5d
+			image: "mcdw:textures/mob_effect/shadow_form.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.5d
+			y: -20.0d
+		}
+		{
+			dependency: "147C2CC7E0403220"
+			height: 2.0d
+			image: "betterend:block/lacugrove_sapling"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -26.5d
+		}
+		{
+			dependency: "103203350DABF6BB"
+			height: 2.0d
+			image: "bosses_of_mass_destruction:block/obsidilith_end_frame"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.0d
+			y: -17.0d
+		}
+		{
+			dependency: "405ECED2C34FC488"
+			height: 1.0d
+			image: "minecraft:item/chorus_fruit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -18.5d
+		}
+		{
+			dependency: "405ECED2C34FC488"
+			height: 1.0d
+			image: "minecraft:item/popped_chorus_fruit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -20.0d
+		}
+		{
+			dependency: "422E507CE6A53B7C"
+			height: 1.0d
+			image: "minecraft:textures/entity/enderdragon/dragon_fireball.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: 0.0d
+			y: -15.5d
+		}
+		{
+			dependency: "405ECED2C34FC488"
+			height: 1.0d
+			image: "minecraft:item/ender_pearl"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -21.0d
+		}
+		{
+			dependency: "405ECED2C34FC488"
+			height: 1.0d
+			image: "archon:item/end_gem"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -17.5d
+		}
+		{
+			dependency: "34830F8A8A4C01E3"
+			height: 1.15d
+			image: "betterend:block/aurora_crystal"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: -19.0d
+		}
+		{
+			dependency: "34830F8A8A4C01E3"
+			height: 1.15d
+			image: "betterend:block/aurora_crystal"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: -20.0d
+		}
+		{
+			dependency: "34830F8A8A4C01E3"
+			height: 1.15d
+			image: "betterend:block/aurora_crystal"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: -21.0d
+		}
+		{
+			dependency: "34830F8A8A4C01E3"
+			height: 1.15d
+			image: "betterend:block/aurora_crystal"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.0d
+			y: -19.0d
+		}
+		{
+			dependency: "34830F8A8A4C01E3"
+			height: 1.15d
+			image: "betterend:block/aurora_crystal"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: -19.0d
+		}
+		{
+			dependency: "34830F8A8A4C01E3"
+			height: 1.15d
+			image: "betterend:block/aurora_crystal"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.0d
+			y: -20.0d
+		}
+		{
+			dependency: "34830F8A8A4C01E3"
+			height: 1.15d
+			image: "betterend:block/aurora_crystal"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: -22.0d
+		}
+		{
+			alpha: 100
+			dependency: "34830F8A8A4C01E3"
+			height: 4.75d
+			image: "chipped:block/purple_concrete/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 1.15d
+			x: 10.0d
+			y: -20.5d
+		}
+		{
+			alpha: 100
+			dependency: "34830F8A8A4C01E3"
+			height: 2.35d
+			image: "chipped:block/purple_concrete/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 1.15d
+			x: 11.0d
+			y: -19.5d
+		}
+		{
+			alpha: 100
+			dependency: "34830F8A8A4C01E3"
+			height: 1.15d
+			image: "chipped:block/purple_concrete/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 1.15d
+			x: 9.0d
+			y: -19.0d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 1.0d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependency: "0F9166A5CBEB4E3E"
+			height: 1.0d
+			image: "prominent_talents:textures/frames/square_selected.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -27.5d
+		}
+		{
+			dependency: "4449BA89F2428F67"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/diamond_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.0d
+			y: -26.5d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 2.4d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 2.4d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependency: "15AC981E237E9696"
+			height: 2.0d
+			image: "simplyswords:item/soulrender_layer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -30.0d
+		}
+		{
+			dependency: "065D169B3FC3AFC8"
+			height: 2.0d
+			image: "prominent:textures/boss_icons/obsidilith.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.5d
+			y: -16.0d
+		}
+		{
+			dependency: "065D169B3FC3AFC8"
+			height: 3.0d
+			image: "prominent_talents:textures/frames/square_selected.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.5d
+			y: -16.0d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
@@ -36,6 +613,7 @@
 				"64E302C442B729B8"
 			]
 			dependency_requirement: "one_started"
+			hide_dependency_lines: true
 			icon: "minecraft:end_portal_frame"
 			id: "45D9C9CD7B2568A0"
 			min_required_dependencies: 1
@@ -45,214 +623,1911 @@
 				xp_levels: 3
 			}]
 			shape: "octagon"
-			size: 1.25d
-			subtitle: "&eВойди в портал Энда, используя 12 уникальных глаз."
+			size: 1.5d
+			subtitle: "&eВойди в Портал Края, использовав двенадцать уникальных глаз."
 			tasks: [{
 				dimension: "minecraft:the_end"
 				icon: "minecraft:ender_eye"
 				id: "126F26CCB046CD5D"
-				title: "Вход в Энд"
+				title: "Входим в Край"
 				type: "dimension"
 			}]
-			title: "&dКонец?"
+			title: "&dКрай?"
 			x: 0.0d
-			y: -2.5d
+			y: -6.25d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "4E969D7F19948E4A"
 			optional: true
-			subtitle: "&7Выпадает из Древних Стражей (33%)"
+			rewards: [{
+				id: "5A02BC7629CD94C6"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Выпадает с Древних Стражей (33%)"
 			tasks: [{
 				id: "2B0F03865A9E31B9"
 				item: "endrem:guardian_eye"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.0d
+			x: -3.5d
+			y: 0.5d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "2BC3AA0B480C6828"
 			optional: true
-			subtitle: "&7Выпадает из Разрушителей (5%)"
+			rewards: [{
+				id: "5E21877F837E3A38"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Выпадает с Заклинателей (5%)"
 			tasks: [{
 				id: "5B03491401B0489E"
 				item: "endrem:magical_eye"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.5d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "3239B2CDB852E1C6"
 			optional: true
-			subtitle: "&7Выпадает из Визера."
+			rewards: [{
+				id: "395E6CF16ECAC8EC"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Выпадает с Иссушителя"
 			tasks: [{
 				id: "51D9182AB02AE780"
 				item: "endrem:wither_eye"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "6F658E35279100C8"
 			optional: true
-			subtitle: "&7Изготовлено с помощью глаза Ведьмы"
+			rewards: [{
+				id: "6C738CAB29066F68"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Создается при помощи Глаза Ведьмы"
 			tasks: [{
 				id: "3E473BEA23E8C1FE"
 				item: "endrem:witch_eye"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "6A9C9E7ADB45F1BE"
 			optional: true
-			subtitle: "&7Изготовлено с помощью Души Нежити."
+			rewards: [{
+				id: "7E4019A78606F716"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Создается при помощи Души Нежити"
 			tasks: [{
 				id: "278B4A1FD0493FD0"
 				item: "endrem:undead_eye"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: -5.5d
+			y: -0.5d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "35B7FDB1000EEAF9"
 			optional: true
-			subtitle: "&7Изготовлено с помощью водных предметов"
+			rewards: [{
+				id: "632C1950BAF535A1"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Создается при помощи морских предметов"
 			tasks: [{
 				id: "788EEC3D5D81C3AF"
 				item: "endrem:exotic_eye"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.5d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "263D24D35E699557"
 			optional: true
-			shape: "diamond"
-			subtitle: "&7Найден в закопанных сундуках"
+			rewards: [{
+				id: "3F92A970A0FF5A99"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Находится в Закопанных Сундуках"
 			tasks: [{
 				id: "1F9EF219BAB85A92"
 				item: "endrem:black_eye"
 				type: "item"
 			}]
 			x: 0.5d
-			y: -4.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "7F0434CFE9CAEF07"
 			optional: true
-			subtitle: "&7Найдено в Иглу."
+			rewards: [{
+				id: "289FCF851E27FCDA"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Находится в Иглу"
 			tasks: [{
 				id: "2CC6D9A1017107EB"
 				item: "endrem:cold_eye"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "6AD07DC2ED3C734D"
 			optional: true
-			shape: "diamond"
-			subtitle: "&7Найдено в форпостах разбойников"
+			rewards: [{
+				id: "64B2E2677517A32B"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Находится в Аванпостах Пилладжеров"
 			tasks: [{
 				id: "6D325AC3E295E65A"
 				item: "endrem:corrupted_eye"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "49EFA88FEABB1195"
 			optional: true
-			subtitle: "&7Найдено в шахтах."
+			rewards: [{
+				id: "77FF77815DAAD3C5"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Находится в Шахтах"
 			tasks: [{
 				id: "25DDD301B747C01E"
 				item: "endrem:lost_eye"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "62536E37C53A9260"
 			optional: true
-			subtitle: "&7Найдено в Крепостях Нижнего мира"
+			rewards: [{
+				id: "637F97E46B8DEAC8"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Находится в Адских Крепостях"
 			tasks: [{
 				id: "1C3BD6942EC2E46D"
 				item: "endrem:nether_eye"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: -7.5d
+			y: -1.5d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "7A601E36B70D975C"
 			optional: true
-			subtitle: "&7Найдено в пустынных пирамидах."
+			rewards: [{
+				id: "0AB2E4357609FFE6"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Находится в Песчаных Пирамидах"
 			tasks: [{
 				id: "1628A0166F3301FF"
 				item: "endrem:old_eye"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: -6.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "72EFFD1039B48784"
 			optional: true
-			subtitle: "&7Найдено в пирамидах джунглей"
+			rewards: [{
+				id: "14C35DDDABC4514E"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Находится в Пирамидах Джунглей"
 			tasks: [{
 				id: "1239D763D441A4BF"
 				item: "endrem:rogue_eye"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
-			description: ["&eПосле разблокировки торговли, товар не будет доступен до следующего дня."]
+			dependencies: ["37525863A9E5509D"]
+			description: ["&eКогда обмен разблокируется, он не будет доступен, пока не пройдет один день."]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "1B9101B42DCED261"
 			optional: true
-			subtitle: "&7Куплено у мастера-клирика."
+			rewards: [{
+				id: "07F4F7B24DC31FCA"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Покупается у мастера Священника"
 			tasks: [{
 				id: "7B812622B4A52172"
 				item: "endrem:evil_eye"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "3DE8FE441A0B051C"
 			optional: true
-			subtitle: "&7Найдено в Бастионе"
+			rewards: [{
+				id: "000C61BA51CC69B4"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Находится в Бастионах"
 			tasks: [{
 				id: "04E8914428590507"
 				item: "endrem:cursed_eye"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.5d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["37525863A9E5509D"]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "64E302C442B729B8"
 			optional: true
-			subtitle: "&7Создается слиянием на столе зачарования."
+			rewards: [{
+				id: "79961528D808EFF0"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			subtitle: "&7Наполняется в Столе Зачарований"
 			tasks: [{
 				id: "685E4965B8364BEC"
 				item: "endrem:cryptic_eye"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&7Добраться до Края не так легко, как тебе может показаться. Ты должен путешествовать по Миру, найти и убить определенные Места и Монстров. "
+				""
+				"&7То, сколько глаз тебе понадобится, зависит от твоей удачи при поиске Крепости. Тебе надо будет найти максимум 12."
+			]
+			hide_lock_icon: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:ender_eye"
+			id: "37525863A9E5509D"
+			rewards: [{
+				id: "7CC9F832F4AA90D1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "&e[Нажми для большей информации]"
+			tasks: [{
+				id: "50D87658349E58FB"
+				title: "Как добраться до Края"
+				type: "checkmark"
+			}]
+			title: "&d Как добраться до Края"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["37525863A9E5509D"]
+			description: ["&7Обычное Око Эндера не работает. Тебе нужные особые Глаза, которые могут быть либо найдены, либо выкуплены здесь. Нет никакой гарантии, что ты получишь тот глаз, который хочешь."]
+			hide_dependency_lines: true
+			hide_lock_icon: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:ender_eye"
+			id: "1607E83A33D2BA18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25902737E1AEC16C"
+				table_id: 1263016139763888054L
+				type: "random"
+			}]
+			subtitle: "[Нажми для большей информации]"
+			tasks: [
+				{
+					id: "669D5B86D3F9A3DB"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "52BD7DF4B89A6F0D"
+					item: "betterend:ender_shard"
+					type: "item"
+				}
+				{
+					id: "42FC1EED6DA5DC5E"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			title: "Торговля Глазами"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"48AADA398DC4E940"
+				"45D9C9CD7B2568A0"
+			]
+			dependency_requirement: "one_completed"
+			hide_lock_icon: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "422E507CE6A53B7C"
+			rewards: [{
+				id: "6128369E08E83040"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Убей Дракона и Освободи Край от Её Правления."
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "686E70E87F34DCAD"
+				type: "advancement"
+			}]
+			title: "&dОсвободи Край!"
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "betterend:blossom_berry"
+			id: "4A46A563FE486A35"
+			rewards: [{
+				id: "27F1D186B8322CFC"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				biome: "betterend:blossoming_spires"
+				icon: "betterend:blossom_berry"
+				id: "733BD5D23591BE9B"
+				title: "Посети Цветущие Пики"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"405ECED2C34FC488"
+				"3E1F65C1ABAE9FCB"
+			]
+			hide_until_deps_complete: true
+			icon: "eldritch_end:hasturian_moss"
+			id: "0AE2C4383B40418A"
+			rewards: [{
+				id: "42DFFDB399B1A920"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				biome: "eldritch_end:hasturian_wastes"
+				icon: "eldritch_end:hasturian_moss"
+				id: "4F2CAACD7E949134"
+				title: "Посети Хастурианские Стоки"
+				type: "biome"
+			}]
+			title: "Хастурианские Стоки"
+			x: 6.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "promenade:dark_amaranth_fungus"
+			id: "1C087F6048B1D89F"
+			rewards: [{
+				id: "3F2F2611047273A9"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				biome: "#promenade:dark_amaranth_forests"
+				icon: "promenade:dark_amaranth_fungus"
+				id: "6785D7C68E20E9F5"
+				title: "Посети Темные Леса Амарант"
+				type: "biome"
+			}]
+			title: "Темные Леса Амарант"
+			x: -5.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			id: "7D82D37287E1AE9A"
+			rewards: [{
+				id: "01701231482E2D02"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Ты чувствуешь, что за тобой наблюдают."
+			tasks: [{
+				biome: "betterend:shadow_forest"
+				icon: "betterend:shadow_grass"
+				id: "60BFD684913B8FE1"
+				title: "Посети Лес Теней"
+				type: "biome"
+			}]
+			title: "Лес Теней"
+			x: 5.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["7D82D37287E1AE9A"]
+			description: ["&7Ты чувствуешь, что Тени наблюдают за тобой. Это место не было создано для того, чтобы ты в нем остался. Что-то преследует тебя. Привнеси Свет в это богом забытое место."]
+			hide_until_deps_complete: true
+			id: "7BA9CD493FB66021"
+			rewards: [{
+				id: "656ECE30A8BC7A71"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Даже Тени могут быть смертоносны"
+			tasks: [{
+				entity: "betterend:shadow_walker"
+				id: "189FCBA68A345E94"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Убей Теневых Ходков"
+			x: 7.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "betterend:umbrella_tree_sapling"
+			id: "06F8BED924CB661F"
+			rewards: [{
+				id: "004DE5D59331786F"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Диву даешься, от чего же они тебя закрывают"
+			tasks: [{
+				biome: "betterend:umbrella_jungle"
+				icon: "betterend:umbrella_tree_sapling"
+				id: "28F1D0353F646410"
+				title: "Посети Зонтиковые Джунгли"
+				type: "biome"
+			}]
+			title: "Зонтиковые Джунгли"
+			x: -4.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["55829700C661DEA2"]
+			hide_until_deps_complete: true
+			icon: "minecraft:slime_ball"
+			id: "2576886EBE660522"
+			rewards: [
+				{
+					id: "1274D6CA8A89D28C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 6
+					id: "237DF77F8670E2CA"
+					item: "minecraft:slime_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "betterend:end_slime"
+				id: "7EA378AF5A2BBD93"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Убей Слизней Края"
+			x: -6.5d
+			y: -15.5d
+		}
+		{
+			dependencies: [
+				"405ECED2C34FC488"
+				"601BDBA6DF073CB0"
+			]
+			icon: "eldritch_end:aberration_heart"
+			id: "02F0E1B04F1A6E56"
+			rewards: [{
+				id: "0BCBB6A060AAAEF2"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				biome: "eldritch_end:primordial_abyss"
+				icon: "eldritch_end:aberration_heart"
+				id: "0583D9EE2E7FD1E5"
+				title: "Посети Первобытную Бездну"
+				type: "biome"
+			}]
+			title: "Первобытная Бездна"
+			x: -5.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "betterend:aurora_crystal"
+			id: "34830F8A8A4C01E3"
+			rewards: [{
+				id: "1675E465695E1B03"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				biome: "betterend:crystal_mountains"
+				icon: "betterend:crystal_moss"
+				id: "382AF43DB3D24391"
+				title: "Посети Кристаллические Горы"
+				type: "biome"
+			}]
+			title: "Кристаллические Горы"
+			x: 5.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["34830F8A8A4C01E3"]
+			description: ["&7Собери немного Кристаллов Авроры. Для некоторых Классов это жизненно важный ресурс."]
+			hide_until_deps_complete: true
+			id: "03C8A562B7B085BC"
+			rewards: [{
+				id: "54F60FE918AE65BE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "52884DF7905FDD4E"
+				item: "betterend:crystal_shards"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			description: ["&7Это отличное место для фарма Плодов Хоруса. Тебе понадобится Хорус для создания Галенита, &5лучшего материала для перековки предметов.&r"]
+			id: "21DB9F756402FE99"
+			rewards: [{
+				id: "5710B3059F24EF5E"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				biome: "betterend:chorus_forest"
+				icon: "minecraft:chorus_flower"
+				id: "6E9A40E1208E5A3F"
+				title: "Посети Хорусовый лес"
+				type: "biome"
+			}]
+			title: "Хорусовый Лес"
+			x: 4.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "betterend:ancient_emerald_ice"
+			id: "6137BF7FAD010A8C"
+			rewards: [{
+				id: "68BBE4DA0379B62C"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Не упади!"
+			tasks: [{
+				biome: "betterend:ice_starfield"
+				icon: "betterend:emerald_ice"
+				id: "745694612177C611"
+				title: "Посети Поле Ледяных Звезд"
+				type: "biome"
+			}]
+			title: "Поле Ледяных Звезд"
+			x: -4.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["6137BF7FAD010A8C"]
+			hide_until_deps_complete: true
+			id: "724350E7E4EECE3E"
+			rewards: [
+				{
+					id: "4DE1798FFB09BF81"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "121F34DAD8C13305"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "2341CA8951B8587B"
+				item: "betterend:ancient_emerald_ice"
+				title: "Собери немного Древнего Изумрудного Льда"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -23.5d
+		}
+		{
+			dependencies: [
+				"759AA6DD39277704"
+				"405ECED2C34FC488"
+			]
+			id: "402B764F72A6E30D"
+			rewards: [{
+				id: "12D6F39EE99A19BC"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				icon: "indrev:wither_proof_obsidian"
+				id: "680A00848FFC4F29"
+				structure: "bosses_of_mass_destruction:obsidilith_arena"
+				type: "structure"
+			}]
+			title: "&dАрена Обсидилита"
+			x: 5.5d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"402B764F72A6E30D"
+				"103203350DABF6BB"
+			]
+			description: ["&7Убей его."]
+			hide_until_deps_complete: true
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "065D169B3FC3AFC8"
+			rewards: [
+				{
+					id: "483AAACA8CFDB4BE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4D2042B244ED059C"
+					item: "things:hardening_catalyst"
+					type: "item"
+				}
+				{
+					id: "2561D3BD5A2D0205"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Существо, сотворенное из Камня и Ненависти, будет освобождено ещё раз."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "5F40E1B871CECC17"
+				title: "Убей Обсидилита"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убей &dОбсидилита"
+			x: 7.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			description: ["&7Пчелы или Собаки запрещены."]
+			icon: "betterend:amber_moss"
+			id: "2D897C539190F312"
+			rewards: [{
+				id: "4A45534FC56FEE18"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "А ты слышал о том, что он из Янтаря?"
+			tasks: [{
+				biome: "betterend:amber_land"
+				icon: "betterend:amber_gem"
+				id: "0B1F29254E47C522"
+				title: "Посети Янтарные Земли"
+				type: "biome"
+			}]
+			title: "Янтарные Земли"
+			x: 4.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "betterend:crystalline_sulphur"
+			id: "45E85B95F4D8B7AB"
+			rewards: [
+				{
+					id: "4FBEF1C4B4A39B50"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 4
+					id: "7AAE122EF9D7FAAF"
+					item: "betterend:crystalline_sulphur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:sulphur_springs"
+				icon: "betterend:crystalline_sulphur"
+				id: "544BAAEF870F2724"
+				title: "Посети Серные Источники"
+				type: "biome"
+			}]
+			title: "Серные Источники"
+			x: -6.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "betterend:flavolite_lantern"
+			id: "5122BBD24637C17B"
+			rewards: [{
+				id: "1E0467A839EF76A3"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Как Звезда на Небе"
+			tasks: [{
+				biome: "betterend:lantern_woods"
+				icon: "betterend:flavolite_lantern"
+				id: "69EB70E436621C9F"
+				title: "Посети Лес Фонарей"
+				type: "biome"
+			}]
+			title: "Лес Фонарей"
+			x: 3.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "minecraft:end_stone"
+			id: "67F94147E6403F5F"
+			rewards: [{
+				id: "1E217FB154164C3E"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				biome: "minecraft:end_highlands"
+				icon: "minecraft:end_stone"
+				id: "28F81956E29537E4"
+				title: "Посети Плато Края"
+				type: "biome"
+			}]
+			title: "Плато Края"
+			x: 1.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "minecraft:purpur_pillar"
+			id: "4B1BEDBB8D2DB24C"
+			rewards: [
+				{
+					id: "69E01C4AEC56ED4B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 6
+					id: "7E3463333780400E"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5939EE994FFD0FD2"
+					item: "expandeddelight:peanut_butter_honey_sandwich"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				icon: "minecraft:purpur_pillar"
+				id: "554D1ECC11FE60D5"
+				structure: "minecraft:end_city"
+				title: "Посети Город Края!"
+				type: "structure"
+			}]
+			title: "Найди &dГород Края!"
+			x: 0.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "betterend:end_moss"
+			id: "46EDABE48D816A5B"
+			rewards: [{
+				id: "01887E597155E4C8"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Светится!"
+			tasks: [{
+				biome: "betterend:glowing_grasslands"
+				icon: "betterend:end_moss"
+				id: "718F9608C09FF1E0"
+				title: "Посети Светящиеся Луга"
+				type: "biome"
+			}]
+			title: "Светящиеся Луга"
+			x: -3.0d
+			y: -23.0d
+		}
+		{
+			dependencies: [
+				"0AE2C4383B40418A"
+				"3E1F65C1ABAE9FCB"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "botania:gaia_head"
+			id: "282F91088DE123F7"
+			rewards: [{
+				id: "6932D584E63D8456"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "eldritch_end:dendler"
+				id: "4126797F526D12D2"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Убей Дендлеров"
+			x: 7.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "betterend:lacugrove_sapling"
+			id: "55829700C661DEA2"
+			rewards: [{
+				id: "2445DBF72FB06192"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				biome: "betterend:megalake_grove"
+				icon: "betterend:lacugrove_sapling"
+				id: "0392A2E1458AA1E6"
+				title: "Посети Рощу Мегаозера"
+				type: "biome"
+			}]
+			title: "Роща Мегаозера"
+			x: -5.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			description: ["&7Этот регион был заброшен не так давно, ты все ещё можешь увидеть следы в камне."]
+			icon: "betterend:umbralith"
+			id: "05A1A7ABDA3ACD3F"
+			rewards: [{
+				id: "7960DFF46D4075D9"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Однажды населенная расой Свиней."
+			tasks: [{
+				biome: "betterend:umbra_valley"
+				icon: "betterend:umbralith"
+				id: "2CFE72212E6641DF"
+				title: "Посети Долину Умбры"
+				type: "biome"
+			}]
+			title: "Долина Умбры"
+			x: 5.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "minecraft:obsidian"
+			id: "1F8141547C25B57A"
+			rewards: [{
+				id: "239A18B5DB1C3CCE"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				icon: "betternether:obsidian_tile"
+				id: "465F6B80085E0837"
+				structure: "philipsruins:end_gate_fortress"
+				title: "Посети Крепость Врат Края"
+				type: "structure"
+			}]
+			title: "Крепость Врат Края"
+			x: -4.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			description: ["&7Эти Разрушенные Корабли имеют похожий на Города Края Лут, стоит исследования, это уж точно!"]
+			icon: "eldritch_end:primordial_boat"
+			id: "5CCC87B841CF1BCB"
+			rewards: [{
+				id: "61BA8D7748023534"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Что появилось первым, Корабль или Крушение?"
+			tasks: [{
+				icon: "eldritch_end:primordial_chest_boat"
+				id: "608E524DE00DB966"
+				structure: "explorify:end_shipwreck"
+				title: "Найди Кораблекрушение"
+				type: "structure"
+			}]
+			title: "Кораблекрушение."
+			x: 3.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			description: ["&7Эти Деревни часто содержат кучу Жемчугов Края, Кузнечных Шаблонов, и иногда Слитков."]
+			icon: "betterend:shadow_berry_jelly"
+			id: "481A46B1A8D7DEBF"
+			rewards: [{
+				id: "5A78E2A5986BB99C"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Кто бы мог подумать, что тут есть Деревни?"
+			tasks: [{
+				icon: "betterend:mossy_glowshroom_door"
+				id: "3B9FFF6B7E6B0502"
+				structure: "betterend:end_village"
+				title: "Посети Деревню Края"
+				type: "structure"
+			}]
+			title: "Деревня Края"
+			x: -3.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "betterend:violecite"
+			id: "1FC2F5604CFAF8A2"
+			rewards: [{
+				id: "4AE77FC5E88CB421"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				biome: "betterend:painted_mountains"
+				icon: "betterend:violecite"
+				id: "1DF13FE507E86B64"
+				title: "Посети Окрашенные Горы"
+				type: "biome"
+			}]
+			title: "Окрашенные Горы"
+			x: -1.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["1FC2F5604CFAF8A2"]
+			description: [""]
+			hide_until_deps_complete: true
+			id: "0D01223246C4398B"
+			rewards: [{
+				id: "61E5606931C04FA9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 64L
+				id: "5E8AE32BC651BB0A"
+				item: "betterend:violecite"
+				type: "item"
+			}]
+			title: "Пикассо не смог бы сделать такое"
+			x: -2.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["4B1BEDBB8D2DB24C"]
+			description: ["&7Такие раздражающие, но все же такие полезные..."]
+			hide_until_deps_complete: true
+			icon: "minecraft:shulker_box"
+			id: "41922BF8A10343B3"
+			rewards: [
+				{
+					count: 16
+					id: "49EA29935ACF7EB9"
+					item: "ends_delight:shulker_omelette_mixture"
+					type: "item"
+				}
+				{
+					id: "3EC12382538C7F22"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:shulker"
+				icon: "minecraft:shulker_box"
+				id: "57280CCA6284F288"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Покончи с &eШалкерами!"
+			x: -1.5d
+			y: -28.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "betterend:flavolite_runed_eternal"
+			id: "624C916A1347DBB7"
+			rewards: [{
+				id: "58D524486F712C19"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Куда он ведет? Кто его сделал?"
+			tasks: [{
+				icon: "betterend:flavolite_runed_eternal"
+				id: "28F3F489D39A4E67"
+				structure: "betterend:eternal_portal"
+				title: "Найди Вечный Портал"
+				type: "structure"
+			}]
+			title: "Найди Вечный Портал"
+			x: 4.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["400CF2A570FC3814"]
+			description: ["&7Ты сделал это! Не все могут похвастаться Восстановлением такого древнего Артефакта."]
+			hide_until_deps_complete: true
+			id: "3BA590EA7252CD1F"
+			rewards: [
+				{
+					id: "26A086EB44307A83"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7ACE4742EE3079E9"
+					table_id: 1877317905884575919L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				advancement: "betterend:portal_on"
+				criterion: ""
+				id: "6417952D9BD8442B"
+				type: "advancement"
+			}]
+			title: "Свет Вечности"
+			x: 7.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["624C916A1347DBB7"]
+			description: ["&7Чтобы снова открыть Портал, сначала тебе надо его восстановить. Когда ты вернешь Портал в его первозданный вид, найди шесть Пьедесталов вокруг него. Положи все Кристаллы на них."]
+			hide_until_deps_complete: true
+			icon: "betterend:eternal_pedestal"
+			id: "400CF2A570FC3814"
+			rewards: [{
+				id: "31D7F4EAB5CACAE9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "[Нажми для большей информации]"
+			tasks: [{
+				count: 6L
+				id: "4788FB875074D5FD"
+				item: { Count: 6, id: "betterend:eternal_crystal" }
+				type: "item"
+			}]
+			title: "Собери Кристаллы Вечности"
+			x: 5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["422E507CE6A53B7C"]
+			description: ["&7Существует тонна вещей, которые ты можешь найти в Крае, и которые могут быть полезны. Это могут быть редкие руды или аксессуары, но нахождение Города Края должно быть твоим главным приоритетом."]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "405ECED2C34FC488"
+			rewards: [{
+				id: "79B5CBE2CFA326F5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "[Нажми для большей информации]"
+			tasks: [{
+				id: "31763D7165AA4BA0"
+				title: "Исследуй Край!"
+				type: "checkmark"
+			}]
+			title: "&dИсследуй Край"
+			x: 0.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["4A46A563FE486A35"]
+			description: ["&7Эти странные бревна Гипнотизируют тебя странным образом. Ты хочешь их."]
+			hide_until_deps_complete: true
+			id: "74409F6413DCA7DC"
+			rewards: [{
+				id: "1410A5B9C7D41E11"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 32L
+				id: "0A8611416AE83925"
+				item: { Count: 32, id: "betterend:tenanea_log" }
+				type: "item"
+			}]
+			title: "Внутри выглядит как Ягода"
+			x: -7.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["45E85B95F4D8B7AB"]
+			description: ["&7Я бы был осторожен, храня их, от них воняет Серой."]
+			hide_until_deps_complete: true
+			id: "686AF3C40B2C2830"
+			rewards: [{
+				id: "3B472C731B830688"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 32L
+				id: "445867A85D6F361D"
+				item: { Count: 32, id: "betterend:brimstone" }
+				type: "item"
+			}]
+			title: "Мне кажется, или тут пахнет Гнилыми яйцами?"
+			x: -7.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["1C087F6048B1D89F"]
+			description: ["&3 Это место просто ужасает, забери пару вещей отсюда, и больше не возвращайся. Чертовы Пауки."]
+			hide_until_deps_complete: true
+			icon: "promenade:dark_amaranth_stem"
+			id: "23735EF40AE7D130"
+			rewards: [{
+				id: "5B38A48C709A25E7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					count: 32L
+					id: "2141C9AAA95F6EA7"
+					item: "promenade:dark_amaranth_stem"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "09D11C582B041EEF"
+					item: { Count: 10, id: "minecraft:cobweb" }
+					type: "item"
+				}
+			]
+			title: "Очень темное место"
+			x: -7.5d
+			y: -20.0d
+		}
+		{
+			dependencies: [
+				"02F0E1B04F1A6E56"
+				"601BDBA6DF073CB0"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "6A712C7EBB12A44F"
+			rewards: [
+				{
+					id: "6E13B9EC6ADE6933"
+					item: "eldritch_end:aberration_heart"
+					type: "item"
+				}
+				{
+					id: "3B00A3083532C4C6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				entity: "eldritch_end:aberration"
+				id: "1E6D5CCC39E7C745"
+				type: "kill"
+				value: 400L
+			}]
+			title: "Убей Помрачение"
+			x: -7.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["06F8BED924CB661F"]
+			hide_until_deps_complete: true
+			id: "3173BAE60DB10C3E"
+			rewards: [
+				{
+					id: "3B550F2FF422E28D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3F94DEB6FAC4C90D"
+					item: "convenientdecor:purple_umbrella"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "41C472F9CBB4AE14"
+				item: { Count: 64, id: "betterend:umbrella_tree_log" }
+				type: "item"
+			}]
+			title: "Из этого нельзя делать Зонтик"
+			x: -6.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["05A1A7ABDA3ACD3F"]
+			description: ["&7Собери немного Умбралита в качестве сувенира и возможной научной пользы. Куда делись эти Свиньи?"]
+			hide_until_deps_complete: true
+			id: "642B50C17F82E65F"
+			rewards: [{
+				id: "491009CB60387682"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 64L
+				id: "494451A5A9C81525"
+				item: { Count: 64, id: "betterend:umbralith" }
+				type: "item"
+			}]
+			title: "Собери немного Умбралита"
+			x: 6.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["46EDABE48D816A5B"]
+			description: ["&7Не то чтобы они были созданы для Попкорна, ты ведь не хочешь светиться, так?"]
+			hide_until_deps_complete: true
+			id: "4760AE66CBC29443"
+			rewards: [{
+				id: "481B7DB9A881771D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 128L
+				id: "2DC28575B34DF35C"
+				item: "betterend:lumecorn_rod"
+				title: "Собери немного Люмекорна!"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["1F8141547C25B57A"]
+			hide_until_deps_complete: true
+			icon: "minecraft:shulker_shell"
+			id: "641209B1DEA1CB6D"
+			rewards: [
+				{
+					id: "1F2B281A798363DF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 16
+					id: "7C406A6A80E2FE80"
+					item: "ends_delight:shulker_meat"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "7F78BDEC36A4519C"
+				type: "kill"
+				value: 25L
+			}]
+			x: -5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["481A46B1A8D7DEBF"]
+			hide_until_deps_complete: true
+			icon: "betterend:shadow_berry_cooked"
+			id: "614D885F3619658F"
+			rewards: [
+				{
+					id: "4062FF9EA38DC351"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 16
+					id: "5350F5687A1597B7"
+					item: "betterend:aeternium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "468BEF02334EC129"
+					item: { Count: 10, id: "betterend:menger_sponge" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6D2C8846F88DBB13"
+					item: { Count: 10, id: "betterend:shadow_berry_cooked" }
+					type: "item"
+				}
+			]
+			title: "Собери пару крутых штук с Деревни!"
+			x: -4.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["4B1BEDBB8D2DB24C"]
+			hide_until_deps_complete: true
+			icon: "supplementaries:enderman_head"
+			id: "52B8FFA8E721BE05"
+			rewards: [
+				{
+					id: "0C339F0F3504B25A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0D1744608FDF1A0E"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "mutantmonsters:chemical_x"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "533E7472CE1493E5"
+					item: "ends_delight:enderman_gristle_stew"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "supplementaries:enderman_head"
+				id: "215E768581A66485"
+				title: "Убей Эндерменов"
+				type: "kill"
+				value: 400L
+			}]
+			title: "Покончи с Эндерменами"
+			x: 1.5d
+			y: -28.5d
+		}
+		{
+			dependencies: ["52B8FFA8E721BE05"]
+			description: ["&7Убей это жалкое Нечто прежде, чем оно станет проблемой для тебя."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "mutantmonsters:endersoul_hand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "15AC981E237E9696"
+			rewards: [
+				{
+					id: "249734EE24CD0652"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1948AEA72922B126"
+					item: {
+						Count: 1
+						id: "immersive_melodies:ender_bass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5700D299C93827C0"
+					item: "ends_delight:ender_congee"
+					type: "item"
+				}
+			]
+			subtitle: "Сожги Еретика, Очисти Нечисть"
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				id: "45CB521DB95B822E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убей Мутанта"
+			x: 0.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["4B1BEDBB8D2DB24C"]
+			hide_until_deps_complete: true
+			icon: "artifacts:onion_ring"
+			id: "4449BA89F2428F67"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "360ABDD816E2A97C"
+					table_id: 1877317905884575919L
+					type: "choice"
+				}
+				{
+					id: "197E413AE4F6886B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "3A5448F49C30E41D"
+					title: "Аксессуары 4 Уровня"
+					type: "checkmark"
+				}
+				{
+					entity: "minecraft:shulker"
+					id: "1D83887F1C94C8C1"
+					title: "Убей Шалкера"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "617DE7D9E928FF76"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "rpg_series:tier_3_accessories"
+						}
+					}
+					title: "Получи любые аксессуары Уровня IV"
+					type: "item"
+				}
+			]
+			title: "&dАксессуары 4 Уровня"
+			x: 2.0d
+			y: -26.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "icarus:white_dragon_wings"
+			id: "18F74B2D3AF2364F"
+			rewards: [{
+				id: "607FFDBE1E599230"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "60E59659D9108F6B"
+				structure: "dungeons_arise:heavenly_rider"
+				type: "structure"
+			}]
+			title: "&dНебесный Наездник"
+			x: 2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["405ECED2C34FC488"]
+			icon: "icarus:pink_dragon_wings"
+			id: "2BB4AB6CC24236CF"
+			rewards: [{
+				id: "7956195F8A40C05C"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Непораженный Веками"
+			tasks: [{
+				icon: "icarus:white_mechanical_feathered_wings"
+				id: "53217031F6A5172A"
+				structure: "dungeons_arise:heavenly_challenger"
+				title: "Посети Небесного Испытателя"
+				type: "structure"
+			}]
+			title: "&dНебесный Испытатель"
+			x: -2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["18F74B2D3AF2364F"]
+			hide_until_deps_complete: true
+			id: "6D2010BEB8C8B173"
+			rewards: [{
+				id: "12B635DFB83EF1FE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "minecraft:phantom"
+				icon: "handcrafted:phantom_trophy"
+				id: "01A084B598672A74"
+				title: "Убей Фантомов"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Убей этих Вредителей"
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2BB4AB6CC24236CF"]
+			hide_until_deps_complete: true
+			icon: "handcrafted:phantom_trophy"
+			id: "3D7B796B17C97492"
+			rewards: [{
+				id: "3540B6C611893F1C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "minecraft:phantom"
+				icon: "handcrafted:phantom_trophy"
+				id: "15E1B531AFBB2583"
+				title: "Убей Фантомов"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Убей этих Вредителей"
+			x: -3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5CCC87B841CF1BCB"]
+			description: ["&7Эти могут пригодится, не только для постройки, но и если ты захочешь занятся Индастриалом. Лучше будет, если ты оставишь немного у себя."]
+			hide_until_deps_complete: true
+			id: "0DF7D1A42CF5C386"
+			rewards: [{
+				id: "0FEE7F693ACFB237"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 16L
+				id: "6B60B0490A0C20CA"
+				item: { Count: 16, id: "minecraft:purpur_block" }
+				type: "item"
+			}]
+			title: "Собери немного Пурпурных Блоков"
+			x: 4.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["21DB9F756402FE99"]
+			hide_until_deps_complete: true
+			id: "3AF0AAB04A784FE2"
+			rewards: [{
+				id: "7F00DDB167E90601"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 128L
+				id: "6C03B40C632B1FEF"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			title: "Собери немного &dПлодов Хоруса!"
+			x: 6.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["3AF0AAB04A784FE2"]
+			description: ["&7Куски Галенита имеют наивысший шанс получения &4Мифического Качества&r &7на твоем Оружии, Инструментах и Броне! Тебе понадобится куча таких, чтоб перековать все на Мифический."]
+			hide_until_deps_complete: true
+			id: "7D339BE12B3D500A"
+			rewards: [
+				{
+					id: "4E3E0D57197D2EBF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 32
+					id: "6B5C98D1581377EE"
+					item: "tiered:galena_chunk"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "3FCB6BFAE39DCC05"
+				item: { Count: 64, id: "tiered:galena_chunk" }
+				type: "item"
+			}]
+			title: "&dКуски галенита"
+			x: 8.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["2D897C539190F312"]
+			hide_until_deps_complete: true
+			id: "147C2CC7E0403220"
+			rewards: [{
+				id: "2609EA821AAEABEF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 32L
+				id: "4BC8B1A5C984D169"
+				item: { Count: 32, id: "betterend:lacugrove_log" }
+				type: "item"
+			}]
+			title: "Собери немного Бревен"
+			x: 5.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["5122BBD24637C17B"]
+			description: ["&7Эти бревна отличны для Декорации, ты точно должен немного собрать."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "55A99787ABAF18D9"
+			rewards: [{
+				id: "603236ABD1154500"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 64L
+				id: "2B1B3396C929C6CD"
+				item: { Count: 64, id: "betterend:lucernia_log" }
+				type: "item"
+			}]
+			title: "Собери немного бревен"
+			x: 4.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["67F94147E6403F5F"]
+			description: ["&7Этот иногда надоедливый Камень может пригодиться чуть позже."]
+			hide_until_deps_complete: true
+			id: "15C0C0463C99F485"
+			rewards: [{
+				id: "0E70B6223BAFDC8B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 256L
+				id: "62F9266F229BF195"
+				item: "betterend:flavolite"
+				type: "item"
+			}]
+			title: "Как Эндерняк, но более раздражающий."
+			x: 2.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["4B1BEDBB8D2DB24C"]
+			description: ["&7Убийство монстров в Краю Ножом может дать полезные Ингредиенты для Готовки невероятно мощных Блюд."]
+			hide_until_deps_complete: true
+			icon: "ends_delight:dragon_leg"
+			id: "725105B81E806A55"
+			rewards: [
+				{
+					id: "6A05D291903F572A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E4C43FFB5D55DC8"
+					item: "ends_delight:fried_dragon_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "559DF372356CA176"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:tools/knives"
+					}
+				}
+				title: "Любые Ножи"
+				type: "item"
+			}]
+			title: "Радости Края!"
+			x: -2.0d
+			y: -26.5d
+		}
+		{
+			dependencies: [
+				"48AADA398DC4E940"
+				"405ECED2C34FC488"
+			]
+			dependency_requirement: "all_started"
+			description: [
+				"&7Крылья Икара похожи на Элитры, только лучше. У них нет Прочности и они идут в слот Плаща. Им &5даже не нужны&r &7Феерверки!! "
+				"&7Какие бы Крылья ты не сделал, &5&nони все одинаковые.&r&r"
+				"&7Крылья, созданные с помощью &5Звезды Незера&r &7не &5забирают Насыщение или Голод&r &7у тебя."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0F9166A5CBEB4E3E"
+			rewards: [{
+				id: "5B46D6F75B7C8B19"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "pentagon"
+			subtitle: "[Нажми для большей информации]"
+			tasks: [{
+				id: "5A3A11C6A327797B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "icarus:wings"
+					}
+				}
+				title: "Craft any of the Wings"
+				type: "item"
+			}]
+			title: "О Бедный &eИкар..."
+			x: 0.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["37525863A9E5509D"]
+			description: ["&7Этот компас, даже учитывая, что он будет стоить тебе пару Трофеев, является лучшей вещью, которую только можно сделать, так как он делает нахождение Структур невероятно легким, и сэкономит тебе часы."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "30794D704F5985D1"
+			rewards: [{
+				id: "265CADC7DEE444ED"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "Самый полезный инструмент для Пламерожденного!"
+			tasks: [
+				{
+					id: "4ADC0ECC8611C3A1"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6BDECA3C28E70619"
+					type: "checkmark"
+				}
+			]
+			x: -2.5d
+			y: 6.0d
 		}
 	]
-	title: " &dЭнд"
+	title: " &dКрай"
 }
