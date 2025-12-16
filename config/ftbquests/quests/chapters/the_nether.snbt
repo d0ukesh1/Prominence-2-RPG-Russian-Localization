@@ -1,18 +1,1205 @@
 {
+	autofocus_id: "46D0AAEEB69E28B3"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_nether"
 	group: "3E586F2160161EEA"
 	icon: "minecraft:obsidian"
 	id: "0D7FF8F037EFF568"
-	images: [{
-		height: 3.5d
-		image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
-		rotation: 0.0d
-		width: 3.5d
-		x: -5.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			height: 3.5d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.3d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "minecells:block/colored_torch/promenade"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecells:block/colored_torch/promenade"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecells:block/colored_torch/promenade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecells:block/colored_torch/promenade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.3d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.3d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependency: "7E1C1CEE751827EF"
+			height: 1.3d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependency: "37471F11BB69BA89"
+			height: 2.0d
+			image: "powah:block/magmator_face_lit"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependency: "42C1B494F003A1A4"
+			height: 2.0d
+			image: "minecraft:block/lava_flow"
+			rotation: 45.0d
+			width: 2.0d
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependency: "6117CFB58B0046FA"
+			height: 1.0d
+			image: "mythicupgrades:block/sapphire_crystal_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependency: "6117CFB58B0046FA"
+			height: 1.0d
+			image: "mythicupgrades:block/sapphire_crystal_cluster"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.65d
+		}
+		{
+			dependency: "6117CFB58B0046FA"
+			height: 1.0d
+			image: "mythicupgrades:block/sapphire_crystal_cluster"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.2d
+			y: 2.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "betternether:block/nether_lapis_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "betternether:block/nether_lapis_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "betternether:block/nether_lapis_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependency: "4CCF58C57DA46BA3"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependency: "4CCF58C57DA46BA3"
+			height: 1.15d
+			image: "minecraft:block/nether_quartz_ore1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependency: "4CCF58C57DA46BA3"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependency: "4CCF58C57DA46BA3"
+			height: 1.15d
+			image: "minecraft:block/nether_quartz_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			dependency: "4CCF58C57DA46BA3"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependency: "4CCF58C57DA46BA3"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/netherite_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/ancient_debris_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/ancient_debris_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependency: "106CC409603CF580"
+			height: 1.15d
+			image: "techreborn:block/ore/pyrite_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependency: "106CC409603CF580"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependency: "106CC409603CF580"
+			height: 1.15d
+			image: "techreborn:block/ore/pyrite_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependency: "106CC409603CF580"
+			height: 1.15d
+			image: "techreborn:block/ore/pyrite_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependency: "106CC409603CF580"
+			height: 1.15d
+			image: "minecraft:block/netherrack3"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			dependency: "106CC409603CF580"
+			height: 1.15d
+			image: "minecraft:block/netherrack1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "minecraft:block/netherrack1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "techreborn:block/ore/cinnabar_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "techreborn:block/ore/cinnabar_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "techreborn:block/ore/cinnabar_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "minecraft:block/netherrack3"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependency: "0259F3EAA2AAE635"
+			height: 2.5d
+			image: "prominent:textures/boss_icons/guantlet.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			dependency: "3963B69A10D95565"
+			height: 1.0d
+			image: "prominent:textures/boss_icons/blackstone_golem.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -12.0d
+		}
+		{
+			dependency: "2F11604C9E2C0353"
+			height: 1.0d
+			image: "soulsweapons:item/withered_demon_heart"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			dependency: "4C570FA09FFFB747"
+			height: 2.0d
+			image: "minecraft:item/golden_axe"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependency: "136DD633F7293AD7"
+			height: 2.0d
+			image: "minecraft:item/blaze_rod"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependency: "08A63F0788D096E5"
+			height: 2.0d
+			image: "adventurez:textures/misc/withered.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependency: "2E2780EDD5B76B92"
+			height: 2.0d
+			image: "moretotems:item/ghastly_totem_of_undying"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependency: "05BDE171AC03527B"
+			height: 3.0d
+			image: "mcdw:item/crossbows/pride_of_the_piglins"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependency: "5D08172CBB91A031"
+			height: 2.0d
+			image: "death_knights:item/runes/blood_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependency: "2C7EFCB0E8AB1FEB"
+			height: 1.15d
+			image: "minecraft:block/netherrack4"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependency: "2C7EFCB0E8AB1FEB"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependency: "16DB148BA3164A6C"
+			height: 1.15d
+			image: "techreborn:block/ore/sphalerite_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "minecraft:block/netherrack1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "betternether:block/nether_ruby_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "betternether:block/nether_ruby_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependency: "16DB148BA3164A6C"
+			height: 1.15d
+			image: "minecraft:block/netherrack3"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependency: "16DB148BA3164A6C"
+			height: 1.15d
+			image: "minecraft:block/netherrack3"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "minecraft:block/netherrack3"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependency: "16DB148BA3164A6C"
+			height: 1.15d
+			image: "techreborn:block/ore/sphalerite_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "minecraft:block/bedrock"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "minecraft:block/bedrock1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "minecraft:block/bedrock"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "betternether:block/nether_ruby_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "minecraft:block/bedrock2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "minecraft:block/bedrock"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "minecraft:block/bedrock"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependency: "16DB148BA3164A6C"
+			height: 1.15d
+			image: "minecraft:block/bedrock2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependency: "2C7EFCB0E8AB1FEB"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependency: "2C7EFCB0E8AB1FEB"
+			height: 1.15d
+			image: "mythicupgrades:block/ruby_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependency: "2C7EFCB0E8AB1FEB"
+			height: 1.15d
+			image: "mythicupgrades:block/ruby_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependency: "6C2351611B49C31B"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependency: "6C2351611B49C31B"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependency: "6C2351611B49C31B"
+			height: 1.15d
+			image: "betternether:block/cincinnasite_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependency: "6C2351611B49C31B"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "chipped:block/pointed_dripstone/netherrack_pointed_dripstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependency: "08CB4E635F213187"
+			height: 1.5d
+			image: "netherdepthsupgrade:block/crimson_seagrass"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependency: "08CB4E635F213187"
+			height: 1.5d
+			image: "minecraft:block/netherrack3"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.5d
+			y: 5.8d
+		}
+		{
+			dependency: "4C570FA09FFFB747"
+			height: 1.0d
+			image: "endrem:item/nether_eye"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependency: "6B6F6C7F9DCDF904"
+			height: 3.0d
+			image: "archon:item/soul_scythe"
+			rotation: 45.0d
+			width: 3.0d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependency: "5D08172CBB91A031"
+			height: 1.0d
+			image: "prominent:textures/icon/talent_tree/magic_type/blood.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -5.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -46,35 +1233,41 @@
 				type: "dimension"
 			}]
 			title: "Войди в &cАд"
-			x: -5.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			hide_dependency_lines: true
+			dependencies: ["6DFEDDFC27B1708C"]
 			id: "5B11DB2289D4F66C"
-			rewards: [{
-				id: "6DD706B856271577"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			shape: "pentagon"
-			subtitle: "Появляется рядом с &6Рассадником Всполохов &7в &4Адских Крепостях&7 но также может появится в &4Адских Пустошах."
+			rewards: [
+				{
+					id: "6DD706B856271577"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "77A437E1D0272106"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Появляется рядом со &6Спавнерами Всполохов &7в &4адских крепостях&7, но также может появиться в &4Пустошах Ада."
 			tasks: [{
 				entity: "adventurez:blaze_guardian"
 				icon: "minecraft:blaze_rod"
 				id: "4DBABAE3AE00C903"
-				title: "Убей Стража пламени"
+				title: "Убей Стража Пламени"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Убей &6Стража пламени"
-			x: -7.5d
-			y: -2.0d
+			title: "Убей &6Стража Пламени"
+			x: 1.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			hide_dependency_lines: true
+			dependencies: ["6DFEDDFC27B1708C"]
 			id: "69872C1F1CCBDEBD"
 			rewards: [
 				{
@@ -89,7 +1282,7 @@
 					type: "item"
 				}
 			]
-			shape: "pentagon"
+			shape: "diamond"
 			subtitle: "Появляется в &4Адских крепостях&r."
 			tasks: [{
 				entity: "adventurez:necromancer"
@@ -100,16 +1293,29 @@
 				value: 1L
 			}]
 			title: "Убей &8Некроманта"
-			x: -2.5d
-			y: -2.0d
+			x: -1.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
+			dependencies: ["5C67FB6AB484E924"]
 			description: [""]
-			hide_dependency_lines: true
+			hide_lock_icon: true
 			id: "3963B69A10D95565"
-			shape: "pentagon"
-			subtitle: "&8Каменный Голем&r может быть только призван &6Ритуалом Голема&r в &4Аду&f (используйте для большей информации)"
+			rewards: [
+				{
+					count: 6
+					id: "7A7026A63C884D5E"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "335188DF651A3969"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8Каменный Голем &rможет быть призван только с помощью &6Ритуала Големов&r в &4Аду"
 			tasks: [{
 				entity: "adventurez:blackstone_golem"
 				icon: "adventurez:blackstone_golem_heart"
@@ -119,58 +1325,62 @@
 				value: 1L
 			}]
 			title: "Убей &8Чернитового Голема"
-			x: -5.0d
-			y: -3.0d
+			x: -2.5d
+			y: -10.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			hide_dependency_lines: true
+			dependencies: ["6DFEDDFC27B1708C"]
+			description: ["&7Тебе надо будет убить этих Существо, если ты захочешь призвать Разлагающегося Короля снова. Просто расплавь их Сердца в &4Куски Демонита.&r"]
+			icon: "soulsweapons:withered_demon_heart"
 			id: "4BCD1F2BA84D70D7"
-			rewards: [
+			rewards: [{
+				id: "4682C347018D1DDC"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "diamond"
+			subtitle: "Появляется в Багряных Лесах в &4Аду&r."
+			tasks: [
 				{
-					id: "1D8B697841671F20"
-					item: {
-						Count: 1
-						id: "soulsweapons:withered_wabbajack"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					entity: "soulsweapons:withered_demon"
+					icon: "soulsweapons:withered_demon_heart"
+					id: "239ACDE3872515BB"
+					title: "Убей Иссохшего Демона"
+					type: "kill"
+					value: 1L
 				}
 				{
-					id: "4682C347018D1DDC"
-					type: "xp_levels"
-					xp_levels: 6
+					biome: "minecraft:crimson_forest"
+					icon: "minecraft:crimson_fungus"
+					id: "691C9F1FD61C9432"
+					title: "Посети Багряный Лес"
+					type: "biome"
 				}
 			]
-			shape: "pentagon"
-			subtitle: "Находиться в &4Багряных Лесах&r."
-			tasks: [{
-				entity: "soulsweapons:withered_demon"
-				icon: "soulsweapons:withered_demon_heart"
-				id: "239ACDE3872515BB"
-				title: "Убей Иссохшего Демона"
-				type: "kill"
-				value: 1L
-			}]
 			title: "Убей &8Иссохшего Демона"
-			x: -5.0d
-			y: 3.0d
+			x: -3.5d
+			y: -9.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			description: ["Это проклятое чудовище носит Клинок Даркина, имея при себе много смертельных атак которых нужно опасаться. Его убийство даёт Клинок Даркина, Душу Лорда и Иссохшее Сердце Демона."]
-			hide_dependency_lines: true
+			dependencies: ["50EA81AA3B7714E9"]
+			description: ["Разлагающийся Король появляется в остатках Разлагающегося Королевства в аду. Это проклятое чудовище орудует Клинком Мрака, и имеет много смертельных атак, которых стоит опасаться. При его убийстве выпадает Клинок Мрака, Душа Лорда и Сердце Иссохшего Демона."]
 			icon: "soulsweapons:lord_soul_red"
 			id: "2F11604C9E2C0353"
-			rewards: [{
-				id: "28AA4F3CC36D1AFD"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "pentagon"
-			subtitle: "Находится в &4Остатках Разлагающегося Королевства&r."
+			rewards: [
+				{
+					id: "28AA4F3CC36D1AFD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "65EA697E7601BE34"
+					item: "soulsweapons:molten_demon_heart"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Появляется в &4Остатках Разлагающегося Королевства&r."
 			tasks: [{
 				entity: "soulsweapons:accursed_lord_boss"
 				icon: "soulsweapons:lord_soul_red"
@@ -179,12 +1389,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
-			y: 2.0d
+			x: 2.5d
+			y: -10.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			hide_dependency_lines: true
+			dependencies: ["6DFEDDFC27B1708C"]
 			id: "6B7553ECE9DF7675"
 			rewards: [
 				{
@@ -199,8 +1408,8 @@
 					type: "item"
 				}
 			]
-			shape: "pentagon"
-			subtitle: "Жнец Душ находиться в &bдолине песчаного песка&r со своим скакуном, Кошмаром."
+			shape: "diamond"
+			subtitle: "Жнец Душ появляется в &bдолине песка душ&r со своим скакуном, Кошмаром."
 			tasks: [{
 				entity: "adventurez:soul_reaper"
 				icon: "soulsweapons:lord_soul_void"
@@ -209,9 +1418,1106 @@
 				type: "kill"
 				value: 1L
 			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: [
+				"Ты играешь в Майнкрафт с модами, значит, &1нет никакой нужды копаться часами&r в Аду для получения кучки лома."
+				""
+				"&4Нахождение Адского Города.&r Эти Города приносят блоки Незерита и кучу другого хорошего снаряжения, которое может помочь тебе в твоем путешествии. &eГород сделан в основном из Кварца и Цинцинназита.&r"
+				""
+				"&4Нахождение Черной Спирали в Аду&r. В них находятся очень много Пиглинов и очень много ценного. Хорошенько прокопайся в Башнях. Структура в основном сделана из Чернита, и, кажется, Башни друг с другом соединены."
+				""
+				"&4Технологии.&r Если ты уже потратил свое время, копаясь, или получил Древние Обломки другим путем, есть много способов увеличить то, что у тебя уже есть. Ты можешь увеличить количество лома в 8 раз с правильной установкой."
+				"Конечно, ты всегда можешь использовать &9UU-Материю&r из Tech Reborn, чтобы сделать почти бесконечный запас Незерита."
+			]
+			id: "1702057B5F68995F"
+			rewards: [
+				{
+					id: "706FFFCC982E2EF4"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "334E39445B57692C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Древний по природе"
+			tasks: [{
+				id: "676A410C4E5D491F"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Незерит"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			description: ["&7В аду есть немало Боссов, с которыми ты можешь сразится, некоторые послабее, некоторые уже могут представлять Угрозу."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "6DFEDDFC27B1708C"
+			rewards: [{
+				id: "179C23D230FCD993"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "617FA660C1E4E06A"
+				title: "Боссы"
+				type: "checkmark"
+			}]
+			title: "&5Боссы в Аду"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6DFEDDFC27B1708C"
+				"759AA6DD39277704"
+			]
+			description: [
+				"&7Тебе понадобится Платформа, сделанная из &4ванильных Блоков Чернита&r. Пьедесталы должны быть Платформой 9x9"
+				"&7Пьедесталы должны быть &4на том же уровне&r &7как и вся остальная Зона 9x9. Грубый план Платформы можно увидеть здесь:"
+				""
+				""
+				"              ☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"&8i&r ☐☐☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"              ☐"
+			]
+			icon: "adventurez:gilded_blackstone_shard"
+			id: "5C67FB6AB484E924"
+			rewards: [{
+				id: "1501F054D1DD6B48"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "[Нажми для большей информации]"
+			tasks: [
+				{
+					id: "75EA2905DFCCB778"
+					title: "Подготовься к Ритуалу"
+					type: "checkmark"
+				}
+				{
+					id: "6A8925C881E20BBE"
+					item: "adventurez:gilded_blackstone_shard"
+					optional_task: true
+					title: "Собери 4 Позолоченных Чернитовых Осколка"
+					type: "item"
+				}
+			]
+			title: "&4Ритуал Чернитового Голема"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "56D3A3CFEF28BF91"
+			tasks: [{
+				id: "3ACD2A8DD6A81D08"
+				type: "checkmark"
+			}]
+			title: "&5Руды в Аду"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&eПирит&r &7- это одна из самых важных Руд в Prominence. Тебе понадобится Пирит для перековки предметов на более хороший Уровень. Добудь как можно больше этой руды."]
+			id: "106CC409603CF580"
+			rewards: [
+				{
+					count: 16
+					id: "3A611EDCC8351D5B"
+					item: "tiered:pyrite_chunk"
+					type: "item"
+				}
+				{
+					id: "16226E725EC16ACE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Эссенция Легенд"
+			tasks: [{
+				id: "65712D20901D5430"
+				item: "techreborn:pyrite_dust"
+				type: "item"
+			}]
+			title: "Пирит"
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7Киноварь - это очень важный Компонент для всех Начинающих Инженеров и Дизайнеров Сетей."]
+			id: "2BC22D85AC835C6D"
+			rewards: [{
+				count: 32
+				id: "26C45FD0870B8330"
+				item: "techreborn:cinnabar_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FE8D787D3A76E89"
+				item: "techreborn:cinnabar_dust"
+				type: "item"
+			}]
 			x: -7.5d
-			y: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: [""]
+			id: "4CCF58C57DA46BA3"
+			rewards: [
+				{
+					count: 16
+					id: "050E890F362AA47B"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+				{
+					id: "6F5F53F578BE6B8E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Старый и Надежный"
+			tasks: [{
+				id: "4CAE630026F76194"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7Несмотря на то, что Лазурит может быть найден в Аду, его Резервы довольно ограничены, как ты узнаешь."]
+			id: "24799CCC326B5B68"
+			rewards: [
+				{
+					count: 16
+					id: "0897D39FAC0137E5"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "4C8DAE60317B28B0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Поговорим о легком сначала."
+			tasks: [{
+				id: "52AD925B0DC9A43C"
+				item: "betternether:lapis_pile"
+				type: "item"
+			}]
+			title: "Серьёзно?"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7Ты знаешь, что это такое, ты знаешь, зачем это использовать."]
+			id: "6AE07BBF58A0BE64"
+			rewards: [{
+				count: 16
+				id: "69B567155409733C"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B1C572634753DCF"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			title: "&3Радиоактивный? не"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7Тебе кажется, будто ты уже видел этот материал, очень давно, ты не знаешь, откуда он или что он делает, но ты чувствуешь какую-то Ностальгию, касаясь его. Оно согревает твое Сердце странным образом."]
+			id: "5D07AE294BBFED13"
+			rewards: [
+				{
+					count: 12
+					id: "0BBA30DE9D9176AA"
+					item: "betternether:nether_ruby"
+					type: "item"
+				}
+				{
+					id: "08DED57F37A9E5FD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Теплый при прикосновении"
+			tasks: [{
+				id: "6397BA7693A49A90"
+				item: "betternether:nether_ruby"
+				type: "item"
+			}]
+			title: "&4Рубин Нижнего Мира"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7Сфалерит - это руда, содержащая Цинк и Серу, отличная для получения обоих, но вонь просто ужасная."]
+			id: "16DB148BA3164A6C"
+			rewards: [
+				{
+					count: 16
+					id: "16C493D1367D36C9"
+					item: "techreborn:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "32BC480BCC9B1C98"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Кто-нибудь ещё чувствует запах гнилых яиц?"
+			tasks: [{
+				id: "1175A33C92547D32"
+				item: "techreborn:sphalerite_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7Этот Металл может использоваться также, как и Железо, но у него есть и особые применения."]
+			id: "6C2351611B49C31B"
+			rewards: [
+				{
+					id: "406D77FAD30531D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "1ED4E2711BC4803B"
+					item: "betternether:cincinnasite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5DA7ABE643272753"
+				item: "betternether:cincinnasite"
+				type: "item"
+			}]
+			title: "&6Как Железо, но не совсем"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			description: ["&7Этот Ассортимент Башен содержит отличные Сокровища, чтоб ты их собрал. Правда, его текущие жители не согласятся с тем, кто является их Владельцем."]
+			icon: "minecraft:polished_blackstone_bricks"
+			id: "4ADF894FEEDD93E4"
+			rewards: [
+				{
+					id: "3CF628EDC4739DE6"
+					item: "adventurez:gilded_blackstone_shard"
+					type: "item"
+				}
+				{
+					id: "461AA258D3E1FAD4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "0FFC75EC9AD5B8CC"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			subtitle: "Богат топорами, Богат Золотом"
+			tasks: [{
+				icon: "minecraft:polished_blackstone_brick_stairs"
+				id: "6F89853A8250D357"
+				structure: "explorify:black_spiral"
+				title: "Посети Черную Спираль"
+				type: "structure"
+			}]
+			title: "&4Посети Черную Спираль"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			description: [
+				"&7Эти Города могут быть найдены в озерах Лавы. Город Ада - это одно из самых опасных Подземелий, что ты встретишь. Ставки высоки. Там могут быть Блоки Незерита в сундуках и Ящиках, досконально все проверь."
+				"&7Спавнеры также годятся под Ферму... "
+			]
+			id: "74AA7DBEE6E05A64"
+			rewards: [
+				{
+					id: "2BCA53B28DEF86CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "1273DC1E34CE9320"
+					item: "betternether:cincinnasite_block"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2AB82EF3F28F169C"
+					item: "betternether:cincinnasite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Люди жили здесь очень давно"
+			tasks: [{
+				icon: "betternether:cincinnasite_fire_bowl"
+				id: "5F7CAEE65A105DB8"
+				structure: "betternether:nether_city"
+				title: "Найди Город Ада"
+				type: "structure"
+			}]
+			title: "&4Найди Город Ада!"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			icon: "minecraft:nether_brick_fence"
+			id: "1E03641058773DC2"
+			rewards: [
+				{
+					count: 16
+					id: "6DDB9D253730DF44"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					id: "6810A50C71B9E1BD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Прямо как в старые добрые времена!"
+			tasks: [{
+				icon: "minecraft:nether_brick_fence"
+				id: "41D68972BBAABF64"
+				structure: "betterfortresses:fortress"
+				title: "Посети Крепость Ада"
+				type: "structure"
+			}]
+			title: "Посети Крепость Ада"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0108C54E8DFF4373"]
+			description: ["&7Торговля слишком раздражает? Просто ограбь их, не только их Золото, но и их Жизнь!"]
+			id: "05BDE171AC03527B"
+			rewards: [
+				{
+					id: "118CEC7AE47D4120"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "3D8FF8E333846A90"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "76BF4372F05D6895"
+					item: {
+						Count: 1
+						id: "mcdw:crossbow_pride_of_the_piglins"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:piercing"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "162F8B35D1281F25"
+					item: "minecraft:piglin_head"
+					type: "item"
+				}
+			]
+			subtitle: "Это не кража, если они уже не живы, так ведь?"
+			tasks: [{
+				entity: "minecraft:piglin"
+				icon: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5058495951C4E7C7"
+				title: "Убей Пиглинов"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Убей Пиглинов"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			icon: "minecraft:cracked_polished_blackstone_bricks"
+			id: "0108C54E8DFF4373"
+			rewards: [
+				{
+					id: "013B9918E96B471F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0D0CCEE6C0667CF3"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "52F85E42D0B9DC66"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "adventurez:chiseled_polished_blackstone_holder"
+				id: "515C1D2A5BBED444"
+				structure: "#minecraft:bastion_remnant"
+				title: "Посети Остатки Бастиона"
+				type: "structure"
+			}]
+			title: "&4Посети Остатки Бастиона"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4ADF894FEEDD93E4"]
+			description: ["&7Убей столько, сколько сможешь, некоторые из них могут иметь Позолоченные Чернитные Осколки, которые тебе так нужны."]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C570FA09FFFB747"
+			rewards: [
+				{
+					count: 3
+					id: "2980ED139E58F787"
+					item: "adventurez:gilded_blackstone_shard"
+					type: "item"
+				}
+				{
+					id: "61A1169C9D9134A5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				icon: {
+					Count: 1
+					id: "minecraft:golden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7D62CF43A5538CDC"
+				title: "Убей Брутальных Пиглинов"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Убей Брутальных Пиглинов"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			id: "08A63F0788D096E5"
+			rewards: [
+				{
+					id: "4301374371B0802B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "3F763BF547F0575D"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "6549DF18B7E0D616"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: {
+					Count: 1
+					id: "mcda:wither_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7FD09032C10128BF"
+				title: "Убей Визер-Скелетов"
+				type: "kill"
+				value: 300L
+			}]
+			title: "&2Убей Визер-Скелетов"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E03641058773DC2"]
+			icon: "minecraft:blaze_rod"
+			id: "136DD633F7293AD7"
+			rewards: [
+				{
+					id: "669C1CC8D11A7D66"
+					item: "handcrafted:blaze_trophy"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "658746D1BCA892B1"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "78BFAD8C64058CE2"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "7FF9D08400A94D6A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_rod"
+				id: "283E7CACE7EBF7DA"
+				title: "Убей Всполохов"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Пламя твое, да будет уничтожено"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26115F67C5E799DF"]
+			id: "0259F3EAA2AAE635"
+			rewards: [
+				{
+					id: "49BC51C81E9340E8"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "27BE53EC9D435C24"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "diamond"
+			subtitle: "Находится в своей собственной &4Арене"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "artifacts:power_glove"
+				id: "71780E465DB4A8A1"
+				title: "Убей Рукавицу Ада"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убей &8Рукавицу Ада"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6DFEDDFC27B1708C"]
+			description: ["&7Чтобы найти Арену, просто исследуй ад близко к уровню Лавы."]
+			id: "26115F67C5E799DF"
+			rewards: [{
+				id: "3FE5F1F498A4720F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "[Нажми для большей информации]"
+			tasks: [{
+				icon: "minecraft:blackstone"
+				id: "19DFB8AC0825D0D7"
+				structure: "bosses_of_mass_destruction:gauntlet_arena"
+				title: "Найди Арену Рукавицы где-то в Аду"
+				type: "structure"
+			}]
+			title: "&4Найди Арену Рукавицы"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6DFEDDFC27B1708C"]
+			description: ["&7Разлагающееся Королевство появляется в любом Биоме Ада. Используй Компас из Лунного Камня, чтобы найти его!"]
+			icon: "soulsweapons:boss_compass"
+			id: "50EA81AA3B7714E9"
+			rewards: [
+				{
+					id: "2DD2908407165D1C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "07766B6B0251691C"
+					item: "soulsweapons:molten_demon_heart"
+					type: "item"
+				}
+			]
+			subtitle: "[Нажми для большей информации]"
+			tasks: [
+				{
+					icon: "soulsweapons:demon_chunk"
+					id: "38053E4D88E9E641"
+					structure: "#soulsweapons:decaying_kingdom"
+					title: "Найди Разлагающееся Королевство"
+					type: "structure"
+				}
+				{
+					id: "3446403850927734"
+					item: "soulsweapons:boss_compass"
+					optional_task: true
+					title: "Используй Компас из Лунного Камня!"
+					type: "item"
+				}
+			]
+			title: "Найди &4Разлагающееся Королевство"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0108C54E8DFF4373"]
+			description: ["&7Аксессуары Крови могут быть найдены в Остатках Бастиона, эти Аксессуары жизненно важны для любого Танка или Кровавого Рыцаря Смерти, и всего, что между этим."]
+			id: "5D08172CBB91A031"
+			rewards: [
+				{
+					id: "271B64A0CCDF212B"
+					item: "death_knights:blood_dk_necklace"
+					type: "item"
+				}
+				{
+					id: "778EEBCA7BFF8A5F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "6E90DCB87AF7683C"
+				item: "death_knights:blood_dk_ring"
+				type: "item"
+			}]
+			title: "&4Аксессуары Крови"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			description: ["&7Ты повидал их всех, вот и всё, выбери другого Туристического Гида в следующий раз! Есть ещё столько всего неизученного и ненайденного!"]
+			id: "4A50D2B7B078220F"
+			rewards: [
+				{
+					id: "22FBAD649A112F5E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "118C79268BA516A4"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Зачем тебе в отпуске идти сюда??"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "1942D79A88515A69"
+				title: "Посети все биомы"
+				type: "advancement"
+			}]
+			title: "Очень горячий отпуск"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			icon: "minecraft:ghast_tear"
+			id: "2E2780EDD5B76B92"
+			rewards: [
+				{
+					id: "43C5C7E1AD8F86AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "41505320AC03A671"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "793772E7C40695C7"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:ghast_tear"
+				id: "281E4AEA987B8EF4"
+				structure: "betternether:ghast_hive"
+				title: "Посети улей Гастов, и убей этих жалких созданий"
+				type: "structure"
+			}]
+			title: "&8Победи Улей Гастов"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			icon: "minecraft:red_nether_bricks"
+			id: "780F749348123E68"
+			rewards: [
+				{
+					id: "1A6C52E677A6B526"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "218B3E441349D360"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:red_nether_bricks"
+				id: "46C68F2AFA7FA1DA"
+				structure: "friendsandfoes:citadel"
+				title: "Посети Цитадель"
+				type: "structure"
+			}]
+			title: "&4Цитадель"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			description: ["&7Их построили Пришельцы?"]
+			icon: "minecraft:netherrack"
+			id: "08CB4E635F213187"
+			rewards: [
+				{
+					id: "5D943C3B3798833E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 6
+					id: "607AB155203DB728"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "43CE52A5A6AD7517"
+				structure: "betternether:pyramid"
+				title: "Посети Пирамиду Ада"
+				type: "structure"
+			}]
+			title: "&4Посети Пирамиду Ада"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			id: "2C7EFCB0E8AB1FEB"
+			tasks: [{
+				id: "491ECF5CBFC1CFC9"
+				item: "mythicupgrades:ruby"
+				type: "item"
+			}]
+			title: "&4Искатель Руд"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7Эти Самоцветы невероятно важны для любого Игрока Танка. Они отдают Аурой, как если бы оно отражало твое прикосновение."]
+			id: "6117CFB58B0046FA"
+			rewards: [
+				{
+					count: 6
+					id: "77214FFFFFCB4EB0"
+					item: "mythicupgrades:sapphire"
+					type: "item"
+				}
+				{
+					id: "0711C6AF86097A29"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6DAB38C943FA7432"
+				item: "mythicupgrades:sapphire"
+				type: "item"
+			}]
+			title: "&5Лучший друг Танков"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			description: ["&7Есть немало Структур, которые ты можешь найти, и которые весело исследовать и в них может быть много Ресурсов. Попробуй найти их всех!"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "5C9B685683F1F505"
+			rewards: [{
+				id: "5EE0CC6AA87B699E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0ADF4A630BFDAD6E"
+				type: "checkmark"
+			}]
+			title: "&5Исследуй Ад!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			description: ["&7Старый Воин, лучшие дни которого давно прошли, лежит здесь. Лучше не тревожить. Или... точно ли?"]
+			icon: "graveyard:lying_wither_skeleton"
+			id: "6B6F6C7F9DCDF904"
+			rewards: [
+				{
+					id: "53E9ACF7E943B51A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "001C33A1E881AB49"
+					item: "graveyard:wither_bone_remains"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "archon:fire_essence"
+				id: "1B2DC6C9F91AE837"
+				structure: "archon:wither_tomb"
+				title: "Посети Гробницу Визеров"
+				type: "structure"
+			}]
+			title: "Что-то было погребено здесь"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"46D0AAEEB69E28B3"
+				"2CE2E7816C6866AF"
+			]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
+			id: "7E1C1CEE751827EF"
+			rewards: [{
+				id: "7AB80EDB1EB4A1C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F1D61D86951821E"
+				type: "checkmark"
+			}]
+			title: "&5Магматоры"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E1C1CEE751827EF"]
+			id: "3E63250DCB35FA89"
+			rewards: [{
+				id: "1C98881A7C87755F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Имей бесконечный запас лавы в Аду"
+			tasks: [{
+				advancement: "create:hose_pulley_lava"
+				criterion: ""
+				icon: "create:hose_pulley"
+				id: "413425FEA72470C8"
+				title: "Прикоснись к Мантии!"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3E63250DCB35FA89"]
+			description: [
+				"&7Чтобы вытащить Лаву из Ада, тебе понадобится целое функционирующее Квантовое Кольцо в Аду и в Верхнем Мире."
+				""
+				""
+				"&7Привяжи Катушку со Шлангом к Шине Хранения, и подсоедини эту Шину Хранения к Квантовому Кольцу в Аду. Как только все продублировано и соединено, ты можешь наслаждаться сворованной бесконечной Лавой в своем собственном Доме! Надеюсь, что Счет на Отопление уменьшится."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:lava_bucket"
+			id: "42C1B494F003A1A4"
+			rewards: [{
+				id: "37DEF907AE6C997E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Если тебе холодно, холодно и Лаве, принеси её домой к себе"
+			tasks: [
+				{
+					id: "1AC5E4EE46479478"
+					item: "ae2:quantum_link"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6FB457C8F05D1D5F"
+					type: "checkmark"
+				}
+			]
+			title: "&9Поставляем Лаву в верхний мир"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E63250DCB35FA89"]
+			description: ["&7Зачем тебе это? Ради Власти???? "]
+			id: "37471F11BB69BA89"
+			rewards: [
+				{
+					id: "4D2DBDFE797EEAE2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7A2722D755673B49"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53A6F8420015CF29"
+				item: "powah:magmator_nitro"
+				type: "item"
+			}]
+			title: "&9АБСОЛЮТНАЯ ВЛАСТЬ"
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			id: "60B975506401FDF1"
+			rewards: [
+				{
+					count: 4
+					id: "1E09CE291B0DD5F4"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					id: "5D29F95CCDA0EC7D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Зачем тебе вообще идти туда?"
+			tasks: [{
+				biome: "betternether:nether_jungle"
+				icon: "betternether:jungle_moss"
+				id: "56A1E9ED5C2ECDBA"
+				title: "Посети Джунгли Ада"
+				type: "biome"
+			}]
+			title: "&3Покинь это место"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08A63F0788D096E5"]
+			description: ["&7Они плюются на тебя, прямо как Ламы, какие странные... Может какой-то дальний Родственник."]
+			id: "2D5AA976A898764D"
+			rewards: [
+				{
+					id: "3DF8B5FC6B6E34B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "76F95229CE9B8BDC"
+					item: "things:hardening_catalyst"
+					type: "item"
+				}
+			]
+			subtitle: "Костяные Ламы"
+			tasks: [{
+				entity: "betternether:naga"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "34BE683ABB1D6CDD"
+				title: "Убей Нага"
+				type: "kill"
+				value: 100L
+			}]
+			x: 11.0d
+			y: 0.0d
 		}
 	]
-	title: " &cНезер"
+	title: " &cАд"
 }

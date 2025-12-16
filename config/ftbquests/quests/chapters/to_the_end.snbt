@@ -1021,17 +1021,21 @@
 			subtitle: "[Нажми для большей информации]"
 			tasks: [
 				{
+					consume_items: true
 					id: "669D5B86D3F9A3DB"
 					item: "minecraft:diamond"
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 3L
 					id: "52BD7DF4B89A6F0D"
 					item: "betterend:ender_shard"
 					type: "item"
 				}
 				{
+					consume_items: true
+					count: 2L
 					id: "42FC1EED6DA5DC5E"
 					item: "minecraft:blaze_rod"
 					type: "item"
