@@ -1,0 +1,385 @@
+{
+	autofocus_id: "5B9554845637A3A5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_jolly_christmas"
+	group: "1E972F135ACD3687"
+	icon: "supplementaries:present_black"
+	id: "3AD2236981C5D81D"
+	images: [
+		{
+			height: 4.0d
+			image: "regions_unexplored:block/spruce_shrub_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "regions_unexplored:block/spruce_shrub_bottom"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "mcwholidays:block/blue_present"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "mcwholidays:block/green_present_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "brewery:item/gingerbread"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "mcwholidays:block/green_present"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/candy_christmas"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "winterly:item/blue_candy_cane"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "winterly:item/snowguy"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "winterly:item/red_santa_hat"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "winterly:item/blue_santa_hat"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "prominent:textures/other/prominent_logo.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "winterly:item/red_santa_hat"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.4d
+			y: -2.3d
+		}
+		{
+			height: 3.0d
+			image: "darkpaintings:painting/santa_moon"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0d
+			y: -6.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5B31D4D4029F1891"
+				"49C9DC2F3D131A14"
+				"5B9554845637A3A5"
+			]
+			dependency_requirement: "one_completed"
+			description: [""]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "mcwholidays:big_cyan_present"
+			id: "3C0E6C957238E214"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "29FC7C73E9E9FF50"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "50852654783DB44F"
+					item: "things:hardening_catalyst"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1D0A71699FFB3791"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "72BBDFD5E7D3A5D9"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Победи одного из двух боссов, что забрать это!"
+			tasks: [{
+				id: "3BC1A9AB1165C568"
+				type: "checkmark"
+			}]
+			title: "Рождественский подарок - Первый боссфайт"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			icon: "supplementaries:present_blue"
+			id: "5B9554845637A3A5"
+			rewards: [
+				{
+					id: "0DD4F5019E05A461"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C8BED7758DA62BE"
+					table_id: 8700661129397479725L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "12022749A4DA74C5"
+					item: "brewery:gingerbread"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "С Новым Годом!"
+			tasks: [{
+				id: "2B4FC802B9F0E823"
+				type: "checkmark"
+			}]
+			title: "Рождественский подарок - Надежда начинающего"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1307A8EF388ECDB3"
+				"3A8C4B633BAF1EFF"
+			]
+			description: ["&7Надеюсь, у тебя нет аллергии на орехи!"]
+			hide_dependency_lines: true
+			icon: "supplementaries:present_green"
+			id: "61AAC3E69CD1C096"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3264CB5BD17E5064"
+					table_id: 1877317905884575919L
+					type: "choice"
+				}
+				{
+					id: "780F2396C8A8015A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 128
+					id: "3080B1C288C24154"
+					item: "tiered:galena_chunk"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1688A6E450DB0B88"
+					item: "eldritch_end:ominous_eye"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4A5C58B0A8401345"
+					item: "croptopia:nutty_cookie"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Победи Магуса, чтоб забрать этот дар"
+			tasks: [{
+				id: "35D609ABCCAEB350"
+				type: "checkmark"
+			}]
+			title: "Рождественский подарок - Счастливый Магус"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2D24C45915E27222"
+				"61AAC3E69CD1C096"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "supplementaries:present_yellow"
+			id: "6284194862D6FBA9"
+			rewards: [
+				{
+					id: "7E631FD633317AF4"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "068DA2B42AB6D0D7"
+					item: "eldritch_end:xal"
+					type: "item"
+				}
+				{
+					id: "5DEF8E53E9D16C15"
+					item: "mcwholidays:mistletoe"
+					type: "item"
+				}
+				{
+					id: "385D8B2D246D8258"
+					item: "brewery:beer_hops"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Победи Гу'маса, чтобы забрать этот подарок!"
+			tasks: [{
+				id: "1BBC6832D5CBE2AC"
+				type: "checkmark"
+			}]
+			title: "Рождественский подарок - Имбирный пряник Гу'маса"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6284194862D6FBA9"]
+			description: ["&7Команда Prominence благодарит тебя за игру в наш модпак. Мы желаем тебе Счастливого Рождества, и хорошего окончания года!"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:nether_star"
+			id: "213AE6916EAB259D"
+			rewards: [
+				{
+					id: "22F98576026844DA"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "57EE2DEAED84C7EE"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05D91DB66160A223"
+					table_id: 572401419304168382L
+					type: "choice"
+				}
+				{
+					count: 5
+					id: "65F4AD4747B2982F"
+					item: "brewery:gingerbread"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6879382B64C452DD"
+					item: "brewery:whiskey_lilitusinglemalt"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Ты заслужил это, друг мой!"
+			tasks: [{
+				id: "2FB46A1BD3F500C6"
+				type: "checkmark"
+			}]
+			title: "Расплавленная звезда Нового Года"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"383590146CEEB423"
+				"3C0E6C957238E214"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "mcwholidays:big_blue_present"
+			id: "1307A8EF388ECDB3"
+			rewards: [
+				{
+					id: "63DEEDA2E205B991"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 64
+					id: "22AEEF374980173B"
+					item: "tiered:galena_chunk"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "442C2BC492626E63"
+					table_id: 1877317905884575919L
+					type: "choice"
+				}
+			]
+			shape: "none"
+			subtitle: "Победи Конъюктивиуса, чтобы забрать этот подарок!"
+			tasks: [{
+				id: "7947BD6F5B48F47C"
+				title: "Рождественский подарок - Под щупальцем"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+	]
+	title: " &bВеселое Рождество!"
+}
