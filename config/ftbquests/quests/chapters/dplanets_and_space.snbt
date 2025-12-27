@@ -255,20 +255,20 @@
 		}
 		{
 			dependencies: ["1ACCF86D17FF8A56"]
-			description: ["&7The Nasa Workbench is used to craft Rockets. All Rockets use the same Recipe Layout, the only thing that changes is the level of material."]
+			description: ["&7Верстак НАСА используется для создания ракет. Все ракеты используют одну и ту же схему рецепта, меняется только уровень материала."]
 			id: "367AFF3976F8FB3B"
 			rewards: [{
 				id: "42F2D5F398173BB2"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Still looking for a Nasa Collab"
+			subtitle: "Все ещё ищу коллабораций с НАСА"
 			tasks: [{
 				id: "2E2CB531EDBD4424"
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			title: "Nasa Workbench"
+			title: "Верстак Наса"
 			x: -1.0d
 			y: -4.0d
 		}

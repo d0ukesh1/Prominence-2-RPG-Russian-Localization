@@ -26,79 +26,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["7E8DC0584EEE678C"]
-			id: "6841FAEED4EA275E"
-			rewards: [{
-				id: "171A8709403772D2"
-				type: "xp"
-				xp: 40
-			}]
-			tasks: [{
-				id: "73E3ABB96762A500"
-				item: "indrev:cable_mk1"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"4D880BADADB6263C"
-				"6841FAEED4EA275E"
-			]
-			id: "3179BA004879DD1A"
-			rewards: [{
-				id: "3AF21D524F4E8E1D"
-				type: "xp"
-				xp: 60
-			}]
-			tasks: [{
-				id: "441BCA462AF9B925"
-				item: "indrev:cable_mk2"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"7B94F028FE5D4300"
-				"3179BA004879DD1A"
-			]
-			id: "349330B6A4E1B950"
-			rewards: [{
-				id: "0528C8412AA61B6A"
-				type: "xp"
-				xp: 80
-			}]
-			tasks: [{
-				id: "20839ACA45F2A854"
-				item: "indrev:cable_mk3"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"10F20DB208053F1C"
-				"349330B6A4E1B950"
-			]
-			id: "066AF0A07A03503E"
-			rewards: [{
-				id: "1EB5CDD5E7AE0779"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "494D6D7DCBBC7DA3"
-				item: "indrev:cable_mk4"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 2.5d
-		}
-		{
 			dependencies: ["32DE8281608AE114"]
 			id: "7E8DC0584EEE678C"
 			rewards: [{
@@ -690,8 +617,8 @@
 				item: "indrev:item_pipe_mk1"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.5d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -709,8 +636,8 @@
 				item: "indrev:item_pipe_mk2"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -728,8 +655,8 @@
 				item: "indrev:item_pipe_mk3"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -747,8 +674,8 @@
 				item: "indrev:item_pipe_mk4"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 2.0d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["71D3FB31485B9F05"]

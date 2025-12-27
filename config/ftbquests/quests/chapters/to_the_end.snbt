@@ -590,7 +590,7 @@
 			y: -16.0d
 		}
 	]
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -1869,7 +1869,14 @@
 			tasks: [{
 				count: 32L
 				id: "0A8611416AE83925"
-				item: { Count: 32, id: "betterend:tenanea_log" }
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "betterend:tenanea_logs"
+					}
+				}
+				title: "Собери бревна Тенанеи"
 				type: "item"
 			}]
 			title: "Внутри выглядит как Ягода"
@@ -1909,9 +1916,15 @@
 			}]
 			tasks: [
 				{
-					count: 32L
 					id: "2141C9AAA95F6EA7"
-					item: "promenade:dark_amaranth_stem"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "promenade:dark_amaranth_stems"
+						}
+					}
+					title: "Собери Темно-амарантовые стебли"
 					type: "item"
 				}
 				{
@@ -1974,10 +1987,17 @@
 			tasks: [{
 				count: 64L
 				id: "41C472F9CBB4AE14"
-				item: { Count: 64, id: "betterend:umbrella_tree_log" }
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "betterend:umbrella_tree_logs"
+					}
+				}
+				title: "Собери бревна Зонтичного дерева"
 				type: "item"
 			}]
-			title: "Из этого нельзя делать Зонтик"
+			title: "Из этого нельзя сделать Зонтик"
 			x: -6.0d
 			y: -22.5d
 		}
@@ -2380,7 +2400,14 @@
 			tasks: [{
 				count: 32L
 				id: "4BC8B1A5C984D169"
-				item: { Count: 32, id: "betterend:lacugrove_log" }
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "betterend:helix_tree_logs"
+					}
+				}
+				title: "Бревна любого Закрученного дерева"
 				type: "item"
 			}]
 			title: "Собери немного Бревен"
@@ -2401,7 +2428,14 @@
 			tasks: [{
 				count: 64L
 				id: "2B1B3396C929C6CD"
-				item: { Count: 64, id: "betterend:lucernia_log" }
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "betterend:lucernia_logs"
+					}
+				}
+				title: "Собери бревна Люцернии"
 				type: "item"
 			}]
 			title: "Собери немного бревен"

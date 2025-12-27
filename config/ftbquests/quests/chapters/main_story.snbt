@@ -1583,6 +1583,7 @@
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
+			icon: "soulsweapons:withered_demon_heart"
 			id: "5B31D4D4029F1891"
 			rewards: [
 				{
@@ -1607,14 +1608,23 @@
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "&8[Нажми, чтобы прочитать лор и инструкции]"
-			tasks: [{
-				entity: "soulsweapons:accursed_lord_boss"
-				icon: "soulsweapons:withered_demon_heart"
-				id: "1E53C2B640C2CED4"
-				title: "&cПорази Разлагающегося Короля"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "soulsweapons:accursed_lord_boss"
+					icon: "soulsweapons:withered_demon_heart"
+					id: "1E53C2B640C2CED4"
+					title: "&cПорази Разлагающегося Короля"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0132A0C646879E11"
+					item: "soulsweapons:boss_compass"
+					optional_task: true
+					title: "Используй компас из лунного камня, чтобы найти Разлагающееся Королевство"
+					type: "item"
+				}
+			]
 			title: "&f &cРазлагающийся король"
 			x: -11.0d
 			y: -1.5d
@@ -1656,6 +1666,7 @@
 			y: -4.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["3A8C4B633BAF1EFF"]
 			description: ["&7Прошел слух, что 1 Аберрация на каждые 125 мутировавшая до какой-то степени. Шансы низки, но это может стать ещё одним методом добычи Всевидящих Глаз."]
 			hide_until_deps_complete: true
@@ -1669,6 +1680,7 @@
 					type: "item"
 				}
 				{
+					auto: "enabled"
 					id: "09CFD9FF34E4A082"
 					type: "xp_levels"
 					xp_levels: 5

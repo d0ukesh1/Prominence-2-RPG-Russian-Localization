@@ -108,7 +108,7 @@
 				type: "item"
 			}]
 			title: "C418 - 13"
-			x: -1.5d
+			x: -0.5d
 			y: -7.0d
 		}
 		{
@@ -142,8 +142,8 @@
 				type: "item"
 			}]
 			title: "C418 - Blocks"
-			x: -3.5d
-			y: -5.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["14BF4DDBBD36DC9E"]
@@ -159,7 +159,7 @@
 				type: "item"
 			}]
 			title: "C418 - Chirp"
-			x: -4.5d
+			x: -5.0d
 			y: -6.0d
 		}
 		{
@@ -194,7 +194,7 @@
 			}]
 			title: "C418 - Mall"
 			x: -3.0d
-			y: -12.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["14BF4DDBBD36DC9E"]
@@ -210,7 +210,7 @@
 				type: "item"
 			}]
 			title: "C418 - Mellohi"
-			x: -1.5d
+			x: -0.5d
 			y: -9.0d
 		}
 		{
@@ -227,7 +227,7 @@
 				type: "item"
 			}]
 			title: "C418 - Stal"
-			x: -4.5d
+			x: -5.5d
 			y: -7.0d
 		}
 		{
@@ -244,7 +244,7 @@
 				type: "item"
 			}]
 			title: "C418 - Strad"
-			x: -1.5d
+			x: 0.0d
 			y: -8.0d
 		}
 		{
@@ -278,7 +278,7 @@
 				type: "item"
 			}]
 			title: "C418 - Wait"
-			x: -1.5d
+			x: -1.0d
 			y: -10.0d
 		}
 		{
@@ -295,7 +295,7 @@
 				type: "item"
 			}]
 			title: "Lena Raine - Otherside"
-			x: -4.5d
+			x: -6.0d
 			y: -8.0d
 		}
 		{
@@ -329,7 +329,7 @@
 				type: "item"
 			}]
 			title: "Aaron Cherof - Relic"
-			x: -4.5d
+			x: -5.0d
 			y: -10.0d
 		}
 		{
@@ -346,7 +346,7 @@
 				type: "item"
 			}]
 			title: "Samuel Aberg - 5"
-			x: -4.5d
+			x: -5.5d
 			y: -9.0d
 		}
 		{
@@ -399,8 +399,8 @@
 				title: "Пластинки из модов"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: -9.0d
+			x: 6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -416,8 +416,8 @@
 				type: "item"
 			}]
 			title: "Bertsz - Horizon"
-			x: 4.5d
-			y: -7.0d
+			x: 7.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -433,25 +433,8 @@
 				type: "item"
 			}]
 			title: "Krossy -  Forsaken Drownage"
-			x: 3.5d
-			y: -14.0d
-		}
-		{
-			dependencies: ["1F3B9ECF26B84A71"]
-			id: "3F2B59DEF8CA9E35"
-			rewards: [{
-				id: "5A4BD5436CDA34A6"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "6C18AEDDFDA74663"
-				item: "beachparty:overgrown_disc"
-				type: "item"
-			}]
-			title: "MissLilitu - Over the Rainbow"
-			x: 2.5d
-			y: -14.0d
+			x: 6.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -467,8 +450,8 @@
 				type: "item"
 			}]
 			title: "Firel - Strange and Alien"
-			x: 4.5d
-			y: -6.0d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -484,8 +467,8 @@
 				type: "item"
 			}]
 			title: "Firel - Grasping At Stars"
-			x: 1.5d
-			y: -6.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -501,8 +484,8 @@
 				type: "item"
 			}]
 			title: "Firel - Endseeker"
-			x: 3.0d
-			y: -5.0d
+			x: 3.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -518,8 +501,8 @@
 				type: "item"
 			}]
 			title: "Firel - Eo Dracona"
-			x: 1.5d
-			y: -7.0d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -535,8 +518,8 @@
 				type: "item"
 			}]
 			title: "Kain Vinosec - Endure Emptiness"
-			x: 1.5d
-			y: -8.0d
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -552,25 +535,8 @@
 				type: "item"
 			}]
 			title: "Kain Vinosec - Fight For Quiescence"
-			x: 4.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["1F3B9ECF26B84A71"]
-			id: "601724D8A30251E4"
-			rewards: [{
-				id: "2ED8F85957A9A14C"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "7371A65B5E8009E6"
-				item: "beachparty:music_disc_wild_veins"
-				type: "item"
-			}]
-			title: "Adam's - Wild Veins"
-			x: 1.5d
-			y: -9.0d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -586,8 +552,8 @@
 				type: "item"
 			}]
 			title: "Orangery - Coniferus Forest (Main Menu Theme)"
-			x: 1.5d
-			y: -10.0d
+			x: 3.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -603,8 +569,8 @@
 				type: "item"
 			}]
 			title: "SideralisMusic - Prominent Festivities (Original Soundtrack)"
-			x: 4.5d
-			y: -10.0d
+			x: 9.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -620,8 +586,8 @@
 				type: "item"
 			}]
 			title: "SideralisMusic - IV"
-			x: 4.5d
-			y: -9.0d
+			x: 8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -637,8 +603,8 @@
 				type: "item"
 			}]
 			title: "SideralisMusic - Primordial (Prominence OST)"
-			x: 1.5d
-			y: -11.0d
+			x: 3.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -654,8 +620,8 @@
 				type: "item"
 			}]
 			title: "SideralisMusic - Void Core (Prominence OST)"
-			x: 1.5d
-			y: -12.0d
+			x: 4.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -671,8 +637,8 @@
 				type: "item"
 			}]
 			title: "SideralisMusic - A Dance of the Blades Part 1 (Prominence OST)"
-			x: 4.5d
-			y: -11.0d
+			x: 8.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -688,8 +654,8 @@
 				type: "item"
 			}]
 			title: "SideralisMusic - A Dance of the Blades Part 2 (Prominence OST)"
-			x: 4.5d
-			y: -12.0d
+			x: 8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -705,9 +671,9 @@
 				type: "item"
 			}]
 			title: "SideralisMusic - Prominent Festivities (Prominence OST)"
-			x: 1.5d
-			y: -13.0d
-		}
+ 			x: 4.5d
+ 			y: -11.0d
+ 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
 			id: "25F3A8E28F9DBD08"
@@ -722,8 +688,8 @@
 				type: "item"
 			}]
 			title: "SideralisMusic - Time Flows (Prominence OST)"
-			x: 4.5d
-			y: -13.0d
+			x: 7.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -739,8 +705,8 @@
 				type: "item"
 			}]
 			title: "SideralisMusic - Convergence (Prominence OST)"
-			x: 1.5d
-			y: -14.0d
+			x: 5.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -756,8 +722,8 @@
 				type: "item"
 			}]
 			title: "Endigo - Big Chungus (Official Main Theme)"
-			x: 4.5d
-			y: -14.0d
+			x: 7.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["4A01B44240D7BE4A"]
