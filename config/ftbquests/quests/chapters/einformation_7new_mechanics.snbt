@@ -4545,57 +4545,57 @@
 				}
 				{
 					id: "1095B6816693242F"
-+					item: {
-+						Count: 1
-+						id: "mcda:souldancer_robe_helmet"
-+						tag: {
-+							Damage: 0
-+						}
-+					}
+					item: {
+						Count: 1
+						id: "mcda:souldancer_robe_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
-+				{
-+					id: "25A44A4646F5754A"
-+					item: {
-+						Count: 1
-+						id: "mcda:souldancer_robe_chestplate"
-+						tag: {
-+							Damage: 0
-+						}
-+					}
-+					type: "item"
-+				}
-+				{
-+					id: "7E986DBE97C6A526"
-+					item: {
-+						Count: 1
-+						id: "mcda:souldancer_robe_leggings"
-+						tag: {
-+							Damage: 0
-+						}
-+					}
-+					type: "item"
-+				}
-+				{
-+					id: "12F59EBA7E872C0C"
-+					item: {
-+						Count: 1
-+						id: "mcda:souldancer_robe_boots"
-+						tag: {
-+							Damage: 0
-+						}
-+					}
-+					type: "item"
-+				}
-+				{
-+					id: "71B2A84EC7CC961B"
-+					item: {
-+						Count: 1
-+						id: "prominent:ghaj"
-+						tag: {
-+							Damage: 0
-+						}
-+					}
+				{
+					id: "25A44A4646F5754A"
+					item: {
+						Count: 1
+						id: "mcda:souldancer_robe_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E986DBE97C6A526"
+					item: {
+						Count: 1
+						id: "mcda:souldancer_robe_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12F59EBA7E872C0C"
+					item: {
+						Count: 1
+						id: "mcda:souldancer_robe_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71B2A84EC7CC961B"
+					item: {
+						Count: 1
+						id: "prominent:ghaj"
+						tag: {
+							Damage: 0
+						}
+					}
 					optional_task: true
 					type: "item"
 				}
