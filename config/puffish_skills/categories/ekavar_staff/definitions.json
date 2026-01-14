@@ -49,7 +49,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "spell_power:critical_chance",
-					"value": 0.04,
+					"value": 0.02,
 					"operation": "multiply_base"
 				}
 			}
@@ -231,8 +231,8 @@
 		}
 	},
 	"infusion_holy": {
-		"title": "§f鹿 §6Святая инфузия",
-		"description": "§7Наделить Экавар исцеляющей силой, превратив его в §6Ад'анель, Тайна Эйн§7.\n \n§f\uF957 §6+30%§7 Сила Исцеления\n§f\uAB01 §2+20§7 Сопротивления к Порче",
+		"title": "§f鹿 §eСвятая инфузия",
+		"description": "§7Наделяет Экавар исцеляющей силой, превратив его в §eАд'анель, Тайна Эйн§7.\n \n§f\uF957 §e+30%§7 Сила Исцеления\n§f\uAB01 §2+20§7 Сопротивления к Порче",
 		"size": 1.5,
 		"frame": {
 			"type": "texture",

@@ -1,6 +1,6 @@
 {
-	"damage": {
-		"title": "\uF943 §6+5% §7Урона, наносимого Ледяной Скорбью и способностями Рыцарей Смерти",
+	"artifact_damage": {
+		"title": "§f\uF943 §6+5% §7Урона, наносимого §bЛедяной Скорбью",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -32,7 +32,7 @@
 
 
 	"atkspeed": {
-		"title": "§f\uF944 §6+10% §7Скорости атаки",
+		"title": "§f\uF944 §e+10% §7Спешки",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -43,7 +43,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "simplyskills:textures/icons/prom_compat/attack.png"
+				"texture": "simplyskills:textures/icons/prom_compat/attack_speed.png"
 			}
 		},
 		"rewards": [
@@ -51,7 +51,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.attack_speed",
-					"value": 0.05,
+					"value": 0.1,
 					"operation": "multiply_base"
 				}
 			}
@@ -61,10 +61,8 @@
 			"icon": "iuz98xp1xuxsssdv"
 		}
 	},
-
-
-	"frost_inc": {
-		"title": "§f\uF944 §6+5% §7Скорости атаки",
+	"melee_damage": {
+		"title": "§f弄 §6+5% §7Физического урона",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -82,25 +80,137 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_health",
+					"attribute": "generic.attack_damage",
 					"value": 0.05,
-					"operation": "multiply_base"
+					"operation": "multiply_total"
 				}
 			}
 		],
-		"editor-color": "#ff00a6",
+		"editor-color": "#00efff",
 		"metadata": {
-			"icon": "iuz98xp1xuxsssdv"
+			"icon": "0t1l4wesv67w4zpo"
 		}
 	},
-
-
-
-
-
+	"frost": {
+		"title": "§f勒 §b+5% §7Силы льда",
+		"description": "§f籠 §e+5% §7Спешки",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "death_knights:textures/item/jewelry/frost_dk_ring.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#00ffff",
+		"metadata": {
+			"icon": "gf315xif2stdqahr"
+		}
+	},
+	"unholy": {
+		"title": "§f\uF954 §2+5% §7Силы нечестивости",
+		"description": "§f弄 §6+5% §7Физического урона",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "death_knights:textures/item/jewelry/unholy_dk_ring.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eternal_attributes:unholy",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#00ffff",
+		"metadata": {
+			"icon": "gf315xif2stdqahr"
+		}
+	},
+	"blood": {
+		"title": "§f\uF953 §c+5% §7Силы крови",
+		"description": "§f牢 §c+5% §7Максимального запаса здоровья",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "death_knights:textures/item/jewelry/blood_dk_ring.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eternal_attributes:blood",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#00ffff",
+		"metadata": {
+			"icon": "gf315xif2stdqahr"
+		}
+	},
 	"infusion_etyr": {
 		"title": "§f鹿 §cУчение Син'дорай",
-		"description": "§7Наполняет Ледяную Скорбь кровавыми рунами Этира, повышающими сопротивляемость эффектам порчи.\n \n§f\uAB01 §2+20 §7ед. Сопротивления к Порче\n§f\uF953 §c+5 §7Сила Заклинания Крови",
+		"description": "§7Наполняет §bЛедяную Скорбь §7кровавыми рунами Этира, повышающими сопротивляемость эффектам порчи.\n \n§f\uAB01 §2+20 §7ед. Сопротивления к Порче\n§f\uF953 §c+5 §7Сила Заклинания Крови",
 		"size": 1.25,
 		"frame": {
 			"type": "texture",
@@ -139,7 +249,7 @@
 	},
 	"infusion_corruption": {
 		"title": "§f鹿 §2Некротическая инфузия",
-		"description": "§7Вы наполняете Ледяную Скорбь проклятыми нечестивыми рунами, нанося тем больше урона, чем больше у вас порчи.\n \n§f\uA999 §9+20§7 Порчи\n§f\uF954 §2+5 §7Сила Заклинания Нечести",
+		"description": "§7Вы наполняете §bЛедяную Скорбь §7проклятыми нечестивыми рунами, нанося больше нечестивого урона.\n \n§f\uA999 §9+20§7 Порчи\n§f\uF954 §2+5 §7Сила Заклинания Нечести",
 		"size": 1.25,
 		"frame": {
 			"type": "texture",
@@ -178,7 +288,7 @@
 	},
 	"infusion_corruption_2": {
 		"title": "§f鹿 §bМорозная инфузия",
-		"description": "§7Вы наполняете Ледяную Скорбь проклятыми ледяными рунами, нанося тем больше урона, чем больше у вас порчи.\n \n§f\uA999 §9+20§7 Порчи\n§f\uF952 §b+5 §7Ледяная Сила Заклинаний",
+		"description": "§7Вы наполняете §bЛедяную Скорбь §7проклятыми ледяными рунами, нанося больше ледяного урона.\n \n§f\uA999 §9+20§7 Порчи\n§f\uF952 §b+5 §7Ледяная Сила Заклинаний",
 		"size": 1.25,
 		"frame": {
 			"type": "texture",

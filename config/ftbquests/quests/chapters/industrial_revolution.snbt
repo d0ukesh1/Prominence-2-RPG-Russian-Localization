@@ -5,6 +5,15 @@
 	group: "49D52BD6447C5CC0"
 	icon: "indrev:mining_rig_mk4"
 	id: "7DBBF6BCE6FF4D19"
+	images: [{
+		height: 2.0d
+		hover: ["Прочитай квест ниже"]
+		image: "ftblibrary:icons/info"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.5d
+		y: 0.0d
+	}]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
@@ -2098,6 +2107,104 @@
 			}]
 			x: -13.0d
 			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "0A9ED4CA6047FCE6"
+			rewards: [{
+				id: "366E76F1B7ED9198"
+				item: "techreborn:glassfiber_cable"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6FB1D9D8633616C3"
+				item: "indrev:cable_mk4"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			id: "457ADFA0628B7EE9"
+			rewards: [{
+				id: "48B70167C61FC42B"
+				item: "techreborn:glassfiber_cable"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4AA2442EB0412377"
+				item: "indrev:cable_mk3"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "3ED05078B30409E4"
+			rewards: [{
+				id: "0074617720639DCA"
+				item: "techreborn:insulated_gold_cable"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5C26D6038679F5E1"
+				item: "indrev:cable_mk1"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "660D44EEB0A6C147"
+			rewards: [{
+				id: "0C7124662EE7A19B"
+				item: "techreborn:insulated_hv_cable"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4646714488FAFF14"
+				item: "indrev:cable_mk2"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&7Industrial Revolution уходит из Prominence. Чтобы сгладить этот переход, он произойдет в фазах. Первая фаза будет включать все кабели из Industrial Revolution. "
+				""
+				""
+				"&eИх больше нельзя создать, и они могут быть превращены в кабели Tech Reborn в любой момент.&r"
+				""
+				"&4Почему?&r"
+				""
+				"&7Есть много причин. Industrial Revolution был заброшен своим разработчиком. Мод погряз в проблемах, которые мы просто не в силах решить. Кабели даже не передают на той скорости, о которой на них написано. Машины уничтожают неуничтожаемые предметы, убивают существ, которых не должны, или вообще не работают. Это не та планка качества, которую мы хотим видеть в Prominence."
+				""
+				"&4Что теперь?&r"
+				""
+				"&7Другие функции ещё не были затронуты. Это будет медленный процесс, чтобы все игроки могли адаптироваться к изменениям и перейти туда, где трава зеленее(Tech Reborn), и к другим индустриальным модам."
+			]
+			id: "493019770C273D5E"
+			rewards: [{
+				id: "5FFF2A5C81A8D7EE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Ты все правильно прочитал!"
+			tasks: [{
+				id: "0B1C7D7CC932659C"
+				title: "Indrev уходит из Prominence!"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.5d
 		}
 	]
 	title: " &bIndustrial Revolution"

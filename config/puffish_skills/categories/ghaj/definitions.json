@@ -1,6 +1,7 @@
 {
 	"damage": {
-		"title": "§f弄 §6+5% §7Урона, наносимого §6Г'аджем §7и §fꦘ §9+3 §7Порчи",
+		"title": "§f弄 §6+5% §7Урона, наносимого §6Г'аджем",
+		"description": "§fꦘ §9+3 §7Порчи",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -38,7 +39,8 @@
 		}
 	},
 	"attackspeed": {
-		"title": "§f籠 §6+2% §7Скорости атаки и §fꦘ §9+2 §7Порчи",
+		"title": "§f籠 §6+2% §7Скорости атаки",
+		"description": "§fꦘ §9+2 §7Порчи",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -77,7 +79,7 @@
 	},
 	"infusion_corruption": {
 		"title": "§f鹿 §9Усиленные тени",
-		"description": "§7Использование Шага сквозь тень мгновенно даст Спешку(V), чтобы насытить Г'адж для следующей атаки.\n \n§fꦘ §9+20§7 Порчи",
+		"description": "§7Использование Шага сквозь тень мгновенно даст Спешку(V), чтобы насытить §9Г'адж §7для следующей атаки.\n \n§f弄 §6+10% §7Урона §9Г'адж\n§fꦘ §9+20§7 Порчи",
 		"size": 1.5,
 		"frame": {
 			"type": "texture",
@@ -93,6 +95,14 @@
 			}
 		},
 		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_damage",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {

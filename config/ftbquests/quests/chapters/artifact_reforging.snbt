@@ -879,6 +879,48 @@
 			x: -2.857142857142854d
 			y: 2.1964285714285765d
 		}
+		{
+			can_repeat: false
+			dependencies: ["341DB238063321BF"]
+			description: [
+				"&7Ты обновился с прошлой версии, а твое древо навыков &bЛедяной скорби &7получило характеристику, которая тебе не нужна?"
+				""
+				"&6Не волнуйся! Ты можешь сбросить свое древо навыков один раз, бесплатно."
+			]
+			icon: {
+				Count: 1
+				id: "prominent:infused_molten_remnant"
+				tag: { }
+			}
+			id: "751FAEF8C64D4FEF"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/puffish_skills skills reset @s puffish_skills:frostmourne"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "prominent:frostmourne"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2DB6B9CADE1B3EA7"
+				silent: true
+				title: "Сбрось свое древо навыков!"
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			tasks: [{
+				id: "1C11339F345F5C87"
+				title: "Нажми на меня! :)"
+				type: "checkmark"
+			}]
+			title: "Ошибка в древе навыков артефакта?"
+			x: -1.982142857142854d
+			y: -2.892857142857139d
+		}
 	]
 	title: "&c&l Кузня С'келлака"
 }

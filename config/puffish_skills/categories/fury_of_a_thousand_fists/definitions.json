@@ -1,6 +1,7 @@
 {
-	"fyrdmg+5": {
-		"title": "§f\uF943 §6+2% §7Урона, наносимого §6Ярость Тысячи Ударов§7 и §3+3%§7 Сила Души.",
+	"artifact_damage_soul": {
+		"title": "§f\uF943 §6+2% §7Урона, наносимого §cЯрость Тысячи Ударов§.",
+		"description": "§f\uF958 §3+3%§7 Силы души",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -37,8 +38,9 @@
 			"icon": "vt5q3v2tr9v4ow8e"
 		}
 	},
-	"maxhealth+5": {
-		"title": "§f\uF944 §e+3% §7Скорости атаки и §6+2% §7Сила Огня",
+	"haste_fire": {
+		"title": "§f\uF944 §e+3% §7Скорости атаки",
+		"description": "§f縷 §6+2% §7Силы огня",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -77,7 +79,7 @@
 	},
 	"infusion_corruption": {
 		"title": "§f\uF940 §9Кулак Пустоты",
-		"description": "§7Каждый раз, нанося урон от силы души, вы увеличиваете его от показателей порчи\n \n§f\uA998 §9+20§7 Порчи",
+		"description": "§7Каждый раз, нанося урон от силы души, вы увеличиваете его, спасибо наполненной порче\n \n§f\uF943 §6+10% §7Урона §cЯрости тысячи кулаков\n§f\uA998 §9+20§7 Порчи",
 		"size": 1.5,
 		"frame": {
 			"type": "texture",
@@ -93,6 +95,14 @@
 			}
 		},
 		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_damage",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
