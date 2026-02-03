@@ -50,30 +50,6 @@
 		}
 		{
 			dependencies: ["731C3214BB61FDAE"]
-			id: "44937B2D2EB38094"
-			rewards: [{
-				id: "2B6B4A1DB2165CC7"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			subtitle: "Используется чтобы нивелировать тьму на &8&lДругой Стороне."
-			tasks: [{
-				id: "42CA7AAF304767E7"
-				item: {
-					Count: 1
-					id: "deeperdarker:warden_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Создай &9Шлем Хранителя"
-			x: 5.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["731C3214BB61FDAE"]
 			id: "704CCA2CEAB23B4D"
 			rewards: [{
 				id: "336DFFDBA2B4F736"

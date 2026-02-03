@@ -517,8 +517,8 @@
 					}
 					id: "43DBCF7B9A526165"
 					item: "runes:lightning_stone"
-					title: "Получить руну Молнии"
 					optional_task: true
+					title: "Получить руну Молнии"
 					type: "item"
 				}
 			]
@@ -2938,9 +2938,6 @@
 				"&6Сложность:&a Легко"
 				""
 				"&7Незеритово-алмазная броня будет твоим предпочтительным улучшением от незерита, чтобы затем перейти к сапфировой."
-				""
-				"&eАльтернатива"
-				"&7Если ты предпочитаешь больше брони с немного большим количеством здоровья, чем у сапфира, но с более низкой броней, ты можешь создать &7Броню Стража&7, но это зависит от предпочтений."
 			]
 			hide_until_deps_visible: true
 			id: "42068E429EB7B74F"
@@ -3023,8 +3020,8 @@
 				}
 			]
 			title: "&eЕще более закаленный?"
-			x: 3.375d
-			y: -0.375d
+			x: 3.75d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -3124,8 +3121,8 @@
 				}
 			]
 			title: "&6Лишь чуточку труднее"
-			x: 4.0d
-			y: -1.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3D78B8D241B53C2A"]
@@ -4385,7 +4382,8 @@
 			y: -2.5357142857142705d
 		}
 		{
-			dependencies: ["4B450D0E26363D54"]
+			dependencies: ["06DFB0682D1B98E9"]
+			dependency_requirement: "one_completed"
 			description: [
 				"&6Сложность:&e Средняя"
 				""
@@ -4395,6 +4393,7 @@
 			]
 			hide_until_deps_visible: true
 			id: "4CF644BC0920C177"
+			min_required_dependencies: 1
 			rewards: [
 				{
 					count: 16
@@ -4424,11 +4423,6 @@
 			size: 0.75d
 			subtitle: "&6Уровень III &8- [Нажми, чтобы прочитать руководство]"
 			tasks: [
-				{
-					id: "6355C1049705E699"
-					item: "death_knights:blood_spell_book"
-					type: "item"
-				}
 				{
 					id: "3817D7122445295D"
 					item: {
@@ -4496,8 +4490,8 @@
 				}
 			]
 			title: "&eКровавая преданность"
-			x: 3.0d
-			y: -1.125d
+			x: 3.375d
+			y: -1.875d
 		}
 		{
 			dependencies: [
@@ -4733,6 +4727,102 @@
 			title: "&dМастер всех сборок"
 			x: 3.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["57B71888F2B87995"]
+			description: [
+				"&6Сложность:&a Легкая &7/ &eСредняя"
+				""
+				"&7Твое следующее улучшение, как у танка, это создание брони Багряного Стража."
+				""
+				"&eВыбор навыков"
+				"&7Ты можешь выбрать либо &9Тлеющую Верность&7для большего упора в урон, или &9Костяную броню&7 для чистого сопротивления с насмешкой."
+				""
+				"&7Что насчет судьбы, ты можешь выбрать любую, какая больше нравится."
+			]
+			id: "06DFB0682D1B98E9"
+			rewards: [
+				{
+					count: 16
+					id: "2140EBAD5929B496"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: "ironchests:lock"
+					id: "016312526BD448A4"
+					title: "&eРазблокируй гайд III уровня"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eУровень II &8- [Нажми, чтобы прочитать подсказки]"
+			tasks: [
+				{
+					id: "49E7A57B77B185B6"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_guard_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DD2959FC883993B"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_guard_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B49D14C702B088C"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_guard_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6383255663BF0F3B"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_guard_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04287363FA4D6838"
+					item: {
+						Count: 1
+						id: "death_knights:great_diamond_runeaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "384805A50AF85B1F"
+					item: "death_knights:blood_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eКлюч к крови"
+			x: 2.25d
+			y: -1.5d
 		}
 	]
 	title: " &eБой \\& Снаряжение"

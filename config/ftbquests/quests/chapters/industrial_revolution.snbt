@@ -311,160 +311,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["71D3FB31485B9F05"]
-			id: "563C4FEA39531845"
-			rewards: [{
-				id: "2CB7CFF0452DC6EF"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "Простая машина, использующая LF чтобы переплавлять предметы."
-			tasks: [{
-				id: "006643CD4ACB0DD5"
-				item: "indrev:electric_furnace_mk1"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["563C4FEA39531845"]
-			icon: "indrev:electric_furnace_factory_mk4"
-			id: "06603DC3541DEB95"
-			rewards: [{
-				id: "02A2B2A18F52A248"
-				type: "xp"
-				xp: 200
-			}]
-			subtitle: "Высочайший уровень Электрической Печи, позволяет обрабатывать 5 предметов за раз."
-			tasks: [
-				{
-					id: "16CEFF263293C772"
-					item: "indrev:electric_furnace_factory_mk4"
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "70DB6A10F9B01054"
-					item: "indrev:frame"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "40C59B8757620251"
-					item: "indrev:silo"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "27FDF4FAA444A105"
-					item: "indrev:intake"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "15C3BDABD227496A"
-					item: "indrev:duct"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "76921C10EB44F864"
-					item: "indrev:cabinet"
-					type: "item"
-				}
-				{
-					id: "44A0019F34F5B28D"
-					item: "indrev:controller"
-					type: "item"
-				}
-				{
-					id: "110D54BA3A1CF124"
-					item: "indrev:warning_strobe"
-					type: "item"
-				}
-			]
-			x: -8.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["71D3FB31485B9F05"]
-			id: "34AD352626226978"
-			rewards: [{
-				id: "4A0C03249F4D88FF"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "Позволяет пульверизацию многих материалов."
-			tasks: [{
-				id: "3259088F99EA9060"
-				item: "indrev:pulverizer_mk1"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["34AD352626226978"]
-			icon: "indrev:pulverizer_factory_mk4"
-			id: "5BF75A8B35CF8BEC"
-			rewards: [{
-				id: "69B83565A7E25E7E"
-				type: "xp"
-				xp: 200
-			}]
-			subtitle: "Пульверизатор высочайшего уровня, позволяет обрабатывать 5 предметов за раз."
-			tasks: [
-				{
-					id: "7B8DBCDA7DEBD0E2"
-					item: "indrev:pulverizer_factory_mk4"
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "28BA24BD580EBB97"
-					item: "indrev:frame"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "4705A3F09366AF10"
-					item: "indrev:silo"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "41253A312474E5B4"
-					item: "indrev:intake"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "364999D2D9EE2CAA"
-					item: "indrev:duct"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "63F9F7B5843F66AD"
-					item: "indrev:cabinet"
-					type: "item"
-				}
-				{
-					id: "510B7A0862C58E12"
-					item: "indrev:controller"
-					type: "item"
-				}
-				{
-					id: "142FE0AF12CD8214"
-					item: "indrev:warning_strobe"
-					type: "item"
-				}
-			]
-			x: -9.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["0362B2FF4E5681B2"]
 			id: "71D3FB31485B9F05"
 			size: 1.5d
@@ -688,83 +534,6 @@
 		}
 		{
 			dependencies: ["71D3FB31485B9F05"]
-			id: "1DF04A11406C2667"
-			rewards: [{
-				id: "7CE958ADF42583FE"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "Позволяет тебе делать пластины, не используя молот, а также создавать усилители для увеличения производительности твоих машин."
-			tasks: [{
-				id: "5FFFF0490FAC7779"
-				item: "indrev:compressor_mk1"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["1DF04A11406C2667"]
-			icon: "indrev:compressor_factory_mk4"
-			id: "6D636C93B8884BE3"
-			rewards: [{
-				id: "71EE55610CBA3DA2"
-				type: "xp"
-				xp: 200
-			}]
-			subtitle: "Высочайший уровень Компрессора, позволяющий одновременную обработку сразу 5 предметов."
-			tasks: [
-				{
-					id: "1A9600EC4FC50D2F"
-					item: "indrev:compressor_factory_mk4"
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "6EDE2CAA7E2C7D37"
-					item: "indrev:frame"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "2F70D327BB99D85B"
-					item: "indrev:silo"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "426C8D6930CC4621"
-					item: "indrev:intake"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "61BD498597CD1855"
-					item: "indrev:duct"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "6386F46273030791"
-					item: "indrev:cabinet"
-					type: "item"
-				}
-				{
-					id: "0CB3ECEAF1DCD641"
-					item: "indrev:controller"
-					type: "item"
-				}
-				{
-					id: "7485E9C8240C34D6"
-					item: "indrev:warning_strobe"
-					type: "item"
-				}
-			]
-			x: -8.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["71D3FB31485B9F05"]
 			id: "561D892792DE7BF8"
 			rewards: [{
 				id: "26605AEB1527EFF9"
@@ -837,7 +606,7 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
+			x: -10.0d
 			y: -3.0d
 		}
 		{
@@ -854,8 +623,8 @@
 				item: "indrev:sawmill_mk1"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 1.0d
+			x: -13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7E3E1C542B624D4F"]
@@ -871,8 +640,8 @@
 				item: "indrev:sawmill_mk4"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 2.0d
+			x: -15.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["71D3FB31485B9F05"]
@@ -888,25 +657,8 @@
 				item: "indrev:chopper_mk1"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -13.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["71D3FB31485B9F05"]
-			id: "7AC8A8E3E86987A2"
-			rewards: [{
-				id: "069393B0E483B78A"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "Позволяет автоматическое собирание и посадку растений."
-			tasks: [{
-				id: "0A8A1824D486651B"
-				item: "indrev:farmer_mk1"
-				type: "item"
-			}]
-			x: -13.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["71D3FB31485B9F05"]
@@ -941,74 +693,6 @@
 			}]
 			x: -13.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["71D3FB31485B9F05"]
-			id: "7F7191A03F884B3A"
-			rewards: [{
-				id: "03D6EB577950FB68"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "Автоматически собирает любую жидкость выше его."
-			tasks: [{
-				id: "6BCA806FB997839F"
-				item: "indrev:drain_mk1"
-				type: "item"
-			}]
-			x: -14.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["71D3FB31485B9F05"]
-			id: "4B2734DD638F02C3"
-			rewards: [{
-				id: "39056B87F3AAAD83"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "Позволяет извлечение жидкостей, найденных в мире."
-			tasks: [{
-				id: "304662C834225F42"
-				item: "indrev:pump_mk1"
-				type: "item"
-			}]
-			x: -15.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["6890EA95BC24049C"]
-			id: "199A5BA094AC15B7"
-			rewards: [{
-				id: "79007D7E1FDEBB35"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "Базовая форма ЛФ хранилища."
-			tasks: [{
-				id: "7CF9120CCA224B49"
-				item: "indrev:lazuli_flux_container_mk1"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["199A5BA094AC15B7"]
-			id: "5190595C03133F0C"
-			rewards: [{
-				id: "6FDC7068BB459898"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Хранилище энергии самого высокого уровня в Industrial Revolution."
-			tasks: [{
-				id: "0BCC0932F9AEA74A"
-				item: "indrev:lazuli_flux_container_mk4"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.5d
 		}
 		{
 			dependencies: ["336AC58F9C15B5C1"]
@@ -1103,138 +787,6 @@
 			]
 			x: 5.5d
 			y: 10.0d
-		}
-		{
-			dependencies: ["71D3FB31485B9F05"]
-			id: "44493EE8C4898DBE"
-			rewards: [
-				{
-					id: "5134A704A06EE67B"
-					item: {
-						Count: 1
-						id: "minecraft:fishing_rod"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "74DE076F1C5AA7E0"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "Машина, которая может самостоятельно рыбачить. Требует удочку и источник воды, прилежащий к машине."
-			tasks: [{
-				id: "622A1326F071D08B"
-				item: "indrev:fisher_mk2"
-				type: "item"
-			}]
-			x: -14.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["6890EA95BC24049C"]
-			id: "562CB67AF723367C"
-			rewards: [{
-				id: "2429EAFF8F622BA1"
-				type: "xp"
-				xp: 75
-			}]
-			subtitle: "Пассивная форма генерации энергии, требующая только солнечный свет для работы."
-			tasks: [{
-				id: "251D7A4D050376D7"
-				item: "indrev:solar_generator_mk1"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["562CB67AF723367C"]
-			id: "3854E77F541CAB4C"
-			rewards: [{
-				id: "6007CC914C110469"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Улучшение Солнечного Генератора."
-			tasks: [{
-				id: "1B446742F5601191"
-				item: "indrev:solar_generator_mk3"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["32DE8281608AE114"]
-			id: "6890EA95BC24049C"
-			rewards: [{
-				id: "1B0D7FADBA5EFA9E"
-				type: "xp"
-				xp: 75
-			}]
-			subtitle: "Самый базовый генератор, потребляющий любое сжигаемое топливо для производства ЛФ."
-			tasks: [{
-				id: "0A6F900672307E3C"
-				item: "indrev:coal_generator_mk1"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["6890EA95BC24049C"]
-			id: "2229FBE0472060FF"
-			rewards: [{
-				id: "2BBC15463890DABE"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Генератор, позволяющий семенам и другой растительной материи быть использованной в понятии генерации энергии, если перед этим будет превращена в биомассу."
-			tasks: [{
-				id: "68C755DE9DE014A6"
-				item: "indrev:biomass_generator_mk3"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["6890EA95BC24049C"]
-			id: "267A1C9CDC825494"
-			rewards: [{
-				id: "1C3538C3B7209E99"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Лучший ЛФ/такт генератор в Industrial Revolution. Он потребляет лаву для генерации ЛФ."
-			tasks: [{
-				id: "5EA67D9DB04812FA"
-				item: "indrev:heat_generator_mk4"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["114491A0ECA253E8"]
-			id: "3EB472FADC42E955"
-			rewards: [{
-				id: "1EB2FDEB5F8EACD6"
-				type: "xp"
-				xp: 40
-			}]
-			subtitle: "Небольшой девайс, который читает количество энергии, хранимой в машине, как и потенциальное потребление ЛФ этой машины.\\n\\nЭто может быть отчасти полезно, когда пытаешься узнать потребление ЛФ машины с улучшениями в них."
-			tasks: [{
-				id: "2B5BB6332505B4C7"
-				item: "indrev:energy_reader"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 2.5d
 		}
 		{
 			dependencies: ["3DC8D8576946AFB7"]
@@ -1826,55 +1378,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["32DE8281608AE114"]
-			icon: {
-				Count: 1
-				id: "indrev:fan"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "446C1A9D56CC3CEB"
-			tasks: [
-				{
-					id: "4F9CB4B0CF0F59CB"
-					item: {
-						Count: 1
-						id: "indrev:fan"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "031127910272B37D"
-					item: {
-						Count: 1
-						id: "indrev:cooler_cell"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "33651DB0E58175E2"
-					item: {
-						Count: 1
-						id: "indrev:heatsink"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Тепло"
-			x: -2.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["71D3FB31485B9F05"]
 			id: "07FC8DC730733737"
 			rewards: [{
@@ -1905,7 +1408,7 @@
 				item: "indrev:fluid_infuser_mk4"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.0d
 			y: -3.0d
 		}
 		{
@@ -1926,23 +1429,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["7AC8A8E3E86987A2"]
-			id: "42134A2543CFA025"
-			rewards: [{
-				id: "1D13F051FFAC615A"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Фермер высочайшего уровня."
-			tasks: [{
-				id: "44BA665696CDDB11"
-				item: "indrev:farmer_mk4"
-				type: "item"
-			}]
-			x: -15.5d
-			y: 0.5d
-		}
-		{
 			dependencies: ["011E16AE09FB030A"]
 			id: "3E26197882796159"
 			rewards: [{
@@ -1956,7 +1442,7 @@
 				item: "indrev:chopper_mk4"
 				type: "item"
 			}]
-			x: -15.5d
+			x: -15.0d
 			y: -1.5d
 		}
 		{
@@ -2073,40 +1559,6 @@
 			}]
 			x: 2.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["5190595C03133F0C"]
-			id: "30B2B5E1AB6138B7"
-			rewards: [{
-				id: "173AEDCC5CB928BD"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Блок, позволяющий тебе заряжать предметы в твоих руках, и твою броню при наступании на него. Подведи энергию к низу блока."
-			tasks: [{
-				id: "60FE57C7D20CB98F"
-				item: "indrev:charge_pad_mk4"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["71D3FB31485B9F05"]
-			id: "634A3ADD40195C4D"
-			rewards: [{
-				id: "6D34A6ACCF0024B1"
-				type: "xp"
-				xp: 75
-			}]
-			subtitle: "Машина, которая создает биомассу для генератора на биомассе."
-			tasks: [{
-				id: "4EC7BE99AB922C68"
-				item: "indrev:recycler_mk2"
-				type: "item"
-			}]
-			x: -13.0d
-			y: -3.0d
 		}
 		{
 			can_repeat: true

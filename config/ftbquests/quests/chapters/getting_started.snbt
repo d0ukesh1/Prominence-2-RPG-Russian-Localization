@@ -517,24 +517,6 @@
 			x: -1.482142857142854d
 			y: -3.292165295437549d
 		}
-		{
-			dependencies: ["2B96D4BA73511402"]
-			description: ["ТЕБЕ РЕАЛЬНО СТОИТ ПОЧИТАТЬ ВИКИ, ОТ ФЕРМ ДО ТУТОРИАЛОВ, ТАМ БУДЕТ ВСЕ ЧТО ПОТРЕБУЕТСЯ, ЧТОБЫ ЗАВЕРШИТЬ ЭТОТ ПАК!!"]
-			id: "028F0467DB3D633B"
-			rewards: [{
-				id: "640827BAB4106307"
-				item: "expandeddelight:chocolate_cookie"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "32891AB9791CF1A8"
-				title: "ПОЖАЛУЙСТА, ПРОЧТИ ВИКИ"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: -3.0d
-		}
 	]
 	title: " &eНачало"
 }

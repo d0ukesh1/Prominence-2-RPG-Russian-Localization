@@ -304,6 +304,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["6E9F5146EA3F505F"]
 			description: ["&7Ну, ты ведь уже здесь, так ведь?"]
 			id: "60526E15B6F891CB"
 			rewards: [{

@@ -169,8 +169,8 @@
 				type: "checkmark"
 			}]
 			title: "Охота за сокровищами Капитана Корнелии"
-			x: -0.75d
-			y: -5.25d
+			x: -0.25d
+			y: -5.75d
 		}
 		{
 			dependencies: [
@@ -252,8 +252,8 @@
 				}
 			]
 			title: "Вызови Капитана из мертвых."
-			x: 1.0d
-			y: -7.5d
+			x: 1.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["60DC316BF3D62742"]
@@ -273,11 +273,6 @@
 							Potion: "minecraft:water_breathing"
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "206FEEA2FF5DDCD2"
-					item: "aquamirae:sea_stew"
 					type: "item"
 				}
 			]
@@ -329,8 +324,8 @@
 				}
 			]
 			title: "Броня Капитана Корнелии"
-			x: 2.5d
-			y: -6.5d
+			x: 3.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["60DC316BF3D62742"]
@@ -353,8 +348,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -6.5d
+			x: -3.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["60DC316BF3D62742"]
@@ -412,8 +407,8 @@
 				}
 			]
 			title: "Броня морского ужаса"
-			x: 3.0d
-			y: -5.0d
+			x: 3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["60DC316BF3D62742"]
@@ -448,8 +443,8 @@
 				}
 			]
 			title: "Террор Ледяного Лабиринта"
-			x: -2.5d
-			y: -7.5d
+			x: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["136FC2FC6435F619"]
@@ -490,8 +485,8 @@
 				}
 			]
 			title: "Схрон Капитана Корнелии"
-			x: 2.5d
-			y: -9.0d
+			x: 3.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["068588703F19898F"]
@@ -581,8 +576,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -9.0d
+			x: -3.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["60DC316BF3D62742"]
@@ -676,8 +671,8 @@
 				}
 			]
 			title: "Оружия Морских волков"
-			x: -4.5d
-			y: -5.0d
+			x: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["068588703F19898F"]
@@ -700,8 +695,8 @@
 				type: "item"
 			}]
 			title: "Оружия Морской Бездны"
-			x: -2.5d
-			y: -9.5d
+			x: -2.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["282EACA345910CE7"]
@@ -795,6 +790,11 @@
 					count: 5
 					id: "54F4061810438FDD"
 					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "617A948362344BEA"
+					item: "prominent:molten_remnant"
 					type: "item"
 				}
 			]

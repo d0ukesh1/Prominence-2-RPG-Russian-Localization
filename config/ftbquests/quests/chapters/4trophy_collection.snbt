@@ -1,0 +1,539 @@
+{
+	autofocus_id: "5675731BD892A014"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4trophy_collection"
+	group: "3DBADFFDA1FDAD84"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "prominent:cinderstone_trophy"
+	id: "6F4737D47ADBFAB8"
+	images: [
+		{
+			dependency: "5675731BD892A014"
+			height: 2.3d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependency: "5675731BD892A014"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependency: "5675731BD892A014"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependency: "5675731BD892A014"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependency: "5675731BD892A014"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependency: "5675731BD892A014"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependency: "5675731BD892A014"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependency: "34C3284620E16342"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependency: "0953F58E223F0EC2"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependency: "29B862369BADE58F"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependency: "5DE2E0B229B61145"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/diamond_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependency: "5DE2E0B229B61145"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/diamond_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependency: "5DE2E0B229B61145"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/diamond_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependency: "5DE2E0B229B61145"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/diamond_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependency: "5DE2E0B229B61145"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/diamond_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependency: "5DE2E0B229B61145"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/diamond_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependency: "5DE2E0B229B61145"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/diamond_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.5d
+			y: 2.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5B31D4D4029F1891"
+				"49C9DC2F3D131A14"
+				"1F9BB747D54F1CD1"
+				"1E53C2B640C2CED4"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&7Эти трофеи получаются завершением квестов в сюжетной линии. Если ты видишь это, ты уже получил свой первый трофей! Поздравляем!"]
+			id: "5675731BD892A014"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "1A3119D023865E24"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "Теплый при прикосновении"
+			tasks: [{
+				id: "6E03DE713402299C"
+				item: "prominent:cinderstone_trophy"
+				type: "item"
+			}]
+			title: "&4Пепельные трофеи"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5675731BD892A014"]
+			description: [
+				"&7Ты использовал другой рецепт, не так ли."
+				""
+				"&7Это, по большей части, предмет функциональный, использующийся только чтобы ставить блоки. Он не может ломать блоки. Эта палочка может быть использована для заполнения больших дыр, с которыми твои друзья не хотят маяться, или сооружать массивные стены, чтобы твои друзья оставались снаружи."
+			]
+			id: "34C3284620E16342"
+			rewards: [{
+				id: "4F5C96707A6B3C79"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "156477641C9D32B4"
+				item: {
+					Count: 1
+					id: "wands:stone_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34C3284620E16342"]
+			description: ["&7Так же, как и прошлая, но обладает большим радиусом, чем каменная палочка."]
+			id: "0953F58E223F0EC2"
+			rewards: [{
+				id: "1ED060F027F0097A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4B5439206259FCF0"
+				item: {
+					Count: 1
+					id: "wands:iron_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0953F58E223F0EC2"]
+			description: ["&7Дорогая, но полезная. Не рекомендовал бы, если у тебя нет компаса Исследователя, по крайней мере одной книги Заклинаний, компаса Природы и карманной Червоточины."]
+			id: "29B862369BADE58F"
+			rewards: [{
+				id: "6D62913A039497A6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "none"
+			tasks: [{
+				id: "49615DB960081A79"
+				item: {
+					Count: 1
+					id: "wands:diamond_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["29B862369BADE58F"]
+			id: "7826A4281EAAB27E"
+			rewards: [
+				{
+					id: "112AABAF2AB04E0A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "32E621205E49C72C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "none"
+			subtitle: "Перебор"
+			tasks: [{
+				id: "53AC21665C4F8B7C"
+				item: {
+					Count: 1
+					id: "wands:netherite_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5675731BD892A014"]
+			description: ["&7Хотя этот предмет дает множество удобств, лучше не забывать, что на раннем этапе можно пропустить очень полезные вещи из-за него. Рекомендую создать после Края."]
+			id: "0C1FBFE401C27A26"
+			rewards: [{
+				id: "10ED516AC70B477D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0F7A534809E39E47"
+				item: "fwaystones:pocket_wormhole"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5675731BD892A014"]
+			description: ["&7Это лучший предмет для получения трофеями, который имеет много полезных функций. Очень рекомендую получить, как только сможешь создать его. Он спасет тебе часы поисков."]
+			id: "7AAD2112843038CC"
+			rewards: [{
+				id: "71E2C2DBDEC1385B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "none"
+			tasks: [{
+				id: "46C61967867A6F36"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5675731BD892A014"]
+			description: ["&7Этот компасс дает множество возможностей, хотя ты всё ещё можешь найти большинство биомов, если умеешь пользоваться структурами через компасс Исследователя. Очень рекомендую после Края."]
+			id: "0419784E7F5972C4"
+			rewards: [{
+				id: "6954CF31496B37F6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "57B2EA024B7CF733"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5DE2E0B229B61145"]
+			description: ["&7В этой книге есть всё. Из-за того, что в ней есть все, тебе понадобится чуть ли не таблица Эксель, просто чтобы держать всё то, что ты можешь сделать. Увеличивается с силой Арканы, Огня и Льда, в зависимости от комбинации Заклинаний, которую ты используешь."]
+			id: "7F5B54924F643B6E"
+			rewards: [{
+				id: "287BA6F62DDD1653"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "none"
+			tasks: [{
+				id: "58AB647C7A1493D1"
+				item: "invoke:invoker_spell_book"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5675731BD892A014"]
+			description: ["&7Ты реально настолько ленив для этого?"]
+			id: "0DADFB6B16AB9487"
+			rewards: [
+				{
+					count: 2
+					id: "02793A59D64D9E98"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "5CA116646A4A5150"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "4AA5658C0E43A1CB"
+				item: "things:bater_wucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5675731BD892A014"]
+			description: ["&7Эти книги Заклинаний - это альтернативы существующим книгам Заклинаний, которые ты создаешь на столе привязки Заклинаний. &4Это не значит, что они лучше просто потому, что ты сделал их с помощью трофея! &r"]
+			id: "5DE2E0B229B61145"
+			rewards: [{
+				id: "7B8FE63E47E02E80"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0215760BBA76B1B4"
+				item: "spell_engine:spell_binding"
+				type: "item"
+			}]
+			title: "&3Книги Заклинаний более высокого уровня"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DE2E0B229B61145"]
+			description: ["&7Эта книга Лучника в основном фокусируется вокруг силы огненных Заклинаний и урона дальнего боя, а также взрывы взрывы взрывы!"]
+			id: "5054E7B9A58D6083"
+			rewards: [{
+				id: "45185BD2745E3B94"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0D4F92598931CBEC"
+				item: "archers_expansion:deadeye_spell_book"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5DE2E0B229B61145"]
+			description: ["&7Зачем нужны пушки, когда ты можешь стрелять, как пушка? Эта книга Заклинаний лучника фокусируется на быстрой стрельбе и убийстве до того, как ты это заметишь."]
+			id: "1EF07D2D14739FE5"
+			rewards: [{
+				id: "3A84A546EB4A4CE9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "none"
+			tasks: [{
+				id: "45FA96305594968F"
+				item: "archers_expansion:war_archer_spell_book"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DE2E0B229B61145"]
+			description: ["&7Эта книга Лучника отлична для любого ледяного Лучника, которому нужно заморозить своих врагов. С пассивным эффектом Заморозки и множеством замедления, если ты хочешь кого-то взбесить, у этой книги есть всё."]
+			id: "5486690E098C2A0C"
+			rewards: [{
+				id: "5A066164C342697E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7259A69187EC1A4C"
+				item: "archers_expansion:tundra_hunter_spell_book"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DE2E0B229B61145"]
+			description: ["&7Холодно, даже слишком холодно для большинства. Увеличивается с силой Льда."]
+			id: "43065A117F31048C"
+			rewards: [{
+				id: "0D41456D1CAE47F0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7B869279D9A260B2"
+				item: "spellbladenext:deathchill_spell_book"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5DE2E0B229B61145"]
+			description: ["&7Иногда ты хочешь заставить своего оппонента думать: разве он не кастанул это заклинание буквально секунду назад? Тогда тебе понадобится эта книга Заклинаний арканы."]
+			id: "5149EC6B04496896"
+			rewards: [{
+				id: "76CA1C0F96557603"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "none"
+			tasks: [{
+				id: "36FF5AA348C56AFC"
+				item: "spellbladenext:runic_echoes_spell_book"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5DE2E0B229B61145"]
+			description: ["&7Такой же грациозный, как Феникс, и такой же крутой. Увеличивается с силой Заклинаний огня."]
+			id: "06E0A1DB549D9720"
+			rewards: [{
+				id: "7DB59185FDC9A711"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "none"
+			tasks: [{
+				id: "292C8291288E4239"
+				item: "spellbladenext:phoenix_spell_book"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+	title: "&6&l Коллекция Трофеев"
+}

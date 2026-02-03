@@ -1,9 +1,9 @@
 {
+	autofocus_id: "01BF1397DC5B4906"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "gadgets"
 	group: "49D52BD6447C5CC0"
-	icon: "kibe:cobblestone_generator_mk3"
 	id: "5E6450E48F6FFE86"
 	images: [
 		{
@@ -11,40 +11,64 @@
 			image: "modern_industrialization:block/machines/diesel_generator/overlay_front_active"
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.5d
-			y: 0.0d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.2d
+			image: "supplementaries:block/cog_block_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			height: 1.2d
+			image: "supplementaries:block/cog_block_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
 			height: 1.0d
 			image: "supplementaries:block/cog_block_on"
 			rotation: 0.0d
-			width: 1.0d
-			x: -0.10714285714286831d
-			y: 4.125d
+			width: 1.2d
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			height: 1.2d
+			image: "supplementaries:block/cog_block_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "modern_industrialization:block/machines/diesel_generator/overlay_top_active"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			height: 3.0d
+			image: "kibe:item/brown_glider"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			height: 1.0d
-			image: "supplementaries:block/cog_block_on"
+			image: "fancymenu:textures/contextmenu/icons/measure.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.9642857142857295d
-			y: 4.982142857142861d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cog_block_on"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.9642857142857224d
-			y: 4.125d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cog_block_on"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.10714285714286831d
-			y: 3.267857142857146d
+			x: 2.0d
+			y: 9.0d
 		}
 	]
 	order_index: 0
@@ -64,8 +88,8 @@
 				item: "kibe:cobblestone_generator_mk1"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["272B5685646C522E"]
@@ -80,8 +104,8 @@
 				item: "kibe:cobblestone_generator_mk2"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["202A89A44FC39203"]
@@ -96,8 +120,8 @@
 				item: "kibe:cobblestone_generator_mk3"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: -0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["57FE6A61042C4F26"]
@@ -112,8 +136,8 @@
 				item: "kibe:cobblestone_generator_mk4"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.5d
+			x: -0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["189176286B6E28F4"]
@@ -129,8 +153,8 @@
 				item: "kibe:cobblestone_generator_mk5"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.0d
+			x: -0.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
@@ -146,8 +170,8 @@
 				item: "kibe:basalt_generator_mk1"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["698C1D52BBCFA71D"]
@@ -162,8 +186,8 @@
 				item: "kibe:basalt_generator_mk2"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["362CF5CFE6362C52"]
@@ -178,8 +202,8 @@
 				item: "kibe:basalt_generator_mk3"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.0d
+			x: 1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["754D9CEEDB384336"]
@@ -194,8 +218,8 @@
 				item: "kibe:basalt_generator_mk4"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["0C91FB5B9F7988B9"]
@@ -211,21 +235,22 @@
 				item: "kibe:basalt_generator_mk5"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
+			icon: "mobs_of_mythology:gear"
 			id: "01BF1397DC5B4906"
-			shape: "rsquare"
-			size: 1.25d
+			shape: "gear"
+			size: 1.0d
 			subtitle: "Эта квестовая линия рассказывает об изучении уникальных и прикольных предметов/блоков в Prominence, которые могут даже помочь с некоторыми индустриальными модами!"
 			tasks: [{
 				id: "3EE7C97623ACE6EA"
 				title: "Добро Пожаловать!"
 				type: "checkmark"
 			}]
-			x: 0.625d
-			y: 3.75d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
@@ -241,8 +266,8 @@
 				item: "darkutils:blank_plate"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["33C2B1CC10CF07D1"]
@@ -257,8 +282,8 @@
 				item: "darkutils:vector_plate"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["682198412A038176"]
@@ -273,8 +298,8 @@
 				item: "darkutils:vector_plate_fast"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["222E128CF7D132DA"]
@@ -289,11 +314,12 @@
 				item: "darkutils:vector_plate_extreme"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: 3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["51186DDE3C82D092"]
+			description: ["&7Эти пластины могут быть сделаны ударом молнии."]
 			id: "4C73E9CCD2C8DEFC"
 			optional: true
 			rewards: [{
@@ -306,8 +332,8 @@
 				item: "darkutils:vector_plate_ultra"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["33C2B1CC10CF07D1"]
@@ -322,8 +348,8 @@
 				item: "darkutils:damage_plate"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.0d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["22E7D110891A35CE"]
@@ -338,8 +364,8 @@
 				item: "darkutils:damage_plate_player"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
@@ -357,7 +383,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
@@ -367,14 +393,14 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Медные миски это ранняя альтернатива рудным фармам, обычно находимым в технических модах по типу Create. Если положить песок/гравий под миску, и воду над ней, она начнет иногда генерировать рудные самородки, гравий, изумруды, и несколько других различных предметов."
+			subtitle: "Медные миски это ранняя альтернатива рудным фармам, обычно находящимся в технических модах по типу Create. Если положить песок/гравий под миску, и воду над ней, она начнет иногда генерировать рудные самородки, гравий, изумруды, и несколько других различных предметов."
 			tasks: [{
 				id: "2F7AA5CAC5265F1A"
 				item: "oxidized:copper_pan"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 6.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
@@ -390,9 +416,305 @@
 				item: "supplementaries:cog_block"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["33C2B1CC10CF07D1"]
+			description: ["&7Plates do not apply Enchants, but your Weapon does. This Plate damages mobs until they have 1 HP left, perfect for that Looting 4 Sword."]
+			id: "218B8D291E7E03CC"
+			rewards: [{
+				id: "7927BE89AEDD31D4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "For when you wanna Hurt Mobs, but kill them yourself"
+			tasks: [{
+				id: "049FC1F5C63F58BC"
+				item: "darkutils:damage_plate_maim"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Не нравится кормить животных с руки? Кормушка снимет с тебя эту обязанность."]
+			id: "0752F260D9482517"
+			rewards: [{
+				id: "6E683934287BA0D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4CBC9BE18BF77487"
+				item: "animal_feeding_trough:feeding_trough"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Отличный способ узнать, что стена на 1 блок длиннее нужного спустя 2 часа."]
+			id: "76126702A53ACAD5"
+			rewards: [{
+				id: "392BA00E8D746CC7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Я знаю, о чем ты думаешь."
+			tasks: [{
+				id: "1A3E7383C61AC7C9"
+				item: "kibe:measuring_tape"
+				type: "item"
+			}]
+			title: "Рулетка"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Дельтапланы - это один из лучших способов полета перед Краем. Они доступны и невероятно полезны для путешествия по местности."]
+			icon: {
+				Count: 1
+				id: "kibe:white_glider"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "536478FBB30EBDD1"
+			rewards: [{
+				id: "580E10A1022CBB4C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Не совсем полет, не совсем падение"
+			tasks: [{
+				id: "6CD8FAD59A12D810"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "the_bumblezone:bee_queen/dedicated_trade_tags/modded/kibe_gliders"
+					}
+				}
+				title: "Создай дельтаплан!"
+				type: "item"
+			}]
+			title: "Дельтапланы"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Мусорная урна - это высший хищник неорганизованной базы. Тебе не нужны 4000 каменных мечей? Мусорка насладиться пиром!"]
+			id: "32C20FDE9BB4F43C"
+			rewards: [{
+				count: 8
+				id: "365BAA91260E92D9"
+				item: "techreborn:scrap"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3648B9DDC2E1A172"
+				item: "kibe:trash_can"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Этот посох используется для воскования некоторых блоков, вместо того, чтобы делать это вручную."]
+			id: "47AD2D244D3DB9AC"
+			rewards: [{
+				id: "6A753B70D6DAC757"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Липкое!"
+			tasks: [{
+				id: "099916A3C850E989"
+				item: "derelict:waxing_staff"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			id: "5A378CE869D256FB"
+			rewards: [{
+				id: "224D5645926832E1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Уже чувствуешь себя старее?"
+			tasks: [{
+				id: "5BB5450E3CBFF848"
+				item: "derelict:aging_staff"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			id: "72873ACC7B56E3CA"
+			rewards: [{
+				id: "2F3E8D08E3CDAB8A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Устал от существ?"
+			tasks: [{
+				id: "3CC03DEB8ADEDD54"
+				item: "bosses_of_mass_destruction:mob_ward"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Этот блок дает очень ограниченную зону полета в креативе. Другие альтернативы - это Тиара флюгель и Гравитационный нагрудник."]
+			id: "69EE5CD66CD38E4E"
+			rewards: [{
+				id: "6233CE0A71094D28"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2782E171A67DF31F"
+				item: "bosses_of_mass_destruction:levitation_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Когда-нибудь хотел пройти сквозь стену, не ударившись головой? Этот предмет идеален для тебя!"]
+			id: "0E280434A6732E11"
+			rewards: [{
+				id: "664CA45146FC92A5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "74B64782E2F603AF"
+				item: {
+					Count: 1
+					id: "bosses_of_mass_destruction:earthdive_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Ты лучник, который не знает, куда бы положить свои стрелы? Этот колчан прекрасен для хранения кучи стрел."]
+			id: "58469ECD7976AB8A"
+			rewards: [{
+				count: 20
+				id: "1B55E1BF76A7483B"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52E3B903DDC670B9"
+				item: {
+					Count: 1
+					id: "supplementaries:quiver"
+					tag: {
+						SelectedSlot: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["32C20FDE9BB4F43C"]
+			description: ["&7Нет слота мусорки в инвентаре или рюкзаке? Просто носи комично большую мусорную урну в своей руке, каким-то образом. Не задавайся вопросами особо долго."]
+			id: "15BB544C1D7D5ACC"
+			rewards: [{
+				id: "48F33A2C317BCD19"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A3E3C90C051C316"
+				item: "kibe:pocket_trash_can"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Этот факел может остановить появление любых враждебных существ в большом радиусе действия. Отлично для твоей базы."]
+			id: "3A0D1D453519DE78"
+			rewards: [
+				{
+					id: "09BF5EFC3E57CDF7"
+					item: "magnumtorch:diamond_magnum_torch"
+					type: "item"
+				}
+				{
+					id: "74928E78780B4EE6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "49CA26E1459F7649"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A0D1D453519DE78"]
+			description: ["&7Не любишь появление животных? Просто используй этот факел. Чудовище."]
+			id: "5B7E6F6DD11B7606"
+			rewards: [{
+				id: "1388398AC64935FB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7B2FF9E3AE9028B7"
+				item: "magnumtorch:emerald_magnum_torch"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A0D1D453519DE78"]
+			description: ["&7Этот факел остановит появление рыбы и других водных существ, не совсем понимаю почему, но это будет отлично для фермы трезубцев."]
+			id: "5E7B9EA964BBE5A5"
+			rewards: [{
+				id: "2C838CA28329B54E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "19A2BCBBABC33D07"
+				item: "magnumtorch:amethyst_magnum_torch"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
 	]
-	title: " &eGadgets"
+	title: " &eГаджеты"
 }
