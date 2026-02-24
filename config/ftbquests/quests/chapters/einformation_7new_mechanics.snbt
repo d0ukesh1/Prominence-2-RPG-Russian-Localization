@@ -1,4 +1,5 @@
 {
+	autofocus_id: "61C05AE305488DF5"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "einformation_7new_mechanics"
@@ -45,8 +46,8 @@
 			image: "decorative_blocks:block/bonfire_x"
 			rotation: 0.0d
 			width: 0.84d
-			x: 4.017857142857139d
-			y: -1.357142857142847d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependency: "01F49526727B35F1"
@@ -63,8 +64,8 @@
 			image: "decorative_blocks:block/bonfire_x"
 			rotation: 0.0d
 			width: 0.84d
-			x: -4.124999999999993d
-			y: 3.285714285714292d
+			x: -5.0d
+			y: 3.5d
 		}
 		{
 			dependency: "1079F098AE98FCF6"
@@ -108,8 +109,161 @@
 			image: "minecraft:block/campfire_fire"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.5107142857142932d
-			y: 2.3214285714285694d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependency: "59C45FA337989B0C"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependency: "059B370119A41869"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependency: "42068E429EB7B74F"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 4.98d
+			y: -1.32d
+		}
+		{
+			dependency: "4898E3ED8141DAFC"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 3.75d
+		}
+		{
+			dependency: "40C4C4072277E160"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.98d
+			y: 2.17d
+		}
+		{
+			dependency: "22E0D946A9D81F02"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependency: "34D8C4E35FD1D7A4"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.98d
+			y: -1.32d
+		}
+		{
+			dependency: "3B1F2D1CFA02F922"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.12d
+			y: -2.53d
+		}
+		{
+			dependency: "0F83B1AC3CB766C9"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependency: "43C641771CB69C88"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependency: "4898E3ED8141DAFC"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.98d
+			y: 2.17d
+		}
+		{
+			dependency: "75E616FE0AAF9EF5"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.12d
+			y: -2.53d
+		}
+		{
+			dependency: "4CF644BC0920C177"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 4.98d
+			y: -1.32d
+		}
+		{
+			dependency: "2A4B84F063C78B09"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependency: "6399A78B0AF2BCAE"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependency: "71EDD24DAB210B44"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependency: "51595E88AF1F475E"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 0.5d
 		}
 	]
 	order_index: 2
@@ -239,7 +393,21 @@
 				}
 			}
 			id: "61C05AE305488DF5"
-			shape: "hexagon"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "317E2316EEFC9AAE"
+					table_id: 3737891217858354553L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44F8556F47340107"
+					table_id: 5228678659320885423L
+					type: "choice"
+				}
+			]
+			shape: "none"
 			subtitle: "&8[Нажми, чтобы узнать больше]"
 			tasks: [{
 				id: "22AD24EC0678727A"
@@ -1098,17 +1266,6 @@
 			id: "36B7ACAA73589366"
 			rewards: [
 				{
-					id: "00165336640EEECC"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_strength"
-						}
-					}
-					type: "item"
-				}
-				{
 					icon: {
 						Count: 1
 						id: "ftbquests:custom_icon"
@@ -1119,6 +1276,12 @@
 					id: "46C8B41599DEEF3A"
 					title: "&eОткрытие II уровня руководства"
 					type: "custom"
+				}
+				{
+					count: 16
+					id: "69AB60577E3BE252"
+					item: "minecells:health_flask"
+					type: "item"
 				}
 			]
 			size: 0.75d
@@ -1317,18 +1480,6 @@
 			id: "4250485195720E02"
 			rewards: [
 				{
-					count: 3
-					id: "184096CBEA061C50"
-					item: {
-						Count: 1
-						id: "minecraft:splash_potion"
-						tag: {
-							Potion: "minecraft:long_poison"
-						}
-					}
-					type: "item"
-				}
-				{
 					auto: "enabled"
 					icon: {
 						Count: 1
@@ -1353,6 +1504,12 @@
 					id: "36E9C272253470BC"
 					title: "&eМагический клинок &c(Необходим маг I уровня)"
 					type: "custom"
+				}
+				{
+					count: 16
+					id: "2F110B9AD6FAAC11"
+					item: "minecells:health_flask"
+					type: "item"
 				}
 			]
 			size: 0.75d
@@ -1438,18 +1595,26 @@
 				"&eПомни, что лучники более уязвимы."
 			]
 			id: "76196F8D435E0E5A"
-			rewards: [{
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "ironchests:item/lock"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
 					}
+					id: "7562B7F450DBA5BA"
+					title: "&eОткрытие II уровня руководства"
+					type: "custom"
 				}
-				id: "7562B7F450DBA5BA"
-				title: "&eОткрытие II уровня руководства"
-				type: "custom"
-			}]
+				{
+					count: 16
+					id: "477222A9321415FE"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
 			size: 0.75d
 			subtitle: "&7Уровень I &8- [Нажми, чтобы прочитать руководство]"
 			tasks: [
@@ -2562,7 +2727,7 @@
 			description: [
 				"&6Сложность:&e Средняя &7/ &cВысокая &7(Как Бард)"
 				""
-				"&7В качестве улучшения ты можешь получить набор Приора, который увеличивает твою Исцеляющую силу в процентах, а не фиксировано, усиливая Исцеляющую силу твоего Посоха."
+				"&7В качестве улучшения ты можешь получить набор Настоятеля, который увеличивает твою исцеляющую силу в процентах, а не фиксировано, усиливая исцеляющую силу твоего посоха."
 			]
 			hide_until_deps_visible: true
 			id: "3D78B8D241B53C2A"
@@ -2638,9 +2803,9 @@
 					type: "item"
 				}
 			]
-			title: "&eПриор"
+			title: "&eНастоятель"
 			x: 3.0d
-			y: 0.5d
+			y: 1.12d
 		}
 		{
 			dependencies: [
@@ -2660,6 +2825,13 @@
 				"- &6Мощь Альнитака"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:orion"
+				tag: {
+					nebula: { }
+				}
+			}
 			id: "1079F098AE98FCF6"
 			min_required_dependencies: 1
 			rewards: [{
@@ -2929,8 +3101,8 @@
 				}
 			]
 			title: "&eКлюч к выносливости"
-			x: 2.5d
-			y: -0.5d
+			x: 2.62d
+			y: -0.75d
 		}
 		{
 			dependencies: ["4B450D0E26363D54"]
@@ -3020,7 +3192,7 @@
 				}
 			]
 			title: "&eЕще более закаленный?"
-			x: 3.75d
+			x: 4.12d
 			y: -0.75d
 		}
 		{
@@ -3029,8 +3201,19 @@
 				"4CF644BC0920C177"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&7Сапфировая броня — это прямое улучшение от Алмазно-незеритовой брони, она имеет меньше общей брони, но предоставляет +20 Максимального Здоровья за каждую часть и пассивку, отражающую урон, получаемый тобою. Это значит, что вы получаете на 30% меньше урона, чем с любой другой начальной Броней."]
+			description: [
+				"&7Сапфировая броня — это прямое улучшение от алмазно-незеритовой брони, она имеет меньше общей брони, но предоставляет +20 максимального здоровья за каждую часть и пассивку, отражающую урон, получаемый тобою. Это значит, что вы получаете на 30% меньше урона, чем с любой другой начальной броней."
+				""
+				"&7Танк - это очень разносторонний класс, и имеет много артефактов, но броня сильно сдерживает любого игрока танка."
+			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "paladins:iron_kite_shield"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "080F23071FA8CFC9"
 			min_required_dependencies: 1
 			rewards: [{
@@ -3038,7 +3221,7 @@
 				item: "prominent:infused_molten_remnant"
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "none"
 			size: 1.0d
 			subtitle: "&cУровень IV &8- [Нажми, чтобы прочитать руководство]"
 			tasks: [
@@ -3121,8 +3304,8 @@
 				}
 			]
 			title: "&6Лишь чуточку труднее"
-			x: 5.0d
-			y: -1.5d
+			x: 4.98d
+			y: -1.32d
 		}
 		{
 			dependencies: ["3D78B8D241B53C2A"]
@@ -3173,14 +3356,22 @@
 				}
 			]
 			title: "&eСвященный Рубин"
-			x: 4.0d
-			y: 0.5d
+			x: 4.125d
+			y: 1.12d
 		}
 		{
 			dependencies: ["59C45FA337989B0C"]
 			dependency_requirement: "one_completed"
 			description: ["&7Получи &9Артефактное Оружие Экавара&7 и используй его Дерево Улучшений, чтобы развить его в &eАд'анель, Тайна Айн&7."]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:ekavar_staff"
+				tag: {
+					Damage: 0
+					Phase: 4
+				}
+			}
 			id: "5728EF143DC9B7DB"
 			min_required_dependencies: 1
 			rewards: [{
@@ -3188,7 +3379,7 @@
 				item: "prominent:infused_molten_remnant"
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "none"
 			size: 1.0d
 			subtitle: "&cУровень IV &8- [Нажми, чтобы прочитать руководство]"
 			tasks: [
@@ -3250,7 +3441,7 @@
 			]
 			title: "&6Секрет Айна"
 			x: 5.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5814C5C80022A343"]
@@ -3543,8 +3734,8 @@
 				}
 			]
 			title: "&6Выкован звездами"
-			x: -4.132142857142867d
-			y: 3.642857142857139d
+			x: -5.0d
+			y: 3.75d
 		}
 		{
 			dependencies: [
@@ -4330,6 +4521,13 @@
 				"&6Ледяная Скорбь&7 создана для Рыцарей Смерти, что делает её лучшим выбором для любой сборки Рыцаря Смерти."
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:frostmourne"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "1F1202929D2C5195"
 			min_required_dependencies: 1
 			rewards: [{
@@ -4490,7 +4688,7 @@
 				}
 			]
 			title: "&eКровавая преданность"
-			x: 3.375d
+			x: 4.125d
 			y: -1.875d
 		}
 		{
@@ -4610,6 +4808,13 @@
 				"&7Ты также можешь создать &eБроню Героя&7 в качестве альтернативы, так как она предоставляет &eСилу Молнии&7, которая в зависимости от улучшения твоего Громогнева может быть полезна."
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:thunderwrath"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6A594976300D5DCC"
 			min_required_dependencies: 1
 			rewards: [{
@@ -4725,8 +4930,8 @@
 				type: "checkmark"
 			}]
 			title: "&dМастер всех сборок"
-			x: 3.5d
-			y: 3.0d
+			x: 4.05d
+			y: 2.7d
 		}
 		{
 			dependencies: ["57B71888F2B87995"]
@@ -4821,8 +5026,269 @@
 				}
 			]
 			title: "&eКлюч к крови"
-			x: 2.25d
-			y: -1.5d
+			x: 2.625d
+			y: -1.875d
+		}
+		{
+			dependencies: ["059B370119A41869"]
+			dependency_requirement: "one_completed"
+			description: ["&7Получи артефактное оружие &9Апофис&7, и используй его древо улучшения, чтобы либо пойти в защиту(рекомендовано для большинства игроков) с клятвой защиты или пойти полностью в урон с клятвой исцеления. Выбор за тобой."]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:apophis"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "184216BC651DD776"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "2AC17FEC5841708A"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.0d
+			subtitle: "&cУровень IV &8- [Нажми, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "383F53B47A78DF4C"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42B669ADB0E7015A"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E93A17FDFB6FC65"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3927CECE44F35C79"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24D7C6E87A43679F"
+					item: {
+						Count: 1
+						id: "prominent:apophis"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Божественный перстень"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F92D56DE42A2FA5"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Сложность:&e Средняя&7"
+				""
+				"&7Улучшение святого оружия не только увеличит твой урон в целом, но также имеет большой выбор святых оружий, которые ты можешь выбрать, даже из мода simply swords!"
+				""
+				"&7Использование Клятвы это также отличный способ определить свой способ игры, хотя они очень ориентированы на защиту, в конце концов тебе решать, в защиту идти или в атаку."
+			]
+			hide_until_deps_visible: true
+			id: "059B370119A41869"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "0DC4C5038A0F23FA"
+				title: "&eРазблокируй руководство уровня IV "
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Уровень III &8- [Нажми, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "0948F01AB38DBC5A"
+					item: {
+						Count: 1
+						id: "paladins:ruby_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "323AB15B1CCE6F37"
+					item: {
+						Count: 1
+						id: "paladins:ruby_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77849519557423FE"
+					item: {
+						Count: 1
+						id: "paladins:ruby_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F5AE48ED23DD5D0"
+					item: "spellbladenext:defiance_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E855830CCDD98EB"
+					item: "spellbladenext:vengeance_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eСвятой паладин"
+			x: 4.125d
+			y: 0.0d
+		}
+		{
+			dependencies: ["073F2420FA2EF9B1"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Сложность:&e Средняя "
+				""
+				"&7Технически, это побочный класс сету Настоятеля, этот сет брони прекрасен, если хочется быть больше танком, и в тоже время не сильно терять урон, рекомендуется совмещать его с броней Настоятеля."
+			]
+			hide_until_deps_visible: true
+			id: "4F92D56DE42A2FA5"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "47563093D39D5F31"
+				title: "&eРазблокируй руководство уровня III"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eУровень II &8- [Нажми, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "1C99146A1626A363"
+					item: {
+						Count: 1
+						id: "paladins:netherite_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3053898D6DFE8CC0"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "115372EFAEC1965E"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "54091523B8C1FC01"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4B0E0656078C84AD"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53BD83ECEAE2725C"
+					item: "paladins:paladin_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eКрестоносец"
+			x: 3.0d
+			y: 0.0d
 		}
 	]
 	title: " &eБой \\& Снаряжение"
