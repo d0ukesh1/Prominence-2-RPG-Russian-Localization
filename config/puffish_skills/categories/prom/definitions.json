@@ -1,7 +1,7 @@
 {
 	"path_archer": {
 		"title": "§f凌 §2Путь следопыта",
-		"description": "§7Сосредоточенный на выживании, вы получаете дополнительный урон при использовании лука и арбалета.\n \n§f凌 §2+5% §7к дистанционному урону",
+		"description": "§7Сосредоточенный на выживании, вы получаете дополнительный урон при использовании луков, арбалетов и пушек.\n \n§f凌 §2+5% §7к дистанционному урону",
 		"size": 1.3,
 		"frame": {
 			"type": "texture",
@@ -21,8 +21,8 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ranged_weapon:damage",
-					"value": 0.05,
-					"operation": "multiply_total"
+					"value": 1,
+					"operation": "addition"
 				}
 			}
 		],

@@ -695,75 +695,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["336AC58F9C15B5C1"]
-			id: "4ED4835617626D42"
-			rewards: [{
-				id: "4C37BE58C4F1DBA5"
-				type: "xp"
-				xp: 60
-			}]
-			subtitle: "Эквивалент Железной Кирки, использует ЛФ вместо прочности."
-			tasks: [{
-				id: "3E1786F8F3301991"
-				item: "indrev:mining_drill_mk2"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["114491A0ECA253E8"]
-			id: "601EB16F02F0829E"
-			rewards: [{
-				id: "5F919709505C9DE7"
-				type: "xp"
-				xp: 40
-			}]
-			subtitle: "Эквивалент Каменной Кирки, использует ЛФ вместо прочности."
-			tasks: [{
-				id: "592EDAF86DC224FE"
-				item: "indrev:mining_drill_mk1"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["32D50443C8F667C6"]
-			id: "66E6632AA1C3DE14"
-			rewards: [{
-				id: "2CEDBCD74DF9062C"
-				type: "xp"
-				xp: 80
-			}]
-			subtitle: "Эквивалент Алмазной Кирки, использует ЛФ вместо прочности."
-			tasks: [{
-				id: "1561749937B55522"
-				item: "indrev:mining_drill_mk3"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["4292881C886EFF62"]
-			id: "0141CEF16FE9DF82"
-			rewards: [{
-				id: "667A03B94FF9D665"
-				type: "xp"
-				xp: 150
-			}]
-			size: 1.25d
-			subtitle: "Эквивалент Незеритовой Кирки, использует ЛФ вместо прочности.\\n\\n Этот инструмент также позволяет установку модулей с помощью Модульного Верстака."
-			tasks: [{
-				id: "5249D4CAA3D43FD5"
-				item: "indrev:mining_drill_mk4"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 7.0d
-		}
-		{
 			dependencies: ["28597D75AD3B9509"]
 			icon: "indrev:data_card_writer_mk4"
 			id: "022E7898D8F08636"
@@ -1087,54 +1018,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["0141CEF16FE9DF82"]
-			id: "520D8ED74E052F05"
-			rewards: [{
-				id: "75F9BC871EC97EA7"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "40BA054C65B04DD7"
-				item: "indrev:module_silk_touch"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["0141CEF16FE9DF82"]
-			id: "190F2043087BBCAF"
-			rewards: [{
-				id: "3B17FD3F4AB3F882"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0E63245E8B01928E"
-				item: "indrev:module_fortune"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["0141CEF16FE9DF82"]
-			id: "1CF982BE5CB01B82"
-			rewards: [{
-				id: "1BBF9FE2695258AC"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0E9B30B20F9BD6B5"
-				item: "indrev:module_efficiency"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 8.0d
-		}
-		{
 			dependencies: ["32DE8281608AE114"]
 			id: "0362B2FF4E5681B2"
 			rewards: [{
@@ -1156,22 +1039,6 @@
 			}]
 			x: -6.0d
 			y: -0.5d
-		}
-		{
-			dependencies: ["0141CEF16FE9DF82"]
-			id: "254003AED83BD44B"
-			rewards: [{
-				id: "56AC0F7D5A6D6C8D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "54B623567C87FCEB"
-				item: "indrev:module_range"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 6.5d
 		}
 		{
 			dependencies: ["0D1D5AC94B516339"]

@@ -1858,8 +1858,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -4.0d
-			y: -50.5d
+			x: -2.0d
+			y: -49.5d
 		}
 		{
 			dependencies: ["705B1CD5F2C71EF4"]
@@ -1880,26 +1880,6 @@
 			title: "Посети башню Пигро"
 			x: -7.0d
 			y: -45.5d
-		}
-		{
-			dependencies: ["705B1CD5F2C71EF4"]
-			icon: "soulsweapons:silver_bullet"
-			id: "346C6BB907F2F664"
-			rewards: [{
-				id: "499D635BCFAF8697"
-				type: "xp"
-				xp: 600
-			}]
-			tasks: [{
-				icon: "soulsweapons:silver_bullet"
-				id: "32370421BC3523C7"
-				structure: "ad_astra:venus_bullet"
-				title: "Найти пулю Венеры"
-				type: "structure"
-			}]
-			title: "Find a Venus Bullet"
-			x: -3.5d
-			y: -48.0d
 		}
 		{
 			dependencies: ["705B1CD5F2C71EF4"]
@@ -1925,8 +1905,8 @@
 				type: "structure"
 			}]
 			title: "Найди деревню Пигро"
-			x: -5.0d
-			y: -49.0d
+			x: -3.5d
+			y: -48.0d
 		}
 		{
 			dependencies: ["6F210120F317C24F"]

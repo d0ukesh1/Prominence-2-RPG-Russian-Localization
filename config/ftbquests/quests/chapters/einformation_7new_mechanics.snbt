@@ -5290,6 +5290,105 @@
 			x: 3.0d
 			y: 0.0d
 		}
+		{
+			dependencies: [
+				"2D18A81E45594603"
+				"18899F26D6DB2F47"
+			]
+			description: [
+				"&6Сложность:&e Средняя/Сложная"
+				""
+				"&7Есть один очень веселый и интересный побочный мод - это Mariums Guns!"
+				""
+				"&7Вот список текущих пушек:"
+				""
+				"&dПушка Гатлинга:&r &7Практически бесконечное время стрельбы, хороший дпс, но сильно тебя замедляет, и немного неточен"
+				"&dОхотничья пушка:&r &7Большой бум! Это оружие имеет наивысший урон по одной цели из всех, с долгой перезарядкой!"
+				"&dОхотничий мушкетон:&r &7В общем, и жнец, и швец, и на дуде игрец, стреляет 3 снарядами, каждый из которых наносит неплохой урон, и имеет наивысшую скорость из всех четверых, не самый точный"
+				"&dОхотничий пистолет:&r &7Младший брат мушкетона, прекрасно подойдет для тех, кто любит стрелять быстро, и делать что-то, пока другой огнестрел на перезарядке."
+			]
+			icon_scale: 1.3d
+			id: "6C01A4BB169520D8"
+			rewards: [{
+				count: 44
+				id: "6746F744F7640193"
+				item: "soulsweapons:silver_bullet"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "&eУровень II &8- [Нажми, чтобы прочитать руководство]"
+			tasks: [
+				{
+					id: "6444EA3BD07D133D"
+					item: {
+						Count: 1
+						id: "soulsweapons:gatling_gun"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "067536C866F28003"
+					item: {
+						Count: 1
+						id: "soulsweapons:blunderbuss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C0E4C3F75661E25"
+					item: {
+						Count: 1
+						id: "soulsweapons:hunter_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B60E694546E4F44"
+					item: {
+						Count: 1
+						id: "soulsweapons:hunter_pistol"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C4E66C81B58133B"
+					item: {
+						Count: 1
+						id: "ae2:matter_cannon"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F529BCDC1C8632D"
+					item: {
+						Count: 1
+						id: "create:potato_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eЗагруженный, но сложный побочный мод"
+			x: -3.5d
+			y: 0.5d
+		}
 	]
 	title: " &eБой \\& Снаряжение"
 }
