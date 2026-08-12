@@ -1,9 +1,9 @@
 {
   "item.sbprom.gu_mas_spawn_egg": "Яйцо призыва Гу'маса",
-  "item.sbprom.scarecrow_spawn_egg": "Яйцо Призыва Сэра Вороньего Шрама",
-  "item.sbprom.scarecrow_mythic_spawn_egg": "Яйцо Призыва Мифического Сэра Вороньего Шрама",
+  "item.sbprom.scarecrow_spawn_egg": "Яйцо призыва Господина Ворона",
+  "item.sbprom.scarecrow_mythic_spawn_egg": "Яйцо призыва Мифического Господина Ворона",
 
   "entity.sbprom.hasturmagus": "Гу'мас, Падший архимаг",
-  "entity.sbprom.scarecrow": "Сэр Вороний Шрам",
-  "entity.sbprom.scarecrow_mythic": "Сэр Вороний Шрам (Мифический)"
+  "entity.sbprom.scarecrow": "Господин Ворон",
+  "entity.sbprom.scarecrow_mythic": "Господин Ворон (Мифический)"
 }

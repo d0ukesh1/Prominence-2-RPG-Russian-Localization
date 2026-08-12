@@ -1,0 +1,31 @@
+{
+  "default_language": "ru_ru",
+  "targets": [
+    {
+      "path": "config/fancymenu",
+      "lang_files": ["fancymenu"]
+    },
+    {
+      "path": "config/ftbquests",
+      "lang_files": ["ftbquests"]
+    },
+    {
+      "path": "config/puffish_skills",
+      "lang_files": ["puffish_skills"]
+    },
+    {
+      "path": "config/modpack-update-checker-info.txt",
+      "lang_files": ["fancymenu"]
+    }
+  ],
+  "exclude_extensions": [
+    ".png", ".jpg", ".jpeg", ".gif", ".bmp", ".webp", ".ico", ".tga",
+    ".ogg", ".mp3", ".wav", ".flac",
+    ".mp4", ".avi", ".mkv", ".webm",
+    ".zip", ".jar", ".gz", ".tar", ".rar", ".7z",
+    ".ttf", ".otf", ".woff", ".woff2",
+    ".bin", ".dat", ".nbt", ".schematic", ".schem", ".structure",
+    ".exe", ".dll", ".so", ".dylib", ".class",
+    ".lock", ".tmp", ".bak",".ogg"
+  ]
+}

@@ -46,7 +46,7 @@
     "porting_lib.step_height_addition.desc": "Сколько блоков вы можете преодолеть, не прыгая.",
     "porting_lib.swim_speed.desc": "Насколько быстро вы плаваете по сравнению с обычной скоростью.",
 
-	"zenith_attributes:draw_speed": "Скорость натягивания",
+	"zenith_attributes:draw_speed": "Скорость натяжения тетевы",
     "zenith_attributes:draw_speed.desc": "Насколько быстро вы натягиваете дальнобойное оружие, такое как луки, арбалеты или трезубцы.",
 
     "zenith_attributes:crit_chance": "Шанс крита",
@@ -61,7 +61,7 @@
     "zenith_attributes:fire_damage": "Огненный урон",
     "zenith_attributes:fire_damage.desc": "Дополнительный магический урон, применяемый при ближних атаках, который поджигает пораженных врагов.",
 
-    "zenith_attributes:life_steal": "Похищение жизни",
+    "zenith_attributes:life_steal": "Вампиризм",
     "zenith_attributes:life_steal.desc": "Процент урона после снижения, который будет исцелять вас.",
 
     "zenith_attributes:current_hp_damage": "Урон по текущему HP",
@@ -87,13 +87,13 @@
     "zenith_attributes:healing_received": "Получаемое исцеление",
     "zenith_attributes:healing_received.desc": "Множитель ко всему входящему исцелению.",
 
-    "zenith_attributes:armor_pierce": "Пронзание брони",
+    "zenith_attributes:armor_pierce": "Пробивание брони",
     "zenith_attributes:armor_pierce.desc": "Фиксированное уменьшение значения брони цели.",
 
     "zenith_attributes:armor_shred": "Разрыв брони",
     "zenith_attributes:armor_shred.desc": "Процентное уменьшение значения брони цели.",
   
-    "zenith_attributes:prot_pierce": "Пронзание защиты",
+    "zenith_attributes:prot_pierce": "Пробивание защиты",
     "zenith_attributes:prot_pierce.desc": "Фиксированное уменьшение общего количества очков защиты цели.",
 
     "zenith_attributes:prot_shred": "Разрыв защиты",
