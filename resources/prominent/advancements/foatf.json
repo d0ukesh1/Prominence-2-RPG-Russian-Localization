@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "prominent:fury_of_a_thousand_fists"
+      },
+      "title": "Это метеорит? Нет! Это кулак!",
+      "description": "Создайте душепламенный артефакт, Ярость тысячи кулаков",
+      "hidden": true,
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "prominent:molten_core",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "prominent:fury_of_a_thousand_fists"
+              ]
+            }
+          ]
+        }
+      }
+    }
+}

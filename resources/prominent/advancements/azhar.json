@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "prominent:azhar"
+      },
+      "title": "Предатель",
+      "description": "Создайте душепламенный артефакт А'зар",
+      "hidden": true,
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "prominent:molten_core",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "prominent:azhar"
+              ]
+            }
+          ]
+        }
+      }
+    }
+}

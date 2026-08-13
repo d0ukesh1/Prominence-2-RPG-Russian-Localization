@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "prominent:molten_core"
+      },
+      "title": "Вторжение пустоты: Глава I",
+      "description": "Завершите главу I Вторжения пустоты и получите расплавленное ядро от С'келлака",
+      "hidden": true,
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "prominent:voids_invasion/killed_eye",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    },
+    "rewards": {
+      "loot": [
+        "prominent:moltencore"
+      ]
+    }
+}

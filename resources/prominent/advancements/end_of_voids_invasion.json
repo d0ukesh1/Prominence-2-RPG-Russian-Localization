@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "eldritch_end:xal"
+      },
+      "title": "Герой Вторжения Пустоты",
+      "description": "Завершите все главы расширения Вторжения Пустоты.",
+      "hidden": true,
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "prominent:molten_core",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+}

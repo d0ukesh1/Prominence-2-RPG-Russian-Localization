@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "prominent:frostmourne"
+      },
+      "title": "В день, когда ты родился...",
+      "description": "Создайте рунический артефакт, Ледяную скорбь",
+      "hidden": true,
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "prominent:molten_core",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "prominent:frostmourne"
+              ]
+            }
+          ]
+        }
+      }
+    }
+}

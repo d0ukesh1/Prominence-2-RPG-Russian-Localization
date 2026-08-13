@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "prominent:ashedar_essence"
+      },
+      "title": "Сила космоса",
+      "description": "Создайте Аш'эдар, космических близнецов.",
+      "hidden": true,
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "prominent:molten_core",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "prominent:ashedar_essence"
+              ]
+            }
+          ]
+        }
+      }
+    }
+}

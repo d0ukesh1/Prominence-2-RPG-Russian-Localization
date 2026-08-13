@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "prominent:knowledge_scroll"
+      },
+      "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+      "title": "Доступно расширение: Хастурианская эра",
+      "description": "Начните Хастурианскую эру, разблокировав уровни 51-65.",
+      "hidden": true,
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+}

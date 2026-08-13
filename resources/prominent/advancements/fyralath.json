@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "prominent:fyralath"
+      },
+      "title": "Воздаятель снов",
+      "description": "Создайте душепламенный артефакт, Фир'алат",
+      "hidden": true,
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "prominent:molten_core",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "prominent:fyralath"
+              ]
+            }
+          ]
+        }
+      }
+    }
+}

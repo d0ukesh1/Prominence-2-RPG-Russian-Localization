@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "prominent:flameborn_stone"
+      },
+      "title": "Волнительное воссоединение",
+      "description": "Встретьтесь со С'келлаком для обсуждения недавних событий после Падших королей.",
+      "hidden": true,
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "prominent:intro/welcome_to_vaaz",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+}
