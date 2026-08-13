@@ -16,6 +16,10 @@
     {
       "path": "config/modpack-update-checker-info.txt",
       "lang_files": ["fancymenu"]
+    },
+    {
+      "path": "config/fancymenu/customization/inventory.txt",
+      "lang_files": ["inventory_fix"]
     }
   ],
   "exclude_extensions": [
