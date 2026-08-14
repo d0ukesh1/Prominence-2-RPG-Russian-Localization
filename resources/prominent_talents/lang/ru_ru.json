@@ -1,4 +1,17 @@
 {
     "prominent_talents.gui.player_level": "Статистика",
-    "item.prominent_talents.level_stat_indicator": "Статистика"
+    "item.prominent_talents.level_stat_indicator": "Статистика",
+    "prominent_talents.leveling.level_up": "Поздравляем! Вы достигли %s уровня!",
+    "prominent_talents.leveling.level_subtitle": "Уровень %s",
+    "prominent_talents.leveling.campaign_locked": "⚠ Вы не получаете опыт, так как вам нужно продвинуться дальше по кампании, чтобы разблокировать уровни %s+.",
+    "prominent_talents.talent_menu.current_level": "Текущий уровень: %s",
+    "prominent_talents.talent_menu.current_points": "Текущие очки талантов: %s",
+    "prominent_talents.talent_menu.point_next_level": "Очко таланта будет получено на следующем уровне",
+    "prominent_talents.talent_menu.point_on_level": "Следующее очко таланта будет получено на уровне %s",
+    "prominent_talents.talent_menu.locked": "Получение опыта заблокировано, продолжайте кампанию для разблокировки",
+    "prominent_talents.talent_menu.max_level": "Достигнут максимальный уровень",
+    "prominent_talents.talent_menu.artifact_upgrades": "Улучшения артефакта",
+    "prominent_talents.talent_menu.artifact_points_left": "Осталось очков улучшения артефакта: ",
+    "prominent_talents.talent_menu.artifact_level": "Уровень артефакта: %s",
+    "prominent_talents.talent_menu.artifact_power": "Сила артефакта: %s"
 }

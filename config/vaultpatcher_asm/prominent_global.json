@@ -1,0 +1,472 @@
+[
+  {
+    "name": "Prominent-GLOBAL-MC1.20.1-4.0.1.jar extracted",
+    "desc": "Translation of the mod especially for https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization",
+    "mods": "Prominent-GLOBAL-MC1.20.1-4.0.1",
+    "authors": "d0ukesh1, Synessful",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.core.CosmeticArtifact",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Artifact Illusion",
+        "value": "Иллюзия Артефакта"
+      },
+      {
+        "key": "An illusion made to be used on other items with the magic of Transmogrification.",
+        "value": "Иллюзия, предназначенная для применения к другим предметам с помощью магии трансмогрификации"
+      },
+      {
+        "key": "Obtained through the \"Mastery of ",
+        "value": "Можно получить за \"Мастерство "
+      },
+      {
+        "key": "\" Eternal Challenge.",
+        "value": "\" в Вечных Испытаниях"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Ekavar Modifier",
+        "value": " Модификатор Экавар"
+      },
+      {
+        "key": "Weapon modifier",
+        "value": "Модификатор оружия"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Cinderstone Artifact",
+        "value": "Артефакт Пепельного Камня"
+      },
+      {
+        "key": "Cinderstone Core",
+        "value": "Ядро Пепельного Камня"
+      },
+      {
+        "key": "This staff has the ability to evolve into something greater when infused with power.",
+        "value": "Этот посох способен эволюционировать во нечто большее, если его наполнить силой."
+      },
+      {
+        "key": " Evolved via the Upgrade Tree.",
+        "value": " Эволюционирует через древо улучшений."
+      },
+      {
+        "key": "Arcane Infusion",
+        "value": "Таинственное наполнение"
+      },
+      {
+        "key": "This staff has evolved with the raw power of the Arcane. Known now as Al Na'ir, The Bright Star.",
+        "value": "Этот посох эволюционировал благодаря чистой силе Тайной магии. Теперь он известен как Аль На'ир, Яркая Звезда."
+      },
+      {
+        "key": "Fire Infusion",
+        "value": "Огненное наполнение"
+      },
+      {
+        "key": "This staff has evolved with the raw power of Fire. Known now as Adassil, The Scorched Tree.",
+        "value": "Этот посох эволюционировал благодаря чистой силе Огня. Теперь он известен как Адассиль, Опалённое Древо."
+      },
+      {
+        "key": "Frost Infusion",
+        "value": "Ледяное наполнение"
+      },
+      {
+        "key": "This staff has evolved with the raw frozen power. Known now as Khaz'el, The Frozen Destiny",
+        "value": "Этот посох эволюционировал благодаря чистой силе льда. Теперь он известен как Хаз'эль, Замёрзшая Судьба."
+      },
+      {
+        "key": "Holy Infusion",
+        "value": "Святое наполнение"
+      },
+      {
+        "key": "This staff has evolved with the raw power of Holy. Known now as Ad'anel, Secret of Ain.",
+        "value": "Этот посох эволюционировал благодаря чистой силе Света. Теперь он известен как Ад'анель, Тайна Эйн."
+      },
+      {
+        "key": "Astral Infusion",
+        "value": "Астральное наполнение"
+      },
+      {
+        "key": "This staff has evolved with the raw astral powers. Known now as Singularity, A Star's Rebirth.",
+        "value": "Этот посох эволюционировал благодаря чистой силе астрала. Теперь он известен как Сингулярность, Возрождение Звезды."
+      },
+      {
+        "key": "Casts Arcane, Fire, Frost and Holy abilities from equipped Spell Book.",
+        "value": "Применяет способности Тайной магии, Огня, Льда и Света из экипированной книги заклинаний."
+      },
+      {
+        "key": "\u00a79+30% \u00a7f\uf951 \u00a79Arcane Power",
+        "value": "\u00a79+30% \u00a7f\uf951 \u00a79Силы Тайной магии"
+      },
+      {
+        "key": "\u00a79+30% \u00a7f\uf950 \u00a79Fire Power",
+        "value": "\u00a79+30% \u00a7f\uf950 \u00a79Силы Огня"
+      },
+      {
+        "key": "\u00a79+30% \u00a7f\uf952 \u00a79Frost Power",
+        "value": "\u00a79+30% \u00a7f\uf952 \u00a79Силы Льда"
+      },
+      {
+        "key": "\u00a79+30% \u00a7f\uf957 \u00a79Holy Power",
+        "value": "\u00a79+30% \u00a7f\uf957 \u00a79Силы Исцеления"
+      },
+      {
+        "key": "\u00a79+20% \u00a7f\uf956 \u00a79Astral Power",
+        "value": "\u00a79+20% \u00a7f\uf956 \u00a79Астральной силы"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.tutorial.PlayerTutorial",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "S'kellak",
+        "value": "С'келлак"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.utils.CultistNames",
+      "method": "CultistNames",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Os\u014dre the voidling",
+        "value": "Осоре, дитя Пустоты"
+      },
+      {
+        "key": "Gnob",
+        "value": "Гноб"
+      },
+      {
+        "key": "Ivar Goldshroud",
+        "value": "Ивар Златопокров"
+      },
+      {
+        "key": "Zejalkihn Wintersong",
+        "value": "Зейялкин Зимняя Песнь"
+      },
+      {
+        "key": "Kanek's Orghal",
+        "value": "Оргал Канека"
+      },
+      {
+        "key": "Argonaut",
+        "value": "Аргонавт"
+      },
+      {
+        "key": "Blazy Of Grandfell",
+        "value": "Блейзи из Грандфелла"
+      },
+      {
+        "key": "Traal Stormweaver",
+        "value": "Траал Ткач Бурь"
+      },
+      {
+        "key": "Reign",
+        "value": "Рейн"
+      },
+      {
+        "key": "Maximus The Horrible",
+        "value": "Максимус Ужасный"
+      },
+      {
+        "key": "Stausis Kingamont",
+        "value": "Стаусис Кингамонт"
+      },
+      {
+        "key": "Luro the Cursed",
+        "value": "Луро Проклятый"
+      },
+      {
+        "key": "Aris Calbrisse",
+        "value": "Арис Кальбрисс"
+      },
+      {
+        "key": "Mateo, Friend of the Shadows",
+        "value": "Матео, Друг Теней"
+      },
+      {
+        "key": "Trandafir",
+        "value": "Трандафир"
+      },
+      {
+        "key": "Mallory the Exe",
+        "value": "Мэллори Палач"
+      },
+      {
+        "key": "Ashner the VoidChosen",
+        "value": "Ашнер, Избранный Пустотой"
+      },
+      {
+        "key": "Buugy The Soulseeker",
+        "value": "Буги, Искатель Душ"
+      },
+      {
+        "key": "Thane Lorn",
+        "value": "Тан Лорн"
+      },
+      {
+        "key": "Strega of Authority",
+        "value": "Стрега-Повелительница"
+      },
+      {
+        "key": "Myra Briarheart",
+        "value": "Майра Шипосердая"
+      },
+      {
+        "key": "Jellie Sunke",
+        "value": "Джелли Санке"
+      },
+      {
+        "key": "Lucius Atrius Umbra Luna",
+        "value": "Люций Атриус Умбра Луна"
+      },
+      {
+        "key": "Efe Bidav",
+        "value": "Эфе Бидав"
+      },
+      {
+        "key": "Usa-Le-Git",
+        "value": "Уса-ле-Гит"
+      },
+      {
+        "key": "Falsha the Wanderer",
+        "value": "Фальша Странник"
+      },
+      {
+        "key": "Rh\u00f3don the Solipsist",
+        "value": "Родон Солипсист"
+      },
+      {
+        "key": "Vustro Hallowspark",
+        "value": "Вустро Искра Святости"
+      },
+      {
+        "key": "Ramirus Flamespewer",
+        "value": "Рамирус Огнеплюй"
+      },
+      {
+        "key": "FatCatG0urmet",
+        "value": "Толстый Кот-Гурман"
+      },
+      {
+        "key": "SwoonDragoon",
+        "value": "Свун-Драгун"
+      },
+      {
+        "key": "Gilbert Forsbergs",
+        "value": "Гилберт Форсберг"
+      },
+      {
+        "key": "Warden the Warlock",
+        "value": "Надзиратель-Чернокнижник"
+      },
+      {
+        "key": "Demonlord Dragonoid Rozza",
+        "value": "Повелитель демонов, Драконоид Розза"
+      },
+      {
+        "key": "Friar Lehmonde",
+        "value": "Брат Лемонд"
+      },
+      {
+        "key": "Cameron the Corrupted",
+        "value": "Кэмерон Осквернённый"
+      },
+      {
+        "key": "Katsu Flameseeker",
+        "value": "Кацу, Искатель Пламени"
+      },
+      {
+        "key": "Luminous the Light",
+        "value": "Люминус Сияющий"
+      },
+      {
+        "key": "Alix",
+        "value": "Аликс"
+      },
+      {
+        "key": "Larry The Pirate",
+        "value": "Ларри-Пират"
+      },
+      {
+        "key": "Pangu",
+        "value": "Пангу"
+      },
+      {
+        "key": "Boom Barastic",
+        "value": "Бум Барастик"
+      },
+      {
+        "key": "Monkey Tamer",
+        "value": "Укротитель Обезьян"
+      },
+      {
+        "key": "Mehedinn Volrelk",
+        "value": "Мехединн Волрелк"
+      },
+      {
+        "key": "James the Giant",
+        "value": "Джеймс Великан"
+      },
+      {
+        "key": "Raelor Sunbreaker",
+        "value": "Раэлор Солнцелом"
+      },
+      {
+        "key": "Tablestand",
+        "value": "Тейблстенд"
+      },
+      {
+        "key": "Jumbegung",
+        "value": "Джамбегунг"
+      },
+      {
+        "key": "Arayas Darksbane",
+        "value": "Арайас Гибель Тьмы"
+      },
+      {
+        "key": "Smoutavious",
+        "value": "Смутавиус"
+      },
+      {
+        "key": "Myrrah of the Underground",
+        "value": "Мирра Подземная"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Thunderwrath",
+        "value" : "Громогнев"
+      },
+      {
+        "key": "Supernova",
+        "value": "Сверхновая"
+      },
+      {
+        "key": "Fury of a Thousand Fists",
+        "value": "Ярость Тысячи Ударов"
+      },
+      {
+        "key": "Frostmourne",
+        "value": "Ледяная скорбь"
+      },
+      {
+        "key": "A'zhar",
+        "value": "А'зар"
+      },
+      {
+        "key": "Fyr'alath",
+        "value": "Фир'алат"
+      },
+      {
+        "key": "Ash",
+        "value": "Аш"
+      },
+      {
+        "key": "Edar",
+        "value": "Эдар"
+      },
+      {
+        "key": "Ekavar",
+        "value": "Экавар"
+      },
+      {
+        "key": "Vaazkar",
+        "value": "Ваазкар"
+      },
+      {
+        "key": "Orion",
+        "value": "Орион"
+      },
+      {
+        "key": "Gh'aj",
+        "value": "Г'адж"
+      },
+      {
+        "key": "Apophis",
+        "value": "Апофис"
+      },
+      {
+        "key": "Apocalypse",
+        "value": "Апокалипсис"
+      },
+      {
+        "key": "Full of hatred and demonic presences.",
+        "value": "Полон ненависти и демоническими сущностями"
+      },
+      {
+        "key": "A shining light full of concentrated raw power.",
+        "value": "Яркий свет, наполненный концентрированной необузданной силой."
+      },
+      {
+        "key": "Holds wrathful souls.",
+        "value": "Наполнен разгневанными душами"
+      },
+      {
+        "key": "Can be used to re-roll and repair artifact weapons.",
+        "value": "Может использоваться для перековки и ремонта артефактного оружия."
+      },
+      {
+        "key": "Used in advanced Prominent crafting recipes.",
+        "value": "Используется в продвинутых рецептах"
+      },
+      {
+        "key": "Used in the rarest Prominent crafting recipes.",
+        "value": "Используется в самых редких рецептах"
+      },
+      {
+        "key": "A primordial essence seething with corruption.",
+        "value": "Первозданная сущность, кипящая от порчи."
+      },
+      {
+        "key": "A primordial essence radiating holy light.",
+        "value": "Первозданная сущность, излучающая священный свет."
+      },
+      {
+        "key": "A primordial essence steeped in unholy dread.",
+        "value": "Первозданная сущность, пропитанная нечестивым ужасом."
+      },
+      {
+        "key": "A primordial essence bound to countless souls.",
+        "value": "Первозданная сущность, связанная с бесчисленными душами."
+      }
+    ]
+  }
+]
