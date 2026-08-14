@@ -13,7 +13,7 @@
     "item.prominent.music_disc_festivities": "Музыкальная пластинка",
     "item.prominent.music_disc_festivities.desc": "Sideralis Music — Prominent Festivities (оригинальный саундтрек)",
 
-    "item.prominent:item.book_of_knowledge": "Книга знаний",
+    "prominent.item.book_of_knowledge": "Книга знаний",
 
     "item.prominent.knowledge_scroll": "Свиток знаний",
     "item.prominent.knowledge_scroll.tooltip": "Сбрасывает знания вашего древа талантов и возвращает все ранее потраченные очки.",
@@ -537,7 +537,7 @@
     "stat.prominent.hck_ekavar": "Завершено испытаний с артефактом Экавар",
     "stat.prominent.hck_orion": "Завершено испытаний с артефактом Орион",
     "stat.prominent.hck_thunderwrath": "Завершено испытаний с артефактом Громогнев",
-    "stat.prominent.hck_supernova": "Завершено испытаний с артефактомо Сверхновая",
+    "stat.prominent.hck_supernova": "Завершено испытаний с артефактом Сверхновая",
     "stat.prominent.hck_fury_of_a_thousand_fists": "Завершено испытаний с артефактом Ярость Тысячи Ударов",
     "stat.prominent.hck_frostmourne": "Завершено испытаний с артефактом Ледяная Скорбь",
     "stat.prominent.hck_azhar": "Завершено испытаний с артефактом А'зар",

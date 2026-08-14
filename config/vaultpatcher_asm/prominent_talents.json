@@ -1,0 +1,84 @@
+[
+  {
+    "name": "prominenttalents-2.6.0.jar extracted.",
+    "desc": "Translation of the mod especially for https://github.com/d0ukesh1/Prominence-2-RPG-Russian-Localization",
+    "mods": "prominenttalents-2.6.0",
+    "authors": "d0ukesh1, Synessful",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " (Current Limit)",
+        "value": "(Текущий лимит)"
+      },
+      {
+        "key": " (Maximum Level)",
+        "value": "(Максимальный уровень)"
+      },
+      {
+        "key": "Current Level:",
+        "value": "Текущий уровень:"
+      },
+      {
+        "key": " XP to reach next level",
+        "value": " XP до следующего уровня"
+      },
+      {
+        "key": " Maximum Health",
+        "value": " Максимум здоровья"
+      },
+      {
+        "key": " Armor",
+        "value": " Броня"
+      },
+      {
+        "key": " Physical Damage",
+        "value": " Урон в ближнем бою"
+      },
+      {
+        "key": " Ranged Damage",
+        "value": " Урон в дальнем бою"
+      },
+      {
+        "key": " Arcane Power",
+        "value": " Сила Тайной магии"
+      },
+      {
+        "key": " Fire Power",
+        "value": " Сила Огня"
+      },
+      {
+        "key": " Frost Power",
+        "value": " Сила Льда"
+      },
+      {
+        "key": " Unholy Power",
+        "value": " Сила Нечестивости"
+      },
+      {
+        "key": " Blood Power",
+        "value": " Сила Крови"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.util.TalentTree",
+      "method": "applyLevelHealthBoost",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Player Level Health Gain",
+        "value": "Повышение здоровья при поднятии уровня"
+      }
+    ]
+  }
+]
