@@ -18,7 +18,7 @@
 	"item.spellbladenext.thesis_spell_book.desc2": "Пробудите свое заклинание на столе привязки заклинаний.",
 	"item.spellbladenext.vengeance_spell_book": "Клятва Мести",
 
-  "item.spellbladenext.magus_spawn_egg": "Яйцо Призыва Магуса",
+	"item.spellbladenext.magus_spawn_egg": "Яйцо Призыва Магуса",
 
 	"item.spellbladenext.omni": "Кристаллизованное Всеведение",
 	"item.spellbladenext.tabula_rasa": "Чистый Лист",
@@ -94,11 +94,11 @@
 	"spell.spellbladenext.reckoning.name": "Расплата Короля Обезьян",
 	"spell.spellbladenext.reckoning.description": "Крутитесь, нанося {damage} не критического физического урона в секунду, умноженного на вашу скорость атаки. Нет штрафа за атаку на несколько врагов.",
 	"spell.spellbladenext.combustion.name": "Раздувающееся Пламя",
-	"spell.spellbladenext.combustion.description": "Пассивно: Ваше прикосновение поджигает врагов на 2 секунды. Активно: Нацельтесь чтобы уже горящие враги вокруг вас принимали огненный урон быстрее, принимая {damage} огненного урона в секунду.",
+	"spell.spellbladenext.combustion.description": "Пассивно: Ваше прикосновение поджигает врагов на 2 секунды. Активно: Нацельтесь, чтобы уже горящие враги вокруг вас получали дополнительные {damage} урона огнем в секунду.",
 	"spell.spellbladenext.phoenixdive.name": "Погружение Феникса",
-	"spell.spellbladenext.phoenixdive.description": "Моргните в направлении цели, совершая нову для {damage} огненного урона при приземлении, поджигая врагов.",
+	"spell.spellbladenext.phoenixdive.description": "Телепортируйтесь в направлении цели, нанеся {damage} урона огнем при приземлении, поджигая врагов.",
 	"spell.spellbladenext.snuffout.name": "Лесной пожар",
-	"spell.spellbladenext.snuffout.description": "Пламя вокруг вас вспыхивает, превращаясь в инфернальное пекло, заставляя горящих врагов наносить {damage} огненного урона врагам вокруг них.",
+	"spell.spellbladenext.snuffout.description": "Пламя вокруг вас вспыхивает, превращаясь в инфернальное пекло, заставляя горящих врагов наносить {damage} урона огнем врагам вокруг них.",
 	"spell.spellbladenext.spellstrike.name": "Удар заклинателя",
 	"spell.spellbladenext.spellstrike.description": "Активируйте, чтобы получить эффект 'Удар заклинателя' на 16 секунд, дающий 50%% ускорения произнесения заклинаний. В течение действия эффекта вы наносите 80%% от вашей наибольшей Силы Заклинаний в виде магического урона соответствующего типа при каждом попадании.",
 
@@ -109,27 +109,27 @@
 	"spell.spellbladenext.riflebarrage.name": "Артиллерийский огонь мусором",
 	"spell.spellbladenext.riflebarrage.description": "Выстрелите несколько раз во время прицеливания, нанося до 1x дальнего урона плюс дополнительные {damage} магического урона на каждый выстрел врагам в конусе, в зависимости от приближенности.",
 	"spell.spellbladenext.eldritchblast.name": "Отражающийся Луч",
-	"spell.spellbladenext.eldritchblast.description": "Выстрелите взрывной волной в направлении цели, нанося {damage} таинственного урона всем врагам в линии. Расходует все стаки Высвобождения, увеличивая количество лучей.",
+	"spell.spellbladenext.eldritchblast.description": "Выстрелите взрывной волной в направлении цели, нанося {damage} урона тайной магией всем врагам в линии. Расходует все стаки Высвобождения, увеличивая количество лучей.",
 	"spell.spellbladenext.echoes.name": "Рунические Отголоски",
-	"spell.spellbladenext.echoes.description": "Пассивно: Вы получаете 1 стак Высвобождения каждые 4 секунды. Активно: Наносите урон врагам, последний удар по которым был нанесен вами, нанося {damage} таинственного урона. Обычно не может нацелится на врага более одного раза, пока вы не потратите стак высвобождения.",
+	"spell.spellbladenext.echoes.description": "Пассивно: Вы получаете 1 стак Высвобождения каждые 4 секунды. Активно: Наносите урон врагам, последний удар по которым был нанесен вами, нанося {damage} урона тайной магией. Обычно не может нацелится на врага более одного раза, пока вы не потратите стак высвобождения.",
 	"spell.spellbladenext.bladestorm.name": "Эхошторм",
-	"spell.spellbladenext.bladestorm.description": "Вызовите раскатистый вихрь, направляющийся в вашего врага если вы выбрали его, нанося {damage} таинственного урона каждые полсекунды. Уходит на перезарядку на 8 секунд если у вас нет стаков Высвобождения.",
+	"spell.spellbladenext.bladestorm.description": "Вызовите раскатистый вихрь, направляющийся в вашего врага если вы выбрали его, нанося {damage} урона тайной магией каждые полсекунды. Уходит на перезарядку на 8 секунд если у вас нет стаков Высвобождения.",
 
 	"spell.spellbladenext.flameslash.name": "Пылающие Рваные Раны",
-	"spell.spellbladenext.flameslash.description": "{damage} Огненного урона в секунду. Быстро махайте своим мечом, стреляя пылающими, взрывающимимся снарядами.",
+	"spell.spellbladenext.flameslash.description": "{damage} урона огнем в секунду. Быстро махайте своим мечом, стреляя пылающими, взрывающимимся снарядами.",
 	"spell.spellbladenext.frostslash.name": "Шквал Клинков",
-	"spell.spellbladenext.frostslash.description": "{damage} Ледяная DPS. Быстро махайте своим мечом, стреляя отскакивающими, рикошетируемыми клинкообразными снарядами.",
+	"spell.spellbladenext.frostslash.description": "{damage} урона льдом в секунду. Быстро махайте своим мечом, стреляя отскакивающими, рикошетируемыми клинкообразными снарядами.",
 	"spell.spellbladenext.amethystslash.name": "Аметистовый Всплеск",
-	"spell.spellbladenext.amethystslash.description": "{damage} Таинственная DPS. Быстро махайте своим мечом, стреляя проникающими аметистовыми снарядами.",
+	"spell.spellbladenext.amethystslash.description": "{damage} урона тайной магией в секунду. Быстро махайте своим мечом, стреляя проникающими аметистовыми снарядами.",
 	"spell.spellbladenext.arcaneoverdrive.name": "Таинственный Перегруз",
-	"spell.spellbladenext.arcaneoverdrive.description": "{damage} Таинственного урона в пространстве вокруг вас. Активируется обычно и при ударе.",
+	"spell.spellbladenext.arcaneoverdrive.description": "{damage} урона тайной магией в пространстве вокруг вас. Активируется обычно и при ударе.",
 	"spell.spellbladenext.frostoverdrive.name": "Ледяной Перегруз",
-	"spell.spellbladenext.frostoverdrive.description": "{damage} Ледяного урона в пространстве вокруг вас. Активируется обычно и при ударе.",
+	"spell.spellbladenext.frostoverdrive.description": "{damage} урона льдом в пространстве вокруг вас. Активируется обычно и при ударе.",
 	"spell.spellbladenext.fireoverdrive.name": "Пламенный Перегруз",
-	"spell.spellbladenext.fireoverdrive.description": "{damage} Огненного урона в пространстве вокруг вас. Активируется обычно и при ударе.",
+	"spell.spellbladenext.fireoverdrive.description": "{damage} урона огнем в пространстве вокруг вас. Активируется обычно и при ударе.",
 
 	"spell.spellbladenext.finalstrike.name": "Сверхбыстрый удар",
-	"spell.spellbladenext.finalstrike.description": "Зарядите смертельную атаку против всех врагов на линии напротив вас, телепортируясь за последнего и нанося {damage_1} физического урона плюс дополнительные {damage_2} таинственного магического урона.",
+	"spell.spellbladenext.finalstrike.description": "Зарядите смертельную атаку против всех врагов на линии напротив вас, телепортируясь за последнего и нанося {damage_1} физического урона плюс дополнительные {damage_2} урона тайной магией.",
 	"spell.spellbladenext.frostgrasp.name": "Хватка Зимы",
 	"spell.spellbladenext.frostgrasp.description": "Замораживает целевую область ледяной хваткой, нанося {damage} урона льдом.",
 	"spell.spellbladenext.starfall.name": "Падение Звёзд",
@@ -152,46 +152,46 @@
 	"spell.spellbladenext.inexorable.description": "Пока активно, пассивный эффект 'Стойки Неповиновения' больше не имеет ограничения по количеству стаков.",
 
 	"spell.spellbladenext.eviscerate.name": "Резня",
-	"spell.spellbladenext.eviscerate.description": "Станьте неосязаемыми, атакуя ближайшего врага пять раз в секунду, нанося {damage_1} физического урона и {damage_2} ледяного урона, умноженных на вашу скорость атаки. Если вы убьете врага перед последним ударом, то вы сможете продолжить, атакуя ближайшего врага с дополнительной секундой ударов.",
+	"spell.spellbladenext.eviscerate.description": "Станьте неосязаемыми, атакуя ближайшего врага пять раз в секунду, нанося {damage_1} физического урона и {damage_2} урона льдом, умноженных на вашу скорость атаки. Если вы убьете врага перед последним ударом, то вы сможете продолжить, атакуя ближайшего врага с дополнительной секундой ударов.",
 
 	"spell.spellbladenext.whirlingblades.name": "Разрывной Прилив",
 	"spell.spellbladenext.whirlingblades.description": "Прицельтесь и запустите себя как с зачарованным на разрывное течение трезубцом",
 
 	"spell.spellbladenext.flicker_strike.name": "Мерцающее пламя",
-	"spell.spellbladenext.flicker_strike.description": "Прыгните в ближайших врагов в равной степени, нанося {damage_1} не критического физического урона плюс дополнительные {damage_2} огненного урона, увеличенного на скорость атаки. Фокусируется на одной цели если есть только одна цели.",
+	"spell.spellbladenext.flicker_strike.description": "Прыгните в ближайших врагов в равной степени, нанося {damage_1} не критического физического урона плюс дополнительные {damage_2} урона огнем, увеличенного на скорость атаки. Фокусируется на одной цели если есть только одна цели.",
 
 	"spell.spellbladenext.frostblink.name": "Таинственная Вспышка",
-	"spell.spellbladenext.frostblink.description": "Телепортируйтесь за врага, нанося {damage_1} не критического физического урона плюс дополнительные {damage_2} таинственного урона.",
+	"spell.spellbladenext.frostblink.description": "Телепортируйтесь за врага, нанося {damage_1} не критического физического урона плюс дополнительные {damage_2} урона тайной магией.",
 
 	"spell.spellbladenext.coldbuff.name": "Проклятие Ледяного Короля",
-	"spell.spellbladenext.coldbuff.description": "Если у вас есть Ледяная Сила IV+, разморозьте себя, нанося 150% мороза на ближайших врагов, получая Силу V на 8 секунд.",
+	"spell.spellbladenext.coldbuff.description": "Если у вас есть Ледяная Сила IV+, разморозьте себя, нанося 150% урона льдом ближайшим врагам, получая Силу V на 8 секунд.",
 
 	"spell.spellbladenext.frostbloom0.name": "Ледяной Лотос",
-	"spell.spellbladenext.frostbloom0.description": "Создайте нову вокруг вас, нанося {damage} урона, замораживая ударенных врагов, получая одну стак Ледяной Силы, до 4 раз. Увеличивается в пространстве на каждую Ледяную Силу. Охлаждает вас при использовании.",
+	"spell.spellbladenext.frostbloom0.description": "Создайте взрыв вокруг вас, нанося {damage} урона льдом, замораживая ударенных врагов, получая одну стак Ледяной Силы, до 4 раз. Увеличивается размер за каждую Ледяную Силу. Охлаждает вас при использовании.",
 
 	"spell.spellbladenext.deathchill.name": "Смертельное Оледенение",
 	"spell.spellbladenext.deathchill.description": "Пассивно: Вы охлаждаетесь быстрее и нагреваетесь медленнее. Ваш урон истощает тепло из врагов, нанося охлаждение на них. Активно: Быстро охладите себя, чем дольше вы охлаждаетесь, тем больше у вас Сопротивления, вплость до III уровня.",
 
 	"spell.spellbladenext.frostvert.name": "Удар Дракона",
-	"spell.spellbladenext.frostvert.description": "Совершите огненный удар, сперва запуская себя в воздух если уже в воздухе. Наносит {damage_1} физического урона плюс дополнительные {damage_2} огненного урона по площади. Вы можете безопасно приземлиться во время выполнения этого хода.",
+	"spell.spellbladenext.frostvert.description": "Совершите огненный удар, сперва запуская себя в воздух если уже в воздухе. Наносит {damage_1} физического урона плюс дополнительные {damage_2} урона огнем по площади. Вы можете безопасно приземлиться во время выполнения этого удара.",
 
 	"spell.spellbladenext.smite.name": "Божественная кара",
 	"spell.spellbladenext.smite.description": "Пассивно: Ваши атаки дают вам 'Жар' на 4 секунды, предоставляя 10%% вашего физического урона в качестве Силы Исцеления, максимум до 3 стаков. Активно: Обрушьте кару на врагов перед собой в области, нанося каждому {damage_1} физического и {damage_2} дополнительного урона от исцеления.",
 
 	"spell.spellbladenext.maelstrom.name": "Вихрь",
-	"spell.spellbladenext.maelstrom.description": "Вращайтесь непрерывно, нанося {damage_1} не критического физического урона и {damage_2} таинственного урона в секунду, умноженного на скорость атаки. Штраф за атаку нескольких врагов, смягчающийся Проносящимся Краем. Нажмите Shift чтобы перестать двигаться.",
+	"spell.spellbladenext.maelstrom.description": "Вращайтесь непрерывно, нанося {damage_1} не критического физического урона и {damage_2} урона тайной магией в секунду, умноженного на скорость атаки. Штраф за атаку нескольких врагов, смягчающийся Проносящимся Краем. Нажмите Shift чтобы перестать двигаться.",
 
 	"spell.spellbladenext.inferno.name": "Инферно",
-	"spell.spellbladenext.inferno.description": "Вращайтесь непрерывно, нанося {damage_1} не критического физического урона и {damage_2} огненного урона в секунду, умноженного на скорость атаки. Штраф за атаку нескольких врагов, смягчающийся Проносящимся Краем. Нажмите Shift чтобы перестать двигаться.",
+	"spell.spellbladenext.inferno.description": "Вращайтесь непрерывно, нанося {damage_1} не критического физического урона и {damage_2} урона огнем в секунду, умноженного на скорость атаки. Штраф за атаку нескольких врагов, смягчающийся Проносящимся Краем. Нажмите Shift чтобы перестать двигаться.",
 
 	"spell.spellbladenext.tempest.name": "Буря",
-	"spell.spellbladenext.tempest.description": "Вращайтесь непрерывно, нанося {damage_1} не критического физического урона и {damage_2} ледяного урона в секунду, умноженного на скорость атаки. Штраф за атаку нескольких врагов, смягчающийся Проносящимся Краем. Нажмите Shift чтобы перестать двигаться.",
+	"spell.spellbladenext.tempest.description": "Вращайтесь непрерывно, нанося {damage_1} не критического физического урона и {damage_2} урона льдом в секунду, умноженного на скорость атаки. Штраф за атаку нескольких врагов, смягчающийся Проносящимся Краем. Нажмите Shift чтобы перестать двигаться.",
 
 	"spell.spellbladenext.whirlwind.name": "Смерч",
 	"spell.spellbladenext.whirlwind.description": "Вращайтесь непрерывно, нанося {damage} не критического физического урона в секунду, умноженного на вашу скорость атаки. Штраф за атаку нескольких врагов, смягчающийся Проносящимся Краем. Нажмите Shift чтобы перестать двигаться.",
 
 	"spell.spellbladenext.arcaneflourish.name": "Таинственное Процветание",
-	"spell.spellbladenext.arcaneflourish.description": "Быстро вращайтесь, нанося {damage_1} не критического физического урона, плюс {damage_2} таинственного урона.",
+	"spell.spellbladenext.arcaneflourish.description": "Быстро вращайтесь, нанося {damage_1} не критического физического урона, плюс {damage_2} урона тайной магией.",
 	"spellblades.unidentified":"Неидентифицированный ",
  	"biome.spellbladenext.glassocean": "Зеркальная Грань",
  	"dimension.spellbladenext.glassocean": "Стеклянный Океан",
@@ -199,10 +199,10 @@
 	"travelerstitles.spellbladenext.glassocean": "Стеклянный Океан",
 
 	"spell.spellbladenext.fireflourish.name": "Огненное Процветание",
-	"spell.spellbladenext.fireflourish.description": "Быстро вращайтесь, нанося {damage_1} не критического физического урона, плюс {damage_2}} огненного урона.",
+	"spell.spellbladenext.fireflourish.description": "Быстро вращайтесь, нанося {damage_1} не критического физического урона, плюс {damage_2}} урона огнем.",
 
 	"spell.spellbladenext.frostflourish.name": "Ледяное Процветание",
-	"spell.spellbladenext.frostflourish.description": "Быстро вращайтесь, нанося {damage_1} не критического физического урона, плюс {damage_2} ледяного урона.",
+	"spell.spellbladenext.frostflourish.description": "Быстро вращайтесь, нанося {damage_1} не критического физического урона, плюс {damage_2} урона льдом.",
 	"item.spellbladenext.runegleam_ingot": "Слиток Сверкающей Руны",
 	"item.spellbladenext.runeblaze_ingot": "Слиток Пылающей Руны",
 	"item.spellbladenext.runefrost_ingot": "Слиток Ледяной Руны",
