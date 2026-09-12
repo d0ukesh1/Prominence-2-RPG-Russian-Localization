@@ -1033,6 +1033,7 @@
     "npc.vaaz.guard_dwarf.18.name": "Хампа Длиннорукий",
     "npc.vaaz.guard_dwarf.19.name": "Кланк",
     "npc.vaaz.guard_dwarf.20.name": "Моргран",
+    "npc.vaaz.guard_dwarf.21.name": "Ви",
     "npc.vaaz.extra_serkonid.21.name": "Броккр",
     "npc.vaaz.extra_serkonid.22.name": "Ламп Ярчайший",
     "npc.vaaz.extra_serkonid.23.name": "Просто Хаотичная Джен",
@@ -1100,6 +1101,7 @@
 
     "message.prominent.level.requirement": "У вас недостаточно высокий уровень, чтобы использовать этот предмет. Нужен уровень %d или выше!",
     "message.prominent.level.enemy_too_strong": "Этот враг слишком силён для вас. Его уровень — %d!",
+    "message.prominent.amagul.clone_hit": "Кажется, это иллюзия",
 
     "tooltip.prominent.transmog.appearance": "Внешний вид трансмогрификации",
     "tooltip.prominent.transmog.description": "Иллюзия, предназначенная для применения к другим предметам с помощью магии трансмогрификации.",
